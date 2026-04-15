@@ -168,8 +168,8 @@ h2(pdf, "2. Grados de la escala — La mayor y su paralela La menor")
 body(pdf,
      "Abajo, los siete grados de la escala de La mayor con su acorde "
      "diatónico, y debajo los grados de su paralela, La menor natural. "
-     "Los acordes del menor paralelo son la fuente de los «préstamos "
-     "modales» que usa el tema (bVI = F, bVII = G).")
+     "El acorde del menor paralelo que usa el tema como préstamo "
+     "modal es bVII = G.")
 
 # Cabecera común: I - II - III - IV - V - VI - VII
 col_widths = [28, 22, 22, 22, 22, 22, 22, 22]  # primera col = etiqueta
@@ -206,8 +206,8 @@ table(pdf, headers_min, rows_min, col_widths,
 
 body(pdf,
      "T = tónica · SD = subdominante · D = dominante. "
-     "Los acordes de La menor que aparecen en «Isabel» son F (bVI) y "
-     "G (bVII): ambos son préstamos modales del paralelo menor.")
+     "El acorde de La menor que aparece en «Isabel» es G (bVII): "
+     "préstamo modal del paralelo menor / mixolidio.")
 
 # ---------- ACORDES USADOS EN EL TEMA ----------
 pdf.add_page()
@@ -225,9 +225,8 @@ rows_f = [
     ["F#m7",  "vi7",
      "Relativa menor. Función de tónica «triste»."],
     ["G",     "bVII",
-     "Préstamo del menor paralelo / mixolidio. Sonido rockero-modal."],
-    ["F",     "bVI",
-     "Préstamo del menor paralelo. Acorde de gran dramatismo."],
+     "Préstamo del menor paralelo / mixolidio. Sonido rockero-modal. "
+     "Es el acorde más característico del tema junto al F#."],
     ["E",     "V",
      "Dominante principal. Resuelve a A (I)."],
 ]
@@ -250,9 +249,10 @@ rows_s = [
      "ii7 — vi7. Resolución del F# al Bm y deslizamiento cromático "
      "al F#m. Flota lejos de la tónica."],
     ["4", "Giro / cadencia",
-     "F — E — A",
-     "bVI — V — I. Cadencia «frigio-mayor». El F (bVI) es préstamo "
-     "del menor paralelo."],
+     "G — E — A",
+     "bVII — V — I. Cadencia rockera clásica: el bVII (préstamo "
+     "modal) baja al V y resuelve a la tónica. Mezcla sonoridad "
+     "modal (mixolidia) con cadencia auténtica."],
     ["5", "Solo",
      "Verso + estribillo",
      "Pentatónica/blues de La con guiños al mixolidio sobre el G."],
@@ -266,30 +266,31 @@ table_wrap(pdf, headers_s, rows_s, [10, 36, 40, 90], header_fill=NAVY)
 h2(pdf, "5. Recursos armónicos clave")
 bullet(pdf, "Dominante secundaria V/ii (F# → Bm): motor armónico "
            "del verso; aporta «mordida» y evita el diatonismo puro.")
-bullet(pdf, "Préstamos del menor paralelo: G (bVII) y F (bVI), "
-           "tomados de La menor / mixolidio. Sello del rock stone.")
-bullet(pdf, "Cadencia bVI — V — I (F — E — A): movimiento "
-           "cromático descendente en el bajo (F → E → A). Muy "
-           "cinematográfico.")
+bullet(pdf, "Préstamo del menor paralelo: G (bVII), tomado de "
+           "La menor / mixolidio. Sello del rock stone.")
+bullet(pdf, "Cadencia bVII — V — I (G — E — A): híbrido entre "
+           "cadencia modal mixolidia (bVII → I) y cadencia "
+           "auténtica (V → I). Muy usada en rock clásico.")
 bullet(pdf, "Séptimas en el estribillo (Bm7, F#m7): enriquecen "
            "el color y hacen más cantábile la sección.")
 bullet(pdf, "Power chord A5 en el riff: sin tercera, para que la "
            "melodía vocal y los acordes de relleno definan el "
            "carácter mayor/menor.")
 bullet(pdf, "Modal mixture: conviven el diatonismo de La mayor "
-           "(I-ii-IV-V-vi) con préstamos del paralelo menor "
-           "(bVI, bVII). Esta mezcla es la identidad armónica del tema.")
+           "(I-ii-IV-V-vi) con el préstamo del paralelo menor "
+           "(bVII). Esta mezcla es parte de la identidad armónica "
+           "del tema.")
 
 # ---------- CONCLUSIÓN ----------
 h2(pdf, "6. Conclusión")
 body(pdf,
      "«Isabel» es un ejemplo de libro del rock stone/argentino: "
      "tonalidad mayor clara (La), pero coloreada con una dominante "
-     "secundaria (F# → Bm) y dos préstamos modales (F y G). Esa "
-     "combinación —diatonismo mayor + modal mixture + V/ii— es "
-     "lo que le da ese carácter «dulce y amargo» a la vez, tan "
-     "ligado a la estética de los Rolling Stones que Juanse "
-     "lleva como bandera.")
+     "secundaria (F# → Bm) y un préstamo modal (G, bVII). Esa "
+     "combinación —diatonismo mayor + modal mixture + V/ii + "
+     "cadencia bVII-V-I— es lo que le da ese carácter «dulce y "
+     "amargo» a la vez, tan ligado a la estética de los Rolling "
+     "Stones que Juanse lleva como bandera.")
 
 # ---------- FUENTES ----------
 pdf.ln(2)
