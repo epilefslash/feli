@@ -67,6 +67,38 @@ def bullet(pdf, text):
     pdf.multi_cell(0, 5.5, text, new_x="LMARGIN", new_y="NEXT")
 
 
+def info_box(pdf, title, body_text, accent=(150, 30, 30)):
+    # calcular altura del cuerpo
+    pdf.set_font("DejaVu", "", 10)
+    left_pad = 4
+    usable_w = pdf.w - pdf.l_margin - pdf.r_margin - 2 * left_pad
+    lines = pdf.multi_cell(usable_w, 5.2, body_text,
+                          dry_run=True, output="LINES")
+    body_h = len(lines) * 5.2
+    total_h = 8 + body_h + 4  # título + cuerpo + padding
+    x0 = pdf.l_margin
+    y0 = pdf.get_y()
+    # fondo
+    pdf.set_fill_color(250, 247, 240)
+    pdf.rect(x0, y0, pdf.w - pdf.l_margin - pdf.r_margin, total_h,
+            style="F")
+    # barra lateral
+    pdf.set_fill_color(*accent)
+    pdf.rect(x0, y0, 2, total_h, style="F")
+    # título
+    pdf.set_xy(x0 + left_pad, y0 + 2)
+    pdf.set_font("DejaVu", "B", 11)
+    pdf.set_text_color(*accent)
+    pdf.cell(0, 6, title, new_x="LMARGIN", new_y="NEXT")
+    # cuerpo
+    pdf.set_x(x0 + left_pad)
+    pdf.set_font("DejaVu", "", 10)
+    pdf.set_text_color(30, 30, 30)
+    pdf.multi_cell(usable_w, 5.2, body_text,
+                  new_x="LMARGIN", new_y="NEXT")
+    pdf.set_y(y0 + total_h + 3)
+
+
 def table(pdf, headers, rows, col_widths, header_fill=NAVY, zebra=LIGHT):
     pdf.set_font("DejaVu", "B", 10)
     pdf.set_fill_color(*header_fill)
@@ -270,7 +302,10 @@ bullet(pdf, "Préstamo del menor paralelo: G (bVII), tomado de "
            "La menor / mixolidio. Sello del rock stone.")
 bullet(pdf, "Cadencia bVII — V — I (G — E — A): híbrido entre "
            "cadencia modal mixolidia (bVII → I) y cadencia "
-           "auténtica (V → I). Muy usada en rock clásico.")
+           "auténtica (V → I). Muy usada en rock clásico — "
+           "aparece, por ejemplo, en «Hey Joe» (Jimi Hendrix), "
+           "«With A Little Help From My Friends» (The Beatles) "
+           "y «Sympathy for the Devil» (Rolling Stones).")
 bullet(pdf, "Séptimas en el estribillo (Bm7, F#m7): enriquecen "
            "el color y hacen más cantábile la sección.")
 bullet(pdf, "Power chord A5 en el riff: sin tercera, para que la "
@@ -281,8 +316,33 @@ bullet(pdf, "Modal mixture: conviven el diatonismo de La mayor "
            "(bVII). Esta mezcla es parte de la identidad armónica "
            "del tema.")
 
+# ---------- GLOSARIO ----------
+h2(pdf, "6. Glosario armónico")
+body(pdf,
+     "Dos conceptos que aparecen a lo largo del análisis, explicados "
+     "brevemente:")
+
+info_box(pdf, "Diatónico",
+     "Un acorde o nota es «diatónico» cuando pertenece a la escala de "
+     "la tonalidad. En La mayor, los siete acordes diatónicos son "
+     "A, Bm, C#m, D, E, F#m y G#°. Todo lo que suene fuera de ese "
+     "conjunto es «no diatónico» o cromático. En «Isabel» los acordes "
+     "diatónicos son A, Bm7, F#m7 y E; los no diatónicos son F# "
+     "(con A# ajena al tono) y G (con G natural ajena al tono).",
+     accent=NAVY)
+
+info_box(pdf, "Dominante secundaria",
+     "Un «dominante secundario» es un acorde mayor con séptima "
+     "(V7) que no resuelve al I del tono, sino a otro grado de la "
+     "escala. Se lo nota V/ii, V/iii, V/IV, V/V, V/vi. Su función es "
+     "crear tensión-resolución hacia un grado secundario, enriqueciendo "
+     "la armonía sin cambiar de tonalidad. En «Isabel», el F# mayor "
+     "funciona como V/ii: es el dominante de Bm (ii), que es su "
+     "destino natural en el estribillo.",
+     accent=ACCENT)
+
 # ---------- CONCLUSIÓN ----------
-h2(pdf, "6. Conclusión")
+h2(pdf, "7. Conclusión")
 body(pdf,
      "«Isabel» es un ejemplo de libro del rock stone/argentino: "
      "tonalidad mayor clara (La), pero coloreada con una dominante "
