@@ -3,6 +3,14 @@ import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
+function extractText(content: Anthropic.Message["content"]): string {
+  const block = content.find((b) => b.type === "text");
+  if (!block || block.type !== "text" || !block.text.trim()) {
+    throw new Error("Empty or missing text in API response");
+  }
+  return block.text;
+}
+
 async function mejorarCV(cv: string, puesto: string, idioma: string, estilo: string) {
   const msg = await client.messages.create({
     model: "claude-haiku-4-5-20251001",
@@ -28,7 +36,7 @@ ${cv}
 Respondé SOLO con el CV mejorado, sin explicaciones adicionales.`
     }]
   });
-  return (msg.content[0] as { text: string }).text;
+  return extractText(msg.content);
 }
 
 async function generarCoverLetter(cv: string, puesto: string, idioma: string) {
@@ -52,7 +60,7 @@ La carta debe:
 Respondé SOLO con la cover letter.`
     }]
   });
-  return (msg.content[0] as { text: string }).text;
+  return extractText(msg.content);
 }
 
 async function generarTips(cv: string, puesto: string, idioma: string) {
@@ -74,23 +82,27 @@ Los tips deben ser:
 Formato: lista numerada. Solo los 5 tips, sin introducción.`
     }]
   });
-  return (msg.content[0] as { text: string }).text;
+  return extractText(msg.content);
 }
 
 export async function POST(req: NextRequest) {
   try {
     const { cv, puesto, idioma } = await req.json();
 
-    if (!cv || !puesto || !idioma) {
+    if (!cv?.trim() || !puesto?.trim() || !idioma?.trim()) {
       return NextResponse.json({ error: "Faltan datos" }, { status: 400 });
     }
 
+    const cvTrimmed = cv.trim();
+    const puestoTrimmed = puesto.trim();
+    const idiomaTrimmed = idioma.trim();
+
     const [cvFormal, cvCreativo, cvEjecutivo, coverLetter, tips] = await Promise.all([
-      mejorarCV(cv, puesto, idioma, "formal"),
-      mejorarCV(cv, puesto, idioma, "creativo"),
-      mejorarCV(cv, puesto, idioma, "ejecutivo"),
-      generarCoverLetter(cv, puesto, idioma),
-      generarTips(cv, puesto, idioma),
+      mejorarCV(cvTrimmed, puestoTrimmed, idiomaTrimmed, "formal"),
+      mejorarCV(cvTrimmed, puestoTrimmed, idiomaTrimmed, "creativo"),
+      mejorarCV(cvTrimmed, puestoTrimmed, idiomaTrimmed, "ejecutivo"),
+      generarCoverLetter(cvTrimmed, puestoTrimmed, idiomaTrimmed),
+      generarTips(cvTrimmed, puestoTrimmed, idiomaTrimmed),
     ]);
 
     return NextResponse.json({ cvFormal, cvCreativo, cvEjecutivo, coverLetter, tips });
