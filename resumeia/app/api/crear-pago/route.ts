@@ -29,6 +29,7 @@ export async function POST(req: NextRequest) {
         pending: `${appUrl}/mejorar?error=pago_pendiente`,
       },
       auto_return: "approved",
+      locale: "es-AR",
     };
 
     const response = await fetch("https://api.mercadopago.com/checkout/preferences", {
