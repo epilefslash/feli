@@ -1,0 +1,6 @@
+[submodule "awesome-llm-apps"]
+	path = awesome-llm-apps
+	url = https://github.com/Shubhamsaboo/awesome-llm-apps
+[submodule "ruflo"]
+	path = ruflo
+	url = https://github.com/ruvnet/ruflo
