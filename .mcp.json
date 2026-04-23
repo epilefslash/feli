@@ -2,7 +2,7 @@
   "mcpServers": {
     "apify": {
       "type": "sse",
-      "url": "https://mcp.apify.com/sse?token=YOUR_APIFY_API_TOKEN"
+      "url": "https://mcp.apify.com/actors/compass~crawler-google-places/sse?token=YOUR_APIFY_API_TOKEN"
     }
   }
 }
