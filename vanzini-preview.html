@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanzini Propiedades — Rosario</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+:root { --navy:#0d1b3e; --gold:#c9973a; }
+html { scroll-behavior:smooth; }
+body { font-family:system-ui,sans-serif; }
+</style>
+</head>
+<body class="bg-white text-gray-800">
+<!-- NAVBAR -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-5" style="background:transparent">
+  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <span id="logo-text" class="text-2xl font-bold tracking-tight text-white">VANZINI</span>
+      <span class="text-xs font-medium tracking-widest uppercase mt-1" style="color:#c9973a">Propiedades</span>
+    </a>
+    <div class="hidden md:flex items-center gap-8">
+      <a href="#propiedades" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Propiedades</a>
+      <a href="#barrios" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Barrios</a>
+      <a href="#calculadora" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Calculadora</a>
+      <a href="#nosotros" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Nosotros</a>
+      <a href="#contacto" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Contacto</a>
+      <a href="#contacto" class="ml-2 px-5 py-2 rounded text-sm font-semibold text-white transition-colors" style="background:#c9973a">Consultar ahora</a>
+    </div>
+  </div>
+</nav>
+<script>
+window.addEventListener('scroll', function(){
+  var nb = document.getElementById('navbar');
+  var lt = document.getElementById('logo-text');
+  var links = document.querySelectorAll('.nav-link');
+  if(window.scrollY > 40){
+    nb.style.background='white'; nb.style.boxShadow='0 2px 12px rgba(0,0,0,0.1)'; nb.style.paddingTop='12px'; nb.style.paddingBottom='12px';
+    lt.style.color='#0d1b3e';
+    links.forEach(function(l){l.style.color='#0d1b3e';});
+  } else {
+    nb.style.background='transparent'; nb.style.boxShadow='none'; nb.style.paddingTop='20px'; nb.style.paddingBottom='20px';
+    lt.style.color='white';
+    links.forEach(function(l){l.style.color='white';});
+  }
+});
+</script>
+<!-- HERO -->
+<section class="relative min-h-screen flex flex-col items-center justify-center" style="background:linear-gradient(135deg,#0d1b3e 0%,#1a2d5a 50%,#0d1b3e 100%)">
+  <div class="relative z-10 text-center px-6 max-w-5xl mx-auto pt-24 pb-16 w-full">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-8" style="background:rgba(201,151,58,0.2);color:#c9973a;border:1px solid rgba(201,151,58,0.4)">
+      <span class="w-2 h-2 rounded-full animate-pulse inline-block" style="background:#c9973a"></span>
+      Más de 60 años en el mercado rosarino
+    </div>
+    <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
+      Tu próxima<br><span style="color:#c9973a">propiedad ideal</span><br>te espera
+    </h1>
+    <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-12 leading-relaxed">
+      Más de 3.000 propiedades en Rosario. Asesoramiento personalizado, gestión 100% digital y respuesta en menos de 48 horas.
+    </p>
+    <!-- Search box -->
+    <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-3xl mx-auto">
+      <div class="flex gap-1 mb-6 bg-gray-100 p-1 rounded-lg">
+        <button onclick="setOp(this,'Venta')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold" style="background:#0d1b3e;color:white">Venta</button>
+        <button onclick="setOp(this,'Alquiler')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold text-gray-500">Alquiler</button>
+        <button onclick="setOp(this,'Temporario')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold text-gray-500">Temporario</button>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+        <div>
+          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Tipo</label>
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700 focus:outline-none focus:ring-2" style="--tw-ring-color:#c9973a">
+            <option>Departamento</option><option>Casa</option><option>Local</option><option>Terreno</option><option>Cochera</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Barrio</label>
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700">
+            <option>Todos</option><option>Centro</option><option>Pichincha</option><option>Fisherton</option><option>Alberdi</option><option>Echesortu</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Precio máximo</label>
+          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700">
+            <option>Sin límite</option><option>USD 50.000</option><option>USD 100.000</option><option>USD 150.000</option><option>USD 200.000</option>
+          </select>
+        </div>
+      </div>
+      <button class="w-full py-3.5 rounded-xl text-white font-bold text-base" style="background:#c9973a">Buscar propiedades</button>
+    </div>
+    <!-- Stats -->
+    <div class="flex flex-wrap justify-center gap-8 mt-12">
+      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">60+</div><div class="text-sm text-blue-200 mt-1">Años de trayectoria</div></div>
+      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">3.000+</div><div class="text-sm text-blue-200 mt-1">Propiedades activas</div></div>
+      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">8.000+</div><div class="text-sm text-blue-200 mt-1">Familias asesoradas</div></div>
+      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">48hs</div><div class="text-sm text-blue-200 mt-1">Tiempo de respuesta</div></div>
+    </div>
+  </div>
+</section>
+<script>
+function setOp(btn,op){
+  document.querySelectorAll('.op-btn').forEach(function(b){b.style.background='';b.style.color='#6b7280';});
+  btn.style.background='#0d1b3e'; btn.style.color='white';
+}
+</script>
+<!-- PROPIEDADES -->
+<section id="propiedades" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-4">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Portafolio activo</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight" style="color:#0d1b3e">Propiedades<br>destacadas</h2>
+        <div class="mt-4 w-16 h-1 rounded-full" style="background:#c9973a"></div>
+      </div>
+      <a href="#contacto" class="text-sm font-semibold flex items-center gap-1" style="color:#0d1b3e">Ver todas las propiedades →</a>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-blue-50">🏢
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#c9973a">Destacado</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Pichincha</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">Luminoso departamento a estrenar, balcón corrido, cocina integrada.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+            <span>🛏 2 amb.</span><span>📐 65 m²</span>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">USD 85.000</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-green-50">🏡
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#0d1b3e">Exclusivo</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Casa · Fisherton</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">Casa con jardín, pileta y cochera doble en barrio cerrado premium.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+            <span>🛏 4 amb.</span><span>📐 180 m²</span>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">USD 220.000</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-gray-50">🏙️
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#16a34a">Nuevo</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Alquiler</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Centro</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">Monoambiente moderno con amenities, ideal para profesionales.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
+            <span>🛏 1 amb.</span><span>📐 38 m²</span>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">$ 420.000/mes</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-purple-50">🏪
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#7c3aed">Comercial</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Alquiler</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Local · Echesortu</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">Local a la calle con depósito, sobre avenida comercial de alto tráfico.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>📐 90 m²</span></div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">$ 850.000/mes</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-yellow-50">🌿
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#c9973a">Inversión</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Terreno · Norte</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">Terreno en esquina en zona de rápido desarrollo. Apto multifamiliar.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>📐 600 m²</span></div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">USD 95.000</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
+        <div class="relative h-52 flex items-center justify-center text-6xl bg-red-50">🏢
+          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#dc2626">Oportunidad</span>
+          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+        </div>
+        <div class="p-5">
+          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Alberdi</div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">3 dormitorios, 2 baños, parrilla. Edificio con seguridad 24hs.</p>
+          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>🛏 3 amb.</span><span>📐 95 m²</span></div>
+          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
+            <span class="text-xl font-bold" style="color:#0d1b3e">USD 130.000</span>
+            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- BARRIOS -->
+<section id="barrios" class="py-24" style="background:#f8f4ee">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Guía de zonas</p>
+      <h2 class="text-4xl md:text-5xl font-bold" style="color:#0d1b3e">Conocé los barrios<br>de Rosario</h2>
+      <p class="text-gray-600 mt-4 max-w-xl mx-auto">Cada zona tiene su carácter. Te ayudamos a elegir la que más se adapta a tu estilo de vida o estrategia de inversión.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🏙️</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 95.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Centro</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">El corazón comercial y cultural de Rosario. Alta demanda de alquileres para profesionales.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Alta demanda</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Comercial</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Conectado</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">312 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🎨</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 78.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Pichincha</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio con identidad propia, arquitectura distintiva y vida nocturna. Ideal para inversión.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tendencia</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Inversión</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Bohemio</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">186 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🌳</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 185.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Fisherton</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">El barrio residencial más exclusivo. Casas con jardín, colegios top y aire tranquilo.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Premium</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Familias</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tranquilo</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">143 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🚌</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 68.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Alberdi</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio con fuerte actividad comercial y excelente conectividad al transporte público.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Accesible</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Comercial</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">224 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🌿</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 72.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Echesortu</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio familiar consolidado con plazas, escuelas y oferta de departamentos modernos.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Familiar</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tranquilo</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">168 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
+        <div class="flex items-start justify-between mb-4"><span class="text-4xl">📈</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 55.000</div></div></div>
+        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Norte</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">Zona de rápida expansión con terrenos y desarrollos nuevos de alto retorno a futuro.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Crecimiento</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Potencial</span></div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">97 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- CALCULADORA -->
+<section id="calculadora" class="py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Herramienta gratuita</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6" style="color:#0d1b3e">Calculá tu<br>cuota hipotecaria</h2>
+        <p class="text-gray-500 leading-relaxed mb-8">Estimá cuánto pagarías por mes. Nuestros asesores te acompañan en cada paso del proceso.</p>
+        <div class="flex flex-col gap-3">
+          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Asesoramiento sin costo en primera consulta</span></div>
+          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Gestión de créditos con todos los bancos</span></div>
+          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Proceso 100% digital y transparente</span></div>
+        </div>
+      </div>
+      <div class="rounded-2xl p-8" style="background:#0d1b3e">
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Precio de la propiedad</label><span id="lbl-precio" class="text-white font-bold">USD 100.000</span></div>
+            <input type="range" id="sl-precio" min="30000" max="500000" step="5000" value="100000" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
+            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>USD 30k</span><span>USD 500k</span></div>
+          </div>
+          <div>
+            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Entrada</label><span id="lbl-entrada" class="text-white font-bold">30%</span></div>
+            <input type="range" id="sl-entrada" min="10" max="80" step="5" value="30" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
+            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>10%</span><span>80%</span></div>
+          </div>
+          <div>
+            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Plazo</label><span id="lbl-plazo" class="text-white font-bold">120 meses</span></div>
+            <input type="range" id="sl-plazo" min="12" max="360" step="12" value="120" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
+            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>1 año</span><span>30 años</span></div>
+          </div>
+          <div>
+            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Tasa anual (TNA)</label><span id="lbl-tasa" class="text-white font-bold">8%</span></div>
+            <input type="range" id="sl-tasa" min="1" max="25" step="0.5" value="8" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
+            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>1%</span><span>25%</span></div>
+          </div>
+          <div class="rounded-xl p-5" style="background:rgba(201,151,58,0.15);border:1px solid rgba(201,151,58,0.3)">
+            <div class="text-center mb-4"><div class="text-sm text-blue-200 mb-1">Cuota mensual estimada</div><div id="res-cuota" class="text-4xl font-bold" style="color:#c9973a">USD 1.213</div></div>
+            <div class="grid grid-cols-2 gap-3 text-center text-sm">
+              <div><div class="text-blue-300 text-xs">Monto a financiar</div><div id="res-financiar" class="text-white font-semibold">USD 70.000</div></div>
+              <div><div class="text-blue-300 text-xs">Total a pagar</div><div id="res-total" class="text-white font-semibold">USD 145.560</div></div>
+            </div>
+          </div>
+          <a href="#contacto" class="block w-full text-center py-3.5 rounded-xl font-bold text-white" style="background:#c9973a">Hablar con un asesor</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+function fmt(n){return'USD '+Math.round(n).toLocaleString('es-AR');}
+function calcHipo(){
+  var precio=+document.getElementById('sl-precio').value;
+  var ent=+document.getElementById('sl-entrada').value;
+  var plazo=+document.getElementById('sl-plazo').value;
+  var tasa=+document.getElementById('sl-tasa').value;
+  document.getElementById('lbl-precio').textContent=fmt(precio);
+  document.getElementById('lbl-entrada').textContent=ent+'% ('+fmt(precio*ent/100)+')';
+  document.getElementById('lbl-plazo').textContent=plazo+' meses ('+plazo/12+' años)';
+  document.getElementById('lbl-tasa').textContent=tasa+'%';
+  var fin=precio*(1-ent/100);
+  var tm=tasa/100/12;
+  var cuota=tm===0?fin/plazo:(fin*tm*Math.pow(1+tm,plazo))/(Math.pow(1+tm,plazo)-1);
+  var total=cuota*plazo;
+  document.getElementById('res-cuota').textContent=fmt(cuota);
+  document.getElementById('res-financiar').textContent=fmt(fin);
+  document.getElementById('res-total').textContent=fmt(total);
+}
+calcHipo();
+</script>
+<!-- EQUIPO -->
+<section id="nosotros" class="py-24" style="background:#f8f4ee">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Nuestro equipo</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight" style="color:#0d1b3e">Personas reales.<br>Resultados reales.</h2>
+        <div class="mt-4 w-16 h-1 rounded-full" style="background:#c9973a"></div>
+      </div>
+      <p class="text-gray-600 leading-relaxed text-lg">En inmobiliaria no comprás metros cuadrados — comprás confianza. Por eso cada asesor de Vanzini se especializa en una zona y tipo de propiedad.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
+        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#0d1b3e">AV</div>
+        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Alejandro Vanzini</h3>
+        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Director &amp; Fundador</p>
+        <p class="text-gray-500 text-xs leading-relaxed mb-4">Inversiones y operaciones premium</p>
+        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 35+ años</div>
+        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
+        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#c9973a">VR</div>
+        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Valentina Rossi</h3>
+        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Asesora Senior</p>
+        <p class="text-gray-500 text-xs leading-relaxed mb-4">Departamentos — Centro y Pichincha</p>
+        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 12 años</div>
+        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
+        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#1a2d5a">MG</div>
+        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Martín Gómez</h3>
+        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Asesor Comercial</p>
+        <p class="text-gray-500 text-xs leading-relaxed mb-4">Residencial — Fisherton y Norte</p>
+        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 8 años</div>
+        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
+        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#7c5c2a">CM</div>
+        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Carla Mendez</h3>
+        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Gestora de Alquileres</p>
+        <p class="text-gray-500 text-xs leading-relaxed mb-4">Contratos, indexación y administración</p>
+        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 10 años</div>
+        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- TESTIMONIOS -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Lo que dicen nuestros clientes</p>
+      <h2 class="text-4xl md:text-5xl font-bold" style="color:#0d1b3e">8.000 familias no pueden<br>equivocarse</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
+        <div class="flex gap-1 mb-4">★★★★★</div>
+        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Encontré el departamento que buscaba en menos de dos semanas. Valentina me acompañó en cada paso, desde la visita hasta la escritura."</p>
+        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">GT</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Gabriela Torres</div><div class="text-xs text-gray-400">Compradora — Depto. en Pichincha</div></div></div>
+      </div>
+      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
+        <div class="flex gap-1 mb-4">★★★★★</div>
+        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Opero con Vanzini desde hace 8 años. Siempre me dan información de mercado real antes de comprar. La rentabilidad habla por sí sola."</p>
+        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">RK</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Rodrigo Keller</div><div class="text-xs text-gray-400">Inversor — Terrenos en Fisherton</div></div></div>
+      </div>
+      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
+        <div class="flex gap-1 mb-4">★★★★★</div>
+        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Carla me consiguió un inquilino en 10 días y se encarga de todo: contratos, indexación y mantenimiento. Nunca estuvieron tan bien administradas."</p>
+        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">LF</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Laura Fernández</div><div class="text-xs text-gray-400">Propietaria — Local comercial</div></div></div>
+      </div>
+      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
+        <div class="flex gap-1 mb-4">★★★★★</div>
+        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Asesoramiento impecable para el crédito. Martín nos consiguió una tasa que el banco no nos había ofrecido directamente."</p>
+        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">TE</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Tomás Echevarría</div><div class="text-xs text-gray-400">Comprador — Casa en Fisherton</div></div></div>
+      </div>
+    </div>
+    <!-- Google rating -->
+    <div class="rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 text-white" style="background:#0d1b3e">
+      <div class="text-center md:text-left">
+        <div class="text-6xl font-bold" style="color:#c9973a">4.8</div>
+        <div class="text-2xl mt-1">★★★★★</div>
+        <div class="text-blue-300 text-sm mt-1">Basado en +420 reseñas en Google</div>
+      </div>
+      <div class="flex-1 w-full max-w-md">
+        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">5 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:82%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">82%</span></div>
+        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">4 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:11%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">11%</span></div>
+        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">3 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:4%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">4%</span></div>
+        <div class="flex items-center gap-3"><span class="text-xs text-blue-200 w-20">2 o menos</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:3%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">3%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ALERTAS -->
+<section class="py-24 relative overflow-hidden" style="background:linear-gradient(135deg,#0d1b3e 0%,#1a2d5a 100%)">
+  <div class="relative max-w-3xl mx-auto px-6 text-center">
+    <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Servicio gratuito</p>
+    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Alertas de propiedades</h2>
+    <p class="text-blue-200 text-lg mb-10">Configurá tu búsqueda y te avisamos al instante cuando aparezca una propiedad que se ajuste a tus criterios.</p>
+    <div id="alerta-form" class="bg-white rounded-2xl p-8 shadow-2xl text-left">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Tipo de propiedad</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Departamento</option><option>Casa</option><option>Local</option><option>Terreno</option></select></div>
+        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Barrio</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Cualquier barrio</option><option>Centro</option><option>Pichincha</option><option>Fisherton</option><option>Alberdi</option></select></div>
+        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Precio máximo</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Sin límite</option><option>USD 50.000</option><option>USD 100.000</option><option>USD 150.000</option><option>USD 200.000</option></select></div>
+        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Operación</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Venta</option><option>Alquiler</option><option>Cualquiera</option></select></div>
+      </div>
+      <div class="mb-5"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Tu email</label><input type="email" placeholder="tu@email.com" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"></div>
+      <button onclick="document.getElementById('alerta-form').innerHTML='<div class=text-center py-8><div class=text-5xl mb-4>✅</div><h3 class=text-2xl font-bold mb-2 style=color:#0d1b3e>¡Alerta configurada!</h3><p class=text-gray-500>Te avisamos cuando encontremos propiedades que coincidan.</p></div>'" class="w-full py-4 rounded-xl text-white font-bold text-base" style="background:#c9973a">Crear alerta gratuita</button>
+      <p class="text-center text-xs text-gray-400 mt-3">Sin spam. Podés cancelar en cualquier momento.</p>
+    </div>
+  </div>
+</section>
+<!-- CONTACTO -->
+<section id="contacto" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Hablemos</p>
+        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6" style="color:#0d1b3e">¿Listo para encontrar<br>tu propiedad?</h2>
+        <p class="text-gray-500 leading-relaxed mb-10">Completá el formulario y un asesor especializado te contactará en menos de 48 horas. Primera consulta sin costo ni compromiso.</p>
+        <div class="space-y-6">
+          <div class="flex items-start gap-4"><span class="text-2xl">📍</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Dirección</div><div class="text-gray-700 font-medium">Córdoba 1234, Rosario, Santa Fe</div></div></div>
+          <div class="flex items-start gap-4"><span class="text-2xl">📞</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Teléfono</div><div class="text-gray-700 font-medium">+54 341 XXX-XXXX</div></div></div>
+          <div class="flex items-start gap-4"><span class="text-2xl">📧</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Email</div><div class="text-gray-700 font-medium">consultas@vanzini.com.ar</div></div></div>
+          <div class="flex items-start gap-4"><span class="text-2xl">🕐</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Horarios</div><div class="text-gray-700 font-medium">Lun–Vie 9:00–18:00 | Sáb 9:00–13:00</div></div></div>
+        </div>
+      </div>
+      <div>
+        <div id="contacto-form" class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
+          <div class="mb-5">
+            <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Me interesa...</label>
+            <div class="flex gap-2" id="interes-btns">
+              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-white" style="background:#0d1b3e">Comprar</button>
+              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Alquilar</button>
+              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Invertir</button>
+              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Vender</button>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Nombre *</label><input type="text" placeholder="Tu nombre" class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
+            <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Teléfono</label><input type="tel" placeholder="+54 341..." class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
+          </div>
+          <div class="mb-4"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Email *</label><input type="email" placeholder="tu@email.com" class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
+          <div class="mb-6"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Contanos qué buscás</label><textarea rows="4" placeholder="Ej: Busco un departamento de 2 ambientes en Pichincha, hasta USD 90.000..." class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700 resize-none"></textarea></div>
+          <button onclick="document.getElementById('contacto-form').innerHTML='<div class=text-center py-16><div class=text-6xl mb-4>🎉</div><h3 class=text-2xl font-bold mb-2 style=color:#0d1b3e>¡Mensaje enviado!</h3><p class=text-gray-500>Un asesor de Vanzini se comunicará con vos en las próximas 48 horas.</p></div>'" class="w-full py-4 rounded-xl text-white font-bold text-base" style="background:#c9973a">Enviar consulta →</button>
+          <p class="text-center text-xs text-gray-400 mt-3">Respuesta garantizada en menos de 48 horas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+function selectInt(btn){
+  document.querySelectorAll('.int-btn').forEach(function(b){b.style.background='white';b.style.color='#6b7280';b.style.border='1px solid #e5e7eb';});
+  btn.style.background='#0d1b3e'; btn.style.color='white'; btn.style.border='none';
+}
+</script>
+<!-- FOOTER -->
+<footer style="background:#0d1b3e">
+  <div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+      <div>
+        <div class="mb-4"><span class="text-2xl font-bold text-white">VANZINI</span><span class="block text-xs font-medium tracking-widest uppercase mt-0.5" style="color:#c9973a">Propiedades</span></div>
+        <p class="text-blue-300 text-sm leading-relaxed">Más de 60 años conectando personas con propiedades en Rosario. Confianza, trayectoria y resultados.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Propiedades</h4>
+        <ul class="space-y-3">
+          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Departamentos en venta</a></li>
+          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Casas en venta</a></li>
+          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Locales comerciales</a></li>
+          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Terrenos</a></li>
+          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Alquileres</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Barrios</h4>
+        <ul class="space-y-3">
+          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Centro</a></li>
+          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Pichincha</a></li>
+          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Fisherton</a></li>
+          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Alberdi</a></li>
+          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Echesortu</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Contacto</h4>
+        <ul class="space-y-4 text-sm">
+          <li class="flex items-start gap-3 text-blue-300"><span>📍</span><span>Córdoba 1234, Rosario</span></li>
+          <li class="flex items-start gap-3 text-blue-300"><span>📞</span><span>+54 341 XXX-XXXX</span></li>
+          <li class="flex items-start gap-3 text-blue-300"><span>📧</span><span>consultas@vanzini.com.ar</span></li>
+          <li class="flex items-start gap-3 text-blue-300"><span>🕐</span><div><div>Lun–Vie 9:00–18:00</div><div>Sáb 9:00–13:00</div></div></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4" style="border-color:rgba(255,255,255,0.1)">
+      <p class="text-blue-400 text-xs">© 2025 Vanzini Propiedades. Todos los derechos reservados.</p>
+      <p class="text-blue-400 text-xs">Matrícula CPCR Nº 0000 — Rosario, Argentina</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
