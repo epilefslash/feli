@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "apify": {
+      "type": "sse",
+      "url": "https://mcp.apify.com/sse?token=YOUR_APIFY_API_TOKEN"
+    }
+  }
+}
