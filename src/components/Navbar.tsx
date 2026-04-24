@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Banda", href: "#banda" },
   { label: "Videos", href: "#videos" },
   { label: "Contacto", href: "#contacto" },
+  { label: "🎮 Juego", href: "/game" },
 ];
 
 export default function Navbar() {
