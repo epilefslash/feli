@@ -3,320 +3,534 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vanzini Propiedades — Rosario</title>
+<title>Vanzini Propiedades | Rosario</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
-:root { --navy:#0d1b3e; --gold:#c9973a; }
-html { scroll-behavior:smooth; }
-body { font-family:system-ui,sans-serif; }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Inter',system-ui,sans-serif;background:#fff;color:#111;}
+
+  /* NAVBAR */
+  #navbar{position:fixed;top:0;left:0;right:0;z-index:100;transition:all .3s;padding:24px 0;}
+  #navbar.scrolled{background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);box-shadow:0 1px 24px rgba(0,0,0,0.08);padding:14px 0;}
+  .nav-link{color:rgba(255,255,255,0.85);font-size:14px;font-weight:500;text-decoration:none;transition:color .2s;}
+  .nav-link:hover{color:#c9973a;}
+  #navbar.scrolled .nav-link{color:#0d1b3e;}
+  #navbar.scrolled #logo-name{color:#0d1b3e;}
+  #logo-name{color:white;font-size:22px;font-weight:800;letter-spacing:-0.5px;transition:color .3s;}
+
+  /* HERO */
+  .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;}
+  .hero-bg{position:absolute;inset:0;background:linear-gradient(135deg,#071020 0%,#0d1b3e 45%,#1e3a6e 100%);}
+  .hero-glow{position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(201,151,58,0.15) 0%,transparent 70%);top:-100px;right:-100px;}
+  .hero-glow2{position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(201,151,58,0.1) 0%,transparent 70%);bottom:-80px;left:-80px;}
+
+  /* SEARCH BOX */
+  .search-box{background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-radius:20px;padding:28px;box-shadow:0 24px 80px rgba(0,0,0,0.25);}
+  .tab-btn{flex:1;padding:10px;border-radius:8px;font-size:13px;font-weight:600;border:none;cursor:pointer;transition:all .2s;background:transparent;color:#64748b;}
+  .tab-btn.active{background:#0d1b3e;color:white;}
+  .search-select{width:100%;border:1.5px solid #e8ecf0;border-radius:10px;padding:11px 14px;font-size:14px;color:#374151;background:white;outline:none;font-family:inherit;transition:border-color .2s;}
+  .search-select:focus{border-color:#c9973a;}
+  .search-label{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:6px;}
+  .btn-gold{background:linear-gradient(135deg,#c9973a,#e0b250);color:white;border:none;border-radius:12px;padding:14px 28px;font-size:15px;font-weight:700;cursor:pointer;transition:all .2s;font-family:inherit;}
+  .btn-gold:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(201,151,58,0.4);}
+
+  /* STAT BADGE */
+  .stat-badge{text-align:center;}
+  .stat-num{font-size:32px;font-weight:800;color:#c9973a;line-height:1;}
+  .stat-lbl{font-size:12px;color:rgba(255,255,255,0.55);margin-top:4px;letter-spacing:.02em;}
+
+  /* SECTION LABEL */
+  .section-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:#c9973a;margin-bottom:12px;}
+  .section-title{font-size:40px;font-weight:800;color:#0d1b3e;line-height:1.15;letter-spacing:-.5px;}
+  .section-divider{width:48px;height:3px;background:linear-gradient(90deg,#c9973a,#e0b250);border-radius:2px;margin-top:16px;}
+
+  /* PROPERTY CARDS */
+  .prop-card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 2px 16px rgba(0,0,0,0.06);transition:all .3s;border:1px solid #f0f0f0;}
+  .prop-card:hover{transform:translateY(-6px);box-shadow:0 16px 48px rgba(0,0,0,0.12);}
+  .prop-img{height:220px;display:flex;align-items:flex-end;padding:16px;position:relative;overflow:hidden;}
+  .prop-img-overlay{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(13,27,62,0.7) 100%);}
+  .tag-pill{font-size:11px;font-weight:700;padding:5px 12px;border-radius:100px;letter-spacing:.04em;}
+  .prop-price{font-size:22px;font-weight:800;color:#0d1b3e;}
+  .prop-meta{font-size:12px;color:#9ca3af;font-weight:500;}
+  .detail-chip{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:#6b7280;background:#f5f5f5;padding:5px 10px;border-radius:8px;}
+
+  /* BARRIO CARDS */
+  .barrio-card{background:white;border-radius:18px;padding:24px;border:1px solid #f0f0f0;box-shadow:0 2px 12px rgba(0,0,0,0.04);transition:all .3s;cursor:pointer;}
+  .barrio-card:hover{border-color:#c9973a;box-shadow:0 8px 32px rgba(201,151,58,0.12);transform:translateY(-3px);}
+  .barrio-icon{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:16px;}
+
+  /* CALCULATOR */
+  .calc-panel{background:#0d1b3e;border-radius:24px;padding:36px;}
+  .calc-result{background:rgba(201,151,58,0.12);border:1px solid rgba(201,151,58,0.25);border-radius:16px;padding:24px;}
+  input[type=range]{-webkit-appearance:none;width:100%;height:4px;border-radius:2px;background:#1e3a6e;outline:none;}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:20px;height:20px;border-radius:50%;background:#c9973a;cursor:pointer;border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);}
+
+  /* TEAM CARDS */
+  .team-card{background:white;border-radius:20px;padding:28px;text-align:center;border:1px solid #f0f0f0;box-shadow:0 2px 12px rgba(0,0,0,0.04);transition:all .3s;}
+  .team-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.1);}
+  .avatar{width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;color:white;margin:0 auto 16px;}
+
+  /* TESTIMONIALS */
+  .review-card{background:white;border-radius:20px;padding:32px;border:1px solid #f0f0f0;box-shadow:0 2px 12px rgba(0,0,0,0.04);}
+  .stars{color:#c9973a;font-size:16px;letter-spacing:2px;}
+
+  /* CONTACT FORM */
+  .form-input{width:100%;border:1.5px solid #e8ecf0;border-radius:12px;padding:13px 16px;font-size:14px;color:#374151;background:white;outline:none;font-family:inherit;transition:border-color .2s;}
+  .form-input:focus{border-color:#c9973a;box-shadow:0 0 0 3px rgba(201,151,58,0.1);}
+  .int-btn{flex:1;padding:10px 8px;border-radius:10px;font-size:13px;font-weight:600;border:1.5px solid #e8ecf0;background:white;color:#6b7280;cursor:pointer;transition:all .2s;font-family:inherit;}
+  .int-btn.active{background:#0d1b3e;color:white;border-color:#0d1b3e;}
+
+  /* FOOTER */
+  footer a{text-decoration:none;}
+  .footer-link{color:rgba(255,255,255,0.45);font-size:14px;transition:color .2s;}
+  .footer-link:hover{color:#c9973a;}
+
+  /* ANIMATIONS */
+  @keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+  .fade-up{animation:fadeUp .7s ease both;}
+  .fade-up-1{animation-delay:.1s;}
+  .fade-up-2{animation-delay:.2s;}
+  .fade-up-3{animation-delay:.35s;}
+  .fade-up-4{animation-delay:.5s;}
 </style>
 </head>
-<body class="bg-white text-gray-800">
-<!-- NAVBAR -->
-<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-5" style="background:transparent">
-  <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
-    <a href="#" class="flex items-center gap-2">
-      <span id="logo-text" class="text-2xl font-bold tracking-tight text-white">VANZINI</span>
-      <span class="text-xs font-medium tracking-widest uppercase mt-1" style="color:#c9973a">Propiedades</span>
+<body>
+
+<!-- ═══════════ NAVBAR ═══════════ -->
+<nav id="navbar">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;">
+    <a href="#" style="display:flex;align-items:baseline;gap:8px;text-decoration:none;">
+      <span id="logo-name">VANZINI</span>
+      <span style="font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#c9973a;">Propiedades</span>
     </a>
-    <div class="hidden md:flex items-center gap-8">
-      <a href="#propiedades" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Propiedades</a>
-      <a href="#barrios" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Barrios</a>
-      <a href="#calculadora" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Calculadora</a>
-      <a href="#nosotros" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Nosotros</a>
-      <a href="#contacto" class="nav-link text-sm font-medium text-white hover:text-yellow-400 transition-colors">Contacto</a>
-      <a href="#contacto" class="ml-2 px-5 py-2 rounded text-sm font-semibold text-white transition-colors" style="background:#c9973a">Consultar ahora</a>
+    <div style="display:flex;align-items:center;gap:36px;">
+      <a href="#propiedades" class="nav-link">Propiedades</a>
+      <a href="#barrios" class="nav-link">Barrios</a>
+      <a href="#calculadora" class="nav-link">Calculadora</a>
+      <a href="#nosotros" class="nav-link">Nosotros</a>
+      <a href="#contacto" class="btn-gold" style="padding:11px 22px;font-size:13px;border-radius:10px;text-decoration:none;">Consultar ahora</a>
     </div>
   </div>
 </nav>
 <script>
-window.addEventListener('scroll', function(){
-  var nb = document.getElementById('navbar');
-  var lt = document.getElementById('logo-text');
-  var links = document.querySelectorAll('.nav-link');
-  if(window.scrollY > 40){
-    nb.style.background='white'; nb.style.boxShadow='0 2px 12px rgba(0,0,0,0.1)'; nb.style.paddingTop='12px'; nb.style.paddingBottom='12px';
-    lt.style.color='#0d1b3e';
-    links.forEach(function(l){l.style.color='#0d1b3e';});
-  } else {
-    nb.style.background='transparent'; nb.style.boxShadow='none'; nb.style.paddingTop='20px'; nb.style.paddingBottom='20px';
-    lt.style.color='white';
-    links.forEach(function(l){l.style.color='white';});
-  }
+window.addEventListener('scroll',function(){
+  var n=document.getElementById('navbar');
+  if(window.scrollY>50)n.classList.add('scrolled');
+  else n.classList.remove('scrolled');
 });
 </script>
-<!-- HERO -->
-<section class="relative min-h-screen flex flex-col items-center justify-center" style="background:linear-gradient(135deg,#0d1b3e 0%,#1a2d5a 50%,#0d1b3e 100%)">
-  <div class="relative z-10 text-center px-6 max-w-5xl mx-auto pt-24 pb-16 w-full">
-    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-8" style="background:rgba(201,151,58,0.2);color:#c9973a;border:1px solid rgba(201,151,58,0.4)">
-      <span class="w-2 h-2 rounded-full animate-pulse inline-block" style="background:#c9973a"></span>
-      Más de 60 años en el mercado rosarino
+
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div style="position:relative;z-index:10;width:100%;max-width:1280px;margin:0 auto;padding:120px 32px 80px;">
+    
+    <!-- Badge -->
+    <div class="fade-up" style="display:inline-flex;align-items:center;gap:8px;background:rgba(201,151,58,0.15);border:1px solid rgba(201,151,58,0.3);border-radius:100px;padding:7px 18px;margin-bottom:28px;">
+      <span style="width:7px;height:7px;border-radius:50%;background:#c9973a;display:inline-block;"></span>
+      <span style="font-size:12px;font-weight:600;color:#c9973a;letter-spacing:.06em;text-transform:uppercase;">Más de 60 años en el mercado rosarino</span>
     </div>
-    <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
-      Tu próxima<br><span style="color:#c9973a">propiedad ideal</span><br>te espera
+
+    <!-- Headline -->
+    <h1 class="fade-up fade-up-1" style="font-size:clamp(44px,6vw,80px);font-weight:900;color:white;line-height:1.05;letter-spacing:-2px;margin-bottom:20px;">
+      Encontrá la propiedad<br>
+      <span style="color:#c9973a;">que siempre buscaste</span>
     </h1>
-    <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto mb-12 leading-relaxed">
-      Más de 3.000 propiedades en Rosario. Asesoramiento personalizado, gestión 100% digital y respuesta en menos de 48 horas.
+    <p class="fade-up fade-up-2" style="font-size:18px;color:rgba(255,255,255,0.55);max-width:540px;line-height:1.7;margin-bottom:40px;font-weight:400;">
+      Más de 3.000 propiedades en Rosario. Asesoramiento personalizado y respuesta garantizada en menos de 48hs.
     </p>
+
     <!-- Search box -->
-    <div class="bg-white rounded-2xl shadow-2xl p-6 max-w-3xl mx-auto">
-      <div class="flex gap-1 mb-6 bg-gray-100 p-1 rounded-lg">
-        <button onclick="setOp(this,'Venta')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold" style="background:#0d1b3e;color:white">Venta</button>
-        <button onclick="setOp(this,'Alquiler')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold text-gray-500">Alquiler</button>
-        <button onclick="setOp(this,'Temporario')" class="op-btn flex-1 py-2 rounded-md text-sm font-semibold text-gray-500">Temporario</button>
+    <div class="search-box fade-up fade-up-3" style="max-width:760px;">
+      <div style="display:flex;gap:4px;background:#f1f5f9;border-radius:10px;padding:4px;margin-bottom:20px;">
+        <button onclick="setOp(this)" class="tab-btn active">Venta</button>
+        <button onclick="setOp(this)" class="tab-btn">Alquiler</button>
+        <button onclick="setOp(this)" class="tab-btn">Temporario</button>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:12px;align-items:flex-end;">
         <div>
-          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Tipo</label>
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700 focus:outline-none focus:ring-2" style="--tw-ring-color:#c9973a">
-            <option>Departamento</option><option>Casa</option><option>Local</option><option>Terreno</option><option>Cochera</option>
+          <label class="search-label">Tipo de propiedad</label>
+          <select class="search-select">
+            <option>Departamento</option><option>Casa</option><option>Local</option><option>Terreno</option><option>Cochera</option><option>Oficina</option>
           </select>
         </div>
         <div>
-          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Barrio</label>
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700">
-            <option>Todos</option><option>Centro</option><option>Pichincha</option><option>Fisherton</option><option>Alberdi</option><option>Echesortu</option>
+          <label class="search-label">Barrio</label>
+          <select class="search-select">
+            <option>Todos los barrios</option><option>Centro</option><option>Pichincha</option><option>Fisherton</option><option>Alberdi</option><option>Echesortu</option><option>Norte</option>
           </select>
         </div>
         <div>
-          <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1.5">Precio máximo</label>
-          <select class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-700">
-            <option>Sin límite</option><option>USD 50.000</option><option>USD 100.000</option><option>USD 150.000</option><option>USD 200.000</option>
+          <label class="search-label">Precio máximo</label>
+          <select class="search-select">
+            <option>Sin límite</option><option>USD 50.000</option><option>USD 100.000</option><option>USD 150.000</option><option>USD 200.000</option><option>USD 300.000+</option>
           </select>
         </div>
+        <button class="btn-gold" style="white-space:nowrap;padding:13px 24px;font-size:14px;">
+          <svg style="display:inline;vertical-align:middle;margin-right:6px;" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Buscar
+        </button>
       </div>
-      <button class="w-full py-3.5 rounded-xl text-white font-bold text-base" style="background:#c9973a">Buscar propiedades</button>
     </div>
+
     <!-- Stats -->
-    <div class="flex flex-wrap justify-center gap-8 mt-12">
-      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">60+</div><div class="text-sm text-blue-200 mt-1">Años de trayectoria</div></div>
-      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">3.000+</div><div class="text-sm text-blue-200 mt-1">Propiedades activas</div></div>
-      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">8.000+</div><div class="text-sm text-blue-200 mt-1">Familias asesoradas</div></div>
-      <div class="text-center"><div class="text-3xl font-bold" style="color:#c9973a">48hs</div><div class="text-sm text-blue-200 mt-1">Tiempo de respuesta</div></div>
+    <div class="fade-up fade-up-4" style="display:flex;gap:48px;margin-top:52px;padding-top:40px;border-top:1px solid rgba(255,255,255,0.1);">
+      <div class="stat-badge"><div class="stat-num">60+</div><div class="stat-lbl">Años de trayectoria</div></div>
+      <div class="stat-badge"><div class="stat-num">3.000+</div><div class="stat-lbl">Propiedades activas</div></div>
+      <div class="stat-badge"><div class="stat-num">8.000+</div><div class="stat-lbl">Familias asesoradas</div></div>
+      <div class="stat-badge"><div class="stat-num">48hs</div><div class="stat-lbl">Respuesta garantizada</div></div>
     </div>
   </div>
 </section>
 <script>
-function setOp(btn,op){
-  document.querySelectorAll('.op-btn').forEach(function(b){b.style.background='';b.style.color='#6b7280';});
-  btn.style.background='#0d1b3e'; btn.style.color='white';
+function setOp(btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>{b.classList.remove('active');});
+  btn.classList.add('active');
 }
 </script>
-<!-- PROPIEDADES -->
-<section id="propiedades" class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-4">
+
+
+<!-- ═══════════ PROPIEDADES ═══════════ -->
+<section id="propiedades" style="padding:100px 0;background:white;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:56px;">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Portafolio activo</p>
-        <h2 class="text-4xl md:text-5xl font-bold leading-tight" style="color:#0d1b3e">Propiedades<br>destacadas</h2>
-        <div class="mt-4 w-16 h-1 rounded-full" style="background:#c9973a"></div>
+        <div class="section-label">Portafolio activo</div>
+        <h2 class="section-title">Propiedades<br>destacadas</h2>
+        <div class="section-divider"></div>
       </div>
-      <a href="#contacto" class="text-sm font-semibold flex items-center gap-1" style="color:#0d1b3e">Ver todas las propiedades →</a>
+      <a href="#contacto" style="font-size:14px;font-weight:600;color:#0d1b3e;text-decoration:none;display:flex;align-items:center;gap:6px;">
+        Ver todo el catálogo
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;">
+
       <!-- Card 1 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-blue-50">🏢
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#c9973a">Destacado</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
-        </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Pichincha</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Luminoso departamento a estrenar, balcón corrido, cocina integrada.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
-            <span>🛏 2 amb.</span><span>📐 65 m²</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#1e3a5f 0%,#2d5a8e 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#c9973a;color:white;">Destacado</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Venta</span>
           </div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">USD 85.000</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          <svg style="position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);opacity:0.15;" width="80" height="80" fill="white" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        </div>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Departamento · Pichincha</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">Luminoso departamento a estrenar, balcón corrido, cocina integrada. Edificio con amenities.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>2 amb.</span>
+            <span class="detail-chip"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>65 m²</span>
+            <span class="detail-chip"><svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/></svg>Pichincha</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Precio</div><div class="prop-price">USD 85.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
       <!-- Card 2 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-green-50">🏡
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#0d1b3e">Exclusivo</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
-        </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Casa · Fisherton</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Casa con jardín, pileta y cochera doble en barrio cerrado premium.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
-            <span>🛏 4 amb.</span><span>📐 180 m²</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#1a3a2a 0%,#2d6a4a 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#0d1b3e;color:white;">Exclusivo</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Venta</span>
           </div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">USD 220.000</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          <svg style="position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);opacity:0.15;" width="80" height="80" fill="white" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+        </div>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Casa · Fisherton</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">Casa con jardín, pileta y cochera doble en barrio cerrado premium. Seguridad 24hs.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip">🛏 4 amb.</span>
+            <span class="detail-chip">📐 180 m²</span>
+            <span class="detail-chip">📍 Fisherton</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Precio</div><div class="prop-price">USD 220.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
       <!-- Card 3 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-gray-50">🏙️
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#16a34a">Nuevo</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Alquiler</span>
-        </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Centro</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Monoambiente moderno con amenities, ideal para profesionales.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4">
-            <span>🛏 1 amb.</span><span>📐 38 m²</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#1e1e3a 0%,#2d2d6e 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#16a34a;color:white;">Nuevo</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Alquiler</span>
           </div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">$ 420.000/mes</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+          <svg style="position:absolute;top:50%;left:50%;transform:translate(-50%,-60%);opacity:0.15;" width="80" height="80" fill="white" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+        </div>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Departamento · Centro</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">Monoambiente moderno con amenities. Vista al río. Ideal profesionales e inversores.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip">🛏 1 amb.</span>
+            <span class="detail-chip">📐 38 m²</span>
+            <span class="detail-chip">📍 Centro</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Alquiler mensual</div><div class="prop-price" style="font-size:18px;">$ 420.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
       <!-- Card 4 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-purple-50">🏪
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#7c3aed">Comercial</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Alquiler</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#3a1e3a 0%,#6e2d6e 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#7c3aed;color:white;">Comercial</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Alquiler</span>
+          </div>
         </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Local · Echesortu</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Local a la calle con depósito, sobre avenida comercial de alto tráfico.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>📐 90 m²</span></div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">$ 850.000/mes</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Local · Echesortu</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">Local a la calle con depósito sobre avenida comercial de alto tráfico peatonal.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip">📐 90 m²</span>
+            <span class="detail-chip">🏪 Planta baja</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Alquiler mensual</div><div class="prop-price" style="font-size:18px;">$ 850.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
       <!-- Card 5 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-yellow-50">🌿
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#c9973a">Inversión</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#2a3a1e 0%,#4a6a2d 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#c9973a;color:white;">Inversión</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Venta</span>
+          </div>
         </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Terreno · Norte</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">Terreno en esquina en zona de rápido desarrollo. Apto multifamiliar.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>📐 600 m²</span></div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">USD 95.000</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Terreno · Norte</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">Terreno en esquina en zona de rápido desarrollo. Apto multifamiliar. Escritura lista.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip">📐 600 m²</span>
+            <span class="detail-chip">🌿 Norte</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Precio</div><div class="prop-price">USD 95.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
       <!-- Card 6 -->
-      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all bg-white">
-        <div class="relative h-52 flex items-center justify-center text-6xl bg-red-50">🏢
-          <span class="absolute top-3 left-3 text-xs font-bold px-3 py-1 rounded-full text-white" style="background:#dc2626">Oportunidad</span>
-          <span class="absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full text-white" style="background:rgba(13,27,62,0.85)">Venta</span>
+      <div class="prop-card">
+        <div class="prop-img" style="background:linear-gradient(135deg,#3a1e1e 0%,#6e2d2d 100%);">
+          <div class="prop-img-overlay"></div>
+          <div style="position:relative;z-index:1;width:100%;display:flex;justify-content:space-between;align-items:flex-end;">
+            <span class="tag-pill" style="background:#dc2626;color:white;">Oportunidad</span>
+            <span class="tag-pill" style="background:rgba(255,255,255,0.2);color:white;backdrop-filter:blur(8px);">Venta</span>
+          </div>
         </div>
-        <div class="p-5">
-          <div class="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">Departamento · Alberdi</div>
-          <p class="text-gray-600 text-sm leading-relaxed mb-4">3 dormitorios, 2 baños, parrilla. Edificio con seguridad 24hs.</p>
-          <div class="flex items-center gap-4 text-sm text-gray-500 mb-4"><span>🛏 3 amb.</span><span>📐 95 m²</span></div>
-          <div class="flex items-center justify-between pt-4 border-t border-gray-100">
-            <span class="text-xl font-bold" style="color:#0d1b3e">USD 130.000</span>
-            <a href="#contacto" class="text-sm font-semibold px-4 py-2 rounded-lg text-white" style="background:#c9973a">Consultar</a>
+        <div style="padding:22px;">
+          <div class="prop-meta" style="margin-bottom:6px;">Departamento · Alberdi</div>
+          <p style="font-size:14px;color:#6b7280;line-height:1.6;margin-bottom:14px;">3 dormitorios, 2 baños, parrilla. Edificio con seguridad 24hs. Precio de oportunidad.</p>
+          <div style="display:flex;gap:8px;margin-bottom:18px;">
+            <span class="detail-chip">🛏 3 amb.</span>
+            <span class="detail-chip">📐 95 m²</span>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid #f0f0f0;">
+            <div><div style="font-size:11px;color:#9ca3af;margin-bottom:2px;">Precio</div><div class="prop-price">USD 130.000</div></div>
+            <a href="#contacto" class="btn-gold" style="font-size:13px;padding:10px 20px;border-radius:10px;text-decoration:none;">Consultar</a>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
-<!-- BARRIOS -->
-<section id="barrios" class="py-24" style="background:#f8f4ee">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-14">
-      <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Guía de zonas</p>
-      <h2 class="text-4xl md:text-5xl font-bold" style="color:#0d1b3e">Conocé los barrios<br>de Rosario</h2>
-      <p class="text-gray-600 mt-4 max-w-xl mx-auto">Cada zona tiene su carácter. Te ayudamos a elegir la que más se adapta a tu estilo de vida o estrategia de inversión.</p>
+
+
+<!-- ═══════════ BARRIOS ═══════════ -->
+<section id="barrios" style="padding:100px 0;background:#f8f7f4;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="text-align:center;margin-bottom:56px;">
+      <div class="section-label" style="display:inline-block;">Guía de zonas</div>
+      <h2 class="section-title" style="margin-top:8px;">Conocé los barrios<br>de Rosario</h2>
+      <p style="font-size:16px;color:#6b7280;margin-top:16px;max-width:500px;margin-left:auto;margin-right:auto;line-height:1.7;">Cada zona tiene su carácter. Te ayudamos a elegir la que más se adapta a tu vida o estrategia de inversión.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🏙️</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 95.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Centro</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">El corazón comercial y cultural de Rosario. Alta demanda de alquileres para profesionales.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Alta demanda</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Comercial</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Conectado</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">312 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(13,27,62,0.07);">🏙️</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Centro</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 95.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">El corazón comercial y cultural. Alta demanda de alquileres para profesionales y ejecutivos.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Alta demanda</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Comercial</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Conectado</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">312 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🎨</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 78.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Pichincha</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio con identidad propia, arquitectura distintiva y vida nocturna. Ideal para inversión.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tendencia</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Inversión</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Bohemio</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">186 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(201,151,58,0.1);">🎨</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Pichincha</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 78.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">Barrio con identidad propia, arquitectura distintiva y vida nocturna. Muy buscado por inversores.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Tendencia</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Inversión</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">186 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🌳</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 185.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Fisherton</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">El barrio residencial más exclusivo. Casas con jardín, colegios top y aire tranquilo.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Premium</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Familias</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tranquilo</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">143 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(22,163,74,0.08);">🌳</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Fisherton</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 185.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">El barrio residencial más exclusivo. Casas con jardín, colegios top y tranquilidad total.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Premium</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Familias</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">143 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🚌</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 68.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Alberdi</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio con fuerte actividad comercial y excelente conectividad al transporte público.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Accesible</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Comercial</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">224 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(59,130,246,0.08);">🚌</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Alberdi</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 68.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">Actividad comercial intensa y excelente conectividad. Buen retorno para alquiler.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Accesible</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Conectado</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">224 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">🌿</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 72.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Echesortu</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">Barrio familiar consolidado con plazas, escuelas y oferta de departamentos modernos.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Familiar</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Tranquilo</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">168 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(201,151,58,0.1);">🌿</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Echesortu</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 72.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">Barrio familiar consolidado con plazas, escuelas y departamentos modernos a buen precio.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Familiar</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Tranquilo</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">168 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100">
-        <div class="flex items-start justify-between mb-4"><span class="text-4xl">📈</span><div class="text-right"><div class="text-xs text-gray-400 uppercase tracking-wider">Precio prom.</div><div class="text-lg font-bold" style="color:#0d1b3e">USD 55.000</div></div></div>
-        <h3 class="text-xl font-bold mb-2" style="color:#0d1b3e">Norte</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">Zona de rápida expansión con terrenos y desarrollos nuevos de alto retorno a futuro.</p>
-        <div class="flex flex-wrap gap-2 mb-4"><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Crecimiento</span><span class="text-xs font-semibold px-2.5 py-1 rounded-full" style="background:rgba(201,151,58,0.12);color:#a07020">Potencial</span></div>
-        <div class="flex items-center justify-between pt-4 border-t border-gray-100"><span class="text-sm text-gray-400">97 propiedades</span><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Ver más →</a></div>
+      <div class="barrio-card">
+        <div class="barrio-icon" style="background:rgba(239,68,68,0.08);">📈</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;">
+          <h3 style="font-size:20px;font-weight:700;color:#0d1b3e;">Norte</h3>
+          <div style="text-align:right;"><div style="font-size:11px;color:#9ca3af;">precio prom.</div><div style="font-size:16px;font-weight:700;color:#0d1b3e;">USD 55.000</div></div>
+        </div>
+        <p style="font-size:14px;color:#6b7280;line-height:1.65;margin-bottom:16px;">Zona de rápida expansión con terrenos y desarrollos nuevos de alto retorno a futuro.</p>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px;">
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Crecimiento</span>
+          <span style="font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;background:rgba(201,151,58,0.1);color:#9a6f1a;">Potencial</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding-top:14px;border-top:1px solid #f0f0f0;">
+          <span style="font-size:13px;color:#9ca3af;">97 propiedades</span>
+          <a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Ver propiedades →</a>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- CALCULADORA -->
-<section id="calculadora" class="py-24 bg-white">
-  <div class="max-w-6xl mx-auto px-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+
+<!-- ═══════════ CALCULADORA ═══════════ -->
+<section id="calculadora" style="padding:100px 0;background:white;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Herramienta gratuita</p>
-        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6" style="color:#0d1b3e">Calculá tu<br>cuota hipotecaria</h2>
-        <p class="text-gray-500 leading-relaxed mb-8">Estimá cuánto pagarías por mes. Nuestros asesores te acompañan en cada paso del proceso.</p>
-        <div class="flex flex-col gap-3">
-          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Asesoramiento sin costo en primera consulta</span></div>
-          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Gestión de créditos con todos los bancos</span></div>
-          <div class="flex items-start gap-3"><span class="font-bold mt-0.5" style="color:#c9973a">✓</span><span class="text-gray-600 text-sm">Proceso 100% digital y transparente</span></div>
+        <div class="section-label">Herramienta gratuita</div>
+        <h2 class="section-title" style="margin-top:8px;">Calculá tu<br>cuota hipotecaria</h2>
+        <div class="section-divider"></div>
+        <p style="font-size:16px;color:#6b7280;line-height:1.7;margin-top:24px;margin-bottom:36px;">Estimá en segundos cuánto pagarías por mes. Nuestros asesores te acompañan en cada paso del proceso de financiamiento.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;">
+          <div style="display:flex;align-items:center;gap:14px;padding:16px 20px;background:#f8f7f4;border-radius:14px;">
+            <div style="width:40px;height:40px;border-radius:10px;background:rgba(201,151,58,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="#c9973a" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 011 1.18 2 2 0 012.96 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 7.91a16 16 0 006.16 6.16l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:600;color:#0d1b3e;">Primera consulta sin costo</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Asesoramiento gratuito y sin compromiso</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:14px;padding:16px 20px;background:#f8f7f4;border-radius:14px;">
+            <div style="width:40px;height:40px;border-radius:10px;background:rgba(201,151,58,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="#c9973a" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:600;color:#0d1b3e;">Proceso 100% digital</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Gestión con todos los bancos del país</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:14px;padding:16px 20px;background:#f8f7f4;border-radius:14px;">
+            <div style="width:40px;height:40px;border-radius:10px;background:rgba(201,151,58,0.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="#c9973a" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div><div style="font-size:13px;font-weight:600;color:#0d1b3e;">Mejores tasas del mercado</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Acceso a condiciones preferenciales</div></div>
+          </div>
         </div>
       </div>
-      <div class="rounded-2xl p-8" style="background:#0d1b3e">
-        <div class="space-y-6">
+      <div class="calc-panel">
+        <div style="display:flex;flex-direction:column;gap:24px;">
           <div>
-            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Precio de la propiedad</label><span id="lbl-precio" class="text-white font-bold">USD 100.000</span></div>
-            <input type="range" id="sl-precio" min="30000" max="500000" step="5000" value="100000" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
-            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>USD 30k</span><span>USD 500k</span></div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:10px;"><label style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);">Precio de la propiedad</label><span id="lp" style="font-size:14px;font-weight:700;color:white;">USD 100.000</span></div>
+            <input type="range" id="sp" min="30000" max="500000" step="5000" value="100000" oninput="ch()">
+            <div style="display:flex;justify-content:space-between;margin-top:6px;"><span style="font-size:11px;color:rgba(255,255,255,0.3);">USD 30k</span><span style="font-size:11px;color:rgba(255,255,255,0.3);">USD 500k</span></div>
           </div>
           <div>
-            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Entrada</label><span id="lbl-entrada" class="text-white font-bold">30%</span></div>
-            <input type="range" id="sl-entrada" min="10" max="80" step="5" value="30" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
-            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>10%</span><span>80%</span></div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:10px;"><label style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);">Entrada</label><span id="le" style="font-size:14px;font-weight:700;color:white;">30%</span></div>
+            <input type="range" id="se" min="10" max="80" step="5" value="30" oninput="ch()">
+            <div style="display:flex;justify-content:space-between;margin-top:6px;"><span style="font-size:11px;color:rgba(255,255,255,0.3);">10%</span><span style="font-size:11px;color:rgba(255,255,255,0.3);">80%</span></div>
           </div>
           <div>
-            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Plazo</label><span id="lbl-plazo" class="text-white font-bold">120 meses</span></div>
-            <input type="range" id="sl-plazo" min="12" max="360" step="12" value="120" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
-            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>1 año</span><span>30 años</span></div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:10px;"><label style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);">Plazo</label><span id="ll" style="font-size:14px;font-weight:700;color:white;">120 meses</span></div>
+            <input type="range" id="sl" min="12" max="360" step="12" value="120" oninput="ch()">
+            <div style="display:flex;justify-content:space-between;margin-top:6px;"><span style="font-size:11px;color:rgba(255,255,255,0.3);">1 año</span><span style="font-size:11px;color:rgba(255,255,255,0.3);">30 años</span></div>
           </div>
           <div>
-            <div class="flex justify-between mb-2"><label class="text-sm font-semibold text-blue-200">Tasa anual (TNA)</label><span id="lbl-tasa" class="text-white font-bold">8%</span></div>
-            <input type="range" id="sl-tasa" min="1" max="25" step="0.5" value="8" oninput="calcHipo()" class="w-full h-2 rounded-full cursor-pointer" style="accent-color:#c9973a">
-            <div class="flex justify-between text-xs text-blue-300 mt-1"><span>1%</span><span>25%</span></div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:10px;"><label style="font-size:13px;font-weight:500;color:rgba(255,255,255,0.6);">Tasa anual (TNA)</label><span id="lt" style="font-size:14px;font-weight:700;color:white;">8%</span></div>
+            <input type="range" id="st" min="1" max="25" step="0.5" value="8" oninput="ch()">
+            <div style="display:flex;justify-content:space-between;margin-top:6px;"><span style="font-size:11px;color:rgba(255,255,255,0.3);">1%</span><span style="font-size:11px;color:rgba(255,255,255,0.3);">25%</span></div>
           </div>
-          <div class="rounded-xl p-5" style="background:rgba(201,151,58,0.15);border:1px solid rgba(201,151,58,0.3)">
-            <div class="text-center mb-4"><div class="text-sm text-blue-200 mb-1">Cuota mensual estimada</div><div id="res-cuota" class="text-4xl font-bold" style="color:#c9973a">USD 1.213</div></div>
-            <div class="grid grid-cols-2 gap-3 text-center text-sm">
-              <div><div class="text-blue-300 text-xs">Monto a financiar</div><div id="res-financiar" class="text-white font-semibold">USD 70.000</div></div>
-              <div><div class="text-blue-300 text-xs">Total a pagar</div><div id="res-total" class="text-white font-semibold">USD 145.560</div></div>
+          <div class="calc-result">
+            <div style="text-align:center;margin-bottom:20px;"><div style="font-size:12px;color:rgba(201,151,58,0.8);font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;">Cuota mensual estimada</div><div id="rc" style="font-size:42px;font-weight:900;color:#c9973a;letter-spacing:-1px;">USD 1.213</div></div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;border-top:1px solid rgba(201,151,58,0.2);padding-top:16px;">
+              <div style="text-align:center;"><div style="font-size:11px;color:rgba(255,255,255,0.4);margin-bottom:4px;">A financiar</div><div id="rf" style="font-size:16px;font-weight:700;color:white;">USD 70.000</div></div>
+              <div style="text-align:center;"><div style="font-size:11px;color:rgba(255,255,255,0.4);margin-bottom:4px;">Total a pagar</div><div id="rt" style="font-size:16px;font-weight:700;color:white;">USD 145.560</div></div>
             </div>
           </div>
-          <a href="#contacto" class="block w-full text-center py-3.5 rounded-xl font-bold text-white" style="background:#c9973a">Hablar con un asesor</a>
+          <a href="#contacto" class="btn-gold" style="display:block;text-align:center;text-decoration:none;font-size:15px;padding:16px;">Hablar con un asesor →</a>
         </div>
       </div>
     </div>
@@ -324,222 +538,218 @@ function setOp(btn,op){
 </section>
 <script>
 function fmt(n){return'USD '+Math.round(n).toLocaleString('es-AR');}
-function calcHipo(){
-  var precio=+document.getElementById('sl-precio').value;
-  var ent=+document.getElementById('sl-entrada').value;
-  var plazo=+document.getElementById('sl-plazo').value;
-  var tasa=+document.getElementById('sl-tasa').value;
-  document.getElementById('lbl-precio').textContent=fmt(precio);
-  document.getElementById('lbl-entrada').textContent=ent+'% ('+fmt(precio*ent/100)+')';
-  document.getElementById('lbl-plazo').textContent=plazo+' meses ('+plazo/12+' años)';
-  document.getElementById('lbl-tasa').textContent=tasa+'%';
-  var fin=precio*(1-ent/100);
-  var tm=tasa/100/12;
-  var cuota=tm===0?fin/plazo:(fin*tm*Math.pow(1+tm,plazo))/(Math.pow(1+tm,plazo)-1);
-  var total=cuota*plazo;
-  document.getElementById('res-cuota').textContent=fmt(cuota);
-  document.getElementById('res-financiar').textContent=fmt(fin);
-  document.getElementById('res-total').textContent=fmt(total);
+function ch(){
+  var p=+document.getElementById('sp').value,e=+document.getElementById('se').value,l=+document.getElementById('sl').value,t=+document.getElementById('st').value;
+  document.getElementById('lp').textContent=fmt(p);
+  document.getElementById('le').textContent=e+'% ('+fmt(p*e/100)+')';
+  document.getElementById('ll').textContent=l+' meses ('+l/12+' años)';
+  document.getElementById('lt').textContent=t+'%';
+  var fin=p*(1-e/100),tm=t/100/12;
+  var cuota=tm===0?fin/l:(fin*tm*Math.pow(1+tm,l))/(Math.pow(1+tm,l)-1);
+  document.getElementById('rc').textContent=fmt(cuota);
+  document.getElementById('rf').textContent=fmt(fin);
+  document.getElementById('rt').textContent=fmt(cuota*l);
 }
-calcHipo();
+ch();
 </script>
-<!-- EQUIPO -->
-<section id="nosotros" class="py-24" style="background:#f8f4ee">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
+
+
+<!-- ═══════════ EQUIPO ═══════════ -->
+<section id="nosotros" style="padding:100px 0;background:#f8f7f4;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-bottom:64px;">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Nuestro equipo</p>
-        <h2 class="text-4xl md:text-5xl font-bold leading-tight" style="color:#0d1b3e">Personas reales.<br>Resultados reales.</h2>
-        <div class="mt-4 w-16 h-1 rounded-full" style="background:#c9973a"></div>
+        <div class="section-label">Nuestro equipo</div>
+        <h2 class="section-title" style="margin-top:8px;">Personas reales.<br>Resultados reales.</h2>
+        <div class="section-divider"></div>
       </div>
-      <p class="text-gray-600 leading-relaxed text-lg">En inmobiliaria no comprás metros cuadrados — comprás confianza. Por eso cada asesor de Vanzini se especializa en una zona y tipo de propiedad.</p>
+      <p style="font-size:17px;color:#6b7280;line-height:1.75;">En inmobiliaria no comprás metros cuadrados — comprás confianza en una persona. Por eso cada asesor de Vanzini se especializa en una zona y tipo de propiedad específica.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
-        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#0d1b3e">AV</div>
-        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Alejandro Vanzini</h3>
-        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Director &amp; Fundador</p>
-        <p class="text-gray-500 text-xs leading-relaxed mb-4">Inversiones y operaciones premium</p>
-        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 35+ años</div>
-        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+      <div class="team-card">
+        <div class="avatar" style="background:linear-gradient(135deg,#0d1b3e,#1e3a6e);">AV</div>
+        <h3 style="font-size:16px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">Alejandro Vanzini</h3>
+        <p style="font-size:12px;font-weight:600;color:#c9973a;margin-bottom:12px;text-transform:uppercase;letter-spacing:.04em;">Director & Fundador</p>
+        <p style="font-size:13px;color:#6b7280;line-height:1.6;margin-bottom:16px;">Inversiones y operaciones premium en toda la ciudad.</p>
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(13,27,62,0.06);border-radius:100px;padding:6px 12px;font-size:12px;font-weight:600;color:#0d1b3e;margin-bottom:16px;">⏱ 35+ años</div>
+        <div style="border-top:1px solid #f0f0f0;padding-top:14px;"><a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Contactar →</a></div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
-        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#c9973a">VR</div>
-        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Valentina Rossi</h3>
-        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Asesora Senior</p>
-        <p class="text-gray-500 text-xs leading-relaxed mb-4">Departamentos — Centro y Pichincha</p>
-        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 12 años</div>
-        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      <div class="team-card">
+        <div class="avatar" style="background:linear-gradient(135deg,#c9973a,#e0b250);">VR</div>
+        <h3 style="font-size:16px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">Valentina Rossi</h3>
+        <p style="font-size:12px;font-weight:600;color:#c9973a;margin-bottom:12px;text-transform:uppercase;letter-spacing:.04em;">Asesora Senior</p>
+        <p style="font-size:13px;color:#6b7280;line-height:1.6;margin-bottom:16px;">Especialista en departamentos. Zona Centro y Pichincha.</p>
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(13,27,62,0.06);border-radius:100px;padding:6px 12px;font-size:12px;font-weight:600;color:#0d1b3e;margin-bottom:16px;">⏱ 12 años</div>
+        <div style="border-top:1px solid #f0f0f0;padding-top:14px;"><a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Contactar →</a></div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
-        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#1a2d5a">MG</div>
-        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Martín Gómez</h3>
-        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Asesor Comercial</p>
-        <p class="text-gray-500 text-xs leading-relaxed mb-4">Residencial — Fisherton y Norte</p>
-        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 8 años</div>
-        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      <div class="team-card">
+        <div class="avatar" style="background:linear-gradient(135deg,#1a2d5a,#2d4a8a);">MG</div>
+        <h3 style="font-size:16px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">Martín Gómez</h3>
+        <p style="font-size:12px;font-weight:600;color:#c9973a;margin-bottom:12px;text-transform:uppercase;letter-spacing:.04em;">Asesor Comercial</p>
+        <p style="font-size:13px;color:#6b7280;line-height:1.6;margin-bottom:16px;">Casas y propiedades residenciales. Fisherton y Norte.</p>
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(13,27,62,0.06);border-radius:100px;padding:6px 12px;font-size:12px;font-weight:600;color:#0d1b3e;margin-bottom:16px;">⏱ 8 años</div>
+        <div style="border-top:1px solid #f0f0f0;padding-top:14px;"><a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Contactar →</a></div>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-all border border-gray-100 text-center">
-        <div class="w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold text-white mx-auto mb-4" style="background:#7c5c2a">CM</div>
-        <h3 class="font-bold text-lg mb-0.5" style="color:#0d1b3e">Carla Mendez</h3>
-        <p class="text-sm font-semibold mb-3" style="color:#c9973a">Gestora de Alquileres</p>
-        <p class="text-gray-500 text-xs leading-relaxed mb-4">Contratos, indexación y administración</p>
-        <div class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full" style="background:rgba(13,27,62,0.07);color:#0d1b3e">⏱ 10 años</div>
-        <div class="mt-4 pt-4 border-t border-gray-100"><a href="#contacto" class="text-sm font-semibold" style="color:#c9973a">Contactar →</a></div>
+      <div class="team-card">
+        <div class="avatar" style="background:linear-gradient(135deg,#5c3d1a,#8a5c2a);">CM</div>
+        <h3 style="font-size:16px;font-weight:700;color:#0d1b3e;margin-bottom:4px;">Carla Méndez</h3>
+        <p style="font-size:12px;font-weight:600;color:#c9973a;margin-bottom:12px;text-transform:uppercase;letter-spacing:.04em;">Gestora de Alquileres</p>
+        <p style="font-size:13px;color:#6b7280;line-height:1.6;margin-bottom:16px;">Contratos, indexación y administración de propiedades.</p>
+        <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(13,27,62,0.06);border-radius:100px;padding:6px 12px;font-size:12px;font-weight:600;color:#0d1b3e;margin-bottom:16px;">⏱ 10 años</div>
+        <div style="border-top:1px solid #f0f0f0;padding-top:14px;"><a href="#contacto" style="font-size:13px;font-weight:600;color:#c9973a;text-decoration:none;">Contactar →</a></div>
       </div>
     </div>
   </div>
 </section>
-<!-- TESTIMONIOS -->
-<section class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="text-center mb-14">
-      <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Lo que dicen nuestros clientes</p>
-      <h2 class="text-4xl md:text-5xl font-bold" style="color:#0d1b3e">8.000 familias no pueden<br>equivocarse</h2>
+
+<!-- ═══════════ TESTIMONIOS ═══════════ -->
+<section style="padding:100px 0;background:white;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="text-align:center;margin-bottom:56px;">
+      <div class="section-label" style="display:inline-block;">Lo que dicen nuestros clientes</div>
+      <h2 class="section-title" style="margin-top:8px;">8.000 familias no<br>pueden equivocarse</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
-        <div class="flex gap-1 mb-4">★★★★★</div>
-        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Encontré el departamento que buscaba en menos de dos semanas. Valentina me acompañó en cada paso, desde la visita hasta la escritura."</p>
-        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">GT</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Gabriela Torres</div><div class="text-xs text-gray-400">Compradora — Depto. en Pichincha</div></div></div>
+    <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-bottom:32px;">
+      <div class="review-card">
+        <div class="stars" style="margin-bottom:16px;">★★★★★</div>
+        <p style="font-size:16px;color:#374151;line-height:1.75;margin-bottom:24px;font-style:italic;">"Encontré el departamento que buscaba en menos de dos semanas. Valentina me acompañó en cada paso, desde la visita hasta la escritura. No esperaba ese nivel de atención."</p>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#0d1b3e,#1e3a6e);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:white;">GT</div><div><div style="font-size:14px;font-weight:600;color:#0d1b3e;">Gabriela Torres</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Compradora — Depto. en Pichincha</div></div></div>
       </div>
-      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
-        <div class="flex gap-1 mb-4">★★★★★</div>
-        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Opero con Vanzini desde hace 8 años. Siempre me dan información de mercado real antes de comprar. La rentabilidad habla por sí sola."</p>
-        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">RK</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Rodrigo Keller</div><div class="text-xs text-gray-400">Inversor — Terrenos en Fisherton</div></div></div>
+      <div class="review-card">
+        <div class="stars" style="margin-bottom:16px;">★★★★★</div>
+        <p style="font-size:16px;color:#374151;line-height:1.75;margin-bottom:24px;font-style:italic;">"Opero con Vanzini desde hace 8 años. Siempre me dan información de mercado real antes de comprar. La rentabilidad de mis inversiones habla por sí sola."</p>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#c9973a,#e0b250);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:white;">RK</div><div><div style="font-size:14px;font-weight:600;color:#0d1b3e;">Rodrigo Keller</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Inversor — Terrenos en Fisherton</div></div></div>
       </div>
-      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
-        <div class="flex gap-1 mb-4">★★★★★</div>
-        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Carla me consiguió un inquilino en 10 días y se encarga de todo: contratos, indexación y mantenimiento. Nunca estuvieron tan bien administradas."</p>
-        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">LF</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Laura Fernández</div><div class="text-xs text-gray-400">Propietaria — Local comercial</div></div></div>
+      <div class="review-card">
+        <div class="stars" style="margin-bottom:16px;">★★★★★</div>
+        <p style="font-size:16px;color:#374151;line-height:1.75;margin-bottom:24px;font-style:italic;">"Carla me consiguió un inquilino en 10 días y se encarga de todo: contratos, indexación y mantenimiento. Mis propiedades nunca estuvieron tan bien administradas."</p>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#1a2d5a,#2d4a8a);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:white;">LF</div><div><div style="font-size:14px;font-weight:600;color:#0d1b3e;">Laura Fernández</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Propietaria — Local comercial</div></div></div>
       </div>
-      <div class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
-        <div class="flex gap-1 mb-4">★★★★★</div>
-        <p class="text-gray-700 leading-relaxed text-base mb-6 italic">"Asesoramiento impecable para el crédito. Martín nos consiguió una tasa que el banco no nos había ofrecido directamente."</p>
-        <div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold text-white" style="background:#0d1b3e">TE</div><div><div class="font-semibold text-sm" style="color:#0d1b3e">Tomás Echevarría</div><div class="text-xs text-gray-400">Comprador — Casa en Fisherton</div></div></div>
+      <div class="review-card">
+        <div class="stars" style="margin-bottom:16px;">★★★★★</div>
+        <p style="font-size:16px;color:#374151;line-height:1.75;margin-bottom:24px;font-style:italic;">"Asesoramiento impecable para el crédito hipotecario. Martín nos consiguió una tasa que el banco no nos había ofrecido directamente."</p>
+        <div style="display:flex;align-items:center;gap:12px;"><div style="width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,#5c3d1a,#8a5c2a);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:white;">TE</div><div><div style="font-size:14px;font-weight:600;color:#0d1b3e;">Tomás Echevarría</div><div style="font-size:12px;color:#9ca3af;margin-top:2px;">Comprador — Casa en Fisherton</div></div></div>
       </div>
     </div>
-    <!-- Google rating -->
-    <div class="rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 text-white" style="background:#0d1b3e">
-      <div class="text-center md:text-left">
-        <div class="text-6xl font-bold" style="color:#c9973a">4.8</div>
-        <div class="text-2xl mt-1">★★★★★</div>
-        <div class="text-blue-300 text-sm mt-1">Basado en +420 reseñas en Google</div>
+    <!-- Google rating panel -->
+    <div style="background:linear-gradient(135deg,#0d1b3e,#1e3a6e);border-radius:24px;padding:40px 48px;display:flex;align-items:center;gap:64px;">
+      <div>
+        <div style="font-size:72px;font-weight:900;color:#c9973a;line-height:1;letter-spacing:-2px;">4.8</div>
+        <div style="color:#c9973a;font-size:20px;letter-spacing:3px;margin:8px 0;">★★★★★</div>
+        <div style="font-size:13px;color:rgba(255,255,255,0.4);">+420 reseñas en Google</div>
       </div>
-      <div class="flex-1 w-full max-w-md">
-        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">5 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:82%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">82%</span></div>
-        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">4 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:11%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">11%</span></div>
-        <div class="flex items-center gap-3 mb-2"><span class="text-xs text-blue-200 w-20">3 estrellas</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:4%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">4%</span></div>
-        <div class="flex items-center gap-3"><span class="text-xs text-blue-200 w-20">2 o menos</span><div class="flex-1 h-2 rounded-full bg-blue-900"><div class="h-full rounded-full" style="width:3%;background:#c9973a"></div></div><span class="text-xs text-blue-300 w-8">3%</span></div>
+      <div style="flex:1;max-width:400px;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="font-size:12px;color:rgba(255,255,255,0.5);width:64px;">5 estrellas</span><div style="flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,0.1);overflow:hidden;"><div style="height:100%;width:82%;background:linear-gradient(90deg,#c9973a,#e0b250);border-radius:3px;"></div></div><span style="font-size:12px;color:rgba(255,255,255,0.5);width:28px;text-align:right;">82%</span></div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="font-size:12px;color:rgba(255,255,255,0.5);width:64px;">4 estrellas</span><div style="flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,0.1);overflow:hidden;"><div style="height:100%;width:11%;background:linear-gradient(90deg,#c9973a,#e0b250);border-radius:3px;"></div></div><span style="font-size:12px;color:rgba(255,255,255,0.5);width:28px;text-align:right;">11%</span></div>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;"><span style="font-size:12px;color:rgba(255,255,255,0.5);width:64px;">3 estrellas</span><div style="flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,0.1);overflow:hidden;"><div style="height:100%;width:4%;background:rgba(201,151,58,0.5);border-radius:3px;"></div></div><span style="font-size:12px;color:rgba(255,255,255,0.5);width:28px;text-align:right;">4%</span></div>
+        <div style="display:flex;align-items:center;gap:12px;"><span style="font-size:12px;color:rgba(255,255,255,0.5);width:64px;">1–2 est.</span><div style="flex:1;height:6px;border-radius:3px;background:rgba(255,255,255,0.1);overflow:hidden;"><div style="height:100%;width:3%;background:rgba(201,151,58,0.3);border-radius:3px;"></div></div><span style="font-size:12px;color:rgba(255,255,255,0.5);width:28px;text-align:right;">3%</span></div>
       </div>
     </div>
   </div>
 </section>
-<!-- ALERTAS -->
-<section class="py-24 relative overflow-hidden" style="background:linear-gradient(135deg,#0d1b3e 0%,#1a2d5a 100%)">
-  <div class="relative max-w-3xl mx-auto px-6 text-center">
-    <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Servicio gratuito</p>
-    <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">Alertas de propiedades</h2>
-    <p class="text-blue-200 text-lg mb-10">Configurá tu búsqueda y te avisamos al instante cuando aparezca una propiedad que se ajuste a tus criterios.</p>
-    <div id="alerta-form" class="bg-white rounded-2xl p-8 shadow-2xl text-left">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
-        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Tipo de propiedad</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Departamento</option><option>Casa</option><option>Local</option><option>Terreno</option></select></div>
-        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Barrio</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Cualquier barrio</option><option>Centro</option><option>Pichincha</option><option>Fisherton</option><option>Alberdi</option></select></div>
-        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Precio máximo</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Sin límite</option><option>USD 50.000</option><option>USD 100.000</option><option>USD 150.000</option><option>USD 200.000</option></select></div>
-        <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Operación</label><select class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"><option>Venta</option><option>Alquiler</option><option>Cualquiera</option></select></div>
-      </div>
-      <div class="mb-5"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Tu email</label><input type="email" placeholder="tu@email.com" class="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm text-gray-700"></div>
-      <button onclick="document.getElementById('alerta-form').innerHTML='<div class=text-center py-8><div class=text-5xl mb-4>✅</div><h3 class=text-2xl font-bold mb-2 style=color:#0d1b3e>¡Alerta configurada!</h3><p class=text-gray-500>Te avisamos cuando encontremos propiedades que coincidan.</p></div>'" class="w-full py-4 rounded-xl text-white font-bold text-base" style="background:#c9973a">Crear alerta gratuita</button>
-      <p class="text-center text-xs text-gray-400 mt-3">Sin spam. Podés cancelar en cualquier momento.</p>
-    </div>
-  </div>
-</section>
-<!-- CONTACTO -->
-<section id="contacto" class="py-24 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+
+
+<!-- ═══════════ CONTACTO ═══════════ -->
+<section id="contacto" style="padding:100px 0;background:#f8f7f4;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="display:grid;grid-template-columns:1fr 1.2fr;gap:80px;">
       <div>
-        <p class="text-sm font-semibold uppercase tracking-widest mb-3" style="color:#c9973a">Hablemos</p>
-        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-6" style="color:#0d1b3e">¿Listo para encontrar<br>tu propiedad?</h2>
-        <p class="text-gray-500 leading-relaxed mb-10">Completá el formulario y un asesor especializado te contactará en menos de 48 horas. Primera consulta sin costo ni compromiso.</p>
-        <div class="space-y-6">
-          <div class="flex items-start gap-4"><span class="text-2xl">📍</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Dirección</div><div class="text-gray-700 font-medium">Córdoba 1234, Rosario, Santa Fe</div></div></div>
-          <div class="flex items-start gap-4"><span class="text-2xl">📞</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Teléfono</div><div class="text-gray-700 font-medium">+54 341 XXX-XXXX</div></div></div>
-          <div class="flex items-start gap-4"><span class="text-2xl">📧</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Email</div><div class="text-gray-700 font-medium">consultas@vanzini.com.ar</div></div></div>
-          <div class="flex items-start gap-4"><span class="text-2xl">🕐</span><div><div class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-0.5">Horarios</div><div class="text-gray-700 font-medium">Lun–Vie 9:00–18:00 | Sáb 9:00–13:00</div></div></div>
-        </div>
-      </div>
-      <div>
-        <div id="contacto-form" class="rounded-2xl p-8 border border-gray-100 shadow-sm" style="background:#f8f4ee">
-          <div class="mb-5">
-            <label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Me interesa...</label>
-            <div class="flex gap-2" id="interes-btns">
-              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-white" style="background:#0d1b3e">Comprar</button>
-              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Alquilar</button>
-              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Invertir</button>
-              <button onclick="selectInt(this)" class="int-btn flex-1 py-2 rounded-lg text-sm font-semibold text-gray-500 bg-white border border-gray-200">Vender</button>
+        <div class="section-label">Hablemos</div>
+        <h2 class="section-title" style="margin-top:8px;">¿Listo para<br>encontrar tu<br>propiedad?</h2>
+        <div class="section-divider"></div>
+        <p style="font-size:16px;color:#6b7280;line-height:1.7;margin-top:24px;margin-bottom:40px;">Un asesor especializado te contactará en menos de 48hs. Primera consulta gratuita y sin compromiso.</p>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+          <div style="display:flex;align-items:flex-start;gap:16px;">
+            <div style="width:44px;height:44px;border-radius:12px;background:#0d1b3e;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
             </div>
+            <div><div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#9ca3af;margin-bottom:4px;">Dirección</div><div style="font-size:15px;font-weight:500;color:#1a1a1a;">Córdoba 1234, Rosario, Santa Fe</div></div>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-            <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Nombre *</label><input type="text" placeholder="Tu nombre" class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
-            <div><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Teléfono</label><input type="tel" placeholder="+54 341..." class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
+          <div style="display:flex;align-items:flex-start;gap:16px;">
+            <div style="width:44px;height:44px;border-radius:12px;background:#0d1b3e;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-5.99-5.99 19.79 19.79 0 01-3.07-8.63A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div><div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#9ca3af;margin-bottom:4px;">Teléfono</div><div style="font-size:15px;font-weight:500;color:#1a1a1a;">+54 341 XXX-XXXX</div></div>
           </div>
-          <div class="mb-4"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Email *</label><input type="email" placeholder="tu@email.com" class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700"></div>
-          <div class="mb-6"><label class="block text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">Contanos qué buscás</label><textarea rows="4" placeholder="Ej: Busco un departamento de 2 ambientes en Pichincha, hasta USD 90.000..." class="w-full border border-gray-200 bg-white rounded-xl px-4 py-3 text-sm text-gray-700 resize-none"></textarea></div>
-          <button onclick="document.getElementById('contacto-form').innerHTML='<div class=text-center py-16><div class=text-6xl mb-4>🎉</div><h3 class=text-2xl font-bold mb-2 style=color:#0d1b3e>¡Mensaje enviado!</h3><p class=text-gray-500>Un asesor de Vanzini se comunicará con vos en las próximas 48 horas.</p></div>'" class="w-full py-4 rounded-xl text-white font-bold text-base" style="background:#c9973a">Enviar consulta →</button>
-          <p class="text-center text-xs text-gray-400 mt-3">Respuesta garantizada en menos de 48 horas</p>
+          <div style="display:flex;align-items:flex-start;gap:16px;">
+            <div style="width:44px;height:44px;border-radius:12px;background:#0d1b3e;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div><div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#9ca3af;margin-bottom:4px;">Email</div><div style="font-size:15px;font-weight:500;color:#1a1a1a;">consultas@vanzini.com.ar</div></div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:16px;">
+            <div style="width:44px;height:44px;border-radius:12px;background:#0d1b3e;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg width="18" height="18" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div><div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#9ca3af;margin-bottom:4px;">Horarios</div><div style="font-size:15px;font-weight:500;color:#1a1a1a;">Lun–Vie 9:00–18:00<br>Sábado 9:00–13:00</div></div>
+          </div>
         </div>
+      </div>
+      <div id="cf" style="background:white;border-radius:24px;padding:40px;box-shadow:0 4px 32px rgba(0,0,0,0.06);">
+        <div style="margin-bottom:24px;">
+          <label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:10px;">Me interesa...</label>
+          <div style="display:flex;gap:8px;">
+            <button onclick="si(this)" class="int-btn active">Comprar</button>
+            <button onclick="si(this)" class="int-btn">Alquilar</button>
+            <button onclick="si(this)" class="int-btn">Invertir</button>
+            <button onclick="si(this)" class="int-btn">Vender</button>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;">
+          <div><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:8px;">Nombre *</label><input type="text" placeholder="Tu nombre" class="form-input"></div>
+          <div><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:8px;">Teléfono</label><input type="tel" placeholder="+54 341..." class="form-input"></div>
+        </div>
+        <div style="margin-bottom:16px;"><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:8px;">Email *</label><input type="email" placeholder="tu@email.com" class="form-input"></div>
+        <div style="margin-bottom:24px;"><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#9ca3af;margin-bottom:8px;">Contanos qué buscás</label><textarea rows="4" placeholder="Ej: Busco un departamento de 2 ambientes en Pichincha, hasta USD 90.000..." class="form-input" style="resize:none;"></textarea></div>
+        <button onclick="document.getElementById('cf').innerHTML='<div style=text-align:center;padding:60px 0><div style=font-size:56px;margin-bottom:20px>🎉</div><h3 style=font-size:24px;font-weight:800;color:#0d1b3e;margin-bottom:12px>¡Mensaje enviado!</h3><p style=font-size:15px;color:#6b7280;line-height:1.7>Un asesor de Vanzini se comunicará con vos en las próximas 48 horas. Gracias por contactarnos.</p></div>'" class="btn-gold" style="width:100%;font-size:15px;padding:16px;border-radius:12px;">Enviar consulta →</button>
+        <p style="text-align:center;font-size:12px;color:#9ca3af;margin-top:12px;">Respuesta garantizada en menos de 48 horas</p>
       </div>
     </div>
   </div>
 </section>
-<script>
-function selectInt(btn){
-  document.querySelectorAll('.int-btn').forEach(function(b){b.style.background='white';b.style.color='#6b7280';b.style.border='1px solid #e5e7eb';});
-  btn.style.background='#0d1b3e'; btn.style.color='white'; btn.style.border='none';
-}
-</script>
-<!-- FOOTER -->
-<footer style="background:#0d1b3e">
-  <div class="max-w-7xl mx-auto px-6 pt-16 pb-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+<script>function si(b){document.querySelectorAll('.int-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');}</script>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer style="background:#0a1628;padding:64px 0 32px;">
+  <div style="max-width:1280px;margin:0 auto;padding:0 32px;">
+    <div style="display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:48px;">
       <div>
-        <div class="mb-4"><span class="text-2xl font-bold text-white">VANZINI</span><span class="block text-xs font-medium tracking-widest uppercase mt-0.5" style="color:#c9973a">Propiedades</span></div>
-        <p class="text-blue-300 text-sm leading-relaxed">Más de 60 años conectando personas con propiedades en Rosario. Confianza, trayectoria y resultados.</p>
+        <div style="margin-bottom:16px;"><span style="font-size:24px;font-weight:900;color:white;letter-spacing:-0.5px;">VANZINI</span><span style="display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#c9973a;margin-top:2px;">Propiedades</span></div>
+        <p style="font-size:14px;color:rgba(255,255,255,0.35);line-height:1.75;margin-bottom:20px;">Más de 60 años conectando personas con propiedades en Rosario.</p>
       </div>
       <div>
-        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Propiedades</h4>
-        <ul class="space-y-3">
-          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Departamentos en venta</a></li>
-          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Casas en venta</a></li>
-          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Locales comerciales</a></li>
-          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Terrenos</a></li>
-          <li><a href="#propiedades" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Alquileres</a></li>
-        </ul>
+        <h4 style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,0.4);margin-bottom:20px;">Propiedades</h4>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="#propiedades" class="footer-link">Departamentos en venta</a>
+          <a href="#propiedades" class="footer-link">Casas en venta</a>
+          <a href="#propiedades" class="footer-link">Locales comerciales</a>
+          <a href="#propiedades" class="footer-link">Terrenos</a>
+          <a href="#propiedades" class="footer-link">Alquileres</a>
+        </div>
       </div>
       <div>
-        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Barrios</h4>
-        <ul class="space-y-3">
-          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Centro</a></li>
-          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Pichincha</a></li>
-          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Fisherton</a></li>
-          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Alberdi</a></li>
-          <li><a href="#barrios" class="text-blue-300 text-sm hover:text-yellow-400 transition-colors">Echesortu</a></li>
-        </ul>
+        <h4 style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,0.4);margin-bottom:20px;">Barrios</h4>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <a href="#barrios" class="footer-link">Centro</a>
+          <a href="#barrios" class="footer-link">Pichincha</a>
+          <a href="#barrios" class="footer-link">Fisherton</a>
+          <a href="#barrios" class="footer-link">Alberdi</a>
+          <a href="#barrios" class="footer-link">Echesortu</a>
+        </div>
       </div>
       <div>
-        <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-5">Contacto</h4>
-        <ul class="space-y-4 text-sm">
-          <li class="flex items-start gap-3 text-blue-300"><span>📍</span><span>Córdoba 1234, Rosario</span></li>
-          <li class="flex items-start gap-3 text-blue-300"><span>📞</span><span>+54 341 XXX-XXXX</span></li>
-          <li class="flex items-start gap-3 text-blue-300"><span>📧</span><span>consultas@vanzini.com.ar</span></li>
-          <li class="flex items-start gap-3 text-blue-300"><span>🕐</span><div><div>Lun–Vie 9:00–18:00</div><div>Sáb 9:00–13:00</div></div></li>
-        </ul>
+        <h4 style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:rgba(255,255,255,0.4);margin-bottom:20px;">Contacto</h4>
+        <div style="display:flex;flex-direction:column;gap:12px;font-size:14px;color:rgba(255,255,255,0.35);">
+          <span>📍 Córdoba 1234, Rosario</span>
+          <span>📞 +54 341 XXX-XXXX</span>
+          <span>📧 consultas@vanzini.com.ar</span>
+          <span>🕐 Lun–Vie 9:00–18:00</span>
+        </div>
       </div>
     </div>
-    <div class="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4" style="border-color:rgba(255,255,255,0.1)">
-      <p class="text-blue-400 text-xs">© 2025 Vanzini Propiedades. Todos los derechos reservados.</p>
-      <p class="text-blue-400 text-xs">Matrícula CPCR Nº 0000 — Rosario, Argentina</p>
+    <div style="border-top:1px solid rgba(255,255,255,0.07);padding-top:28px;display:flex;justify-content:space-between;align-items:center;">
+      <p style="font-size:13px;color:rgba(255,255,255,0.25);">© 2025 Vanzini Propiedades. Todos los derechos reservados.</p>
+      <p style="font-size:13px;color:rgba(255,255,255,0.25);">Matrícula CPCR Nº 0000 — Rosario, Argentina</p>
     </div>
   </div>
 </footer>
