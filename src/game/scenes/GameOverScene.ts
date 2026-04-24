@@ -53,13 +53,13 @@ export class GameOverScene extends Phaser.Scene {
       color: '#F5A623',
     }).setOrigin(0.5);
 
-    // Buttons
-    this.makeButton(W / 2 - 110, 240, '↺  REINTENTAR', C.purple, C.pink, () => {
+    // Buttons (stacked vertically)
+    this.makeButton(W / 2 - 100, 240, '↺  REINTENTAR', C.purple, C.pink, () => {
       this.cameras.main.fade(300, 0, 0, 0);
       this.time.delayedCall(300, () => this.scene.start('GameScene'));
     });
 
-    this.makeButton(W / 2 + 10, 240, '⌂  MENÚ', C.purpleDark, C.gold, () => {
+    this.makeButton(W / 2 - 100, 305, '⌂  MENÚ PRINCIPAL', C.purpleDark, C.gold, () => {
       this.cameras.main.fade(300, 0, 0, 0);
       this.time.delayedCall(300, () => this.scene.start('MenuScene'));
     });
@@ -70,17 +70,17 @@ export class GameOverScene extends Phaser.Scene {
   private makeButton(x: number, y: number, label: string, fill: number, border: number, onClick: () => void): void {
     const g = this.add.graphics();
     g.fillStyle(fill);
-    g.fillRoundedRect(x, y, 190, 48, 10);
+    g.fillRoundedRect(x, y, 200, 48, 10);
     g.lineStyle(2, border, 1);
-    g.strokeRoundedRect(x, y, 190, 48, 10);
+    g.strokeRoundedRect(x, y, 200, 48, 10);
 
-    const t = this.add.text(x + 95, y + 24, label, {
+    const t = this.add.text(x + 100, y + 24, label, {
       fontSize: '18px',
       fontFamily: 'Impact, sans-serif',
       color: '#FFFFFF',
     }).setOrigin(0.5);
 
-    const zone = this.add.zone(x + 95, y + 24, 190, 48).setInteractive({ useHandCursor: true });
+    const zone = this.add.zone(x + 100, y + 24, 200, 48).setInteractive({ useHandCursor: true });
     zone.on('pointerover', () => { t.setColor('#F5A623'); g.setAlpha(0.8); });
     zone.on('pointerout', () => { t.setColor('#FFFFFF'); g.setAlpha(1); });
     zone.on('pointerdown', onClick);
