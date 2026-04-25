@@ -45,22 +45,38 @@ export abstract class BaseWorldScene extends Phaser.Scene {
   protected abstract spawnEnemies(): void;
 
   create(): void {
-    this.noteCount = 0;
-    this.allEnemyBullets = [];
+    console.log(`[World${this.worldNum}] create() start`);
+    try {
+      this.noteCount = 0;
+      this.allEnemyBullets = [];
 
-    this.physics.world.gravity.y = GRAVITY;
-    this.physics.world.setBounds(0, -200, this.levelW, H + 300);
+      this.physics.world.gravity.y = GRAVITY;
+      this.physics.world.setBounds(0, -200, this.levelW, H + 300);
 
-    this.drawBackground();
-    this.buildLevel();
-    this.buildNotes();
-    this.buildExtraLives();
-    this.buildPlayer();
-    this.spawnEnemies();
-    this.buildUI();
-    this.setupBaseCollisions();
-    this.setupCamera();
-    this.showWorldTitle();
+      console.log(`[World${this.worldNum}] drawBackground`);
+      this.drawBackground();
+      console.log(`[World${this.worldNum}] buildLevel`);
+      this.buildLevel();
+      console.log(`[World${this.worldNum}] buildNotes`);
+      this.buildNotes();
+      console.log(`[World${this.worldNum}] buildExtraLives`);
+      this.buildExtraLives();
+      console.log(`[World${this.worldNum}] buildPlayer`);
+      this.buildPlayer();
+      console.log(`[World${this.worldNum}] spawnEnemies`);
+      this.spawnEnemies();
+      console.log(`[World${this.worldNum}] buildUI`);
+      this.buildUI();
+      console.log(`[World${this.worldNum}] setupBaseCollisions`);
+      this.setupBaseCollisions();
+      console.log(`[World${this.worldNum}] setupCamera`);
+      this.setupCamera();
+      console.log(`[World${this.worldNum}] showWorldTitle`);
+      this.showWorldTitle();
+      console.log(`[World${this.worldNum}] create() OK`);
+    } catch (err) {
+      console.error(`[World${this.worldNum}] create() ERROR:`, err);
+    }
     this.cameras.main.fadeIn(600);
   }
 
