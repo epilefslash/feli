@@ -2,24 +2,37 @@
 import { useEffect, useRef } from 'react';
 import type Phaser from 'phaser';
 
+// Singleton global para evitar múltiples instancias en dev/HMR
+let globalGame: Phaser.Game | null = null;
+
 export default function WaflesGame() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const gameRef = useRef<Phaser.Game | null>(null);
 
   useEffect(() => {
-    if (!containerRef.current || gameRef.current) return;
+    if (!containerRef.current) return;
 
-    let game: Phaser.Game | null = null;
+    // Destruir instancia previa si existe (React StrictMode / HMR)
+    if (globalGame) {
+      globalGame.destroy(true);
+      globalGame = null;
+      // Limpiar canvas huérfano si quedó
+      const old = document.getElementById('wafles-game');
+      if (old) old.querySelectorAll('canvas').forEach(c => c.remove());
+    }
+
+    let cancelled = false;
 
     import('../../game/index').then(({ createGame }) => {
-      if (!containerRef.current) return;
-      game = createGame(containerRef.current);
-      gameRef.current = game;
+      if (cancelled || !containerRef.current) return;
+      globalGame = createGame(containerRef.current);
     });
 
     return () => {
-      game?.destroy(true);
-      gameRef.current = null;
+      cancelled = true;
+      if (globalGame) {
+        globalGame.destroy(true);
+        globalGame = null;
+      }
     };
   }, []);
 
