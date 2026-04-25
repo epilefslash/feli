@@ -55,8 +55,8 @@ export abstract class BaseWorldScene extends Phaser.Scene {
     this.buildLevel();
     this.buildNotes();
     this.buildExtraLives();
-    this.spawnEnemies();
     this.buildPlayer();
+    this.spawnEnemies();
     this.buildUI();
     this.setupBaseCollisions();
     this.setupCamera();
