@@ -21,8 +21,8 @@ export const C = {
 };
 
 export const SPEED         = 220;
-export const JUMP_VEL      = -570;
-export const DOUBLE_JUMP   = -470;
+export const JUMP_VEL      = -420;
+export const DOUBLE_JUMP   = -340;
 export const GRAVITY       = 700;
 export const BULLET_SPEED  = 300;
 export const SHOOT_COOLDOWN = 500;
@@ -87,4 +87,12 @@ export const ENEMY_POSITIONS: { x: number; y: number; range: number }[] = [
   { x: 4240, y: 230, range: 80  },
   { x: 4470, y: 300, range: 100 },
   { x: 4870, y: 430, range: 130 },
+];
+
+export const EXTRA_LIVES: { x: number; y: number }[] = [
+  { x: 650,  y: 255 },
+  { x: 1680, y: 305 },
+  { x: 2520, y: 225 },
+  { x: 3460, y: 205 },
+  { x: 4660, y: 245 },
 ];

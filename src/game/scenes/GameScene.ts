@@ -1,5 +1,5 @@
 import * as Phaser from 'phaser';
-import { W, H, C, LEVEL_W, GROUND_Y, GRAVITY, PLATFORMS, NOTE_POSITIONS, ENEMY_POSITIONS } from '../config';
+import { W, H, C, LEVEL_W, GROUND_Y, GRAVITY, PLATFORMS, NOTE_POSITIONS, ENEMY_POSITIONS, EXTRA_LIVES } from '../config';
 import { Player } from '../objects/Player';
 import { NarradorEnemy } from '../objects/NarradorEnemy';
 
@@ -7,6 +7,7 @@ export class GameScene extends Phaser.Scene {
   private player!: Player;
   private platforms!: Phaser.Physics.Arcade.StaticGroup;
   private notes!: Phaser.Physics.Arcade.StaticGroup;
+  private extraLives!: Phaser.Physics.Arcade.StaticGroup;
   private enemies: NarradorEnemy[] = [];
   private allEnemyBullets!: Phaser.Physics.Arcade.Group[];
 
@@ -25,9 +26,12 @@ export class GameScene extends Phaser.Scene {
     this.physics.world.gravity.y = GRAVITY;
     this.physics.world.setBounds(0, -200, LEVEL_W, H + 300);
 
+    this.enemies = [];
+
     this.buildBackground();
     this.buildLevel();
     this.buildNotes();
+    this.buildExtraLives();
     this.buildEnemies();
     this.buildPlayer();
     this.buildUI();
@@ -161,6 +165,29 @@ export class GameScene extends Phaser.Scene {
     this.totalNotes = NOTE_POSITIONS.length;
   }
 
+  // ── EXTRA LIVES ───────────────────────────────────────────────────────────
+
+  private buildExtraLives(): void {
+    this.extraLives = this.physics.add.staticGroup();
+    for (const pos of EXTRA_LIVES) {
+      const item = this.extraLives.create(pos.x, pos.y, 'heart') as Phaser.Physics.Arcade.Image;
+      item.setDepth(7).setScale(1.3);
+      this.tweens.add({
+        targets: item,
+        y: pos.y - 10,
+        duration: 600,
+        yoyo: true,
+        repeat: -1,
+        ease: 'Sine.InOut',
+      });
+      // Golden glow ring
+      const glow = this.add.graphics();
+      glow.lineStyle(2, C.gold, 0.5);
+      glow.strokeCircle(pos.x, pos.y, 18);
+      this.tweens.add({ targets: glow, alpha: 0, duration: 800, yoyo: true, repeat: -1 });
+    }
+  }
+
   // ── ENEMIES ────────────────────────────────────────────────────────────────
 
   private buildEnemies(): void {
@@ -257,6 +284,43 @@ export class GameScene extends Phaser.Scene {
         if (this.noteCount >= this.totalNotes) {
           // all notes collected bonus
         }
+      }
+    );
+
+    // Player collects extra lives
+    this.physics.add.overlap(
+      this.player,
+      this.extraLives,
+      (_p, heartObj) => {
+        const heart = heartObj as Phaser.Physics.Arcade.Image;
+        heart.setActive(false).setVisible(false);
+        heart.destroy();
+        if (this.player.lives < 5) {
+          this.player.lives++;
+          this.updateLivesUI(this.player.lives);
+        }
+        // Flash text
+        const txt = this.add.text(heart.x, heart.y - 10, '+1 VIDA', {
+          fontSize: '16px',
+          fontFamily: 'Impact, sans-serif',
+          color: '#FF5BA3',
+        }).setDepth(20).setOrigin(0.5);
+        this.tweens.add({
+          targets: txt,
+          y: heart.y - 50,
+          alpha: 0,
+          duration: 900,
+          onComplete: () => txt.destroy(),
+        });
+        // Particle burst
+        const p = this.add.particles(heart.x, heart.y, 'particle', {
+          speed: { min: 40, max: 120 },
+          scale: { start: 0.7, end: 0 },
+          lifespan: 400,
+          quantity: 10,
+          tint: [C.pink, C.white],
+        });
+        this.time.delayedCall(400, () => p.destroy());
       }
     );
 

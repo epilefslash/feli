@@ -90,13 +90,13 @@ export class WinScene extends Phaser.Scene {
 
     // Buttons
     this.makeButton(W / 2 - 105, 320, '↺  JUGAR DE NUEVO', C.purple, C.pink, () => {
-      this.cameras.main.fade(300, 0, 0, 0);
-      this.time.delayedCall(300, () => this.scene.start('GameScene'));
+      this.scene.stop('WinScene');
+      this.scene.start('GameScene');
     });
 
     this.makeButton(W / 2 - 105, 378, '⌂  MENÚ PRINCIPAL', C.purpleDark, C.gold, () => {
-      this.cameras.main.fade(300, 0, 0, 0);
-      this.time.delayedCall(300, () => this.scene.start('MenuScene'));
+      this.scene.stop('WinScene');
+      this.scene.start('MenuScene');
     });
 
     // Bottom tag

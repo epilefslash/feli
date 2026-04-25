@@ -55,13 +55,13 @@ export class GameOverScene extends Phaser.Scene {
 
     // Buttons (stacked vertically)
     this.makeButton(W / 2 - 100, 240, '↺  REINTENTAR', C.purple, C.pink, () => {
-      this.cameras.main.fade(300, 0, 0, 0);
-      this.time.delayedCall(300, () => this.scene.start('GameScene'));
+      this.scene.stop('GameOverScene');
+      this.scene.start('GameScene');
     });
 
     this.makeButton(W / 2 - 100, 305, '⌂  MENÚ PRINCIPAL', C.purpleDark, C.gold, () => {
-      this.cameras.main.fade(300, 0, 0, 0);
-      this.time.delayedCall(300, () => this.scene.start('MenuScene'));
+      this.scene.stop('GameOverScene');
+      this.scene.start('MenuScene');
     });
 
     this.cameras.main.fadeIn(500);
