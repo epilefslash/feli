@@ -20,13 +20,13 @@ export class WinScene extends Phaser.Scene {
     this.launchFireworks();
 
     // Big title
-    this.add.text(W / 2 + 3, 73, '¡LLEGASTE AL SHOW!', {
+    this.add.text(W / 2 + 3, 73, '¡COMPLETASTE EL JUEGO!', {
       fontSize: '38px',
       fontFamily: 'Impact, Arial Black, sans-serif',
       color: '#3D0E6E',
     }).setOrigin(0.5);
 
-    const title = this.add.text(W / 2, 70, '¡LLEGASTE AL SHOW!', {
+    const title = this.add.text(W / 2, 70, '¡COMPLETASTE EL JUEGO!', {
       fontSize: '38px',
       fontFamily: 'Impact, Arial Black, sans-serif',
       color: '#F5A623',

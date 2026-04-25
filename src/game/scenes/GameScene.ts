@@ -460,7 +460,7 @@ export class GameScene extends Phaser.Scene {
 
     this.cameras.main.fade(1200, 0, 0, 0);
     this.time.delayedCall(1400, () =>
-      this.scene.start('WinScene', { score: this.player.score, notes: this.noteCount, total: this.totalNotes })
+      this.scene.start('World2Scene', { score: this.player.score })
     );
   }
 }
