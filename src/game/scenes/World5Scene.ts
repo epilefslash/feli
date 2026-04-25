@@ -3,6 +3,7 @@ import { H } from '../config';
 import { BaseWorldScene, WorldColors, PlatformDef, NoteDef, EnemyDef, ExtraLifeDef } from './BaseWorldScene';
 
 export class World5Scene extends BaseWorldScene {
+  constructor() { super('World5Scene'); }
   protected worldNum  = 5;
   protected worldName = 'DEIDAD';
   protected songName  = 'Deidad';

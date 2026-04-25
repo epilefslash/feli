@@ -4,6 +4,7 @@ import { BaseWorldScene, WorldColors, PlatformDef, NoteDef, EnemyDef, ExtraLifeD
 import { NarradorEnemy } from '../objects/NarradorEnemy';
 
 export class World2Scene extends BaseWorldScene {
+  constructor() { super('World2Scene'); }
   protected worldNum  = 2;
   protected worldName = 'P.P.P.';
   protected songName  = 'P.P.P.';

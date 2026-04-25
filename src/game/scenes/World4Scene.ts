@@ -3,6 +3,7 @@ import { H } from '../config';
 import { BaseWorldScene, WorldColors, PlatformDef, NoteDef, EnemyDef, ExtraLifeDef } from './BaseWorldScene';
 
 export class World4Scene extends BaseWorldScene {
+  constructor() { super('World4Scene'); }
   protected worldNum  = 4;
   protected worldName = 'REY DE LA NOCHE';
   protected songName  = 'Rey de la Noche';

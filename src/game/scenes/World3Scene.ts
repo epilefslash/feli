@@ -3,6 +3,7 @@ import { H, C } from '../config';
 import { BaseWorldScene, WorldColors, PlatformDef, NoteDef, EnemyDef, ExtraLifeDef } from './BaseWorldScene';
 
 export class World3Scene extends BaseWorldScene {
+  constructor() { super('World3Scene'); }
   protected worldNum  = 3;
   protected worldName = 'CINE TOTAL';
   protected songName  = 'Cine Total';

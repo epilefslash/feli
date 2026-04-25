@@ -14,6 +14,9 @@ export interface EnemyDef     { x: number; y: number; range: number; type?: stri
 export interface ExtraLifeDef { x: number; y: number }
 
 export abstract class BaseWorldScene extends Phaser.Scene {
+  constructor(key: string) {
+    super({ key });
+  }
   protected player!: Player;
   protected platforms!: Phaser.Physics.Arcade.StaticGroup;
   protected notes!: Phaser.Physics.Arcade.StaticGroup;
