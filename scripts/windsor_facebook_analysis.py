@@ -43,18 +43,17 @@ FIELDS = [
     "spend",
     "impressions",
     "clicks",
-    "ctr",
-    "cpc",
 ]
 
 
 def fetch_windsor(api_key: str, accounts: Iterable[str], date_preset: str | None,
                   date_from: str | None, date_to: str | None) -> list[dict[str, Any]]:
-    params = {
+    params: dict[str, str] = {
         "api_key": api_key,
         "fields": ",".join(FIELDS),
-        "select_accounts": ",".join(accounts),
     }
+    if accounts:
+        params["select_accounts"] = ",".join(accounts)
     if date_from and date_to:
         params["date_from"] = date_from
         params["date_to"] = date_to
@@ -93,7 +92,7 @@ def keep_facebook(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out = []
     for r in rows:
         ds = (r.get("datasource") or r.get("source") or "").lower()
-        if "facebook" in ds:
+        if "facebook" in ds or "meta" in ds:
             out.append(r)
     return out
 
@@ -253,8 +252,9 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Análisis de Facebook Ads vía Windsor.ai")
     p.add_argument("--api-key", default=os.environ.get("WINDSOR_API_KEY", DEFAULT_API_KEY),
                    help="API key de Windsor (o env WINDSOR_API_KEY)")
-    p.add_argument("--accounts", default=",".join(DEFAULT_FACEBOOK_ACCOUNTS),
-                   help="IDs de cuenta separados por coma (formato facebook__XXXX)")
+    p.add_argument("--accounts", default="",
+                   help="IDs de cuenta separados por coma (formato facebook__XXXX). "
+                        "Si se omite, Windsor trae todas las cuentas conectadas.")
     p.add_argument("--date-preset", default="last_28d",
                    help="Preset de Windsor: last_7d, last_14d, last_28d, last_30d, ...")
     p.add_argument("--date-from", help="Fecha inicio YYYY-MM-DD (anula --date-preset)")
@@ -276,7 +276,10 @@ def main() -> None:
         print(f"  Rango    : {args.date_from} → {args.date_to}")
     else:
         print(f"  Preset   : {args.date_preset}")
-    print(f"  Cuentas  : {len(accounts)}")
+    if accounts:
+        print(f"  Cuentas  : {len(accounts)} → {', '.join(accounts)}")
+    else:
+        print("  Cuentas  : todas las conectadas en Windsor")
 
     rows = fetch_windsor(
         api_key=args.api_key,
@@ -293,11 +296,18 @@ def main() -> None:
     fb_rows = keep_facebook(rows)
     if not fb_rows:
         print()
-        print("  [aviso] La respuesta no contiene filas de Facebook.")
+        print("  [aviso] La respuesta no contiene filas de Facebook/Meta.")
         print(f"  Filas totales recibidas: {len(rows)}")
         if rows:
             sources = sorted({(r.get('datasource') or r.get('source') or '?') for r in rows})
             print(f"  Datasources presentes : {', '.join(sources)}")
+            print()
+            print("  Tip: corré con --raw para ver el JSON completo de Windsor.")
+        else:
+            print()
+            print("  Windsor devolvió una lista vacía. Posibles causas:")
+            print("   · No hay datos en el rango de fechas seleccionado.")
+            print("   · Probá --raw para ver la respuesta cruda de Windsor.")
         return
 
     print_general(fb_rows)
