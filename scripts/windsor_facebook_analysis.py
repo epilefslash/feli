@@ -28,21 +28,25 @@ WINDSOR_ENDPOINT = "https://connectors.windsor.ai/all"
 
 DEFAULT_API_KEY = "fb7b9e885b3576154de891c8adf5e9bc3d1b"
 
-DEFAULT_FACEBOOK_ACCOUNTS = [
+DEFAULT_ACCOUNTS = [
     "facebook__2583844138546343",
     "facebook__273087505",
     "facebook__382322122763045",
+    "instagram__17841400324926774",
 ]
 
 FIELDS = [
+    "account_id",
     "account_name",
+    "accounts_engaged",
     "campaign",
+    "clicks",
     "datasource",
     "date",
+    "followers_count",
+    "impressions",
     "source",
     "spend",
-    "impressions",
-    "clicks",
 ]
 
 
@@ -123,7 +127,8 @@ def section(title: str) -> None:
 def aggregate(rows: list[dict[str, Any]], key: str | None = None
               ) -> dict[str, dict[str, float]]:
     buckets: dict[str, dict[str, float]] = defaultdict(
-        lambda: {"spend": 0.0, "impressions": 0.0, "clicks": 0.0, "rows": 0.0}
+        lambda: {"spend": 0.0, "impressions": 0.0, "clicks": 0.0,
+                 "engaged": 0.0, "followers": 0.0, "rows": 0.0}
     )
     for r in rows:
         k = r.get(key) if key else "TOTAL"
@@ -133,6 +138,8 @@ def aggregate(rows: list[dict[str, Any]], key: str | None = None
         b["spend"] += to_float(r.get("spend"))
         b["impressions"] += to_float(r.get("impressions"))
         b["clicks"] += to_float(r.get("clicks"))
+        b["engaged"] += to_float(r.get("accounts_engaged"))
+        b["followers"] = max(b["followers"], to_float(r.get("followers_count")))
         b["rows"] += 1
     for b in buckets.values():
         b["ctr"] = (b["clicks"] / b["impressions"] * 100) if b["impressions"] else 0.0
@@ -185,6 +192,10 @@ def print_general(rows: list[dict[str, Any]]) -> None:
     print(f"  CTR promedio       : {fmt_pct(totals['ctr'])}")
     print(f"  CPC promedio       : {fmt_money(totals['cpc'])}")
     print(f"  CPM promedio       : {fmt_money(totals['cpm'])}")
+    if totals["engaged"] > 0:
+        print(f"  Cuentas alcanzadas : {fmt_int(totals['engaged'])}")
+    if totals["followers"] > 0:
+        print(f"  Seguidores         : {fmt_int(totals['followers'])}")
 
 
 def print_by_campaign(rows: list[dict[str, Any]]) -> None:
@@ -276,10 +287,9 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Análisis de Facebook Ads vía Windsor.ai")
     p.add_argument("--api-key", default=os.environ.get("WINDSOR_API_KEY", DEFAULT_API_KEY),
                    help="API key de Windsor (o env WINDSOR_API_KEY)")
-    p.add_argument("--accounts", default="",
-                   help="IDs de cuenta separados por coma (formato facebook__XXXX). "
-                        "Si se omite, Windsor trae todas las cuentas conectadas.")
-    p.add_argument("--date-preset", default="last_28d",
+    p.add_argument("--accounts", default=",".join(DEFAULT_ACCOUNTS),
+                   help="IDs de cuenta separados por coma (formato facebook__XXXX).")
+    p.add_argument("--date-preset", default="last_30d",
                    help="Preset de Windsor: last_7d, last_14d, last_28d, last_30d, ...")
     p.add_argument("--date-from", help="Fecha inicio YYYY-MM-DD (anula --date-preset)")
     p.add_argument("--date-to", help="Fecha fin YYYY-MM-DD (anula --date-preset)")
