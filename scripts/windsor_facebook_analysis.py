@@ -141,6 +141,30 @@ def aggregate(rows: list[dict[str, Any]], key: str | None = None
     return buckets
 
 
+def print_diagnostico(rows: list[dict[str, Any]]) -> None:
+    section("CUENTAS Y PLATAFORMAS CONECTADAS EN WINDSOR")
+    by_ds = aggregate(rows, key="datasource")
+    ordered = sorted(by_ds.items(), key=lambda kv: kv[1]["spend"], reverse=True)
+
+    ds_w = max(14, max(len(k) for k, _ in ordered))
+    header = f"  {'Plataforma':<{ds_w}}  {'Gasto':>10}  {'Impr.':>10}  {'Clics':>8}  Estado"
+    print(header)
+    print("  " + hr("─", len(header) - 2))
+    for name, m in ordered:
+        tiene_datos = m["spend"] > 0 or m["impressions"] > 0 or m["clicks"] > 0
+        estado = "✓ con datos" if tiene_datos else "⚠ sin datos"
+        print(
+            f"  {name:<{ds_w}}  {fmt_money(m['spend']):>10}  "
+            f"{fmt_int(m['impressions']):>10}  {fmt_int(m['clicks']):>8}  {estado}"
+        )
+
+    has_fb = any("facebook" in k.lower() or "meta" in k.lower() for k in by_ds)
+    if not has_fb:
+        print()
+        print("  ⚠  Facebook/Meta Ads NO está conectado en Windsor.")
+        print("     → Conectalo en: https://onboard.windsor.ai")
+
+
 def print_general(rows: list[dict[str, Any]]) -> None:
     section("MÉTRICAS GENERALES")
     if not rows:
@@ -293,26 +317,28 @@ def main() -> None:
         print(json.dumps(rows, indent=2, ensure_ascii=False))
         return
 
-    fb_rows = keep_facebook(rows)
-    if not fb_rows:
+    if not rows:
         print()
-        print("  [aviso] La respuesta no contiene filas de Facebook/Meta.")
-        print(f"  Filas totales recibidas: {len(rows)}")
-        if rows:
-            sources = sorted({(r.get('datasource') or r.get('source') or '?') for r in rows})
-            print(f"  Datasources presentes : {', '.join(sources)}")
-            print()
-            print("  Tip: corré con --raw para ver el JSON completo de Windsor.")
-        else:
-            print()
-            print("  Windsor devolvió una lista vacía. Posibles causas:")
-            print("   · No hay datos en el rango de fechas seleccionado.")
-            print("   · Probá --raw para ver la respuesta cruda de Windsor.")
+        print("  Windsor devolvió una lista vacía.")
+        print("  → No hay datos en el rango de fechas seleccionado.")
+        print("  → Conectá tus cuentas en: https://onboard.windsor.ai")
         return
 
-    print_general(fb_rows)
-    print_by_campaign(fb_rows)
-    print_temporal(fb_rows)
+    print_diagnostico(rows)
+
+    fb_rows = keep_facebook(rows)
+    if fb_rows:
+        print_general(fb_rows)
+        print_by_campaign(fb_rows)
+        print_temporal(fb_rows)
+    else:
+        section("FACEBOOK / META ADS")
+        print("  ⚠  No hay datos de Facebook/Meta en Windsor.")
+        print()
+        print("  Para conectar tus cuentas de Facebook Ads:")
+        print("    1. Entrá a https://onboard.windsor.ai")
+        print("    2. Seleccioná 'Facebook Ads' o 'Meta Ads'")
+        print("    3. Autorizá las cuentas y volvé a correr el script")
     print()
 
 
