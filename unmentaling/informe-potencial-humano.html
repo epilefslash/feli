@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informe de Potencial Humano — Tetu · Unmentaling®</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+  :root {
+    --ink: #1a1208;
+    --paper: #f5f0e8;
+    --gold: #c8922a;
+    --rust: #8b3a1a;
+    --sage: #4a5e3a;
+    --sage-light: #7a9464;
+    --cream: #faf6ee;
+    --border: rgba(26,18,8,0.14);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { background: #2a2218; }
+  body {
+    background: #2a2218;
+    color: #1a1208;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-size: 11.5px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- Paged A4 layout: 14 hojas ---------- */
+  @page { size: A4; margin: 0; }
+  .sheet {
+    position: relative;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 19mm 17mm 15mm;
+    margin: 0 auto;
+    background: #f5f0e8;
+    page-break-after: always;
+    break-after: page;
+    display: flex;
+    flex-direction: column;
+  }
+  .sheet:last-child { page-break-after: auto; }
+  @media screen {
+    body { padding: 28px 0; }
+    .sheet { margin: 0 auto 26px; box-shadow: 0 10px 40px rgba(0,0,0,0.4); }
+  }
+
+  .sheet-foot {
+    margin-top: auto;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(26,18,8,0.32);
+    border-top: 1px solid rgba(26,18,8,0.1);
+  }
+  .sheet-foot span { color: var(--gold); }
+
+  .kicker {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 7px;
+  }
+  .sheet h2.title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.12;
+    margin-bottom: 6px;
+  }
+  .sheet h2.title em { font-style: italic; color: var(--gold); }
+  .lead {
+    font-size: 12px;
+    color: rgba(26,18,8,0.62);
+    max-width: 600px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+  }
+  .rule { height: 1px; background: rgba(26,18,8,0.13); margin: 14px 0 20px; }
+
+  /* ---------- COVER (sheet 1) ---------- */
+  .cover { background: #1a1208; justify-content: center; }
+  .cover .c-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 38px;
+  }
+  .cover .c-name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 92px;
+    line-height: 0.96;
+    color: var(--paper);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .cover .c-slogan {
+    margin-top: 20px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 15px;
+    letter-spacing: 0.005em;
+    color: rgba(245,240,232,0.62);
+    white-space: nowrap;
+  }
+  .cover .c-anchor {
+    margin-top: 34px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    align-self: flex-start;
+    background: rgba(200,146,42,0.1);
+    border: 1px solid rgba(200,146,42,0.4);
+    border-radius: 40px;
+    padding: 9px 20px 9px 16px;
+  }
+  .c-anchor .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 12px rgba(200,146,42,0.8); }
+  .c-anchor .a-lab { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(245,240,232,0.5); }
+  .c-anchor .a-val { font-family: 'Playfair Display', serif; font-style: italic; font-size: 18px; color: var(--gold); }
+  .c-anchor .a-sub { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(245,240,232,0.42); border-left: 1px solid rgba(245,240,232,0.2); padding-left: 12px; }
+  .cover .c-foot {
+    margin-top: auto;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.34);
+  }
+  .cover .c-foot span { color: var(--gold); }
+
+  /* ---------- BUTTONS (sheet 2) ---------- */
+  .choices { display: flex; flex-direction: column; gap: 15px; }
+  .cgroup { }
+  .cgroup-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .cgroup-head .gnum {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+  }
+  .cgroup-head .gname {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+  }
+  .cgroup-head .gdesc {
+    font-family: 'DM Mono', monospace;
+    font-size: 8.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(26,18,8,0.4);
+  }
+  .btns { display: flex; flex-wrap: wrap; gap: 7px; }
+  .btn {
+    background: var(--cream);
+    border: 1px solid rgba(26,18,8,0.16);
+    border-radius: 7px;
+    padding: 7px 12px 8px;
+    min-width: 96px;
+  }
+  .btn .bcap {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    font-size: 7.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(26,18,8,0.4);
+    margin-bottom: 1px;
+  }
+  .btn .bval { font-size: 12.5px; font-weight: 500; color: var(--ink); }
+  /* identidad triad — filled accent chips */
+  .btn.ser { background: #1a1208; border-color: #1a1208; }
+  .btn.ser .bcap { color: rgba(245,240,232,0.42); }
+  .btn.ser .bval { color: var(--gold); }
+  .btn.hacer { background: #2e1f0a; border-color: #2e1f0a; }
+  .btn.hacer .bcap { color: rgba(245,240,232,0.42); }
+  .btn.hacer .bval { color: #e0b863; }
+  .btn.valor { background: #3a2a12; border-color: #3a2a12; }
+  .btn.valor .bcap { color: rgba(245,240,232,0.42); }
+  .btn.valor .bval { color: #efd9a6; }
+  .btn.estado { background: var(--gold); border-color: var(--gold); }
+  .btn.estado .bcap { color: rgba(26,18,8,0.5); }
+  .btn.estado .bval { color: #1a1208; font-weight: 600; }
+  .equal-note {
+    margin-top: 4px;
+    background: rgba(74,94,58,0.07);
+    border-left: 3px solid var(--sage-light);
+    border-radius: 0 6px 6px 0;
+    padding: 9px 13px;
+    font-size: 10.5px;
+    color: rgba(26,18,8,0.66);
+    line-height: 1.55;
+  }
+  .equal-note strong { color: var(--sage); font-weight: 600; }
+
+  /* ---------- ESTADO (sheet 3) ---------- */
+  .estado-hero {
+    background: linear-gradient(135deg, #1a1208 0%, #2c1a08 100%);
+    border-radius: 14px;
+    padding: 26px 30px;
+    color: var(--paper);
+    margin-bottom: 16px;
+  }
+  .estado-hero .eh-top { display: flex; align-items: baseline; gap: 14px; margin-bottom: 16px; }
+  .estado-hero .eh-name { font-family: 'Playfair Display', serif; font-size: 34px; color: var(--gold); }
+  .estado-hero .eh-tag { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(245,240,232,0.5); }
+  .estado-cols { display: flex; gap: 0; }
+  .estado-col { flex: 1; padding: 0 18px; border-right: 1px solid rgba(245,240,232,0.13); }
+  .estado-col:first-child { padding-left: 0; }
+  .estado-col:last-child { border-right: none; padding-right: 0; }
+  .estado-col .ec-lab { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(200,146,42,0.85); margin-bottom: 6px; }
+  .estado-col .ec-body { font-size: 11px; line-height: 1.55; color: rgba(245,240,232,0.7); }
+  .pot-box { display: flex; gap: 0; border: 1px solid rgba(26,18,8,0.14); border-radius: 12px; overflow: hidden; }
+  .pot-col { flex: 1; padding: 18px 20px; border-right: 1px solid rgba(26,18,8,0.1); background: var(--cream); }
+  .pot-col:last-child { border-right: none; }
+  .pot-col .pc-lab { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 5px; }
+  .pot-col .pc-tit { font-family: 'Playfair Display', serif; font-size: 16px; margin-bottom: 7px; }
+  .pot-col .pc-body { font-size: 10.5px; color: rgba(26,18,8,0.68); line-height: 1.55; }
+
+  /* ---------- IDENTITY SYSTEM (sheet 4) ---------- */
+  .id-grid { display: flex; gap: 0; border: 1px solid rgba(26,18,8,0.14); border-radius: 12px; overflow: hidden; margin-bottom: 16px; }
+  .id-col { flex: 1; padding: 20px 22px; border-right: 1px solid rgba(26,18,8,0.1); }
+  .id-col:last-child { border-right: none; }
+  .id-col.ser { background: #1a1208; }
+  .id-col.hacer { background: #2e1f0a; }
+  .id-col.valor { background: #3a2a12; }
+  .id-col .icl { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 5px; }
+  .id-col .ict { font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px; color: rgba(245,240,232,0.55); margin-bottom: 12px; }
+  .id-col .icw { display: flex; flex-direction: column; gap: 4px; }
+  .id-col .icw span { font-size: 15px; font-weight: 500; color: var(--paper); }
+  .areas { display: flex; gap: 10px; }
+  .area-card { flex: 1; background: var(--cream); border: 1px solid rgba(26,18,8,0.14); border-top: 3px solid var(--gold); border-radius: 0 0 10px 10px; padding: 15px 16px; }
+  .area-card .ac-lab { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+  .area-card h4 { font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 400; margin-bottom: 6px; }
+  .area-card p { font-size: 10.5px; color: rgba(26,18,8,0.66); line-height: 1.5; }
+
+  /* ---------- CRUCES (sheets 5-10) ---------- */
+  .sheet h2.title.sm { font-size: 22px; }
+  .cruce {
+    background: var(--cream);
+    border: 1px solid rgba(26,18,8,0.14);
+    border-radius: 11px;
+    padding: 17px 20px 16px;
+    margin-bottom: 13px;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .cruce:last-child { margin-bottom: 0; }
+  .cruce-head { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 9px; }
+  .cruce-badge {
+    flex-shrink: 0;
+    background: #1a1208;
+    color: var(--gold);
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    padding: 4px 9px;
+    border-radius: 4px;
+    margin-top: 2px;
+  }
+  .cruce-head h3 { font-family: 'Playfair Display', serif; font-size: 16.5px; font-weight: 400; line-height: 1.15; }
+  .cruce-head .archetype { color: var(--rust); font-style: italic; }
+  .cruce-head .csub { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.04em; color: rgba(26,18,8,0.45); margin-top: 2px; }
+  .cruce-body p { font-size: 11px; line-height: 1.6; color: rgba(26,18,8,0.8); margin-bottom: 8px; }
+  .cruce-body p:last-child { margin-bottom: 0; }
+  .cruce-body strong { font-weight: 600; color: var(--ink); }
+  .cruce-body em { font-style: italic; color: var(--rust); }
+  .sugg {
+    margin-top: 11px;
+    background: rgba(74,94,58,0.07);
+    border-left: 3px solid var(--sage-light);
+    border-radius: 0 6px 6px 0;
+    padding: 10px 14px;
+  }
+  .sugg-lab { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sage); margin-bottom: 6px; font-weight: 500; }
+  .sugg ul { list-style: none; }
+  .sugg li { position: relative; padding: 2.5px 0 2.5px 15px; font-size: 10.5px; line-height: 1.5; color: rgba(26,18,8,0.72); }
+  .sugg li::before { content: '→'; position: absolute; left: 0; color: var(--sage-light); font-size: 10px; }
+
+  /* ---------- SUPERPODER (sheet 11) ---------- */
+  .super {
+    background: linear-gradient(140deg, #1a1208 0%, #2c1a08 55%, #1a1208 100%);
+    border-radius: 16px;
+    padding: 34px 36px;
+    color: var(--paper);
+    position: relative;
+    overflow: hidden;
+  }
+  .super::before { content: ''; position: absolute; top: -50px; right: -50px; width: 220px; height: 220px; background: radial-gradient(circle, rgba(200,146,42,0.18) 0%, transparent 70%); border-radius: 50%; }
+  .super .s-lab { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+  .super .s-title { font-family: 'Playfair Display', serif; font-size: 30px; line-height: 1.18; margin-bottom: 18px; }
+  .super .s-title em { font-style: italic; color: var(--gold); }
+  .super .s-body { font-size: 12.5px; line-height: 1.75; color: rgba(245,240,232,0.78); max-width: 660px; position: relative; }
+  .super .s-body em { color: #f0dcae; font-style: italic; }
+  .super .s-body strong { color: var(--paper); font-weight: 500; }
+  .super .s-quote { margin-top: 22px; padding-top: 18px; border-top: 1px solid rgba(245,240,232,0.16); font-family: 'Playfair Display', serif; font-style: italic; font-size: 17px; color: var(--gold); line-height: 1.4; }
+
+  /* ---------- ORIENTACIÓN (sheet 12) ---------- */
+  .ori-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+  .ori-card { flex: 1 1 44%; background: var(--cream); border: 1px solid rgba(26,18,8,0.14); border-radius: 11px; padding: 17px 19px; }
+  .ori-card .oc-type { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+  .ori-card h4 { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 400; margin-bottom: 8px; }
+  .ori-card p { font-size: 10.5px; color: rgba(26,18,8,0.68); line-height: 1.5; margin-bottom: 8px; }
+  .ori-card ul { list-style: none; }
+  .ori-card li { position: relative; padding: 2px 0 2px 13px; font-size: 10.5px; color: rgba(26,18,8,0.66); line-height: 1.45; }
+  .ori-card li::before { content: '·'; position: absolute; left: 2px; color: var(--gold); font-size: 15px; line-height: 1; }
+
+  /* ---------- ALERTAS (sheet 13) ---------- */
+  .alert-banner {
+    display: flex; align-items: center; gap: 12px;
+    background: rgba(139,58,26,0.07);
+    border: 1px solid rgba(139,58,26,0.2);
+    border-radius: 10px;
+    padding: 12px 16px; margin-bottom: 14px;
+  }
+  .alert-banner .ab-mark { font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--rust); }
+  .alert-banner p { font-size: 10.5px; color: rgba(26,18,8,0.66); line-height: 1.5; }
+  .warn {
+    display: flex; gap: 13px;
+    background: rgba(139,58,26,0.05);
+    border: 1px solid rgba(139,58,26,0.13);
+    border-left: 3px solid var(--rust);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px; margin-bottom: 9px;
+    page-break-inside: avoid; break-inside: avoid;
+  }
+  .warn .wn { flex-shrink: 0; font-family: 'DM Mono', monospace; font-size: 11px; color: var(--rust); font-weight: 500; margin-top: 1px; }
+  .warn p { font-size: 10.5px; line-height: 1.52; color: rgba(26,18,8,0.74); }
+  .warn strong { color: var(--rust); font-weight: 600; }
+  .warn em { font-style: italic; color: rgba(26,18,8,0.55); }
+
+  /* ---------- PASOS (sheet 14) ---------- */
+  .step { display: flex; gap: 13px; margin-bottom: 10px; align-items: flex-start; page-break-inside: avoid; }
+  .step .sn { flex-shrink: 0; width: 26px; height: 26px; background: #1a1208; color: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'DM Mono', monospace; font-size: 10px; margin-top: 1px; }
+  .step .sb h4 { font-weight: 600; font-size: 11.5px; margin-bottom: 2px; }
+  .step .sb p { font-size: 10.5px; color: rgba(26,18,8,0.66); line-height: 1.5; }
+  .closing { margin-top: 16px; background: linear-gradient(135deg, #1a1208, #2c1a08); border-radius: 12px; padding: 22px 26px; color: var(--paper); }
+  .closing .cl-lab { font-family: 'DM Mono', monospace; font-size: 8.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+  .closing p { font-size: 12px; line-height: 1.65; color: rgba(245,240,232,0.8); }
+  .closing p em { font-style: italic; color: #f0dcae; }
+</style>
+</head>
+<body>
+
+<!-- ============ HOJA 1 · PORTADA ============ -->
+<section class="sheet cover">
+  <div class="c-label">Informe de Potencial Humano · Unmentaling®</div>
+  <div class="c-name">Tetu</div>
+  <div class="c-slogan">«La que aviva lo que ya tiene brasa: desde el margen, de noche y en silencio.»</div>
+  <div class="c-anchor">
+    <span class="dot"></span>
+    <span class="a-lab">Estado actual</span>
+    <span class="a-val">Expansión</span>
+    <span class="a-sub">Potencial humano</span>
+  </div>
+  <div class="c-foot">Edición personal · Junio 2026 · Te habla la voz de <span>Unmentaling</span></div>
+</section>
+
+<!-- ============ HOJA 2 · TUS ELECCIONES (BOTONES) ============ -->
+<section class="sheet">
+  <div class="kicker">02 · Punto de partida</div>
+  <h2 class="title">Todo lo que elegiste, <em>en un solo mapa</em></h2>
+  <p class="lead">Antes de cruzar nada, mirá el tablero completo. Cada botón es una elección tuya. Tu <strong>estado</strong> queda anclado arriba, cerca de tu nombre, porque es el “dónde estás parada hoy”. El resto convive acá, a la misma altura.</p>
+
+  <div class="choices">
+    <div class="cgroup">
+      <div class="cgroup-head"><span class="gnum">●</span><span class="gname">Estado</span><span class="gdesc">Dónde estás hoy</span></div>
+      <div class="btns">
+        <div class="btn estado"><span class="bcap">Estado personal</span><span class="bval">Expansión</span></div>
+      </div>
+    </div>
+
+    <div class="cgroup">
+      <div class="cgroup-head"><span class="gnum">A</span><span class="gname">Intereses</span><span class="gdesc">El qué y el dónde · contexto</span></div>
+      <div class="btns">
+        <div class="btn"><span class="bcap">Dimensión social</span><span class="bval">Potencialidad</span></div>
+        <div class="btn"><span class="bcap">Dimensión personal</span><span class="bval">Identidad</span></div>
+        <div class="btn"><span class="bcap">Contexto</span><span class="bval">Naturaleza</span></div>
+        <div class="btn"><span class="bcap">Estilo</span><span class="bval">Under</span></div>
+        <div class="btn"><span class="bcap">Actividad</span><span class="bval">Nocturna</span></div>
+        <div class="btn"><span class="bcap">Estímulo</span><span class="bval">Silencio</span></div>
+      </div>
+    </div>
+
+    <div class="cgroup">
+      <div class="cgroup-head"><span class="gnum">B</span><span class="gname">Mecanismos</span><span class="gdesc">El cómo · procesamiento</span></div>
+      <div class="btns">
+        <div class="btn"><span class="bcap">Información</span><span class="bval">Mucho en poco</span></div>
+        <div class="btn"><span class="bcap">Aprendizaje</span><span class="bval">Práctico</span></div>
+        <div class="btn"><span class="bcap">Reacción</span><span class="bval">Emocional</span></div>
+        <div class="btn"><span class="bcap">Perspectiva</span><span class="bval">Macro</span></div>
+        <div class="btn"><span class="bcap">Recarga</span><span class="bval">Introvertida</span></div>
+        <div class="btn"><span class="bcap">Herramientas</span><span class="bval">Analógico</span></div>
+        <div class="btn"><span class="bcap">Producción</span><span class="bval">Puertas afuera</span></div>
+      </div>
+    </div>
+
+    <div class="cgroup">
+      <div class="cgroup-head"><span class="gnum">C</span><span class="gname">Posicionamiento social</span><span class="gdesc">El quién · cómo te parás</span></div>
+      <div class="btns">
+        <div class="btn"><span class="bcap">Productividad</span><span class="bval">Con un otro</span></div>
+        <div class="btn"><span class="bcap">Interacción</span><span class="bval">Hablar</span></div>
+        <div class="btn"><span class="bcap">Público</span><span class="bval">Jóvenes</span></div>
+        <div class="btn"><span class="bcap">Rol social</span><span class="bval">Mentora</span></div>
+        <div class="btn"><span class="bcap">Habilidad innata</span><span class="bval">Creativa</span></div>
+        <div class="btn"><span class="bcap">Predisposición</span><span class="bval">Adelante</span></div>
+      </div>
+    </div>
+
+    <div class="cgroup">
+      <div class="cgroup-head"><span class="gnum">+</span><span class="gname">Esencia · Carácter · Impronta</span><span class="gdesc">Tu identidad de base</span></div>
+      <div class="btns">
+        <div class="btn ser"><span class="bcap">Esencia · ser</span><span class="bval">Elocuente</span></div>
+        <div class="btn ser"><span class="bcap">Esencia · ser</span><span class="bval">Resolutiva</span></div>
+        <div class="btn ser"><span class="bcap">Esencia · ser</span><span class="bval">Comunicadora</span></div>
+        <div class="btn valor"><span class="bcap">Carácter · valor</span><span class="bval">Respeto</span></div>
+        <div class="btn valor"><span class="bcap">Carácter · valor</span><span class="bval">Amor</span></div>
+        <div class="btn valor"><span class="bcap">Carácter · valor</span><span class="bval">Validación</span></div>
+        <div class="btn hacer"><span class="bcap">Impronta · hacer</span><span class="bval">Dirección</span></div>
+        <div class="btn hacer"><span class="bcap">Impronta · hacer</span><span class="bval">Innovación</span></div>
+        <div class="btn hacer"><span class="bcap">Impronta · hacer</span><span class="bval">Excelencia</span></div>
+      </div>
+    </div>
+
+    <div class="equal-note">A lo largo de todo este informe, tus <strong>Intereses</strong>, tus <strong>Mecanismos</strong> y tu <strong>Posicionamiento social</strong> pesan exactamente lo mismo. Ninguna de las tres áreas manda sobre las otras: son tres caras de la misma decisión. Por eso vas a ver los doce cruces con un único formato y un mismo tamaño.</div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>02 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 3 · ESTADO ============ -->
+<section class="sheet">
+  <div class="kicker">03 · Tu estado de potencial humano</div>
+  <h2 class="title">Estás en <em>Expansión</em></h2>
+  <p class="lead">Esto no es una etiqueta vocacional: es la lectura de tu potencial humano hoy. Expansión es el estado de alineación, donde tus ejes y tu tarea por fin coinciden y la energía fluye sin fricción.</p>
+
+  <div class="estado-hero">
+    <div class="eh-top"><span class="eh-name">Expansión</span><span class="eh-tag">Flujo · Maestría integrada · Impacto escalable</span></div>
+    <div class="estado-cols">
+      <div class="estado-col">
+        <div class="ec-lab">Cómo se reconoce</div>
+        <div class="ec-body">Sentís flujo y alineación. Hay maestría integrada y un sentido de propósito que no tenés que forzar. El impacto sale natural y, sobre todo, es escalable.</div>
+      </div>
+      <div class="estado-col">
+        <div class="ec-lab">Cómo habitarlo</div>
+        <div class="ec-body">Sincronía máxima. Tu tarea ahora es disfrutar el alto rendimiento y la ausencia de fricción, sin sabotearlo con la vieja costumbre de complicar lo que ya funciona.</div>
+      </div>
+      <div class="estado-col">
+        <div class="ec-lab">Cómo escalarlo</div>
+        <div class="ec-body">Escalá proyecciones. Forjá charlas de sintonía, proponé proyectos de mayor alcance y buscá desafíos nuevos. La expansión se sostiene creciendo, no quedándote.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="rule"></div>
+  <div class="kicker" style="margin-bottom:12px;">Lo que disponés · querés · podés</div>
+  <div class="pot-box">
+    <div class="pot-col">
+      <div class="pc-lab">Lo que disponés</div>
+      <div class="pc-tit">Tu capital de hoy</div>
+      <div class="pc-body">Identidad consolidada, talento creativo maduro y un rol de mentora ya activo. Ritmo nocturno claro, estética under genuina, el silencio como infraestructura y la palabra como herramienta de alto impacto.</div>
+    </div>
+    <div class="pot-col">
+      <div class="pc-lab">Lo que querés</div>
+      <div class="pc-tit">Tu dirección elegida</div>
+      <div class="pc-body">Expandirte de adentro hacia afuera. Innovar en formatos. Hablar en los contextos que te necesitan. Que te encuentren quienes comparten tu frecuencia. Impactar con excelencia desde los márgenes.</div>
+    </div>
+    <div class="pot-col">
+      <div class="pc-lab">Lo que podés</div>
+      <div class="pc-tit">Tu capacidad real</div>
+      <div class="pc-body">Activar el potencial latente en jóvenes con base. Hablar con una densidad que reordena. Crear metodologías desde tu propia experiencia. Diseñar de noche en silencio y desplegar de día en el campo.</div>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>03 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 4 · SISTEMA IDENTITARIO ============ -->
+<section class="sheet">
+  <div class="kicker">04 · Tu identidad de base</div>
+  <h2 class="title">Esencia, carácter e impronta: <em>un solo sistema</em></h2>
+  <p class="lead">Antes de los cruces, fijá el suelo. Tu esencia es lo que sos, tu carácter es lo que sostenés y tu impronta es cómo hacés. Nueve palabras que no son atributos sueltos: cuando estás en tu mejor versión, los tres niveles trabajan a la vez.</p>
+
+  <div class="id-grid">
+    <div class="id-col ser">
+      <div class="icl">Esencia · formas de ser</div>
+      <div class="ict">Lo que sos</div>
+      <div class="icw"><span>Elocuente</span><span>Resolutiva</span><span>Comunicadora</span></div>
+    </div>
+    <div class="id-col valor">
+      <div class="icl">Carácter · valores</div>
+      <div class="ict">Lo que sostenés</div>
+      <div class="icw"><span>Respeto</span><span>Amor</span><span>Validación</span></div>
+    </div>
+    <div class="id-col hacer">
+      <div class="icl">Impronta · formas de hacer</div>
+      <div class="ict">Cómo actuás</div>
+      <div class="icw"><span>Dirección</span><span>Innovación</span><span>Excelencia</span></div>
+    </div>
+  </div>
+
+  <p class="lead" style="max-width:none;margin-bottom:14px;">Sobre ese suelo apoyás tres áreas de elección que valen lo mismo. Cada cruce que viene combina elecciones de estas tres áreas —nunca una por encima de otra— para mostrarte una función concreta de tu potencial.</p>
+
+  <div class="areas">
+    <div class="area-card">
+      <div class="ac-lab">Área A · Intereses</div>
+      <h4>Qué te mueve y dónde</h4>
+      <p>Potencialidad e Identidad, en la naturaleza, desde lo under, en ritmo nocturno y con el silencio como suelo. Tu “hacia dónde mirás”.</p>
+    </div>
+    <div class="area-card">
+      <div class="ac-lab">Área B · Mecanismos</div>
+      <h4>Cómo procesás</h4>
+      <p>Mucho en poco, práctica antes que teoría, respuesta emocional, mirada macro, recarga introvertida, herramientas analógicas y producción en campo. Tu “cómo lo hacés”.</p>
+    </div>
+    <div class="area-card">
+      <div class="ac-lab">Área C · Posicionamiento</div>
+      <h4>Cómo te parás ante otros</h4>
+      <p>De a dos, hablando, con jóvenes, desde el rol de mentora, con talento creativo y empuje hacia adelante. Tu “cómo te ubicás en lo social”.</p>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>04 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 5 · CRUCES 1-2 ============ -->
+<section class="sheet">
+  <div class="kicker">05 · Los doce cruces · 1—2</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+  <p class="lead">Cada cruce combina elecciones de tus tres áreas y te devuelve una función de identidad. Todos vienen con el mismo formato: una <strong>descripción</strong> de lo que sos en ese cruce y <strong>sugerencias</strong> para moverte.</p>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 1</div>
+      <div>
+        <h3>Ecosistema vital — <span class="archetype">La Habitante Eficiente</span></h3>
+        <div class="csub">Recarga introvertida · Contexto naturaleza · Producción en campo</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu motor energético es nítido: te recargás hacia adentro, en la naturaleza, y producís puertas afuera, en el territorio. Tu ciclo sano es de dos tiempos: <strong>día en campo</strong> (cuerpo, jóvenes, territorio) y <strong>noche en silencio</strong> (creación, diseño, integración). No son dos vidas: son las dos fases de un mismo día completo.</p>
+      <p>Tu riesgo de burnout más alto no es trabajar de más: es <em>la invasión de tu tiempo de recuperación</em>. Cuando lo social te come la noche o te saca de la naturaleza, te quedás sin combustible aunque el reloj diga que descansaste.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Diseñá tu semana con bloques de campo (mañana/tarde) y bloques de profundidad nocturna. Ninguno reemplaza al otro.</li>
+        <li>Pisá naturaleza al menos una vez por semana: es infraestructura de recarga, no un premio.</li>
+        <li>Poné una regla de corte de ruido (digital y social) antes de abrir el bloque profundo de la noche.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 2</div>
+      <div>
+        <h3>Traducción de valor — <span class="archetype">La Comunicadora de Impacto</span></h3>
+        <div class="csub">Habilidad creativa · Público jóvenes · Interacción hablar · Estilo under</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu talento creativo necesita un puente para que el otro lo reciba. Ese puente es <strong>la palabra directa</strong>, sin mediación institucional, desde una postura under. Tu zona de mayor impacto es el uno a uno o el grupo chico: ahí tu creatividad se traduce sin perderse.</p>
+      <p>Los formatos masivos o digitales no son el origen de tu valor: son amplificadores de algo que <em>primero ocurrió en pequeño</em>. Cuando invertís el orden, el mensaje se diluye.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Priorizá formatos donde puedas hablar en profundidad: charlas chicas, talleres de hasta 15, diálogos de nicho.</li>
+        <li>Si hacés contenido digital, derivalo de lo que ya dijiste en vivo. Tu palabra viva siempre va primero.</li>
+        <li>Elegí canales coherentes con lo under: el espacio cultural, la radio comunitaria, el campamento.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>05 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 6 · CRUCES 3-4 ============ -->
+<section class="sheet">
+  <div class="kicker">06 · Los doce cruces · 3—4</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 3</div>
+      <div>
+        <h3>Pulso de ejecución — <span class="archetype">La Líder de Trinchera</span></h3>
+        <div class="csub">Predisposición adelante · Reacción emocional · Rol mentora</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Bajo presión, tu combinación <strong>adelante + emocional</strong> te empuja a responder rápido y desde la temperatura del momento. Es una fuerza enorme y, a la vez, tu punto más expuesto: si la crisis te agarra fuera de tu ritmo —temprano, con ruido, sin silencio previo— la reactividad sube.</p>
+      <p>El antídoto es preciso: <em>un minuto de silencio antes de hablar en crisis</em>. No para callarte, sino para que lo que salga tenga dirección y no sea solo emoción. La recuperación después también es nocturna y silenciosa.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Activá el protocolo silencio–habla: 60 segundos de procesamiento interno antes de cualquier intervención verbal.</li>
+        <li>Reconocé cuándo la crisis te llegó en tu horario de menor energía: ahí delegá o postergá si podés.</li>
+        <li>Después de una crisis sostenida: nada de pantallas ni vida social, ciclo de recuperación en silencio.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 4</div>
+      <div>
+        <h3>Arquitectura mental — <span class="archetype">La Procesadora de Soluciones</span></h3>
+        <div class="csub">Aprendizaje mucho en poco · Entendimiento práctico · Perspectiva macro</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu cabeza funciona en una secuencia clara: <strong>inmersión → síntesis → sistema → movimiento</strong>. Absorbés mucho en poco tiempo, entendés haciendo y mirás el mapa completo. Sos de <strong>estrategia macro</strong>, no de detalle micro: tu lugar es el “hacia dónde”, no la perfección de cada pieza.</p>
+      <p>Esa arquitectura rinde al máximo de noche y en silencio. La inmersión es nocturna, la síntesis es silenciosa y el movimiento ocurre de día en campo. No es un capricho de horario: es el orden natural que ya tenés.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Armá sprints de inmersión con preferencia nocturna; dejá las mañanas para integración física y campo.</li>
+        <li>Hacé el diseño de cualquier proceso en tu horario pico, para que su calidad sea la de tu mejor estado.</li>
+        <li>Si te traban en el micro-detalle, buscá un par que ame esa precisión: liberá tu mirada macro.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>06 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 7 · CRUCES 5-6 ============ -->
+<section class="sheet">
+  <div class="kicker">07 · Los doce cruces · 5—6</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 5</div>
+      <div>
+        <h3>Soporte de realidad — <span class="archetype">La Operadora de Medios</span></h3>
+        <div class="csub">Herramientas analógicas · Producción en campo · Estilo under</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Elegís lo <strong>analógico</strong>: cuerpo, cuaderno, presencia, cara a cara. No es nostalgia, es coherencia. Lo under, lo analógico y el campo comparten una misma filosofía: presencia, autenticidad y resistencia a la mediación tecnológica.</p>
+      <p>Eso define tu interfaz con el mundo: tu impacto es <em>de cuerpo</em>, no de escala. Lo digital puede amplificar, pero no puede ser el origen de tu valor sin volverlo frío.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Hacé del soporte físico tu firma: el cuaderno, el espacio, el gesto manual cuentan tanto como el contenido.</li>
+        <li>Usá lo digital solo para amplificar lo que ya pasó en vivo, nunca para reemplazar el contacto.</li>
+        <li>Cuidá la textura analógica de tus procesos: es parte del valor que la gente percibe en vos.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 6</div>
+      <div>
+        <h3>Anclaje de propósito — <span class="archetype">La Agente de Sentido</span></h3>
+        <div class="csub">Dimensión social potencialidad · Dimensión personal identidad · Under · Hablar</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu propósito cruza <strong>Potencialidad</strong> (desarrollo humano) con <strong>Identidad</strong> (quién soy). Trabajás para que otros activen su potencial y se reconozcan, y lo hacés desde los márgenes que las instituciones no alcanzan, con la palabra como herramienta de revelación.</p>
+      <p>Hay muchísimos jóvenes con base que no encuentran su referente en los canales formales. <em>Vos podés ser ese referente en los canales que no lo son.</em> Ese anclaje resiste el paso del tiempo porque describe lo que sos, no lo que está de moda.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Escribí una frase-ancla que incluya el modo: no solo qué hacés, sino desde dónde lo hacés.</li>
+        <li>Buscá comunidades y proyectos que ya operan en los márgenes del sistema formal.</li>
+        <li>Construí tu portafolio en formatos que resuenan con lo under: relatos vivos, no PDF institucional.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>07 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 8 · CRUCES 7-8 ============ -->
+<section class="sheet">
+  <div class="kicker">08 · Los doce cruces · 7—8</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 7</div>
+      <div>
+        <h3>Dinámica vincular — <span class="archetype">El Nodo Cooperativo</span></h3>
+        <div class="csub">Productividad con un otro · Rol mentora · Hablar · Silencio</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Producís mejor en el <strong>uno a uno</strong>: espejo, sintonía, una idea que crece al ser compartida y devuelta. Y lo hacés desde el rol de mentora, no de directora. Tu energía es de rebote, no de masa.</p>
+      <p>La mezcla de hablar + silencio genera un vínculo muy específico: <em>escuchás en silencio lo suficiente para que, cuando hablás, algo cambie de lugar</em>. Tu interlocutora ideal no es la que más habla: es la que también habita el silencio y cuya respuesta, cuando llega, pesa.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Buscá socias o interlocutores que valoren el silencio como parte del diálogo, no que lo llenen por incomodidad.</li>
+        <li>En grupo, decidí a propósito cuándo hablás y cuándo observás: esa alternancia le da peso a tu palabra.</li>
+        <li>Cultivá el vínculo under entre pares: sin protocolo ni rodeos, se construye sólido en menos tiempo.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 8</div>
+      <div>
+        <h3>Crono-potencial — <span class="archetype">La Navegante del Proceso</span></h3>
+        <div class="csub">Estado de potencial humano (Expansión) · Público jóvenes</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Este cruce ubica tu momento. Y acá importa el matiz: tu estado se lee en clave de <strong>potencial humano, no de vocación</strong>. La pregunta no es “qué deberías ser”, sino “para qué estás lista hoy”. Y estás en Expansión: integraste tu maestría y entraste en el momento de <em>transmitir</em>, no de aprender lo básico.</p>
+      <p>Tu lugar en el proceso es enseñar y activar, hacia jóvenes en transición que ya tienen base. No estás para volver al aula: estás para sostener el aula de otros.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Asumí sin culpa el rol de transmisora: dejaste la fase de alumna, estás en la de referente.</li>
+        <li>Elegí jóvenes con base real: con principiantes absolutos terminás haciendo un trabajo que no es el tuyo.</li>
+        <li>Escalá proyecciones: charlas de sintonía y proyectos de mayor alcance, que es como se sostiene la Expansión.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>08 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 9 · CRUCES 9-10 ============ -->
+<section class="sheet">
+  <div class="kicker">09 · Los doce cruces · 9—10</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 9</div>
+      <div>
+        <h3>Vector de empuje — <span class="archetype">El Motor de Iniciativa</span></h3>
+        <div class="csub">Predisposición adelante · Habilidad creativa · Impronta · Hablar</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu fuerza es de <strong>choque, de fuego</strong>: irrumpís, abrís caminos, creás en lugar de reproducir. Con tu talento creativo y la palabra como canal, no esperás permiso ni validación: hablás desde la convicción y desde un lugar que no necesita el centro para tener autoridad.</p>
+      <p>El riesgo es doble: dispersión creativa (muchos frentes a la vez) y <em>dispersión de palabra</em> (hablar mucho en contextos que no lo merecen). Las dos gastan tu capital sin retorno.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Aplicá el criterio “un proyecto emblema” por vez: que respete tu ritmo nocturno y tu estética under.</li>
+        <li>Usá el silencio también en lo público: no publiques seguido, publicá con densidad.</li>
+        <li>Elegí dónde hablás con la misma precisión con que elegís qué decís. No es elitismo: es gestión.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 10</div>
+      <div>
+        <h3>Interfaz de campo — <span class="archetype">La Interventora Local</span></h3>
+        <div class="csub">Contexto naturaleza · Herramientas analógicas · Público jóvenes · Under</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu intervención es física y territorial: campamentos, espacios comunitarios, territorios rurales. Lo under no es decorado, <strong>es la propuesta de valor</strong>: la no-convencionalidad misma es lo que enseña.</p>
+      <p>Hay una jugada que alinea todo: <em>hacer procesos de campo en horario de tarde-noche</em>, cuando el calor y el ruido del día bajan y tu energía sube. Ahí el ecosistema externo se sincroniza con tu ritmo interno.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Buscá activamente proyectos under con jóvenes, fuera del circuito institucional.</li>
+        <li>Documentá tus intervenciones con estética cruda y honesta: eso construye tu capital genuino.</li>
+        <li>Experimentá con procesos que empiecen al atardecer: puede ser tu firma temporal.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>09 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 10 · CRUCES 11-12 ============ -->
+<section class="sheet">
+  <div class="kicker">10 · Los doce cruces · 11—12</div>
+  <h2 class="title sm">Cruces de tu perfil</h2>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 11</div>
+      <div>
+        <h3>Filtro de decisión — <span class="archetype">La Estratega Cognitiva</span></h3>
+        <div class="csub">Reacción emocional · Perspectiva macro · Aprendizaje mucho en poco</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Tu brújula decide mejor <strong>de noche, en silencio, después de procesar adentro</strong>. Las decisiones que tomás temprano, con ruido social o con fatiga del día, tienen más chance de ser reactivas: emoción sin dirección.</p>
+      <p>La regla es simple: las <em>decisiones de trayectoria</em> —las que cambian el rumbo— merecen un ciclo nocturno de silencio antes de ejecutarse. Las urgentes pueden tomarse en cualquier momento; las importantes esperan tu mejor estado.</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Clasificá tus decisiones en “urgentes” y “de trayectoria”. Las segundas siempre esperan a la noche.</li>
+        <li>Aplicá el ritual “noche sobre el papel”: escribí lo que sentís en silencio, cuando la brújula está calibrada.</li>
+        <li>Identificá qué ruido (social, digital, emocional ajeno) te distorsiona más y protegé el ciclo de esa fuente.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cruce">
+    <div class="cruce-head">
+      <div class="cruce-badge">Cruce 12</div>
+      <div>
+        <h3>Síntesis identitaria — <span class="archetype">Tu Identidad Única</span></h3>
+        <div class="csub">Identidad · Capacidad creativa · Esencia · Impronta · (todas tus elecciones)</div>
+      </div>
+    </div>
+    <div class="cruce-body">
+      <p>Acá converge todo. No encendés lo que está apagado: <strong>avivás lo que ya tiene brasa</strong>. Detectás el potencial que ya existe en otro —aunque esa persona todavía no lo vea— y creás las condiciones para que se manifieste. Sos elocuente en el diagnóstico, resolutiva en la acción y comunicadora en la transmisión.</p>
+      <p>Tu superpoder tiene contexto exacto: opera de noche, desde el margen, sostenido en el silencio y desplegado en la palabra. Cuando todo eso converge, <em>no solo acompañás: activás</em>. (En la próxima hoja lo vas a ver en grande.)</p>
+    </div>
+    <div class="sugg">
+      <div class="sugg-lab">Sugerencias</div>
+      <ul>
+        <li>Nombrá tu superpoder en una sola frase y usala como filtro de cada “sí” y cada “no”.</li>
+        <li>Diseñá tu oferta alrededor del verbo “activar”, no “enseñar”: ese matiz es tu diferencia.</li>
+        <li>Medí tu impacto por lo que se enciende en el otro, no por el volumen de lo que producís.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>10 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 11 · SUPERPODER ============ -->
+<section class="sheet">
+  <div class="kicker">11 · Síntesis</div>
+  <h2 class="title">Tu <em>superpoder</em>, en una sola lectura</h2>
+  <p class="lead">Es la consolidación de los doce cruces: lo que te diferencia de cualquier otro perfil con elecciones parecidas.</p>
+
+  <div class="super">
+    <div class="s-lab">Cruce 12 · La Identidad Única</div>
+    <div class="s-title">Activadora nocturna de potencial latente:<br>la que hace arder lo que ya tiene brasa, <em>desde el margen y en silencio</em></div>
+    <div class="s-body">
+      No avivás lo apagado: avivás lo que ya tiene temperatura. Y lo hacés de noche, desde los bordes, después de un silencio que procesa todo lo que el día no pudo. Operás en <strong>ritmo nocturno</strong>, cuando tu cabeza alcanza su mayor profundidad creativa; desde una <strong>estética under</strong>, que te deja conectar con jóvenes que rechazan lo institucional pero necesitan guía genuina; sostenida en el <strong>silencio</strong>, que no es pasividad sino el lugar donde calibrás la brújula; y desplegada en la <strong>palabra</strong> que irrumpe y reordena la realidad del otro. Cuando todo eso converge —el silencio que alimenta, la noche que profundiza, el margen que autentica, la palabra que transforma— no solo acompañás: <em>activás</em>.
+      <div class="s-quote">«Hablás desde el silencio, de noche, desde los márgenes. Cuando esos cuatro elementos están presentes, tu potencial se enciende completo.»</div>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>11 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 12 · ORIENTACIÓN ============ -->
+<section class="sheet">
+  <div class="kicker">12 · Orientación por dimensión</div>
+  <h2 class="title sm">Cómo se traduce esto en tu vida</h2>
+  <p class="lead">Lo mismo que sos, leído en cuatro planos. No son recetas: son direcciones coherentes con todo lo anterior.</p>
+
+  <div class="ori-grid">
+    <div class="ori-card">
+      <div class="oc-type">Personal · vos con vos</div>
+      <h4>Defender tu ecosistema</h4>
+      <p>Reconocé y cuidá tus condiciones de excelencia: noche, silencio, naturaleza, campo, under. No son caprichos.</p>
+      <ul>
+        <li>Sistematizá tu propia historia de aprendizaje y los saltos que ya diste</li>
+        <li>Practicá autovalidación con la misma exigencia que les pedís a tus procesos</li>
+        <li>Protegé el bloque nocturno como tiempo sagrado de trabajo profundo</li>
+      </ul>
+    </div>
+    <div class="ori-card">
+      <div class="oc-type">Social · tu aporte</div>
+      <h4>Operar desde los márgenes</h4>
+      <p>Hacia jóvenes con base, con la palabra y el cuerpo, en espacios no convencionales, convocando por autenticidad.</p>
+      <ul>
+        <li>Sumate a espacios de desarrollo de jóvenes fuera del circuito institucional</li>
+        <li>Hablá en contextos under que resuenan con tu frecuencia genuina</li>
+        <li>Tejé redes con actores del campo social alternativo, cultural y rural</li>
+      </ul>
+    </div>
+    <div class="ori-card">
+      <div class="oc-type">Laboral · cómo generás valor</div>
+      <h4>Autonomía y presencia</h4>
+      <p>Trabajás mejor con autonomía, presencialidad y propósito claro, en horarios que respetan tu ritmo.</p>
+      <ul>
+        <li>Formatos: talleres de tarde-noche, acompañamientos 1 a 1, campamentos, residencias</li>
+        <li>Evitá proyectos que exijan presencia digital masiva u horarios rígidos</li>
+        <li>Diseñá procesos con el silencio integrado como método, no solo como condición tuya</li>
+      </ul>
+    </div>
+    <div class="ori-card">
+      <div class="oc-type">Formativo · cómo seguís aprendiendo</div>
+      <h4>Inmersión, no aula</h4>
+      <p>Aprendés en inmersión, de noche y en silencio cuando procesás, en campo cuando experimentás.</p>
+      <ul>
+        <li>Formaciones intensivas en entornos no convencionales: retiros, workshops under</li>
+        <li>Buscá formadoras que enseñen desde la práctica propia, fuera del sistema académico</li>
+        <li>Armá un círculo de estudio con uno o dos pares: silencio compartido y habla honesta</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>12 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 13 · PUNTOS CRÍTICOS / ALERTAS ============ -->
+<section class="sheet">
+  <div class="kicker">13 · Puntos críticos</div>
+  <h2 class="title sm">Tus alertas</h2>
+  <div class="alert-banner">
+    <span class="ab-mark">¡Alerta!</span>
+    <p>Lo mismo que te hace potente, mal gestionado, te desgasta. Estos siete puntos no son defectos: son los bordes donde tu perfil se expone. Tenelos cerca.</p>
+  </div>
+
+  <div class="warn"><div class="wn">01</div><p><strong>Mentorar sin límites.</strong> Tu rol de mentora, con respuesta emocional alta y un valor profundo de amor, te hace valiosísima para los demás —y te expone a absorber procesos ajenos sin dejar lugar a los propios. El amor sin límites no es virtud: es riesgo.</p></div>
+  <div class="warn"><div class="wn">02</div><p><strong>El nivel mal evaluado.</strong> Tu mayor potencia está con jóvenes de nivel moderado. Con principiantes absolutos hacés trabajo instruccional que no es el tuyo; con quienes ya tienen maestría, sentís que “no hay nada para activar”. Evaluar bien el nivel de entrada es parte de tu oficio.</p></div>
+  <div class="warn"><div class="wn">03</div><p><strong>La introversión invisible.</strong> En campo con jóvenes parecés extrovertida y de alta energía social. Pero tu arquitectura es introvertida. Si no protegés tus espacios de silencio, el desgaste avanza lento y disfrazado de “cansancio pasajero” hasta volverse imposible de ignorar.</p></div>
+  <div class="warn"><div class="wn">04</div><p><strong>La invasión del ciclo nocturno.</strong> <em>Riesgo de alta relevancia.</em> Compromisos sociales, digitales o laborales que ocupan tu franja de mayor rendimiento no te quitan tiempo libre: te quitan tu horario de producción real. La pérdida se acumula sin que se note, porque el día siguiente parece normal mientras la profundidad se erosiona.</p></div>
+  <div class="warn"><div class="wn">05</div><p><strong>La dispersión de palabra.</strong> Hablar es tu herramienta de mayor impacto y tu predisposición “adelante” te empuja a usarla seguido. Hablar mucho en contextos que no lo merecen gasta tu capital comunicacional sin retorno. No todo espacio merece tu palabra: eso no es arrogancia, es cuidado del recurso.</p></div>
+  <div class="warn"><div class="wn">06</div><p><strong>La cooptación de lo under.</strong> En Expansión van a llegar propuestas de instituciones grandes que quieran “incorporar” tu perfil. El riesgo no es colaborar: es la cooptación que borra tu estética y tu postura. Si aceptás sin negociar tu autonomía, terminás operando desde una frecuencia que no es la tuya —y ahí se erosiona tu mayor activo.</p></div>
+  <div class="warn"><div class="wn">07</div><p><strong>La excelencia como exigencia sin fin.</strong> Tu impronta de excelencia puede volverse un estándar imposible que paraliza el lanzamiento. Hay diferencia entre excelencia (compromiso con la calidad) y perfeccionismo (miedo al juicio). Necesitás poder lanzar cosas buenas aunque no sean perfectas, confiando en que tu esencia resolutiva ajusta en el camino.</p></div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling®<span>13 / 14</span></div>
+</section>
+
+<!-- ============ HOJA 14 · PRÓXIMOS PASOS + CIERRE ============ -->
+<section class="sheet">
+  <div class="kicker">14 · Próximos pasos</div>
+  <h2 class="title sm">Por dónde empezar</h2>
+  <p class="lead">Ocho movimientos concretos, ordenados para que cada uno sostenga al siguiente.</p>
+
+  <div class="step"><div class="sn">01</div><div class="sb"><h4>Escribí tu frase-ancla de propósito con todas las capas</h4><p>No solo qué hacés, sino desde dónde y en qué modo. Tu especificidad —under, nocturno, silencio, palabra— es tu diferenciación real.</p></div></div>
+  <div class="step"><div class="sn">02</div><div class="sb"><h4>Protegé tu bloque nocturno como tiempo de trabajo real</h4><p>Calendarizá tu franja de mayor rendimiento como producción profunda. Sin compromisos sociales fijos ni redes sin propósito creativo.</p></div></div>
+  <div class="step"><div class="sn">03</div><div class="sb"><h4>Elegí tres espacios under donde ser visible este trimestre</h4><p>Nada de plataformas masivas: tres lugares físicos o comunidades donde tu frecuencia ya está reunida.</p></div></div>
+  <div class="step"><div class="sn">04</div><div class="sb"><h4>Construí un ritual de silencio previo para cada intervención clave</h4><p>15 a 30 minutos de silencio consciente antes de talleres, charlas o sesiones. Mejora la calidad de tu palabra de forma inmediata.</p></div></div>
+  <div class="step"><div class="sn">05</div><div class="sb"><h4>Definí tu mapa de entrada de público</h4><p>Qué señales concretas te dicen que alguien tiene la base y la frecuencia para trabajar bien con vos. Te ahorra desgaste.</p></div></div>
+  <div class="step"><div class="sn">06</div><div class="sb"><h4>Identificá tu socia o socio estratégico actual</h4><p>¿Con quién producís mejor hoy? Idealmente alguien que valore el silencio y cuya palabra tenga densidad. Si no la tenés, ese es el vínculo más urgente.</p></div></div>
+  <div class="step"><div class="sn">07</div><div class="sb"><h4>Establecé al menos un límite vincular no negociable</h4><p>Una demanda de mentoría o contención que estás dando de más, o que invade tu noche. Ponele un límite claro, una vez, y observá qué pasa.</p></div></div>
+  <div class="step"><div class="sn">08</div><div class="sb"><h4>Revisá este informe en seis meses</h4><p>Guardalo con la fecha de hoy. ¿El ritmo nocturno se consolidó? ¿Los espacios under se multiplicaron? Tu esencia no cambia, pero tu potencial disponible se expande.</p></div></div>
+
+  <div class="closing">
+    <div class="cl-lab">Para cerrar</div>
+    <p>Tetu, nada de esto es para que te conviertas en otra. Es para que dejes de pelearte con lo que ya sos. Tu noche, tu silencio, tu margen y tu palabra no son rarezas a esconder: son tu arquitectura. <em>Habitala con la misma excelencia con que activás a los demás.</em></p>
+  </div>
+
+  <div class="sheet-foot"><span>Tetu</span> · Informe de Potencial Humano · Unmentaling® · Junio 2026<span>14 / 14</span></div>
+</section>
+
+</body>
+</html>
