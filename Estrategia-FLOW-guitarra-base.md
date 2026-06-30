@@ -29,7 +29,7 @@
 | 3 | Análisis solo "Can't Stop" (RHCP) con texto en pantalla | C (solo ajeno) | ✅ Filmado |
 | 4 | "¿Cuántas escalas necesitás para sonar a rock?" (creencia: no necesitás más escalas) | C | ✅ Filmado + EDITADO |
 | 5 | "La pentatónica menor NO es de principiantes" | C | 🎬 A filmar (guion listo) |
-| 6 | "No es el equipo, son los dedos" | C | 🎬 A filmar (guion listo) |
+| 6 | "El equipo no te va a salvar" (SX vs plugin UA, sin tocar mal) | C | 🎬 A filmar (guion listo) |
 | 7 | "20 min vs 4 hs de tutoriales" / "Tocar lento te hace sonar pro" | C | 📝 En el horno |
 
 > Faltan ~9 reels para llegar a 15. Ver sección 9 (mapa de los 15).
@@ -190,8 +190,12 @@ Anuncios → Perfil de Instagram → DMs → Llamada → Venta
 | 0:03–0:09 | "Esto es lo que muchos hacen para 'sonar pro'" | 6 seg de modos raros (notas raras sobre Mm), frío, académico, sin alma |
 | 0:09–0:16 | "Ahora escuchá esto." | Bajás la guitarra, pausa dramática 1 seg en silencio |
 | 0:16–0:32 | "PENTATÓNICA MENOR — nada más" (fijo arriba) | 15 seg licks rockeros en penta menor de Mi, TUYO: bending Re→Mi, vibrato, espacio, cierre |
-| 0:32–0:38 | Lista secuencial (1 seg c/u): "🎸 Whole Lotta Love — Page" / "🎸 Sweet Child — Slash" / "🎸 Voodoo Child — Hendrix" / "🎸 Still Got the Blues — Gary Moore" / "Todos: pentatónica menor." | Tocás suave de cama |
-| 0:38–0:45 | "Lo simple, bien usado, gana. Comentá SOLO 👇" | Frame final, asentís |
+| 0:32–0:38 | Lista secuencial (1 seg c/u): "🎸 Back in Black — Angus Young" / "🎸 Voodoo Child — Hendrix" / "🎸 Walk This Way — Joe Perry" / "🎸 Whole Lotta Love — Page" / "🎸 Parisienne Walkways — Gary Moore" → "Cinco escuelas. Una sola escala." | Tocás suave de cama |
+| 0:38–0:45 | "Comentá PENTA y te paso el mapa de las 5 cajas conectadas 👇" | Frame final, asentís |
+
+> **Lista actualizada a 5 escuelas distintas** (hard rock, psicodélico, rock americano, hard rock británico, blues-rock). El cierre "Cinco escuelas. Una sola escala." pega más que "Todos: pentatónica menor".
+> **CTA con lead magnet:** comentan PENTA → les mandás el "Mapa de las 5 cajas" (YA ESTÁ HECHO: `Mapa-5-cajas-pentatonica.pdf`). Variar la palabra clave por reel (PENTA en #5, SABOR en #6).
+> *Nota fact-check: si querés 100% penta menor pura de Gary Moore usá "Parisienne Walkways" (Still Got the Blues mezcla con menor natural/armónico).*
 
 **El "mal" (7 seg):** notas raras sobre Mi menor (Sib/b5, Reb/b9, Lab), patrones simétricos
 4 notas por cuerda, rápido, sin bending/vibrato/espacio. Energía: "estudiante de Berklee a las 11 PM".
@@ -221,12 +225,13 @@ doble parada tipo Hendrix o bending largo con vibrato. TUYO, improvisado.
 >
 > Mientras vos te frustrás aprendiendo modos griegos, dominantes alteradas, escala disminuida y bebop…
 >
-> 🎯 Jimmy Page grababa *Whole Lotta Love* con pentatónica menor.
-> 🎯 Slash componía la intro de *Sweet Child* con pentatónica menor.
+> 🎯 Angus Young hace volar *Back in Black* con pentatónica menor.
 > 🎯 Hendrix improvisaba *Voodoo Child* con pentatónica menor.
-> 🎯 Gary Moore te hacía llorar en *Still Got the Blues* con pentatónica menor.
+> 🎯 Joe Perry ensucia *Walk This Way* con pentatónica menor.
+> 🎯 Jimmy Page construyó *Whole Lotta Love* con pentatónica menor.
+> 🎯 Gary Moore te hace llorar en *Parisienne Walkways* con pentatónica menor.
 >
-> Cuatro de los más grandes. La misma escala.
+> Cinco escuelas distintas del rock. La misma escala.
 >
 > ¿Por qué? Porque la pentatónica menor no es para principiantes. Es para los que entienden que lo
 > importante no es qué notas tocás, sino CÓMO las tocás.
@@ -240,7 +245,7 @@ doble parada tipo Hendrix o bending largo con vibrato. TUYO, improvisado.
 > Te muestro cómo en mi método. Comentá **SOLO** y te paso info 📩
 
 **Hashtags:**
-`#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #bluesrock #guitarristas #jimmypage #slash #garymoore #hendrix #aprenderguitarra #improvisacion #ledzeppelin`
+`#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #hardrock #bluesrock #guitarristas #angusyoung #hendrix #joeperry #jimmypage #garymoore #aprenderguitarra`
 
 **Notas de edición (estilo que ya venís usando en el #4):**
 - Hook de texto en los primeros 1.5 seg.
@@ -255,64 +260,69 @@ doble parada tipo Hendrix o bending largo con vibrato. TUYO, improvisado.
 
 ---
 
-## 8) GUION VIDEO 6 — "No es el equipo, son los dedos" (versión final, fact-checked)
+## 8) GUION VIDEO 6 — "El equipo no te va a salvar" (versión SX vs plugin, SIN tocar mal)
 
-**Duración:** 35–45 seg · Backing: blues-rock en Mi o La · Tono: honesto/directo (filmá como hablás vos).
+> **Cambio de diseño importante:** la versión vieja pedía tocar "mal" con setup premium, lo cual costaba
+> ejecutar de forma convincente. La nueva NO requiere tocar mal: tocás la MISMA frase con sabor dos veces,
+> con dos equipos distintos (uno humilde, uno profesional). Suena bien las dos veces → el sabor está en
+> los dedos. Argumento más fuerte y más fácil de filmar.
+
+**Duración:** 35–40 seg · Backing: blues-rock en Mi o La · Tono: honesto, tranquilo.
+**Equipo elegido (extremos):** SX 10" microfoneado con SM57 (humilde/analógico) vs plugin premium de
+Universal Audio (profesional/digital). Mismos dedos, misma frase.
 
 | Tiempo | Texto en pantalla | Qué hacés / qué tocás |
 |---|---|---|
-| 0:00–0:04 | "¿Pensás que necesitás mejor equipo para sonar a rock?" | Plano abierto con setup full, mirás cámara |
-| 0:04–0:11 | "Setup premium 💰" | 7 seg lick básico/escolar pero con TODO el gear sonando. Producido pero vacío |
-| 0:11–0:14 | "Más gear ≠ mejor músico." | Apagás visiblemente los pedales/ampli. Pausa 1 seg en silencio |
-| 0:14–0:30 | "Solo dedos." (fijo arriba) | 16 seg TUYO en penta menor: bending sostenido, vibrato, silencio 1 seg, slide, cierre con vibrato. Sonido pelado pero con alma |
-| 0:30–0:38 | Secuencial (2 seg c/u): "🎸 Angus Young — SG + Marshall. Sin pedales." / "🎸 Hendrix — Strato. Page — Telecaster." / "🎸 No es el equipo. Son los dedos." | Tocás suave de cama |
-| 0:38–0:45 | "Comentá SOLO y te muestro cómo se entrena 👇" | Frame final, asentís |
+| 0:00–0:04 | "¿Esperás que un mejor equipo te arregle el solo?" | Plano a cámara |
+| 0:04–0:06 | "Un ampli chico + un micrófono 🎙️" | Mostrás el SX con el SM57 apuntando al parlante |
+| 0:06–0:16 | (sin texto, dejá sonar) | Tocás tu frase con sabor (bending, vibrato, espacio). Suena hermoso |
+| 0:16–0:18 | "Ahora con un equipo profesional 💻" | Cambio a la interfaz / pantalla con el plugin UA |
+| 0:18–0:28 | "Misma frase. Mismos dedos." | Tocás la MISMA frase. Distinto color, igual de bien |
+| 0:28–0:34 | "El equipo cambia el color. El sabor lo ponés vos." | Plano a cámara, asentís |
+| 0:34–0:40 | "Si querés trabajar tu sabor, escribime SABOR 📩" | Frame final |
 
-**Truco visual clave:** el cambio de setup tiene que VERSE al cuadro. Apagás los pedales (o el switch
-del ampli) en cámara entre el "mal" y el "bien". Eso da payoff visual, no solo sonoro.
+**La frase (una sola, calcada las dos veces):** bending Re→Mi sostenido + vibrato amplio, bajadita por
+la caja 1, cierre con vibrato en la tónica. Practicala 5 min antes. Tocás BIEN las dos veces.
 
-**El "mal" (7 seg):** todo el gear (distorsión a tope, reverb largo, delay). Lick penta menor caja 1
-repetitivo: 4 notas → mismas 4 una octava arriba → repetís. Rápido, parejo, sin bending/vibrato.
-
-**El "bien" (16 seg):** setup mínimo (guitarra → ampli limpio/crunch leve, sin pedales, VISIBLE al
-cuadro). Penta menor con sabor: bending Re→Mi o Sol→La, vibrato amplio, silencio 1 seg, frase
-descendente con slide, cierre con vibrato largo en la tónica. Lento, con intención.
-
-**⚠️ FACT-CHECK (aprendido en la auditoría — NO repetir el error):**
-- ❌ NO decir "Hendrix grabó Voodoo Child sin pedalera" → Hendrix usaba Fuzz Face, Octavia, Univibe, Wah.
-- ✅ El argumento correcto es: "el dedo sobre la cuerda importa más que el equipo extra", NO "ellos no
-  usaban pedales".
-- ✅ **Angus Young SÍ es ejemplo real de setup mínimo:** SG + Marshall, sin pedalera. Es la prueba
-  más fuerte para este reel. Por eso va de referente principal.
-- Mark Knopfler toca sin púa y sin distorsión → golpe final del copy.
+**Encuadre clave:**
+- Decir "humilde vs profesional" / "barato vs caro", NO "analógico vs digital" (eso abre debate técnico que desvía).
+- Las dos versiones tienen que sonar BIEN. Ninguna fea. Si el SX te suena berreta, ponele un toque de crunch/EQ.
+- El SM57 apuntando al SX en cámara = oro visual (estética "yo sé lo que hago"). Descartar: Peavey, DI pelado (suena estéril).
 
 **Copy del post (final):**
-> 🎸 Setup premium. Distorsión cara. Pedalera de mil dólares. Guitarra custom.
-> Y aún así, tu solo suena vacío.
+> 🎸 ¿Estás esperando que un mejor equipo te arregle el solo?
 >
-> Te entiendo. Yo también lo creí: "si tuviera un mejor ampli, sonaría como ellos". Y gasté plata.
-> Y seguí sonando igual.
+> Te entiendo. Yo también lo creí: "si tuviera un mejor ampli, sonaría como ellos". Gasté plata. Y seguí sonando igual.
 >
-> Porque el sonido no sale del ampli. Sale de los dedos.
+> Porque el equipo no pone el sabor. El sabor sale de los dedos.
 >
-> Cuando creés que tu problema es el gear, te metés en una trampa carísima: vas a juntar pedales, vas
-> a probar guitarras nuevas, vas a leer reviews en foros… y vas a seguir sonando igual.
+> En este video toco la misma frase dos veces: una con un ampli chico y un micrófono, otra con un equipo
+> profesional carísimo. ¿Sabés qué? Suena bien las dos veces. El equipo cambia el color. El sabor lo pongo yo.
 >
-> El equipo amplifica lo que ya tenés. Si lo que tenés es un solo con sabor, va a sonar tremendo con
-> un ampli de práctica. Si lo que tenés es un lick escolar, va a sonar a lick escolar con el rig de Slash.
+> Cuando creés que tu problema es el gear, te metés en una trampa carísima: juntás pedales, probás violas
+> nuevas, leés reviews en foros… y seguís sonando igual.
 >
 > 🎯 Angus Young — SG + Marshall, sin pedalera. Una vida de pentatónica menor.
-> 🎯 Hendrix — Strato + Marshall. El sonido salía de los dedos, no del rack.
-> 🎯 Jimmy Page — Telecaster + ampli sencillo para *Stairway*. Punto.
 > 🎯 Mark Knopfler — sin púa, sin distorsión. Y nadie suena como él.
 >
-> Lo que tienen ellos no se compra. Está en cómo aprietan la cuerda, cómo manejan el vibrato, cómo
-> dejan respirar la nota. Eso se entrena. Eso es lo que enseño en mi método.
+> Lo que tienen ellos no se compra. Está en cómo aprietan la cuerda, en el vibrato, en dejar respirar la nota. Eso se entrena.
 >
-> Comentá **SOLO** y te paso info 📩
+> Si querés trabajar tu sabor, escribime **SABOR** por DM 📩
 
 **Hashtags:**
-`#guitarra #guitarraelectrica #pentatonica #solodeguitarra #rock #bluesrock #guitarristas #angusyoung #hendrix #jimmypage #knopfler #aprenderguitarra #toneworship #guitartone`
+`#guitarra #guitarraelectrica #pentatonica #solodeguitarra #rock #bluesrock #guitarristas #angusyoung #knopfler #aprenderguitarra #toneworship #guitartone #homestudio`
+
+**⚠️ FACT-CHECK (sigue vigente):** el argumento es "el dedo importa más que el equipo extra", NO "ellos no
+usaban pedales" (Hendrix usaba Fuzz Face, Octavia, Univibe, Wah). Angus Young (SG+Marshall sin pedalera)
+y Knopfler (sin púa/sin distorsión) son los ejemplos blindados.
+
+### Menú de CTAs (rotarlos para no repetir "Comentá SOLO")
+- **Lead magnet (regalo):** "Comentá PENTA y te paso el mapa de las 5 cajas (gratis)" — usado en #5.
+- **Más contenido:** "Comentá ROCK y te mando 3 licks con sabor para practicar".
+- **Curiosidad/método:** "Comentá SABOR y te cuento cómo lo trabajo" — usado en #6.
+- **Pregunta (alcance, sin keyword):** "¿En qué caja vivís? 1, 2, 3, 4 o 5? Contame".
+- **Guardado:** "Guardá esto para la próxima vez que pienses en comprar un pedal 📌".
+- **Estrategia:** variar la palabra clave por reel (PENTA, SABOR, ROCK…) para saber de qué video viene cada DM.
 
 ---
 
@@ -459,7 +469,7 @@ El riser termina justo cuando empieza la acción.
 - [ ] Seguir hasta tener 15 reels en stock (mapa sección 9).
 - [ ] Filmar el reel fijado (#13, vos tocando 30 seg libres) — carta de presentación del perfil.
 - [ ] Definir: precio inicial (600/750/900), fecha 1ª cohorte, plataforma del videocurso.
-- [ ] Armar PDF lead magnet "Mapa de las 5 cajas conectadas" (Canva, 1 hoja) → CTA "CAJAS".
+- [x] Lead magnet "Mapa de las 5 cajas conectadas" → HECHO: `Mapa-5-cajas-pentatonica.pdf` (revisar estética / cambiar "@ tu instagram" por el usuario real, o restylar en Canva). CTA = "PENTA".
 - [ ] Plantilla de respuesta de DM para quienes comentan SOLO / CAJAS.
 - [ ] Cuando arranquen las mentorías con Nico: armar el delivery de las clases (las 4 sesiones).
 
