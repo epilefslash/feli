@@ -598,6 +598,91 @@ Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grab
 
 ---
 
+## 17) CASO SERGIO (baterista) + REGLA 97/3 — material extra de Nico
+
+> Segundo caso de Nico que Feli compartió. Refuerza el modelo y agrega 3 conceptos nuevos.
+
+**El caso en una línea:** Sergio, baterista con 70.000 seguidores, facturaba $1.500/mes reventado
+(50 alumnos 1 a 1, hasta 12 hs por día). Pasó a ~$5.000/mes con MENOS alumnos y MENOS horas. El
+problema nunca fue tocar mejor la batería — era el **posicionamiento del valor**. (Igual que Feli:
+no le falta tocar mejor, le falta sistematizar y posicionar lo que ya sabe.)
+
+**Lo que ya teníamos (refuerza):** separar perfil artístico del educativo · programa grupal high
+ticket en vez de clases sueltas · vender resultados no horas · un alumno extra ≠ una hora extra.
+
+**Lo NUEVO que suma (3 conceptos):**
+1. **Regla 97/3:** solo el ~3% de tu audiencia está listo para comprar YA. El 97% no — pero no los
+   descartás, los NUTRÍS con contenido hasta que estén listos. Consecuencia para Feli: cuando
+   publique y no compren al toque, NO falló — está nutriendo al 97%. El Formato C hace las dos cosas
+   (convierte al 3%, nutre al 97%). Mata la ansiedad de "publiqué y no vendí".
+2. **Viralidad de nicho > viralidad general:** no querés 500k views de gente random, querés 5.000
+   views de guitarristas intermedios frustrados. Un reel "chico" bien dirigido vale más que uno
+   viral vacío. Valida hablarle al avatar y no diluir para gustarle a todos.
+3. **Expectativa de tiempo real:** Sergio → 3 meses de mentoría + 2 meses de venta activa antes de
+   facturar en serio. Esto es un juego de ~5 meses, no de 2 semanas. Sana la ansiedad de resultados
+   inmediatos.
+
+**Los 3 pilares del modelo (secuencial):** Atracción (sistema constante, no boca a boca) →
+Conversión (proceso claro consulta→venta, high ticket) → Servicio/Escalabilidad (grupal, el tiempo
+del mentor deja de ser el techo).
+
+---
+
+## 16) CÓMO DAR TU PRIMERA CLASE GRUPAL ONLINE (red de seguridad anti-miedo)
+
+> **Contexto:** Feli nunca dio clases online, solo 1 a 1 presencial. Esto le da cagazo. Este guion
+> existe para sacarle el fantasma de encima. NO se necesita antes de vender — se usa recién cuando
+> arranque la primera cohorte (faltan meses). Nico también va a cubrir esto en la mentoría.
+
+### La verdad que baja el miedo
+Dar clase online = tu misma clase de siempre, por Zoom. La pedagogía es idéntica (mostrás, tocan,
+corregís). Lo único nuevo es la dinámica de que hay varios, y eso se agarra en la primera clase.
+El grupal tiene una MAGIA que el 1 a 1 no tiene: **cada alumno aprende de la corrección del otro.**
+Cuando corregís a Juan, Pedro y Marta también aprenden. Rinde más tu hora.
+
+### Setup técnico mínimo (una sola vez)
+1. **Zoom** (pago ~USD 15/mes para reuniones sin límite de 40 min).
+2. **Cámara:** la misma del celu/notebook que usás para reels.
+3. **Audio de la guitarra:** NO uses el micrófono de la webcam (suena horrible). Meté tu guitarra
+   por la interfaz (la que ya usás con los plugins de UA) al audio de Zoom. En Zoom: Configuración →
+   Audio → "Sonido original para músicos" ACTIVADO (esto apaga la cancelación de ruido que te mata
+   el tono). Esto solo te pone por encima del 90% de los profes online.
+4. **Auriculares** para que no se acople.
+
+### Ensayo anti-pánico (hacelo ANTES de la primera cohorte)
+Clase de prueba GRATIS de 30 min con un amigo guitarrista por Zoom. Sin plata, sin presión.
+Solo para vos: ver que se escuche la viola, que no te trabes, que le agarres la mano a compartir
+pantalla. Después de esa prueba se te va el 80% del miedo. Es como el primer reel: asusta hasta
+que lo hacés una vez.
+
+### La clase de 60 min, minuto a minuto (sesión tipo — ej. Martes técnica)
+| Minuto | Bloque | Qué hacés |
+|---|---|---|
+| 0–5 | **Bienvenida + check-in** | Saludás, preguntás cómo fue la semana de práctica de cada uno. Rompe el hielo, te da el pulso del grupo. |
+| 5–20 | **El tema del día (vos tocando)** | Mostrás el concepto de la semana tocando y explicando. Ej: "conectar caja 1 con caja 2". Esto es EXACTO lo que ya sabés hacer. |
+| 20–45 | **Ronda de práctica (el corazón)** | Uno por uno: el alumno comparte y toca lo que practicó, vos corregís en vivo. ~5-6 min c/u para 4 alumnos. TODOS miran y aprenden de cada corrección. |
+| 45–55 | **Aplicación grupal** | Poné un backing track y que toquen sobre él (con la cámara/mic muteado menos el que solea, por turnos). Bajás la teoría a la práctica real. |
+| 55–60 | **Cierre + tarea** | Resumís el concepto, das la tarea de la semana, adelantás qué viene. "La semana que viene: el sabor sobre esa conexión." |
+
+### Reglas de oro para que fluya
+1. **No es una conferencia de 60 min hablando vos.** Vos hablás ~40% del tiempo; el resto tocan ellos. Si hablás todo el rato, es una clase mala (online o presencial).
+2. **Muteá a todos menos al que toca** (botón "silenciar a todos"). Si no, es un quilombo de ruido. Cada uno se desmutea en su turno.
+3. **Grabá SIEMPRE la clase** (Zoom lo hace con un botón). Esas grabaciones = tu futuro videocurso + material para los que faltaron. La primera cohorte te construye el producto.
+4. **Que nadie quede sin tocar.** El valor del grupal es la devolución personalizada. Si alguien no tocó, esa clase le falló a esa persona.
+5. **Está bien no saber todo.** Si un alumno pregunta algo que no sabés en el momento: "buenísima, la vemos el lunes que la preparo bien". Es honesto y pro, no un bache.
+
+### Las 4 sesiones de la semana, y qué las diferencia
+- **Lunes (Teoría/Q&A):** más charlado. Resolvés dudas, explicás el concepto de la semana. Poca guitarra, mucho pizarrón mental.
+- **Martes (Técnica):** la de arriba (ronda de práctica). La más "manos a la obra".
+- **Jueves (Repertorio):** analizás UN solo icónico de la semana, todos lo desarman juntos.
+- **Sábado (Improvisación):** la sesión joya. Cada uno improvisa sobre un backing, devolución fina. Es donde se ve el antes/después.
+
+> **Miedo vs realidad:** el miedo dice "no sé dar clases online". La realidad es "sé dar clases y sé
+> usar Zoom" — y eso ES dar clases online. El único músculo nuevo (manejar el grupo) se entrena en
+> vivo, y para eso está la primera cohorte a precio de fundador.
+
+---
+
 ## 15) NOTAS DE CONTEXTO TÉCNICO (para mí, el asistente, en sesiones futuras)
 - Repo: epilefslash/feli, branch `claude/music-teacher-workflow-rHifB`. PR #4 ya existe (no crear otro).
 - El usuario = Feli. Habla español rioplatense. NO confundir Feli con Nico.
