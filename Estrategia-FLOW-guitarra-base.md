@@ -260,6 +260,67 @@ doble parada tipo Hendrix o bending largo con vibrato. TUYO, improvisado.
 
 ---
 
+## 7-BIS) GUION VIDEO 5 — VERSIÓN HABLADA (palabra por palabra)
+
+> **Por qué esta versión:** Feli habla bien a cámara. Ese es su diferencial (la mayoría de los
+> guitarristas de IG tocan y no explican). Estrategia: HABLADO + subtítulos siempre (no perdés al
+> que mira sin sonido). El texto en pantalla queda para los LABELS del solo (los ✱), no para narrar.
+> Tono: como si le hablaras a un amigo guitarrista en tu pieza, no a una cámara. Bajá un cambio,
+> no lo actúes.
+
+**[0:00–0:04] HOOK — a cámara, guitarra colgada, sin tocar**
+> "Te dijeron que la pentatónica menor es de principiantes.
+> Te mintieron. Y te lo voy a probar en veinte segundos."
+
+*(Frená un segundo acá. El silencio después del hook engancha.)*
+
+**[0:04–0:11] EL "MAL" — hablás mientras mostrás**
+> "Esto es lo que hace mucha gente para 'sonar pro':"
+>
+> *(Tocás los modos raros / la menor armónica de arriba a abajo, tremolo, muchas notas — 5-6 seg.)*
+> *(Labels en pantalla, DESCRIPTIVOS: ✱ muchas notas, poco espacio · ✱ sin frase, sin respiración)*
+>
+> "…un montón de notas. Escalas raras. Rapidísimo. Y no te dice absolutamente nada."
+
+**[0:11–0:14] REVELACIÓN — a cámara**
+> "El problema nunca fue la escala. Fue cómo la usás.
+> Mirá lo que pasa con la MISMA pentatónica de siempre."
+
+*(Medio segundo de silencio total. Ese silencio es parte del guion.)*
+
+**[0:14–0:30] EL "BIEN" — dejás que suene, hablás poco encima**
+> *(Arrancás con la frase pregunta-respuesta. Label: ✱ una frase, y la contesto)*
+> *(Bendings subiendo por la penta + la nota agregada. Label: ✱ notas largas, espacio)*
+> *(Cierre con el lick tipo Slash. Label: ✱ ahora corro — pero se hizo esperar)*
+>
+> *(Ideal: dejá los primeros 8-10 seg SOLO guitarra, sin hablar. Que respire. Recién sobre el
+> final soltás la frase de abajo.)*
+>
+> "¿Escuchaste? Menos notas. Pero cada una dice algo."
+
+**[0:30–0:37] LOS REFERENTES — cama suave por debajo**
+> "Esta misma escala es toda la carrera de estos tipos:"
+>
+> *(Lista secuencial, 1 seg c/u, vos nombrás en voz mientras aparecen:)*
+> "Angus Young. Hendrix. Joe Perry. Jimmy Page. Gary Moore.
+> Cinco escuelas del rock. Una sola escala."
+
+**[0:37–0:45] CTA — a cámara, tranquilo**
+> "No te falta una escala nueva. Te falta exprimir esta.
+> Comentá **PENTA** y te paso el mapa de las cinco cajas conectadas, gratis. Es el primer paso."
+
+---
+
+**Guía de tono para que no suene actuado:**
+- El hook ("te mintieron") decilo con media sonrisa, no enojado. Es una revelación amistosa, no una pelea.
+- En el "bien", cuando decís *"¿escuchaste?"* — decilo bajito, casi para vos. Íntimo. Ahí se te acerca el viewer.
+- El CTA no lo vendas. "Es el primer paso" es suave a propósito: no estás rogando, estás ofreciendo.
+
+**Variante corta (si el hablado te queda largo de 45 seg):** sacá los referentes hablados y ponelos
+solo como texto sobre la cama. Ganás 5 seg. Pero si te sobra labia, dejalos — sumás autoridad.
+
+---
+
 ## 8) GUION VIDEO 6 — "El equipo no te va a salvar" (versión SX vs plugin, SIN tocar mal)
 
 > **Cambio de diseño importante:** la versión vieja pedía tocar "mal" con setup premium, lo cual costaba
@@ -315,6 +376,59 @@ la caja 1, cierre con vibrato en la tónica. Practicala 5 min antes. Tocás BIEN
 **⚠️ FACT-CHECK (sigue vigente):** el argumento es "el dedo importa más que el equipo extra", NO "ellos no
 usaban pedales" (Hendrix usaba Fuzz Face, Octavia, Univibe, Wah). Angus Young (SG+Marshall sin pedalera)
 y Knopfler (sin púa/sin distorsión) son los ejemplos blindados.
+
+### GUION VIDEO 6 — VERSIÓN HABLADA (palabra por palabra)
+
+> Mismo criterio que el 5: hablado + subtítulos. Este tema (el equipo) es PERFECTO para hablar,
+> porque es una confesión — "yo también gasté plata pensando que era el ampli". La vulnerabilidad
+> vende. Contalo como te pasó de verdad.
+
+**[0:00–0:05] HOOK — a cámara, honesto**
+> "¿Estás esperando que un mejor equipo te arregle el solo?
+> Yo lo creí durante años. Y gasté una fortuna al pedo. Te muestro."
+
+**[0:05–0:08] SETUP 1 — mostrás el ampli chico**
+> "Mirá. Un ampli de diez pulgadas, chiquito, y un micrófono barato apuntándole."
+>
+> *(Plano del SX con el SM57. Ese plano es oro, dejá que se vea.)*
+
+**[0:08–0:17] TOCÁS — dejá sonar, callate**
+> *(Tocás tu frase con sabor: bending Re→Mi, vibrato, espacio. 8-9 seg.)*
+> *(NO hables acá. Que la frase respire sola. El silencio tuyo hace que se escuche el tono.)*
+
+**[0:17–0:21] SETUP 2 — cambiás al plugin**
+> "Ahora lo mismo, pero con un equipo profesional, carísimo, de los que ves en los estudios."
+>
+> *(Plano de la pantalla / interfaz con el plugin de UA.)*
+
+**[0:21–0:30] TOCÁS LA MISMA FRASE — callate de nuevo**
+> *(La MISMA frase, calcada. Distinto color, igual de bien. 8-9 seg.)*
+> *(Label chico en pantalla: ✱ misma frase · mismos dedos)*
+
+**[0:30–0:37] REVELACIÓN — a cámara**
+> "¿Escuchaste la diferencia? Cambió el color. El sonido, el aire.
+> Pero el sabor — el bending, el vibrato, dejar respirar la nota — ese es el mismo en las dos.
+> Porque el sabor no está en el equipo. Está en los dedos."
+
+**[0:37–0:43] PRUEBA DE AUTORIDAD — cama suave**
+> "Angus Young: una SG y un Marshall, sin una sola pedalera. Toda su carrera.
+> Knopfler: sin púa, sin distorsión. Y nadie suena como él.
+> Lo que tienen no se compra."
+
+**[0:43–0:48] CTA — a cámara**
+> "Antes de gastar en otro pedal, laburá esto.
+> Comentá **SABOR** y te cuento cómo lo trabajo. 📩"
+
+---
+
+**Guía de tono:**
+- El hook es una CONFESIÓN, no una lección. "Gasté una fortuna al pedo" — decilo con onda, riéndote un poco de vos mismo. Eso te humaniza y baja la guardia del que mira.
+- Cuando decís "está en los dedos", mostrá la mano izquierda haciendo un bending con vibrato mientras lo decís. La imagen refuerza la frase.
+- El CTA "antes de gastar en otro pedal, laburá esto" es un consejo, no una venta. Suena a que te importa, no a que querés su plata.
+
+**⚠️ Ojo con el keyword:** todavía no cerraste CHIMI/MOJO/GROOVE/SABOR. El guion dice SABOR de placeholder. Cuando decidas, cambialo acá y en el copy. (Mi voto sigue siendo CHIMI: es tuyo, es argentino, se recuerda.)
+
+---
 
 ### Menú de CTAs (rotarlos para no repetir "Comentá SOLO")
 - **Lead magnet (regalo):** "Comentá PENTA y te paso el mapa de las 5 cajas (gratis)" — usado en #5.
