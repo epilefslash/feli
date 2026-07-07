@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Plan de Clases — Guitarra Folklore Argentino</title>
+<style>
+  :root{
+    --tierra:#3b2417;        /* marrón profundo */
+    --terracota:#b4502a;     /* terracota */
+    --ocre:#c98a2d;          /* dorado ocre */
+    --crema:#faf5ec;         /* fondo crema */
+    --crema2:#f3ead9;        /* crema más oscuro */
+    --verde:#5c6b4c;         /* verde salvia oscuro */
+    --tinta:#2e2118;         /* texto */
+    --suave:#7a6a5b;         /* texto secundario */
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{
+    font-family:"Liberation Sans", Arial, sans-serif;
+    color:var(--tinta);
+    -webkit-print-color-adjust:exact;
+    print-color-adjust:exact;
+  }
+  @page{size:A4;margin:0;}
+  .page{
+    width:210mm;height:296mm;
+    background:var(--crema);
+    page-break-after:always;
+    position:relative;
+    overflow:hidden;
+    padding:16mm 18mm;
+  }
+  .page:last-child{page-break-after:auto;}
+
+  h1,h2,h3,.serif{font-family:"Liberation Serif", Georgia, serif;}
+
+  /* ============ PORTADA ============ */
+  .cover{
+    background:linear-gradient(160deg,#432a19 0%, #2e1c10 60%, #24150c 100%);
+    color:var(--crema);
+    display:flex;flex-direction:column;justify-content:space-between;
+    padding:20mm 20mm 14mm;
+  }
+  .cover .topline{
+    display:flex;align-items:center;gap:10px;
+    font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--ocre);
+  }
+  .cover .topline::before,.cover .topline::after{
+    content:"";flex:1;height:1px;background:rgba(201,138,45,.45);
+  }
+  .cover-main{text-align:center;}
+  .cover .guitar{margin:0 auto 10mm;display:block;}
+  .cover h1{
+    font-size:46px;line-height:1.08;font-weight:bold;letter-spacing:.5px;
+  }
+  .cover h1 em{font-style:italic;color:var(--ocre);}
+  .cover .sub{
+    margin-top:8mm;font-size:15px;color:#e8d9c2;letter-spacing:1px;
+    font-family:"Liberation Serif", serif;font-style:italic;
+  }
+  .cover .badges{
+    margin-top:12mm;display:flex;justify-content:center;gap:8mm;
+  }
+  .badge{
+    border:1px solid rgba(201,138,45,.55);border-radius:3px;
+    padding:6mm 7mm;min-width:44mm;text-align:center;
+  }
+  .badge .n{font-family:"Liberation Serif",serif;font-size:30px;color:var(--ocre);font-weight:bold;}
+  .badge .t{font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;margin-top:2mm;color:#e8d9c2;}
+  .cover .footer{
+    text-align:center;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#a58f76;
+  }
+  .cover .ritmos{
+    text-align:center;margin-top:6mm;font-size:12px;letter-spacing:5px;
+    color:#c9ad83;text-transform:uppercase;
+  }
+  .cover .ritmos span{color:var(--terracota);padding:0 2mm;}
+
+  /* ============ ELEMENTOS COMUNES ============ */
+  .kicker{
+    font-size:10px;letter-spacing:4px;text-transform:uppercase;
+    color:var(--terracota);font-weight:bold;margin-bottom:3mm;
+    display:flex;align-items:center;gap:8px;
+  }
+  .kicker::after{content:"";flex:1;height:1px;background:#d8c8ae;}
+  h2.title{font-size:27px;color:var(--tierra);margin-bottom:6mm;line-height:1.15;}
+  h2.title em{color:var(--terracota);font-style:italic;}
+  p{font-size:10.5pt;line-height:1.55;}
+  .lead{font-size:11.5pt;color:var(--suave);font-family:"Liberation Serif",serif;font-style:italic;line-height:1.5;margin-bottom:6mm;}
+
+  .pagenum{
+    position:absolute;bottom:8mm;right:18mm;
+    font-size:9px;letter-spacing:2px;color:#b0a08c;text-transform:uppercase;
+  }
+  .pagefoot{
+    position:absolute;bottom:8mm;left:18mm;
+    font-size:9px;letter-spacing:2px;color:#b0a08c;text-transform:uppercase;
+  }
+
+  /* tarjetas de perfil */
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:5mm;}
+  .card{
+    background:#fff;border:1px solid #e3d5bd;border-radius:4px;
+    padding:5mm 6mm;box-shadow:0 1px 0 rgba(59,36,23,.06);
+  }
+  .card h3{font-size:13px;color:var(--terracota);letter-spacing:1px;text-transform:uppercase;margin-bottom:2.5mm;}
+  .card p, .card li{font-size:9.5pt;line-height:1.5;}
+  .card ul{padding-left:5mm;}
+  .card li{margin-bottom:1.5mm;}
+
+  .quote{
+    background:var(--crema2);border-left:3px solid var(--ocre);
+    padding:4mm 6mm;margin:5mm 0;border-radius:0 4px 4px 0;
+    font-family:"Liberation Serif",serif;font-style:italic;font-size:11pt;color:var(--tierra);
+  }
+  .quote .who{display:block;margin-top:2mm;font-size:8.5pt;font-style:normal;
+    letter-spacing:2px;text-transform:uppercase;color:var(--suave);font-family:"Liberation Sans",sans-serif;}
+
+  .metas{counter-reset:meta;list-style:none;margin:4mm 0;}
+  .metas li{
+    counter-increment:meta;position:relative;padding:2.5mm 0 2.5mm 12mm;
+    border-bottom:1px dashed #ddcdb2;font-size:10.5pt;
+  }
+  .metas li:last-child{border-bottom:none;}
+  .metas li::before{
+    content:counter(meta);
+    position:absolute;left:0;top:2mm;
+    width:7mm;height:7mm;border-radius:50%;
+    background:var(--terracota);color:#fff;
+    font-family:"Liberation Serif",serif;font-weight:bold;font-size:11pt;
+    display:flex;align-items:center;justify-content:center;
+  }
+
+  /* clases del mes 1 */
+  .clase{
+    background:#fff;border:1px solid #e3d5bd;border-radius:5px;
+    margin-bottom:5mm;overflow:hidden;
+  }
+  .clase-head{
+    background:linear-gradient(90deg,var(--tierra),#5a3a22);
+    color:var(--crema);padding:3.5mm 6mm;
+    display:flex;align-items:baseline;gap:4mm;
+  }
+  .clase-head .num{
+    font-family:"Liberation Serif",serif;font-size:16pt;font-weight:bold;color:var(--ocre);
+  }
+  .clase-head .nom{font-family:"Liberation Serif",serif;font-size:13pt;font-style:italic;}
+  .clase-body{padding:4mm 6mm 5mm;}
+  .obj{
+    font-size:9.5pt;color:var(--verde);font-weight:bold;margin-bottom:2.5mm;
+  }
+  .obj::before{content:"◆ OBJETIVO — ";color:var(--terracota);letter-spacing:1px;font-size:8pt;}
+  .clase-body ul{padding-left:5mm;margin-bottom:2.5mm;}
+  .clase-body li{font-size:9.5pt;line-height:1.5;margin-bottom:1.3mm;}
+  .tarea{
+    background:var(--crema2);border-radius:3px;padding:2.5mm 4mm;
+    font-size:9pt;line-height:1.45;
+  }
+  .tarea b{color:var(--terracota);letter-spacing:1px;text-transform:uppercase;font-size:8pt;}
+
+  .metabox{
+    background:linear-gradient(135deg,#5c6b4c,#48543b);
+    color:#f2f0e4;border-radius:5px;padding:5mm 7mm;margin-top:1mm;
+  }
+  .metabox .k{font-size:8.5pt;letter-spacing:3px;text-transform:uppercase;color:#cdd6b8;margin-bottom:1.5mm;}
+  .metabox p{font-family:"Liberation Serif",serif;font-size:12.5pt;font-style:italic;line-height:1.4;}
+
+  /* tablas */
+  table{width:100%;border-collapse:collapse;background:#fff;border-radius:4px;overflow:hidden;}
+  th{
+    background:var(--tierra);color:var(--crema);text-align:left;
+    font-size:8.5pt;letter-spacing:1.5px;text-transform:uppercase;
+    padding:2.8mm 3.5mm;
+  }
+  td{
+    padding:2.6mm 3.5mm;font-size:9.5pt;line-height:1.45;
+    border-bottom:1px solid #eee2cc;vertical-align:top;
+  }
+  tr:nth-child(even) td{background:#fbf7ee;}
+  td.cnum{
+    font-family:"Liberation Serif",serif;font-weight:bold;font-size:12pt;
+    color:var(--terracota);width:9mm;text-align:center;
+  }
+  .chordtable td{text-align:center;font-family:"Liberation Serif",serif;font-size:10.5pt;}
+  .chordtable td:first-child{font-weight:bold;color:var(--terracota);background:#f7efdf;}
+  .chordtable th{text-align:center;}
+  .hl td{background:#f6ecd7 !important;}
+
+  .note{
+    font-size:8.5pt;color:var(--suave);font-style:italic;margin-top:2.5mm;line-height:1.5;
+  }
+
+  .month-tag{
+    display:inline-block;background:var(--terracota);color:#fff;
+    font-size:9px;letter-spacing:3px;text-transform:uppercase;font-weight:bold;
+    padding:1.6mm 4mm;border-radius:2px;margin-bottom:3mm;
+  }
+  .month-tag.verde{background:var(--verde);}
+  .month-tag.ocre{background:var(--ocre);}
+
+  /* notas pedagógicas */
+  .peda{list-style:none;}
+  .peda li{
+    background:#fff;border:1px solid #e3d5bd;border-radius:4px;
+    padding:4mm 5.5mm;margin-bottom:3.5mm;font-size:9.8pt;line-height:1.55;
+  }
+  .peda b{color:var(--terracota);}
+
+  .ruta{display:flex;gap:4mm;margin:5mm 0;}
+  .ruta .paso{
+    flex:1;background:#fff;border:1px solid #e3d5bd;border-radius:4px;
+    padding:4mm;text-align:center;position:relative;
+  }
+  .ruta .paso .m{font-size:8pt;letter-spacing:2px;text-transform:uppercase;color:var(--suave);}
+  .ruta .paso .q{font-family:"Liberation Serif",serif;font-size:11.5pt;font-weight:bold;color:var(--tierra);margin-top:1.5mm;line-height:1.25;}
+  .ruta .paso::after{
+    content:"→";position:absolute;right:-4.2mm;top:50%;transform:translateY(-50%);
+    color:var(--ocre);font-size:13pt;z-index:2;
+  }
+  .ruta .paso:last-child::after{content:none;}
+
+  .divider{
+    display:flex;align-items:center;gap:4mm;margin:6mm 0 4mm;
+    color:var(--ocre);font-size:12px;
+  }
+  .divider::before,.divider::after{content:"";flex:1;height:1px;background:#ddcdb2;}
+
+  /* página compacta (meses 2 y 3) */
+  .tight h2.title{margin-bottom:4mm;font-size:24px;}
+  .tight td{padding:2mm 3.5mm;font-size:9pt;line-height:1.38;}
+  .tight th{padding:2.3mm 3.5mm;}
+  .tight .kicker{margin-bottom:2mm;}
+</style>
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<div class="page cover">
+  <div class="topline">Plan de estudios personalizado</div>
+
+  <div class="cover-main">
+    <!-- guitarra criolla -->
+    <svg class="guitar" width="150" height="150" viewBox="0 0 120 120" fill="none">
+      <circle cx="60" cy="60" r="57" stroke="#c98a2d" stroke-width="1.2" opacity="0.5"/>
+      <circle cx="60" cy="60" r="50" stroke="#c98a2d" stroke-width="0.6" opacity="0.35"/>
+      <!-- cuerpo -->
+      <path d="M60 96 C46 96 38 87 38 76 C38 68 43 65 43 58 C43 51 39 48 39 41 C39 32 48 26 60 26 C72 26 81 32 81 41 C81 48 77 51 77 58 C77 65 82 68 82 76 C82 87 74 96 60 96 Z"
+            transform="translate(0,4) scale(0.92) translate(5,2)"
+            fill="#b4502a" opacity="0.92"/>
+      <!-- boca -->
+      <circle cx="60" cy="66" r="8.5" fill="#2e1c10"/>
+      <circle cx="60" cy="66" r="10.5" stroke="#c98a2d" stroke-width="1.4" fill="none"/>
+      <!-- mástil -->
+      <rect x="57" y="10" width="6" height="38" rx="1.5" fill="#c98a2d"/>
+      <rect x="55" y="8" width="10" height="7" rx="1.5" fill="#8a5a1f"/>
+      <!-- trastes -->
+      <line x1="57" y1="20" x2="63" y2="20" stroke="#2e1c10" stroke-width="1"/>
+      <line x1="57" y1="26" x2="63" y2="26" stroke="#2e1c10" stroke-width="1"/>
+      <line x1="57" y1="32" x2="63" y2="32" stroke="#2e1c10" stroke-width="1"/>
+      <line x1="57" y1="38" x2="63" y2="38" stroke="#2e1c10" stroke-width="1"/>
+      <!-- cuerdas -->
+      <line x1="58.4" y1="12" x2="58.4" y2="74" stroke="#f4e6c8" stroke-width="0.55"/>
+      <line x1="60" y1="12" x2="60" y2="74" stroke="#f4e6c8" stroke-width="0.55"/>
+      <line x1="61.6" y1="12" x2="61.6" y2="74" stroke="#f4e6c8" stroke-width="0.55"/>
+      <!-- puente -->
+      <rect x="53" y="76" width="14" height="3.6" rx="1.2" fill="#2e1c10"/>
+    </svg>
+
+    <h1>Guitarra &amp;<br><em>Folklore Argentino</em></h1>
+    <p class="sub">Plan de clases personalizado · transporte, círculos armónicos,<br>punteos de introducción y lectura</p>
+
+    <div class="ritmos">Chamamé <span>✦</span> Zamba <span>✦</span> Chacarera <span>✦</span> Música Cristiana</div>
+
+    <div class="badges">
+      <div class="badge"><div class="n">3</div><div class="t">Meses</div></div>
+      <div class="badge"><div class="n">12</div><div class="t">Clases</div></div>
+      <div class="badge"><div class="n">3</div><div class="t">Metas demostrables</div></div>
+    </div>
+  </div>
+
+  <div class="footer">Una meta resuelta por mes · para tocar en la peña</div>
+</div>
+
+<!-- ================= PERFIL ================= -->
+<div class="page">
+  <div class="kicker">01 · El alumno</div>
+  <h2 class="title">Perfil y <em>metas</em></h2>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Sus gustos</h3>
+      <ul>
+        <li>Folklore argentino en toda su gama: <b>chamamé, zamba y chacarera</b>.</li>
+        <li><b>Música cristiana</b> (grupo de alabanza).</li>
+        <li>Referente citado: <b>Javier Formentín</b>, guitarra chamamecera.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Su punto de partida</h3>
+      <ul>
+        <li>Ya pasó por <b>varios profesores</b>: tiene base, no es principiante.</li>
+        <li>Maneja acordes y toca temas, pero le faltan <b>herramientas de análisis y punteo</b>.</li>
+        <li>Toca por diversión, pero busca <b>nivel profesional "para él"</b>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="quote">
+    "A mí me gusta juntarme a tocar en una peña, y a alguien le queda alto o bajo el tono…
+    quiero poder transportar rápidamente los acordes a la nueva tonalidad."
+    <span class="who">— El alumno, en sus palabras</span>
+  </div>
+
+  <div class="kicker" style="margin-top:6mm;">Metas declaradas</div>
+  <ol class="metas">
+    <li><b>Transportar rápidamente</b> a cualquier tonalidad, en el momento, en la peña.</li>
+    <li>Aprender los <b>círculos armónicos</b>.</li>
+    <li>Aprender a puntear y hacer las <b>introducciones punteadas</b> de los temas.</li>
+    <li><b>Cambiar de escala</b> con soltura.</li>
+    <li><b>Saber leer</b>: cifrado, tablatura y nociones de partitura.</li>
+  </ol>
+
+  <div class="divider">✦</div>
+
+  <div class="kicker">La ruta de los 3 meses</div>
+  <div class="ruta">
+    <div class="paso">
+      <div class="m">Mes 1</div>
+      <div class="q">Transporte instantáneo + círculos armónicos</div>
+    </div>
+    <div class="paso">
+      <div class="m">Mes 2</div>
+      <div class="q">Escalas y punteos de intro: zamba y chacarera</div>
+    </div>
+    <div class="paso">
+      <div class="m">Mes 3</div>
+      <div class="q">Chamamé estilo Formentín, lectura e integración</div>
+    </div>
+  </div>
+
+  <p class="note">Regla de oro de cada clase: todo concepto se aplica en el momento sobre un tema que a él le gusta. Nada de teoría suelta.</p>
+
+  <div class="pagefoot">Plan de clases · Folklore Argentino</div>
+  <div class="pagenum">Página 2</div>
+</div>
+
+<!-- ================= ESTRATEGIA ================= -->
+<div class="page">
+  <div class="kicker">02 · La estrategia</div>
+  <h2 class="title">Primer mes: <em>una meta resuelta</em></h2>
+
+  <p class="lead">En 4 clases se va con algo demostrable: transportar cualquier tema a cualquier
+  tonalidad en la peña, sin capo y sin pensarlo diez minutos.</p>
+
+  <p style="margin-bottom:4mm;">¿Por qué empezar por el transporte y los círculos armónicos, y no por los punteos?</p>
+
+  <div class="grid2" style="grid-template-columns:1fr 1fr 1fr; margin-bottom:6mm;">
+    <div class="card">
+      <h3>1 · Es su dolor real</h3>
+      <p>Le pasa <b>cada vez</b> que se junta a tocar: alguien pide el tema más alto o más bajo y hay que resolver ya.</p>
+    </div>
+    <div class="card">
+      <h3>2 · Dos metas de un tiro</h3>
+      <p>Los círculos armónicos y el transporte son <b>la misma herramienta</b>: el sistema de grados (I–IV–V).</p>
+    </div>
+    <div class="card">
+      <h3>3 · Es la base de todo</h3>
+      <p>Sin grados, las escalas y los punteos de los meses 2 y 3 son <b>memorización sin sentido</b>.</p>
+    </div>
+  </div>
+
+  <div class="metabox">
+    <div class="k">Meta demostrable · Mes 1</div>
+    <p>"Tirame cualquier tema en cualquier tono": tres temas de su repertorio, la tonalidad se
+    anuncia en el momento, y él resuelve sin frenar la música.</p>
+  </div>
+
+  <div class="divider">✦</div>
+
+  <div class="kicker">Las tres metas del plan completo</div>
+  <table>
+    <tr><th style="width:16mm;">Mes</th><th>Al final del mes, él puede…</th></tr>
+    <tr>
+      <td class="cnum">1</td>
+      <td>Transportar cualquier tema de su repertorio a cualquier tonalidad <b>en tiempo real</b>, usando grados y cejilla móvil. Conoce los círculos armónicos mayores y menores del folklore.</td>
+    </tr>
+    <tr>
+      <td class="cnum">2</td>
+      <td>Tocar la <b>introducción punteada completa</b> de una zamba y de una chacarera, de memoria y en tempo. Maneja escala mayor, menor y pentatónica en dos posiciones.</td>
+    </tr>
+    <tr>
+      <td class="cnum">3</td>
+      <td>Presentar un <b>set de 3 temas con intros punteadas</b> (incluida una intro chamamecera con bordoneo), sacar una intro nueva leyendo tablatura, y transportar también los punteos.</td>
+    </tr>
+  </table>
+
+  <p class="note">La música cristiana no es un desvío: usa los mismos círculos (I–V–VIm–IV por todos lados)
+  y los grupos de alabanza transportan constantemente para adaptarse a las voces. Es el campo de práctica ideal del mes 1.</p>
+
+  <div class="pagefoot">Plan de clases · Folklore Argentino</div>
+  <div class="pagenum">Página 3</div>
+</div>
+
+<!-- ================= MES 1 / CLASES 1-2 ================= -->
+<div class="page">
+  <span class="month-tag">Mes 1 · Clases 1 y 2</span>
+  <h2 class="title">Transporte y <em>círculos armónicos</em></h2>
+
+  <div class="clase">
+    <div class="clase-head">
+      <span class="num">Clase 1</span>
+      <span class="nom">"Los acordes tienen número, no solo nombre"</span>
+    </div>
+    <div class="clase-body">
+      <p class="obj">Entender el sistema de grados (I–IV–V, VIm, IIm) y ver que casi todo el folklore usa las mismas fórmulas.</p>
+      <ul>
+        <li><b>Diagnóstico rápido (15 min):</b> toca 2 temas que ya sepa (una chacarera y un chamamé). Anotar acordes, digitación y mano derecha — esto calibra el resto del plan.</li>
+        <li><b>Concepto:</b> la escala mayor y sus grados. Armar el círculo armónico de <b>Sol mayor</b> (típico de chamamé): G – C – D7 – Em – Am.</li>
+        <li><b>Ejercicio:</b> tomar un tema que ya toca y ponerle números a los acordes ("este es el I, este el V7…").</li>
+        <li><b>Aplicación:</b> círculo I–IV–V7 en Sol, Re y La con ritmo de chamamé.</li>
+      </ul>
+      <div class="tarea"><b>Tarea ✎</b> — Escribir los grados de 2 temas de su repertorio: uno de folklore y uno cristiano
+      (la música cristiana usa I–IV–V–VIm todo el tiempo — le va a resultar revelador).</div>
+    </div>
+  </div>
+
+  <div class="clase">
+    <div class="clase-head">
+      <span class="num">Clase 2</span>
+      <span class="nom">"El mismo tema en cualquier tono"</span>
+    </div>
+    <div class="clase-body">
+      <p class="obj">Transportar usando grados. Primera experiencia de éxito real.</p>
+      <ul>
+        <li><b>Repaso de tarea:</b> corregir los análisis de grados.</li>
+        <li><b>Concepto:</b> si un tema es I–IV–V7 en Sol, en La es A–D–E7. La fórmula no cambia — cambia la "casa".</li>
+        <li><b>Herramienta:</b> la <b>tabla de transporte</b> (anexo, página 7): las 12 tonalidades con sus grados.</li>
+        <li><b>Ejercicio central:</b> UN tema (ideal: uno que cante alguien de su peña) en 4 tonalidades: original, un tono arriba, un tono abajo, y una "incómoda" (Si♭ o Mi♭) para que aparezca la cejilla.</li>
+        <li><b>Cejilla como acorde móvil:</b> la forma de Mi y la forma de La corridas por el mástil. Esta es la clave del transporte instantáneo.</li>
+      </ul>
+      <div class="tarea"><b>Tarea ✎</b> — El mismo tema en las 12 tonalidades (una por día, se puede repetir). Anotar cuáles cuestan.</div>
+    </div>
+  </div>
+
+  <div class="pagefoot">Mes 1 · Transporte instantáneo</div>
+  <div class="pagenum">Página 4</div>
+</div>
+
+<!-- ================= MES 1 / CLASES 3-4 ================= -->
+<div class="page">
+  <span class="month-tag">Mes 1 · Clases 3 y 4</span>
+  <h2 class="title">De cálculo a <em>reflejo</em></h2>
+
+  <div class="clase">
+    <div class="clase-head">
+      <span class="num">Clase 3</span>
+      <span class="nom">"Transporte en tiempo real, como en la peña"</span>
+    </div>
+    <div class="clase-body">
+      <p class="obj">Velocidad: que el transporte deje de ser un cálculo y sea un reflejo.</p>
+      <ul>
+        <li><b>Simulación de peña:</b> el profe canta o toca la melodía y dice "me queda alto, bajámelo un tono" <b>en el medio del tema</b>. Él resuelve sin parar la música.</li>
+        <li><b>Truco del mástil:</b> subir un tono = correr la cejilla 2 trastes; medio tono = 1 traste. Conectar el cálculo por tabla con el cálculo por mástil.</li>
+        <li><b>Círculos menores:</b> Am – Dm – E7, fundamentales para zamba y chacarera (que viven en modo menor). Chacarera típica: Im – V7 con esa séptima dominante bien folklórica.</li>
+        <li><b>Aplicación:</b> una zamba en Mi menor, pasarla a La menor y a Re menor.</li>
+      </ul>
+      <div class="tarea"><b>Tarea ✎</b> — Grabarse transportando un tema a 3 tonos distintos, sin frenar entre uno y otro.</div>
+    </div>
+  </div>
+
+  <div class="clase">
+    <div class="clase-head" style="background:linear-gradient(90deg,#5c6b4c,#48543b);">
+      <span class="num">Clase 4</span>
+      <span class="nom">"La prueba de la peña" — cierre del mes ✓</span>
+    </div>
+    <div class="clase-body">
+      <p class="obj">Demostrar la meta cumplida y dejar sembrado el mes 2.</p>
+      <ul>
+        <li><b>Evaluación práctica (formato peña):</b> 3 temas de su repertorio; el profe tira la tonalidad en el momento ("este en Fa", "este bajámelo a Re") y él resuelve. Si sale: <b>meta del mes resuelta y demostrada</b>.</li>
+        <li><b>Repaso integrador:</b> círculos mayores y menores en las tonalidades más usadas del folklore (Sol, Re, La, Mi, Em, Am, Dm, Bm).</li>
+        <li><b>Puente al mes 2:</b> primera escala — la pentatónica menor en una posición, mostrada sobre la intro de un chamamé sencillo. Que se vaya con ganas de lo que viene.</li>
+        <li><b>Entrega:</b> tabla de transporte plastificable para llevar a la peña (hasta que no la necesite más).</li>
+      </ul>
+      <div class="tarea"><b>Tarea del mes ✎</b> — Usar el transporte EN una peña real, y contar cómo fue.</div>
+    </div>
+  </div>
+
+  <div class="pagefoot">Mes 1 · Transporte instantáneo</div>
+  <div class="pagenum">Página 5</div>
+</div>
+
+<!-- ================= MESES 2 Y 3 ================= -->
+<div class="page tight">
+  <span class="month-tag verde">Meses 2 y 3 · Clases 5 a 12</span>
+  <h2 class="title">Escalas, punteos y <em>lectura</em></h2>
+
+  <div class="kicker">Mes 2 — Escalas y primeros punteos</div>
+  <table style="margin-bottom:4mm;">
+    <tr><th style="width:9mm;">Nº</th><th style="width:78mm;">Contenido</th><th>Aplicación</th></tr>
+    <tr><td class="cnum">5</td>
+      <td>Escala mayor y menor en 2 posiciones. Relación escala ↔ círculo armónico del mes 1: <i>"las escalas viven adentro de los acordes que ya conocés"</i>.</td>
+      <td>Escala de Mi menor sobre una chacarera.</td></tr>
+    <tr><td class="cnum">6</td>
+      <td>Pentatónica menor completa + cromatismos de paso; púa o dedos según estilo. <b>Cambiar de escala = cambiar de tonalidad con la misma forma</b> (conecta con el transporte).</td>
+      <td>Frases cortas de respuesta sobre chamamé.</td></tr>
+    <tr><td class="cnum">7</td>
+      <td><b>Introducción de zamba:</b> la intro punteada clásica (arpegio + melodía en las primas). Análisis: la intro es la última frase del tema.</td>
+      <td><i>Zamba de mi esperanza</i> o <i>Luna tucumana</i>.</td></tr>
+    <tr><td class="cnum">8</td>
+      <td><b>Introducción de chacarera:</b> punteo de intro con la escala menor; mordentes y ligados típicos.</td>
+      <td><i>Entre a mi pago sin golpear</i> o <i>La olvidada</i>.</td></tr>
+  </table>
+  <div class="metabox" style="padding:3.5mm 6mm;margin-bottom:4.5mm;">
+    <div class="k">Meta demostrable · Mes 2</div>
+    <p style="font-size:11pt;">La introducción punteada completa de una zamba y una chacarera, de memoria y en tempo.</p>
+  </div>
+
+  <div class="kicker">Mes 3 — Chamamé, lectura e integración</div>
+  <table style="margin-bottom:4mm;">
+    <tr><th style="width:9mm;">Nº</th><th style="width:78mm;">Contenido</th><th>Aplicación</th></tr>
+    <tr><td class="cnum">9</td>
+      <td><b>Introducción de chamamé estilo Formentín:</b> bordoneo (melodía en las bordonas) + acompañamiento simultáneo. Técnica de pulgar.</td>
+      <td><i>Kilómetro 11</i> — LA intro chamamecera por excelencia.</td></tr>
+    <tr><td class="cnum">10</td>
+      <td><b>Lectura I:</b> cifrado americano completo (lo usa desde la clase 1), tablatura bien leída (ritmo incluido), estructura de una partitura simple.</td>
+      <td>Leer de tablatura una intro que NO conoce y sacarla solo.</td></tr>
+    <tr><td class="cnum">11</td>
+      <td><b>Lectura II + transporte de punteos:</b> la forma de la escala se corre igual que la cejilla. Cierra el círculo con el mes 1.</td>
+      <td>La intro de zamba del mes 2, en otra tonalidad.</td></tr>
+    <tr><td class="cnum">12</td>
+      <td><b>Cierre — "mini peña":</b> set de 3 temas (uno por ritmo, o 2 folklore + 1 cristiano) con intro punteada; el profe cambia la tonalidad de uno en el momento. Plan de los próximos 3 meses.</td>
+      <td>Evaluación final integradora.</td></tr>
+  </table>
+  <div class="metabox" style="padding:3.5mm 6mm;background:linear-gradient(135deg,#b4502a,#94401f);">
+    <div class="k" style="color:#f0d3b8;">Meta demostrable · Mes 3</div>
+    <p style="font-size:11pt;">Un set de 3 temas con introducciones punteadas, sacado con autonomía y transportable en el momento.</p>
+  </div>
+
+  <div class="pagefoot">Meses 2 y 3 · Punteos y lectura</div>
+  <div class="pagenum">Página 6</div>
+</div>
+
+<!-- ================= ANEXO TABLAS ================= -->
+<div class="page">
+  <span class="month-tag ocre">Anexo · Para llevar a la peña</span>
+  <h2 class="title">Tabla de <em>transporte</em></h2>
+  <p class="lead">Las 12 tonalidades con sus grados. Imprimir, plastificar y llevar — hasta que no haga falta más.</p>
+
+  <table class="chordtable" style="margin-bottom:5mm;">
+    <tr><th>Tonalidad</th><th>I</th><th>IIm</th><th>IIIm</th><th>IV</th><th>V7</th><th>VIm</th></tr>
+    <tr class="hl"><td>G</td><td>G</td><td>Am</td><td>Bm</td><td>C</td><td>D7</td><td>Em</td></tr>
+    <tr class="hl"><td>D</td><td>D</td><td>Em</td><td>F#m</td><td>G</td><td>A7</td><td>Bm</td></tr>
+    <tr class="hl"><td>A</td><td>A</td><td>Bm</td><td>C#m</td><td>D</td><td>E7</td><td>F#m</td></tr>
+    <tr class="hl"><td>E</td><td>E</td><td>F#m</td><td>G#m</td><td>A</td><td>B7</td><td>C#m</td></tr>
+    <tr><td>C</td><td>C</td><td>Dm</td><td>Em</td><td>F</td><td>G7</td><td>Am</td></tr>
+    <tr><td>F</td><td>F</td><td>Gm</td><td>Am</td><td>B♭</td><td>C7</td><td>Dm</td></tr>
+    <tr><td>B</td><td>B</td><td>C#m</td><td>D#m</td><td>E</td><td>F#7</td><td>G#m</td></tr>
+    <tr><td>B♭</td><td>B♭</td><td>Cm</td><td>Dm</td><td>E♭</td><td>F7</td><td>Gm</td></tr>
+    <tr><td>E♭</td><td>E♭</td><td>Fm</td><td>Gm</td><td>A♭</td><td>B♭7</td><td>Cm</td></tr>
+  </table>
+  <p class="note" style="margin-bottom:6mm;">Las filas resaltadas son las tonalidades que más aparecen en el folklore.
+  Las demás, para cuando el cantor pide algo raro.</p>
+
+  <div class="kicker">Círculos armónicos menores más usados en folklore</div>
+  <table class="chordtable" style="margin-bottom:5mm;">
+    <tr><th>Tonalidad</th><th>Im</th><th>IVm</th><th>V7</th><th>♭VII (color)</th></tr>
+    <tr><td>Em</td><td>Em</td><td>Am</td><td>B7</td><td>D</td></tr>
+    <tr><td>Am</td><td>Am</td><td>Dm</td><td>E7</td><td>G</td></tr>
+    <tr><td>Dm</td><td>Dm</td><td>Gm</td><td>A7</td><td>C</td></tr>
+    <tr><td>Bm</td><td>Bm</td><td>Em</td><td>F#7</td><td>A</td></tr>
+  </table>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Regla del mástil</h3>
+      <p>Subir <b>un tono</b> = correr la cejilla <b>2 trastes</b>.<br>
+      Subir <b>medio tono</b> = <b>1 traste</b>.<br>
+      Bajar = lo mismo, hacia el clavijero.</p>
+    </div>
+    <div class="card">
+      <h3>Formas móviles</h3>
+      <p>Forma de <b>Mi</b> (raíz en 6ª cuerda) y forma de <b>La</b> (raíz en 5ª cuerda), corridas por el mástil, dan <b>todos los acordes</b> mayores y menores.</p>
+    </div>
+  </div>
+
+  <div class="pagefoot">Anexo · Tabla de transporte</div>
+  <div class="pagenum">Página 7</div>
+</div>
+
+<!-- ================= NOTAS PEDAGÓGICAS ================= -->
+<div class="page">
+  <div class="kicker">Para el profe</div>
+  <h2 class="title">Notas <em>pedagógicas</em></h2>
+
+  <ul class="peda">
+    <li><b>Ya pasó por varios profesores.</b> Probablemente abandonó por planes sin rumbo o por pura técnica
+    sin música. Cada clase tiene que cerrar con algo que él pueda <b>tocar y mostrar</b>. La meta demostrable
+    de cada mes es el ancla del plan.</li>
+
+    <li><b>La música cristiana es aliada, no desvío.</b> Usa los mismos círculos (I–V–VIm–IV por todos lados)
+    y suele necesitar transporte constante para adaptarse a las voces del grupo de alabanza. Usarla como
+    campo de práctica del mes 1.</li>
+
+    <li><b>Formentín como zanahoria.</b> El bordoneo chamamecero (clase 9) es lo más exigente técnicamente
+    de todo el plan. Mencionarlo desde el mes 1 como destino: <i>"todo esto es lo que necesitás para llegar
+    a tocar como Formentín"</i>.</li>
+
+    <li><b>"Profesional para él".</b> Quiere excelencia sin presión de escenario. Evaluar con la
+    "mini peña" (contexto lúdico), nunca con exámenes formales.</li>
+
+    <li><b>Si el diagnóstico de la clase 1 da más flojo de lo esperado</b> (cejilla inestable, ritmos
+    imprecisos), estirar el mes 1 medio ritmo: la cejilla sólida es prerrequisito del transporte
+    instantáneo y conviene reforzarla antes de acelerar.</li>
+  </ul>
+
+  <div class="divider">✦</div>
+
+  <div class="metabox" style="background:linear-gradient(160deg,#432a19,#2e1c10);">
+    <div class="k" style="color:var(--ocre);">La idea que ordena todo</div>
+    <p>Una sola herramienta —el sistema de grados— resuelve el transporte, explica los círculos armónicos,
+    da sentido a las escalas y hace transportables los punteos. Cada mes la profundiza; cada meta la demuestra
+    en el lugar donde a él le importa: <b>la peña</b>.</p>
+  </div>
+
+  <div class="pagefoot">Plan de clases · Folklore Argentino</div>
+  <div class="pagenum">Página 8</div>
+</div>
+
+</body>
+</html>
