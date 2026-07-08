@@ -607,6 +607,65 @@ Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grab
 
 ---
 
+## 19) LA OFERTA — "el qué vendés" armado (borrador para afinar con Nico)
+
+> **Por qué esto se puede avanzar YA:** la oferta es una decisión de EMPAQUETADO y COMUNICACIÓN, no
+> un entregable a construir. No necesitás el delivery listo para definir qué vendés y cómo lo contás.
+> Este es el 80% hecho; el 20% final lo puliís con Nico. Los [corchetes] son las decisiones abiertas.
+
+### Ficha de la oferta (one-pager)
+- **Nombre:** "Solo con Sabor" — Programa de improvisación en rock/blues.
+- **Para quién:** guitarrista intermedio autodidacta (28-45) que sabe la pentatónica caja 1 y suena escolar.
+- **Promesa (Punto A → Punto B):** "En 90 días pasás de repetir siempre los mismos licks en la caja 1
+  a improvisar solos de rock con sabor, moviéndote por las 5 cajas con bending, vibrato y espacio."
+- **Formato:** grupal online, 4-6 alumnos por cohorte. 4 sesiones en vivo por semana + grabaciones.
+- **Duración:** 12 semanas (3 meses).
+- **Precio:** [USD 600 primera cohorte "fundadores" → subir a 900 con 2 testimonios].
+- **Garantía:** [propuesta abajo].
+
+### Lo que INCLUYE (así lo comunicás — bullets de valor, no de features)
+- ✅ 4 clases en vivo por semana (Teoría · Técnica · Repertorio · Improvisación) — 48 clases en total.
+- ✅ Devolución personalizada de TU forma de tocar cada sábado (no un curso genérico: te corrijo a VOS).
+- ✅ El método de las 5 cajas conectadas: dejás de estar preso en la caja 1.
+- ✅ El sistema de "sabor": bending, vibrato, espacio y dinámica — lo que separa a un solo escolar de uno pro.
+- ✅ 20 licks propios inspirados en Page, Slash, Hendrix, Gary Moore y Angus.
+- ✅ Grupo reducido (máx 6): no sos un número, todos se conocen y tocan.
+- ✅ Grabaciones de todas las clases (te las quedás para siempre).
+- ✅ Comunidad de guitarristas al mismo nivel que vos (fin del "estudiar solo y frustrarse").
+
+### El entregable-prueba (lo que se lleva el alumno — el antes/después)
+- Mes 1: video recorriendo las 5 cajas sin pausa.
+- Mes 2: video tocando 5 licks con sabor sobre backing.
+- Mes 3: **solo propio de 1 minuto grabado** ← este es SU trofeo y TU testimonio.
+
+### Garantía (elegí una — bajan el miedo del comprador)
+1. **Garantía de participación:** "Si venís a las clases, hacés las tareas y en 30 días no ves un
+   cambio real en cómo suena tu solo, te devuelvo el 100%." (La más fuerte, y podés sostenerla porque
+   el método funciona.)
+2. **Garantía de la primera clase:** "Si después de la primera semana sentís que no es para vos, te
+   devuelvo todo, sin preguntas."
+
+### Por qué vale lo que cuesta (el argumento del valor)
+- Una clase particular presencial ronda [USD X] la hora. 48 clases 1a1 saldrían [USD XX.XXX].
+- Acá pagás una fracción de eso por MÁS horas + comunidad + grabaciones + un método ordenado.
+- Pero el argumento real no es el precio: es el RESULTADO. Cuánto vale, después de años trabado,
+  finalmente sonar como los discos que amás. Eso no tiene comparación con "clases por hora".
+
+### Lo que NO es (para filtrar y posicionar)
+- ❌ No es un videocurso que mirás solo (eso es lo que ya te frustró).
+- ❌ No es clases sueltas sin rumbo.
+- ❌ No es para principiantes absolutos (hay un piso: caja 1 y acordes básicos).
+
+### Decisiones abiertas que cierran la oferta (para resolver YA)
+1. **Precio inicial:** 600 / 750 / 900. (Sugerencia: 600 fundadores, comunicando que sube.)
+2. **Garantía:** ¿la de 30 días (fuerte) o la de 1ª clase (suave)?
+3. **Keyword del CTA:** CHIMI / MOJO / GROOVE / SABOR.
+4. **Fecha de arranque 1ª cohorte:** [____] → crea la urgencia ("cupos para el grupo que arranca el X").
+
+> Con estas 4 decisiones, la oferta queda CERRADA y lista para comunicar en bio, reels y llamada de venta.
+
+---
+
 ## 18) SIMULACIÓN DEL "DESPUÉS" — cómo se ve tu vida 1-2 meses tras el cambio
 
 > **Por qué existe esta sección:** Feli pidió visualizar el futuro para bajar la ansiedad. Dos partes:
