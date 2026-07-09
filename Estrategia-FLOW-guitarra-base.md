@@ -9,8 +9,13 @@
 > escribimos la SIMULACIÓN del "después" (sección 18).
 > **Quién soy:** Feli (NO confundir con Nico — Nico Galliussi es el mentor del método, yo soy el alumno que lo aplica).
 > **IG elegido:** felibayamenor (probable @felibayamenor, sin tilde ni mayúscula — confirmar el exacto).
-> **Decisiones aún abiertas:** keyword del video 6 (CHIMI/MOJO/GROOVE/SABOR — voto: CHIMI) · precio inicial
-> (600/750/900) · fecha 1ª cohorte.
+> **Decisiones tomadas (última sesión):** precio fundadores USD 400 (por debajo del rango 600-900 del plan
+> original — revisar con Nico, probablemente empuje para arriba) · las keywords de CTA ROTAN por reel (PENTA,
+> CHIMI, ROCK… — no es una palabra fija) · garantía: se define con Nico · "Solo con Sabor" = nombre PROVISORIO
+> (a Feli no lo convence del todo; no bloquea nada, se decide más adelante).
+> **Prioridad declarada por Feli:** 1º tener 15 videos + algunos carruseles, 2º entender la estructura de las
+> clases (ver secciones 16 y 20). "Cohorte" = camada: el grupo de 4-6 que arranca y termina junto.
+> **Decisión aún abierta:** fecha de arranque de la 1ª camada.
 > **Estado emocional de Feli (importante para el asistente):** entusiasta pero ansioso. Tiende a sentir que
 > tiene que tener TODO armado antes de vender. Rol del asistente: separar DECISIONES (ya tomadas) de
 > ENTREGABLES (se construyen sobre la marcha), y no dejar que la ansiedad frene la producción de contenido.
@@ -604,6 +609,68 @@ El riser termina justo cuando empieza la acción.
 5. Filmás los planos cara/cámara de cierre y CTA.
 6. (Solo #6) Filmás el plano del cambio físico de setup (apagar pedales en vivo).
 Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grabación.
+
+---
+
+## 20) EL PROGRAMA SEMANA A SEMANA — la estructura completa de las clases
+
+> **Por qué existe:** Feli pidió "entender cómo va a ser una clase, qué se va a hacer, cómo la voy a dar,
+> la estructura". La sección 16 cubre CÓMO dar una clase (mecánica de Zoom + los 60 min). Esta cubre QUÉ
+> se enseña cada semana. Juntas = el delivery entero visible. Es un borrador vivo: se ajusta con la
+> primera camada y con Nico. No hace falta memorizarlo ni perfeccionarlo ahora.
+
+### La lógica fija de la semana (se repite las 12 semanas)
+Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
+| Día | Sesión | Ángulo del tema semanal |
+|---|---|---|
+| **Lunes** | Teoría / Q&A | Entender el tema: qué es, por qué, dudas de la semana anterior |
+| **Martes** | Técnica | Las manos: ejercicios del tema, todos tocan, corregís |
+| **Jueves** | Repertorio | Un solo icónico donde ESE tema aparece — lo desarman juntos |
+| **Sábado** | Improvisación | Aplicarlo improvisando sobre backing + devolución personalizada |
+
+> Esta repetición es una FEATURE, no aburrimiento: el alumno siempre sabe qué esperar (mapa de ruta claro
+> = menos deserción), y vos preparás UNA idea por semana, no cuatro clases sueltas.
+
+### MES 1 — EL MAPA (semanas 1-4): salir de la caja 1
+| Semana | Tema | Jueves: solo de referencia | Sábado: consigna de impro |
+|---|---|---|---|
+| 1 | Caja 1 A FONDO + dónde están las tónicas (la "casa") | Back in Black (Angus) — todo en una zona | Improvisar solo en caja 1, terminando frases en la tónica |
+| 2 | Caja 2 + la conexión 1↔2 (la nota compartida) | Whole Lotta Love (Page) | Frases que crucen de caja 1 a 2 y vuelvan |
+| 3 | Cajas 3 y 4 + conexión con las anteriores | Voodoo Child (Hendrix) | Subir de caja 1 a 4 en una sola frase larga |
+| 4 | Caja 5 + EL MÁSTIL COMPLETO (cierre del mapa) | Parisienne Walkways (Gary Moore) | Recorrer las 5 cajas sobre blues lento |
+| | **Entregable Mes 1:** video recorriendo las 5 cajas sin pausa | | |
+
+### MES 2 — EL SABOR (semanas 5-8): que suene a música
+| Semana | Tema | Jueves: solo de referencia | Sábado: consigna de impro |
+|---|---|---|---|
+| 5 | BENDING: afinado, con destino (la nota a la que llegás) | Sweet Child O' Mine intro/solo (Slash) | Frases donde cada bending llega a una nota real |
+| 6 | VIBRATO: amplio, controlado, tu firma | Still Got the Blues (Gary Moore) | Una nota larga con vibrato por frase, obligatorio |
+| 7 | ESPACIO: el silencio como parte de la frase | The Thrill Is Gone (B.B. King) | Regla de las 3 notas + contar hasta 2 antes de la siguiente frase |
+| 8 | DINÁMICA + la nota agregada (blue note) | Texas Flood (SRV) | Impro con curva: empezar suave, crecer, cerrar suave |
+| | **Entregable Mes 2:** video tocando 5 licks con sabor sobre backing | | |
+
+### MES 3 — EL VOCABULARIO (semanas 9-12): licks propios y el solo final
+| Semana | Tema | Jueves: solo de referencia | Sábado: consigna de impro |
+|---|---|---|---|
+| 9 | Robarle a los grandes I: 5 licks escuela Page/Angus | Heartbreaker (Page) | Meter 2 de esos licks en una impro SIN que suenen pegados |
+| 10 | Robarle a los grandes II: 5 licks escuela Hendrix/Slash | Red House (Hendrix) | Variar un lick robado (ritmo, remate) hasta hacerlo propio |
+| 11 | Armar TU solo: estructura (apertura, desarrollo, clímax, cierre) | November Rain solo (Slash) | Impro con arco: arrancar abajo, clímax arriba, cierre en tónica |
+| 12 | EL SOLO FINAL: cada uno graba su solo de 1 min + devolución | (la clase es de ellos) | Cada alumno toca SU solo, el grupo y vos dan devolución |
+| | **Entregable Mes 3:** solo propio de 1 minuto grabado = su trofeo + tu testimonio | | |
+| | *Bonus semana 12 (si el grupo llega bien):* el secreto SRV — mezclar la penta mayor | | |
+
+### Prácticas de enseñanza online que suma el material nuevo de Nico (testimonios Rafa/Federico/Muratore)
+- **Backing tracks siempre a mano** (Jamzone o similares): el alumno aplica en contexto musical real, no en el vacío. Armate una carpeta con 1 backing por semana ANTES de arrancar (12 backings = 1 tarde de trabajo).
+- **Alternar cada 15-20 min:** nunca más de 20 min de vos hablando sin que ellos hagan algo (tocar, responder en el chat, adivinar qué escala es). La clase online se cae si es monólogo.
+- **El chat como herramienta:** "escriban en el chat en qué caja estoy tocando" — mantiene a todos activos mientras uno toca.
+- **Comunicación entre clases:** un mensaje semanal al grupo (WhatsApp/Telegram) con la tarea y qué viene. Los testimonios insisten: esto evita la deserción. 5 minutos tuyos, retención enorme.
+- **Mapa de ruta visible:** el alumno tiene que saber SIEMPRE en qué semana está y qué falta. Esta misma tabla, compartida con ellos, es el mapa. Alumno perdido = alumno que abandona.
+- **Confianza en el producto (mindset):** el mayor obstáculo no es técnico, es tu inseguridad sobre el valor. Pregunta de Federico Lupo: *¿cuánto habrías pagado vos hace años para que alguien te ahorrara el camino que ya recorriste?* Eso vale tu programa.
+- **Tu conocimiento ya alcanza:** Federico no necesitaba más teoría — necesitaba ORDENAR lo que sabía. Esta tabla ES ese orden aplicado a vos.
+
+> **Lo que esta sección te demuestra:** "no sé qué voy a enseñar" ya no es verdad. Está acá, semana por
+> semana, solo por solo, consigna por consigna. Es TU método de estudio (así aprendiste vos) puesto en
+> grilla. Lo que falta pulir se pule con la primera camada y con Nico.
 
 ---
 
