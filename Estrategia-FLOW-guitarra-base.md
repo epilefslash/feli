@@ -612,6 +612,108 @@ Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grab
 
 ---
 
+## 21) GUION VIDEO 7 — "Dejá de mirar tutoriales" (versión hablada)
+
+> **Creencia atacada:** "mirar más tutoriales me va a hacer mejor" (creencias 5 y 9 combinadas).
+> Es EL dolor central del avatar (autodidacta de YouTube frustrado) y conecta directo con el copy
+> maestro de la sección 12. Formato C hablado, como el 5 y el 6.
+> **Duración:** 40-45 seg · **Backing:** blues en La · **Tono:** empático — vos FUISTE ese tipo.
+> **CTA keyword:** ROCK ("te mando 3 licks con sabor para practicar").
+> **Particularidad:** acá el "mal" NO es tocar mal — es una imagen: el scroll infinito de tutoriales.
+
+**[0:00–0:04] HOOK — a cámara**
+> "¿Cuántos tutoriales de guitarra miraste este mes? ¿Veinte? ¿Cincuenta?
+> ¿Y tu improvisación mejoró algo? Sé honesto."
+
+**[0:04–0:12] EL "MAL" — el espejo (no tocás: mostrás)**
+> "Yo era ese tipo. Guardaba licks, miraba análisis de solos, cursos, más licks…
+> Sabía un montón. Y cuando agarraba la viola para improvisar… seguía sonando igual que hace dos años."
+>
+> *(Visual: capturas de un feed lleno de tutoriales / carpeta de guardados de IG repleta, scrolleando.
+> Labels: ✱ 200 licks guardados · ✱ 0 solos propios)*
+
+**[0:12–0:18] REVELACIÓN — a cámara**
+> "El problema no es que te falte información. Es que te SOBRA.
+> Acumulás 'qués' sin un 'cómo'. Mirá lo que hacen 20 minutos bien diseñados."
+
+**[0:18–0:32] EL "BIEN" — tocás, poco hablado encima**
+> *(Improvisás 12-14 seg sobre el backing, con sabor. Labels secuenciales:
+> ✱ 20 min por día · ✱ una sola cosa por semana · ✱ con un orden)*
+>
+> "Esto no salió de mirar videos. Salió de practicar UNA cosa por vez, con un orden."
+
+**[0:32–0:40] CIERRE — a cámara**
+> "No necesitás más tutoriales. Necesitás menos información y más dirección.
+> Veinte minutos por día con un plan le ganan a cuatro horas de scroll. Siempre."
+
+**[0:40–0:45] CTA**
+> "Comentá ROCK y te mando tres licks con sabor — pero con el CÓMO practicarlos, no el lick pelado."
+
+**Guía de tono:** este video es un ESPEJO, no un reto. El viewer se tiene que sentir *entendido*, no
+acusado. Por eso arrancás con "yo era ese tipo" — te ponés adentro del problema antes de señalarlo.
+
+**Copy del post:** usar el COPY MAESTRO de la sección 12 casi textual (fue escrito exactamente para
+esta creencia). Cambiar solo el CTA final: "Comentá **ROCK** y te mando 3 licks con el cómo 📩".
+
+**Hashtags:**
+`#guitarra #guitarraelectrica #aprenderguitarra #tutorialguitarra #solodeguitarra #rock #bluesrock #pentatonica #guitarristas #practicarguitarra`
+
+**Nota de edición:** en el "mal" no hay guitarra sonando — meté un backing tenso bajito o silencio
+incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto vs guitarra viva.
+
+---
+
+## 22) PLAN DE CARRUSELES — mismo contenido, formato "para guardar"
+
+> **Concepto:** el reel convierte (emoción + prueba en vivo); el carrusel se GUARDA y se comparte
+> (referencia útil). No requiere info nueva: todo sale de lo que ya está en este documento.
+> **Regla de estructura:** slide 1 = hook grande (una frase) · slides 2-6 = un concepto por slide,
+> poco texto · última slide = CTA + recordatorio de guardar ("Guardalo 📌").
+> **Frecuencia sugerida:** 1 carrusel por semana entre los reels. Feli ya tiene la estética definida.
+
+### Carrusel 1 — "5 guitarristas legendarios. 1 sola escala." (gemelo del video 5)
+1. **Hook:** "Estos 5 monstruos usaron la MISMA escala toda su carrera."
+2. Angus Young — Back in Black. Pentatónica menor.
+3. Jimi Hendrix — Voodoo Child. Pentatónica menor.
+4. Joe Perry — Walk This Way. Pentatónica menor.
+5. Jimmy Page — Whole Lotta Love. Pentatónica menor.
+6. Gary Moore — Parisienne Walkways. Pentatónica menor.
+7. "Cinco escuelas. Una escala. No te falta una escala nueva: te falta exprimir ésta."
+8. **CTA:** "Comentá PENTA y te paso el mapa de las 5 cajas gratis. Guardalo 📌"
+
+### Carrusel 2 — "Los 4 ingredientes del sabor" (el método sin regalarlo entero)
+1. **Hook:** "Tu solo no suena 'escolar' por falta de notas. Le faltan estos 4 ingredientes."
+2. EL BENDING — no es adorno: es CANTAR con la cuerda. Con destino, afinado.
+3. EL VIBRATO — tu firma. Es lo primero que delata si sos amateur o pro.
+4. EL ESPACIO — el silencio es parte de la frase. B.B. King vivía de esto.
+5. LA DINÁMICA — no todo al mismo volumen: susurrar, hablar, gritar.
+6. "Las notas son el 20%. Estos 4 son el 80%. Y casi nadie los practica."
+7. **CTA:** "¿Cuál te falta más? Contame abajo 👇 Guardalo para tu próxima práctica 📌"
+
+### Carrusel 3 — "5 mentiras que te tienen trabado" (resumen de las creencias)
+1. **Hook:** "5 mentiras que te tienen tocando igual que hace 2 años."
+2. "Necesito más escalas" → FALSO. Page hizo una carrera con una.
+3. "Necesito mejor equipo" → FALSO. El sabor está en los dedos.
+4. "Tengo que tocar rápido" → FALSO. Gilmour te hace llorar lento.
+5. "Necesito estudiar 4 horas" → FALSO. 20 min con orden le ganan.
+6. "Me faltan licks" → FALSO. Te falta espacio, bending y vibrato.
+7. "Lo que sí necesitás: un mapa, un orden y sabor. En ese orden."
+8. **CTA:** "Comentá SOLO y te cuento cómo lo trabajo. Guardalo 📌"
+
+### Carrusel 4 — "Anatomía de un solo que emociona" (gemelo del solo "bien" del video 5)
+1. **Hook:** "Por qué el solo de un pro te emociona y el tuyo no. Anatomía en 5 slides."
+2. ARRANCA con una frase — pregunta y respuesta. No con una escala.
+3. RESPIRA — notas largas, espacio. La tensión se construye esperando.
+4. SUBE con intención — cada bending llega a una nota real, no 'más o menos'.
+5. CORRE al final — la velocidad emociona SOLO si se hizo esperar.
+6. CIERRA en casa — la tónica. El oído descansa, la frase 'resuelve'.
+7. **CTA:** "Esto se aprende en orden. Comentá PENTA por el mapa gratis. Guardalo 📌"
+
+> **Orden de publicación sugerido:** cada carrusel sale la semana del reel gemelo (Carrusel 1 con el
+> video 5, Carrusel 2 en semana de video de sabor, etc.). Refuerzan el mismo mensaje en dos formatos.
+
+---
+
 ## 20) EL PROGRAMA SEMANA A SEMANA — la estructura completa de las clases
 
 > **Por qué existe:** Feli pidió "entender cómo va a ser una clase, qué se va a hacer, cómo la voy a dar,
