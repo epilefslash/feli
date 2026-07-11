@@ -701,6 +701,52 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 
 ---
 
+## 24) GUION VIDEO 8 — "3 formas de romper las cajas de la penta" (adaptado a la voz de Feli)
+
+> **Origen:** guion de un YouTuber mexicano que pasó Feli ("chavales"/"chingón"), adaptado a
+> rioplatense. Formato A-plus (tutorial con demostración): construye AUTORIDAD y alcance. Encaja
+> perfecto porque el tema ES el lead magnet — el cierre conecta directo con el mapa de las 5 cajas.
+> **Duración:** 45-60 seg · **Tono:** canchero, generoso, cero chamuyo — acá REGALÁS valor real.
+
+**[HOOK — a cámara, y arranca un solo tuyo de fondo]**
+> "Te voy a mostrar tres formas de romperle las cajas a la pentatónica."
+> *(suena un fragmento de solo tuyo, 2-3 seg — el gancho es que se escuche que sabés)*
+
+**[INTRO]**
+> "¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR
+> de ellas. Así que van tres formas que funcionan de verdad."
+
+**[FORMA 1 — HORIZONTAL]**
+> "Forma uno: horizontal." *(demostración)*
+> "En vez de subir y bajar encerrado en una caja, conectá una posición con la siguiente.
+> Pensá el mástil para adelante y para atrás — no para arriba y abajo."
+
+**[FORMA 2 — DIAGONAL]**
+> "Forma dos: diagonal." *(demostración)*
+> "Ésta es mi favorita. En vez de moverte derecho, conectá las octavas en diagonal.
+> Cubrís muchísimo más mástil sin perderte nunca."
+
+**[FORMA 3 — LEGOS]**
+> "Forma tres: Legos." *(demostración)*
+> "Cada caja es una piecita. Cuando las encastrás entre sí, el mástil deja de ser cinco cajas
+> separadas… y pasa a ser UN solo mapa."
+> *(acá va el solo extenso tuyo — 10-12 seg recorriendo todo el mástil, con sabor)*
+
+**[CIERRE + CTA]**
+> "No necesitás aprender más pentatónicas. Necesitás más formas de navegar la que ya sabés.
+> ¿Cuál de las tres vas a probar primero? Contame abajo. 👇
+> Y si querés el mapa de las cinco cajas conectadas, comentá PENTA y te lo mando gratis."
+
+**Decisiones de adaptación:**
+- Fuera "chavales" y "chingón" (mexicanismos) → rioplatense natural de Feli.
+- El cierre original pedía "seguime" → reemplazado por la doble CTA: pregunta de engagement
+  (comentarios = alcance) + PENTA (lead magnet = leads). Mismo video, dos cosechas.
+- "Romperle las cajas" — el doble sentido rioplatense del hook es un plus, no lo pierdas.
+- Labels sugeridos durante las demos: ✱ HORIZONTAL → adelante y atrás · ✱ DIAGONAL → octavas
+  · ✱ LEGOS → un solo mapa.
+
+---
+
 ## 22) PLAN DE CARRUSELES — mismo contenido, formato "para guardar"
 
 > **Concepto:** el reel convierte (emoción + prueba en vivo); el carrusel se GUARDA y se comparte
