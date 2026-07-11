@@ -612,6 +612,44 @@ Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grab
 
 ---
 
+## 23) EL GUION VENDEDOR — "Como que desaparece" (adaptado del guion jazz que pasó Feli)
+
+> **Origen:** guion de venta directa de otro profesor (jazz: estándares/enclosures/keyword LENGUAJE)
+> que Feli identificó como EL que más vende. Mecánica: espejo del dolor → sacar la culpa → nombrar la
+> solución sin regalarla ("un sistema") → puerta con keyword. Adaptado a nuestro avatar.
+> **Uso triple:** (a) reel hablado a cámara SIN tocar — el fuerte de Feli, (b) copy de post,
+> (c) historia para la destacada MÉTODO. Es contenido de CONVERSIÓN pura: publicarlo cuando ya haya
+> autoridad construida (después de varios Formato C), no como primer contenido.
+> **Keyword:** SABOR (la del método — cambiar si se define CHIMI).
+
+**VERSIÓN PRINCIPAL:**
+> Mirás tutoriales, guardás licks, sacás los solos de tus ídolos… pero cuando improvisás, nada de
+> eso aparece. Le dedicaste un montón de horas — y en el momento de tocar, terminás metido en la
+> misma caja de siempre, con las mismas frases de siempre. Como si todo lo que estudiaste no
+> existiera. Como que desaparece.
+>
+> Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema que convierta
+> eso que estudiás en TU forma de tocar — que cuando improvises, salga solo, con sabor, sin pensarlo.
+>
+> Si querés trabajar en serio, en un proceso paso a paso, para improvisar solos de rock con la
+> libertad que buscás, mandame **SABOR** y te cuento cómo trabajamos.
+
+**VERSIÓN CORTA (story / pie de reel):**
+> Guardás licks que después nunca aparecen cuando improvisás. El problema no es cuánto estudiás —
+> es que nada lo conecta. No necesitás más material: necesitás un sistema. Mandame **SABOR** y te
+> cuento cómo trabajamos.
+
+**Decisiones de adaptación (para futuras variantes):**
+1. "La misma caja de siempre" reemplaza "los mismos recursos" — la caja 1 es la cárcel CON NOMBRE del avatar, imagen física que reconoce al instante.
+2. "Como que desaparece" se roba casi textual — es la frase más potente del original: la experiencia exacta de improvisar y quedarse en blanco.
+3. La CTA de este guion NO regala nada (no es lead magnet): abre conversación de método directo. Por eso es el que vende — atrae al 3% listo para comprar (regla 97/3).
+
+**Como reel (si se filma):** vos a cámara todo el tiempo, sin guitarra o con la viola colgada sin
+tocar. Subtítulos grandes. Sin música o backing mínimo. El poder está en que el viewer se sienta
+LEÍDO — cualquier adorno lo diluye. 30-35 seg.
+
+---
+
 ## 21) GUION VIDEO 7 — "Dejá de mirar tutoriales" (versión hablada)
 
 > **Creencia atacada:** "mirar más tutoriales me va a hacer mejor" (creencias 5 y 9 combinadas).
