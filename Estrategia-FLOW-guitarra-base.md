@@ -1066,6 +1066,19 @@ ticket en vez de clases sueltas · vender resultados no horas · un alumno extra
 Conversión (proceso claro consulta→venta, high ticket) → Servicio/Escalabilidad (grupal, el tiempo
 del mentor deja de ser el techo).
 
+**Video de Nico (jul 2026) — "grupal ≠ económico" (los 4 pasos del programa grupal):**
+Caso: baterista encuestó a su grupo de WhatsApp ofreciendo clase grupal "económica" — el error fue la
+palabra "económica", no la encuesta. La gente no paga minutos, paga resultado. Los 4 pasos de Nico:
+(1) elegir UN tipo de alumno · (2) camino de hitos NOMBRADOS POR RESULTADO · (3) capas de valor
+(sesiones temáticas, comunidad, seguimiento, material) · (4) precio a la transformación, no por hora.
+**Auditoría contra nuestro programa: pasos 1-3 ya cumplidos** (avatar ✓, EL MAPA/EL SABOR/EL
+VOCABULARIO son hitos nombrados por resultado ✓, las 4 sesiones + WhatsApp + devolución del sábado +
+cuadernillos son las capas ✓). **Paso 4 en tensión:** el precio elegido (400) tira hacia la trampa
+"grupal = barato" que este video denuncia. Decisión: 400 queda como piso privado, NO comunicar precio
+públicamente hasta validarlo con Nico (si nunca se dijo 400, subir a 600 no cuesta; si se publicó,
+subir es "aumentar"). Nota: el guion de Nico usa el mismo molde Formato C (historia → creencia
+atacada → framework → CTA keyword) — el molde funciona a todo nivel.
+
 ---
 
 ## 16) CÓMO DAR TU PRIMERA CLASE GRUPAL ONLINE (red de seguridad anti-miedo)
