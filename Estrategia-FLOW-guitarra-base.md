@@ -35,18 +35,30 @@
   el Instagram nuevo y publicar con stock. El delivery de las clases se arma cuando arranquen las
   mentorías con Nico.
 
-### Estado de los videos
+### Estado REAL de los videos (orden de filmación de Feli — actualizado)
 | # | Tema | Formato | Estado |
 |---|---|---|---|
-| 1 | Recursos sobre backing AC/DC (desplazamiento, acordes penta, bending, cromatismo) | A | ✅ Filmado |
+| 1 | Recursos para tu pentatónica menor (no habla, toca + recursos en pantalla) | A | ✅ Filmado |
 | 2 | "5 acordes de la pentatónica para funkear tus solos" | A | ✅ Filmado |
-| 3 | Análisis solo "Can't Stop" (RHCP) con texto en pantalla | C (solo ajeno) | ✅ Filmado |
-| 4 | "¿Cuántas escalas necesitás para sonar a rock?" (creencia: no necesitás más escalas) | C | ✅ Filmado + EDITADO |
-| 5 | "La pentatónica menor NO es de principiantes" | C | 🎬 A filmar (guion listo) |
-| 6 | "El equipo no te va a salvar" (SX vs plugin UA, sin tocar mal) | C | 🎬 A filmar (guion listo) |
-| 7 | "20 min vs 4 hs de tutoriales" / "Tocar lento te hace sonar pro" | C | 📝 En el horno |
+| 3 | "¿Creés que para sonar rockero hay que tocar rápido?" | C | ✅ Filmado |
+| 4 | "¿Cuántas escalas necesitás para sonar a rock?" | C | ✅ Filmado + EDITADO |
+| 5 | "¿Creés que la pentatónica menor es de principiantes?" | C | ✅ Filmado |
+| 6 | "Tus solos no aburren por las notas, aburren porque no respiran" (espacio) | C | ✅ Filmado |
+| 7 | "¿Esperás que un equipo arregle tu solo?" (plugin vs ampli barato — el sabor está en los dedos) | C | 🟡 6.5 — falta grabar las guitarras (guion, setup y remera listos) |
+| 8 | "No tengo oído" (cantá primero, tocá después — Paul Gilbert/GIT) | C + conexión | ✅ Filmado · en edición (ver notas de corte abajo) |
 
-> Faltan ~9 reels para llegar a 15. Ver sección 9 (mapa de los 15).
+**Notas de edición del #8:** (1) cortar la línea del ritmo ("vas a profundizar el tema del ritmo") — está
+fuera de tema, el video es de oído/melodía. (2) Reforzar el CTA con texto grande fijo: "Comentá SOLO 👇 y
+te paso la rutina gratis" (el audio del CTA quedó ambiguo). (3) El label del paso 3 tiene que decir "slide",
+no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
+
+**Próximos a filmar (en orden):** #9 "3 formas de romper las cajas de la penta" (Formato A, alcance + alimenta
+PENTA) → #10 REEL FIJADO (vos soleando lindo 30 seg, la carta de presentación) → #11 TU HISTORIA (60 seg,
+humaniza) → los VENDEDORES (guion "Como que desaparece" + variantes, sección 23).
+
+> Guiones ya escritos sin filmar: #7 (equipo, sec. 8), "3 formas romper cajas" (sec. 24), vendedor (sec. 23),
+> "cantá primero tocá después" ya filmado (#8), voz/melodía interna y desarmar-lick (pendientes de registrar).
+> Ver sección 9 para el ORDEN DE PUBLICACIÓN (distinto del orden de filmación).
 
 ---
 
@@ -454,34 +466,46 @@ y Knopfler (sin púa/sin distorsión) son los ejemplos blindados.
 
 ---
 
-## 9) MAPA DE LOS 15 REELS (para tener stock antes de lanzar)
+## 9) MAPA DE CONTENIDO + ORDEN DE PUBLICACIÓN (actualizado con el stock real)
 
-**Categoría 1 — Formato C "creencias atacadas" (motor de conversión):**
-- ✅ #4 "no necesitás más escalas"
-- 🎬 #5 "la pentatónica no es de principiantes"
-- 🎬 #6 "no es el equipo"
-- 📝 #7 "20 min vs 4 hs de tutoriales" / "tocar lento te hace sonar pro"
-- 📝 #8 "no tengo oído" (se entrena)
-- 📝 #9 "necesito más licks" (te falta sabor, no notas)
+### El inventario por función (regla: mezclar los 3, no publicar 6 iguales seguidos)
+**A — AUTORIDAD / VALOR (alcance, gente nueva):**
+- ✅ #1 recursos para tu penta (toca, sin hablar)
+- ✅ #2 5 acordes para funkear
+- 🎬 "3 formas de romper las cajas" (próximo — Formato A + alimenta PENTA)
+- 🎬 REEL FIJADO: vos soleando lindo 30 seg (la carta de presentación del perfil)
 
-**Categoría 2 — Demostraciones puras de autoridad (alcance):**
-- ✅ #3 análisis Can't Stop (ya hecho)
-- 📝 #11 análisis de un solo icónico (Page/Slash/Gary Moore)
-- 📝 #12 "5 bendings que cambian tu solo" (tutorial corto)
-- 📝 #13 vos tocando 30 seg libres sobre blues lento → **REEL FIJADO** del perfil
+**C — CREENCIAS ATACADAS (conversión, el motor):**
+- ✅ #3 "¿hay que tocar rápido?"
+- ✅ #4 "¿cuántas escalas necesitás?"
+- ✅ #5 "¿la penta es de principiantes?"
+- ✅ #6 "tus solos no respiran" (espacio)
+- 🟡 #7 "¿el equipo arregla tu solo?" (falta grabar violas)
+- ✅ #8 "no tengo oído" (+ conexión)
 
-**Categoría 3 — Personal / behind the scenes (humaniza):**
-- 📝 #14 tu historia en 60 seg ("yo también tocaba caja 1 hace X años")
-- 📝 #15 tu rutina de práctica real (20 min)
+**P — PERSONAL / HUMANIZA (te eligen a VOS):**
+- 🎬 TU HISTORIA en 60 seg ("yo también viví preso en la caja 1")
+- 🎬 tu rutina de práctica real (20 min)
 
-> #1 y #2 son Formato A (ya filmados) — sirven como autoridad de relleno.
+**V — VENDEDORES (conversión directa, para el 3% listo — publicar cuando YA haya autoridad):**
+- 🎬 "Como que desaparece" (guion vendedor, sección 23) + variantes
 
-**Orden de publicación (cuando tengas los 15 y abras el IG nuevo):**
-- Semana 0: subís 3 el mismo día → #13 (fijado) + #4 (Formato C fuerte) + #14 (historia personal).
-  Así el visitante ve autoridad + método + humano en un scroll.
-- Después: 2-3 reels por semana, intercalando categorías. Constante, sin frenar (el algoritmo premia
-  la constancia).
-- Horario: martes/miércoles/jueves 20-22 hs Argentina. Evitá lunes AM, viernes PM, sábados.
+### El mejor ORDEN DE PUBLICACIÓN (distinto del de filmación)
+> Principio: nunca dos "creencias atacadas" seguidas (cansa/suena a reto). Alterná A → C → P → C → A…
+> Primero valor y humano para ganar confianza; los vendedores V recién cuando el perfil ya demostró autoridad.
+
+- **Día 0 (subís 3 juntos):** FIJADO (autoridad) + una C fuerte (#5 penta o #6 respiran) + HISTORIA (humano).
+  El visitante ve las 3 caras tuyas en un scroll: sabe tocar / tiene método / es una persona.
+- **Semana 1:** "3 formas romper cajas" (A) → #4 escalas (C).
+- **Semana 2:** #1 recursos (A) → #3 rápido (C).
+- **Semana 3:** rutina de práctica (P) → #8 oído (C).
+- **Semana 4:** #2 acordes funk (A) → #7 equipo (C).
+- **Semana 5 en adelante (ya con autoridad instalada):** empezás a intercalar los VENDEDORES (V) entre medio.
+  Recién acá, porque el vendedor cobra autoridad — no la construye.
+- Ritmo: 2-3 reels/semana, constante. Horario: martes/miércoles/jueves 20-22 hs Argentina.
+
+> **Nota:** este calendario es una guía, no una cárcel. Lo importante son las 2 reglas: (1) no encadenar
+> creencias, (2) los vendedores van después de tener autoridad. El resto se acomoda según qué esté editado.
 
 ---
 
