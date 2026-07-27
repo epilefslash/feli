@@ -876,7 +876,8 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 |---|---|---|
 | `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` | Mes 1 | **11 páginas. EL PRINCIPAL.** 16 ejercicios con TAB + partitura real, diagramas de las 5 cajas, mapa del mástil completo, rutina diaria de 20 min, checklist de cierre y planilla de práctica. Todo en La menor. |
 | `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Los 5 recursos en orden pedagógico: ligados → slides → bordaduras → bending → vibrato. |
+| `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **10 páginas.** 16 ejercicios (17 a 32) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. Incluye diagrama de los bendings de la caja 1 (origen → destino) y el antes/después grabado. |
+| `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Robar licks honestamente (5 pasos), escuelas británica y americana, arquitectura del solo. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
@@ -886,11 +887,22 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Rutina-Toca2-Callate2.pdf` | SOLO | Video #6 (tus solos no respiran) |
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
-> **Detalle del cuadernillo de ejercicios del Hito 1** (el más completo, hecho con LilyPond):
-> los 16 ejercicios van de la caja 1 aislada al solo final de 8 compases, y el eje pedagógico son los
-> **puentes** (ej. 7, 11, 12, 14) — no las cajas sueltas. Cada ejercicio trae consigna, BPM de arranque
-> y meta, y criterio de "ya está". El ejercicio 16 es el entregable del hito: el alumno lo graba y lo manda.
-> Fuente editable: `scripts/gen_scores.py` (partituras) + `scripts/build_hito1.py` (armado del PDF).
+> **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). Numeración corrida:
+> el Hito 1 son los ejercicios 1 a 16, el Hito 2 son el 17 al 32. El alumno ve un solo camino, no dos PDFs sueltos.
+>
+> - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
+>   **puentes** (ej. 7, 11, 12, 14). Si el alumno se saltea esos, sabe 5 cajas y sigue sin poder moverse.
+> - **Hito 2 — EL SABOR:** el orden es ligados/slides → bending → vibrato → espacio y dinámica, y está
+>   justificado en el propio cuadernillo (lo mecánico primero, lo que depende del oído después, lo que
+>   depende de la cabeza al final). Los ejercicios tienen la MITAD de notas que los del Hito 1, a propósito.
+>   Entregable doble: el solo del ej. 32 + el **antes/después** (1 min improvisando el día 1 y el día 30).
+>
+> Cada ejercicio trae consigna, BPM de arranque y meta, y criterio de "ya está". Cada hito cierra con
+> checklist honesto y planilla de práctica.
+>
+> **Fuentes editables** (`scripts/`): `gen_scores.py` y `gen_scores_h2.py` generan las partituras;
+> `build_hito1.py` y `build_hito2.py` arman los PDFs; `cuadernillo_comun.py` tiene la estética y los
+> diagramas de mástil compartidos. El README explica cómo escribir una nota en LilyPond.
 
 ### Prácticas de enseñanza online que suma el material nuevo de Nico (testimonios Rafa/Federico/Muratore)
 - **Backing tracks siempre a mano** (Jamzone o similares): el alumno aplica en contexto musical real, no en el vacío. Armate una carpeta con 1 backing por semana ANTES de arrancar (12 backings = 1 tarde de trabajo).

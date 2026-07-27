@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """Genera las partituras (pentagrama + TAB) del Cuadernillo Hito 1 con LilyPond.
 
+Salida: ./partituras/eNN.cropped.png
+
 Tonalidad: La menor pentatónica (A C D E G).
 Alturas LilyPond (sonido real, clave treble_8):
   6a: 3=g, 5=a, 8=c 10=d 12=e 15=g   -> g, a, c d e g
@@ -13,7 +15,7 @@ Alturas LilyPond (sonido real, clave treble_8):
 import os
 import subprocess
 
-OUT = "/tmp/claude-0/-home-user-feli/d22a8506-1d7e-5c6f-914f-42d1d90cdfde/scratchpad/ly"
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "partituras")
 os.makedirs(OUT, exist_ok=True)
 
 TEMPLATE = r"""\version "2.24.0"
@@ -160,7 +162,7 @@ EJ["e16"] = r"""
   d'8\3 e'\3 g'\2 a'\2 c''4\1 d''4\1 |
   e''2\1^\markup{\bold "nota larga · vibrato"} r2 |
   g''8\1 e''\1 d''\2 c''\2 a'4\3 g'4\3 |
-  e'8\3 d'\4 c'\4 a\5 g4\5 e4\6 |
+  e'8\3 d'\4 c'\4 a\5 g4\5 e4\5 |
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
   a'1\1^\markup{\bold "vibrato · cerrás en casa"} |
 """

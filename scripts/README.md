@@ -1,28 +1,37 @@
-# Scripts del cuadernillo de ejercicios (Hito 1)
+# Scripts de los cuadernillos de ejercicios
 
-Generan `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf`.
+Generan los PDFs con partitura + tablatura de los hitos 1 y 2.
 
-## Para qué sirve cada uno
+| Archivo | Qué hace |
+|---|---|
+| `gen_scores.py` | Partituras del **Hito 1** (ejercicios 1 a 16) |
+| `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 32) |
+| `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
+| `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
+| `cuadernillo_comun.py` | Estética, diagramas de mástil y tablas que comparten los dos |
 
-- **`gen_scores.py`** — escribe las partituras. Cada ejercicio es un bloque de LilyPond
-  (`EJ["e01"]`, `EJ["e02"]`, …) y se renderiza a PNG con pentagrama + tablatura.
-  Si querés **cambiar un ejercicio**, editás ese bloque y volvés a correr el script.
-- **`build_hito1.py`** — arma el PDF: diagramas de mástil, textos, tablas y las partituras.
-  Si querés **cambiar un texto o una consigna**, se edita acá.
+- ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.
+- ¿Querés **cambiar un texto o una consigna**? Se edita el `build_hito*.py`.
+- ¿Querés **cambiar colores o tipografía**? Se edita `cuadernillo_comun.py` (cambia en los dos hitos).
 
 ## Cómo se corre
 
 ```bash
 apt-get install -y lilypond          # una sola vez
 pip install reportlab                # una sola vez
-python3 gen_scores.py                # 1) genera las partituras
-python3 build_hito1.py               # 2) arma el PDF
+
+python3 gen_scores.py                # partituras del hito 1  -> ./partituras/
+python3 gen_scores_h2.py             # partituras del hito 2
+python3 build_hito1.py               # PDF del hito 1  (queda en la carpeta de arriba)
+python3 build_hito2.py               # PDF del hito 2
 ```
+
+Si tocaste una partitura, corré el `gen_scores*.py` **antes** del `build_hito*.py`.
 
 ## Cómo se escribe una nota en LilyPond
 
-Las alturas están escritas como suenan, y la cuerda se indica con `\1` … `\6`.
-Referencia rápida en La menor pentatónica:
+Las alturas se escriben como suenan, y la cuerda se indica con `\1` … `\6`.
+Referencia en La menor pentatónica:
 
 | Cuerda | Trastes de la escala | Cómo se escribe |
 |---|---|---|
@@ -33,8 +42,8 @@ Referencia rápida en La menor pentatónica:
 | 2ª (Si) | 3, 5, 8, 10, 13, 15 | `d'` `e'` `g'` `a'` `c''` `d''` |
 | 1ª (Mi agudo) | 3, 5, 8, 10, 12, 15, 17 | `g'` `a'` `c''` `d''` `e''` `g''` `a''` |
 
-Duraciones: `4` = negra, `8` = corchea, `2` = blanca, `1` = redonda, `4.` = negra con puntito.
-Un `|` cierra el compás. `r4` es un silencio de negra.
+Duraciones: `4` negra · `8` corchea · `2` blanca · `1` redonda · `4.` negra con puntito.
+`|` cierra el compás. `r4` es un silencio de negra.
 
 Ejemplo — La (6ª cuerda traste 5) y Do (6ª traste 8) en corcheas:
 
@@ -43,6 +52,15 @@ a,8\6 c\6
 ```
 
 Otros símbolos:
-- `\glissando` entre dos notas = slide.
-- `^\markup{\bold "bend 1 tono"}` = cartel arriba de la nota.
-- `~` = ligadura de prolongación (la nota sigue sonando).
+
+| Se escribe | Sale como |
+|---|---|
+| `a,8\6( c\6)` | ligado (hammer-on subiendo, pull-off bajando) |
+| `\glissando` entre dos notas | slide |
+| `^\markup{\bold "bend 1 tono"}` | cartel arriba de la nota |
+| `~` | ligadura de prolongación (la nota sigue sonando) |
+| `\p` `\mf` `\f` | dinámica (suave, medio, fuerte) |
+| `\tuplet 3/2 { ... }` | tresillo |
+
+> LilyPond 2.24 no dibuja flechas de bending en la tablatura, por eso los bendings van
+> anotados con `\markup`. Si algún día se actualiza a 2.25+, existe `\bendOn`.

@@ -1,271 +1,19 @@
-# -*- coding: utf-8 -*-
-"""Cuadernillo HITO 1 — EL MAPA (ejercicios con tablatura y partitura)."""
-import struct
-from reportlab.lib.pagesizes import A4
+"""Arma el PDF del Cuadernillo HITO 1 — EL MAPA.
+
+Requiere que antes se haya corrido `gen_scores.py` (genera ./partituras/e01..e16).
+"""
 from reportlab.lib.units import cm
-from reportlab.lib import colors
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import (BaseDocTemplate, PageTemplate, Frame, Paragraph,
-                                Spacer, Table, TableStyle, Image, PageBreak,
-                                Flowable, KeepTogether)
+from reportlab.platypus import Paragraph, Spacer, PageBreak, TableStyle
 
-LY = "/tmp/claude-0/-home-user-feli/d22a8506-1d7e-5c6f-914f-42d1d90cdfde/scratchpad/ly"
-OUT = "/home/user/feli/Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf"
-IG = "@felibayamenor"
+from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG,
+                               Diagrama, MapaCompleto, documento,
+                               tabla, banner, par, caja_oscura, ejercicio, score)
 
-# Fuente auxiliar solo para simbolos que Helvetica no tiene (negra, flecha, casilla)
-pdfmetrics.registerFont(TTFont('Sym', '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'))
-NEGRA = '<font name="Sym">♩</font>'
-FLECHA = '<font name="Sym">→</font>'
-CAJ = '<font name="Sym" size="11">☐</font>'
-
-RED = colors.HexColor("#c0392b")
-DARK = colors.HexColor("#2c3e50")
-GREY = colors.HexColor("#777777")
-LIGHT = colors.HexColor("#f5f0ec")
-LIGHT2 = colors.HexColor("#fdf6f5")
-BORDER = colors.HexColor("#ddcfc9")
-WOOD = colors.HexColor("#e8ded6")
-
-H1 = ParagraphStyle('H1', fontName='Helvetica-Bold', fontSize=15.5, leading=19,
-                    textColor=RED, spaceBefore=2, spaceAfter=6)
-H2 = ParagraphStyle('H2', fontName='Helvetica-Bold', fontSize=12, leading=15.5,
-                    textColor=RED, spaceBefore=10, spaceAfter=4)
-H3 = ParagraphStyle('H3', fontName='Helvetica-Bold', fontSize=10.5, leading=13.5,
-                    textColor=DARK, spaceBefore=8, spaceAfter=2)
-BODY = ParagraphStyle('BODY', fontName='Helvetica', fontSize=9.5, leading=13.2,
-                      textColor=DARK, spaceAfter=4)
-SMALL = ParagraphStyle('SMALL', fontName='Helvetica-Oblique', fontSize=8.5, leading=11.5,
-                       textColor=GREY, spaceAfter=3)
-CELL = ParagraphStyle('CELL', fontName='Helvetica', fontSize=9, leading=12, textColor=DARK)
-CELLB = ParagraphStyle('CELLB', fontName='Helvetica-Bold', fontSize=9, leading=12, textColor=RED)
-
-# ---------------------------------------------------------------- datos del mastil
-PENTA = {
-    1: [0, 3, 5, 8, 10, 12, 15, 17],
-    2: [1, 3, 5, 8, 10, 13, 15, 17],
-    3: [2, 5, 7, 9, 12, 14, 17],
-    4: [0, 2, 5, 7, 10, 12, 14, 17],
-    5: [0, 3, 5, 7, 10, 12, 15, 17],
-    6: [0, 3, 5, 8, 10, 12, 15, 17],
-}
-TONICAS = {1: [5, 17], 2: [10], 3: [14], 4: [7], 5: [12], 6: [5, 17]}
-CUERDAS = ["Mi", "La", "Re", "Sol", "Si", "Mi"]      # de la 6a (abajo) a la 1a (arriba)
-
-CAJAS = {
-    1: {"rango": (4, 9),  "notas": {6: [5, 8], 5: [5, 7], 4: [5, 7], 3: [5, 7], 2: [5, 8], 1: [5, 8]}},
-    2: {"rango": (6, 11), "notas": {6: [8, 10], 5: [7, 10], 4: [7, 10], 3: [7, 9], 2: [8, 10], 1: [8, 10]}},
-    3: {"rango": (8, 14), "notas": {6: [10, 12], 5: [10, 12], 4: [10, 12], 3: [9, 12], 2: [10, 13], 1: [10, 12]}},
-    4: {"rango": (11, 16), "notas": {6: [12, 15], 5: [12, 15], 4: [12, 14], 3: [12, 14], 2: [13, 15], 1: [12, 15]}},
-    5: {"rango": (1, 6),  "notas": {6: [3, 5], 5: [3, 5], 4: [2, 5], 3: [2, 5], 2: [3, 5], 1: [3, 5]}},
-}
-CAJA_RANGO_REAL = {1: (5, 8), 2: (7, 10), 3: (9, 13), 4: (12, 15), 5: (2, 5)}
-
-
-def _mastil(c, x0, y0, w, hs, f0, nf, nut=False):
-    """Dibuja el fondo, trastes, cuerdas. Devuelve el ancho de traste."""
-    fw = w / nf
-    top = y0 + hs * 5
-    c.setFillColor(WOOD)
-    c.rect(x0, y0, w, hs * 5, fill=1, stroke=0)
-    c.setStrokeColor(colors.HexColor("#b3a79e"))
-    c.setLineWidth(0.7)
-    for i in range(nf + 1):
-        c.line(x0 + i * fw, y0, x0 + i * fw, top)
-    if nut:
-        c.setLineWidth(3.2)
-        c.setStrokeColor(DARK)
-        c.line(x0, y0, x0, top)
-    c.setStrokeColor(colors.HexColor("#8d8078"))
-    for s in range(6):
-        c.setLineWidth(0.4 + s * 0.13)
-        c.line(x0, y0 + s * hs, x0 + w, y0 + s * hs)
-    return fw
-
-
-def _nota(c, x, y, es_tonica, r=4.3):
-    if es_tonica:
-        c.setFillColor(RED)
-        c.circle(x, y, r, fill=1, stroke=0)
-        c.setFillColor(colors.white)
-        c.setFont("Helvetica-Bold", 5.4)
-        c.drawCentredString(x, y - 1.9, "A")
-    else:
-        c.setFillColor(DARK)
-        c.circle(x, y, r - 0.5, fill=1, stroke=0)
-
-
-class Diagrama(Flowable):
-    """Diagrama de una caja: cuerdas = filas, trastes = columnas."""
-
-    PAD_L, PAD_R, PAD_B, PAD_T = 24, 6, 14, 15
-
-    def __init__(self, caja, width, hs=11.0):
-        Flowable.__init__(self)
-        self.caja, self.width, self.hs = caja, width, hs
-        self.f0, f1 = CAJAS[caja]["rango"]
-        self.nf = f1 - self.f0
-        self.height = hs * 5 + self.PAD_B + self.PAD_T
-
-    def draw(self):
-        c = self.canv
-        x0, y0 = self.PAD_L, self.PAD_B
-        w = self.width - self.PAD_L - self.PAD_R
-        fw = _mastil(c, x0, y0, w, self.hs, self.f0, self.nf, nut=(self.f0 == 0))
-        top = y0 + self.hs * 5
-
-        c.setFillColor(GREY)
-        c.setFont("Helvetica", 6.5)
-        for i in range(self.nf):
-            c.drawCentredString(x0 + (i + 0.5) * fw, y0 - 9, str(self.f0 + i + 1))
-        c.setFont("Helvetica-Bold", 6.5)
-        for s, nombre in enumerate(CUERDAS):
-            c.drawRightString(x0 - 4, y0 + s * self.hs - 2.2, nombre)
-
-        for cuerda, trastes in CAJAS[self.caja]["notas"].items():
-            y = y0 + (6 - cuerda) * self.hs
-            for t in trastes:
-                if self.f0 < t <= self.f0 + self.nf:
-                    _nota(c, x0 + (t - self.f0 - 0.5) * fw, y, t in TONICAS.get(cuerda, []))
-
-        a, b = CAJA_RANGO_REAL[self.caja]
-        c.setFillColor(RED)
-        c.setFont("Helvetica-Bold", 8.5)
-        c.drawString(x0, top + 4, "CAJA %d  ·  trastes %d a %d" % (self.caja, a, b))
-
-
-class MapaCompleto(Flowable):
-    """Mastil entero (trastes 0 a 17) con las 5 cajas marcadas arriba."""
-
-    PAD_L, PAD_R, PAD_B, PAD_T = 32, 8, 15, 34
-
-    def __init__(self, width, hs=12.0):
-        Flowable.__init__(self)
-        self.width, self.hs = width, hs
-        self.height = hs * 5 + self.PAD_B + self.PAD_T
-
-    def draw(self):
-        c = self.canv
-        nf = 17
-        x0, y0 = self.PAD_L, self.PAD_B
-        w = self.width - self.PAD_L - self.PAD_R
-        fw = _mastil(c, x0, y0, w, self.hs, 0, nf, nut=True)
-        top = y0 + self.hs * 5
-
-        c.setFillColor(GREY)
-        c.setFont("Helvetica", 6.5)
-        for t in (3, 5, 7, 9, 12, 15, 17):
-            c.drawCentredString(x0 + (t - 0.5) * fw, y0 - 9, str(t))
-        c.setFont("Helvetica-Bold", 6.5)
-        for s, nombre in enumerate(CUERDAS):
-            c.drawRightString(x0 - 13, y0 + s * self.hs - 2.2, nombre)
-
-        for cuerda, trastes in PENTA.items():
-            y = y0 + (6 - cuerda) * self.hs
-            for t in trastes:
-                if t > nf:
-                    continue
-                x = x0 + (t - 0.5) * fw if t > 0 else x0 - 7
-                _nota(c, x, y, t in TONICAS.get(cuerda, []), r=4.0)
-
-        # llaves de las cajas, en dos niveles para que no se pisen
-        c.setFont("Helvetica-Bold", 7)
-        for i, (caja, a, b) in enumerate([(5, 2, 5), (1, 5, 8), (2, 7, 10), (3, 9, 13), (4, 12, 15)]):
-            xa, xb = x0 + (a - 1) * fw, x0 + b * fw
-            yy = top + 7 + (i % 2) * 14
-            c.setStrokeColor(RED)
-            c.setLineWidth(1)
-            c.line(xa, yy, xb, yy)
-            c.line(xa, yy, xa, yy - 3.5)
-            c.line(xb, yy, xb, yy - 3.5)
-            c.setFillColor(RED)
-            c.drawCentredString((xa + xb) / 2, yy + 3, "caja %d" % caja)
-
-
-# ---------------------------------------------------------------- helpers
-def png_size(path):
-    return struct.unpack('>II', open(path, 'rb').read(26)[16:24])
-
-
-def score(name, width):
-    p = "%s/%s.cropped.png" % (LY, name)
-    w, h = png_size(p)
-    return Image(p, width=width, height=width * h / w)
-
-
-def ejercicio(num, titulo, bajada, name, width, meta=None):
-    els = [Paragraph("EJERCICIO %d — %s" % (num, titulo), H3),
-           Paragraph(bajada, BODY)]
-    if meta:
-        els.append(Paragraph(meta, SMALL))
-    els += [Spacer(1, 2), score(name, width), Spacer(1, 6)]
-    return KeepTogether(els)
-
-
-def tabla(rows, colWidths, header=True):
-    t = Table(rows, colWidths=colWidths)
-    st = [('ROWBACKGROUNDS', (0, 1 if header else 0), (-1, -1), [colors.white, LIGHT2]),
-          ('GRID', (0, 0), (-1, -1), 0.5, BORDER),
-          ('VALIGN', (0, 0), (-1, -1), 'TOP'),
-          ('TOPPADDING', (0, 0), (-1, -1), 4), ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
-          ('LEFTPADDING', (0, 0), (-1, -1), 5), ('RIGHTPADDING', (0, 0), (-1, -1), 5)]
-    if header:
-        st.append(('BACKGROUND', (0, 0), (-1, 0), LIGHT))
-    t.setStyle(TableStyle(st))
-    return t
-
-
-def banner(n, titulo, subtitulo, width):
-    t = Table([[Paragraph('<font color="white" size="13"><b>SEMANA %d</b></font><br/>'
-                          '<font color="white" size="10.5"><b>%s</b></font><br/>'
-                          '<font color="#f7d7d2" size="8.5">%s</font>' % (n, titulo, subtitulo),
-                          ParagraphStyle('b', fontName='Helvetica', fontSize=10, leading=14))]],
-              colWidths=[width])
-    t.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, -1), RED),
-                           ('LEFTPADDING', (0, 0), (-1, -1), 10), ('RIGHTPADDING', (0, 0), (-1, -1), 10),
-                           ('TOPPADDING', (0, 0), (-1, -1), 7), ('BOTTOMPADDING', (0, 0), (-1, -1), 7)]))
-    return t
-
-
-def par(flowables, widths):
-    t = Table([flowables], colWidths=widths)
-    t.setStyle(TableStyle([('VALIGN', (0, 0), (-1, -1), 'TOP'),
-                           ('LEFTPADDING', (0, 0), (-1, -1), 0), ('RIGHTPADDING', (0, 0), (-1, -1), 0),
-                           ('TOPPADDING', (0, 0), (-1, -1), 0), ('BOTTOMPADDING', (0, 0), (-1, -1), 0)]))
-    return t
-
-
-# ---------------------------------------------------------------- documento
-def on_page(canvas, doc):
-    canvas.saveState()
-    w, h = A4
-    canvas.setFillColor(RED)
-    canvas.rect(0, h - 62, w, 62, fill=1, stroke=0)
-    canvas.setFillColor(colors.white)
-    canvas.setFont("Helvetica-Bold", 17)
-    canvas.drawString(2 * cm, h - 34, "HITO 1 — EL MAPA")
-    canvas.setFont("Helvetica", 9.5)
-    canvas.drawString(2 * cm, h - 49,
-                      "Las 5 cajas de la pentatónica menor, conectadas · ejercicios con TAB y partitura")
-    canvas.setFont("Helvetica-Bold", 9)
-    canvas.drawRightString(w - 2 * cm, h - 42, IG)
-    canvas.setFillColor(GREY)
-    canvas.setFont("Helvetica", 7.5)
-    canvas.drawString(2 * cm, 1.15 * cm, "Solo con Sabor · Hito 1 — El Mapa")
-    canvas.drawRightString(w - 2 * cm, 1.15 * cm, "pág. %d" % doc.page)
-    canvas.setStrokeColor(BORDER)
-    canvas.setLineWidth(0.5)
-    canvas.line(2 * cm, 1.5 * cm, w - 2 * cm, 1.5 * cm)
-    canvas.restoreState()
-
-
-doc = BaseDocTemplate(OUT, pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm,
-                      topMargin=2.85 * cm, bottomMargin=1.85 * cm,
-                      title="Hito 1 - El Mapa (ejercicios)", author="Feli")
-doc.addPageTemplates([PageTemplate(id='p', frames=[
-    Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id='f')], onPage=on_page)])
+doc = documento("Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf",
+                "HITO 1 — EL MAPA",
+                "Las 5 cajas de la pentatónica menor, conectadas · ejercicios con TAB y partitura",
+                "Solo con Sabor · Hito 1 — El Mapa",
+                "Hito 1 - El Mapa (ejercicios)")
 W = doc.width
 S = []
 
@@ -555,15 +303,10 @@ S.append(Paragraph(
     "Pero eso es después. Este mes tenés un solo trabajo: <b>que el mástil deje de ser un misterio</b>.", BODY))
 
 S.append(Spacer(1, 10))
-cierre = Table([[Paragraph(
+S.append(caja_oscura(
     '<font color="white" size="10.5"><b>¿Dudas con algún ejercicio?</b></font><br/>'
     '<font color="#f7d7d2" size="9">Traelas a la clase de los lunes, o escribime por DM. No te quedes trabado una '
-    'semana entera por algo que se resuelve en dos minutos. · %s</font>' % IG,
-    ParagraphStyle('c', fontName='Helvetica', fontSize=9, leading=13))]], colWidths=[W])
-cierre.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, -1), DARK),
-                            ('LEFTPADDING', (0, 0), (-1, -1), 10), ('RIGHTPADDING', (0, 0), (-1, -1), 10),
-                            ('TOPPADDING', (0, 0), (-1, -1), 8), ('BOTTOMPADDING', (0, 0), (-1, -1), 8)]))
-S.append(cierre)
+    'semana entera por algo que se resuelve en dos minutos. · %s</font>' % IG, W))
 
 doc.build(S)
-print("OK", OUT)
+print("OK Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf")
