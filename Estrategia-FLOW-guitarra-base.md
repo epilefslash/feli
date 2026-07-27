@@ -869,6 +869,29 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | | **Entregable Mes 3:** solo propio de 1 minuto grabado = su trofeo + tu testimonio | | |
 | | *Bonus semana 12 (si el grupo llega bien):* el secreto SRV — mezclar la penta mayor | | |
 
+### BIBLIOTECA DE MATERIAL (lo que ya está hecho y se entrega)
+
+**Cuadernillos de clase (para los alumnos, uno por hito):**
+| Archivo | Hito | Qué tiene |
+|---|---|---|
+| `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` | Mes 1 | **11 páginas. EL PRINCIPAL.** 16 ejercicios con TAB + partitura real, diagramas de las 5 cajas, mapa del mástil completo, rutina diaria de 20 min, checklist de cierre y planilla de práctica. Todo en La menor. |
+| `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
+| `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Los 5 recursos en orden pedagógico: ligados → slides → bordaduras → bending → vibrato. |
+| `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Robar licks honestamente (5 pasos), escuelas británica y americana, arquitectura del solo. |
+
+**Lead magnets (regalo por DM, alimentan el embudo):**
+| Archivo | Keyword | Va con |
+|---|---|---|
+| `Mapa-5-cajas-pentatonica.pdf` | PENTA | Video #5 (penta no es de principiantes) y "3 formas de romper las cajas" |
+| `Rutina-Toca2-Callate2.pdf` | SOLO | Video #6 (tus solos no respiran) |
+| `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
+
+> **Detalle del cuadernillo de ejercicios del Hito 1** (el más completo, hecho con LilyPond):
+> los 16 ejercicios van de la caja 1 aislada al solo final de 8 compases, y el eje pedagógico son los
+> **puentes** (ej. 7, 11, 12, 14) — no las cajas sueltas. Cada ejercicio trae consigna, BPM de arranque
+> y meta, y criterio de "ya está". El ejercicio 16 es el entregable del hito: el alumno lo graba y lo manda.
+> Fuente editable: `scripts/gen_scores.py` (partituras) + `scripts/build_hito1.py` (armado del PDF).
+
 ### Prácticas de enseñanza online que suma el material nuevo de Nico (testimonios Rafa/Federico/Muratore)
 - **Backing tracks siempre a mano** (Jamzone o similares): el alumno aplica en contexto musical real, no en el vacío. Armate una carpeta con 1 backing por semana ANTES de arrancar (12 backings = 1 tarde de trabajo).
 - **Alternar cada 15-20 min:** nunca más de 20 min de vos hablando sin que ellos hagan algo (tocar, responder en el chat, adivinar qué escala es). La clase online se cae si es monólogo.
