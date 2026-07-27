@@ -1,14 +1,16 @@
 # Scripts de los cuadernillos de ejercicios
 
-Generan los PDFs con partitura + tablatura de los hitos 1 y 2.
+Generan los PDFs con partitura + tablatura de los 3 hitos (48 ejercicios).
 
 | Archivo | Qué hace |
 |---|---|
 | `gen_scores.py` | Partituras del **Hito 1** (ejercicios 1 a 16) |
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 32) |
+| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 33 a 48) |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
-| `cuadernillo_comun.py` | Estética, diagramas de mástil y tablas que comparten los dos |
+| `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |
+| `cuadernillo_comun.py` | Estética, diagramas de mástil, tablatura en blanco y tablas que comparten los tres |
 
 - ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.
 - ¿Querés **cambiar un texto o una consigna**? Se edita el `build_hito*.py`.
@@ -22,8 +24,10 @@ pip install reportlab                # una sola vez
 
 python3 gen_scores.py                # partituras del hito 1  -> ./partituras/
 python3 gen_scores_h2.py             # partituras del hito 2
+python3 gen_scores_h3.py             # partituras del hito 3
 python3 build_hito1.py               # PDF del hito 1  (queda en la carpeta de arriba)
 python3 build_hito2.py               # PDF del hito 2
+python3 build_hito3.py               # PDF del hito 3
 ```
 
 Si tocaste una partitura, corré el `gen_scores*.py` **antes** del `build_hito*.py`.
@@ -61,6 +65,7 @@ Otros símbolos:
 | `~` | ligadura de prolongación (la nota sigue sonando) |
 | `\p` `\mf` `\f` | dinámica (suave, medio, fuerte) |
 | `\tuplet 3/2 { ... }` | tresillo |
+| `<e'\2 a'\1>4` | doble cuerda (dos notas juntas) |
 
 > LilyPond 2.24 no dibuja flechas de bending en la tablatura, por eso los bendings van
 > anotados con `\markup`. Si algún día se actualiza a 2.25+, existe `\bendOn`.

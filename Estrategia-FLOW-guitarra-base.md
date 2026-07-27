@@ -878,7 +878,8 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **10 páginas.** 16 ejercicios (17 a 32) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. Incluye diagrama de los bendings de la caja 1 (origen → destino) y el antes/después grabado. |
 | `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Robar licks honestamente (5 pasos), escuelas británica y americana, arquitectura del solo. |
+| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **14 páginas. EL CIERRE DEL PROGRAMA.** 16 ejercicios (33 a 48): escuela británica → americana → variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
+| `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
 | Archivo | Keyword | Va con |
@@ -887,8 +888,9 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Rutina-Toca2-Callate2.pdf` | SOLO | Video #6 (tus solos no respiran) |
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
-> **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). Numeración corrida:
-> el Hito 1 son los ejercicios 1 a 16, el Hito 2 son el 17 al 32. El alumno ve un solo camino, no dos PDFs sueltos.
+> **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). **Los 3 hitos están
+> completos: 48 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 48.
+> El alumno ve un solo camino de 12 semanas, no tres PDFs sueltos.
 >
 > - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
 >   **puentes** (ej. 7, 11, 12, 14). Si el alumno se saltea esos, sabe 5 cajas y sigue sin poder moverse.
@@ -896,9 +898,19 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 >   justificado en el propio cuadernillo (lo mecánico primero, lo que depende del oído después, lo que
 >   depende de la cabeza al final). Los ejercicios tienen la MITAD de notas que los del Hito 1, a propósito.
 >   Entregable doble: el solo del ej. 32 + el **antes/después** (1 min improvisando el día 1 y el día 30).
+> - **Hito 3 — EL VOCABULARIO:** una semana por escuela (británica = motivo repetido, dobles cuerdas,
+>   unísonos · americana = frase vocal, legato, bendings largos), después las 3 variaciones que convierten
+>   un lick prestado en propio (ritmo, remate, caja), y por último la arquitectura de 4 frases + el solo final.
+>   Trae **banco de licks** (tablatura en blanco para imprimir) donde el alumno anota *qué mecanismo* le robó
+>   a cada frase, no solo las notas. Entregable: **el solo propio de 1 minuto** = cierre del programa.
 >
 > Cada ejercicio trae consigna, BPM de arranque y meta, y criterio de "ya está". Cada hito cierra con
 > checklist honesto y planilla de práctica.
+>
+> ⚠️ **Los licks del Hito 3 son ORIGINALES, escritos *en el estilo de* cada escuela — no son transcripciones
+> de solos ajenos.** Está aclarado dentro del cuadernillo y no es un detalle legal: es el argumento pedagógico
+> del hito (lo que se roba es el mecanismo, no las notas). Si alguna vez sumás transcripciones reales,
+> revisá derechos antes de distribuirlas.
 >
 > **Fuentes editables** (`scripts/`): `gen_scores.py` y `gen_scores_h2.py` generan las partituras;
 > `build_hito1.py` y `build_hito2.py` arman los PDFs; `cuadernillo_comun.py` tiene la estética y los

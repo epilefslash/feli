@@ -223,6 +223,53 @@ class DiagramaFlechas(Flowable):
             c.drawString(x0, top + 10, self.titulo)
 
 
+class TablaturaEnBlanco(Flowable):
+    """Pentagramas de tablatura vacíos, para que el alumno escriba los licks que saca.
+
+    Cada sistema lleva arriba una línea de datos (de quién es, qué le robó) — el
+    punto del hito no es juntar licks, es saber QUÉ mecanismo tiene cada uno.
+    """
+
+    SEP_CUERDA = 9.0
+    ALTO_SISTEMA = 9.0 * 5 + 32      # 5 espacios entre 6 cuerdas + el encabezado
+    PAD_L = 20
+
+    def __init__(self, width, sistemas=4, compases=4, encabezado=True):
+        Flowable.__init__(self)
+        self.width, self.sistemas, self.compases = width, sistemas, compases
+        self.encabezado = encabezado
+        self.height = self.ALTO_SISTEMA * sistemas
+
+    def draw(self):
+        c = self.canv
+        w = self.width - self.PAD_L
+        for s in range(self.sistemas):
+            base = self.height - (s + 1) * self.ALTO_SISTEMA + 22
+
+            if self.encabezado:
+                c.setFillColor(GREY)
+                c.setFont("Helvetica", 7)
+                c.drawString(self.PAD_L, base + self.SEP_CUERDA * 5 + 9,
+                             "lick nº ______   ·   ¿de quién?  ____________________   "
+                             "·   ¿qué le robo?  ________________________________")
+
+            c.setStrokeColor(colors.HexColor("#9c8f86"))
+            c.setLineWidth(0.5)
+            for i in range(6):
+                y = base + i * self.SEP_CUERDA
+                c.line(self.PAD_L, y, self.PAD_L + w, y)
+
+            # barras de compás
+            c.setLineWidth(0.7)
+            for m in range(self.compases + 1):
+                x = self.PAD_L + m * w / self.compases
+                c.line(x, base, x, base + self.SEP_CUERDA * 5)
+
+            c.setFillColor(GREY)
+            c.setFont("Helvetica-Bold", 7)
+            c.drawRightString(self.PAD_L - 4, base + self.SEP_CUERDA * 2 - 2, "TAB")
+
+
 class MapaCompleto(Flowable):
     """Mástil entero (trastes 0 a 17) con las 5 cajas marcadas arriba."""
 
