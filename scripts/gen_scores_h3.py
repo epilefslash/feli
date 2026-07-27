@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 33 a 48).
+"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 33 a 49).
 
 Salida: ./partituras/eNN.cropped.png
 Reutiliza la plantilla y el renderizador de `gen_scores.py`.
@@ -96,31 +96,44 @@ EJ["e40"] = r"""
 """
 
 # ============================================ SEMANA 11 — HACERLO TUYO
+# Las 3 variaciones que convierten un lick robado en un lick propio,
+# precedidas por el color de cada grado: es lo que explica POR QUE un remate funciona.
+
+# 41: el color de cada grado — la misma escala, seis sensaciones distintas
+EJ["e41"] = r"""
+  a1\4^\markup{\bold "1ª · la tónica"} |
+  c'1\3^\markup{\bold "3ª menor"} |
+  d'1\3^\markup{\bold "4ª"} |
+  e'1\2^\markup{\bold "5ª"} |
+  g'1\2^\markup{\bold "7ª menor"} |
+  a'1\1^\markup{\bold "8ª · tónica arriba"} |
+"""
+
 # Las 3 variaciones que convierten un lick robado en un lick propio.
 
-# 41: mismas notas, tres ritmos distintos
-EJ["e41"] = r"""
+# 42: mismas notas, tres ritmos distintos
+EJ["e42"] = r"""
   a'8\1^\markup{\bold "1 · todo parejo"} g'\2 e'\2 d'\3 c'\3 a\4 r4 |
   a'4\1^\markup{\bold "2 · arranca lento y acelera"} g'8\2 e'\2 d'16\3 c'\3 a8\4 ~ a4\4 |
   r8 a'8\1^\markup{\bold "3 · a contratiempo"} g'\2 e'\2 ~ e'8 d'\3 c'\3 a\4 |
 """
 
-# 42: mismo arranque, tres remates distintos
-EJ["e42"] = r"""
+# 43: mismo arranque, tres remates distintos
+EJ["e43"] = r"""
   r4 a'8\1 g'\2 e'4\2 d'4\3^\markup{\bold "remate 1 · queda colgado (pregunta)"} |
   r4 a'8\1 g'\2 e'4\2 a4\4^\markup{\bold "remate 2 · cae en la tónica (respuesta)"} |
   r4 a'8\1 g'\2 e'4\2 c''4\1^\markup{\bold "remate 3 · sube y queda vibrando"} |
 """
 
-# 43: el mismo lick, mudado de caja
-EJ["e43"] = r"""
+# 44: el mismo lick, mudado de caja
+EJ["e44"] = r"""
   r8 a'8\1^\markup{\bold "en la caja 1"} g'\2 e'\2 d'\3 c'\3 a4\4 |
   r8 d''8\1^\markup{\bold "el mismo, en la caja 2"} c''\1 a'\2 g'\2 e'\3 d'4\3 |
   r8 e''8\1^\markup{\bold "y en la caja 3"} d''\1 c''\2 a'\2 g'\3 e'4\3 |
 """
 
-# 44: la arquitectura de un solo — las 4 frases
-EJ["e44"] = r"""
+# 45: la arquitectura de un solo — las 4 frases
+EJ["e45"] = r"""
   r4 a8\4^\markup{\bold "1 · PRESENTA — grave y simple"} c'\3 d'4\3 c'4\3 |
   a1\4^\markup{\bold "vibrato"} |
   r4 e'8\2^\markup{\bold "2 · DESARROLLA — la misma idea, más arriba"} g'\2 a'4\1 g'4\2 |
@@ -132,8 +145,8 @@ EJ["e44"] = r"""
 """
 
 # ============================================ SEMANA 12 — TU SOLO
-# 45: el esqueleto para completar — están las llegadas, faltan tus frases
-EJ["e45"] = r"""
+# 46: el esqueleto para completar — están las llegadas, faltan tus frases
+EJ["e46"] = r"""
   r1^\markup{\bold "TU frase 1 — grave, 3 o 4 notas, tranquila"} |
   a1\4^\markup{\bold "caé acá (tónica) + vibrato"} |
   r1^\markup{\bold "TU frase 2 — la misma idea, una caja más arriba"} |
@@ -144,22 +157,22 @@ EJ["e45"] = r"""
   a,1\6^\markup{\bold "cerrás en la tónica"} |
 """
 
-# 46: tres finales posibles (elegí uno para tu solo)
-EJ["e46"] = r"""
+# 47: tres finales posibles (elegí uno para tu solo)
+EJ["e47"] = r"""
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave — el más seguro"} |
   d'4\3^\markup{\bold "2 · un bending largo que se va apagando"} ~ d'2. |
   <e'\2 a'\1>2^\markup{\bold "3 · doble cuerda que queda sonando"} <e'\2 a'\1>2 |
 """
 
-# 47: el motivo que vuelve (el truco que hace que un solo suene "armado")
-EJ["e47"] = r"""
+# 48: el motivo que vuelve (el truco que hace que un solo suene "armado")
+EJ["e48"] = r"""
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "el motivo, al principio"} r2 |
   r1 |
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a4\4 r4 |
 """
 
-# 48: EL SOLO FINAL — 12 compases, el trofeo del programa
-EJ["e48"] = r"""
+# 49: EL SOLO FINAL — 12 compases, el trofeo del programa
+EJ["e49"] = r"""
   r4 a8\4\p^\markup{\bold "PRESENTA"} c'\3 d'4\3 c'4\3 |
   a2\4^\markup{\bold "vibrato"} r2 |
   r4 e'8\2^\markup{\bold "DESARROLLA"} g'\2 a'4\1 g'4\2 |

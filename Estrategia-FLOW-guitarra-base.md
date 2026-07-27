@@ -878,7 +878,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **10 páginas.** 16 ejercicios (17 a 32) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. Incluye diagrama de los bendings de la caja 1 (origen → destino) y el antes/después grabado. |
 | `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **14 páginas. EL CIERRE DEL PROGRAMA.** 16 ejercicios (33 a 48): escuela británica → americana → variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
+| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (33 a 49): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
@@ -889,7 +889,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
 > **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). **Los 3 hitos están
-> completos: 48 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 48.
+> completos: 49 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 49.
 > El alumno ve un solo camino de 12 semanas, no tres PDFs sueltos.
 >
 > - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
@@ -899,10 +899,19 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 >   depende de la cabeza al final). Los ejercicios tienen la MITAD de notas que los del Hito 1, a propósito.
 >   Entregable doble: el solo del ej. 32 + el **antes/después** (1 min improvisando el día 1 y el día 30).
 > - **Hito 3 — EL VOCABULARIO:** una semana por escuela (británica = motivo repetido, dobles cuerdas,
->   unísonos · americana = frase vocal, legato, bendings largos), después las 3 variaciones que convierten
->   un lick prestado en propio (ritmo, remate, caja), y por último la arquitectura de 4 frases + el solo final.
+>   unísonos · americana = frase vocal, legato, bendings largos); después **el color de cada grado** (ej. 41)
+>   y las 3 variaciones que convierten un lick prestado en propio (ritmo, remate, caja); y por último la
+>   arquitectura de 4 frases + el solo final.
 >   Trae **banco de licks** (tablatura en blanco para imprimir) donde el alumno anota *qué mecanismo* le robó
 >   a cada frase, no solo las notas. Entregable: **el solo propio de 1 minuto** = cierre del programa.
+>
+> **El color de los grados (ej. 41) es la bisagra teórica del programa.** Hasta ahí el alumno venía sabiendo
+> que cerrar en la tónica suena a conclusión, pero nunca por qué. Acá se le da el mapa completo: 1ª = reposo ·
+> 3ªm = descanso triste · 4ª = suspenso · 5ª = firme pero abierta · 7ªm = flotando · 8ª = reposo brillante.
+> Y de paso se explica por qué la pentatónica "no tiene notas equivocadas": le faltan justo la 2ª, la 3ª mayor,
+> la 6ª y la 7ª mayor, que son las que pueden chocar. Va en la semana 11 (y no antes) porque es donde el alumno
+> lo puede USAR: el ejercicio siguiente son los tres remates, y ahí el concepto deja de ser teoría.
+> El Hito 1 (ej. 2) tiene una nota al pie que anticipa el tema, para que los dos se conecten.
 >
 > Cada ejercicio trae consigna, BPM de arranque y meta, y criterio de "ya está". Cada hito cierra con
 > checklist honesto y planilla de práctica.

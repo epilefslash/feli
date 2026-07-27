@@ -1,12 +1,12 @@
 # Scripts de los cuadernillos de ejercicios
 
-Generan los PDFs con partitura + tablatura de los 3 hitos (48 ejercicios).
+Generan los PDFs con partitura + tablatura de los 3 hitos (49 ejercicios).
 
 | Archivo | Qué hace |
 |---|---|
 | `gen_scores.py` | Partituras del **Hito 1** (ejercicios 1 a 16) |
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 32) |
-| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 33 a 48) |
+| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 33 a 49) |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |

@@ -73,6 +73,18 @@ CAJAS = {
 }
 CAJA_RANGO_REAL = {1: (5, 8), 2: (7, 10), 3: (9, 13), 4: (12, 15), 5: (2, 5)}
 
+# Grados de la pentatonica menor: 1 - 3menor - 4 - 5 - 7menor (no hay 2a, 3aM, 6a ni 7aM).
+# La clave es la distancia en semitonos desde la tonica.
+GRADOS = {0: "1", 3: "3", 5: "4", 7: "5", 10: "7"}
+AL_AIRE = [4, 11, 7, 2, 9, 4]   # altura de cada cuerda al aire (1a a 6a), Do = 0
+TONICA_PC = 9                    # La
+
+
+def grado(cuerda, traste):
+    """Devuelve el grado ('1', '3', '4', '5', '7') de una nota en La menor pentatónica."""
+    pc = (AL_AIRE[cuerda - 1] + traste) % 12
+    return GRADOS.get((pc - TONICA_PC) % 12)
+
 
 # ---------------------------------------------------------------- dibujo
 def _mastil(c, x0, y0, w, hs, nf, nut=False):
@@ -118,12 +130,13 @@ class Diagrama(Flowable):
 
     PAD_L, PAD_R, PAD_B, PAD_T = 24, 6, 14, 15
 
-    def __init__(self, caja, width, hs=11.0, titulo=None):
+    def __init__(self, caja, width, hs=11.0, titulo=None, grados=False):
         Flowable.__init__(self)
         self.caja, self.width, self.hs = caja, width, hs
         self.f0, f1 = CAJAS[caja]["rango"]
         self.nf = f1 - self.f0
         self.titulo = titulo
+        self.grados = grados     # escribe el grado dentro de cada punto, no solo en las tónicas
         self.height = hs * 5 + self.PAD_B + self.PAD_T
 
     def draw(self):
@@ -145,7 +158,9 @@ class Diagrama(Flowable):
             y = y0 + (6 - cuerda) * self.hs
             for t in trastes:
                 if self.f0 < t <= self.f0 + self.nf:
-                    _nota(c, x0 + (t - self.f0 - 0.5) * fw, y, t in TONICAS.get(cuerda, []))
+                    es_tonica = t in TONICAS.get(cuerda, [])
+                    _nota(c, x0 + (t - self.f0 - 0.5) * fw, y, es_tonica,
+                          texto=grado(cuerda, t) if self.grados else None)
 
         a, b = CAJA_RANGO_REAL[self.caja]
         c.setFillColor(RED)

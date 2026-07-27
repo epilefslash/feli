@@ -132,7 +132,9 @@ S.append(ejercicio(1, "La caja 1, ida y vuelta", (
 S.append(ejercicio(2, "Las tónicas (dónde está tu casa)", (
     "Tocás cada LA solo, dejándolo sonar los 2 tiempos, y lo decís en voz alta: <i>\"la\"</i>. "
     "En el último compás bajás una frase y <b>resolvés</b> en el LA de la 4ª cuerda. Escuchá cómo esa "
-    "nota hace que todo suene terminado: ese es el efecto que vas a buscar toda tu vida."),
+    "nota hace que todo suene terminado: ese es el efecto que vas a buscar toda tu vida. "
+    "<i>(Las otras cuatro notas de la escala también tienen su carácter propio — una pide seguir, otra "
+    "flota, otra suena triste. Eso lo trabajamos en el Hito 3; por ahora, quedate con la tónica.)</i>"),
     "e02", W, "Con backing en Lam. Sin metrónomo: acá lo que se entrena es el OÍDO, no la mano."))
 
 S.append(ejercicio(3, "Secuencia de a 4 (romper la línea recta)", (
