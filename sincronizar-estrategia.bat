@@ -73,6 +73,11 @@ if exist "Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf" (
     echo   [✓] Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf
 )
 
+if exist "Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf" (
+    copy "Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf" "D:\METODO FLOW 2026\Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf"
+    echo   [✓] Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf
+)
+
 if exist "Cuadernillo-Mes1-El-Mapa.pdf" (
     copy "Cuadernillo-Mes1-El-Mapa.pdf" "D:\METODO FLOW 2026\Cuadernillo-Mes1-El-Mapa.pdf"
     echo   [✓] Cuadernillo-Mes1-El-Mapa.pdf

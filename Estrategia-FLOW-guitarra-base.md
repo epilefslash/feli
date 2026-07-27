@@ -879,6 +879,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **10 páginas.** 16 ejercicios (17 a 32) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. Incluye diagrama de los bendings de la caja 1 (origen → destino) y el antes/después grabado. |
 | `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (33 a 49): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
+| `Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf` | Mes 3 (bonus) | **9 páginas.** 10 licks (50 a 59), **ninguno en la caja 1**: 2 por cada caja (2, 3, 4, 5) + 2 que recorren el mástil entero. Suma las dos notas de adorno (blue note b5 y 6ª mayor del "BB box"). Cierra con la tabla que cruza las cajas con las 4 frases del solo. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
@@ -889,7 +890,8 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
 > **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). **Los 3 hitos están
-> completos: 49 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 49.
+> completos: 59 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 49,
+> y el bonus del Hito 3 (licks fuera de la caja 1) = 50 a 59.
 > El alumno ve un solo camino de 12 semanas, no tres PDFs sueltos.
 >
 > - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
@@ -912,6 +914,15 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > la 6ª y la 7ª mayor, que son las que pueden chocar. Va en la semana 11 (y no antes) porque es donde el alumno
 > lo puede USAR: el ejercicio siguiente son los tres remates, y ahí el concepto deja de ser teoría.
 > El Hito 1 (ej. 2) tiene una nota al pie que anticipa el tema, para que los dos se conecten.
+>
+> **PARTE 2 del Hito 3 — "10 licks fuera de la caja 1" (ej. 50 a 59).** Resuelve el problema estructural de
+> todo el programa: por diseño, los 49 ejercicios anteriores viven en las cajas 1 y 2, así que el alumno
+> termina sabiendo cinco cajas y tocando en una. Acá hay 2 licks por caja (2, 3, 4 y 5) más 2 que recorren
+> el mástil entero, cada uno con el mecanismo de un guitarrista y qué tema escuchar. Aparecen las dos únicas
+> notas de fuera de la escala del programa: el **blue note (b5)** como nota de paso y la **6ª mayor** del
+> "BB box". Cierra con la tabla que cruza cajas con la arquitectura de 4 frases (grave = presenta,
+> caja 4 = clímax, bajada = cierra) y el test honesto: improvisar un minuto **sin usar la caja 1**.
+> Mismo criterio de originalidad que la parte 1 — licks propios con el mecanismo ajeno, no transcripciones.
 >
 > Cada ejercicio trae consigna, BPM de arranque y meta, y criterio de "ya está". Cada hito cierra con
 > checklist honesto y planilla de práctica.
