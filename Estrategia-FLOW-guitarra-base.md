@@ -885,6 +885,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (35 a 51): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
 | `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 8 licks (52 a 59), **ninguno en las cajas 1 ni 2**: 2 en la caja 3, 2 en la 4, 2 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
+| `Guiones-Historia-Fijado-Clase.pdf` | Contenido | **7 páginas.** Los 3 guiones pendientes (#11, #12, #13) con línea de tiempo en tabla, ficha técnica, guía de tono, copy y hashtags. Historia trae los 6 blancos a completar antes de grabar. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
 | Archivo | Keyword | Va con |
