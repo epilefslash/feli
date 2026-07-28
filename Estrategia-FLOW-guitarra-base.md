@@ -886,6 +886,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 8 licks (52 a 59), **ninguno en las cajas 1 ni 2**: 2 en la caja 3, 2 en la 4, 2 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Guiones-Historia-Fijado-Vendedores.pdf` | Contenido | **9 páginas.** Historia (#11, con tus 6 datos reales ya cargados) · Fijado (#12) · los 2 guiones vendedores ("Como que desaparece" y "Dejá de mirar tutoriales") con línea de tiempo en tabla, ficha técnica, guía de tono, copy y hashtags. "Cómo es una clase" se dio de baja del stock público (ver sección 27). |
+| `Resumen-Ejecutivo-para-Nico.pdf` | Estado del proyecto | **7 páginas.** Todo lo decidido y todo lo producido, para llevar a la mentoría: identidad, avatar, oferta, los 8 videos + guiones pendientes, los 51+8 ejercicios de los cuadernillos, embudo, y la lista corta de lo que falta cerrar con Nico (fecha, precio, garantía). |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
 | Archivo | Keyword | Va con |

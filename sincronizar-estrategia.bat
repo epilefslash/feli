@@ -83,6 +83,11 @@ if exist "Guiones-Historia-Fijado-Vendedores.pdf" (
     echo   [✓] Guiones-Historia-Fijado-Vendedores.pdf
 )
 
+if exist "Resumen-Ejecutivo-para-Nico.pdf" (
+    copy "Resumen-Ejecutivo-para-Nico.pdf" "D:\METODO FLOW 2026\Resumen-Ejecutivo-para-Nico.pdf"
+    echo   [✓] Resumen-Ejecutivo-para-Nico.pdf
+)
+
 if exist "Cuadernillo-Mes1-El-Mapa.pdf" (
     copy "Cuadernillo-Mes1-El-Mapa.pdf" "D:\METODO FLOW 2026\Cuadernillo-Mes1-El-Mapa.pdf"
     echo   [✓] Cuadernillo-Mes1-El-Mapa.pdf
