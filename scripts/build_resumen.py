@@ -120,7 +120,7 @@ S.append(Spacer(1, 8))
 S.append(Paragraph("REFERENTES / ESTILO DE LA MARCA", H3))
 S.append(Paragraph(
     "Angus Young, Jimmy Page, Slash, Hendrix, Gary Moore, Joe Perry, Knopfler, Clapton, B.B. King, "
-    "SRV, Billy Gibbons. Inspiración de formato de Instagram: Andy Kligman (@andy_kligman) — copy "
+    "SRV, Billy Gibbons. Inspiración de formato de Instagram: personas que trabajaron con Nico — copy "
     "largo + destacada \"Método\".", BODY))
 
 # ============================================================ LA OFERTA
@@ -270,7 +270,7 @@ S.append(Paragraph("OTRO CONTENIDO LISTO", H3))
 S.append(Paragraph(
     "4 carruseles diseñables (5 guitarristas/1 escala · los 4 ingredientes del sabor · 5 mentiras que "
     "te tienen trabado · anatomía de un solo que emociona) · glosario de edición CapCut · copy maestro "
-    "adaptado del formato Andy Kligman.", BODY))
+    "adaptado del formato de personas que trabajaron con Nico.", BODY))
 
 # ============================================================ EMBUDO Y PUBLICACIÓN
 S.append(PageBreak())
