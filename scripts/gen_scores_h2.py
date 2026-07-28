@@ -116,6 +116,7 @@ EJ["e28"] = r"""
   c8\6 d\5 e\5 g\4 a2\4^\markup{\bold "vibrato · registro grave"} |
   c'8\3 d'\3 e'\2 g'\2 a'2\1^\markup{\bold "vibrato · medio"} |
   c''8\1 d''\1 e''\1 g''\1 a''2\1^\markup{\bold "vibrato · agudo, más ancho"} |
+  g'8\3 c''\2 d''\2 e''\1 a'2\3^\markup{\bold "vibrato · caja 4"} |
 """
 
 # 29: bending + vibrato (la combinación que suena "pro")
@@ -140,6 +141,8 @@ EJ["e31"] = r"""
   r1 |
   r4 d'8\3 c'\3 a2\4^\markup{\bold "vibrato"} |
   r1 |
+  r4 g,8\6 e\4 a,2\6^\markup{\bold "3 notas · caja 5, bien grave"} |
+  r1^\markup{\bold "y te callás igual"} |
 """
 
 # 32: pregunta y respuesta (mismo ritmo, distinto final)
@@ -164,8 +167,8 @@ EJ["e34"] = r"""
   a'8\1( c''\1) a'\1 g'\2( e'\2) g'\2 a'4\1\mf |
   d'2\3^\markup{\bold "bend 1 tono"} d'2\3^\markup{\bold "vibrato"} |
   r1 |
-  r8 c''8\1 \glissando d''4\1^\markup{\bold "slide"} e''4\1 e''4\1 |
-  g''8\1\f e''\1 d''\2 c''\2 a'4\3 g'4\3 |
+  r8 c''8\1 \glissando d''4\1^\markup{\bold "slide · caja 2"} e''4\1^\markup{\bold "caja 3"} e''4\1 |
+  g''8\1\f^\markup{\bold "caja 4"} e''\1 d''\2 c''\2 a'4\3 g'4\3 |
   e'8\3( d'\4) c'\4( a\5) g4\5 e4\5 |
   a,8\6\p c\6 d\5 e\5 g\4 a\4 c'4\3 |
   a1\4^\markup{\bold "vibrato · dejala morir"} |

@@ -218,11 +218,12 @@ S.append(ejercicio(27, "Vibrato medido (con metrónomo)", (
     "según la frase, pero primero tenés que poder elegirla."),
     "e27", W, "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar."))
 
-S.append(ejercicio(28, "El mismo vibrato en tres registros", (
+S.append(ejercicio(28, "El mismo vibrato en tres registros (y un cuarto, en caja 4)", (
     "Una frase corta que termina en una nota larga, resuelta en grave, medio y agudo. Vas a descubrir que "
     "<b>en los graves el vibrato tiene que ser angosto</b> (si no, suena desafinado) y <b>en los agudos ancho</b> "
-    "(si no, ni se escucha). No es un solo vibrato: son tres."),
-    "e28", W, "Con backing. Escuchá la diferencia, no la mires."))
+    "(si no, ni se escucha). No es un solo vibrato: son tres — y agregamos un cuarto compás que te muda a la "
+    "<b>caja 4</b>, para que el vibrato no quede asociado solo a la caja 1."),
+    "e28", W, "Con backing. Escuchá la diferencia, no la mires. El último compás usa la tónica de la caja 4 (3ª cuerda, traste 14)."))
 
 S.append(ejercicio(29, "Bending + vibrato (la combinación pro)", (
     "Acá está el sonido que buscabas desde que empezaste a tocar. Bendeás, <b>sostenés arriba</b>, y ahí le metés "
@@ -249,10 +250,11 @@ S.append(Paragraph(
     "no hay una sola que sobre. El silencio no es la ausencia de música — es lo que hace que la nota "
     "siguiente signifique algo.", BODY))
 
-S.append(ejercicio(31, "La regla de las 3 notas", (
+S.append(ejercicio(31, "La regla de las 3 notas (y de nuevo, en caja 5)", (
     "Tocás tres notas y <b>te callás un compás entero</b>. Vas a sentir una incomodidad física, unas ganas "
     "enormes de llenar el silencio: esa incomodidad es exactamente lo que estás entrenando a tolerar. "
-    "El silencio escrito acá no es una pausa entre ejercicios — es parte de la música."),
+    "El silencio escrito acá no es una pausa entre ejercicios — es parte de la música. El último par repite "
+    "la misma idea en la <b>caja 5</b>: abajo el silencio pesa distinto, y también hay que aprender a tolerarlo ahí."),
     "e31", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
 
 S.append(ejercicio(32, "Pregunta y respuesta", (
@@ -272,6 +274,10 @@ S.append(Paragraph(
     "Diez compases que usan <b>todo el mes</b>: entra suave y con espacio, vibra una nota larga, mete ligados, "
     "bendea y vibra arriba del bending, se calla un compás entero, sube con un slide, llega al clímax en forte, "
     "baja con ligados y cierra en la tónica, suave, con vibrato.", BODY))
+S.append(Paragraph(
+    "Fijate el compás 6: el slide te lleva de caja 1 a caja 2, y las notas repetidas que siguen ya caen en "
+    "<b>caja 3</b>. El compás 7 arranca directo en <b>caja 4</b> y baja. Es la misma lógica del Hito 1 — "
+    "el clímax de un solo casi nunca se queda en un solo lugar del mástil.", BODY))
 S.append(Paragraph(
     "Fijate que <b>casi no hay notas rápidas</b>. Ese es el punto del hito: lo que emociona no es la cantidad "
     "de notas, es lo que le hacés a cada una.", BODY))
