@@ -12,11 +12,11 @@ from reportlab.platypus import Paragraph, Spacer, PageBreak, Table, TableStyle, 
 from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, RED, DARK, LIGHT, LIGHT2, BORDER,
                                IG, documento, tabla, caja_oscura)
 
-doc = documento("Guiones-Historia-Fijado-Clase.pdf",
-                "3 GUIONES PENDIENTES",
-                "Tu historia · Reel fijado · Cómo es una clase — con línea de tiempo",
-                "Solo con Sabor · Guiones — Historia, Fijado, Clase",
-                "Guiones - Historia, Fijado, Clase")
+doc = documento("Guiones-Historia-Fijado-Vendedores.pdf",
+                "GUIONES PENDIENTES",
+                "Historia · Reel fijado · 2 guiones vendedores — con línea de tiempo",
+                "Solo con Sabor · Guiones — Historia, Fijado, Vendedores",
+                "Guiones - Historia, Fijado, Vendedores")
 W = doc.width
 S = []
 
@@ -56,9 +56,10 @@ def ficha_tecnica(filas):
 
 
 def banner_video(numero, titulo, subtitulo):
-    t = Table([[Paragraph('<font color="white" size="14"><b>VIDEO #%s</b></font><br/>'
+    etiqueta = "VIDEO #%s" % numero if numero.isdigit() else "GUION %s" % numero
+    t = Table([[Paragraph('<font color="white" size="14"><b>%s</b></font><br/>'
                           '<font color="white" size="12"><b>%s</b></font><br/>'
-                          '<font color="#f7d7d2" size="9">%s</font>' % (numero, titulo, subtitulo),
+                          '<font color="#f7d7d2" size="9">%s</font>' % (etiqueta, titulo, subtitulo),
                           BODY)]], colWidths=[W])
     t.setStyle(TableStyle([('BACKGROUND', (0, 0), (-1, -1), RED),
                            ('LEFTPADDING', (0, 0), (-1, -1), 12), ('RIGHTPADDING', (0, 0), (-1, -1), 12),
@@ -67,11 +68,13 @@ def banner_video(numero, titulo, subtitulo):
 
 
 # ============================================================ PORTADA
-S.append(Paragraph("LOS 3 VIDEOS QUE FALTAN PARA COMPLETAR EL STOCK", H1))
+S.append(Paragraph("LOS GUIONES QUE FALTAN PARA COMPLETAR EL STOCK", H1))
 S.append(Paragraph(
     "De los 8 videos filmados, 6 son creencias atacadas. Ninguno responde <b>\"¿por qué vos?\"</b> "
-    "ni <b>\"¿qué compro exactamente?\"</b> — las dos objeciones que más frenan una venta de "
-    "USD 400-900 a un desconocido de Instagram. Estos tres videos cierran esas dos grietas.", BODY))
+    "— la objeción que más frena una venta de USD 400-900 a un desconocido de Instagram. Historia y "
+    "Fijado cierran esa grieta. Y para el 3% que ya está listo para comprar (regla 97/3), van los dos "
+    "guiones vendedores: conversión pura, sin regalar en público lo que la llamada de descubrimiento "
+    "tiene que vender.", BODY))
 S.append(tabla([
     [Paragraph("<b>#</b>", CELLB), Paragraph("<b>Video</b>", CELLB), Paragraph("<b>Función</b>", CELLB),
      Paragraph("<b>Duración</b>", CELLB)],
@@ -81,18 +84,29 @@ S.append(tabla([
     [Paragraph("12", CELLB), Paragraph("REEL FIJADO", CELL),
      Paragraph("La carta de presentación del perfil. Prueba de que sabés tocar.", CELL),
      Paragraph("25-35 seg", CELL)],
-    [Paragraph("13", CELLB), Paragraph("CÓMO ES UNA CLASE", CELL),
-     Paragraph("Responde \"¿qué compro?\" — muestra el producto real, no la promesa.", CELL),
-     Paragraph("40-50 seg", CELL)],
-], [1.1 * cm, 3.6 * cm, W - 6.6 * cm, 1.9 * cm]))
+    [Paragraph("V1", CELLB), Paragraph("VENDEDOR — \"Como que desaparece\"", CELL),
+     Paragraph("Conversión pura, a cámara sin tocar. Para el 3% listo para comprar.", CELL),
+     Paragraph("30-35 seg", CELL)],
+    [Paragraph("V2", CELLB), Paragraph("VENDEDOR — \"Dejá de mirar tutoriales\"", CELL),
+     Paragraph("Mismo objetivo, con guitarra sonando y el espejo del \"yo era ese tipo\".", CELL),
+     Paragraph("40-45 seg", CELL)],
+], [1.1 * cm, 5.2 * cm, W - 8.2 * cm, 1.9 * cm]))
+
+S.append(Paragraph("¿QUÉ PASÓ CON \"CÓMO ES UNA CLASE\"?", H2))
+S.append(Paragraph(
+    "Se sacó del stock público. Es contenido que corresponde a la <b>llamada de descubrimiento</b>, "
+    "mano a mano con el potencial cliente — publicarlo le regala al visitante la información que "
+    "debería generar esa conversación privada. Sí vale la pena grabarlo una vez, sin subir, como "
+    "ensayo de cómo lo vas a explicar en la llamada real.", BODY))
 
 S.append(Paragraph("ORDEN DE FILMACIÓN SUGERIDO", H2))
 S.append(Paragraph(
     "<b>1º Historia</b> — es el que necesita más tranquilidad emocional y el que más ensayo pide, "
     "conviene sacarlo de encima primero. <b>2º Fijado</b> — el más simple: solo tocar bien, sin hablar, "
-    "buen día para relajar después del esfuerzo del anterior. <b>3º Clase</b> — se beneficia de grabarse "
-    "el mismo día que Historia, con el mismo ánimo genuino ya activado, y necesita tener a mano el "
-    "cuadernillo impreso o en pantalla.", BODY))
+    "buen día para relajar después del esfuerzo del anterior. <b>3º un vendedor</b> — elegí \"Dejá de "
+    "mirar tutoriales\" si preferís tener guitarra sonando, o \"Como que desaparece\" si preferís un "
+    "video todo a cámara, sin tocar. <b>Recordá:</b> los vendedores se publican recién cuando ya haya "
+    "autoridad construida (después de varios Formato C) — filmalos ahora, pero no los subas todavía.", BODY))
 
 S.append(Paragraph("CÓMO LEER LA LÍNEA DE TIEMPO", H2))
 S.append(Paragraph(
@@ -108,66 +122,68 @@ S.append(Spacer(1, 8))
 S.append(ficha_tecnica([
     ("Duración", "55-65 segundos"),
     ("Backing", "Ninguno, o un clima muy suave de fondo — casi inaudible bajo la voz"),
-    ("Tono", "El más importante de los 3. Bajá un cambio, hablale a un amigo, no a una cámara"),
+    ("Tono", "Bajá un cambio, hablale a un amigo, no a una cámara"),
     ("Por qué existe", "Es el único video del stock que responde \"¿por qué vos?\" — la objeción "
                        "principal de un producto de USD 400-900 comprado a un desconocido"),
 ]))
 S.append(Spacer(1, 6))
 
-S.append(Paragraph("ANTES DE GRABAR: completá estos 6 blancos con TU historia real", H2))
+S.append(Paragraph("LOS 6 DATOS REALES (la base de este guion)", H2))
 S.append(Paragraph(
-    "La estructura y el arco emocional ya están resueltos abajo — eso no cambia. Pero los hechos son "
-    "tuyos: no los inventé porque no los conozco, y no tendría sentido que lo haga. Contestá cada uno "
-    "en voz alta, grabándote sin cámara, antes de armar la versión final del guion.", BODY))
-S.append(tabla([
-    [Paragraph("<b>#</b>", CELLB), Paragraph("<b>Pregunta</b>", CELLB)],
-    [Paragraph("1", CELLB), Paragraph("¿A qué edad / hace cuántos años empezaste a tocar?", CELL)],
-    [Paragraph("2", CELLB), Paragraph("¿Cómo aprendiste — solo, con profesor, mirando videos?", CELL)],
-    [Paragraph("3", CELLB), Paragraph("¿Cuál es TU versión de \"vivir en la caja 1\"? (años tocando lo mismo, "
-                                       "un show que salió mal, comparación con otro guitarrista que te frenó)", CELL)],
-    [Paragraph("4", CELLB), Paragraph("¿Cuál fue el quiebre — un profesor, un video, una frase, una devolución?", CELL)],
-    [Paragraph("5", CELLB), Paragraph("¿Qué cambió en tu forma de tocar (y de sentir la guitarra) después de eso?", CELL)],
-    [Paragraph("6", CELLB), Paragraph("¿Por qué enseñás esto ahora? ¿Qué te gustaría que alguien te hubiera "
-                                       "dicho a vos hace años?", CELL)],
-], [1.0 * cm, W - 1.0 * cm]))
+    "Empezaste a los <b>once años</b>. Aprendiste de todas las formas posibles: TAB de internet, "
+    "videos, profesor particular, y hasta la <b>facultad de música en Rosario (UNR)</b> — no te "
+    "recibiste, pero aprendiste muchísimo ahí. Tu Punto A fue años tocando siempre las mismas frases, "
+    "<b>a pesar</b> de todo ese estudio formal. El quiebre fue un profesor puntual que te enseñó a "
+    "<b>conectar el mástil en vez de memorizar cajas sueltas</b> — el germen exacto del Hito 1, "
+    "\"El Mapa\", de tu propio método. Y lo que cambió fue que empezaste a <b>improvisar con libertad, "
+    "sin depender de licks memorizados</b>.", BODY))
+S.append(Paragraph(
+    "El dato de la facultad es un activo, no un detalle menor: \"estudié formalmente y AUN ASÍ me "
+    "pasaba esto\" es un argumento de autoridad mucho más fuerte que \"no estudié nada\". No lo "
+    "minimices ni te disculpes por no haberte recibido — contalo tal cual, con naturalidad.", SMALL))
 
 S.append(Spacer(1, 8))
 S.append(Paragraph("LÍNEA DE TIEMPO", H2))
 S.append(linea_tiempo([
     ("0:00–0:06", "A cámara, sin guitarra colgada o con ella quieta. Plano cerrado, mirada directa.",
-     "\"Hace [BLANCO 1] años yo tocaba exactamente como vos tocás ahora. Y durante mucho tiempo pensé "
-     "que el problema era que me faltaba talento.\""),
-    ("0:06–0:20", "Seguís a cámara, tono más bajo, como confesando algo.",
-     "[BLANCO 3 — contá tu versión concreta: un lugar, una fecha, una sensación física. Cuanto más "
-     "concreto, más se identifica el que mira.] \"Sabía las notas. Sabía las escalas. Pero cuando tenía "
-     "que improvisar de verdad, sonaba a alumno, no a músico. Y no entendía por qué.\""),
-    ("0:20–0:35", "Podés mostrar la guitarra brevemente acá, sin tocar todavía.",
-     "\"Lo que cambió fue [BLANCO 4]. Ahí entendí algo que nadie me había dicho antes: no me faltaban "
-     "notas. Me faltaba [espacio / sabor / orden — elegí el término que resuene con tu historia].\""),
-    ("0:35–0:48", "A cámara, tono más liviano — ya pasaste la parte difícil del relato.",
-     "[BLANCO 5 — qué cambió realmente, simple y creíble. No hace falta que sea espectacular: "
-     "\"empecé a tocar cosas que antes ni intentaba\" alcanza y suena honesto.]"),
-    ("0:48–0:60", "A cámara, tranquilo, casi charlando.",
-     "\"Por eso armé este método: para ahorrarte los años que yo tardé en darme cuenta. [BLANCO 6, en "
-     "una frase corta.] Si estás en el mismo lugar donde yo estaba, escribime SOLO y te cuento cómo "
-     "trabajamos.\""),
-], colw=[2.0 * cm, W * 0.32, W - 2.0 * cm - W * 0.32]))
+     "\"Empecé a tocar la guitarra a los once años. Y durante mucho tiempo pensé que el problema era "
+     "que me faltaba talento.\""),
+    ("0:06–0:22", "Seguís a cámara, tono neutro — es un repaso rápido, no dramático.",
+     "\"Pasé por todo lo que puede pasar un guitarrista: aprendí con tablaturas de internet, con "
+     "videos, tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. No "
+     "me recibí, pero aprendí un montón ahí. Y aun así — con todo eso encima — durante años seguí "
+     "tocando las mismas frases de siempre. Sabía un montón de teoría. Pero cuando improvisaba, "
+     "sonaba siempre igual.\""),
+    ("0:22–0:38", "Podés mostrar la guitarra brevemente acá, sin tocar todavía.",
+     "\"Lo que cambió todo fue un profesor que, en vez de enseñarme una caja más, me enseñó a "
+     "conectar el mástil entero. Ahí entendí que el problema nunca fueron las notas que me faltaban "
+     "— era que tenía cinco cajas separadas en la cabeza, en vez de un solo mapa.\""),
+    ("0:38–0:50", "A cámara, tono más liviano — ya pasaste la parte difícil del relato.",
+     "\"Desde ese día empecé a improvisar con libertad de verdad — sin depender de licks memorizados, "
+     "moviéndome por donde se me ocurriera en el momento. Eso es lo que antes no podía hacer.\""),
+    ("0:50–0:60", "A cámara, tranquilo, casi charlando.",
+     "\"Por eso armé este método así, empezando siempre por el mapa completo del mástil — es lo que "
+     "a mí me cambió la cabeza, y quiero ahorrarte los años que me llevó a mí entenderlo. Si estás en "
+     "el mismo lugar donde yo estaba, escribime SOLO y te cuento cómo trabajamos.\""),
+], colw=[2.0 * cm, W * 0.30, W - 2.0 * cm - W * 0.30]))
 
 S.append(Spacer(1, 6))
 S.append(Paragraph("GUÍA DE TONO", H2))
 S.append(Paragraph(
-    "Se graba UNA VEZ que tengas los 6 blancos escritos en un papel, no memorizados palabra por palabra — "
-    "leer de memoria sin naturalidad arruina justo lo que este video necesita transmitir. Ensayá "
-    "contándoselo a una persona real (pareja, amigo guitarrista) antes de prender la cámara: si a esa "
-    "persona le genera algo, funciona. Si te queda \"de guion\", volvé a contarlo con tus palabras. "
+    "Ensayalo contándoselo a una persona real (pareja, amigo guitarrista) antes de prender la cámara: "
+    "si a esa persona le genera algo, funciona. Si te queda \"de guion\", volvé a contarlo con tus "
+    "palabras — la línea de tiempo te da la idea de cada bloque, no hace falta decirla textual. "
     "No necesitás tocar la guitarra en este video — si tocás algo, que sea al final, breve, sin ser el foco.", BODY))
 
 S.append(Paragraph("COPY DEL POST", H2))
 S.append(Paragraph(
-    "<i>\"No arranqué sabiendo esto. Arranqué exactamente donde estás vos ahora — [resumen de 1 línea "
-    "de tu Punto A]. Tardé [BLANCO 1] años en entender lo que te puedo enseñar en 90 días. Esa es la "
-    "única razón por la que armé este método: no quiero que nadie tarde lo que tardé yo. Si te sentís "
-    "identificado, escribime SOLO.\"</i>", BODY))
+    "<i>\"Empecé a tocar a los once años. Pasé por tablaturas de internet, videos, profesores "
+    "particulares, y hasta la facultad de música — no me recibí, pero aprendí muchísimo ahí. Y con "
+    "todo eso encima, durante años seguí tocando las mismas frases de siempre. Lo que me cambió la "
+    "cabeza fue un profesor que me enseñó a conectar el mástil entero, en vez de memorizar cajas "
+    "sueltas. Ahí empecé a improvisar de verdad, con libertad. Por eso armé mi método empezando "
+    "siempre por ahí: el mapa completo. Quiero ahorrarte los años que a mí me llevó entenderlo. "
+    "Si te sentís identificado, escribime SOLO.\"</i>", BODY))
 
 S.append(Paragraph("HASHTAGS", H3))
 S.append(Paragraph("#guitarra #guitarraelectrica #aprenderguitarra #historiapersonal #rock #bluesrock #guitarristas", SMALL))
@@ -236,75 +252,124 @@ S.append(Paragraph(
     "Sin transiciones, sin efectos de sonido, sin música de fondo que compita con la guitarra. Es el "
     "único video de todo el stock donde \"menos producción\" ES la producción correcta.", SMALL))
 
-# ============================================================ VIDEO 13 — CLASE
+# ============================================================ VENDEDOR 1 — "COMO QUE DESAPARECE"
 S.append(PageBreak())
-S.append(banner_video("13", "CÓMO ES UNA CLASE", "Formato A/P mixto · resuelve \"¿qué compro?\" · keyword nueva: CLASE"))
+S.append(banner_video("V1", "VENDEDOR — \"COMO QUE DESAPARECE\"",
+                      "Conversión pura · a cámara, sin tocar · keyword: SABOR"))
 S.append(Spacer(1, 8))
 
 S.append(ficha_tecnica([
-    ("Duración", "40-50 segundos"),
-    ("Backing", "No hace falta — es un video hablado con apoyo visual del cuadernillo"),
-    ("Tono", "Orgullo genuino por lo que armaste, sin venta dura"),
-    ("Por qué existe", "No estaba en el plan original. Surgió en la auditoría de marketing: nadie que "
-                       "ve tus reels sabe qué compra en concreto. Este es el único video que muestra el "
-                       "PRODUCTO, no la promesa"),
+    ("Duración", "30-35 segundos"),
+    ("Backing", "Ninguno, o mínimo — el poder está en la mirada, no en la música"),
+    ("Tono", "El viewer se tiene que sentir LEÍDO. Cualquier adorno lo diluye"),
+    ("Cuándo publicarlo", "Recién cuando ya haya autoridad construida — después de 5-6 Formato C, "
+                         "NUNCA como primer contenido (regla de la sección 9)"),
+    ("Origen", "Adaptado de un guion de venta directa de jazz que identificaste como el que más "
+              "convierte. Mecánica: espejo del dolor → sacar la culpa → nombrar la solución sin "
+              "regalarla → puerta con keyword"),
 ]))
 S.append(Spacer(1, 6))
 
 S.append(Paragraph("LÍNEA DE TIEMPO", H2))
 S.append(linea_tiempo([
-    ("0:00–0:05", "HOOK, a cámara.",
-     "\"¿Cómo es una clase de guitarra en grupo? Te muestro exactamente cómo lo armé.\""),
-    ("0:05–0:20", "Cámara en mano o en trípode, mostrás el cuadernillo físico o la pantalla. Podés "
-                  "tocar 2 segundos recorriendo las cajas mientras hablás del Hito 1.",
-     "\"Son 3 meses, 3 etapas. El mes uno es EL MAPA: te vas de vivir en una sola caja de la pentatónica "
-     "a moverte por las cinco, conectadas. El mes dos es EL SABOR: bending, vibrato, el silencio — lo "
-     "que hace que la misma escala suene a Gary Moore y no a ejercicio. Y el mes tres es EL VOCABULARIO: "
-     "armás tu propio banco de licks y cerrás grabando tu solo.\""),
-    ("0:20–0:35", "Ritmo más rápido, casi un listado hablado. A cámara.",
-     "\"Cada semana tenés cuatro encuentros en vivo: teoría los lunes, técnica los martes, un solo "
-     "icónico los jueves, y el sábado — la que más me gusta — cada uno improvisa y le doy una devolución "
-     "personal. Grupo chico: 4 a 6 personas. No sos un número.\""),
-    ("0:35–0:45", "Mostrás una página del cuadernillo a cámara, 2-3 segundos — con TAB y partitura "
-                  "bien visibles.",
-     "\"Y no es solo teoría suelta: tenés cuadernillos con partitura y tablatura de cada ejercicio, con "
-     "criterios claros de cuándo ya lo tenés y cuándo seguís practicando. No es una playlist de videos. "
-     "Es un método con orden.\""),
-    ("0:45–0:50", "A cámara, cierre tranquilo.",
-     "\"Si querés ver si encajás en la próxima camada, escribime CLASE y charlamos 15 minutos, sin costo.\""),
-], colw=[2.0 * cm, W * 0.36, W - 2.0 * cm - W * 0.36]))
+    ("0:00–0:10", "A cámara todo el tiempo. Sin guitarra, o con la viola colgada sin tocar. "
+                  "Subtítulos grandes.",
+     "\"Mirás tutoriales, guardás licks, sacás los solos de tus ídolos… pero cuando improvisás, "
+     "nada de eso aparece.\""),
+    ("0:10–0:20", "Seguís a cámara, tono de espejo — no acusador.",
+     "\"Le dedicaste un montón de horas — y en el momento de tocar, terminás metido en la misma "
+     "caja de siempre, con las mismas frases de siempre. Como si todo lo que estudiaste no "
+     "existiera. Como que desaparece.\""),
+    ("0:20–0:30", "A cámara, ahora ofreciendo, no señalando.",
+     "\"Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema que "
+     "convierta eso que estudiás en TU forma de tocar — que cuando improvises, salga solo, con "
+     "sabor, sin pensarlo.\""),
+    ("0:30–0:35", "A cámara, cierre tranquilo, sin apuro.",
+     "\"Si querés trabajar en serio, en un proceso paso a paso, para improvisar solos de rock con "
+     "la libertad que buscás, mandame SABOR y te cuento cómo trabajamos.\""),
+], colw=[2.0 * cm, W * 0.32, W - 2.0 * cm - W * 0.32]))
+
+S.append(Spacer(1, 6))
+S.append(Paragraph("DECISIONES DE ADAPTACIÓN (por qué funciona)", H2))
+S.append(tabla([
+    [Paragraph("<b>Elemento</b>", CELLB), Paragraph("<b>Por qué</b>", CELLB)],
+    [Paragraph("\"La misma caja de siempre\"", CELL),
+     Paragraph("Reemplaza \"los mismos recursos\" del original. La caja 1 es la cárcel CON NOMBRE "
+               "del avatar — una imagen física que reconoce al instante.", CELL)],
+    [Paragraph("\"Como que desaparece\"", CELL),
+     Paragraph("Se roba casi textual del guion original: es la frase más potente, describe la "
+               "experiencia exacta de improvisar y quedarse en blanco.", CELL)],
+    [Paragraph("La CTA no regala nada", CELL),
+     Paragraph("No es un lead magnet: abre conversación de método directo. Por eso es el que "
+               "vende — atrae al 3% listo para comprar (regla 97/3), no a curiosos.", CELL)],
+], [3.6 * cm, W - 3.6 * cm]))
+
+S.append(Paragraph("VERSIÓN CORTA (para story o pie de otro reel)", H3))
+S.append(Paragraph(
+    "<i>\"Guardás licks que después nunca aparecen cuando improvisás. El problema no es cuánto "
+    "estudiás — es que nada lo conecta. No necesitás más material: necesitás un sistema. Mandame "
+    "SABOR y te cuento cómo trabajamos.\"</i>", BODY))
+
+S.append(Paragraph("NOTA DE EDICIÓN", H3))
+S.append(Paragraph(
+    "Sin música o backing mínimo. Sin memes, sin zooms. La fuerza está en la mirada sostenida a "
+    "cámara — cualquier corte o efecto rompe la sensación de que te está hablando a VOS.", SMALL))
+
+# ============================================================ VENDEDOR 2 — "DEJÁ DE MIRAR TUTORIALES"
+S.append(PageBreak())
+S.append(banner_video("V2", "VENDEDOR — \"DEJÁ DE MIRAR TUTORIALES\"",
+                      "Espejo, no reto · vos FUISTE ese tipo · keyword: ROCK"))
+S.append(Spacer(1, 8))
+
+S.append(ficha_tecnica([
+    ("Duración", "40-45 segundos"),
+    ("Backing", "Blues en La"),
+    ("Tono", "Empático — vos FUISTE ese tipo. Es un espejo, no un reto"),
+    ("Particularidad", "El \"mal\" acá no es tocar mal: es el scroll infinito de tutoriales"),
+    ("Cuándo publicarlo", "Mismo criterio que el anterior: después de tener autoridad construida"),
+]))
+S.append(Spacer(1, 6))
+
+S.append(Paragraph("LÍNEA DE TIEMPO", H2))
+S.append(linea_tiempo([
+    ("0:00–0:04", "HOOK, a cámara.",
+     "\"¿Cuántos tutoriales de guitarra miraste este mes? ¿Veinte? ¿Cincuenta? ¿Y tu improvisación "
+     "mejoró algo? Sé honesto.\""),
+    ("0:04–0:12", "EL \"MAL\" — el espejo, no tocás: mostrás. Visual: feed lleno de tutoriales o "
+                  "carpeta de guardados, scrolleando. Labels: \"200 licks guardados\" · \"0 solos "
+                  "propios\". Sin guitarra sonando: backing tenso bajito o silencio con clicks de scroll.",
+     "\"Yo era ese tipo. Guardaba licks, miraba análisis de solos, cursos, más licks… Sabía un "
+     "montón. Y cuando agarraba la viola para improvisar… seguía sonando igual que hace dos años.\""),
+    ("0:12–0:18", "REVELACIÓN, a cámara.",
+     "\"El problema no es que te falte información. Es que te SOBRA. Acumulás 'qués' sin un "
+     "'cómo'. Mirá lo que hacen 20 minutos bien diseñados.\""),
+    ("0:18–0:32", "EL \"BIEN\" — tocás, poco hablado encima. Improvisás 12-14 seg sobre el backing, "
+                  "con sabor. Labels secuenciales: \"20 min por día\" · \"una sola cosa por semana\" "
+                  "· \"con un orden\".",
+     "\"Esto no salió de mirar videos. Salió de practicar UNA cosa por vez, con un orden.\""),
+    ("0:32–0:40", "CIERRE, a cámara.",
+     "\"No necesitás más tutoriales. Necesitás menos información y más dirección. Veinte minutos "
+     "por día con un plan le ganan a cuatro horas de scroll. Siempre.\""),
+    ("0:40–0:45", "CTA.",
+     "\"Comentá ROCK y te mando tres licks con sabor — pero con el CÓMO practicarlos, no el lick "
+     "pelado.\""),
+], colw=[2.0 * cm, W * 0.38, W - 2.0 * cm - W * 0.38]))
 
 S.append(Spacer(1, 6))
 S.append(Paragraph("GUÍA DE TONO", H2))
 S.append(Paragraph(
-    "Es el único video donde SÍ mostrás material físico o de pantalla — la aplicación directa de la "
-    "idea de \"usar el cuadernillo como prueba de método\". No hace falta mostrarlo entero: 2-3 segundos "
-    "de una página con TAB y partitura real alcanzan para que se entienda que esto no es contenido "
-    "genérico. No hables de precio acá — eso se dice en la llamada, no en el reel. Este video solo tiene "
-    "que lograr que alguien quiera agendar esos 15 minutos.", BODY))
-S.append(Paragraph(
-    "<b>Keyword nueva y distinta de las demás: CLASE</b> (no PENTA, no SOLO, no SABOR) — porque el que "
-    "comenta acá ya está más cerca de comprar que el que comenta en un reel de creencia. Sirve para medir "
-    "esa diferencia de intención en tus DMs.", BODY))
-
-S.append(Paragraph("COPY DEL POST", H2))
-S.append(Paragraph(
-    "<i>\"¿Cómo es por dentro un curso de guitarra en grupo?<br/><br/>"
-    "3 meses. 3 etapas: el mapa, el sabor, el vocabulario. 4 encuentros en vivo por semana, grupo de "
-    "4 a 6 personas, devolución personal cada sábado.<br/><br/>"
-    "Y no es solo \\\"clases\\\": tenés material propio, con partitura y tablatura, hecho específicamente "
-    "para este método — no reciclado de otro lado.<br/><br/>"
-    "Si querés ver si es para vos, escribime <b>CLASE</b> y charlamos 15 minutos, sin costo ni "
-    "compromiso.\"</i>", BODY))
-
-S.append(Paragraph("HASHTAGS", H3))
-S.append(Paragraph("#guitarra #guitarraelectrica #clasesdeguitarra #aprenderguitarra #metododeguitarra #rock #bluesrock", SMALL))
+    "Este video es un ESPEJO, no un reto. El viewer se tiene que sentir <b>entendido</b>, no "
+    "acusado. Por eso arrancás con \"yo era ese tipo\" — te ponés adentro del problema antes de "
+    "señalarlo. El copy del post podés reusar el COPY MAESTRO de la sección 12 del documento "
+    "(fue escrito exactamente para esta creencia), cambiando solo el CTA final a ROCK.", BODY))
 
 S.append(Paragraph("NOTA DE EDICIÓN", H3))
 S.append(Paragraph(
-    "Este es el único video del stock donde vale la pena un plano de \"pantalla\" (mostrando el PDF o "
-    "la tablatura) en vez de solo cámara — usalo, es tu diferencial visual más fuerte y hasta ahora no "
-    "aparece en ningún reel filmado.", SMALL))
+    "En el \"mal\" no hay guitarra sonando — meté un backing tenso bajito o silencio incómodo con "
+    "el sonido del scroll (clicks). El contraste acá es scroll muerto vs guitarra viva.", SMALL))
+
+S.append(Paragraph("HASHTAGS", H3))
+S.append(Paragraph("#guitarra #guitarraelectrica #aprenderguitarra #tutorialguitarra #solodeguitarra #rock #bluesrock #pentatonica #guitarristas #practicarguitarra", SMALL))
 
 # ============================================================ CIERRE
 S.append(PageBreak())
@@ -312,19 +377,21 @@ S.append(Paragraph("CHECKLIST ANTES DE FILMAR", H1))
 S.append(tabla([
     [Paragraph("<b>Video</b>", CELLB), Paragraph("<b>Lo tengo listo cuando…</b>", CELLB)],
     [Paragraph("11 · Historia", CELLB),
-     Paragraph("Completé los 6 blancos por escrito y me lo conté a otra persona en voz alta al menos una vez.", CELL)],
+     Paragraph("Ensayé el relato en voz alta con otra persona al menos una vez, con los 6 datos reales.", CELL)],
     [Paragraph("12 · Fijado", CELLB),
      Paragraph("Tengo la frase de las 4 partes ensayada y sé exactamente qué toco en cada tramo, sin dudar.", CELL)],
-    [Paragraph("13 · Clase", CELLB),
-     Paragraph("Tengo el cuadernillo impreso o abierto en pantalla, listo para mostrar en el segundo 0:35.", CELL)],
-], [3.4 * cm, W - 3.4 * cm]))
+    [Paragraph("V1 · Como que desaparece", CELLB),
+     Paragraph("Puedo sostener la mirada a cámara los 30 segundos sin cortar ni desviar la vista.", CELL)],
+    [Paragraph("V2 · Dejá de mirar tutoriales", CELLB),
+     Paragraph("Tengo el backing de blues en La listo y practiqué la frase del \"bien\" (12-14 seg con sabor).", CELL)],
+], [3.8 * cm, W - 3.8 * cm]))
 
 S.append(Spacer(1, 10))
 S.append(caja_oscura(
-    '<font color="white" size="10.5"><b>Recordá el orden</b></font><br/>'
+    '<font color="white" size="10.5"><b>Recordá el orden y la regla de los vendedores</b></font><br/>'
     '<font color="#f7d7d2" size="9">Historia primero (más ensayo, más carga emocional) → Fijado segundo '
-    '(el más simple, para descomprimir) → Clase al final, aprovechando el mismo ánimo genuino del primero. '
-    'Los tres juntos cierran el stock completo de contenido. · %s</font>' % IG, W))
+    '(el más simple, para descomprimir) → un vendedor al final. Los vendedores se FILMAN ahora pero se '
+    'PUBLICAN recién después de 5-6 Formato C — nunca como primer contenido. · %s</font>' % IG, W))
 
 doc.build(S)
-print("OK Guiones-Historia-Fijado-Clase.pdf")
+print("OK Guiones-Historia-Fijado-Vendedores.pdf")

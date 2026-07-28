@@ -78,9 +78,9 @@ if exist "Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf" (
     echo   [✓] Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf
 )
 
-if exist "Guiones-Historia-Fijado-Clase.pdf" (
-    copy "Guiones-Historia-Fijado-Clase.pdf" "D:\METODO FLOW 2026\Guiones-Historia-Fijado-Clase.pdf"
-    echo   [✓] Guiones-Historia-Fijado-Clase.pdf
+if exist "Guiones-Historia-Fijado-Vendedores.pdf" (
+    copy "Guiones-Historia-Fijado-Vendedores.pdf" "D:\METODO FLOW 2026\Guiones-Historia-Fijado-Vendedores.pdf"
+    echo   [✓] Guiones-Historia-Fijado-Vendedores.pdf
 )
 
 if exist "Cuadernillo-Mes1-El-Mapa.pdf" (

@@ -885,7 +885,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (35 a 51): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
 | `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 8 licks (52 a 59), **ninguno en las cajas 1 ni 2**: 2 en la caja 3, 2 en la 4, 2 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Guiones-Historia-Fijado-Clase.pdf` | Contenido | **7 páginas.** Los 3 guiones pendientes (#11, #12, #13) con línea de tiempo en tabla, ficha técnica, guía de tono, copy y hashtags. Historia trae los 6 blancos a completar antes de grabar. |
+| `Guiones-Historia-Fijado-Vendedores.pdf` | Contenido | **9 páginas.** Historia (#11, con tus 6 datos reales ya cargados) · Fijado (#12) · los 2 guiones vendedores ("Como que desaparece" y "Dejá de mirar tutoriales") con línea de tiempo en tabla, ficha técnica, guía de tono, copy y hashtags. "Cómo es una clase" se dio de baja del stock público (ver sección 27). |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
 | Archivo | Keyword | Va con |
@@ -1239,7 +1239,7 @@ que lo hacés una vez.
 
 ---
 
-## 25) GUION VIDEO #11 — "TU HISTORIA" (60 seg, humaniza)
+## 25) GUION VIDEO #11 — "TU HISTORIA" (60 seg, humaniza) — VERSIÓN FINAL
 
 > **Por qué este video existe:** de los 8 videos filmados, 6 son creencias atacadas. Ninguno responde
 > la objeción principal de un producto de USD 400-900 comprado a un desconocido: *"¿por qué vos?"*.
@@ -1247,57 +1247,59 @@ que lo hacés una vez.
 > **hace que el visitante te elija a VOS** por encima de cualquier otro perfil de guitarra en Instagram.
 > **Duración:** 55-65 seg · **Backing:** ninguno, o clima suave de fondo bajo la voz, casi inaudible.
 > **Tono:** el más importante de todo el stock: bajá un cambio, hablale a un amigo, no a una cámara.
-> Si un video se puede grabar "actuado", este no — se nota, y arruina el efecto.
 
-> ⚠️ **Este guion tiene 6 blancos que solo los completás vos.** Lo escribí con la estructura y el
-> arco emocional ya resueltos (esa parte no cambia), pero los hechos de tu historia son tuyos.
-> Grabate contestando cada blanco en voz alta, sin cámara, antes de armar el guion final — así sale
-> tu forma real de contarlo y no una que yo inventé por vos.
-
-**LOS 6 BLANCOS (contestalos antes de escribir la versión final):**
-1. ¿A qué edad / hace cuántos años empezaste a tocar?
-2. ¿Cómo aprendiste — solo, con profesor, mirando videos?
-3. ¿Cuál es TU versión de "vivir en la caja 1"? (¿Años tocando lo mismo? ¿Un show que salió mal?
-   ¿Un momento de comparación con otro guitarrista que te frenó?)
-4. ¿Cuál fue el quiebre — un profesor, un video, una frase, una devolución de alguien?
-5. ¿Qué cambió en tu forma de tocar (y de sentir la guitarra) después de eso?
-6. ¿Por qué enseñás esto ahora — qué te gustaría que alguien te hubiera dicho a vos hace años?
+> **Los 6 datos reales que dio Feli (base de esta versión):** empezó a los 11 años · aprendió de todas
+> las formas posibles (TAB de internet, videos, profesor particular, y después la UNR de Rosario —
+> no se recibió, pero aprendió muchísimo) · su Punto A fue años tocando siempre las mismas frases,
+> A PESAR de todo ese estudio formal · el quiebre fue un profesor puntual que le enseñó a **conectar
+> el mástil en vez de memorizar cajas sueltas** (el germen exacto del Hito 1, "El Mapa") · lo que
+> cambió fue que empezó a improvisar con libertad, sin depender de licks memorizados.
 
 **[0:00–0:06] HOOK — a cámara, sin guitarra colgada o con ella quieta**
-> "Hace [BLANCO 1] años yo tocaba exactamente como vos tocás ahora.
+> "Empecé a tocar la guitarra a los once años.
 > Y durante mucho tiempo pensé que el problema era que me faltaba talento."
 
-**[0:06–0:20] EL PUNTO A — el "vivir en la caja 1" de tu propia vida**
-> "[BLANCO 3 — contá tu versión concreta y específica, con un detalle real: un lugar, una fecha,
-> una sensación física. Cuanto más concreto, más se identifica el que mira.]
-> Sabía las notas. Sabía las escalas. Pero cuando tenía que improvisar de verdad, sonaba a alumno,
-> no a músico. Y no entendía por qué."
+**[0:06–0:22] EL PUNTO A — el contraste que hace fuerte esta historia**
+> "Pasé por todo lo que puede pasar un guitarrista: aprendí con tablaturas de internet, con videos,
+> tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. No me recibí,
+> pero aprendí un montón ahí.
+> Y aun así — con todo eso encima — durante años seguí tocando las mismas frases de siempre.
+> Sabía un montón de teoría. Pero cuando improvisaba, sonaba siempre igual."
 
-**[0:20–0:35] EL QUIEBRE**
-> "Lo que cambió fue [BLANCO 4]. Ahí entendí algo que nadie me había dicho antes:
-> no me faltaban notas. Me faltaba [espacio / sabor / orden — elegí el término que más resuene
-> con tu propia historia]."
+**[0:22–0:38] EL QUIEBRE**
+> "Lo que cambió todo fue un profesor que en vez de enseñarme una caja más, me enseñó a conectar
+> el mástil entero. Ahí entendí que el problema nunca fueron las notas que me faltaban —
+> era que tenía cinco cajas separadas en la cabeza, en vez de un solo mapa."
 
-**[0:35–0:48] EL PUNTO B — quién sos ahora, sin exagerar**
-> "[BLANCO 5 — qué cambió realmente, en términos simples y creíbles. No hace falta que sea
-> espectacular: 'empecé a tocar cosas que antes ni intentaba' alcanza y suena honesto.]"
+**[0:38–0:50] EL PUNTO B — quién soy ahora**
+> "Desde ese día empecé a improvisar con libertad de verdad — sin depender de licks memorizados,
+> moviéndome por donde se me ocurriera en el momento. Eso es lo que antes no podía hacer."
 
-**[0:48–0:60] CIERRE — por qué enseñás, a cámara, tranquilo**
-> "Por eso armé este método: para ahorrarte los años que yo tardé en darme cuenta.
-> [BLANCO 6, en una frase corta.]
+**[0:50–0:60] CIERRE — por qué enseño esto ahora, a cámara, tranquilo**
+> "Por eso armé este método así, empezando siempre por el mapa completo del mástil — es lo que a mí
+> me cambió la cabeza, y quiero ahorrarte los años que me llevó a mí entenderlo.
 > Si estás en el mismo lugar donde yo estaba, escribime SOLO y te cuento cómo trabajamos."
 
 **Guía de tono:**
-- Este video se graba UNA vez que tengas los 6 blancos escritos en un papel, no memorizados palabra
-  por palabra — leer de memoria sin naturalidad arruina exactamente lo que el video necesita transmitir.
-- Ensayá contándoselo a una persona real (pareja, amigo guitarrista) antes de prender la cámara.
+- Ensayalo contándoselo a una persona real (pareja, amigo guitarrista) antes de prender la cámara.
   Si a esa persona le genera algo, funciona. Si te queda "de guion", volvé a contarlo con tus palabras.
+- El dato de la facultad (UNR) es un activo, no un detalle menor: "estudié formalmente y AUN ASÍ me
+  pasaba esto" es un argumento de autoridad mucho más fuerte que "no estudié nada". No lo minimices
+  ni te disculpes por no haberte recibido — no hace falta explicarlo, simplemente contalo así.
 - No necesitás tocar la guitarra en este video. Si tocás algo, que sea al final, breve, sin ser el foco.
 
 **Copy del post:**
-> No arranqué sabiendo esto. Arranqué exactamente donde estás vos ahora — [resumen de 1 línea de
-> tu Punto A]. Tardé [BLANCO 1] años en entender lo que te puedo enseñar en 90 días. Esa es la única
-> razón por la que armé este método: no quiero que nadie tarde lo que tardé yo.
+> Empecé a tocar a los once años. Pasé por tablaturas de internet, videos, profesores particulares,
+> y hasta la facultad de música — no me recibí, pero aprendí muchísimo ahí.
+>
+> Y con todo eso encima, durante años seguí tocando las mismas frases de siempre.
+>
+> Lo que me cambió la cabeza fue un profesor que me enseñó a conectar el mástil entero, en vez de
+> memorizar cajas sueltas. Ahí empecé a improvisar de verdad, con libertad.
+>
+> Por eso armé mi método empezando siempre por ahí: el mapa completo. Quiero ahorrarte los años
+> que a mí me llevó entenderlo.
+>
 > Si te sentís identificado, escribime SOLO 📩
 
 **Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #historiapersonal #rock #bluesrock #guitarristas`
@@ -1358,73 +1360,33 @@ la guitarra. Es el único video de todo el stock donde "menos producción" es la
 
 ---
 
-## 27) GUION VIDEO #13 — "CÓMO ES UNA CLASE" (40-50 seg, resuelve la objeción del comprador)
+## 27) "CÓMO ES UNA CLASE" — DADO DE BAJA COMO VIDEO PÚBLICO, PASA A SER ENSAYO PRIVADO
 
-> **Por qué hace falta este video (no estaba en el plan original):** surgió en la auditoría de
-> marketing — nadie que mira tus reels sabe qué compra en concreto. El embudo dice "Llamada de
-> descubrimiento → Venta", pero antes de llegar a esa llamada, el visitante necesita poder
-> imaginarse DENTRO de la clase. Este video hace eso: es el único que muestra el PRODUCTO
-> (no la promesa, no la creencia) — el delivery real de las 4 sesiones semanales (sección 20).
-> Formato A/P mixto: autoridad (mostrás el método armado) + personal (tu cara explicando cómodo,
-> sin vender). **Duración:** 40-50 seg · **Tono:** genuino orgullo por lo que armaste, sin venta dura.
-
-**[0:00–0:05] HOOK — a cámara**
-> "¿Cómo es una clase de guitarra en grupo? Te muestro exactamente cómo lo armé."
-
-**[0:05–0:20] LOS 3 HITOS — texto en pantalla + vos hablando encima, cámara en mano o en trípode
-mostrando el cuadernillo físico o la pantalla si tenés el material armado**
-> "Son 3 meses, 3 etapas. El mes uno es EL MAPA: te vas de vivir en una sola caja de la pentatónica
-> a moverte por las cinco, conectadas. [mostrás brevemente el diagrama del mástil del cuadernillo,
-> o tocás 2 segundos recorriendo las cajas]
-> El mes dos es EL SABOR: bending, vibrato, el silencio — lo que hace que la misma escala suene
-> a Gary Moore y no a ejercicio.
-> Y el mes tres es EL VOCABULARIO: armás tu propio banco de licks y cerrás grabando tu solo."
-
-**[0:20–0:35] LAS 4 SESIONES SEMANALES — ritmo rápido, casi un listado hablado**
-> "Cada semana tenés cuatro encuentros en vivo: teoría los lunes, técnica los martes, un solo
-> icónico los jueves, y el sábado — la que más me gusta — cada uno improvisa y le doy una
-> devolución personal. Grupo chico: 4 a 6 personas. No sos un número."
-
-**[0:35–0:45] LA PRUEBA TANGIBLE — el elemento diferencial real**
-> "Y no es solo teoría suelta: tenés cuadernillos con partitura y tablatura de cada ejercicio,
-> [mostrás una página del cuadernillo a cámara, 2-3 seg] con criterios claros de cuándo ya lo
-> tenés y cuándo seguís practicando. No es una playlist de videos. Es un método con orden."
-
-**[0:45–0:50] CIERRE**
-> "Si querés ver si encajás en la próxima camada, escribime CLASE y charlamos 15 minutos, sin costo."
-
-**Guía de tono:**
-- Este es el video donde SÍ mostrás material físico o de pantalla (el cuadernillo, un diagrama).
-  Es la aplicación directa del punto de marketing que hablamos: "usar el cuadernillo como prueba
-  de método". No hace falta mostrarlo entero — 2-3 segundos de una página con TAB y partitura real
-  alcanza para que el visitante entienda que esto no es contenido genérico.
-- No hables de precio acá. El precio se dice en la llamada, no en el reel — este video solo
-  tiene que lograr que alguien quiera agendar esos 15 minutos.
-- Keyword nueva y distinta de las demás: **CLASE** (no PENTA, no SOLO, no SABOR) — porque el que
-  comenta acá ya está más cerca de comprar que el que comenta en un reel de creencia. Quiero poder
-  medir esa diferencia de intención en tus DMs.
-
-**Copy del post:**
-> 🎸 ¿Cómo es por dentro un curso de guitarra en grupo?
+> **Decisión de Feli (correcta):** este contenido — el desglose completo del delivery, los 3 hitos,
+> las 4 sesiones semanales — es exactamente lo que Nico enseña a trabajar EN LA LLAMADA de
+> descubrimiento, mano a mano con el potencial cliente, no en un reel público. Publicarlo le regala
+> al visitante la información que debería generar la conversación privada: le saca a la llamada su
+> único motivo de existir.
 >
-> 3 meses. 3 etapas: el mapa, el sabor, el vocabulario. 4 encuentros en vivo por semana, grupo de
-> 4 a 6 personas, devolución personal cada sábado.
+> **Qué hacer en cambio:** grabate igual, sin subir — es un ejercicio excelente para practicar cómo
+> se lo explicás en voz a alguien real antes de la primera llamada de verdad. El guion de las
+> secciones 20 (estructura de las 4 sesiones) y 19 (la oferta) ya tienen todo el contenido que
+> necesitás decir ahí; no hace falta un guion aparte.
 >
-> Y no es solo "clases": tenés material propio, con partitura y tablatura, hecho específicamente
-> para este método — no reciclado de otro lado.
->
-> Si querés ver si es para vos, escribime **CLASE** y charlamos 15 minutos, sin costo ni compromiso 📩
+> **Reemplazo en el stock público:** en su lugar van los 2 guiones VENDEDORES que ya estaban
+> escritos (secciones 21 y 23) — "Como que desaparece" y "Dejá de mirar tutoriales". Son contenido
+> de conversión pura y cumplen mejor la función que se buscaba (mover al 3% listo para comprar hacia
+> el DM), sin regalar en público lo que la llamada necesita vender. Ver el PDF de guiones
+> (`Guiones-Historia-Fijado-Vendedores.pdf`) para la versión con línea de tiempo de ambos.
 
-**Hashtags:** `#guitarra #guitarraelectrica #clasesdeguitarra #aprenderguitarra #metododeguitarra #rock #bluesrock`
+**Orden de filmación actualizado para los 3 videos de esta ronda:** HISTORIA primero (más ensayo,
+más carga emocional) → FIJADO segundo (el más simple: solo tocar bien, sin hablar) → uno de los dos
+VENDEDORES al final ("Dejá de mirar tutoriales" si preferís tener guitarra sonando y un backing de
+fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en la mirada).
 
-**Nota de edición:** este es el único video del stock donde vale la pena un plano de "pantalla"
-(mostrando el PDF o la tablatura) en vez de solo cámara — usalo, es tu diferencial visual más fuerte
-y hasta ahora no aparece en ningún reel filmado.
-
-**Orden de filmación sugerido para los 3:** HISTORIA primero (es el más largo de escribir/ensayar
-y el que necesita más tranquilidad emocional) → FIJADO segundo (es el más simple: solo tocar bien,
-sin hablar) → CLASE al final (necesita tener a mano el cuadernillo impreso o en pantalla, y se
-beneficia de grabarse el mismo día que el de HISTORIA, con el mismo ánimo "genuino" ya activado).
+> ⚠️ Recordá la regla de secuencia de la sección 9: los vendedores se publican recién cuando ya
+> haya autoridad construida (después de varios Formato C) — no los subas como primer contenido,
+> aunque los filmes ahora.
 
 ---
 
