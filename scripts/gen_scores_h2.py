@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera las partituras del Cuadernillo Hito 2 — EL SABOR (ejercicios 17 a 32).
+"""Genera las partituras del Cuadernillo Hito 2 — EL SABOR (ejercicios 17 a 34).
 
 Salida: ./partituras/eNN.cropped.png
 Reutiliza la plantilla y el renderizador de `gen_scores.py`.
@@ -91,37 +91,49 @@ EJ["e24"] = r"""
   a1\4^\markup{\bold "vibrato ancho · dejala morir"} |
 """
 
-# ===================================================== SEMANA 7 — VIBRATO
-# 25: vibrato medido con metrónomo (3 velocidades sobre la misma nota)
+# 25: bend a la tonica de la caja 2 (Albert King / SRV) - primer contacto con caja 2
 EJ["e25"] = r"""
+  r8 d''8\1 c''\1 a'\2 g'4\2^\markup{\bold "bend 1 tono · caés en la tónica de caja 2"} ~ g'4 |
+  g'2\2^\markup{\bold "vibrato ancho, sin soltar el bending"} e'8\3 d'\3 a4\4 |
+"""
+
+# 26: el blue note, de paso (todavia en caja 2)
+EJ["e26"] = r"""
+  r8 a'8\2 g'\2 e'\3 d'8\3 ees'\3^\markup{\bold "blue note · solo de paso"} e'\3 g'\2 |
+  e'8\3 d'\3 c'\4 g\5 a2\4^\markup{\bold "vibrato"} |
+"""
+
+# ===================================================== SEMANA 7 — VIBRATO
+# 27: vibrato medido con metrónomo (3 velocidades sobre la misma nota)
+EJ["e27"] = r"""
   a1\4^\markup{\bold "vibrato lento: 2 ondas por tiempo"} |
   a1\4^\markup{\bold "medio: 3 ondas por tiempo"} |
   a1\4^\markup{\bold "rápido: 4 ondas por tiempo"} |
 """
 
-# 26: la misma frase resuelta con vibrato en tres registros
-EJ["e26"] = r"""
+# 28: la misma frase resuelta con vibrato en tres registros
+EJ["e28"] = r"""
   c8\6 d\5 e\5 g\4 a2\4^\markup{\bold "vibrato · registro grave"} |
   c'8\3 d'\3 e'\2 g'\2 a'2\1^\markup{\bold "vibrato · medio"} |
   c''8\1 d''\1 e''\1 g''\1 a''2\1^\markup{\bold "vibrato · agudo, más ancho"} |
 """
 
-# 27: bending + vibrato (la combinación que suena "pro")
-EJ["e27"] = r"""
+# 29: bending + vibrato (la combinación que suena "pro")
+EJ["e29"] = r"""
   d'2\3^\markup{\bold "bend 1 tono"} d'2\3^\markup{\bold "y ahí le metés vibrato"} |
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato"} |
 """
 
-# 28: frase entera donde el vibrato es el remate
-EJ["e28"] = r"""
+# 30: frase entera donde el vibrato es el remate
+EJ["e30"] = r"""
   r4 g'8\2 a'\1 c''4\1 ~ c''4 |
   a'8\1 g'\2 e'\2( d'\3) c'4\3 a4\4 |
   a1\4^\markup{\bold "vibrato · es la última nota, que se note"} |
 """
 
 # ===================================================== SEMANA 8 — ESPACIO Y DINÁMICA
-# 29: la regla de las 3 notas — tocás poco, te callás mucho
-EJ["e29"] = r"""
+# 31: la regla de las 3 notas — tocás poco, te callás mucho
+EJ["e31"] = r"""
   r4 a'8\1 g'\2 e'2\2^\markup{\bold "3 notas"} |
   r1^\markup{\bold "y ahora te callás"} |
   r4 c''8\1 a'\1 g'2\2 |
@@ -130,23 +142,23 @@ EJ["e29"] = r"""
   r1 |
 """
 
-# 30: pregunta y respuesta (mismo ritmo, distinto final)
-EJ["e30"] = r"""
+# 32: pregunta y respuesta (mismo ritmo, distinto final)
+EJ["e32"] = r"""
   r4 e'8\2 g'\2 a'4\1 g'4\2^\markup{\bold "pregunta: queda abierta"} |
   r1 |
   r4 e'8\2 d'\3 c'4\3 a4\4^\markup{\bold "respuesta: cierra en la tónica"} |
   r1 |
 """
 
-# 31: la misma frase en tres volúmenes
-EJ["e31"] = r"""
+# 33: la misma frase en tres volúmenes
+EJ["e33"] = r"""
   r4 e'8\2\p g'\2 a'4\1 g'4\2 |
   r4 e'8\2\mf g'\2 a'4\1 g'4\2 |
   r4 e'8\2\f g'\2 a'4\1 g'4\2^\markup{\bold "vibrato"} |
 """
 
-# 32: SOLO DE EVALUACIÓN del Hito 2 — los 5 recursos + espacio + dinámica
-EJ["e32"] = r"""
+# 34: SOLO DE EVALUACIÓN del Hito 2 — los 5 recursos + espacio + dinámica
+EJ["e34"] = r"""
   r2 r8 e'8\2\p g'\2 a'\1 |
   c''1\1^\markup{\bold "vibrato"} |
   a'8\1( c''\1) a'\1 g'\2( e'\2) g'\2 a'4\1\mf |

@@ -1,17 +1,17 @@
 # Scripts de los cuadernillos de ejercicios
 
-Generan los PDFs con partitura + tablatura de los 3 hitos + el bonus de licks (59 ejercicios).
+Generan los PDFs con partitura + tablatura de los 3 hitos (51 ejercicios) + el bonus post-programa (8 licks más).
 
 | Archivo | Qué hace |
 |---|---|
 | `gen_scores.py` | Partituras del **Hito 1** (ejercicios 1 a 16) |
-| `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 32) |
-| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 33 a 49) |
-| `gen_scores_h3b.py` | Partituras del **Hito 3 · Parte 2** — licks fuera de la caja 1 (50 a 59) |
+| `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
+| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 51) |
+| `gen_scores_h3b.py` | Partituras del **bonus post-programa** — licks fuera de la caja 1 (52 a 59) |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |
-| `build_hito3b.py` | Arma `Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf` |
+| `build_hito3b.py` | Arma `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` |
 | `cuadernillo_comun.py` | Estética, diagramas de mástil, tablatura en blanco y tablas que comparten los tres |
 
 - ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.
@@ -27,11 +27,11 @@ pip install reportlab                # una sola vez
 python3 gen_scores.py                # partituras del hito 1  -> ./partituras/
 python3 gen_scores_h2.py             # partituras del hito 2
 python3 gen_scores_h3.py             # partituras del hito 3
-python3 gen_scores_h3b.py            # partituras del hito 3 parte 2
+python3 gen_scores_h3b.py            # partituras del bonus post-programa
 python3 build_hito1.py               # PDF del hito 1  (queda en la carpeta de arriba)
 python3 build_hito2.py               # PDF del hito 2
 python3 build_hito3.py               # PDF del hito 3
-python3 build_hito3b.py              # PDF del hito 3 parte 2
+python3 build_hito3b.py              # PDF del bonus post-programa
 ```
 
 Si tocaste una partitura, corré el `gen_scores*.py` **antes** del `build_hito*.py`.

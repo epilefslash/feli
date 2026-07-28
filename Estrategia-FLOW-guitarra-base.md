@@ -876,10 +876,10 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 |---|---|---|
 | `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` | Mes 1 | **11 páginas. EL PRINCIPAL.** 16 ejercicios con TAB + partitura real, diagramas de las 5 cajas, mapa del mástil completo, rutina diaria de 20 min, checklist de cierre y planilla de práctica. Todo en La menor. |
 | `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **10 páginas.** 16 ejercicios (17 a 32) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. Incluye diagrama de los bendings de la caja 1 (origen → destino) y el antes/después grabado. |
+| `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **11 páginas.** 18 ejercicios (17 a 34) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. La semana 6 **cierra mudándose a la caja 2** con los 2 primeros licks del programa (bend a la tónica + blue note). Incluye diagrama de bendings y el antes/después grabado. |
 | `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (33 a 49): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
-| `Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf` | Mes 3 (bonus) | **9 páginas.** 10 licks (50 a 59), **ninguno en la caja 1**: 2 por cada caja (2, 3, 4, 5) + 2 que recorren el mástil entero. Suma las dos notas de adorno (blue note b5 y 6ª mayor del "BB box"). Cierra con la tabla que cruza las cajas con las 4 frases del solo. |
+| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (35 a 51): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
+| `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 8 licks (52 a 59), **ninguno en las cajas 1 ni 2**: 2 en la caja 3, 2 en la 4, 2 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
@@ -890,8 +890,8 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
 > **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). **Los 3 hitos están
-> completos: 59 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 32, Hito 3 = 33 a 49,
-> y el bonus del Hito 3 (licks fuera de la caja 1) = 50 a 59.
+> completos: 51 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 34, Hito 3 = 35 a 51.
+> Más un **bonus post-programa** de 8 licks (52 a 59) que NO forma parte de las 12 semanas.
 > El alumno ve un solo camino de 12 semanas, no tres PDFs sueltos.
 >
 > - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
@@ -915,26 +915,33 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > lo puede USAR: el ejercicio siguiente son los tres remates, y ahí el concepto deja de ser teoría.
 > El Hito 1 (ej. 2) tiene una nota al pie que anticipa el tema, para que los dos se conecten.
 >
-> **PARTE 2 del Hito 3 — "10 licks fuera de la caja 1" (ej. 50 a 59).** Resuelve el problema estructural de
-> todo el programa: por diseño, los 49 ejercicios anteriores viven en las cajas 1 y 2, así que el alumno
-> termina sabiendo cinco cajas y tocando en una. Acá hay 2 licks por caja (2, 3, 4 y 5) más 2 que recorren
-> el mástil entero, cada uno con el mecanismo de un guitarrista y qué tema escuchar. Aparecen las dos únicas
-> notas de fuera de la escala del programa: el **blue note (b5)** como nota de paso y la **6ª mayor** del
-> "BB box". Cierra con la tabla que cruza cajas con la arquitectura de 4 frases (grave = presenta,
-> caja 4 = clímax, bajada = cierra) y el test honesto: improvisar un minuto **sin usar la caja 1**.
-> Mismo criterio de originalidad que la parte 1 — licks propios con el mecanismo ajeno, no transcripciones.
+> **REBALANCEO (decisión tomada).** El Hito 3 había quedado con 27 ejercicios contra 16 de los otros dos,
+> y el Hito 2 vivía entero en la caja 1 — o sea que el alumno pasaba **8 semanas sin pisar las cajas 3, 4 y 5**
+> que había aprendido en el mes 1. Se resolvió así:
 >
-> Cada ejercicio trae consigna, BPM de arranque y meta, y criterio de "ya está". Cada hito cierra con
-> checklist honesto y planilla de práctica.
+> 1. Los 2 licks de **caja 2** (bend que aterriza en la tónica + blue note de paso) se movieron al
+>    **Hito 2, semana 6**, como cierre del módulo de bending. Encajan ahí por dos razones: la caja 2 es
+>    literalmente *la caja del bending* (la tónica de la 2ª cuerda tiene la 7ª menor un tono abajo), y el
+>    alumno ya sabe bendear cuando llega. Son además **los 2 primeros licks del programa**.
+> 2. El **blue note** entra ahí también: es la primera nota fuera de la escala y aparece cuando el alumno
+>    ya tiene control de mano, no antes.
+> 3. Los 8 licks restantes (cajas 3, 4, 5 y mástil completo) salen del calendario de 12 semanas y pasan a
+>    ser **bonus post-programa**, a un lick por semana. Deja de ser carga escondida del mes 3 y pasa a ser
+>    un motivo de continuidad después del cierre.
 >
-> ⚠️ **Los licks del Hito 3 son ORIGINALES, escritos *en el estilo de* cada escuela — no son transcripciones
-> de solos ajenos.** Está aclarado dentro del cuadernillo y no es un detalle legal: es el argumento pedagógico
-> del hito (lo que se roba es el mecanismo, no las notas). Si alguna vez sumás transcripciones reales,
-> revisá derechos antes de distribuirlas.
+> Resultado: **16 · 18 · 17 ejercicios** por hito, y la caja 2 se pisa en el mes 2 en vez del mes 3.
+
+> ⚠️ **HUECOS CONOCIDOS — MÓDULO 2 (futuro, no parchear ahora).** El programa entrena melodía, expresión y
+> arquitectura, pero deja dos cosas afuera a propósito, y el alumno las va a chocar cuando toque con gente:
+> - **RITMO.** Casi no aparece (solo el "a contratiempo" del ej. 44). Falta subdivisión, shuffle vs recto,
+>   y dónde cae la nota respecto del pulso. Para blues-rock es central: buena parte de lo que hace que un
+>   lick suene a Page es *cuándo* entra, no qué notas tiene.
+> - **CAMBIOS DE ACORDE.** Los 3 hitos improvisan sobre un vamp estático en La menor. El alumno nunca ve
+>   qué pasa cuando el acorde se mueve (un blues de 12 compases, por ejemplo).
 >
-> **Fuentes editables** (`scripts/`): `gen_scores.py` y `gen_scores_h2.py` generan las partituras;
-> `build_hito1.py` y `build_hito2.py` arman los PDFs; `cuadernillo_comun.py` tiene la estética y los
-> diagramas de mástil compartidos. El README explica cómo escribir una nota en LilyPond.
+> Ninguno de los dos se tapa con un parche dentro de las 12 semanas: son el contenido natural de un
+> **Módulo 2** (o de la segunda cohorte). Saberlo sirve para dos cosas: no prometer de más en el copy, y
+> tener ya pensado qué venderle al alumno que termina.
 
 ### Prácticas de enseñanza online que suma el material nuevo de Nico (testimonios Rafa/Federico/Muratore)
 - **Backing tracks siempre a mano** (Jamzone o similares): el alumno aplica en contexto musical real, no en el vacío. Armate una carpeta con 1 backing por semana ANTES de arrancar (12 backings = 1 tarde de trabajo).

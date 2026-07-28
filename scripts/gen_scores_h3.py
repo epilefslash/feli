@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 33 a 49).
+"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 35 a 51).
 
 Salida: ./partituras/eNN.cropped.png
 Reutiliza la plantilla y el renderizador de `gen_scores.py`.
@@ -30,8 +30,8 @@ EJ = {}
 # Lo que define a la escuela: motivos cortos que se repiten, dobles cuerdas,
 # ataque rítmico. La frase vale por la INSISTENCIA, no por la melodía.
 
-# 33: el motivo que se repite (celda de 3 notas, machacada)
-EJ["e33"] = r"""
+# 35: el motivo que se repite (celda de 3 notas, machacada)
+EJ["e35"] = r"""
   \tuplet 3/2 { c''8\1^\markup{\bold "una celda de 3 notas"}( a'\1) g'\2 }
   \tuplet 3/2 { c''8\1( a'\1) g'\2 }
   \tuplet 3/2 { c''8\1( a'\1) g'\2 }
@@ -41,22 +41,22 @@ EJ["e33"] = r"""
   e'4\2 a4\4^\markup{\bold "y recién ahí resolvés"} |
 """
 
-# 34: dobles cuerdas (la marca de Angus / Chuck Berry)
-EJ["e34"] = r"""
+# 36: dobles cuerdas (la marca de Angus / Chuck Berry)
+EJ["e36"] = r"""
   <e'\2 a'\1>8^\markup{\bold "dos cuerdas juntas"} <e'\2 a'\1>8 <g'\2 c''\1>4 <e'\2 a'\1>4 <g'\2 c''\1>4 |
   <g'\2 c''\1>8 <e'\2 a'\1>8 d'4\3 c'8\3 a\4 g4\4 |
   a1\4^\markup{\bold "vibrato"} |
 """
 
-# 35: el unísono (bendeás una cuerda hasta igualar la de al lado)
-EJ["e35"] = r"""
+# 37: el unísono (bendeás una cuerda hasta igualar la de al lado)
+EJ["e37"] = r"""
   <d'\3 e'\2>2^\markup{\bold "bendeá la 3ª hasta que suene IGUAL que la 2ª"} <d'\3 e'\2>2 |
   <d'\3 e'\2>4 r4 c'8\3 a\4 g\4 e\5 |
   a1\4^\markup{\bold "vibrato"} |
 """
 
-# 36: los tres recursos británicos encadenados
-EJ["e36"] = r"""
+# 38: los tres recursos británicos encadenados
+EJ["e38"] = r"""
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } \tuplet 3/2 { c''8\1( a'\1) g'\2 }
   <e'\2 a'\1>4 <g'\2 c''\1>4 |
   <d'\3 e'\2>2^\markup{\bold "unísono"} d'8\3 c'\3 a4\4 |
@@ -67,28 +67,28 @@ EJ["e36"] = r"""
 # Lo que la define: frases que respiran como una voz, legato, bendings largos,
 # espacio. La frase vale por la MELODÍA, no por la insistencia.
 
-# 37: la frase vocal (escuela Gary Moore) — espera, estira, resuelve
-EJ["e37"] = r"""
+# 39: la frase vocal (escuela Gary Moore) — espera, estira, resuelve
+EJ["e39"] = r"""
   r4 a'8\1 c''8\1 ~ c''2 |
   d'4\3^\markup{\bold "bend 1 tono + vibrato"} ~ d'2. |
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato largo"} |
 """
 
-# 38: la línea fluida (escuela Slash) — casi todo ligado, casi nada punteado
-EJ["e38"] = r"""
+# 40: la línea fluida (escuela Slash) — casi todo ligado, casi nada punteado
+EJ["e40"] = r"""
   r8 d''8\1 \glissando c''8\1^\markup{\bold "slide"}( a'\1) g'\2( e'\2) d'\3( c'\3) |
   a8\4( g\4) e\5( d\5) c8\6 a,4.\6^\markup{\bold "vibrato"} |
 """
 
-# 39: dobles cuerdas con ligado (el remate estilo Hendrix)
-EJ["e39"] = r"""
+# 41: dobles cuerdas con ligado (el remate estilo Hendrix)
+EJ["e41"] = r"""
   <c'\3 e'\2>8^\markup{\bold "el hammer va en la cuerda de abajo"}( <d'\3 e'\2>8) <c'\3 e'\2>4
   <c'\3 e'\2>8( <d'\3 e'\2>8) <c'\3 e'\2>4 |
   g'8\2 e'\2 d'\3 c'\3 a2\4^\markup{\bold "vibrato"} |
 """
 
-# 40: los tres recursos americanos encadenados
-EJ["e40"] = r"""
+# 42: los tres recursos americanos encadenados
+EJ["e42"] = r"""
   r8 d''8\1 \glissando c''8\1( a'\1) g'\2( e'\2) d'\3( c'\3) |
   <c'\3 e'\2>8( <d'\3 e'\2>8) <c'\3 e'\2>4 a4\4 r4 |
   d'2\3^\markup{\bold "bend 1 tono"} d'2\3^\markup{\bold "vibrato"} |
@@ -99,8 +99,8 @@ EJ["e40"] = r"""
 # Las 3 variaciones que convierten un lick robado en un lick propio,
 # precedidas por el color de cada grado: es lo que explica POR QUE un remate funciona.
 
-# 41: el color de cada grado — la misma escala, seis sensaciones distintas
-EJ["e41"] = r"""
+# 43: el color de cada grado — la misma escala, seis sensaciones distintas
+EJ["e43"] = r"""
   a1\4^\markup{\bold "1ª · la tónica"} |
   c'1\3^\markup{\bold "3ª menor"} |
   d'1\3^\markup{\bold "4ª"} |
@@ -111,29 +111,29 @@ EJ["e41"] = r"""
 
 # Las 3 variaciones que convierten un lick robado en un lick propio.
 
-# 42: mismas notas, tres ritmos distintos
-EJ["e42"] = r"""
+# 44: mismas notas, tres ritmos distintos
+EJ["e44"] = r"""
   a'8\1^\markup{\bold "1 · todo parejo"} g'\2 e'\2 d'\3 c'\3 a\4 r4 |
   a'4\1^\markup{\bold "2 · arranca lento y acelera"} g'8\2 e'\2 d'16\3 c'\3 a8\4 ~ a4\4 |
   r8 a'8\1^\markup{\bold "3 · a contratiempo"} g'\2 e'\2 ~ e'8 d'\3 c'\3 a\4 |
 """
 
-# 43: mismo arranque, tres remates distintos
-EJ["e43"] = r"""
+# 45: mismo arranque, tres remates distintos
+EJ["e45"] = r"""
   r4 a'8\1 g'\2 e'4\2 d'4\3^\markup{\bold "remate 1 · queda colgado (pregunta)"} |
   r4 a'8\1 g'\2 e'4\2 a4\4^\markup{\bold "remate 2 · cae en la tónica (respuesta)"} |
   r4 a'8\1 g'\2 e'4\2 c''4\1^\markup{\bold "remate 3 · sube y queda vibrando"} |
 """
 
-# 44: el mismo lick, mudado de caja
-EJ["e44"] = r"""
+# 46: el mismo lick, mudado de caja
+EJ["e46"] = r"""
   r8 a'8\1^\markup{\bold "en la caja 1"} g'\2 e'\2 d'\3 c'\3 a4\4 |
   r8 d''8\1^\markup{\bold "el mismo, en la caja 2"} c''\1 a'\2 g'\2 e'\3 d'4\3 |
   r8 e''8\1^\markup{\bold "y en la caja 3"} d''\1 c''\2 a'\2 g'\3 e'4\3 |
 """
 
-# 45: la arquitectura de un solo — las 4 frases
-EJ["e45"] = r"""
+# 47: la arquitectura de un solo — las 4 frases
+EJ["e47"] = r"""
   r4 a8\4^\markup{\bold "1 · PRESENTA — grave y simple"} c'\3 d'4\3 c'4\3 |
   a1\4^\markup{\bold "vibrato"} |
   r4 e'8\2^\markup{\bold "2 · DESARROLLA — la misma idea, más arriba"} g'\2 a'4\1 g'4\2 |
@@ -145,8 +145,8 @@ EJ["e45"] = r"""
 """
 
 # ============================================ SEMANA 12 — TU SOLO
-# 46: el esqueleto para completar — están las llegadas, faltan tus frases
-EJ["e46"] = r"""
+# 48: el esqueleto para completar — están las llegadas, faltan tus frases
+EJ["e48"] = r"""
   r1^\markup{\bold "TU frase 1 — grave, 3 o 4 notas, tranquila"} |
   a1\4^\markup{\bold "caé acá (tónica) + vibrato"} |
   r1^\markup{\bold "TU frase 2 — la misma idea, una caja más arriba"} |
@@ -157,22 +157,22 @@ EJ["e46"] = r"""
   a,1\6^\markup{\bold "cerrás en la tónica"} |
 """
 
-# 47: tres finales posibles (elegí uno para tu solo)
-EJ["e47"] = r"""
+# 49: tres finales posibles (elegí uno para tu solo)
+EJ["e49"] = r"""
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave — el más seguro"} |
   d'4\3^\markup{\bold "2 · un bending largo que se va apagando"} ~ d'2. |
   <e'\2 a'\1>2^\markup{\bold "3 · doble cuerda que queda sonando"} <e'\2 a'\1>2 |
 """
 
-# 48: el motivo que vuelve (el truco que hace que un solo suene "armado")
-EJ["e48"] = r"""
+# 50: el motivo que vuelve (el truco que hace que un solo suene "armado")
+EJ["e50"] = r"""
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "el motivo, al principio"} r2 |
   r1 |
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a4\4 r4 |
 """
 
-# 49: EL SOLO FINAL — 12 compases, el trofeo del programa
-EJ["e49"] = r"""
+# 51: EL SOLO FINAL — 12 compases, el trofeo del programa
+EJ["e51"] = r"""
   r4 a8\4\p^\markup{\bold "PRESENTA"} c'\3 d'4\3 c'4\3 |
   a2\4^\markup{\bold "vibrato"} r2 |
   r4 e'8\2^\markup{\bold "DESARROLLA"} g'\2 a'4\1 g'4\2 |

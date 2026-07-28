@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Arma el PDF del Cuadernillo HITO 2 — EL SABOR.
 
-Requiere que antes se haya corrido `gen_scores_h2.py` (genera ./partituras/e17..e32).
+Requiere que antes se haya corrido `gen_scores_h2.py` (genera ./partituras/e17..e34).
 """
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, PageBreak
@@ -29,7 +29,7 @@ S.append(Paragraph(
     "siempre, pero atacadas de forma que suenen a música. Esto es lo único que separa tu pentatónica de la de "
     "Gary Moore — no son notas distintas, es <b>tratamiento distinto</b>.", BODY))
 S.append(Paragraph(
-    "<b>Entregable del hito:</b> el solo del Ejercicio 32 grabado, y un antes/después: el mismo minuto de "
+    "<b>Entregable del hito:</b> el solo del Ejercicio 34 grabado, y un antes/después: el mismo minuto de "
     "improvisación grabado el día 1 y el día 30.", BODY))
 
 S.append(Paragraph("LOS 5 RECURSOS, EN ESTE ORDEN Y POR ESTA RAZÓN", H2))
@@ -41,7 +41,7 @@ S.append(tabla([
      Paragraph("Es lo más mecánico y lo menos dependiente del oído: se aprende rápido y ya te cambia el sonido.", CELL)],
     [Paragraph("6", CELLB), Paragraph("<b>Bending</b>", CELL),
      Paragraph("Cantar con la cuerda. Es el recurso más expresivo de la guitarra.", CELL),
-     Paragraph("Es el más difícil de afinar: necesita las 4 semanas y no puede ser lo último.", CELL)],
+     Paragraph("Es el más difícil de afinar: necesita las 4 semanas. Cierra mudándose a la caja 2.", CELL)],
     [Paragraph("7", CELLB), Paragraph("<b>Vibrato</b>", CELL),
      Paragraph("Que la nota larga no se muera. Es tu firma personal.", CELL),
      Paragraph("Va después del bending porque lo mejor de todo es bendear Y vibrar la misma nota.", CELL)],
@@ -158,6 +158,38 @@ S.append(ejercicio(24, "Lick de bending (escuela Gary Moore)", (
     "no bendeás nada."),
     "e24", W, "Con backing lento. Grabate y escuchá si el bending llega a la nota o se queda a mitad de camino."))
 
+S.append(Paragraph("Y AHORA SÍ: SALÍS DE LA CAJA 1", H2))
+S.append(Paragraph(
+    "Hasta este ejercicio todo el Hito 2 vivió en la caja 1, a propósito: no tenía sentido pelearte con "
+    "la ubicación mientras aprendías a bendear. Pero ya sabés bendear, así que <b>es el momento de mudarte</b> — "
+    "y no es casualidad que sea a la caja 2: es <b>la caja del bending</b>. Ahí la tónica de la 2ª cuerda "
+    "(traste 10) tiene la 7ª menor justo un tono abajo, o sea exactamente a distancia de estirón.", BODY))
+S.append(Spacer(1, 2))
+S.append(par([Diagrama(2, W * 0.5),
+              Paragraph("Ya la conocés del Hito 1 y comparte los trastes 7 y 8 con la caja 1, así que no estás "
+                        "aprendiendo un dibujo nuevo: estás corriendo la mano tres trastes.<br/><br/>"
+                        "Los dos ejercicios que siguen son los primeros <b>licks</b> del programa — frases "
+                        "de verdad, con el mecanismo de un guitarrista concreto detrás.", BODY)],
+             [W * 0.5, W * 0.5]))
+S.append(Spacer(1, 4))
+
+S.append(ejercicio(25, "El bend que aterriza en la tónica (Albert King / SRV)", (
+    "Un bending no es un adorno: es una <b>llegada</b>. Estirás la 2ª cuerda traste 8 un tono entero y caés "
+    "justo en el LA — la tónica de la caja 2. Por eso suena a que llegaste a algún lado, y no a que estiraste "
+    "una cuerda porque quedaba bien. Albert King hizo una carrera con este movimiento y SRV lo heredó completo."),
+    "e25", W,
+    "Escuchá: Albert King, «Born Under a Bad Sign» · Stevie Ray Vaughan, «Texas Flood». "
+    "70 BPM con backing. Comprobá el bending contra el traste 10 antes de tocarlo."))
+
+S.append(ejercicio(26, "El blue note, de paso", (
+    "La primera nota del programa que <b>no pertenece a la pentatónica</b>: el MI bemol (3ª cuerda traste 8), "
+    "el famoso <i>blue note</i>. Le pone la mugre al blues, pero con una regla estricta — "
+    "<b>es una nota de paso, nunca de llegada</b>. Va metida entre el RE (traste 7) y el MI (traste 9), "
+    "cruzándola sin frenar. Si te quedás parado en ella suena desafinado, porque lo está."),
+    "e26", W,
+    "Escuchá: cualquier shuffle de Clapton o de Page — está en todos. "
+    "70 BPM. Tocá el compás 1 sin el MI bemol y después con él: esa diferencia es el sabor."))
+
 # ============================================================ SEMANA 7
 S.append(PageBreak())
 S.append(banner(7, "VIBRATO — tu firma",
@@ -180,28 +212,28 @@ S.append(tabla([
                "es lo que suena caro.", CELL)],
 ], [4.4 * cm, W - 4.4 * cm]))
 
-S.append(ejercicio(25, "Vibrato medido (con metrónomo)", (
+S.append(ejercicio(27, "Vibrato medido (con metrónomo)", (
     "La misma nota tres veces, con el vibrato contado: 2, 3 y 4 ondas por tiempo. Suena a ejercicio militar y "
     "esa es la idea — <b>vibrato que podés contar es vibrato que controlás</b>. Después vas a elegir la velocidad "
     "según la frase, pero primero tenés que poder elegirla."),
-    "e25", W, "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar."))
+    "e27", W, "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar."))
 
-S.append(ejercicio(26, "El mismo vibrato en tres registros", (
+S.append(ejercicio(28, "El mismo vibrato en tres registros", (
     "Una frase corta que termina en una nota larga, resuelta en grave, medio y agudo. Vas a descubrir que "
     "<b>en los graves el vibrato tiene que ser angosto</b> (si no, suena desafinado) y <b>en los agudos ancho</b> "
     "(si no, ni se escucha). No es un solo vibrato: son tres."),
-    "e26", W, "Con backing. Escuchá la diferencia, no la mires."))
+    "e28", W, "Con backing. Escuchá la diferencia, no la mires."))
 
-S.append(ejercicio(27, "Bending + vibrato (la combinación pro)", (
+S.append(ejercicio(29, "Bending + vibrato (la combinación pro)", (
     "Acá está el sonido que buscabas desde que empezaste a tocar. Bendeás, <b>sostenés arriba</b>, y ahí le metés "
     "vibrato sin soltar el bending. Es difícil porque la mano ya está haciendo fuerza — el vibrato se hace "
     "<b>desde arriba</b>, con la muñeca, sin dejar caer la nota."),
-    "e27", W, "Lento. Si el bending se cae mientras vibrás, es que no tenías el bending firme. Volvé al ejercicio 21."))
+    "e29", W, "Lento. Si el bending se cae mientras vibrás, es que no tenías el bending firme. Volvé al ejercicio 21."))
 
-S.append(ejercicio(28, "El vibrato como remate", (
+S.append(ejercicio(30, "El vibrato como remate", (
     "Una frase entera donde la última nota se sostiene con vibrato. Regla de oro: <b>la nota final de una frase "
     "nunca se deja sola</b>. Si termina seca, la frase suena a que te olvidaste de algo."),
-    "e28", W, "Con backing. Grabate: si el vibrato de la última nota no se escucha, no existió."))
+    "e30", W, "Con backing. Grabate: si el vibrato de la última nota no se escucha, no existió."))
 
 # ============================================================ SEMANA 8
 S.append(PageBreak())
@@ -217,25 +249,25 @@ S.append(Paragraph(
     "no hay una sola que sobre. El silencio no es la ausencia de música — es lo que hace que la nota "
     "siguiente signifique algo.", BODY))
 
-S.append(ejercicio(29, "La regla de las 3 notas", (
+S.append(ejercicio(31, "La regla de las 3 notas", (
     "Tocás tres notas y <b>te callás un compás entero</b>. Vas a sentir una incomodidad física, unas ganas "
     "enormes de llenar el silencio: esa incomodidad es exactamente lo que estás entrenando a tolerar. "
     "El silencio escrito acá no es una pausa entre ejercicios — es parte de la música."),
-    "e29", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
+    "e31", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
 
-S.append(ejercicio(30, "Pregunta y respuesta", (
+S.append(ejercicio(32, "Pregunta y respuesta", (
     "Dos frases con el <b>mismo ritmo</b> y distinto final: la primera termina en una nota que queda colgada "
     "(pregunta), la segunda en la tónica (respuesta). Así habla la gente, y así hablan los buenos solos. "
     "Es la estructura más vieja y más efectiva que existe."),
-    "e30", W, "Con backing. Cuando salga, improvisá pregunta/respuesta con frases tuyas."))
+    "e32", W, "Con backing. Cuando salga, improvisá pregunta/respuesta con frases tuyas."))
 
-S.append(ejercicio(31, "La misma frase en tres volúmenes", (
+S.append(ejercicio(33, "La misma frase en tres volúmenes", (
     "Idéntica frase, tocada suave, normal y fuerte. La dinámica no se hace con la perilla: se hace con "
     "<b>cuánta púa le das a la cuerda</b>. Susurrar, hablar, gritar. Si tocás todo al mismo volumen, tu solo "
     "es un tipo que habla monótono durante un minuto."),
-    "e31", W, "Sin tocar el ampli ni el pedal. Todo con la mano derecha."))
+    "e33", W, "Sin tocar el ampli ni el pedal. Todo con la mano derecha."))
 
-S.append(Paragraph("EJERCICIO 32 — EL SOLO DE EVALUACIÓN (tu entregable)", H2))
+S.append(Paragraph("EJERCICIO 34 — EL SOLO DE EVALUACIÓN (tu entregable)", H2))
 S.append(Paragraph(
     "Diez compases que usan <b>todo el mes</b>: entra suave y con espacio, vibra una nota larga, mete ligados, "
     "bendea y vibra arriba del bending, se calla un compás entero, sube con un slide, llega al clímax en forte, "
@@ -244,7 +276,7 @@ S.append(Paragraph(
     "Fijate que <b>casi no hay notas rápidas</b>. Ese es el punto del hito: lo que emociona no es la cantidad "
     "de notas, es lo que le hacés a cada una.", BODY))
 S.append(Spacer(1, 2))
-S.append(score("e32", W))
+S.append(score("e34", W))
 S.append(Spacer(1, 4))
 S.append(Paragraph(
     "El compás 5 es un silencio completo, en el medio del solo. Es la nota más valiente de la partitura.", SMALL))
@@ -273,7 +305,7 @@ S.append(tabla([
      Paragraph("En un minuto de improvisación hay al menos 4 silencios de más de 2 tiempos.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Mi solo tiene volumen variable", CELL),
      Paragraph("En la grabación se escucha claramente una parte suave y una fuerte.", CELL)],
-    [Paragraph(CAJ, CELL), Paragraph("<b>Grabé el ejercicio 32 y el antes/después</b>", CELL),
+    [Paragraph(CAJ, CELL), Paragraph("<b>Grabé el ejercicio 34 y el antes/después</b>", CELL),
      Paragraph("Los dos videos existen. Son el entregable del hito.", CELL)],
 ], [0.9 * cm, 6.3 * cm, W - 7.2 * cm]))
 

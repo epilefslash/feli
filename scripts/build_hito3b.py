@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Arma el PDF del Cuadernillo HITO 3 · PARTE 2 — 10 licks fuera de la caja 1.
+"""Arma el PDF del cuadernillo POST-PROGRAMA — 8 licks fuera de las cajas 1 y 2.
 
-Requiere que antes se haya corrido `gen_scores_h3b.py` (genera ./partituras/e50..e59).
+Requiere que antes se haya corrido `gen_scores_h3b.py` (genera ./partituras/e52..e59).
 """
 from reportlab.lib.units import cm
 from reportlab.lib import colors
@@ -12,11 +12,11 @@ from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG, RED,
                                Diagrama, MapaCompleto, documento, tabla, par,
                                caja_oscura, ejercicio, TablaturaEnBlanco)
 
-doc = documento("Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf",
-                "10 LICKS FUERA DE LA CAJA 1",
-                "Hito 3 · Parte 2 — vocabulario en las cajas 2, 3, 4, 5 y por todo el mástil",
-                "Solo con Sabor · Hito 3 · Parte 2 — Licks fuera de la caja 1",
-                "Hito 3 Parte 2 - Licks fuera de la caja 1")
+doc = documento("Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf",
+                "8 LICKS FUERA DE LA CAJA 1",
+                "Bonus post-programa — vocabulario en las cajas 3, 4, 5 y por todo el mástil",
+                "Solo con Sabor · Bonus — Licks fuera de la caja 1",
+                "Bonus - Licks fuera de la caja 1")
 W = doc.width
 S = []
 
@@ -37,39 +37,40 @@ def seccion(titulo, subtitulo):
 
 
 # ============================================================ INTRO
-S.append(Paragraph("POR QUÉ ESTE CUADERNILLO EXISTE", H2))
+S.append(Paragraph("PARA CUÁNDO ES ESTE CUADERNILLO", H2))
 S.append(Paragraph(
-    "Todo lo que tocaste hasta acá vive en la caja 1 y algo de la caja 2. Fue a propósito: mientras aprendías "
-    "el sabor y el vocabulario, no tenía sentido pelearte además con la ubicación. Pero eso deja un problema "
-    "conocido — <b>sabés cinco cajas y tocás en una</b>.", BODY))
+    "Este no es material del programa: es lo que sigue <b>después</b>. Terminaste los tres hitos, tenés el "
+    "mapa, la voz y el vocabulario, y grabaste tu solo. Si querés seguir creciendo sin empezar otro método "
+    "desde cero, el camino es éste — <b>llevar todo lo que ya sabés a las zonas del mástil que todavía no "
+    "pisaste</b>.", BODY))
 S.append(Paragraph(
-    "Acá hay diez licks y <b>ninguno usa la caja 1 como territorio</b>. Dos por cada zona del mástil, más dos "
-    "que la recorren entera. La idea no es que sumes diez frases: es que descubras que <b>cada caja tiene un "
-    "carácter propio</b>. Las mismas cinco notas suenan a riff en la zona grave y a grito en la aguda.", BODY))
+    "Durante el programa tocaste en las cajas 1 y 2. Acá hay ocho licks y <b>ninguno usa esas dos como "
+    "territorio</b>: dos en la caja 3, dos en la 4, dos en la 5 y dos que recorren el mástil entero. "
+    "La idea no es que sumes ocho frases — es que descubras que <b>cada caja tiene un carácter propio</b>. "
+    "Las mismas cinco notas suenan a riff en la zona grave y a grito en la aguda.", BODY))
+S.append(Paragraph(
+    "Ritmo recomendado: <b>un lick por semana</b>, sin apuro. Ocho semanas de material.", SMALL))
 
-S.append(Paragraph("SOBRE LAS NOTAS DE ADORNO", H2))
+S.append(Paragraph("LA NOTA NUEVA DE ESTE CUADERNILLO", H2))
 S.append(Paragraph(
-    "Hasta ahora todo fue pentatónica pura. Acá aparecen <b>dos notas que no pertenecen a la escala</b>, y "
-    "aparecen porque son exactamente lo que usan los guitarristas que te gustan:", BODY))
+    "En el Hito 2 ya sumaste tu primera nota de fuera de la escala: el <b>MI" + BEM + "</b> "
+    "(el <i>blue note</i>), usado siempre de paso. Acá se suma una sola más, y cambia el color de la frase "
+    "en la dirección contraria:", BODY))
 S.append(tabla([
     [Paragraph("<b>Nota</b>", CELLB), Paragraph("<b>Dónde</b>", CELLB), Paragraph("<b>Qué hace y cómo se usa</b>", CELLB)],
-    [Paragraph("<b>MI" + BEM + "</b><br/>(5ª bemol · <i>blue note</i>)", CELLB), Paragraph("3ª cuerda,<br/>traste 8", CELL),
-     Paragraph("Le pone la mugre al blues. <b>Nunca es destino: es de paso.</b> Va entre el RE (7) y el MI (9), "
-               "cruzándola rápido. Si te quedás parado en ella, suena a error — porque lo es.", CELL)],
     [Paragraph("<b>FA" + SOS + "</b><br/>(6ª mayor)", CELLB), Paragraph("3ª cuerda,<br/>traste 11", CELL),
      Paragraph("Reemplaza a la 7ª menor y le saca la tristeza a la frase: suena dulce y elegante en vez de "
                "oscura. Es la nota del <b>\"BB box\"</b> y es la razón por la que B.B. King no suena como el "
-               "resto de los bluseros.", CELL)],
+               "resto de los bluseros. La usás en el lick 53.", CELL)],
 ], [3.2 * cm, 2.3 * cm, W - 5.5 * cm]))
+S.append(Paragraph(
+    "Fijate el contraste: el blue note <b>ensucia</b> y va de paso; la 6ª mayor <b>endulza</b> y se puede "
+    "sostener. Son las dos direcciones en las que podés salirte de la pentatónica.", SMALL))
 
-S.append(Paragraph("LOS 10 LICKS DE UN VISTAZO", H2))
+S.append(Paragraph("LOS 8 LICKS DE UN VISTAZO", H2))
 S.append(tabla([
     [Paragraph("<b>#</b>", CELLB), Paragraph("<b>Caja</b>", CELLB), Paragraph("<b>Escuela</b>", CELLB),
      Paragraph("<b>Qué le robás</b>", CELLB)],
-    [Paragraph("50", CELLB), Paragraph("2", CELL), Paragraph("Albert King / SRV", CELL),
-     Paragraph("Que el bending sea una <b>llegada</b>: caer justo en la tónica.", CELL)],
-    [Paragraph("51", CELLB), Paragraph("2", CELL), Paragraph("Blues clásico", CELL),
-     Paragraph("El <i>blue note</i> como nota de paso, nunca de descanso.", CELL)],
     [Paragraph("52", CELLB), Paragraph("3", CELL), Paragraph("Clapton / Cream", CELL),
      Paragraph("El motivo repetido, pero en el registro agudo: urgencia.", CELL)],
     [Paragraph("53", CELLB), Paragraph("3", CELL), Paragraph("B.B. King", CELL),
@@ -89,43 +90,10 @@ S.append(tabla([
 ], [1.0 * cm, 1.3 * cm, 3.6 * cm, W - 5.9 * cm]))
 
 S.append(Paragraph(
-    "<b>Sobre las partituras:</b> igual que en la parte 1, estos licks son <b>originales</b>, escritos con el "
+    "<b>Sobre las partituras:</b> igual que en el Hito 3, estos licks son <b>originales</b>, escritos con el "
     "mecanismo característico de cada guitarrista y en la caja donde ese guitarrista realmente vive. No son "
     "transcripciones. En cada uno te digo qué escuchar para reconocer el recurso en su contexto original — "
     "porque el objetivo no es que toques como ellos, es que entiendas <b>por qué</b> lo que hacen funciona.", SMALL))
-
-# ============================================================ CAJA 2
-S.append(PageBreak())
-S.append(seccion("CAJA 2 · trastes 7 a 10 — la caja del bending",
-                 "Es la zona donde vive Albert King, y por algo: los bendings caen cómodos y el registro todavía "
-                 "no es chillón."))
-S.append(Spacer(1, 8))
-S.append(par([Diagrama(2, W * 0.5),
-              Paragraph("La caja 2 comparte los trastes 7 y 8 con la caja 1, así que ya la tenés medio "
-                        "aprendida. Lo que cambia es dónde caen las tónicas: <b>4ª cuerda traste 7</b> y "
-                        "<b>2ª cuerda traste 10</b>.<br/><br/>"
-                        "Esa tónica de la 2ª cuerda es la clave de esta zona: tenés la 7ª menor (SOL, traste 8) "
-                        "<b>a un tono por debajo</b>, o sea justo a distancia de bending.", BODY)],
-             [W * 0.5, W * 0.5]))
-S.append(Spacer(1, 4))
-
-S.append(ejercicio(50, "El bend que aterriza en la tónica", (
-    "Un bending no es un adorno: es una <b>llegada</b>. Estirás la 2ª cuerda traste 8 un tono entero y caés "
-    "justo en el LA — la tónica de la caja. Por eso suena a que llegaste a algún lado, y no a que estiraste "
-    "una cuerda porque quedaba bien. Albert King hizo una carrera entera con este movimiento, y SRV lo "
-    "heredó completo."),
-    "e50", W,
-    "Escuchá: Albert King, «Born Under a Bad Sign» · Stevie Ray Vaughan, «Texas Flood». "
-    "70 BPM con backing. Antes de tocarlo, comprobá el bending contra el traste 10."))
-
-S.append(ejercicio(51, "El blue note, de paso", (
-    "Acá entra el MI" + BEM + " (3ª cuerda traste 8), la nota que le pone mugre al blues. El truco está en <b>cómo</b> "
-    "se usa: va metida entre el RE (traste 7) y el MI (traste 9), cruzándola sin frenar. "
-    "<b>Es una nota de paso, no de llegada.</b> Si te quedás en ella suena desafinado; si la cruzás rápido, "
-    "suena a blues de verdad."),
-    "e51", W,
-    "Escuchá: cualquier shuffle de Clapton o de Page — está en todos. "
-    "70 BPM. Tocá el compás 1 sin el MI" + BEM + " y después con él: la diferencia es el sabor."))
 
 # ============================================================ CAJA 3
 S.append(PageBreak())
@@ -250,7 +218,7 @@ S.append(ejercicio(59, "La bajada diagonal", (
 S.append(PageBreak())
 S.append(Paragraph("CÓMO METER ESTOS LICKS EN UN SOLO", H1))
 S.append(Paragraph(
-    "Diez licks sueltos no son un solo: son diez licks sueltos. Lo que los convierte en música es "
+    "Ocho licks sueltos no son un solo: son ocho licks sueltos. Lo que los convierte en música es "
     "<b>usar cada caja para lo que sirve</b>. Acá está la síntesis de todo el programa — la arquitectura de "
     "cuatro frases que ya conocés, cruzada con el mástil:", BODY))
 S.append(Spacer(1, 2))
@@ -259,13 +227,13 @@ S.append(tabla([
      Paragraph("<b>Por qué</b>", CELLB), Paragraph("<b>Licks que te sirven</b>", CELLB)],
     [Paragraph("<b>1 · PRESENTA</b>", CELLB), Paragraph("Caja 5 o caja 1<br/>(grave)", CELL),
      Paragraph("Arrancar abajo te deja lugar para crecer. Si empezás arriba, no tenés a dónde ir.", CELL),
-     Paragraph("57, 56", CELL)],
+     Paragraph("56, 57", CELL)],
     [Paragraph("<b>2 · DESARROLLA</b>", CELLB), Paragraph("Caja 2 o caja 3<br/>(medio)", CELL),
      Paragraph("Subís un escalón: la misma idea, más arriba. El oyente reconoce y a la vez avanza.", CELL),
-     Paragraph("50, 51, 53", CELL)],
+     Paragraph("52, 53", CELL)],
     [Paragraph("<b>3 · CLÍMAX</b>", CELLB), Paragraph("Caja 4<br/>(agudo)", CELL),
      Paragraph("Lo más alto y lo más fuerte. Se llega con un slide (lick 58) y se sostiene poco.", CELL),
-     Paragraph("54, 55, 52", CELL)],
+     Paragraph("54, 55", CELL)],
     [Paragraph("<b>4 · CIERRA</b>", CELLB), Paragraph("Bajás a caja 1 o 5", CELL),
      Paragraph("La bajada es el desenlace. Cerrás en la tónica y el oído descansa.", CELL),
      Paragraph("59, 57", CELL)],
@@ -277,7 +245,7 @@ S.append(tabla([
      Paragraph("Entre lick y lick tiene que haber algo tuyo: una nota larga, un silencio, tres notas "
                "improvisadas. Si los encadenás, se escucha el pegote.", CELL)],
     [Paragraph("<b>2</b>", CELLB), Paragraph("<b>Variá al menos uno</b>", CELL),
-     Paragraph("Cambiale el ritmo, el remate o la caja (ejercicios 42, 43 y 44 de la parte 1). Un lick "
+     Paragraph("Cambiale el ritmo, el remate o la caja (ejercicios 44, 45 y 46 del Hito 3). Un lick "
                "calcado es de su dueño; uno variado ya es tuyo.", CELL)],
     [Paragraph("<b>3</b>", CELLB), Paragraph("<b>Máximo dos por solo</b>", CELL),
      Paragraph("Un solo de un minuto aguanta dos frases prestadas, no diez. El resto lo tenés que "
@@ -297,7 +265,7 @@ S.append(Paragraph(
 S.append(PageBreak())
 S.append(Paragraph("SEGUÍ EL BANCO — licks fuera de la caja 1", H1))
 S.append(Paragraph(
-    "Misma consigna que en la parte 1, con una columna más: <b>anotá en qué caja vive cada lick que sacás</b>. "
+    "Misma consigna que en el Hito 3, con una columna más: <b>anotá en qué caja vive cada lick que sacás</b>. "
     "Si al final del mes tenés ocho licks y siete son de la caja 1, ya sabés qué te falta practicar.", BODY))
 S.append(Spacer(1, 6))
 S.append(TablaturaEnBlanco(W, sistemas=7, compases=2))
@@ -307,10 +275,10 @@ S.append(PageBreak())
 S.append(Paragraph("CHECKLIST", H1))
 S.append(tabla([
     [Paragraph("", CELLB), Paragraph("<b>Lo puedo hacer</b>", CELLB), Paragraph("<b>Cómo lo compruebo</b>", CELLB)],
-    [Paragraph(CAJ, CELL), Paragraph("Toco los 10 licks en su caja, sin mirar el papel", CELL),
-     Paragraph("Me dicen un número del 50 al 59 y arranco en menos de 5 segundos.", CELL)],
-    [Paragraph(CAJ, CELL), Paragraph("Mi bending de la caja 2 cae afinado en la tónica", CELL),
-     Paragraph("Grabo el lick 50 y el bending suena idéntico al traste 10 de la 2ª cuerda.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Toco los 8 licks en su caja, sin mirar el papel", CELL),
+     Paragraph("Me dicen un número del 52 al 59 y arranco en menos de 5 segundos.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Mi vibrato cambia según el registro (angosto abajo, ancho arriba)", CELL),
+     Paragraph("Toco el lick 57 y el 55 seguidos: el vibrato no es el mismo.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Uso el blue note de paso, no de llegada", CELL),
      Paragraph("Improvisando lo cruzo sin frenar. Nunca termino una frase ahí.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Escucho la diferencia entre la 7ª menor y la 6ª mayor", CELL),
@@ -338,4 +306,4 @@ S.append(caja_oscura(
     'y no por técnica: por oído. Mandame un video de 20 segundos por DM y te digo qué ajustar. · %s</font>' % IG, W))
 
 doc.build(S)
-print("OK Cuadernillo-Hito3-PARTE2-Licks-Fuera-de-la-Caja1.pdf")
+print("OK Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf")

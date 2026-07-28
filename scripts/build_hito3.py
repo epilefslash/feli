@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Arma el PDF del Cuadernillo HITO 3 — EL VOCABULARIO.
 
-Requiere que antes se haya corrido `gen_scores_h3.py` (genera ./partituras/e33..e49).
+Requiere que antes se haya corrido `gen_scores_h3.py` (genera ./partituras/e35..e51).
 """
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, PageBreak, TableStyle, KeepTogether
@@ -49,7 +49,7 @@ S.append(tabla([
      Paragraph("La imitás con todo: el fraseo, el vibrato, la fuerza, la mugre. Hasta la respiración.", CELL),
      Paragraph("Al grabarte, se parece — no solo las notas: el <i>gesto</i>.", CELL)],
     [Paragraph("<b>4 · VARIAR</b>", CELLB),
-     Paragraph("Le cambiás el ritmo, el remate y la caja. Tres versiones distintas mínimo (ej. 42, 43 y 44).", CELL),
+     Paragraph("Le cambiás el ritmo, el remate y la caja. Tres versiones distintas mínimo (ej. 44, 45 y 46).", CELL),
      Paragraph("Podés tocar 3 versiones sin pensar cuál era la original.", CELL)],
     [Paragraph("<b>5 · APROPIAR</b>", CELLB),
      Paragraph("La usás improvisando, mezclada con lo tuyo, sin anunciarla.", CELL),
@@ -138,29 +138,29 @@ S.append(Paragraph(
     "elaborada — es porque una celda de tres notas se te metió en la cabeza a fuerza de insistencia. "
     "Es la misma lógica de un riff, aplicada al solo.", BODY))
 
-S.append(ejercicio(33, "El motivo que se repite", (
+S.append(ejercicio(35, "El motivo que se repite", (
     "Una celda de tres notas, machacada cinco veces, y recién en la sexta resolvés. Vas a sentir que "
     "<b>estás repitiendo demasiado</b> — esa sensación es la trampa: desde adentro siempre parece más "
     "repetido de lo que se escucha desde afuera. Grabate y vas a ver que suena convincente, no monótono."),
-    "e33", W, "60 BPM en tresillos. El pull-off va en la 1ª cuerda (8 al 5); el Sol de la 2ª se puntea."))
+    "e35", W, "60 BPM en tresillos. El pull-off va en la 1ª cuerda (8 al 5); el Sol de la 2ª se puntea."))
 
-S.append(ejercicio(34, "Dobles cuerdas", (
+S.append(ejercicio(36, "Dobles cuerdas", (
     "Dos notas juntas, con la púa barriendo las dos cuerdas de una. Es el sonido de Chuck Berry y de medio "
     "AC/DC: suena más grande que una nota sola sin necesidad de tocar más rápido. Cuidá que las dos suenen "
     "parejas — si una se escucha más, estás inclinando la púa."),
-    "e34", W, "70 BPM. Apagá con la mano derecha las cuerdas que no usás: si zumba algo, se arruina."))
+    "e36", W, "70 BPM. Apagá con la mano derecha las cuerdas que no usás: si zumba algo, se arruina."))
 
-S.append(ejercicio(35, "El unísono (dos cuerdas, la misma nota)", (
+S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota)", (
     "El recurso más impactante de la escuela británica. Tocás dos cuerdas juntas y <b>bendeás la de abajo "
     "hasta que suene exactamente igual que la de arriba</b>. Cuando están afinadas, las dos notas se pelean "
     "y producen un batido que suena enorme. Cuando no, suena horrible — no hay término medio, y por eso "
     "es el mejor test de afinación de bending que existe."),
-    "e35", W, "Lento, sin metrónomo. Escuchá el batido: cuando desaparece, llegaste."))
+    "e37", W, "Lento, sin metrónomo. Escuchá el batido: cuando desaparece, llegaste."))
 
-S.append(ejercicio(36, "Los tres recursos encadenados", (
+S.append(ejercicio(38, "Los tres recursos encadenados", (
     "Motivo repetido, dobles cuerdas y unísono en una sola frase. Fijate cuántas notas distintas usaste: "
     "casi ninguna. Toda la fuerza vino del <b>tratamiento</b>, no del material."),
-    "e36", W, "Con backing. Tocalo como si estuvieras enojado: esta escuela pide convicción, no delicadeza."))
+    "e38", W, "Con backing. Tocalo como si estuvieras enojado: esta escuela pide convicción, no delicadeza."))
 
 # ============================================================ SEMANA 10
 S.append(PageBreak())
@@ -173,28 +173,28 @@ S.append(Paragraph(
     "respira, sostiene, y no dice dos ideas al mismo tiempo. Si tu frase no la podés cantar, es porque "
     "la pensaste con los dedos.", BODY))
 
-S.append(ejercicio(37, "La frase vocal (escuela Gary Moore)", (
+S.append(ejercicio(39, "La frase vocal (escuela Gary Moore)", (
     "Tres compases y apenas un puñado de notas. La estructura es la de una frase hablada: una entrada que "
     "<b>hace esperar</b>, un bending largo que es el momento importante, y una bajada que resuelve. "
     "Lo difícil acá no es tocarlo: es aguantar los silencios sin rellenarlos."),
-    "e37", W, "Con backing lento. Cantala antes de tocarla, aunque desafines."))
+    "e39", W, "Con backing lento. Cantala antes de tocarla, aunque desafines."))
 
-S.append(ejercicio(38, "La línea fluida (escuela Slash)", (
+S.append(ejercicio(40, "La línea fluida (escuela Slash)", (
     "Casi todo ligado: en dos compases puntéas tres o cuatro veces nada más. El resultado es una línea que "
     "<b>se derrama</b> por el mástil en vez de marcar cada nota. Empezá lento — si acelerás antes de tiempo, "
     "los ligados se apagan y queda un murmullo."),
-    "e38", W, "60 BPM y subís. Que las notas ligadas suenen igual de fuerte que las punteadas."))
+    "e40", W, "60 BPM y subís. Que las notas ligadas suenen igual de fuerte que las punteadas."))
 
-S.append(ejercicio(39, "Dobles cuerdas con ligado (remate estilo Hendrix)", (
+S.append(ejercicio(41, "Dobles cuerdas con ligado (remate estilo Hendrix)", (
     "Dobles cuerdas otra vez, pero acá el hammer-on va <b>en la cuerda de abajo mientras la de arriba se "
     "sostiene</b>. Ese movimiento es la marca registrada de Hendrix y de todo el R&B. Es más difícil de lo "
     "que parece: el dedo que golpea tiene que ser preciso para no apagar la otra cuerda."),
-    "e39", W, "Lento. Si la nota de arriba se corta cuando hacés el hammer, tocás con demasiada fuerza."))
+    "e41", W, "Lento. Si la nota de arriba se corta cuando hacés el hammer, tocás con demasiada fuerza."))
 
-S.append(ejercicio(40, "Los tres recursos encadenados", (
+S.append(ejercicio(42, "Los tres recursos encadenados", (
     "La línea fluida, la doble cuerda con ligado y el bending largo en una sola frase. Compará esta página "
-    "con el ejercicio 36: <b>la misma escala, el mismo mástil, dos idiomas distintos</b>."),
-    "e40", W, "Con backing. Tocalo relajado, casi perezoso. Esta escuela pide calma, no convicción."))
+    "con el ejercicio 38: <b>la misma escala, el mismo mástil, dos idiomas distintos</b>."),
+    "e42", W, "Con backing. Tocalo relajado, casi perezoso. Esta escuela pide calma, no convicción."))
 
 # ============================================================ SEMANA 11
 S.append(PageBreak())
@@ -245,43 +245,43 @@ S.append(tabla([
      Paragraph("Cerrar un solo hacia arriba, triunfal.", CELL)],
 ], [2.2 * cm, 2.0 * cm, (W - 4.2 * cm) * 0.56, (W - 4.2 * cm) * 0.44]))
 
-S.append(ejercicio(41, "El color de cada grado (la prueba del reposo)", (
+S.append(ejercicio(43, "El color de cada grado (la prueba del reposo)", (
     "Seis notas largas, una por compás, subiendo de la tónica a la octava — todas dentro de la caja 1. "
     "<b>Tocá cada una con el backing sonando y quedate ahí cuatro tiempos enteros</b>, escuchando qué te "
     "produce. No es un ejercicio de manos: es de oído. Vas a sentir físicamente que la 4ª te pide moverte "
     "y que la tónica te deja tranquilo."),
-    "e41", W,
+    "e43", W,
     "Con backing, obligatorio: solo, no hay contra qué medir la sensación. Hacelo con los ojos cerrados."))
 
 S.append(Paragraph(
     "Cuando esto se te vuelve automático dejás de improvisar a ciegas: <b>ya no elegís notas, elegís "
     "sensaciones</b>. Los tres ejercicios que siguen son exactamente eso aplicado.", SMALL))
 
-S.append(ejercicio(42, "Mismas notas, tres ritmos distintos", (
+S.append(ejercicio(44, "Mismas notas, tres ritmos distintos", (
     "Las mismas seis notas escritas tres veces, con tres ritmos: parejo, acelerando, y a contratiempo. "
     "Escuchá los tres seguidos: <b>suenan a tres licks distintos</b>, y no cambiaste ni una nota. "
     "El ritmo es el 70% de la identidad de una frase, y es lo primero que hay que tocar."),
-    "e42", W, "70 BPM. El tercero (a contratiempo) es el más difícil: contá en voz alta si hace falta."))
+    "e44", W, "70 BPM. El tercero (a contratiempo) es el más difícil: contá en voz alta si hace falta."))
 
-S.append(ejercicio(43, "Mismo arranque, tres remates", (
+S.append(ejercicio(45, "Mismo arranque, tres remates", (
     "Acá se aplica lo del ejercicio anterior. La frase entra igual las tres veces y cambia solo la última nota: "
     "primero cae en la <b>4ª</b> (queda colgada, es una pregunta), después en la <b>tónica</b> (cierra, es la "
     "respuesta), y por último en la <b>3ª menor</b> (resuelve para arriba, con color triste). "
     "El remate es lo que el oído se lleva: <b>cambiar el final cambia el significado de todo lo anterior</b>, "
     "igual que en una oración."),
-    "e43", W, "Con backing. Antes de tocar cada versión, adiviná qué va a pasar. Después comprobá."))
+    "e45", W, "Con backing. Antes de tocar cada versión, adiviná qué va a pasar. Después comprobá."))
 
-S.append(ejercicio(44, "El mismo lick, mudado de caja", (
+S.append(ejercicio(46, "El mismo lick, mudado de caja", (
     "Idéntica frase, tocada en las cajas 1, 2 y 3. Acá se paga el trabajo del Hito 1: si el mapa está, esto "
     "sale casi solo. En cada caja el lick <b>cambia de carácter</b> — más grave suena más pesado, más agudo "
     "suena más urgente — aunque sean las mismas notas."),
-    "e44", W, "Lento. Después probalo en las cajas 4 y 5 sin que esté escrito: ése es el verdadero examen."))
+    "e46", W, "Lento. Después probalo en las cajas 4 y 5 sin que esté escrito: ése es el verdadero examen."))
 
-S.append(ejercicio(45, "La arquitectura: las 4 frases de un solo", (
+S.append(ejercicio(47, "La arquitectura: las 4 frases de un solo", (
     "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple), desarrolla (la misma "
     "idea más arriba), clímax (lo más agudo y lo más fuerte), cierra (bajás y resolvés). Ocho compases que "
     "son el molde de casi cualquier solo que te haya gustado en tu vida. Aprendételo de memoria: es el plano."),
-    "e45", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
+    "e47", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
 
 # ============================================================ SEMANA 12
 S.append(PageBreak())
@@ -293,27 +293,27 @@ S.append(Paragraph(
     "de cuatro frases, con tu vocabulario, y lo vas a grabar. No tiene que ser difícil — tiene que ser "
     "<b>tuyo y estar terminado</b>. Un solo simple y bien cerrado le gana a uno ambicioso y a medio hacer.", BODY))
 
-S.append(ejercicio(46, "El esqueleto (completalo vos)", (
+S.append(ejercicio(48, "El esqueleto (completalo vos)", (
     "Están escritas las <b>llegadas</b> de cada frase y el lugar del bending; falta lo que va en el medio. "
     "Eso lo ponés vos, con tu vocabulario. Es un ejercicio de escritura, no de lectura: agarrá lápiz y "
     "anotá tus frases en los compases vacíos."),
-    "e46", W, "Empezá tarareando el solo entero antes de tocar una nota. Si lo podés cantar, lo podés tocar."))
+    "e48", W, "Empezá tarareando el solo entero antes de tocar una nota. Si lo podés cantar, lo podés tocar."))
 
-S.append(ejercicio(47, "Los tres finales posibles", (
+S.append(ejercicio(49, "Los tres finales posibles", (
     "Tres formas de terminar: a la tónica suave (el más seguro y el que casi siempre funciona), un bending "
     "largo que se apaga (el más dramático), o una doble cuerda que queda sonando (el más rockero). "
     "Probá los tres con tu solo y elegí uno. <b>Un solo sin final decidido suena a que te quedaste sin ideas.</b>"),
-    "e47", W, "Con backing. El final se ensaya tanto como el principio."))
+    "e49", W, "Con backing. El final se ensaya tanto como el principio."))
 
-S.append(ejercicio(48, "El motivo que vuelve", (
+S.append(ejercicio(50, "El motivo que vuelve", (
     "El truco que hace que un solo suene <b>compuesto</b> y no improvisado a la deriva: presentás una idea al "
     "principio, la dejás ir, y la traés de vuelta al final. El oído la reconoce y siente que el solo cerró — "
     "aunque no sepa por qué. Es gratis y casi nadie lo usa."),
-    "e48", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
+    "e50", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
 
 # el solo final va entero en una pagina: el encabezado no se separa de la partitura
 S.append(KeepTogether([
-    Paragraph("EJERCICIO 49 — EL SOLO FINAL (el trofeo del programa)", H2),
+    Paragraph("EJERCICIO 51 — EL SOLO FINAL (el trofeo del programa)", H2),
     Paragraph(
         "Doce compases que usan <b>los tres hitos</b>: se mueve por las cajas (Hito 1), cada nota tiene bending, "
         "vibrato, ligados y dinámica (Hito 2), y está armado con vocabulario de las dos escuelas sobre el molde "
@@ -322,7 +322,7 @@ S.append(KeepTogether([
         "Estudialo, tocalo, y después <b>usalo como modelo para el tuyo</b>. La consigna del entregable no es "
         "tocar éste: es que grabes uno propio con esta misma arquitectura.", BODY),
     Spacer(1, 2),
-    score("e49", W),
+    score("e51", W),
     Spacer(1, 4),
     Paragraph(
         "Compás 10: silencio completo, justo después del bending más importante. Es el aire antes del cierre — "
@@ -350,17 +350,17 @@ S.append(tabla([
     [Paragraph(CAJ, CELL), Paragraph("Saqué al menos un lick de oído, sin TAB", CELL),
      Paragraph("Lo toco igual que el disco y puedo decir de qué tema salió.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Toco los licks de las dos escuelas", CELL),
-     Paragraph("Hago el ejercicio 36 y el 40 y se escuchan claramente distintos.", CELL)],
+     Paragraph("Hago el ejercicio 38 y el 42 y se escuchan claramente distintos.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Reconozco de oído en qué grado caí", CELL),
      Paragraph("Improvisando freno en una nota y sé si es tónica, 4ª o 7ª sin buscarla en el mástil.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Sé variar un lick de 3 formas", CELL),
      Paragraph("Agarro cualquier frase y le cambio ritmo, remate y caja sin pensarlo.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Muevo un lick a otra caja sin perderme", CELL),
-     Paragraph("El ejercicio 44 me sale también en las cajas 4 y 5, que no están escritas.", CELL)],
+     Paragraph("El ejercicio 46 me sale también en las cajas 4 y 5, que no están escritas.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Entiendo la curva de un solo", CELL),
      Paragraph("Escucho un solo y puedo señalar dónde presenta, desarrolla, climax y cierra.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Mi solo tiene un final decidido", CELL),
-     Paragraph("Elegí uno de los tres finales del ejercicio 47 y lo ensayé aparte.", CELL)],
+     Paragraph("Elegí uno de los tres finales del ejercicio 49 y lo ensayé aparte.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Tengo 8 licks en el banco, apropiados", CELL),
      Paragraph("Los 8 pasaron los 5 pasos, y al menos uno me salió solo improvisando.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("<b>Grabé mi solo de 1 minuto</b>", CELL),

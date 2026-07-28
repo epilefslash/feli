@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Partituras del Cuadernillo HITO 3 · PARTE 2 — 10 licks fuera de la caja 1 (ej. 50 a 59).
+"""Partituras del Cuadernillo HITO 3 · PARTE 2 — 8 licks POST-PROGRAMA, fuera de las cajas 1 y 2 (ej. 52 a 59).
+
+Los licks de caja 2 (bend a la tónica + blue note) se movieron al Hito 2, semana 6,
+para que el alumno pise la caja 2 DURANTE el programa y no recién al final.
 
 Salida: ./partituras/eNN.cropped.png
 
@@ -23,19 +26,6 @@ Alturas LilyPond por caja (La menor):
 from gen_scores import render
 
 EJ = {}
-
-# ==================================================== CAJA 2 (trastes 7 a 10)
-# 50: Albert King / SRV — el bend que aterriza EN la tónica, no en cualquier nota
-EJ["e50"] = r"""
-  r8 d''8\1 c''\1 a'\2 g'4\2^\markup{\bold "bend 1 tono · caés en la tónica"} ~ g'4 |
-  g'2\2^\markup{\bold "vibrato ancho, sin soltar el bending"} e'8\3 d'\3 a4\4 |
-"""
-
-# 51: el blue note (b5) usado como nota DE PASO, nunca de llegada
-EJ["e51"] = r"""
-  r8 a'8\2 g'\2 e'\3 d'8\3 ees'\3^\markup{\bold "blue note · solo de paso"} e'\3 g'\2 |
-  e'8\3 d'\3 c'\4 g\5 a2\4^\markup{\bold "vibrato"} |
-"""
 
 # ==================================================== CAJA 3 (trastes 9 a 13)
 # 52: Clapton / Cream — el motivo agudo repetido hasta que se vuelve un gancho
