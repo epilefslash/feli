@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Guía en Vivo — Clase a Clase</title>
+<style>
+  :root{
+    --tierra:#3b2417;
+    --terracota:#d97a4d;
+    --ocre:#e0ab52;
+    --crema:#faf5ec;
+    --verde:#8faa79;
+    --suave:#c9b8a3;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{font-family:"Liberation Sans", Arial, sans-serif;color:var(--crema);}
+  @page{size:16in 9in;margin:0;}
+  .page{
+    width:16in;height:9in;
+    background:linear-gradient(160deg,#3a2413 0%, #24160c 55%, #1a1109 100%);
+    padding:0.55in 0.95in;
+    position:relative;overflow:hidden;
+    page-break-after:always;
+  }
+  .page:last-child{page-break-after:auto;}
+  h1,h2,.serif{font-family:"Liberation Serif", Georgia, serif;}
+
+  .kicker{
+    font-size:16pt;letter-spacing:5px;text-transform:uppercase;color:var(--ocre);
+    font-weight:bold;margin-bottom:6pt;
+  }
+  h2.title{font-size:46pt;line-height:1.08;margin-bottom:16pt;color:var(--crema);}
+  h2.title em{color:var(--terracota);font-style:italic;}
+
+  .footerbar{
+    position:absolute;bottom:0.4in;left:0.95in;right:0.95in;
+    display:flex;justify-content:space-between;align-items:center;
+    font-size:13pt;letter-spacing:1.5px;color:var(--suave);
+    border-top:1px solid rgba(224,171,82,.25);padding-top:9pt;
+  }
+  .footerbar b{color:var(--ocre);}
+
+  .obj{
+    background:rgba(143,170,121,.16);border-left:5px solid var(--verde);
+    border-radius:0 8px 8px 0;padding:12pt 20pt;margin-bottom:18pt;
+  }
+  .obj .k{font-size:13pt;letter-spacing:3px;text-transform:uppercase;color:var(--verde);font-weight:bold;margin-bottom:4pt;}
+  .obj p{font-size:22pt;font-family:"Liberation Serif",serif;font-style:italic;line-height:1.3;}
+
+  ol.guion{list-style:none;counter-reset:g;}
+  ol.guion li{
+    counter-increment:g;position:relative;padding:6pt 0 6pt 46pt;
+    font-size:21pt;line-height:1.32;margin-bottom:3pt;
+  }
+  ol.guion li b{color:var(--ocre);}
+  ol.guion li::before{
+    content:counter(g);position:absolute;left:0;top:6pt;
+    width:32pt;height:32pt;border-radius:50%;
+    background:var(--terracota);color:#2a1a0f;
+    font-family:"Liberation Serif",serif;font-weight:bold;font-size:17pt;
+    display:flex;align-items:center;justify-content:center;
+  }
+
+  .decir{
+    margin-top:14pt;background:rgba(217,122,77,.14);border-left:5px solid var(--terracota);
+    border-radius:0 8px 8px 0;padding:11pt 20pt;
+  }
+  .decir .k{font-size:12pt;letter-spacing:3px;text-transform:uppercase;color:var(--terracota);font-weight:bold;margin-bottom:3pt;}
+  .decir p{font-size:19pt;font-family:"Liberation Serif",serif;font-style:italic;line-height:1.3;}
+
+  .tip{
+    margin-top:10pt;font-size:14.5pt;color:var(--suave);line-height:1.4;font-style:italic;
+  }
+  .tip b{color:var(--verde);font-style:normal;}
+
+  .goal{
+    margin-top:10pt;font-size:16pt;color:var(--ocre);font-weight:bold;line-height:1.35;
+  }
+
+  /* ============ PORTADA ============ */
+  .cover{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;}
+  .cover .top{font-size:15pt;letter-spacing:6px;text-transform:uppercase;color:var(--ocre);margin-bottom:22pt;}
+  .cover h1{font-size:64pt;line-height:1.1;font-family:"Liberation Serif",serif;}
+  .cover h1 em{color:var(--terracota);font-style:italic;}
+  .cover .sub{margin-top:20pt;font-size:22pt;font-family:"Liberation Serif",serif;font-style:italic;color:var(--suave);}
+  .cover .ritmos{margin-top:26pt;font-size:16pt;letter-spacing:4px;text-transform:uppercase;color:var(--suave);}
+  .cover .ritmos span{color:var(--terracota);padding:0 10pt;}
+  .cover .foot{position:absolute;bottom:0.6in;font-size:13pt;letter-spacing:2px;text-transform:uppercase;color:var(--suave);}
+
+  /* ============ TIPS ============ */
+  .tipsgrid{display:grid;grid-template-columns:1fr 1fr;gap:20pt;margin-top:10pt;}
+  .tipbox{background:rgba(255,255,255,.05);border:1px solid rgba(224,171,82,.25);border-radius:10pt;padding:16pt 20pt;}
+  .tipbox .n{font-family:"Liberation Serif",serif;font-size:26pt;color:var(--ocre);font-weight:bold;margin-bottom:6pt;}
+  .tipbox p{font-size:17pt;line-height:1.4;color:var(--crema);}
+
+  .month-tag{
+    display:inline-block;background:var(--terracota);color:#2a1a0f;
+    font-size:13pt;letter-spacing:3px;text-transform:uppercase;font-weight:bold;
+    padding:5pt 14pt;border-radius:4pt;margin-bottom:10pt;
+  }
+  .month-tag.verde{background:var(--verde);}
+  .month-tag.ocre{background:var(--ocre);}
+  .month-tag.gris{background:var(--suave);color:#2a1a0f;}
+</style>
+</head>
+<body>
+
+<!-- ================= PORTADA ================= -->
+<div class="page cover">
+  <div class="top">Guía en vivo · para tener abierta en la clase</div>
+  <h1>Folklore Argentino<br><em>clase a clase</em></h1>
+  <p class="sub">13 pantallas — una por clase. Qué hacer, en qué orden, y qué decir.</p>
+  <div class="ritmos">Chamamé <span>✦</span> Zamba <span>✦</span> Chacarera <span>✦</span> Música Cristiana</div>
+  <div class="foot">Abrí a pantalla completa · avanzá con las flechas</div>
+</div>
+
+<!-- ================= CÓMO USAR ================= -->
+<div class="page">
+  <div class="kicker">Antes de arrancar</div>
+  <h2 class="title">Cómo usar <em>esta guía</em></h2>
+  <div class="tipsgrid">
+    <div class="tipbox">
+      <div class="n">1</div>
+      <p>Conectá el celu o la notebook a la tele y abrí este PDF a <b>pantalla completa</b>. Cada clase es una pantalla — pasás con las flechas o deslizando.</p>
+    </div>
+    <div class="tipbox">
+      <div class="n">2</div>
+      <p>No es un guion para leer en voz alta. Es un <b>recordatorio del orden</b> — vos ya sabés tocar, esto te ayuda a no perder el hilo de la clase.</p>
+    </div>
+    <div class="tipbox">
+      <div class="n">3</div>
+      <p>Los cuadros <b>"Decí"</b> son frases sugeridas, no libreto. Adaptalas a como hablás vos con él.</p>
+    </div>
+    <div class="tipbox">
+      <div class="n">4</div>
+      <p>Si necesitás un diagrama o una tablatura completa, esa está en el <b>Cuaderno del Alumno</b> — acá solo va la referencia de página.</p>
+    </div>
+  </div>
+  <p class="tip" style="margin-top:22pt;font-size:16pt;">Las 13 pantallas: Clase 0 (previa) + Clases 1 a 12. Los cierres de mes (4, 8 y 12) están marcados en verde.</p>
+</div>
+
+<!-- ================= CLASE 0 ================= -->
+<div class="page">
+  <span class="month-tag gris">Previa</span>
+  <div class="kicker">Antes de la clase 1</div>
+  <h2 class="title">Clase 0 — <em>Su punto de partida</em></h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Saber de dónde arranca, sin gastar tiempo de la clase 1 en esto.</p></div>
+
+  <ol class="guion">
+    <li>Explicale qué van a hacer hoy y por qué (2 min).</li>
+    <li>Pedile que toque <b>2 temas que ya sepa</b> de memoria: una chacarera y un chamamé.</li>
+    <li>Anotá mentalmente: qué acordes usa, cómo suena la mano derecha, si la cejilla es firme.</li>
+    <li>Cerrá contándole la meta del mes: <b>"en 4 clases vas a poder transportar cualquier tema en el momento."</b></li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Tocame dos temas como si estuvieras en la peña, con errores y todo — así arranco de tu punto real."</p></div>
+
+  <div class="tip">Si esta clase se salteó (no llegó a grabar antes): hacé este mismo diagnóstico en vivo, en los primeros 5 minutos de la clase 1, y seguí sin culpa.</div>
+
+  <div class="footerbar"><span>1 / 13</span><span>Clase 0 · Previa</span><b>Cuaderno pág. 3</b></div>
+</div>
+
+<!-- ================= CLASE 1 ================= -->
+<div class="page">
+  <span class="month-tag">Mes 1 · Transporte y círculos</span>
+  <div class="kicker">Clase 1</div>
+  <h2 class="title">"Los acordes tienen <em>número</em>"</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Que entienda el sistema de grados (I–IV–V, IIm, VIm) y vea que el folklore repite las mismas fórmulas.</p></div>
+
+  <ol class="guion">
+    <li>Repasá el diagnóstico (lo grabado, o en vivo si no llegó).</li>
+    <li>Armá el <b>círculo de Sol</b> con él: G – C – D7 – Em – Am. Tocalo vos primero.</li>
+    <li>Agarren un tema de él y pónganle <b>número</b> a cada acorde, juntos.</li>
+    <li>El mismo círculo I–IV–V7, ahora en Re y en La.</li>
+    <li>Antes de cerrar: que <b>cante la nota</b> antes de tocar un acorde nuevo.</li>
+    <li>Punteo bonus (5'): Caja 1 pentatónica + la frase modelo.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Este acorde… ¿qué número es en la escala? No me digas el nombre — decime el número."</p></div>
+
+  <div class="footerbar"><span>2 / 13</span><span>Clase 1 · Mes 1</span><b>Cuaderno pág. 4, 18-19</b></div>
+</div>
+
+<!-- ================= CLASE 2 ================= -->
+<div class="page">
+  <span class="month-tag">Mes 1 · Transporte y círculos</span>
+  <div class="kicker">Clase 2</div>
+  <h2 class="title">"El mismo tema en <em>cualquier tono</em>"</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Transportar usando grados. Su primera experiencia real de éxito.</p></div>
+
+  <ol class="guion">
+    <li>Repasá la tarea: los grados de sus 2 temas.</li>
+    <li>Mostrale: mismo círculo, distinta "casa" — Sol→La es A–D–E7.</li>
+    <li>Tabla de transporte: practiquen buscando acordes rápido, cronometrando.</li>
+    <li>Forma de Mi y forma de La con cejilla, subiendo por el mástil.</li>
+    <li>Un mismo tema resuelto con cejilla vs. con capo — comparen.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Ahora este mismo tema, en Do. ¿Qué acordes necesitás?"</p></div>
+
+  <div class="footerbar"><span>3 / 13</span><span>Clase 2 · Mes 1</span><b>Cuaderno pág. 5, 16, 20</b></div>
+</div>
+
+<!-- ================= CLASE 3 ================= -->
+<div class="page">
+  <span class="month-tag">Mes 1 · Transporte y círculos</span>
+  <div class="kicker">Clase 3</div>
+  <h2 class="title">"Seguir a quien <em>canta</em>"</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Que el transporte deje de ser cálculo y sea reflejo. Sumar tempo y dinámica, no solo tono.</p></div>
+
+  <ol class="guion">
+    <li>Círculos menores: Em, Am, Dm.</li>
+    <li>Simulación de peña: cantá o tocá, y cambiale el tono a mitad de tema, sin avisar.</li>
+    <li>Subí la apuesta: además del tono, acelerá o frená sin avisar.</li>
+    <li>Una zamba en Mi menor → transportala en vivo a La menor y Re menor.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>(en medio del tema, sin frenar vos) "¡Bajámelo un tono!" … "¡Más rápido!"</p></div>
+
+  <div class="footerbar"><span>4 / 13</span><span>Clase 3 · Mes 1</span><b>Cuaderno pág. 6</b></div>
+</div>
+
+<!-- ================= CLASE 4 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 1 · Cierre</span>
+  <div class="kicker">Clase 4 · Meta del mes</div>
+  <h2 class="title">"La prueba de la <em>peña</em>" ✓</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Demostrar la meta del mes: reflejo en las tonalidades más usadas del folklore.</p></div>
+
+  <ol class="guion">
+    <li>Elegí 3 temas de su repertorio.</li>
+    <li>Sorprendelo: tono, tempo o dinámica distintos en cada uno, en el momento.</li>
+    <li>Repasen los círculos en Sol, Re, La, Mi, Em, Am, Dm y Bm.</li>
+    <li>Cerrá mostrando la Caja 1 pentatónica sobre un chamamé — puente al mes 2.</li>
+    <li>Entregale la tabla de transporte para que se la lleve.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Este te lo tiro en Fa. Dale."</p></div>
+
+  <div class="goal">Si sale: ¡meta cumplida! Festejalo — es un logro real, no un ejercicio más.</div>
+
+  <div class="footerbar"><span>5 / 13</span><span>Clase 4 · ¡Cierre mes 1!</span><b>Cuaderno pág. 7, 20</b></div>
+</div>
+
+<!-- ================= CLASE 5 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 2 · Escalas y punteos</span>
+  <div class="kicker">Clase 5</div>
+  <h2 class="title">"Las escalas viven <em>adentro</em>"</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Que vea que las escalas salen de los acordes que ya conoce.</p></div>
+
+  <ol class="guion">
+    <li>Escala de Mi menor, 2 posiciones, con metrónomo — lento primero.</li>
+    <li>Tocá el acorde de Em, después la escala — mostrale dónde vive cada nota.</li>
+    <li>Frases cortas de 4 notas sobre una chacarera (acompañalo vos).</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Fijate: todas estas notas ya las tenías adentro del acorde."</p></div>
+
+  <div class="footerbar"><span>6 / 13</span><span>Clase 5 · Mes 2</span><b>Cuaderno pág. 8</b></div>
+</div>
+
+<!-- ================= CLASE 6 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 2 · Escalas y punteos</span>
+  <div class="kicker">Clase 6</div>
+  <h2 class="title">"Una forma, <em>todos los tonos</em>"</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Cambiar de escala = correr la misma forma. Igual que la cejilla del mes 1.</p></div>
+
+  <ol class="guion">
+    <li>Pentatónica completa en una caja (la que ya maneje), dos octavas.</li>
+    <li>Corré la misma forma: Am (5to traste) → Bm (7mo traste). Mismo dibujo, otro tono.</li>
+    <li>Pregunta y respuesta: tocá una frase, que te responda con otra.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"No memorices notas — memorizá la FORMA. El resto es correrla por el mástil."</p></div>
+
+  <div class="footerbar"><span>7 / 13</span><span>Clase 6 · Mes 2</span><b>Cuaderno pág. 9, 18</b></div>
+</div>
+
+<!-- ================= CLASE 7 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 2 · Escalas y punteos</span>
+  <div class="kicker">Clase 7</div>
+  <h2 class="title">Primera intro: <em>la zamba</em></h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>El patrón de arpegio típico de zamba, aplicado a un tema real de él.</p></div>
+
+  <ol class="guion">
+    <li>Mostrale el patrón (pulgar–índice–medio–anular–medio) sobre Em.</li>
+    <li>Aplíquenlo a los acordes de SU zamba elegida.</li>
+    <li>Saquen la melodía de la intro, frase por frase, lento.</li>
+    <li>Unan intro + primera vuelta del tema.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"La intro es la última frase del tema — ya la conocés, solo hay que puntearla."</p></div>
+
+  <div class="footerbar"><span>8 / 13</span><span>Clase 7 · Mes 2</span><b>Cuaderno pág. 10, 17</b></div>
+</div>
+
+<!-- ================= CLASE 8 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 2 · Cierre</span>
+  <div class="kicker">Clase 8 · Meta del mes</div>
+  <h2 class="title">Intro de <em>chacarera</em> ✓</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Ligados y adornos criollos, sobre la intro de su propia chacarera.</p></div>
+
+  <ol class="guion">
+    <li>Ligados (hammer-on / pull-off) sobre la escala menor, aislados.</li>
+    <li>Metanlos dentro de una frase.</li>
+    <li>Intro completa de SU chacarera, con adornos.</li>
+    <li>Filmen el video: intro + primera vuelta — es la prueba del mes.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"El ligado no se pulsa dos veces — el dedo izquierdo hace todo el trabajo."</p></div>
+
+  <div class="goal">Meta del mes 2: intro de zamba Y de chacarera, de memoria y en tempo.</div>
+
+  <div class="footerbar"><span>9 / 13</span><span>Clase 8 · ¡Cierre mes 2!</span><b>Cuaderno pág. 11, 17</b></div>
+</div>
+
+<!-- ================= CLASE 9 ================= -->
+<div class="page">
+  <span class="month-tag ocre">Mes 3 · Chamamé y lectura</span>
+  <div class="kicker">Clase 9</div>
+  <h2 class="title">El <em>bordoneo</em> — Formentín</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>La técnica de pulgar que define el chamamé: melodía abajo, acompañamiento arriba.</p></div>
+
+  <ol class="guion">
+    <li>Pulgar solo sobre las bordonas, bien firme y parejo.</li>
+    <li>Súmenle la melodía de <b>Kilómetro 11</b> en las bordonas.</li>
+    <li>Agreguen el roce de acorde arriba, en el contratiempo.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"El pulgar canta la melodía. Los dedos de arriba solo acompañan, livianito."</p></div>
+
+  <div class="footerbar"><span>10 / 13</span><span>Clase 9 · Mes 3</span><b>Cuaderno pág. 12, 17</b></div>
+</div>
+
+<!-- ================= CLASE 10 ================= -->
+<div class="page">
+  <span class="month-tag ocre">Mes 3 · Chamamé y lectura</span>
+  <div class="kicker">Clase 10</div>
+  <h2 class="title">Leer de <em>verdad</em></h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Cifrado, tablatura y partitura simple — autonomía para sacar temas solo.</p></div>
+
+  <ol class="guion">
+    <li>Tirale una tab que no conozca — que la saque solo, adelante tuyo.</li>
+    <li>Lean el ritmo primero con palmas, después con la guitarra.</li>
+    <li>Descifren juntos un cifrado "raro" de un tema de alabanza.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"No me preguntes a mí — mirá la tab de nuevo. ¿Qué dice ahí?"</p></div>
+
+  <div class="footerbar"><span>11 / 13</span><span>Clase 10 · Mes 3</span><b>Cuaderno pág. 13</b></div>
+</div>
+
+<!-- ================= CLASE 11 ================= -->
+<div class="page">
+  <span class="month-tag ocre">Mes 3 · Chamamé y lectura</span>
+  <div class="kicker">Clase 11</div>
+  <h2 class="title">Transportar los <em>punteos</em></h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>Cerrar el círculo: la forma de la escala se corre igual que la cejilla.</p></div>
+
+  <ol class="guion">
+    <li>La intro de zamba, transportada un tono arriba y uno abajo.</li>
+    <li>Misma frase en 3 tonalidades, sin cambiar la digitación.</li>
+    <li>Empiecen a elegir el set de 3 temas para la mini peña.</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"La forma no cambia. Solo cambia dónde la apoyás en el mástil."</p></div>
+
+  <div class="footerbar"><span>12 / 13</span><span>Clase 11 · Mes 3</span><b>Cuaderno pág. 14, 21</b></div>
+</div>
+
+<!-- ================= CLASE 12 ================= -->
+<div class="page">
+  <span class="month-tag verde">Mes 3 · Gran cierre</span>
+  <div class="kicker">Clase 12 · Meta final</div>
+  <h2 class="title">"La mini <em>peña</em>" ✓</h2>
+
+  <div class="obj"><div class="k">Objetivo</div><p>El cierre de los 3 meses: su set completo, con sorpresa incluida.</p></div>
+
+  <ol class="guion">
+    <li>Que toque su set de 3 temas, de corrido, con las intros.</li>
+    <li>Sorpresa: cambiale tono, tempo o dinámica en UNO de los temas, sin avisar.</li>
+    <li>Repasen juntos los 3 checklists grandes (mes 1, 2 y 3).</li>
+    <li>Charlen: ¿qué sigue en los próximos 3 meses?</li>
+  </ol>
+
+  <div class="decir"><div class="k">Decí</div><p>"Esto ya no es un ejercicio — es tu primera peña. Tocá como si estuviéramos ahí."</p></div>
+
+  <div class="goal">Cerrá reconociendo el camino: empezó sin poder cambiar el tono, y ahora tiene un set completo.</div>
+
+  <div class="footerbar"><span>13 / 13</span><span>Clase 12 · ¡Gran cierre!</span><b>Cuaderno pág. 15, 21</b></div>
+</div>
+
+</body>
+</html>
