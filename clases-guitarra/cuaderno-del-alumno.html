@@ -49,10 +49,10 @@
   }
   .cover-main{text-align:center;}
   .cover .guitar{margin:0 auto 8mm;display:block;}
-  .cover h1{font-size:44px;line-height:1.08;font-weight:bold;}
+  .cover h1{font-size:42px;line-height:1.08;font-weight:bold;}
   .cover h1 em{font-style:italic;color:var(--ocre);}
   .cover .sub{
-    margin-top:7mm;font-size:15px;color:#e8d9c2;letter-spacing:1px;
+    margin-top:7mm;font-size:14px;color:#e8d9c2;letter-spacing:1px;
     font-family:"Liberation Serif", serif;font-style:italic;
   }
   .cover .ritmos{
@@ -60,23 +60,17 @@
     color:#c9ad83;text-transform:uppercase;
   }
   .cover .ritmos span{color:var(--terracota);padding:0 2mm;}
-  .cover .badges{margin-top:10mm;display:flex;justify-content:center;gap:8mm;}
+  .cover .badges{margin-top:9mm;display:flex;justify-content:center;gap:7mm;}
   .badge{
     border:1px solid rgba(201,138,45,.55);border-radius:3px;
-    padding:5mm 7mm;min-width:42mm;text-align:center;
+    padding:4.5mm 6mm;min-width:38mm;text-align:center;
   }
-  .badge .n{font-family:"Liberation Serif",serif;font-size:28px;color:var(--ocre);font-weight:bold;}
-  .badge .t{font-size:9.5px;letter-spacing:2.5px;text-transform:uppercase;margin-top:2mm;color:#e8d9c2;}
-  .cover .owner{
-    margin-top:12mm;text-align:center;
-  }
+  .badge .n{font-family:"Liberation Serif",serif;font-size:26px;color:var(--ocre);font-weight:bold;}
+  .badge .t{font-size:9px;letter-spacing:2.2px;text-transform:uppercase;margin-top:2mm;color:#e8d9c2;}
+  .cover .owner{margin-top:10mm;text-align:center;}
   .cover .owner .lbl{font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#a58f76;margin-bottom:3mm;}
-  .cover .owner .line{
-    width:90mm;margin:0 auto;border-bottom:1px solid rgba(201,138,45,.6);height:8mm;
-  }
-  .cover .footer{
-    text-align:center;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#a58f76;
-  }
+  .cover .owner .line{width:90mm;margin:0 auto;border-bottom:1px solid rgba(201,138,45,.6);height:8mm;}
+  .cover .footer{text-align:center;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#a58f76;}
 
   /* ============ COMUNES ============ */
   .kicker{
@@ -85,7 +79,7 @@
     display:flex;align-items:center;gap:8px;
   }
   .kicker::after{content:"";flex:1;height:1px;background:#d8c8ae;}
-  h2.title{font-size:25px;color:var(--tierra);margin-bottom:4mm;line-height:1.15;}
+  h2.title{font-size:24px;color:var(--tierra);margin-bottom:4mm;line-height:1.15;}
   h2.title em{color:var(--terracota);font-style:italic;}
   p{font-size:10pt;line-height:1.5;}
   .lead{font-size:11pt;color:var(--suave);font-family:"Liberation Serif",serif;font-style:italic;line-height:1.5;margin-bottom:5mm;}
@@ -106,6 +100,7 @@
   }
   .month-tag.verde{background:var(--verde);}
   .month-tag.ocre{background:var(--ocre);}
+  .month-tag.gris{background:var(--suave);}
 
   table{width:100%;border-collapse:collapse;background:#fff;border-radius:4px;overflow:hidden;}
   th{background:var(--tierra);color:var(--crema);text-align:left;font-size:8.5pt;letter-spacing:1.5px;text-transform:uppercase;padding:2.5mm 3.5mm;}
@@ -124,88 +119,82 @@
   .clase-band{
     background:linear-gradient(90deg,var(--tierra),#5a3a22);
     color:var(--crema);border-radius:5px;
-    padding:3.5mm 6mm;margin-bottom:4mm;
+    padding:3.2mm 6mm;margin-bottom:3.5mm;
     display:flex;align-items:baseline;gap:4mm;
   }
   .clase-band.verde{background:linear-gradient(90deg,#5c6b4c,#48543b);}
-  .clase-band .num{font-family:"Liberation Serif",serif;font-size:17pt;font-weight:bold;color:var(--ocre);white-space:nowrap;}
-  .clase-band .nom{font-family:"Liberation Serif",serif;font-size:13pt;font-style:italic;}
+  .clase-band.gris{background:linear-gradient(90deg,#7a6a5b,#5f5245);}
+  .clase-band .num{font-family:"Liberation Serif",serif;font-size:16pt;font-weight:bold;color:var(--ocre);white-space:nowrap;}
+  .clase-band .nom{font-family:"Liberation Serif",serif;font-size:12.5pt;font-style:italic;}
 
-  .cols{display:grid;grid-template-columns:1.35fr 1fr;gap:4mm;margin-bottom:4mm;}
+  .cols{display:grid;grid-template-columns:1.35fr 1fr;gap:4mm;margin-bottom:3mm;}
 
   .sec-t{
     font-size:9px;letter-spacing:2.5px;text-transform:uppercase;font-weight:bold;
-    color:var(--terracota);margin-bottom:2mm;display:flex;align-items:center;gap:5px;
+    color:var(--terracota);margin-bottom:1.8mm;display:flex;align-items:center;gap:5px;
   }
   .sec-t::after{content:"";flex:1;height:1px;background:#e3d5bd;}
   .sec-t.v{color:var(--verde);}
   .sec-t.o{color:var(--ocre);}
 
-  ul.vemos{list-style:none;margin-bottom:3.5mm;}
+  ul.vemos{list-style:none;margin-bottom:2.8mm;}
   ul.vemos li{
-    font-size:9.3pt;line-height:1.45;padding-left:5mm;position:relative;margin-bottom:1.4mm;
+    font-size:9pt;line-height:1.4;padding-left:5mm;position:relative;margin-bottom:1.2mm;
   }
   ul.vemos li::before{content:"✦";position:absolute;left:0;color:var(--ocre);font-size:8pt;}
 
   ol.ejer{counter-reset:ej;list-style:none;}
   ol.ejer li{
-    counter-increment:ej;position:relative;padding:1.8mm 0 1.8mm 9mm;
-    border-bottom:1px dashed #e5d7bc;font-size:9.3pt;line-height:1.45;
+    counter-increment:ej;position:relative;padding:1.5mm 0 1.5mm 9mm;
+    border-bottom:1px dashed #e5d7bc;font-size:9pt;line-height:1.4;
   }
   ol.ejer li:last-child{border-bottom:none;}
   ol.ejer li::before{
-    content:counter(ej);position:absolute;left:0;top:1.6mm;
-    width:5.5mm;height:5.5mm;border-radius:50%;
+    content:counter(ej);position:absolute;left:0;top:1.4mm;
+    width:5.2mm;height:5.2mm;border-radius:50%;
     background:var(--terracota);color:#fff;
-    font-family:"Liberation Serif",serif;font-weight:bold;font-size:9pt;
+    font-family:"Liberation Serif",serif;font-weight:bold;font-size:8.5pt;
     display:flex;align-items:center;justify-content:center;
   }
 
-  .rutina{
-    background:#fff;border:1px solid #e3d5bd;border-radius:4px;padding:3.5mm 4.5mm;
-  }
-  .rutina .rt{font-size:9px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;color:var(--verde);margin-bottom:2mm;}
+  .rutina{background:#fff;border:1px solid #e3d5bd;border-radius:4px;padding:3.2mm 4.2mm;}
+  .rutina .rt{font-size:9px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;color:var(--verde);margin-bottom:1.8mm;}
   .rutina .rt span{color:var(--suave);font-weight:normal;letter-spacing:0;text-transform:none;}
   .rutina ul{list-style:none;}
-  .rutina li{
-    font-size:9pt;line-height:1.4;margin-bottom:1.6mm;display:flex;gap:2.5mm;
-  }
+  .rutina li{font-size:8.7pt;line-height:1.35;margin-bottom:1.4mm;display:flex;gap:2.2mm;}
   .rutina li b.min{
     flex:none;background:var(--crema2);color:var(--tierra);border-radius:2px;
-    font-size:8pt;padding:.6mm 1.8mm;height:fit-content;white-space:nowrap;
+    font-size:7.6pt;padding:.5mm 1.6mm;height:fit-content;white-space:nowrap;
     font-family:"Liberation Serif",serif;
   }
   .tarea{
     background:var(--crema2);border-left:3px solid var(--ocre);border-radius:0 3px 3px 0;
-    padding:2.8mm 4mm;font-size:9.2pt;line-height:1.45;margin-bottom:4mm;
+    padding:2.4mm 4mm;font-size:8.9pt;line-height:1.4;margin-bottom:2.8mm;
   }
-  .tarea b{color:var(--terracota);letter-spacing:1.5px;text-transform:uppercase;font-size:8pt;}
+  .tarea b{color:var(--terracota);letter-spacing:1.5px;text-transform:uppercase;font-size:7.8pt;}
 
-  ul.chk{list-style:none;background:#fff;border:1px solid #e3d5bd;border-radius:4px;padding:3mm 4.5mm;margin-bottom:3.5mm;}
-  ul.chk li{
-    font-size:9.3pt;line-height:1.45;padding:1.7mm 0 1.7mm 8.5mm;position:relative;
-    border-bottom:1px dashed #e9dcc2;
+  .earbox{
+    background:var(--crema2);border-left:3px solid var(--verde);border-radius:0 3px 3px 0;
+    padding:2.4mm 4mm;font-size:8.9pt;line-height:1.4;margin-bottom:2.8mm;
   }
+  .earbox b{color:var(--verde);letter-spacing:1.5px;text-transform:uppercase;font-size:7.8pt;}
+
+  ul.chk{list-style:none;background:#fff;border:1px solid #e3d5bd;border-radius:4px;padding:2.6mm 4.2mm;margin-bottom:2.8mm;}
+  ul.chk li{font-size:9pt;line-height:1.4;padding:1.5mm 0 1.5mm 8.5mm;position:relative;border-bottom:1px dashed #e9dcc2;}
   ul.chk li:last-child{border-bottom:none;}
   ul.chk li::before{
-    content:"";position:absolute;left:0;top:2.1mm;
-    width:4.6mm;height:4.6mm;border:1.5px solid var(--terracota);border-radius:1mm;background:#fff;
+    content:"";position:absolute;left:0;top:1.9mm;
+    width:4.4mm;height:4.4mm;border:1.5px solid var(--terracota);border-radius:1mm;background:#fff;
   }
   ul.chk li.big{font-weight:bold;color:var(--tierra);}
   ul.chk li.big::before{border-color:var(--verde);border-width:2px;}
 
-  .notas .nl{border-bottom:1px solid #d8c8ae;height:7mm;}
+  .notas .nl{border-bottom:1px solid #d8c8ae;height:6mm;}
 
   /* medidor de progreso */
   .prog{display:flex;gap:2.5mm;margin:3mm 0 1mm;}
-  .prog .p{
-    flex:1;text-align:center;border:1.5px solid var(--terracota);border-radius:2.5mm;
-    padding:2.4mm 0 2mm;background:#fff;
-  }
-  .prog .p .c{
-    width:6mm;height:6mm;border:1.5px solid var(--terracota);border-radius:50%;
-    margin:0 auto 1.5mm;background:#fff;
-  }
+  .prog .p{flex:1;text-align:center;border:1.5px solid var(--terracota);border-radius:2.5mm;padding:2.4mm 0 2mm;background:#fff;}
+  .prog .p .c{width:6mm;height:6mm;border:1.5px solid var(--terracota);border-radius:50%;margin:0 auto 1.5mm;background:#fff;}
   .prog .p .t{font-size:8pt;font-family:"Liberation Serif",serif;font-weight:bold;color:var(--tierra);}
   .prog .p.m2{border-color:var(--verde);} .prog .p.m2 .c{border-color:var(--verde);}
   .prog .p.m3{border-color:var(--ocre);} .prog .p.m3 .c{border-color:var(--ocre);}
@@ -217,19 +206,34 @@
   .ruta .paso::after{content:"→";position:absolute;right:-4.2mm;top:50%;transform:translateY(-50%);color:var(--ocre);font-size:13pt;z-index:2;}
   .ruta .paso:last-child::after{content:none;}
 
-  .metabox{
-    background:linear-gradient(135deg,#5c6b4c,#48543b);
-    color:#f2f0e4;border-radius:5px;padding:4mm 6mm;
-  }
+  .metabox{background:linear-gradient(135deg,#5c6b4c,#48543b);color:#f2f0e4;border-radius:5px;padding:4mm 6mm;}
   .metabox .k{font-size:8.5pt;letter-spacing:3px;text-transform:uppercase;color:#cdd6b8;margin-bottom:1.5mm;}
   .metabox p{font-family:"Liberation Serif",serif;font-size:11.5pt;font-style:italic;line-height:1.4;}
 
   .setline{display:grid;grid-template-columns:10mm 1fr 34mm 22mm;gap:3mm;align-items:end;margin-bottom:5mm;}
   .setline .lab{font-size:8pt;letter-spacing:1.5px;text-transform:uppercase;color:var(--suave);}
   .setline .fld{border-bottom:1px solid #b89f7c;height:7.5mm;}
-  .setline .n{
-    font-family:"Liberation Serif",serif;font-size:15pt;font-weight:bold;color:var(--terracota);text-align:center;
-  }
+  .setline .n{font-family:"Liberation Serif",serif;font-size:15pt;font-weight:bold;color:var(--terracota);text-align:center;}
+
+  /* ============ DIAGRAMAS Y TABLATURAS ============ */
+  .chordset{display:flex;justify-content:center;gap:6mm;margin:3mm 0 4mm;flex-wrap:wrap;}
+  .chord{text-align:center;}
+  .chord svg{display:block;margin:0 auto;}
+  .chord .cn{font-family:"Liberation Serif",serif;font-weight:bold;font-size:11pt;color:var(--terracota);margin-top:1mm;}
+
+  .barreset{display:flex;justify-content:center;gap:10mm;margin:3mm 0 2mm;flex-wrap:wrap;}
+  .barre{text-align:center;}
+  .barre .cn{font-family:"Liberation Serif",serif;font-weight:bold;font-size:10.5pt;color:var(--terracota);margin-top:1mm;}
+  .barre .sub{font-size:8pt;color:var(--suave);max-width:52mm;margin:0.5mm auto 0;line-height:1.3;}
+
+  .tabbox{background:#fff;border:1px solid #e3d5bd;border-radius:4px;padding:2.4mm 4.2mm;margin-bottom:2.2mm;}
+  .tabbox .tt{font-size:8.6px;letter-spacing:1.6px;text-transform:uppercase;font-weight:bold;color:var(--terracota);margin-bottom:1mm;}
+  .tabbox pre{font-family:"Liberation Mono",monospace;font-size:8pt;line-height:1.32;white-space:pre;color:var(--tinta);}
+  .tabbox .cap{font-size:8pt;color:var(--suave);font-style:italic;margin-top:1.1mm;line-height:1.32;}
+
+  .rhtable{margin-bottom:3mm;}
+  .rhtable td{font-size:9pt;}
+  .rhtable td:first-child{font-weight:bold;color:var(--terracota);width:22mm;}
 </style>
 </head>
 <body>
@@ -239,7 +243,7 @@
   <div class="topline">Cuaderno del alumno</div>
 
   <div class="cover-main">
-    <svg class="guitar" width="130" height="130" viewBox="0 0 120 120" fill="none">
+    <svg class="guitar" width="120" height="120" viewBox="0 0 120 120" fill="none">
       <circle cx="60" cy="60" r="57" stroke="#c98a2d" stroke-width="1.2" opacity="0.5"/>
       <circle cx="60" cy="60" r="50" stroke="#c98a2d" stroke-width="0.6" opacity="0.35"/>
       <path d="M60 96 C46 96 38 87 38 76 C38 68 43 65 43 58 C43 51 39 48 39 41 C39 32 48 26 60 26 C72 26 81 32 81 41 C81 48 77 51 77 58 C77 65 82 68 82 76 C82 87 74 96 60 96 Z"
@@ -259,12 +263,12 @@
     </svg>
 
     <h1>Mi camino en el<br><em>Folklore Argentino</em></h1>
-    <p class="sub">Transporte · círculos armónicos · punteos de introducción · lectura<br>Para tocar donde más importa: la peña.</p>
+    <p class="sub">Transporte · círculos armónicos · punteos de introducción · lectura<br>Con diagramas de acordes y tablaturas para practicar solo.</p>
 
     <div class="ritmos">Chamamé <span>✦</span> Zamba <span>✦</span> Chacarera <span>✦</span> Música Cristiana</div>
 
     <div class="badges">
-      <div class="badge"><div class="n">12</div><div class="t">Clases</div></div>
+      <div class="badge"><div class="n">12+1</div><div class="t">Clases</div></div>
       <div class="badge"><div class="n">3</div><div class="t">Metas</div></div>
       <div class="badge"><div class="n">1</div><div class="t">Mini peña final</div></div>
     </div>
@@ -284,21 +288,26 @@
   <h2 class="title">Cómo usar <em>este cuaderno</em></h2>
 
   <p style="margin-bottom:3.5mm;">Cada clase tiene su propia página. La usamos <b>juntos</b>: en la clase vemos los contenidos
-  y los ejercicios; en tu casa seguís la <b>rutina de la semana</b> (20–25 minutos por día alcanzan, lo que importa es
-  <b>todos los días</b>); y cuando lográs algo, lo tildás en el <b>checklist</b>. Nada se tilda "porque sí" — se tilda cuando sale.</p>
+  y los ejercicios; en tu casa seguís la <b>rutina de la semana</b>; y cuando lográs algo, lo tildás en el <b>checklist</b>.
+  Nada se tilda "porque sí" — se tilda cuando sale. Al final del cuaderno hay un <b>Anexo musical</b> con los diagramas
+  de acordes y las tablaturas de cada ejercicio, para que puedas practicar solo sin depender de acordarte de memoria.</p>
 
-  <div class="cols" style="grid-template-columns:1fr 1fr 1fr;">
+  <div class="cols" style="grid-template-columns:1fr 1fr 1fr 1fr;">
     <div class="card">
-      <h3>✦ En cada clase</h3>
-      <p>Qué vamos a ver, los ejercicios que hacemos juntos y la tarea para la semana.</p>
+      <h3>✦ En clase</h3>
+      <p>Contenidos y ejercicios que hacemos juntos.</p>
     </div>
     <div class="card">
-      <h3>✎ En tu casa</h3>
-      <p>La rutina diaria de la semana. Corta y concreta. Si un día no podés, no pasa nada: retomá al día siguiente.</p>
+      <h3>♪ El oído</h3>
+      <p>Ejercicios cortos de entrenar el oído — clave para transportar de verdad.</p>
     </div>
     <div class="card">
-      <h3>✓ El checklist</h3>
-      <p>"Lo logré cuando…" — frases concretas y comprobables. Cuando están todas tildadas, la clase está ganada.</p>
+      <h3>✎ En casa</h3>
+      <p>Rutina diaria corta. Si un día no podés, retomá al día siguiente.</p>
+    </div>
+    <div class="card">
+      <h3>✓ Checklist</h3>
+      <p>"Lo logré cuando…" — se tilda cuando de verdad sale.</p>
     </div>
   </div>
 
@@ -311,7 +320,7 @@
     <div class="paso"><div class="m">Mes 3 · Clases 9–12</div><div class="q">El bordoneo del chamamé, lectura y tu set</div></div>
   </div>
 
-  <div class="kicker" style="margin-top:4mm;">Mi progreso — tildá cada clase cumplida</div>
+  <div class="kicker" style="margin-top:3.5mm;">Mi progreso — tildá cada clase cumplida</div>
   <div class="prog">
     <div class="p"><div class="c"></div><div class="t">1</div></div>
     <div class="p"><div class="c"></div><div class="t">2</div></div>
@@ -339,6 +348,40 @@
   <div class="pagenum">Página 2</div>
 </div>
 
+<!-- ================= CLASE 0 ================= -->
+<div class="page">
+  <span class="month-tag gris">Antes de la clase 1</span>
+  <div class="clase-band gris"><span class="num">Clase 0</span><span class="nom">"Tu punto de partida" — previa, sin profe</span></div>
+
+  <p style="margin-bottom:4mm;">Antes de arrancar, queremos ver de dónde salís — así la clase 1 va directo al
+  concepto nuevo, sin gastar tiempo de clase en esto.</p>
+
+  <div class="sec-t">Lo que hacés esta semana, en tu casa</div>
+  <ol class="ejer" style="margin-bottom:4mm;">
+    <li>Grabá un audio o video corto (con el celular alcanza) tocando <b>2 temas que ya sepas de memoria</b>:
+    una chacarera y un chamamé (o los dos ritmos que más toques).</li>
+    <li>No hace falta que sean perfectos — grabalos como los tocarías en una peña, con tus errores incluidos.</li>
+    <li>Mandaselos a tu profe antes de la clase 1, por donde sea más cómodo (WhatsApp, mail).</li>
+  </ol>
+
+  <div class="earbox"><b>Por qué esto importa</b> — Escuchándote antes, tu profe arma la clase 1 sobre TU forma
+  de tocar real, no sobre una genérica. Y vos arrancás la clase 1 ya "adentro" del tema, sin la incomodidad de
+  tocar por primera vez frente a alguien.</div>
+
+  <div class="sec-t v">Checklist — listo para la clase 1 cuando…</div>
+  <ul class="chk">
+    <li>Grabé un audio o video de una chacarera de memoria.</li>
+    <li>Grabé un audio o video de un chamamé de memoria.</li>
+    <li>Se los mandé a mi profe antes de la clase 1.</li>
+  </ul>
+
+  <div class="sec-t o">Notas</div>
+  <div class="notas"><div class="nl"></div><div class="nl"></div></div>
+
+  <div class="pagefoot">Previa · Clase 0</div>
+  <div class="pagenum">Página 3</div>
+</div>
+
 <!-- ================= CLASE 1 ================= -->
 <div class="page">
   <span class="month-tag">Mes 1 · Transporte y círculos</span>
@@ -348,26 +391,33 @@
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
-        <li>Tocás 2 temas tuyos para que veamos juntos tu punto de partida.</li>
+        <li>Repasamos juntos lo que mandaste en la clase 0: tu punto de partida real.</li>
         <li>La escala mayor y sus <b>grados</b>: I, IIm, IIIm, IV, V7, VIm.</li>
         <li>El <b>círculo armónico de Sol</b> (el de tantos chamamés): G – C – D7 – Em – Am.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>Círculo de Sol con ritmo de chamamé, redondo y sin frenar.</li>
+        <li>Círculo de Sol con ritmo de chamamé, redondo y sin frenar (diagramas de acordes en el Anexo musical, pág. 16).</li>
         <li>Agarramos un tema que ya tocás y le ponemos <b>número</b> a cada acorde: "este es el I, este el V7…".</li>
         <li>El mismo círculo I–IV–V7 pero en Re y en La: la fórmula es la misma, cambia la "casa".</li>
+        <li><b>Punteo bonus:</b> primeras notas de la pentatónica de Mi menor (tab en el Anexo musical, pág. 17).</li>
       </ol>
     </div>
     <div class="rutina">
       <div class="rt">Rutina de la semana <span>· 20 min/día</span></div>
       <ul>
         <li><b class="min">5'</b> Círculo de Sol, lento y parejo, que suene lindo.</li>
-        <li><b class="min">10'</b> El círculo en Re y en La, diciendo los grados en voz alta ("uno… cuatro… cinco siete…").</li>
-        <li><b class="min">5'</b> Un tema tuyo, pensando el número de cada acorde mientras lo tocás.</li>
+        <li><b class="min">8'</b> El círculo en Re y en La, diciendo los grados en voz alta ("uno… cuatro… cinco siete…").</li>
+        <li><b class="min">4'</b> Un tema tuyo, pensando el número de cada acorde mientras lo tocás.</li>
+        <li><b class="min">3'</b> Punteo bonus: la pentatónica del Anexo, lenta.</li>
       </ul>
     </div>
   </div>
+
+  <div class="earbox"><b>Entrenar el oído</b> — Antes de tocar un acorde nuevo, cantalo (aunque sea bajito) antes
+  de pulsarlo. Este hábito, sostenido en las próximas clases, es lo que te va a permitir transportar sin mirar
+  ninguna tabla. Bonus: desde esta semana escuchá 5 minutos por día a Formentín (o al chamamecero que más te guste)
+  mientras hacés otra cosa — no hace falta estudiarlo todavía, solo que tu oído se vaya empapando.</div>
 
   <div class="tarea"><b>Tarea ✎</b> — Escribí los grados de 2 temas que te gusten: uno de folklore y uno cristiano.
   Pista: la música cristiana usa I–IV–V–VIm todo el tiempo… vas a ver que ya la conocés.</div>
@@ -376,7 +426,7 @@
   <ul class="chk">
     <li>Toco el círculo de Sol de memoria, sin frenar entre acordes.</li>
     <li>Puedo decir el grado de cada acorde de un tema mío.</li>
-    <li>Entiendo por qué el V lleva séptima (V7) y hacia dónde "empuja".</li>
+    <li>Canto la nota antes de tocar un acorde nuevo, aunque sea flojito.</li>
     <li>Hice la tarea: 2 temas analizados con sus grados.</li>
   </ul>
 
@@ -384,7 +434,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 1 · Clase 1</div>
-  <div class="pagenum">Página 3</div>
+  <div class="pagenum">Página 4</div>
 </div>
 
 <!-- ================= CLASE 2 ================= -->
@@ -397,14 +447,15 @@
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
         <li>Transportar con grados: si el tema es I–IV–V7 en Sol, en La es A–D–E7.</li>
-        <li>La <b>tabla de transporte</b> (está al final del cuaderno): tus 12 tonalidades.</li>
-        <li>La cejilla como <b>acorde móvil</b>: forma de Mi y forma de La corridas por el mástil.</li>
+        <li>La <b>tabla de transporte</b> (pág. 18): tus 12 tonalidades.</li>
+        <li>La cejilla como <b>acorde móvil</b>: forma de Mi y forma de La (diagramas en pág. 16).</li>
+        <li>El <b>capo</b>: un atajo válido, no una trampa — cuándo conviene usarlo.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
         <li>UN tema en 4 tonalidades: la original, un tono arriba, un tono abajo, y una incómoda (Si♭ o Mi♭) para que trabaje la cejilla.</li>
         <li>El mismo acorde en 3 lugares del mástil usando las formas móviles.</li>
-        <li>Carrera con la tabla: te digo una tonalidad y encontrás sus acordes en menos de un minuto.</li>
+        <li>El mismo tema transportado con cejilla vs. con capo: comparamos sonido y esfuerzo.</li>
       </ol>
     </div>
     <div class="rutina">
@@ -412,8 +463,19 @@
       <ul>
         <li><b class="min">5'</b> Cejilla: forma de Mi subiendo traste por traste, limpita.</li>
         <li><b class="min">10'</b> El tema de la clase en UNA tonalidad nueva por día.</li>
-        <li><b class="min">10'</b> Círculos I–IV–V7 en la tonalidad del día.</li>
+        <li><b class="min">10'</b> Círculos I–IV–V7 en la tonalidad del día, cantando la tónica antes de tocarla.</li>
       </ul>
+    </div>
+  </div>
+
+  <div class="cols" style="grid-template-columns:1fr;">
+    <div class="tabbox">
+      <div class="tt">Cejilla vs. capo — cuándo conviene cada uno</div>
+      <table class="rhtable">
+        <tr><td>Cejilla (mástil)</td><td>Construye mástil real, no depende de un objeto que se te puede olvidar. Ideal cuando tocás vos solo o querés total libertad.</td></tr>
+        <tr><td>Capo</td><td>Instantáneo, cero curva de aprendizaje. Ideal cuando cantás vos mismo o hay que resolver un cambio de tono YA, en el momento.</td></tr>
+      </table>
+      <div class="cap">La meta no es elegir uno: es saber los dos y usar el que convenga en cada momento.</div>
     </div>
   </div>
 
@@ -423,43 +485,43 @@
   <div class="sec-t v">Checklist — lo logré cuando…</div>
   <ul class="chk">
     <li>Encuentro cualquier acorde mayor o menor con cejilla, sin buscar de a uno.</li>
-    <li>Transporto un tema con la tabla en menos de un minuto.</li>
+    <li>Sé cuándo me conviene usar capo y cuándo tocar sin él.</li>
     <li>Me sé la regla: un tono = 2 trastes, medio tono = 1 traste.</li>
     <li>Pasé el tema por las 12 tonalidades (aunque algunas salgan lentas).</li>
   </ul>
 
   <div class="sec-t o">Notas de la clase</div>
-  <div class="notas"><div class="nl"></div><div class="nl"></div></div>
+  <div class="notas"><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 1 · Clase 2</div>
-  <div class="pagenum">Página 4</div>
+  <div class="pagenum">Página 5</div>
 </div>
 
 <!-- ================= CLASE 3 ================= -->
 <div class="page">
   <span class="month-tag">Mes 1 · Transporte y círculos</span>
-  <div class="clase-band"><span class="num">Clase 3</span><span class="nom">"Transporte en tiempo real, como en la peña"</span></div>
+  <div class="clase-band"><span class="num">Clase 3</span><span class="nom">"Seguir a quien canta" — tono, tempo y dinámica</span></div>
 
   <div class="cols">
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
         <li>Que el transporte deje de ser un cálculo y sea un <b>reflejo</b>.</li>
+        <li>En una peña real no solo cambia el tono: también cambia el <b>tempo</b> y la <b>dinámica</b> (volumen) según quién canta.</li>
         <li>Los <b>círculos menores</b>: Im – IVm – V7 (Am – Dm – E7). Ahí viven la zamba y la chacarera.</li>
-        <li>Reconocer de oído si un tema está en mayor o en menor.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li><b>Simulación de peña:</b> yo canto y en el medio del tema te digo "me queda alto, bajámelo un tono". Resolvés sin parar la música.</li>
+        <li><b>Simulación de peña ampliada:</b> yo canto y en el medio del tema te digo "me queda alto, bajámelo un tono" — o directamente <b>acelero, freno o bajo la voz sin avisar</b>. Vos seguís sin cortar la música.</li>
         <li>Círculo menor en Em, Am y Dm con ritmo de chacarera.</li>
-        <li>Una zamba en Mi menor → la pasamos a La menor y a Re menor.</li>
+        <li>Una zamba en Mi menor → la pasamos a La menor y a Re menor, cantando la tónica antes de cada cambio.</li>
       </ol>
     </div>
     <div class="rutina">
       <div class="rt">Rutina de la semana <span>· 25 min/día</span></div>
       <ul>
         <li><b class="min">5'</b> Círculos menores (Em, Am, Dm), parejos.</li>
-        <li><b class="min">10'</b> Transporte sorpresa: pedile a alguien que te diga un tono al azar (o tirá un dado) y resolvé ya.</li>
+        <li><b class="min">10'</b> Practicá siguiendo un video real de folklore: un cantor que acelera, frena, baja la voz — vos lo seguís tocando.</li>
         <li><b class="min">10'</b> La zamba de la clase en 3 tonos, encadenados sin frenar.</li>
       </ul>
     </div>
@@ -471,16 +533,16 @@
   <div class="sec-t v">Checklist — lo logré cuando…</div>
   <ul class="chk">
     <li>Cambio de tono en el medio del tema sin parar la música.</li>
-    <li>Toco el círculo menor en al menos 3 tonalidades.</li>
+    <li>Sigo un cambio de tempo o de volumen sin perder el pulso.</li>
     <li>Reconozco de oído si un tema está en mayor o en menor.</li>
     <li>Me grabé, me escuché, y noto qué mejorar.</li>
   </ul>
 
   <div class="sec-t o">Notas de la clase</div>
-  <div class="notas"><div class="nl"></div><div class="nl"></div></div>
+  <div class="notas"><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 1 · Clase 3</div>
-  <div class="pagenum">Página 5</div>
+  <div class="pagenum">Página 6</div>
 </div>
 
 <!-- ================= CLASE 4 ================= -->
@@ -492,15 +554,15 @@
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
-        <li><b>LA PRUEBA:</b> 3 temas tuyos, yo te tiro la tonalidad en el momento, vos resolvés.</li>
+        <li><b>LA PRUEBA:</b> 3 temas tuyos, con sorpresas de tono, tempo y dinámica — como en una peña de verdad.</li>
         <li>Repaso de todos los círculos: Sol, Re, La, Mi, Em, Am, Dm, Bm.</li>
         <li>Adelanto del mes 2: tu <b>primera escala pentatónica</b>, sobre un chamamé.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>La prueba de la peña: "este en Fa"… "este bajámelo a Re"… sin red.</li>
+        <li>La prueba de la peña: "este en Fa"… "bajámelo a Re"… "ahora más rápido"… sin red.</li>
         <li>Ronda de círculos: mayores y menores, uno atrás del otro.</li>
-        <li>Pentatónica de Mi menor en primera posición, lenta, sobre la intro de un chamamé sencillo.</li>
+        <li>Pentatónica de Mi menor en posición abierta (pág. 17), lenta, sobre la intro de un chamamé sencillo.</li>
       </ol>
     </div>
     <div class="rutina">
@@ -513,22 +575,29 @@
     </div>
   </div>
 
+  <div class="metabox" style="margin-bottom:2.8mm;">
+    <div class="k">Meta real del mes 1</div>
+    <p>Reflejo total en las 8 tonalidades más usadas del folklore: Sol, Re, La, Mi, Em, Am, Dm y Bm. Para las demás
+    (Si♭, Fa#, Mi♭…) ya tenés el método — te van a salir un poco más lentas, y con la misma herramienta las vas a ir
+    ganando con el tiempo.</p>
+  </div>
+
   <div class="tarea"><b>Tarea del mes ✎</b> — Usá el transporte <b>en una peña real</b> (o en el grupo de alabanza).
   Cuando alguien pida cambiar el tono, ese momento es tuyo. Después me contás cómo fue.</div>
 
   <div class="sec-t v">Checklist — lo logré cuando…</div>
   <ul class="chk">
-    <li class="big">★ PASÉ LA PRUEBA DE LA PEÑA: 3 temas, tono sorpresa, sin frenar.</li>
-    <li>Toco los círculos en Sol, Re, La, Mi, Em, Am, Dm y Bm.</li>
+    <li class="big">★ PASÉ LA PRUEBA DE LA PEÑA: 3 temas, con tono, tempo y dinámica sorpresa, sin frenar.</li>
+    <li>Toco los círculos en Sol, Re, La, Mi, Em, Am, Dm y Bm sin pensar.</li>
     <li>Ya toco la primera posición de la pentatónica de Em.</li>
     <li>Usé el transporte en una peña o en el grupo de alabanza, en serio.</li>
   </ul>
 
   <div class="sec-t o">Notas de la clase</div>
-  <div class="notas"><div class="nl"></div><div class="nl"></div></div>
+  <div class="notas"><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 1 · Clase 4 · ¡Meta del mes!</div>
-  <div class="pagenum">Página 6</div>
+  <div class="pagenum">Página 7</div>
 </div>
 
 <!-- ================= CLASE 5 ================= -->
@@ -576,7 +645,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 2 · Clase 5</div>
-  <div class="pagenum">Página 7</div>
+  <div class="pagenum">Página 8</div>
 </div>
 
 <!-- ================= CLASE 6 ================= -->
@@ -588,21 +657,21 @@
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
-        <li>La <b>pentatónica menor completa</b> + notas cromáticas de paso.</li>
+        <li>La <b>pentatónica menor completa</b> en su forma móvil (tab en pág. 17) + notas cromáticas de paso.</li>
         <li>El gran secreto: <b>cambiar de escala = correr la misma forma</b> a otro traste (igual que la cejilla del mes 1).</li>
         <li>Púa o dedos según el estilo: chamamé, chacarera, alabanza.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>Pentatónica de Em completa en dos octavas, limpia.</li>
-        <li>La misma forma corrida: Em → Am → Bm. Tres escalas al precio de una.</li>
+        <li>Pentatónica en forma móvil, completa en dos octavas, limpia.</li>
+        <li>La misma forma corrida: Am (traste 5) → Bm (traste 7). Dos escalas al precio de una.</li>
         <li>Pregunta y respuesta: yo toco una frase sobre un chamamé, vos me respondés con otra.</li>
       </ol>
     </div>
     <div class="rutina">
       <div class="rt">Rutina de la semana <span>· 25 min/día</span></div>
       <ul>
-        <li><b class="min">10'</b> Pentatónica en 3 tonalidades distintas (una forma, tres trastes).</li>
+        <li><b class="min">10'</b> Pentatónica móvil en 3 tonalidades distintas (una forma, tres trastes).</li>
         <li><b class="min">5'</b> Cromatismos de paso: entrar y salir de la escala.</li>
         <li><b class="min">10'</b> Improvisar frases sobre un chamamé grabado.</li>
       </ul>
@@ -614,7 +683,7 @@
 
   <div class="sec-t v">Checklist — lo logré cuando…</div>
   <ul class="chk">
-    <li>Toco la pentatónica completa de memoria, en dos octavas.</li>
+    <li>Toco la pentatónica móvil de memoria, en dos octavas.</li>
     <li>Muevo la forma a cualquier tonalidad que me pidan.</li>
     <li>Improvisé 8 compases sobre un chamamé (y está grabado).</li>
     <li>Uso cromatismos de paso sin que suenen a error.</li>
@@ -624,7 +693,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 2 · Clase 6</div>
-  <div class="pagenum">Página 8</div>
+  <div class="pagenum">Página 9</div>
 </div>
 
 <!-- ================= CLASE 7 ================= -->
@@ -636,21 +705,21 @@
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
-        <li>La <b>intro punteada clásica de zamba</b>: arpegio + melodía en las primas.</li>
+        <li>El <b>patrón de arpegio típico de zamba</b> (modelo en pág. 17): pulgar-índice-medio-anular-medio.</li>
         <li>El secreto de las intros: casi siempre son <b>la última frase del tema</b>.</li>
         <li>Elegimos TU zamba: <i>Zamba de mi esperanza</i>, <i>Luna tucumana</i>, o la que más te guste.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>La melodía de la intro, sola y lenta, hasta que la cantes con los dedos.</li>
-        <li>Le sumamos los bajos y el arpegio.</li>
+        <li>El patrón de arpegio del Anexo sobre Em, hasta que salga solo.</li>
+        <li>El mismo patrón aplicado a cada acorde de tu zamba.</li>
         <li>La intro completa, enganchada con el rasguido del tema.</li>
       </ol>
     </div>
     <div class="rutina">
       <div class="rt">Rutina de la semana <span>· 25 min/día</span></div>
       <ul>
-        <li><b class="min">5'</b> La melodía sola, lenta, sin errores.</li>
+        <li><b class="min">5'</b> El patrón de arpegio, lento, sin errores.</li>
         <li><b class="min">10'</b> La intro por frases: repetí cada frase 5 veces bien.</li>
         <li><b class="min">10'</b> Intro completa + primera vuelta del tema.</li>
       </ul>
@@ -662,8 +731,8 @@
 
   <div class="sec-t v">Checklist — lo logré cuando…</div>
   <ul class="chk">
-    <li>Toco la melodía de la intro de memoria.</li>
-    <li>Toco la intro completa (melodía + bajos), aunque sea lenta.</li>
+    <li>Toco el patrón de arpegio del Anexo sin mirar la mano.</li>
+    <li>Toco la intro completa de mi zamba, aunque sea lenta.</li>
     <li>La intro sale en tempo de zamba.</li>
     <li>Engancho la intro con el rasguido sin cortar el clima.</li>
   </ul>
@@ -672,7 +741,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 2 · Clase 7</div>
-  <div class="pagenum">Página 9</div>
+  <div class="pagenum">Página 10</div>
 </div>
 
 <!-- ================= CLASE 8 ================= -->
@@ -685,12 +754,12 @@
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
         <li>El punteo de intro de <b>chacarera</b> con la escala menor que ya dominás.</li>
-        <li>Los adornos criollos: <b>mordentes y ligados</b> (hammer-on y pull-off).</li>
+        <li>Los adornos criollos: <b>mordentes y ligados</b> (hammer-on y pull-off — ejercicio en pág. 17).</li>
         <li>Elegimos TU chacarera: <i>Entre a mi pago sin golpear</i>, <i>La olvidada</i>, o la que quieras.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>Ligados sobre la escala menor: que suenen sin púa, solo con la zurda.</li>
+        <li>El ejercicio de ligados del Anexo: que suenen sin púa, solo con la zurda.</li>
         <li>Mordentes típicos de chacarera, primero aislados, después dentro de la frase.</li>
         <li>La intro completa de tu chacarera, con adornos.</li>
       </ol>
@@ -720,7 +789,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 2 · Clase 8 · ¡Meta del mes!</div>
-  <div class="pagenum">Página 10</div>
+  <div class="pagenum">Página 11</div>
 </div>
 
 <!-- ================= CLASE 9 ================= -->
@@ -732,13 +801,14 @@
     <div>
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
-        <li>El <b>bordoneo chamamecero</b>: la melodía en las cuerdas graves (bordonas) mientras acompañás arriba.</li>
+        <li>El <b>bordoneo chamamecero</b> (modelo en pág. 17): la melodía en las cuerdas graves (bordonas) mientras
+        acompañás arriba en el contratiempo.</li>
         <li>La técnica del <b>pulgar</b>: firme, parejo, con cuerpo.</li>
         <li>La intro de <i>Kilómetro 11</i> — LA intro chamamecera por excelencia.</li>
       </ul>
       <div class="sec-t">Ejercicios</div>
       <ol class="ejer">
-        <li>Pulgar solo sobre las bordonas: que cada nota tenga peso.</li>
+        <li>El modelo de bordoneo del Anexo: pulgar solo primero, después con el roce de acordes arriba.</li>
         <li>La melodía de <i>Kilómetro 11</i> en las bordonas, lenta.</li>
         <li>Le sumamos el acompañamiento arriba: primero un acorde por compás, después el ritmo completo.</li>
       </ol>
@@ -748,7 +818,7 @@
       <ul>
         <li><b class="min">10'</b> Bordoneo lento: melodía en bordonas, pulgar firme.</li>
         <li><b class="min">10'</b> <i>Kilómetro 11</i> por frases.</li>
-        <li><b class="min">5'</b> Escuchá a Formentín (o a Nini Flores en guitarra) y tratá de sacar UNA frase de oído.</li>
+        <li><b class="min">5'</b> Escuchá a Formentín (ya venís entrenando el oído desde el mes 1) y tratá de sacar UNA frase.</li>
       </ul>
     </div>
   </div>
@@ -768,7 +838,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 3 · Clase 9</div>
-  <div class="pagenum">Página 11</div>
+  <div class="pagenum">Página 12</div>
 </div>
 
 <!-- ================= CLASE 10 ================= -->
@@ -816,7 +886,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 3 · Clase 10</div>
-  <div class="pagenum">Página 12</div>
+  <div class="pagenum">Página 13</div>
 </div>
 
 <!-- ================= CLASE 11 ================= -->
@@ -864,7 +934,7 @@
   <div class="notas"><div class="nl"></div><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 3 · Clase 11</div>
-  <div class="pagenum">Página 13</div>
+  <div class="pagenum">Página 14</div>
 </div>
 
 <!-- ================= CLASE 12 ================= -->
@@ -877,13 +947,13 @@
       <div class="sec-t">En esta clase vemos</div>
       <ul class="vemos">
         <li><b>Tu mini peña:</b> tocás tu set de 3 temas, con sus intros punteadas, de corrido.</li>
-        <li>El desafío final: en uno de los temas, te cambio la tonalidad <b>en el momento</b>.</li>
+        <li>El desafío final: en uno de los temas, te cambio tono, tempo o dinámica <b>en el momento</b>.</li>
         <li>Miramos todo el camino recorrido… y armamos el plan de los próximos 3 meses.</li>
       </ul>
       <div class="sec-t">La dinámica</div>
       <ol class="ejer">
         <li>Set completo, sin parar entre temas, como en una peña de verdad.</li>
-        <li>El tono sorpresa: uno de los temas va en la tonalidad que yo diga.</li>
+        <li>La sorpresa: uno de los temas va con un cambio que yo decido en el momento.</li>
         <li>Brindis simbólico y repaso de los 3 checklists grandes del cuaderno.</li>
       </ol>
     </div>
@@ -902,17 +972,260 @@
 
   <div class="sec-t v">Checklist final — lo logré cuando…</div>
   <ul class="chk">
-    <li class="big">★ MES 1: transporto cualquier tema a cualquier tono, en el momento.</li>
+    <li class="big">★ MES 1: transporto con reflejo en las tonalidades más usadas del folklore, y sé aplicar el método a las demás.</li>
     <li class="big">★ MES 2: toco las intros de zamba y chacarera, de memoria y en tempo.</li>
-    <li class="big">★ MES 3: presenté mi set de 3 temas con intros punteadas — y sobreviví al tono sorpresa.</li>
+    <li class="big">★ MES 3: presenté mi set de 3 temas con intros punteadas — y sobreviví a la sorpresa.</li>
     <li>Tengo claro qué quiero aprender en los próximos 3 meses.</li>
   </ul>
 
   <div class="sec-t o">Notas de la clase</div>
-  <div class="notas"><div class="nl"></div><div class="nl"></div></div>
+  <div class="notas"><div class="nl"></div></div>
 
   <div class="pagefoot">Mes 3 · Clase 12 · ¡Gran cierre!</div>
-  <div class="pagenum">Página 14</div>
+  <div class="pagenum">Página 15</div>
+</div>
+
+<!-- ================= ANEXO MUSICAL I ================= -->
+<div class="page">
+  <span class="month-tag ocre">Anexo musical I · Para consultar en cualquier clase</span>
+  <h2 class="title">Acordes y <em>formas</em></h2>
+  <p class="lead">Los diagramas de cada clase están acá, todos juntos, para practicar solo cuando quieras.</p>
+
+  <div class="kicker">Círculo de Sol (clase 1) — acordes abiertos</div>
+  <div class="chordset">
+    <div class="chord">
+      <svg width="70" height="60" viewBox="0 0 86 74">
+        <line x1="8" y1="16" x2="8" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="22" y1="16" x2="22" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="36" y1="16" x2="36" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="50" y1="16" x2="50" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="64" y1="16" x2="64" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="78" y1="16" x2="78" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="8" y1="16" x2="78" y2="16" stroke="#3b2417" stroke-width="2.5"/>
+        <line x1="8" y1="32" x2="78" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="48" x2="78" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="64" x2="78" y2="64" stroke="#c9ad83" stroke-width="0.8"/>
+        <circle cx="8" cy="56" r="4.5" fill="#b4502a"/>
+        <circle cx="22" cy="40" r="4.5" fill="#b4502a"/>
+        <text x="36" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <text x="50" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <text x="64" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <circle cx="78" cy="56" r="4.5" fill="#b4502a"/>
+      </svg>
+      <div class="cn">G</div>
+    </div>
+    <div class="chord">
+      <svg width="70" height="60" viewBox="0 0 86 74">
+        <line x1="8" y1="16" x2="8" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="22" y1="16" x2="22" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="36" y1="16" x2="36" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="50" y1="16" x2="50" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="64" y1="16" x2="64" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="78" y1="16" x2="78" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="8" y1="16" x2="78" y2="16" stroke="#3b2417" stroke-width="2.5"/>
+        <line x1="8" y1="32" x2="78" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="48" x2="78" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="64" x2="78" y2="64" stroke="#c9ad83" stroke-width="0.8"/>
+        <text x="8" y="11" font-size="9" text-anchor="middle" fill="#3b2417">x</text>
+        <circle cx="22" cy="56" r="4.5" fill="#b4502a"/>
+        <circle cx="36" cy="40" r="4.5" fill="#b4502a"/>
+        <text x="50" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <circle cx="64" cy="24" r="4.5" fill="#b4502a"/>
+        <text x="78" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+      </svg>
+      <div class="cn">C</div>
+    </div>
+    <div class="chord">
+      <svg width="70" height="60" viewBox="0 0 86 74">
+        <line x1="8" y1="16" x2="8" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="22" y1="16" x2="22" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="36" y1="16" x2="36" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="50" y1="16" x2="50" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="64" y1="16" x2="64" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="78" y1="16" x2="78" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="8" y1="16" x2="78" y2="16" stroke="#3b2417" stroke-width="2.5"/>
+        <line x1="8" y1="32" x2="78" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="48" x2="78" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="64" x2="78" y2="64" stroke="#c9ad83" stroke-width="0.8"/>
+        <text x="8" y="11" font-size="9" text-anchor="middle" fill="#3b2417">x</text>
+        <text x="22" y="11" font-size="9" text-anchor="middle" fill="#3b2417">x</text>
+        <text x="36" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <circle cx="50" cy="40" r="4.5" fill="#b4502a"/>
+        <circle cx="64" cy="24" r="4.5" fill="#b4502a"/>
+        <circle cx="78" cy="40" r="4.5" fill="#b4502a"/>
+      </svg>
+      <div class="cn">D7</div>
+    </div>
+    <div class="chord">
+      <svg width="70" height="60" viewBox="0 0 86 74">
+        <line x1="8" y1="16" x2="8" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="22" y1="16" x2="22" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="36" y1="16" x2="36" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="50" y1="16" x2="50" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="64" y1="16" x2="64" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="78" y1="16" x2="78" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="8" y1="16" x2="78" y2="16" stroke="#3b2417" stroke-width="2.5"/>
+        <line x1="8" y1="32" x2="78" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="48" x2="78" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="64" x2="78" y2="64" stroke="#c9ad83" stroke-width="0.8"/>
+        <text x="8" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <circle cx="22" cy="40" r="4.5" fill="#b4502a"/>
+        <circle cx="36" cy="40" r="4.5" fill="#b4502a"/>
+        <text x="50" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <text x="64" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <text x="78" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+      </svg>
+      <div class="cn">Em</div>
+    </div>
+    <div class="chord">
+      <svg width="70" height="60" viewBox="0 0 86 74">
+        <line x1="8" y1="16" x2="8" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="22" y1="16" x2="22" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="36" y1="16" x2="36" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="50" y1="16" x2="50" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="64" y1="16" x2="64" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="78" y1="16" x2="78" y2="64" stroke="#3b2417" stroke-width="1"/>
+        <line x1="8" y1="16" x2="78" y2="16" stroke="#3b2417" stroke-width="2.5"/>
+        <line x1="8" y1="32" x2="78" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="48" x2="78" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="8" y1="64" x2="78" y2="64" stroke="#c9ad83" stroke-width="0.8"/>
+        <text x="8" y="11" font-size="9" text-anchor="middle" fill="#3b2417">x</text>
+        <text x="22" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+        <circle cx="36" cy="40" r="4.5" fill="#b4502a"/>
+        <circle cx="50" cy="40" r="4.5" fill="#b4502a"/>
+        <circle cx="64" cy="24" r="4.5" fill="#b4502a"/>
+        <text x="78" y="11" font-size="9" text-anchor="middle" fill="#3b2417">o</text>
+      </svg>
+      <div class="cn">Am</div>
+    </div>
+  </div>
+  <p class="note" style="text-align:center;margin-bottom:5mm;">Orden de cuerdas: Mi(grave)–La–Re–Sol–Si–Mi(agudo), izquierda a derecha. "o" = cuerda al aire · "x" = no se toca.</p>
+
+  <div class="kicker">Formas móviles con cejilla (clase 2)</div>
+  <div class="barreset">
+    <div class="barre">
+      <svg width="100" height="60" viewBox="0 0 100 74">
+        <text x="3" y="20" font-size="11" font-weight="bold" fill="#3b2417">3</text>
+        <line x1="18" y1="16" x2="18" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="32" y1="16" x2="32" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="46" y1="16" x2="46" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="60" y1="16" x2="60" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="74" y1="16" x2="74" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="88" y1="16" x2="88" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="18" y1="32" x2="88" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="18" y1="48" x2="88" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="18" y1="16" x2="88" y2="16" stroke="#3b2417" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="60" cy="32" r="4.5" fill="#b4502a"/>
+        <circle cx="32" cy="48" r="4.5" fill="#b4502a"/>
+        <circle cx="46" cy="48" r="4.5" fill="#b4502a"/>
+      </svg>
+      <div class="cn">Forma de Mi</div>
+      <div class="sub">Cejilla en 3er traste = Sol mayor. Movela a cualquier traste: la nota de la 6ª cuerda es el nombre del acorde.</div>
+    </div>
+    <div class="barre">
+      <svg width="100" height="60" viewBox="0 0 100 74">
+        <text x="3" y="20" font-size="11" font-weight="bold" fill="#3b2417">5</text>
+        <text x="18" y="11" font-size="9" text-anchor="middle" fill="#3b2417">x</text>
+        <line x1="18" y1="16" x2="18" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="32" y1="16" x2="32" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="46" y1="16" x2="46" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="60" y1="16" x2="60" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="74" y1="16" x2="74" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="88" y1="16" x2="88" y2="48" stroke="#3b2417" stroke-width="1"/>
+        <line x1="32" y1="32" x2="88" y2="32" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="32" y1="48" x2="88" y2="48" stroke="#c9ad83" stroke-width="0.8"/>
+        <line x1="32" y1="16" x2="88" y2="16" stroke="#3b2417" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="46" cy="48" r="4.5" fill="#b4502a"/>
+        <circle cx="60" cy="48" r="4.5" fill="#b4502a"/>
+        <circle cx="74" cy="48" r="4.5" fill="#b4502a"/>
+      </svg>
+      <div class="cn">Forma de La</div>
+      <div class="sub">Cejilla en 5to traste = Re mayor. La 6ª cuerda se apaga o no se toca. La nota de la 5ª cuerda es el nombre del acorde.</div>
+    </div>
+  </div>
+
+  <div class="divider">✦</div>
+
+  <div class="kicker">Técnica de mano derecha por género (pima)</div>
+  <table class="rhtable">
+    <tr><td>Zamba</td><td>Arpegio con pulgar (bajo) + índice-medio-anular en las cuerdas agudas (patrón de la pág. 17). Ataque suave, sonido cantado.</td></tr>
+    <tr><td>Chacarera</td><td>Rasgueo más percusivo, casi imitando el zapateo. Los punteos suman ligados (hammer-on/pull-off) para dar el "repique" criollo.</td></tr>
+    <tr><td>Chamamé</td><td>Fingerstyle puro (sin púa): el pulgar lleva la melodía en las bordonas mientras los dedos rozan el acorde en el contratiempo — el bordoneo.</td></tr>
+  </table>
+
+  <div class="pagefoot">Anexo musical I · Acordes y formas</div>
+  <div class="pagenum">Página 16</div>
+</div>
+
+<!-- ================= ANEXO MUSICAL II ================= -->
+<div class="page">
+  <span class="month-tag ocre">Anexo musical II · Para consultar en cualquier clase</span>
+  <h2 class="title">Escalas y <em>modelos de punteo</em></h2>
+  <p class="lead" style="margin-bottom:3mm;">Estos son ejercicios-modelo: te enseñan la técnica para que después la apliques al tema real que
+  elijas con tu profe. No son la transcripción exacta de una grabación — son la base que se adapta a cualquier tema.</p>
+
+  <div class="tabbox">
+    <div class="tt">1 · Pentatónica de Mi menor — posición abierta (clases 1 y 4)</div>
+    <pre>e|------------|
+B|------------|
+G|------------|
+D|--------0-2-|
+A|----0-2-----|
+E|0-3---------|</pre>
+    <div class="cap">Ascendente. Para bajar, tocá las mismas notas en orden inverso. Notas: E–G–A–B–D–E.</div>
+  </div>
+
+  <div class="tabbox">
+    <div class="tt">2 · Pentatónica menor — forma móvil / "caja 1" (clase 6)</div>
+    <pre>e|--5-----8--|
+B|--5-----8--|
+G|--5-----7--|
+D|--5-----7--|
+A|--5-----7--|
+E|--5-----8--|</pre>
+    <div class="cap">En 5to traste = pentatónica de La menor. Corré la misma forma al 7mo traste = pentatónica de Si menor.
+    Es la misma "caja" que usás para improvisar en cualquier tonalidad, moviéndola por el mástil.</div>
+  </div>
+
+  <div class="tabbox">
+    <div class="tt">3 · Patrón de arpegio de zamba — pulgar/índice/medio/anular/medio (clase 7)</div>
+    <pre>e|------0---|
+B|----0---0-|
+G|--0-------|
+D|----------|
+A|----------|
+E|0---------|</pre>
+    <div class="cap">Ejemplo sobre Em: bajo (pulgar) → 3ª cuerda (índice) → 2ª (medio) → 1ª (anular) → 2ª (medio).
+    Aplicá este mismo patrón, cuerda por cuerda, a cada acorde de la zamba que elijas.</div>
+  </div>
+
+  <div class="tabbox">
+    <div class="tt">4 · Ligados de chacarera — hammer-on y pull-off (clase 8)</div>
+    <pre>e|----------------|
+B|----------------|
+G|----------------|
+D|--0h2p0--0h2p0--|
+A|----------------|
+E|----------------|</pre>
+    <div class="cap">"h" = hammer-on (ligado ascendente, el dedo golpea la cuerda sin pulsar de nuevo) · "p" = pull-off
+    (ligado descendente). Repetí sosteniendo el pulso de chacarera (6/8), sin que se note dónde empieza el ligado.</div>
+  </div>
+
+  <div class="tabbox">
+    <div class="tt">5 · Modelo de bordoneo de chamamé (clase 9)</div>
+    <pre>e|---x-----x-----x-----x--|
+B|---x-----x-----x-----x--|
+G|---x-----x-----x-----x--|
+D|------------------------|
+A|------------------------|
+E|0-----2-----3-----5-----|</pre>
+    <div class="cap">El pulgar lleva la melodía en la 6ª cuerda (E–F#–G–A) mientras los dedos rozan un acorde ("x") en el
+    contratiempo, sobre las tres cuerdas agudas. Este es el corazón del bordoneo estilo Formentín: aplicalo sobre los
+    acordes de tu chamamé, cambiando la nota del bajo según el acorde que suene.</div>
+  </div>
+
+  <div class="pagefoot">Anexo musical II · Escalas y modelos de punteo</div>
+  <div class="pagenum">Página 17</div>
 </div>
 
 <!-- ================= TABLA DE TRANSPORTE ================= -->
@@ -933,7 +1246,7 @@
     <tr><td>B♭</td><td>B♭</td><td>Cm</td><td>Dm</td><td>E♭</td><td>F7</td><td>Gm</td></tr>
     <tr><td>E♭</td><td>E♭</td><td>Fm</td><td>Gm</td><td>A♭</td><td>B♭7</td><td>Cm</td></tr>
   </table>
-  <p class="note" style="margin-bottom:4.5mm;">Las filas resaltadas son las tonalidades que más suenan en el folklore.</p>
+  <p class="note" style="margin-bottom:4.5mm;">Las filas resaltadas son las tonalidades que más suenan en el folklore — la meta real del mes 1.</p>
 
   <div class="kicker">Círculos menores — donde viven la zamba y la chacarera</div>
   <table class="chordtable" style="margin-bottom:4.5mm;">
@@ -943,6 +1256,8 @@
     <tr><td>Dm</td><td>Dm</td><td>Gm</td><td>A7</td><td>C</td></tr>
     <tr><td>Bm</td><td>Bm</td><td>Em</td><td>F#7</td><td>A</td></tr>
   </table>
+  <p class="note" style="margin-bottom:4.5mm;">La chacarera, en particular, suele vivir casi entera en la alternancia
+  Im–V7 (por ejemplo Am–E7): no necesitás mucho más que eso para arrancar a improvisar sobre una.</p>
 
   <div class="cols" style="grid-template-columns:1fr 1fr;">
     <div class="card">
@@ -952,21 +1267,21 @@
       Bajar = lo mismo, hacia el clavijero.</p>
     </div>
     <div class="card">
-      <h3>Formas móviles</h3>
-      <p>Forma de <b>Mi</b> (raíz en 6ª cuerda) y forma de <b>La</b> (raíz en 5ª cuerda), corridas por el mástil,
-      te dan <b>todos los acordes</b> mayores y menores.</p>
+      <h3>Cejilla o capo</h3>
+      <p>Las dos son válidas. La cejilla construye mástil real; el capo resuelve instantáneo. Un buen guitarrista de
+      peña sabe usar las dos, según el momento.</p>
     </div>
   </div>
 
   <div class="pagefoot">Herramienta · Tabla de transporte</div>
-  <div class="pagenum">Página 15</div>
+  <div class="pagenum">Página 18</div>
 </div>
 
 <!-- ================= MI SET ================= -->
 <div class="page">
   <div class="kicker">La meta final</div>
   <h2 class="title">Mi set para la <em>mini peña</em></h2>
-  <p class="lead">Estos son los 3 temas que elijo para el cierre. Cada uno con su intro punteada. Uno va a cambiar de tono en el momento… y no sé cuál.</p>
+  <p class="lead">Estos son los 3 temas que elijo para el cierre. Cada uno con su intro punteada. Uno va a cambiar de tono, tempo o dinámica en el momento… y no sé cuál.</p>
 
   <div class="setline">
     <div class="n">1</div>
@@ -1007,7 +1322,7 @@
   </div>
 
   <div class="pagefoot">Cuaderno del alumno · Folklore Argentino</div>
-  <div class="pagenum">Página 16</div>
+  <div class="pagenum">Página 19</div>
 </div>
 
 </body>
