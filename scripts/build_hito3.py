@@ -537,6 +537,12 @@ S.append(tabla([
     [Paragraph("Final", CELL), Paragraph("Decidido y ensayado, y sabiendo en qué grado cerrás. Nada de apagarse porque se acabó el backing.", CELL)],
     [Paragraph("Bonus", CELL), Paragraph("Que el motivo del principio vuelva sobre el final.", CELL)],
 ], [3.0 * cm, W - 3.0 * cm]))
+S.append(Paragraph(
+    "<b>Una aclaración que parece obvia y no lo es:</b> tu entregable NO es el ejercicio 53 tocado de "
+    "memoria. Podés compartir su arquitectura (las 4 frases, dónde cae cada una) porque para eso está "
+    "como modelo — pero las notas, los licks y el remate tienen que ser los tuyos, los que armaste en "
+    "el ejercicio 50 y variaste después. Si tu solo se puede confundir nota por nota con el 53, no está "
+    "terminado: copiaste el mapa, no hiciste el viaje.", SMALL))
 
 S.append(Paragraph("PLANILLA DE PRÁCTICA", H2))
 dias = ["L", "M", "X", "J", "V", "S", "D"]
