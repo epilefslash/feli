@@ -70,10 +70,13 @@ S.append(tabla([
 S.append(Spacer(1, 8))
 S.append(Paragraph("GUION", H2))
 
-S.append(minuto("[0:00-0:45] Apertura",
-    "\"Bienvenido al Hito 1: El Mapa. En este primer video vamos a hacer UNA sola cosa, pero bien "
-    "hecha: dejar la Caja 1 sonando tan cómoda que dejes de mirarte la mano. Esto es la base de "
-    "TODO lo que viene después — no te apures a otros videos si esto todavía no te sale limpio.\""))
+S.append(minuto("[0:00-0:50] Apertura",
+    "\"Bienvenido al Hito 1: El Mapa. Sé lo que estás pensando al ver el título de hoy: 'la caja 1 "
+    "ya la conozco de memoria'. Y tenés razón. Pero te apuesto algo: no sabés EXACTAMENTE por qué "
+    "cuando la tocás vos suena a alumno, y cuando la toca Angus Young suena a disco. Hoy vamos a "
+    "encontrar esa diferencia, nota por nota — y en 8 minutos ya vas a tocar tu primer lick con "
+    "sabor real. Esto no es un repaso: es afinar con precisión quirúrgica algo que ya sabés a medias, "
+    "porque es la base de TODO lo que viene después.\""))
 S.append(Spacer(1, 6))
 
 S.append(minuto("[0:45-3:00] Ejercicio 1 — La caja, ida y vuelta",
