@@ -7,7 +7,7 @@ from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, PageBreak
 
 from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG,
-                               Diagrama, DiagramaFlechas, documento,
+                               Diagrama, DiagramaFlechas, MapaCompleto, documento,
                                tabla, banner, par, caja_oscura, ejercicio, score)
 
 doc = documento("Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf",
@@ -315,6 +315,26 @@ S.append(ejercicio(33, "La misma frase en tres volúmenes — caja 2", (
     "La misma frase de los ejercicios 27 y 30 (caja 2), para no sumar una posición nueva justo cuando la "
     "cabeza está ocupada con la dinámica."),
     "e33", W, "Sin tocar el ampli ni el pedal. Todo con la mano derecha."))
+
+S.append(PageBreak())
+S.append(Paragraph("ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS", H2))
+S.append(Paragraph(
+    "Este mes te concentraste en las cajas 1 y 2 a propósito — no tenía sentido pelearte con la ubicación "
+    "mientras la mano aprendía a bendear y a vibrar afinado. Pero fijate: la <b>técnica</b> no vive en una "
+    "caja. Bendear un tono es el mismo movimiento en la caja 3 que en la caja 1; un vibrato de muñeca es el "
+    "mismo gesto arriba que abajo. Lo que cambia es la digitación, no el mecanismo — y esa digitación ya la "
+    "tenés, viene del Hito 1.", BODY))
+S.append(Spacer(1, 4))
+S.append(MapaCompleto(W))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "<b>Antes de pasar al solo de evaluación, agarrá 10 minutos y probá esto:</b> elegí un bending de la "
+    "semana 6 y hacelo en las cajas 3, 4 y 5 sin que esté escrito — buscá la nota destino de oído, como en el "
+    "ejercicio 21. Después agarrá el vibrato medido del ejercicio 27 y repetilo parado en cada una de las "
+    "cinco. No hace falta que te salga prolijo la primera vez: lo que estás comprobando es que <b>no hay una "
+    "caja \"para el sabor\" y otras \"para el mapa\"</b> — hay un mástil, y el sabor va donde vayas vos. "
+    "El solo que sigue ya te va a pedir esto mismo, sin avisar.", SMALL))
+S.append(Spacer(1, 8))
 
 S.append(Paragraph("EJERCICIO 34 — EL SOLO DE EVALUACIÓN (tu entregable)", H2))
 S.append(Paragraph(

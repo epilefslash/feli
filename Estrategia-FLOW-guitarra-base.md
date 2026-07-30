@@ -1600,6 +1600,17 @@ real y correcto son 6. Corregido en el título.
 3. Falta una expectativa explícita de cuánto hay que practicar por semana para que las 12 semanas
    cierren (el material asume 20 min/día, 7 días — no está escrito en ningún lado que vea el alumno).
 
+**CUARTA RONDA — Feli: "por qué nos detenemos en 1 y 2, y no en todas".** Pregunta válida, verificada
+con la auditoría: el Hito 2 nunca da un momento explícito de "las 5 cajas", a diferencia del Hito 1
+(geografía pura) y del ej. 46 del Hito 3 (mismo lick, 5 cajas). La razón de fondo sigue siendo correcta
+— aislar posición mientras se aprende una técnica física nueva (afinar bending, controlar vibrato) — pero
+faltaba el momento de generalización una vez que la técnica ya está aprendida. Se agregó, sin sumar
+ejercicio numerado: una sección nueva **"ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS"**, justo antes
+del ej. 34 (el solo de evaluación, que YA recorre las 5 cajas — 38% fuera de la ventana). Incluye el mapa
+completo (`MapaCompleto`, reusado del Hito 1) y una consigna de práctica libre de 10 min: bendear de oído
+en cajas 3/4/5 y repetir el vibrato medido del ej. 27 en las cinco. Convierte el "sorpresa, el solo se
+mueve" en algo anunciado y practicado antes de llegar al entregable.
+
 ---
 
 ## 15) NOTAS DE CONTEXTO TÉCNICO (para mí, el asistente, en sesiones futuras)
