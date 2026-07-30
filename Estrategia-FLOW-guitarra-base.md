@@ -970,24 +970,35 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > un entregable a construir. No necesitás el delivery listo para definir qué vendés y cómo lo contás.
 > Este es el 80% hecho; el 20% final lo puliís con Nico. Los [corchetes] son las decisiones abiertas.
 
+> **DECISIÓN TOMADA (actual sesión) — se baja de 4 a 1-2 vivos/semana.** Inspirado en el caso real de
+> Sergio Assat (baterista, también aplica el método de Nico): su delivery es contenido PREGRABADO +
+> 1 reunión grupal en vivo/semana + grupo de WhatsApp para seguimiento. Feli decide copiar esa
+> estructura: **contenido pregrabado (basado en los 3 cuadernillos ya escritos) + 1-2 sesiones en vivo
+> por semana + grupo de WhatsApp**, en vez de las 4 sesiones semanales del borrador original. Baja
+> drásticamente el tiempo semanal de Feli por cohorte y es lo que de verdad escala a más cohortes en
+> paralelo. Ver sección 28-BIS más abajo para el detalle y la secuencia de producción.
+
 ### Ficha de la oferta (one-pager)
 - **Nombre:** "Solo con Sabor" — Programa de improvisación en rock/blues.
 - **Para quién:** guitarrista intermedio autodidacta (28-45) que sabe la pentatónica caja 1 y suena escolar.
 - **Promesa (Punto A → Punto B):** "En 90 días pasás de repetir siempre los mismos licks en la caja 1
   a improvisar solos de rock con sabor, moviéndote por las 5 cajas con bending, vibrato y espacio."
-- **Formato:** grupal online, 4-6 alumnos por cohorte. 4 sesiones en vivo por semana + grabaciones.
+- **Formato:** grupal online, 4-6 alumnos por cohorte. Contenido pregrabado + 1-2 sesiones en vivo por
+  semana + grupo de WhatsApp de seguimiento (modelo Sergio Assat).
 - **Duración:** 12 semanas (3 meses).
 - **Precio:** [USD 600 primera cohorte "fundadores" → subir a 900 con 2 testimonios].
 - **Garantía:** [propuesta abajo].
 
 ### Lo que INCLUYE (así lo comunicás — bullets de valor, no de features)
-- ✅ 4 clases en vivo por semana (Teoría · Técnica · Repertorio · Improvisación) — 48 clases en total.
-- ✅ Devolución personalizada de TU forma de tocar cada sábado (no un curso genérico: te corrijo a VOS).
+- ✅ Clases pregrabadas del método completo (los 3 hitos, mirás cuando quieras, para siempre).
+- ✅ 1-2 encuentros en vivo por semana (grupal): dudas, corrección, repertorio e improvisación.
+- ✅ Grupo de WhatsApp con seguimiento constante entre sesiones.
+- ✅ Devolución personalizada de TU forma de tocar (no un curso genérico: te corrijo a VOS).
 - ✅ El método de las 5 cajas conectadas: dejás de estar preso en la caja 1.
 - ✅ El sistema de "sabor": bending, vibrato, espacio y dinámica — lo que separa a un solo escolar de uno pro.
 - ✅ 20 licks propios inspirados en Page, Slash, Hendrix, Gary Moore y Angus.
 - ✅ Grupo reducido (máx 6): no sos un número, todos se conocen y tocan.
-- ✅ Grabaciones de todas las clases (te las quedás para siempre).
+- ✅ Grabaciones de todos los encuentros en vivo (te las quedás para siempre).
 - ✅ Comunidad de guitarristas al mismo nivel que vos (fin del "estudiar solo y frustrarse").
 
 ### El entregable-prueba (lo que se lleva el alumno — el antes/después)
@@ -1450,6 +1461,40 @@ de qué viene DESPUÉS del programa de 12 semanas (Módulo 2, futuro, ver secci�
   de entrada para gente con menos presupuesto.
 - **Regla de construcción:** armar primero la Capa 1 (ya en curso), y de ahí RECORTAR hacia afuera —
   nunca al revés. Esto ya es justo lo que se está haciendo.
+
+---
+
+## 28-BIS) DELIVERY NUEVO: MENOS VIVO, MÁS PREGRABADO (caso Sergio Assat) — DECISIÓN TOMADA
+
+> **Fuente:** Sergio Assat (baterista, aplica el mismo método de Nico) publicó en Instagram que dejó
+> las clases 1 a 1 y ahora enseña 100% online: clases pregrabadas + asesoramiento constante por
+> WhatsApp + **1 reunión grupal por semana**. Su temario son 6 módulos. Feli decidió adoptar la misma
+> lógica de delivery para "Solo con Sabor".
+
+### Qué cambia respecto al borrador original (sección 20, 4 sesiones/semana)
+- **Antes:** 4 clases en vivo por semana (Teoría, Técnica, Repertorio, Improvisación) = ~4 hs/semana
+  por cohorte, sin techo si se suman cohortes en paralelo.
+- **Ahora:** **1-2 encuentros en vivo por semana** (grupal) + **grupo de WhatsApp** para seguimiento
+  entre sesiones + **contenido pregrabado** que cubre lo que antes daban las 4 clases en vivo.
+- El vivo se reserva para lo que SÍ necesita presencia real: dudas puntuales, corrección personalizada,
+  repertorio/improvisación con devolución. Lo explicativo/teórico pasa a pregrabado.
+
+### Qué se graba, y qué NO
+- ❌ **NO sirve** grabar la clase en vivo con el primer alumno real como si fuera el contenido pregrabado
+  definitivo: tiene ruido (dudas de esa persona puntual, calidad de audio/cámara del alumno, ritmo
+  ajustado a un caso específico) y expone su imagen/voz sin pensarlo como producto.
+- ✅ **Sí conviene** grabar aparte, planeado, la explicación de cada ejercicio — usando los 3
+  cuadernillos YA ESCRITOS como guion (no arranca de cero: cada ejercicio ya tiene su objetivo y
+  explicación redactada). Es contenido "Capa 2": se graba una vez, sirve para todas las cohortes.
+
+### Orden de trabajo decidido (secuencia, no todo junto)
+1. **Ahora:** terminar de filmar los 3-4 reels que faltan para Instagram (video #9 "3 formas de romper
+   las cajas", Historia, Fijado, uno de los vendedores) — sigue siendo la prioridad, es lo que genera
+   leads.
+2. **Después:** recién ahí Feli se pone a grabar el contenido pregrabado del programa (ejercicio por
+   ejercicio, basado en los cuadernillos de los 3 hitos).
+> Razón para este orden: sin reels no hay leads, y sin leads no hay para quién grabar el pregrabado.
+> El pregrabado es para cuando ya haya gente en camino a comprar, no antes.
 
 ---
 
