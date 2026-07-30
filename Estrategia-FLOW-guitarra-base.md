@@ -1391,6 +1391,68 @@ fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en
 
 ---
 
+## 28) BANCO FIJO DE 4 SOLOS DE REFERENCIA (idea de Nico: repertorio reusable, no semanal)
+
+> **Origen:** Nico, en un video sobre "oferta en capas", comentó de pasada que no hace falta un
+> repertorio distinto cada semana — con 3 o 4 solos bien elegidos alcanza. Encaja directo con su
+> principio central: *"no crees cosas distintas para cada momento, la información es la misma —
+> lo que cambia es el vehículo/acompañamiento."* Aplicado a la sesión de Jueves (Repertorio), esto
+> significa: un banco FIJO de solos, reusable cohorte tras cohorte, en vez de preparar contenido
+> nuevo constante.
+
+### Los 4 solos elegidos (uno por hito + uno bonus integrador)
+
+| # | Hito | Canción | Guitarrista | Por qué |
+|---|---|---|---|---|
+| 1 | **Hito 1 — El Mapa** | "Back in Black" | Angus Young | Casi todo en caja 1, frases cortas, técnica simple. Primera copia posible desde semana 1, sin exigir bending complejo. |
+| 2 | **Hito 2 — El Sabor** | "The Thrill Is Gone" | B.B. King | Clase viva de vibrato + bending + espacio. Pocas notas, cada una con sabor — la tesis exacta del hito. Incluye el "B.B. box" (bend a la 3ª mayor: la primera nota "extra" que ve el alumno). |
+| 3 | **Hito 3 — El Vocabulario** | "Since I've Been Loving You" | Jimmy Page | Conecta varias cajas, licks robables y transportables — mismo mecanismo que el marco de los 5 pasos. |
+| 4 | **Bonus / graduación** | "Comfortably Numb" (2º solo) | David Gilmour | Integra las 3 capas (técnica + sabor + vocabulario) en un arco largo. Sirve como referencia del "objetivo final", no para copiar nota por nota — el alumno graba SU versión como entregable de cierre. |
+
+> **Ninguno es 100% pentatónico puro** — los 4 meten alguna nota de color (blue note, 3ª mayor tipo
+> B.B. box). Es un gancho pedagógico, no un problema: "esa nota que se sale de la escala es lo que
+> separa sonar a escuela de sonar a disco" — conecta directo con la promesa del programa.
+
+### Comparativa de técnicas
+| Técnica | Angus (H1) | B.B. King (H2) | Page (H3) | Gilmour (Bonus) |
+|---|---|---|---|---|
+| Slides | ✓ | – | ✓✓ | ✓✓ |
+| Bends | ✓ | ✓✓✓ | ✓✓ | ✓✓✓ |
+| Vibrato | – | ✓✓✓ | ✓ | ✓✓✓ |
+| Espacio/silencio | ✓ | ✓✓✓ | ✓ | ✓✓✓ |
+| Conexión de cajas | – | – | ✓✓✓ | ✓✓ |
+| Dinámica | ✓ | ✓✓ | ✓ | ✓✓✓ |
+
+### ⚠️ CONFLICTO A RESOLVER con la sección 20 (LA TABLA SEMANA A SEMANA ACTUAL)
+La sección 20 ya tiene un solo de referencia DISTINTO cada una de las 12 semanas (11 canciones
+distintas: Back in Black, Whole Lotta Love, Voodoo Child, Parisienne Walkways, Sweet Child O'Mine,
+Still Got the Blues, Thrill Is Gone, Texas Flood, Heartbreaker, Red House, November Rain). Esto es
+exactamente lo que Nico está desaconsejando: contenido nuevo por semana = trabajo no reusable y
+difícil de escalar a las capas 2 y 3 (Capa 2 = video grabado que se reusa con cada cohorte).
+
+**Dos caminos, a decidir (posiblemente con Nico):**
+1. **Reemplazar** la tabla de la sección 20: en vez de 1 solo nuevo por semana, cada Hito usa SU
+   solo fijo (Angus 4 semanas, B.B. King 4 semanas, Page 4 semanas), analizando un fragmento/técnica
+   distinta cada semana DEL MISMO solo. Menos variedad, pero 100% reusable y grabable una sola vez.
+2. **Híbrido:** mantener 1-2 solos "de color" adicionales por hito para variedad (los que ya están
+   elegidos en la sección 20), pero el banco fijo de 4 es el que se graba en video y se reusa siempre
+   — los demás quedan como sugerencias opcionales de escucha, no contenido a producir.
+
+**Pendiente:** todavía no se eligió QUÉ FRAGMENTO de cada solo usar (Feli lo va a decidir), y recién
+ahí se agrega la tablatura correspondiente a los cuadernillos.
+
+### Nota aparte — el modelo de "oferta en capas" de Nico (nuevo, guardado para referencia futura)
+Del mismo video, 3 ideas que no son sobre repertorio pero valen la pena guardar para cuando se hable
+de qué viene DESPUÉS del programa de 12 semanas (Módulo 2, futuro, ver sección 20):
+- **Capa 1 (high ticket):** el programa grupal actual — acompañamiento en vivo, resultado más rápido.
+- **Capa 2 (intermedia):** acceso a los videos grabados + comunidad, sin atención personalizada constante.
+- **Capa 3 (low ticket):** un mini-curso de un solo hito (ej. "Domina las 5 cajas en 7 días") — puerta
+  de entrada para gente con menos presupuesto.
+- **Regla de construcción:** armar primero la Capa 1 (ya en curso), y de ahí RECORTAR hacia afuera —
+  nunca al revés. Esto ya es justo lo que se está haciendo.
+
+---
+
 ## 15) NOTAS DE CONTEXTO TÉCNICO (para mí, el asistente, en sesiones futuras)
 - Repo: epilefslash/feli, branch `claude/music-teacher-workflow-rHifB`. PR #4 ya existe (no crear otro).
 - El usuario = Feli. Habla español rioplatense. NO confundir Feli con Nico.
