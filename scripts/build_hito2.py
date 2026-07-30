@@ -212,10 +212,12 @@ S.append(tabla([
                "es lo que suena caro.", CELL)],
 ], [4.4 * cm, W - 4.4 * cm]))
 
-S.append(ejercicio(27, "Vibrato medido (con metrónomo)", (
+S.append(ejercicio(27, "Vibrato medido (con metrónomo) — caja 2", (
     "La misma nota tres veces, con el vibrato contado: 2, 3 y 4 ondas por tiempo. Suena a ejercicio militar y "
     "esa es la idea — <b>vibrato que podés contar es vibrato que controlás</b>. Después vas a elegir la velocidad "
-    "según la frase, pero primero tenés que poder elegirla."),
+    "según la frase, pero primero tenés que poder elegirla.<br/><br/>"
+    "Va en la <b>caja 2</b> (tónica: 2ª cuerda, traste 10), no en la 1. Ya bendeaste ahí en la semana pasada — "
+    "esto sigue en el mismo territorio en vez de volver para atrás."),
     "e27", W, "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar."))
 
 S.append(ejercicio(28, "El mismo vibrato en tres registros (y un cuarto, en caja 4)", (
@@ -231,9 +233,11 @@ S.append(ejercicio(29, "Bending + vibrato (la combinación pro)", (
     "<b>desde arriba</b>, con la muñeca, sin dejar caer la nota."),
     "e29", W, "Lento. Si el bending se cae mientras vibrás, es que no tenías el bending firme. Volvé al ejercicio 21."))
 
-S.append(ejercicio(30, "El vibrato como remate", (
+S.append(ejercicio(30, "El vibrato como remate — caja 2", (
     "Una frase entera donde la última nota se sostiene con vibrato. Regla de oro: <b>la nota final de una frase "
-    "nunca se deja sola</b>. Si termina seca, la frase suena a que te olvidaste de algo."),
+    "nunca se deja sola</b>. Si termina seca, la frase suena a que te olvidaste de algo.<br/><br/>"
+    "También en <b>caja 2</b>, resolviendo en su propia tónica (2ª cuerda, traste 10) — misma idea que en la "
+    "caja 1, otro lugar del mástil."),
     "e30", W, "Con backing. Grabate: si el vibrato de la última nota no se escucha, no existió."))
 
 # ============================================================ SEMANA 8
@@ -257,16 +261,20 @@ S.append(ejercicio(31, "La regla de las 3 notas (y de nuevo, en caja 5)", (
     "la misma idea en la <b>caja 5</b>: abajo el silencio pesa distinto, y también hay que aprender a tolerarlo ahí."),
     "e31", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
 
-S.append(ejercicio(32, "Pregunta y respuesta", (
+S.append(ejercicio(32, "Pregunta y respuesta — caja 2", (
     "Dos frases con el <b>mismo ritmo</b> y distinto final: la primera termina en una nota que queda colgada "
     "(pregunta), la segunda en la tónica (respuesta). Así habla la gente, y así hablan los buenos solos. "
-    "Es la estructura más vieja y más efectiva que existe."),
+    "Es la estructura más vieja y más efectiva que existe.<br/><br/>"
+    "Otra vez en <b>caja 2</b>: la pregunta queda en el traste 8 (no resuelve), la respuesta cae en el "
+    "traste 10 (la tónica). Practicalo acá antes de probarlo en la caja 1 de memoria."),
     "e32", W, "Con backing. Cuando salga, improvisá pregunta/respuesta con frases tuyas."))
 
-S.append(ejercicio(33, "La misma frase en tres volúmenes", (
+S.append(ejercicio(33, "La misma frase en tres volúmenes — caja 2", (
     "Idéntica frase, tocada suave, normal y fuerte. La dinámica no se hace con la perilla: se hace con "
     "<b>cuánta púa le das a la cuerda</b>. Susurrar, hablar, gritar. Si tocás todo al mismo volumen, tu solo "
-    "es un tipo que habla monótono durante un minuto."),
+    "es un tipo que habla monótono durante un minuto.<br/><br/>"
+    "La misma frase de los ejercicios 27 y 30 (caja 2), para no sumar una posición nueva justo cuando la "
+    "cabeza está ocupada con la dinámica."),
     "e33", W, "Sin tocar el ampli ni el pedal. Todo con la mano derecha."))
 
 S.append(Paragraph("EJERCICIO 34 — EL SOLO DE EVALUACIÓN (tu entregable)", H2))

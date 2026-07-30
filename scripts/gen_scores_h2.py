@@ -105,10 +105,11 @@ EJ["e26"] = r"""
 
 # ===================================================== SEMANA 7 — VIBRATO
 # 27: vibrato medido con metrónomo (3 velocidades sobre la misma nota)
+# ahora en la caja 2 (tónica: 2ª cuerda, traste 10) — no en la 1
 EJ["e27"] = r"""
-  a1\4^\markup{\bold "vibrato lento: 2 ondas por tiempo"} |
-  a1\4^\markup{\bold "medio: 3 ondas por tiempo"} |
-  a1\4^\markup{\bold "rápido: 4 ondas por tiempo"} |
+  a'1\2^\markup{\bold "vibrato lento: 2 ondas por tiempo · caja 2"} |
+  a'1\2^\markup{\bold "medio: 3 ondas por tiempo"} |
+  a'1\2^\markup{\bold "rápido: 4 ondas por tiempo"} |
 """
 
 # 28: la misma frase resuelta con vibrato en tres registros
@@ -125,11 +126,10 @@ EJ["e29"] = r"""
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato"} |
 """
 
-# 30: frase entera donde el vibrato es el remate
+# 30: frase entera donde el vibrato es el remate. Ahora en la caja 2.
 EJ["e30"] = r"""
-  r4 g'8\2 a'\1 c''4\1 ~ c''4 |
-  a'8\1 g'\2 e'\2( d'\3) c'4\3 a4\4 |
-  a1\4^\markup{\bold "vibrato · es la última nota, que se note"} |
+  r4 g'8\2^\markup{\bold "caja 2"} c''\1 d''4\1 ~ d''4 |
+  c''8\1 a'\2 g'\2( e'\3) a'2\2^\markup{\bold "vibrato · la tónica de la caja 2, que se note"} |
 """
 
 # ===================================================== SEMANA 8 — ESPACIO Y DINÁMICA
@@ -146,18 +146,19 @@ EJ["e31"] = r"""
 """
 
 # 32: pregunta y respuesta (mismo ritmo, distinto final)
+# pregunta y respuesta, ahora en la caja 2
 EJ["e32"] = r"""
-  r4 e'8\2 g'\2 a'4\1 g'4\2^\markup{\bold "pregunta: queda abierta"} |
+  r4 c''8\1^\markup{\bold "caja 2"} d''\1 a'4\2 g'4\2^\markup{\bold "pregunta: queda abierta"} |
   r1 |
-  r4 e'8\2 d'\3 c'4\3 a4\4^\markup{\bold "respuesta: cierra en la tónica"} |
+  r4 d''8\1 c''\1 g'4\2 a'4\2^\markup{\bold "respuesta: cierra en la tónica"} |
   r1 |
 """
 
-# 33: la misma frase en tres volúmenes
+# 33: la misma frase en tres volúmenes. Ahora en la caja 2.
 EJ["e33"] = r"""
-  r4 e'8\2\p g'\2 a'4\1 g'4\2 |
-  r4 e'8\2\mf g'\2 a'4\1 g'4\2 |
-  r4 e'8\2\f g'\2 a'4\1 g'4\2^\markup{\bold "vibrato"} |
+  r4 c''8\1\p^\markup{\bold "caja 2"} d''\1 a'4\2 g'4\2 |
+  r4 c''8\1\mf d''\1 a'4\2 g'4\2 |
+  r4 c''8\1\f d''\1 a'4\2 g'4\2^\markup{\bold "vibrato"} |
 """
 
 # 34: SOLO DE EVALUACIÓN del Hito 2 — los 5 recursos + espacio + dinámica
