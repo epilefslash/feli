@@ -16,6 +16,7 @@ doc = documento("Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf",
                 "Solo con Sabor · Hito 3 — El Vocabulario",
                 "Hito 3 - El Vocabulario (ejercicios)")
 W = doc.width
+SOS = '<font name="Sym">♯</font>'   # sostenido: Helvetica no lo tiene
 S = []
 
 # ============================================================ INTRO
@@ -257,28 +258,70 @@ S.append(Paragraph(
     "Cuando esto se te vuelve automático dejás de improvisar a ciegas: <b>ya no elegís notas, elegís "
     "sensaciones</b>. Los tres ejercicios que siguen son exactamente eso aplicado.", SMALL))
 
-# ============================================================ EL BLUE NOTE — EL MAPA COMPLETO
-S.append(Paragraph("EL BLUE NOTE: LA SEXTA NOTA (la que no está en la tabla de arriba)", H2))
+# ============================================================ LAS NOTAS DE AFUERA
+S.append(PageBreak())
+S.append(Paragraph("LAS NOTAS DE AFUERA (las que no están en la tabla de arriba)", H1))
 S.append(Paragraph(
-    "En el Hito 2 (ej. 26) ya probaste una nota que <b>no pertenece a la pentatónica</b>: el blue note, "
-    "metido de paso entre la 4ª y la 5ª. En ese momento la viste en un solo lugar — caja 2, 3ª cuerda, "
-    "traste 8. Ahora que ya tenés el mapa completo y entendés el color de cada grado, es el momento de "
-    "ver la foto entera: <b>hay un blue note por cuerda, uno por octava, en todo el mástil</b> — no es una "
-    "excepción de la caja 2, es parte del mapa. Por eso no tiene fila propia en la tabla de arriba: no es "
-    "un grado de la escala, es el hueco cromático entre dos grados que existe SIEMPRE en el mismo lugar "
-    "relativo, toques donde toques.", BODY))
+    "La tabla anterior tiene cinco filas porque la pentatónica tiene cinco notas. Y ya sabés por qué no "
+    "tiene notas equivocadas: le faltan justo la 2ª, la 3ª mayor, la 6ª y la 7ª mayor — las que pueden "
+    "chocar. Ahora que ya tenés el mapa (Hito 1), la voz (Hito 2) y entendés el color de cada grado, "
+    "es el momento de agregar <b>tres notas de afuera</b>. Ojo con cómo lo leés: <b>no son escalas nuevas "
+    "y no vas a tener que aprender cinco cajas más</b>. Son tres notas que se meten en el mapa que ya "
+    "tenés, cada una con una regla. Eso es literalmente lo único que separa tu pentatónica de la de "
+    "Gilmour o la de Frusciante.", BODY))
+S.append(Spacer(1, 4))
+S.append(tabla([
+    [Paragraph("<b>Nota</b>", CELLB), Paragraph("<b>En Lam</b>", CELLB),
+     Paragraph("<b>Qué le hace a la frase</b>", CELLB), Paragraph("<b>La regla</b>", CELLB)],
+    [Paragraph("<b>blue note</b><br/>(entre 4ª y 5ª)", CELLB), Paragraph("MI bemol", CELL),
+     Paragraph("<b>Ensucia.</b> Le mete la mugre del blues, tensión que pide resolver.", CELL),
+     Paragraph("De <b>paso</b>, nunca de llegada. Cruzala rápido, sin vibrato.", CELL)],
+    [Paragraph("<b>2ª / 9ª</b>", CELLB), Paragraph("SI", CELL),
+     Paragraph("<b>Da aire.</b> Abre la frase, la vuelve más melódica y menos blusera. "
+               "Es el color de Californication y de Gilmour.", CELL),
+     Paragraph("Se puede <b>sostener</b> y vibrar. La más segura de las tres.", CELL)],
+    [Paragraph("<b>6ª</b>", CELLB), Paragraph("FA  /  FA" + SOS, CELL),
+     Paragraph("<b>Endulza o entristece, según cuál.</b> Tiene dos versiones y son casi "
+               "opuestas — mirá el recuadro de abajo.", CELL),
+     Paragraph("Se puede sostener, pero <b>elegí la correcta</b> según el acorde.", CELL)],
+], [2.6 * cm, 1.9 * cm, (W - 4.5 * cm) * 0.53, (W - 4.5 * cm) * 0.47]))
+
+S.append(Paragraph("LAS DOS SEXTAS (la única que tiene trampa)", H2))
+S.append(Paragraph(
+    "Es la única de las tres que exige una decisión, y por eso se explica aparte. La <b>6ª menor</b> "
+    "(FA) es la de la escala menor natural: oscura, dramática, de balada — es la que usa Frusciante en "
+    "Californication, que está en Fa" + SOS + " menor, y la que hace que un solo suene triste en vez de "
+    "bluesero. La <b>6ª mayor</b> (FA" + SOS + ") es la contraria: dulce, brillante, la nota del "
+    "\"BB box\", la firma de B.B. King.", BODY))
+S.append(Paragraph(
+    "<b>Cómo elegís:</b> escuchá el acompañamiento. Si la base es un vamp menor tipo Lam–Fa–Sol "
+    "(o cualquier balada menor), va la <b>6ª menor</b>. Si la base es un blues o un vamp con séptimas, "
+    "va la <b>6ª mayor</b>. Metida al revés, cualquiera de las dos suena mal — y no es tu oído fallando, "
+    "es la nota chocando de verdad contra el acorde. La 6ª mayor se trabaja a fondo en el "
+    "<b>cuadernillo bonus (ej. 53, el \"BB box\")</b>, después del programa.", SMALL))
+
+S.append(PageBreak())
+S.append(Paragraph("EL BLUE NOTE EN TODO EL MÁSTIL", H2))
+S.append(Paragraph(
+    "De las tres, el blue note es el que ya probaste: en el Hito 2 (ej. 26) lo tocaste en un solo lugar "
+    "— caja 2, 3ª cuerda, traste 8. Ahora que tenés el mapa completo podés ver la foto entera: "
+    "<b>hay un blue note por cuerda y por octava en todo el mástil</b>. No era una excepción de la "
+    "caja 2, es parte del mapa.", BODY))
 S.append(Spacer(1, 4))
 S.append(MapaBlueNotes(W))
 S.append(Spacer(1, 4))
 S.append(Paragraph(
     "<font color=\"#%s\"><b>●</b></font> el blue note en cada cuerda y octava dentro del mástil. Fijate que "
-    "aparecen en las costuras entre cajas (borde de caja 1/2/3 en la 3ª cuerda, borde de caja 3/4 en la "
-    "1ª y 6ª, borde de caja 4 en la 2ª y 4ª) — es otra prueba de que las costuras no son frontera, son "
-    "territorio compartido." % BLUE.hexval()[2:], SMALL))
-S.append(Paragraph(
-    "<b>La regla no cambia por tener más lugares donde usarla:</b> es una nota de PASO, nunca de llegada. "
-    "Cruzala rápido entre la 4ª y la 5ª (en cualquier dirección) y nunca la sostengas ni le hagas vibrato "
-    "— ahí es donde deja de sonar a blues y empieza a sonar a error.", SMALL))
+    "caen en las costuras entre cajas — es otra prueba de que las costuras no son frontera, son "
+    "territorio compartido. <b>La regla no cambia por tener más lugares donde usarla:</b> es una nota de "
+    "PASO, nunca de llegada. Cruzala rápido entre la 4ª y la 5ª, en cualquier dirección, y nunca la "
+    "sostengas ni le hagas vibrato — ahí es donde deja de sonar a blues y empieza a sonar a error."
+    % BLUE.hexval()[2:], SMALL))
+S.append(caja_oscura(
+    '<font color="#f7d7d2" size="9">Estas tres notas son el techo del programa, no el piso de otro. '
+    'No hay que "estudiar la escala menor natural": si ya te movés por las cinco cajas, agregar la 2ª '
+    'y la 6ª es correr un dedo. <font color="white"><b>Lo difícil nunca fue saber más notas — fue '
+    'saber cuándo usarlas.</b></font></font>', W))
 
 S.append(ejercicio(44, "Mismas notas, tres ritmos distintos", (
     "Las mismas seis notas escritas tres veces, con tres ritmos: parejo, acelerando, y a contratiempo. "
