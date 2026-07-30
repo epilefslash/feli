@@ -103,6 +103,12 @@ S.append(minuto("[8:00-11:00] Ejercicio 4 — Tu primer lick con sabor",
     "tenés que llegar. Ahora bendeá el 7 hasta que suene IGUAL — no más, no menos.\" Mostrás el "
     "vibrato final. \"Esto separa a un alumno de un guitarrista: movelo parejo, sin apuro. Practicá "
     "esto 10 veces por día toda la semana antes de pasar al video 2.\""))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "<i>Nota al pie — aclarar en cámara: \"Ojo, esto es solo una PROBADA. Todavía no te estoy "
+    "enseñando a bendear y vibrar de verdad — eso es un mes entero, el Hito 2. Hoy quedate con la "
+    "sensación de que la caja 1 puede sonar así. En el Hito 2 vas a aprender a hacerlo vos solo, "
+    "afinado, en cualquier cuerda y con control real.\"</i>", SMALL))
 S.append(Spacer(1, 6))
 
 S.append(minuto("[11:00-12:00] Cierre",
