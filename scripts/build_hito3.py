@@ -305,7 +305,8 @@ S.append(tabla([
      Paragraph("De <b>paso</b>, nunca de llegada. Cruzala rápido, sin vibrato.", CELL)],
     [Paragraph("<b>2ª / 9ª</b>", CELLB), Paragraph("SI", CELL),
      Paragraph("<b>Da aire.</b> Abre la frase, la vuelve más melódica y menos blusera. "
-               "Es el color de Californication y de Gilmour.", CELL),
+               "Es el color de Californication y de Gilmour — y no es casualidad: Clapton y John Mayer "
+               "la usan tanto que en algunos círculos ya la llaman \"la novena de los prolijos\".", CELL),
      Paragraph("Se puede <b>sostener</b> y vibrar. La más segura de las tres.", CELL)],
     [Paragraph("<b>6ª</b>", CELLB), Paragraph("FA  /  FA" + SOS, CELL),
      Paragraph("<b>Endulza o entristece, según cuál.</b> Tiene dos versiones y son casi "
@@ -413,7 +414,12 @@ S.append(ejercicio(49, "La arquitectura: las 4 frases de un solo", (
     "desarrolla (la misma idea <b>mudada a la caja 2</b>), clímax (subís a la caja 3, lo más agudo y lo más "
     "fuerte), cierra (bajás por el mástil y resolvés abajo). Ocho compases que son el molde de casi cualquier "
     "solo que te haya gustado en tu vida. <b>Fijate que cada frase vive en una caja distinta:</b> no es "
-    "decoración, es lo que hace que la curva se escuche. Aprendételo de memoria: es el plano."),
+    "decoración, es lo que hace que la curva se escuche. Aprendételo de memoria: es el plano.<br/><br/>"
+    "<b>La regla de Brian May, que acá se aplica sin nombrarla:</b> el crecimiento tiene que ser en DOS "
+    "variables a la vez, no solo una. <b>Altura</b> — empezás en un registro medio y subís — y <b>velocidad</b> "
+    "— arrancás lento y melódico, y te guardás las notas rápidas para el clímax. Si solo subís de altura pero "
+    "tocás siempre al mismo ritmo, la curva se nota menos. Las dos variables juntas son las que hacen que un "
+    "solo se sienta que va a algún lado."),
     "e49", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
 
 # ============================================================ SEMANA 12
@@ -444,11 +450,15 @@ S.append(ejercicio(51, "Los tres finales posibles", (
     "Probá los tres con tu solo y elegí uno. <b>Un solo sin final decidido suena a que te quedaste sin ideas.</b>"),
     "e51", W, "Con backing. El final se ensaya tanto como el principio."))
 
-S.append(ejercicio(52, "El motivo que vuelve", (
+S.append(ejercicio(52, "El motivo que vuelve (esto tiene nombre: leitmotiv)", (
     "El truco que hace que un solo suene <b>compuesto</b> y no improvisado a la deriva: presentás una idea al "
     "principio, la dejás ir, y la traés de vuelta al final. El oído la reconoce y siente que el solo cerró — "
-    "aunque no sepa por qué. Es gratis y casi nadie lo usa. <i>(Éste sí va en la misma caja las dos veces, "
-    "y es la única vez que te lo voy a pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
+    "aunque no sepa por qué. Es gratis y casi nadie lo usa.<br/><br/>"
+    "No es un truco casero: es un recurso con nombre — <b>leitmotiv</b> — y es, según el análisis de más de "
+    "40 solos de John Frusciante, la razón técnica número uno por la que sus solos se te quedan pegados. "
+    "Empieza con una idea simple, cantable, y la repite o la varía. Es exactamente lo que hiciste vos en "
+    "este ejercicio. <i>(Éste sí va en la misma caja las dos veces, y es la única vez que te lo voy a "
+    "pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
     "e52", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
 
 # el solo final va entero en una pagina: el encabezado no se separa de la partitura
