@@ -13,7 +13,7 @@ from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG, RED,
                                caja_oscura, ejercicio, TablaturaEnBlanco)
 
 doc = documento("Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf",
-                "8 LICKS FUERA DE LA CAJA 1",
+                "6 LICKS FUERA DE LA CAJA 1",
                 "Bonus post-programa — vocabulario en las cajas 3, 4, 5 y por todo el mástil",
                 "Solo con Sabor · Bonus — Licks fuera de la caja 1",
                 "Bonus - Licks fuera de la caja 1")
