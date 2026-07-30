@@ -125,25 +125,32 @@ EJ["e43"] = r"""
 
 # Las 3 variaciones que convierten un lick robado en un lick propio.
 
-# 44: mismas notas, tres ritmos distintos
+# 44: mismas notas, tres ritmos distintos. La frase vive entre las cajas 2 y 3
+# (mismas alturas que antes, otra posición): así la ÚNICA variable sigue siendo
+# el ritmo, pero el ejercicio ya no vive en la caja 1.
 EJ["e44"] = r"""
-  a'8\1^\markup{\bold "1 · todo parejo"} g'\2 e'\2 d'\3 c'\3 a\4 r4 |
-  a'4\1^\markup{\bold "2 · arranca lento y acelera"} g'8\2 e'\2 d'16\3 c'\3 a8\4 ~ a4\4 |
-  r8 a'8\1^\markup{\bold "3 · a contratiempo"} g'\2 e'\2 ~ e'8 d'\3 c'\3 a\4 |
+  a'8\2^\markup{\bold "1 · todo parejo · cajas 2 y 3"} g'\3 e'\3 d'\3 c'\4 a\4 r4 |
+  a'4\2^\markup{\bold "2 · arranca lento y acelera"} g'8\3 e'\3 d'16\3 c'\4 a8\4 ~ a4\4 |
+  r8 a'8\2^\markup{\bold "3 · a contratiempo"} g'\3 e'\3 ~ e'8 d'\3 c'\4 a\4 |
 """
 
-# 45: mismo arranque, tres remates distintos
+# 45: mismo arranque, tres remates distintos — también fuera de la caja 1.
+# El arranque es idéntico las tres veces; lo único que cambia es dónde caés.
 EJ["e45"] = r"""
-  r4 a'8\1 g'\2 e'4\2 d'4\3^\markup{\bold "remate 1 · queda colgado (pregunta)"} |
-  r4 a'8\1 g'\2 e'4\2 a4\4^\markup{\bold "remate 2 · cae en la tónica (respuesta)"} |
-  r4 a'8\1 g'\2 e'4\2 c''4\1^\markup{\bold "remate 3 · sube y queda vibrando"} |
+  r4 a'8\2^\markup{\bold "cajas 2 y 3"} g'\3 e'4\3 d'4\3^\markup{\bold "remate 1 · queda colgado (pregunta)"} |
+  r4 a'8\2 g'\3 e'4\3 a4\4^\markup{\bold "remate 2 · cae en la tónica (respuesta)"} |
+  r4 a'8\2 g'\3 e'4\3 c''4\2^\markup{\bold "remate 3 · sube y queda vibrando"} |
 """
 
-# 46: el mismo lick, mudado de caja
+# 46: EL MISMO LICK EN LAS CINCO CAJAS, en orden de mástil (5-1-2-3-4).
+# Idénticas alturas, idéntico ritmo, cinco posiciones. Es la demostración
+# central del programa: un lick es un patrón, no un lugar.
 EJ["e46"] = r"""
-  r8 a'8\1^\markup{\bold "en la caja 1"} g'\2 e'\2 d'\3 c'\3 a4\4 |
-  r8 d''8\1^\markup{\bold "el mismo, en la caja 2"} c''\1 a'\2 g'\2 e'\3 d'4\3 |
-  r8 e''8\1^\markup{\bold "y en la caja 3"} d''\1 c''\2 a'\2 g'\3 e'4\3 |
+  r8 a'8\1^\markup{\bold "CAJA 5 · trastes 2-5"} g'\1 e'\2 d'\2 c'\3 a4\3 |
+  r8 a'8\1^\markup{\bold "CAJA 1 · trastes 5-8"} g'\2 e'\2 d'\3 c'\3 a4\4 |
+  r8 a'8\2^\markup{\bold "CAJA 2 · trastes 7-10"} g'\2 e'\3 d'\3 c'\4 a4\4 |
+  r8 a'8\2^\markup{\bold "CAJA 3 · trastes 9-13"} g'\3 e'\3 d'\4 c'\4 a4\5 |
+  r8 a'8\3^\markup{\bold "CAJA 4 · trastes 12-15"} g'\3 e'\4 d'\4 c'\5 a4\5 |
 """
 
 # 47: el mismo mecanismo del ej. 35, pero en la CAJA 3 (repatriado del bonus)

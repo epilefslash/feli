@@ -350,28 +350,38 @@ S.append(caja_oscura(
     'y la 6ª es correr un dedo. <font color="white"><b>Lo difícil nunca fue saber más notas — fue '
     'saber cuándo usarlas.</b></font></font>', W))
 
-S.append(ejercicio(44, "Mismas notas, tres ritmos distintos", (
+S.append(ejercicio(44, "Mismas notas, tres ritmos distintos (cajas 2 y 3)", (
     "Las mismas seis notas escritas tres veces, con tres ritmos: parejo, acelerando, y a contratiempo. "
     "Escuchá los tres seguidos: <b>suenan a tres licks distintos</b>, y no cambiaste ni una nota. "
-    "El ritmo es el 70% de la identidad de una frase, y es lo primero que hay que tocar."),
+    "El ritmo es el 70% de la identidad de una frase, y es lo primero que hay que tocar.<br/><br/>"
+    "La frase está escrita entre las <b>cajas 2 y 3</b>, no en la 1. Y fijate que las tres versiones están "
+    "en la MISMA posición: es a propósito. Si cambiara de caja entre una y otra, no sabrías si lo que cambió "
+    "el sonido fue el ritmo o el registro. Acá la única variable es el ritmo."),
     "e44", W, "70 BPM. El tercero (a contratiempo) es el más difícil: contá en voz alta si hace falta."))
 
-S.append(ejercicio(45, "Mismo arranque, tres remates", (
+S.append(ejercicio(45, "Mismo arranque, tres remates (cajas 2 y 3)", (
     "Acá se aplica lo del ejercicio anterior. La frase entra igual las tres veces y cambia solo la última nota: "
     "primero cae en la <b>4ª</b> (queda colgada, es una pregunta), después en la <b>tónica</b> (cierra, es la "
     "respuesta), y por último en la <b>3ª menor</b> (resuelve para arriba, con color triste). "
     "El remate es lo que el oído se lleva: <b>cambiar el final cambia el significado de todo lo anterior</b>, "
-    "igual que en una oración."),
+    "igual que en una oración.<br/><br/>"
+    "Mismo criterio que el 44: la frase vive entre las cajas 2 y 3, y las tres versiones comparten posición "
+    "para que la única variable sea <b>dónde caés</b>."),
     "e45", W, "Con backing. Antes de tocar cada versión, adiviná qué va a pasar. Después comprobá."))
 
-S.append(ejercicio(46, "El mismo lick, mudado de caja", (
-    "<b>El ejercicio que demuestra la tesis del programa.</b> Idéntica frase, tocada en las cajas 1, 2 y 3. "
-    "Acá se paga el trabajo del Hito 1: si el mapa está, esto sale casi solo. Y lo importante no es que "
-    "puedas repetirlo tres veces — es lo que entendés al hacerlo: <b>un lick no es un lugar del mástil, es "
-    "un patrón</b>. La misma forma, corrida. Si lo tenés en una caja lo tenés en las cinco. En cada una "
-    "cambia de carácter (más grave suena más pesado, más agudo más urgente) aunque sean las mismas notas: "
-    "por eso mudar de caja no es un requisito de checklist, es una <b>decisión expresiva</b>."),
-    "e46", W, "Lento. Después probalo en las cajas 4 y 5 sin que esté escrito: ése es el verdadero examen."))
+S.append(ejercicio(46, "EL MISMO LICK EN LAS CINCO CAJAS", (
+    "<b>El ejercicio que demuestra la tesis del programa entero.</b> Una sola frase, escrita cinco veces: "
+    "en la caja 5, la 1, la 2, la 3 y la 4 — en ese orden, o sea recorriendo el mástil de abajo hacia arriba. "
+    "Mismas notas, mismo ritmo, mismo dibujo. <b>Lo único que cambia es dónde ponés la mano.</b><br/><br/>"
+    "Mirá la partitura sin leer la tablatura: las cinco líneas son <i>idénticas</i>. Ahora mirá la tablatura: "
+    "no se parecen en nada. Eso es todo lo que hay que entender — <b>un lick no es un lugar del mástil, es un "
+    "patrón</b>. Si lo tenés en una caja lo tenés en las cinco, y acá se paga entero el trabajo del Hito 1.<br/><br/>"
+    "Y escuchá el carácter de cada una: en la caja 5 la frase suena pesada, casi a riff; en la 4 suena urgente, "
+    "casi desesperada. Son las mismas seis notas. Por eso mudarse de caja no es un requisito de checklist: "
+    "es una <b>decisión expresiva</b>, y a partir de acá la tomás vos."),
+    "e46", W,
+    "Lento, una caja por día si hace falta. Cuando las cinco te salgan, hacé esto: poné el backing, "
+    "improvisá, y cada vez que uses esta frase elegí una caja distinta según lo que quieras que suene."))
 
 S.append(Paragraph("DOS LICKS MÁS, EN LOS DOS EXTREMOS DEL MÁSTIL", H2))
 S.append(Paragraph(
@@ -490,7 +500,7 @@ S.append(tabla([
     [Paragraph(CAJ, CELL), Paragraph("Sé variar un lick de 3 formas", CELL),
      Paragraph("Agarro cualquier frase y le cambio ritmo, remate y caja sin pensarlo.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Muevo un lick a otra caja sin perderme", CELL),
-     Paragraph("El ejercicio 46 me sale también en las cajas 4 y 5, que no están escritas.", CELL)],
+     Paragraph("Toco el ejercicio 46 entero, las 5 cajas seguidas, sin frenar entre una y otra.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("<b>Toco licks reales fuera de la caja 1</b>", CELL),
      Paragraph("Los ejercicios 47 (caja 3) y 48 (caja 5) me salen de memoria, sin buscar los trastes.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Entiendo la curva de un solo", CELL),

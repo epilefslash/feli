@@ -946,7 +946,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > |---|---|---|---|
 > | Hito 1 — El Mapa | 339 | 47,2% | 47,2% (sin cambios, estaba sano) |
 > | Hito 2 — El Sabor | 255 | 14,1% | 14,1% (sin cambios) |
-> | Hito 3 — El Vocabulario | 279 → 313 | **8,2%** | **38,7%** |
+> | Hito 3 — El Vocabulario | 279 → 325 | **8,2%** | **46,8%** |
 > | Bonus post-programa | 109 | 74,3% | — (2 licks repatriados) |
 >
 > **La causa fue el punto 3 del rebalanceo anterior:** los 8 licks que salieron del Hito 3 al bonus eran
@@ -985,7 +985,16 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > esa misma celda tres cajas más arriba, y "el mismo patrón suena distinto" no se puede demostrar sin tener
 > la referencia en el oído. El texto del 35 ahora lo dice explícito.
 >
-> **Hito 3 quedó en 38,7% fuera de la caja 1** (era 8,2% antes de todo esto). El ej. 43 (color de los
+> **CUARTA PASADA (misma sesión).** Feli revisó el PDF y pidió tres cosas más: sacar el 44 y el 45 de la
+> caja 1, y que el 46 arrancara desde la caja 5 y pasara por todas.
+> - **44 y 45** se mudaron enteros a las cajas 2-3. Clave: las tres versiones de cada uno comparten
+>   posición a propósito. Si cambiaran de caja entre versión y versión, el alumno no sabría si lo que
+>   cambió el sonido fue el ritmo (44) / el remate (45) o el registro. La variable se mantiene aislada.
+> - **46 pasó de 3 cajas a las 5**, en orden de mástil (5 → 1 → 2 → 3 → 4). Es ahora el mejor ejercicio
+>   del hito: cinco líneas de partitura idénticas y cinco tablaturas que no se parecen en nada. La
+>   demostración visual de "un lick es un patrón, no un lugar".
+>
+> **Hito 3 quedó en 46,8% fuera de la caja 1** (era 8,2% antes de todo esto). El ej. 43 (color de los
 > grados) sigue en caja 1 porque es de oído, no de geografía; y el ej. 52 (el motivo que vuelve) va en la
 > misma caja las dos veces porque si se muda, el oído no lo reconoce y se pierde el efecto.
 >
