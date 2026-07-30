@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Partituras del Cuadernillo HITO 3 · PARTE 2 — 8 licks POST-PROGRAMA, fuera de las cajas 1 y 2 (ej. 52 a 59).
+"""Partituras del Cuadernillo HITO 3 · PARTE 2 — 6 licks POST-PROGRAMA, fuera de las cajas 1 y 2 (ej. 54 a 59).
 
 Los licks de caja 2 (bend a la tónica + blue note) se movieron al Hito 2, semana 6,
 para que el alumno pise la caja 2 DURANTE el programa y no recién al final.
+
+REPATRIACIÓN: la celda repetida en caja 3 (Clapton) y el riff grave en caja 5
+(Angus/Berry) volvieron al Hito 3 como ejercicios 47 y 48. El bonus había quedado
+con TODO el territorio alto y bajo del programa, y el alumno terminaba las 12
+semanas sin haber tocado un lick real fuera de las cajas 1 y 2. Quedan 6 licks.
 
 Salida: ./partituras/eNN.cropped.png
 
@@ -28,34 +33,23 @@ from gen_scores import render
 EJ = {}
 
 # ==================================================== CAJA 3 (trastes 9 a 13)
-# 52: Clapton / Cream — el motivo agudo repetido hasta que se vuelve un gancho
-EJ["e52"] = r"""
-  \tuplet 3/2 { e''8\1^\markup{\bold "la celda, bien arriba"}( d''\1) c''\2 }
-  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
-  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
-  \tuplet 3/2 { e''8\1( d''\1) c''\2 } |
-  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
-  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
-  a'2\2^\markup{\bold "vibrato · la tónica está acá"} |
-"""
-
-# 53: B.B. King — la 6a mayor en lugar de la 7a menor (la nota que endulza)
-EJ["e53"] = r"""
+# 54: B.B. King — la 6a mayor en lugar de la 7a menor (la nota que endulza)
+EJ["e54"] = r"""
   r8 e''8\1 d''\1 a'\2 fis'8\3^\markup{\bold "6ª MAYOR · la nota dulce"} a'\2 fis'\3 a'\2 |
   a'2\2^\markup{\bold "vibrato rápido y angosto"} e'8\3 d'\4 a4\5 |
 """
 
 # ==================================================== CAJA 4 (trastes 12 a 15)
-# 54: Gilmour — una sola nota, estirada y sostenida una eternidad
-EJ["e54"] = r"""
+# 55: Gilmour — una sola nota, estirada y sostenida una eternidad
+EJ["e55"] = r"""
   r2 a'8\3 c''8\2 ~ c''4 |
   c''1\2^\markup{\bold "bend 1 tono · y lo sostenés"} |
   c''2\2^\markup{\bold "vibrato lento y ancho"} a'8\3 g'\3 e'4\4 |
   a1\5^\markup{\bold "a casa"} |
 """
 
-# 55: Hendrix — dobles cuerdas en el registro agudo
-EJ["e55"] = r"""
+# 56: Hendrix — dobles cuerdas en el registro agudo
+EJ["e56"] = r"""
   <c''\2 e''\1>8^\markup{\bold "dos cuerdas juntas, bien arriba"} <c''\2 e''\1>8
   <d''\2 g''\1>4 <c''\2 e''\1>4 <d''\2 g''\1>4 |
   <d''\2 g''\1>8 <c''\2 e''\1>8 a'4\3 g'8\3 e'\4 d'4\4 |
@@ -63,12 +57,6 @@ EJ["e55"] = r"""
 """
 
 # ==================================================== CAJA 5 (trastes 2 a 5)
-# 56: Angus / Chuck Berry — la zona grave suena a riff, no a solo
-EJ["e56"] = r"""
-  g,8\6^\markup{\bold "acá abajo pesa más"}( a,\6) c\5( d\5) e\4( g\4) a8\3 c'\3 |
-  c'8\3 a\3 g\4 e\4 d\5 c\5 a,4\6^\markup{\bold "a casa"} |
-"""
-
 # 57: la caja 5 también canta — frase melódica con espacio en la zona grave
 EJ["e57"] = r"""
   r4 c'8\3 d'8\2 ~ d'2 |

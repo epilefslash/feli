@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 35 a 51).
+"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 35 a 53).
 
 Salida: ./partituras/eNN.cropped.png
 Reutiliza la plantilla y el renderizador de `gen_scores.py`.
@@ -9,7 +9,12 @@ No son transcripciones de solos ajenos. Es a propósito y es el punto pedagógic
 del hito: lo que se roba es el MECANISMO (el motivo que se repite, la doble
 cuerda, el bending que espera), no las notas de otro.
 
-Tonalidad: La menor pentatónica. Cajas 1 y 2 sobre todo, con subidas a la 3 y 4.
+Tonalidad: La menor pentatónica.
+Territorio: los licks de escuela (35-42) viven en la caja 1 a propósito — se aísla
+la variable: se aprende el MECANISMO, no una posición nueva. Desde el ej. 46 en
+adelante el hito se abre: 46 muda un lick por tres cajas, 47 y 48 son licks reales
+en las cajas 3 y 5, y 49/50/53 (arquitectura, esqueleto y solo final) tienen sus
+llegadas repartidas por el mástil para que el alumno NO pueda quedarse en la caja 1.
 
 Alturas LilyPond (sonido real, clave treble_8):
   6a: 3=g, 5=a, 8=c 10=d 12=e 15=g
@@ -132,61 +137,82 @@ EJ["e46"] = r"""
   r8 e''8\1^\markup{\bold "y en la caja 3"} d''\1 c''\2 a'\2 g'\3 e'4\3 |
 """
 
-# 47: la arquitectura de un solo — las 4 frases
+# 47: el mismo mecanismo del ej. 35, pero en la CAJA 3 (repatriado del bonus)
+# Escuela británica: la celda repetida. Idéntico recurso, tres cajas más arriba.
 EJ["e47"] = r"""
-  r4 a8\4^\markup{\bold "1 · PRESENTA — grave y simple"} c'\3 d'4\3 c'4\3 |
+  \tuplet 3/2 { e''8\1^\markup{\bold "la MISMA celda del ej. 35, tres cajas más arriba"}( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } |
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  a'2\2^\markup{\bold "vibrato · la tónica de la caja 3"} |
+"""
+
+# 48: la CAJA 5, la zona grave (repatriado del bonus) — Angus / Chuck Berry
+EJ["e48"] = r"""
+  g,8\6^\markup{\bold "la zona grave: acá abajo pesa más"}( a,\6) c\5( d\5) e\4( g\4) a8\3 c'\3 |
+  c'8\3 a\3 g\4 e\4 d\5 c\5 a,4\6^\markup{\bold "a casa: la tónica más grave"} |
+"""
+
+# 49: la arquitectura de un solo — las 4 frases, cada una en su caja
+EJ["e49"] = r"""
+  r4 a8\4^\markup{\bold "1 · PRESENTA — grave y simple · CAJA 1"} c'\3 d'4\3 c'4\3 |
   a1\4^\markup{\bold "vibrato"} |
-  r4 e'8\2^\markup{\bold "2 · DESARROLLA — la misma idea, más arriba"} g'\2 a'4\1 g'4\2 |
-  e'1\2^\markup{\bold "vibrato"} |
-  c''8\1\f^\markup{\bold "3 · CLÍMAX — lo más agudo y lo más fuerte"} d''\1 e''\1 d''\1 c''4\1 a'4\2 |
-  d'2\3^\markup{\bold "bend 1 tono + vibrato"} d'2\3 |
-  c'8\3\p^\markup{\bold "4 · CIERRA — bajás y resolvés"} a\4 g\4 e\5 d\5 c\6 a,4\6 |
-  a,1\6^\markup{\bold "vibrato"} |
+  r4 e'8\3^\markup{\bold "2 · DESARROLLA — la misma idea, MUDADA A LA CAJA 2"} g'\2 a'4\2 c''4\1 |
+  a'1\2^\markup{\bold "vibrato · la tónica de la caja 2"} |
+  c''8\1\f^\markup{\bold "3 · CLÍMAX — subís a la CAJA 3, agudo y fuerte"} d''\1 e''\1 d''\1 c''4\1 a'4\2 |
+  g'2\3^\markup{\bold "bend 1 tono + vibrato · caja 3"} g'2\3 |
+  c'8\3\p^\markup{\bold "4 · CIERRA — bajás por el mástil y resolvés"} a\4 g\4 e\5 d\5 c\6 a,4\6 |
+  a,1\6^\markup{\bold "vibrato · caja 5"} |
 """
 
 # ============================================ SEMANA 12 — TU SOLO
-# 48: el esqueleto para completar — están las llegadas, faltan tus frases
-EJ["e48"] = r"""
-  r1^\markup{\bold "TU frase 1 — grave, 3 o 4 notas, tranquila"} |
-  a1\4^\markup{\bold "caé acá (tónica) + vibrato"} |
-  r1^\markup{\bold "TU frase 2 — la misma idea, una caja más arriba"} |
-  e'1\2^\markup{\bold "caé acá + vibrato"} |
-  r1^\markup{\bold "TU frase 3 — el clímax: agudo, fuerte, más notas"} |
-  d'2\3^\markup{\bold "el bending va acá"} d'2\3^\markup{\bold "vibrato"} |
-  r1^\markup{\bold "TU frase 4 — bajás, aflojás"} |
-  a,1\6^\markup{\bold "cerrás en la tónica"} |
-"""
-
-# 49: tres finales posibles (elegí uno para tu solo)
-EJ["e49"] = r"""
-  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave — el más seguro"} |
-  d'4\3^\markup{\bold "2 · un bending largo que se va apagando"} ~ d'2. |
-  <e'\2 a'\1>2^\markup{\bold "3 · doble cuerda que queda sonando"} <e'\2 a'\1>2 |
-"""
-
-# 50: el motivo que vuelve (el truco que hace que un solo suene "armado")
+# 50: el esqueleto para completar. Las 4 llegadas están en 4 cajas distintas:
+# el alumno no puede conectarlas sin recorrer el mástil. Ese es el punto.
 EJ["e50"] = r"""
+  r1^\markup{\bold "TU frase 1 — grave, 3 o 4 notas, tranquila · CAJA 1"} |
+  a1\4^\markup{\bold "caé acá: la tónica de la caja 1 + vibrato"} |
+  r1^\markup{\bold "TU frase 2 — la misma idea, MUDADA A LA CAJA 2"} |
+  a'1\2^\markup{\bold "caé acá: la tónica de la caja 2 + vibrato"} |
+  r1^\markup{\bold "TU frase 3 — el clímax, arriba de todo · CAJA 3"} |
+  g'2\3^\markup{\bold "el bending va acá: 1 tono, llega a la tónica"} g'2\3^\markup{\bold "vibrato"} |
+  r1^\markup{\bold "TU frase 4 — bajás por todo el mástil hasta la CAJA 5"} |
+  a,1\6^\markup{\bold "cerrás en la tónica más grave"} |
+"""
+
+# 51: tres finales posibles — cada uno en una caja distinta, a propósito:
+# un cierre no depende de la posición, depende del gesto.
+EJ["e51"] = r"""
+  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave · CAJA 1 — el más seguro"} |
+  g'4\3^\markup{\bold "2 · bending largo que se apaga · CAJA 3"} ~ g'2. |
+  <c''\2 e''\1>2^\markup{\bold "3 · doble cuerda que queda sonando · CAJA 4"} <c''\2 e''\1>2 |
+"""
+
+# 52: el motivo que vuelve (el truco que hace que un solo suene "armado")
+EJ["e52"] = r"""
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "el motivo, al principio"} r2 |
   r1 |
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a4\4 r4 |
 """
 
-# 51: EL SOLO FINAL — 12 compases, el trofeo del programa
-EJ["e51"] = r"""
-  r4 a8\4\p^\markup{\bold "PRESENTA"} c'\3 d'4\3 c'4\3 |
+# 53: EL SOLO FINAL — 12 compases, el trofeo del programa.
+# Recorre cajas 1 -> 2 -> 3 -> 4 -> 3 -> 1 -> 5. Es la prueba de la promesa.
+EJ["e53"] = r"""
+  r4 a8\4\p^\markup{\bold "PRESENTA · caja 1"} c'\3 d'4\3 c'4\3 |
   a2\4^\markup{\bold "vibrato"} r2 |
-  r4 e'8\2^\markup{\bold "DESARROLLA"} g'\2 a'4\1 g'4\2 |
-  e'2\2^\markup{\bold "vibrato"} r2 |
-  \tuplet 3/2 { c''8\1\mf^\markup{\bold "el motivo británico"}( a'\1) g'\2 }
+  r4 e'8\3^\markup{\bold "DESARROLLA · mudado a la CAJA 2"} g'\2 a'4\2 c''4\1 |
+  a'2\2^\markup{\bold "vibrato · tónica de la caja 2"} r2 |
+  \tuplet 3/2 { c''8\1\mf^\markup{\bold "vuelve a caja 1: el motivo británico"}( a'\1) g'\2 }
   \tuplet 3/2 { c''8\1( a'\1) g'\2 }
   \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2 |
   <e'\2 a'\1>8 <e'\2 a'\1>8 <g'\2 c''\1>4 <e'\2 a'\1>4 <g'\2 c''\1>4 |
-  r8 c''8\1\f \glissando d''4\1^\markup{\bold "CLÍMAX"} e''4\1 g''4\1 |
-  g''2\1^\markup{\bold "vibrato ancho"} e''8\1 d''\2 c''\2 a'\2 |
-  d'2\3^\markup{\bold "bend 1 tono"} d'2\3^\markup{\bold "vibrato"} |
+  r8 c''8\1\f \glissando d''4\1^\markup{\bold "CLÍMAX · subís por las cajas 2, 3 y 4"} e''4\1 g''4\1 |
+  g''2\1^\markup{\bold "vibrato ancho · caja 4"} e''8\1 d''\2 c''\2 a'\2 |
+  g'2\3^\markup{\bold "bend 1 tono · caja 3"} g'2\3^\markup{\bold "vibrato"} |
   r1 |
   \tuplet 3/2 { c''8\1\p^\markup{\bold "vuelve el motivo · CIERRA"}( a'\1) g'\2 } e'4\2 c'8\3 a\4 g4\4 |
-  a,1\6^\markup{\bold "vibrato · se apaga"} |
+  a,1\6^\markup{\bold "vibrato · se apaga en la caja 5"} |
 """
 
 

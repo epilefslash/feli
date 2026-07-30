@@ -298,7 +298,7 @@ S.append(Paragraph(
     "(o cualquier balada menor), va la <b>6ª menor</b>. Si la base es un blues o un vamp con séptimas, "
     "va la <b>6ª mayor</b>. Metida al revés, cualquiera de las dos suena mal — y no es tu oído fallando, "
     "es la nota chocando de verdad contra el acorde. La 6ª mayor se trabaja a fondo en el "
-    "<b>cuadernillo bonus (ej. 53, el \"BB box\")</b>, después del programa.", SMALL))
+    "<b>cuadernillo bonus (ej. 54, el \"BB box\")</b>, después del programa.", SMALL))
 
 S.append(PageBreak())
 S.append(Paragraph("EL BLUE NOTE EN TODO EL MÁSTIL", H2))
@@ -338,16 +338,46 @@ S.append(ejercicio(45, "Mismo arranque, tres remates", (
     "e45", W, "Con backing. Antes de tocar cada versión, adiviná qué va a pasar. Después comprobá."))
 
 S.append(ejercicio(46, "El mismo lick, mudado de caja", (
-    "Idéntica frase, tocada en las cajas 1, 2 y 3. Acá se paga el trabajo del Hito 1: si el mapa está, esto "
-    "sale casi solo. En cada caja el lick <b>cambia de carácter</b> — más grave suena más pesado, más agudo "
-    "suena más urgente — aunque sean las mismas notas."),
+    "<b>El ejercicio que demuestra la tesis del programa.</b> Idéntica frase, tocada en las cajas 1, 2 y 3. "
+    "Acá se paga el trabajo del Hito 1: si el mapa está, esto sale casi solo. Y lo importante no es que "
+    "puedas repetirlo tres veces — es lo que entendés al hacerlo: <b>un lick no es un lugar del mástil, es "
+    "un patrón</b>. La misma forma, corrida. Si lo tenés en una caja lo tenés en las cinco. En cada una "
+    "cambia de carácter (más grave suena más pesado, más agudo más urgente) aunque sean las mismas notas: "
+    "por eso mudar de caja no es un requisito de checklist, es una <b>decisión expresiva</b>."),
     "e46", W, "Lento. Después probalo en las cajas 4 y 5 sin que esté escrito: ése es el verdadero examen."))
 
-S.append(ejercicio(47, "La arquitectura: las 4 frases de un solo", (
-    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple), desarrolla (la misma "
-    "idea más arriba), clímax (lo más agudo y lo más fuerte), cierra (bajás y resolvés). Ocho compases que "
-    "son el molde de casi cualquier solo que te haya gustado en tu vida. Aprendételo de memoria: es el plano."),
-    "e47", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
+S.append(Paragraph("DOS LICKS QUE NO VIVEN EN LA CAJA 1", H2))
+S.append(Paragraph(
+    "Los ocho licks de las semanas 9 y 10 están en la caja 1 a propósito: no tenía sentido pelearte con una "
+    "posición nueva mientras aprendías el <i>mecanismo</i>. Pero ya sabés los mecanismos, y el ejercicio "
+    "anterior te acaba de mostrar que son transportables. Así que estos dos no son licks de caja 1 mudados: "
+    "son licks que <b>viven</b> en otro lado, con el carácter de esa zona.", BODY))
+
+S.append(ejercicio(47, "La celda repetida, tres cajas más arriba (caja 3)", (
+    "Es <b>exactamente el mecanismo del ejercicio 35</b> — la celda de tres notas machacada hasta que se "
+    "vuelve un gancho — pero en la caja 3, entre los trastes 10 y 13. Tocá el 35 y después éste, seguidos: "
+    "vas a escuchar que es la misma idea y que <b>suena a otra cosa</b>. Más brillante, más urgente, más "
+    "cerca de un solo de Cream que de uno de AC/DC. La frase no cambió: cambió el barrio."),
+    "e47", W,
+    "Escuchá: Clapton en Cream — casi todo su vocabulario vive en esta zona. "
+    "70 BPM. La tónica de llegada es la 2ª cuerda traste 10."))
+
+S.append(ejercicio(48, "La zona grave: la caja 5 (trastes 2 a 5)", (
+    "El otro extremo del mástil, y el que casi nadie usa. Acá abajo la pentatónica <b>deja de sonar a solo "
+    "y empieza a sonar a riff</b>: es la zona de Angus y de Chuck Berry. Fijate el peso de cada nota — la "
+    "misma escala, tocada en las cuerdas gruesas, pega distinto: no susurra, empuja. Cerrás en el LA de la "
+    "6ª cuerda traste 5, la tónica más grave que tenés en el mástil."),
+    "e48", W,
+    "60 BPM, con los ligados marcados. Después improvisá 5 minutos SOLO acá abajo: "
+    "es incómodo al principio y es justamente lo que hay que entrenar."))
+
+S.append(ejercicio(49, "La arquitectura: las 4 frases de un solo", (
+    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple, en la caja 1), "
+    "desarrolla (la misma idea <b>mudada a la caja 2</b>), clímax (subís a la caja 3, lo más agudo y lo más "
+    "fuerte), cierra (bajás por el mástil y resolvés abajo). Ocho compases que son el molde de casi cualquier "
+    "solo que te haya gustado en tu vida. <b>Fijate que cada frase vive en una caja distinta:</b> no es "
+    "decoración, es lo que hace que la curva se escuche. Aprendételo de memoria: es el plano."),
+    "e49", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
 
 # ============================================================ SEMANA 12
 S.append(PageBreak())
@@ -359,36 +389,47 @@ S.append(Paragraph(
     "de cuatro frases, con tu vocabulario, y lo vas a grabar. No tiene que ser difícil — tiene que ser "
     "<b>tuyo y estar terminado</b>. Un solo simple y bien cerrado le gana a uno ambicioso y a medio hacer.", BODY))
 
-S.append(ejercicio(48, "El esqueleto (completalo vos)", (
+S.append(ejercicio(50, "El esqueleto (completalo vos)", (
     "Están escritas las <b>llegadas</b> de cada frase y el lugar del bending; falta lo que va en el medio. "
     "Eso lo ponés vos, con tu vocabulario. Es un ejercicio de escritura, no de lectura: agarrá lápiz y "
-    "anotá tus frases en los compases vacíos."),
-    "e48", W, "Empezá tarareando el solo entero antes de tocar una nota. Si lo podés cantar, lo podés tocar."))
+    "anotá tus frases en los compases vacíos.<br/><br/>"
+    "<b>Mirá dónde caen las cuatro llegadas:</b> caja 1, caja 2, caja 3 y caja 5. Está hecho a propósito y "
+    "no es negociable — <b>no vas a poder conectarlas sin recorrer el mástil</b>. Ese recorrido es el solo. "
+    "Si te sale escribir las cuatro frases sin moverte de la caja 1, volvé al ejercicio 46: algo del mapa "
+    "todavía no está."),
+    "e50", W, "Empezá tarareando el solo entero antes de tocar una nota. Si lo podés cantar, lo podés tocar."))
 
-S.append(ejercicio(49, "Los tres finales posibles", (
+S.append(ejercicio(51, "Los tres finales posibles", (
     "Tres formas de terminar: a la tónica suave (el más seguro y el que casi siempre funciona), un bending "
     "largo que se apaga (el más dramático), o una doble cuerda que queda sonando (el más rockero). "
+    "Fijate que <b>cada uno está escrito en una caja distinta</b> — caja 1, caja 3 y caja 4: un final no "
+    "depende de la posición, depende del gesto. Podés cerrar donde te agarre el último compás. "
     "Probá los tres con tu solo y elegí uno. <b>Un solo sin final decidido suena a que te quedaste sin ideas.</b>"),
-    "e49", W, "Con backing. El final se ensaya tanto como el principio."))
+    "e51", W, "Con backing. El final se ensaya tanto como el principio."))
 
-S.append(ejercicio(50, "El motivo que vuelve", (
+S.append(ejercicio(52, "El motivo que vuelve", (
     "El truco que hace que un solo suene <b>compuesto</b> y no improvisado a la deriva: presentás una idea al "
     "principio, la dejás ir, y la traés de vuelta al final. El oído la reconoce y siente que el solo cerró — "
-    "aunque no sepa por qué. Es gratis y casi nadie lo usa."),
-    "e50", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
+    "aunque no sepa por qué. Es gratis y casi nadie lo usa. <i>(Éste sí va en la misma caja las dos veces, "
+    "y es la única vez que te lo voy a pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
+    "e52", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
 
 # el solo final va entero en una pagina: el encabezado no se separa de la partitura
 S.append(KeepTogether([
-    Paragraph("EJERCICIO 51 — EL SOLO FINAL (el trofeo del programa)", H2),
+    Paragraph("EJERCICIO 53 — EL SOLO FINAL (el trofeo del programa)", H2),
     Paragraph(
         "Doce compases que usan <b>los tres hitos</b>: se mueve por las cajas (Hito 1), cada nota tiene bending, "
         "vibrato, ligados y dinámica (Hito 2), y está armado con vocabulario de las dos escuelas sobre el molde "
         "de cuatro frases, con el motivo que vuelve al final (Hito 3).", BODY),
     Paragraph(
+        "<b>El recorrido:</b> presenta en la caja 1, desarrolla mudado a la caja 2, vuelve a la 1 para el motivo "
+        "británico, sube por las cajas 2, 3 y 4 en el clímax, bendea en la 3 y baja a cerrar en la 5. "
+        "Siete cambios de zona en doce compases, y ninguno es gratuito: cada uno cae donde la frase lo pide.", BODY),
+    Paragraph(
         "Estudialo, tocalo, y después <b>usalo como modelo para el tuyo</b>. La consigna del entregable no es "
         "tocar éste: es que grabes uno propio con esta misma arquitectura.", BODY),
     Spacer(1, 2),
-    score("e51", W),
+    score("e53", W),
     Spacer(1, 4),
     Paragraph(
         "Compás 10: silencio completo, justo después del bending más importante. Es el aire antes del cierre — "
@@ -423,10 +464,14 @@ S.append(tabla([
      Paragraph("Agarro cualquier frase y le cambio ritmo, remate y caja sin pensarlo.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Muevo un lick a otra caja sin perderme", CELL),
      Paragraph("El ejercicio 46 me sale también en las cajas 4 y 5, que no están escritas.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("<b>Toco licks reales fuera de la caja 1</b>", CELL),
+     Paragraph("Los ejercicios 47 (caja 3) y 48 (caja 5) me salen de memoria, sin buscar los trastes.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Entiendo la curva de un solo", CELL),
      Paragraph("Escucho un solo y puedo señalar dónde presenta, desarrolla, climax y cierra.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("<b>Mi solo recorre el mástil</b>", CELL),
+     Paragraph("Puedo decir en qué caja está cada una de mis 4 frases, y no son todas la misma.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Mi solo tiene un final decidido", CELL),
-     Paragraph("Elegí uno de los tres finales del ejercicio 49 y lo ensayé aparte.", CELL)],
+     Paragraph("Elegí uno de los tres finales del ejercicio 51 y lo ensayé aparte.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Tengo 8 licks en el banco, apropiados", CELL),
      Paragraph("Los 8 pasaron los 5 pasos, y al menos uno me salió solo improvisando.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("<b>Grabé mi solo de 1 minuto</b>", CELL),

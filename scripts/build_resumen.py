@@ -167,7 +167,7 @@ S.append(tabla([
      Paragraph("<b>Solo propio de 1 minuto grabado</b> — su trofeo y tu testimonio.", CELL)],
 ], [3.4 * cm, W - 3.4 * cm - 4.2 * cm, 4.2 * cm]))
 S.append(Paragraph(
-    "Bonus post-programa (no entra en las 12 semanas): 8 licks más fuera de las cajas 1 y 2, para "
+    "Bonus post-programa (no entra en las 12 semanas): 6 licks más fuera de las cajas 1 y 2, para "
     "seguir creciendo después de terminar.", SMALL))
 
 S.append(Paragraph("GARANTÍA — dos propuestas, sin elegir todavía", H3))
@@ -231,7 +231,7 @@ S.append(PageBreak())
 S.append(seccion_roja("5 · MATERIAL DE CLASE (cuadernillos de ejercicios)"))
 S.append(Spacer(1, 8))
 S.append(Paragraph(
-    "El programa entero está respaldado por <b>51 ejercicios con numeración corrida</b> (más 8 de bonus), "
+    "El programa entero está respaldado por <b>53 ejercicios con numeración corrida</b> (más 6 de bonus), "
     "cada uno con partitura real y tablatura hechas con LilyPond, diagramas de mástil verificados traste "
     "por traste, criterios claros de \"ya lo tenés\", y un entregable grabable por hito. No es un curso "
     "improvisado sobre la marcha: el contenido pedagógico de los 3 meses ya existe.", BODY))
@@ -246,13 +246,14 @@ S.append(tabla([
                "semana 6 (bend a la tónica + blue note).", CELL),
      Paragraph("17-34", CELL), Paragraph("11", CELL)],
     [Paragraph("Hito 3 — El Vocabulario", CELLB),
-     Paragraph("Escuela británica vs. americana, el color de cada grado, arquitectura del solo. "
-               "Cierra con el solo final de 12 compases.", CELL),
-     Paragraph("35-51", CELL), Paragraph("16", CELL)],
+     Paragraph("Escuela británica vs. americana, el color de cada grado, las notas de afuera, dos "
+               "licks en las cajas 3 y 5, arquitectura del solo. Cierra con el solo final de 12 "
+               "compases que recorre el mástil.", CELL),
+     Paragraph("35-53", CELL), Paragraph("19", CELL)],
     [Paragraph("Bonus post-programa", CELLB),
-     Paragraph("8 licks más, fuera de las cajas 1 y 2 (cajas 3, 4, 5 y mástil completo). No es parte "
+     Paragraph("6 licks más, fuera de las cajas 1 y 2 (cajas 3, 4, 5 y mástil completo). No es parte "
                "de las 12 semanas.", CELL),
-     Paragraph("52-59", CELL), Paragraph("8", CELL)],
+     Paragraph("54-59", CELL), Paragraph("8", CELL)],
 ], [3.6 * cm, W - 3.6 * cm - 3.0 * cm, 1.6 * cm, 1.4 * cm]))
 
 S.append(Paragraph("LEAD MAGNETS (regalo por DM)", H3))
@@ -326,7 +327,7 @@ S.append(Spacer(1, 10))
 S.append(caja_oscura(
     '<font color="white" size="10.5"><b>El estado real del proyecto</b></font><br/>'
     '<font color="#f7d7d2" size="9">8 videos filmados + 5 guiones listos para filmar, el programa '
-    'pedagógico completo (51 ejercicios + 8 de bonus), 3 lead magnets, 4 carruseles, y el embudo '
+    'pedagógico completo (53 ejercicios + 6 de bonus), 3 lead magnets, 4 carruseles, y el embudo '
     'completamente diseñado. Lo que falta son decisiones de 5 minutos, no producción. · %s</font>' % IG, W))
 
 doc.build(S)

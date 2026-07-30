@@ -882,11 +882,11 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Cuadernillo-Mes1-El-Mapa.pdf` | Mes 1 | Versión corta/conceptual (3 pág). Sirve como resumen o adelanto; el de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` | Mes 2 | **11 páginas.** 18 ejercicios (17 a 34) con TAB + partitura: ligados y slides → bending → vibrato → espacio y dinámica. La semana 6 **cierra mudándose a la caja 2** con los 2 primeros licks del programa (bend a la tónica + blue note). Incluye diagrama de bendings y el antes/después grabado. |
 | `Cuadernillo-Expresividad-Sabor.pdf` | Mes 2 | 6 pág. Versión conceptual previa (ligados → slides → bordaduras → bending → vibrato). El de EJERCICIOS lo reemplaza como material de trabajo. |
-| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **16 páginas. EL CIERRE DEL PROGRAMA.** 17 ejercicios (35 a 51): escuela británica → americana → el color de cada grado + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
-| `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 8 licks (52 a 59), **ninguno en las cajas 1 ni 2**: 2 en la caja 3, 2 en la 4, 2 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
+| `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` | Mes 3 | **19 páginas. EL CIERRE DEL PROGRAMA.** 19 ejercicios (35 a 53): escuela británica → americana → el color de cada grado + las notas de afuera + dos licks fuera de la caja 1 (cajas 3 y 5) + variaciones → tu solo. Incluye la tabla comparativa de las 2 escuelas, la guía para sacar de oído, el **banco de licks** (tablatura en blanco para imprimir) y el solo final de 12 compases. |
+| `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` | **Post-programa** | **8 páginas.** 6 licks (54 a 59), **ninguno en las cajas 1 ni 2**: 1 en la caja 3, 2 en la 4, 1 en la 5 y 2 que recorren el mástil entero. Suma la 6ª mayor del "BB box". Cierra con la tabla que cruza las cajas con las 4 frases del solo. **No es material de las 12 semanas** — es lo que sigue después, a un lick por semana. |
 | `Cuadernillo-Mes3-El-Vocabulario.pdf` | Mes 3 | 3 pág. Versión conceptual previa. El de EJERCICIOS lo reemplaza como material de trabajo. |
 | `Guiones-Historia-Fijado-Vendedores.pdf` | Contenido | **9 páginas.** Historia (#11, con tus 6 datos reales ya cargados) · Fijado (#12) · los 2 guiones vendedores ("Como que desaparece" y "Dejá de mirar tutoriales") con línea de tiempo en tabla, ficha técnica, guía de tono, copy y hashtags. "Cómo es una clase" se dio de baja del stock público (ver sección 27). |
-| `Resumen-Ejecutivo-para-Nico.pdf` | Estado del proyecto | **7 páginas.** Todo lo decidido y todo lo producido, para llevar a la mentoría: identidad, avatar, oferta, los 8 videos + guiones pendientes, los 51+8 ejercicios de los cuadernillos, embudo, y la lista corta de lo que falta cerrar con Nico (fecha, precio, garantía). |
+| `Resumen-Ejecutivo-para-Nico.pdf` | Estado del proyecto | **7 páginas.** Todo lo decidido y todo lo producido, para llevar a la mentoría: identidad, avatar, oferta, los 8 videos + guiones pendientes, los 53+6 ejercicios de los cuadernillos, embudo, y la lista corta de lo que falta cerrar con Nico (fecha, precio, garantía). |
 
 **Lead magnets (regalo por DM, alimentan el embudo):**
 | Archivo | Keyword | Va con |
@@ -896,8 +896,8 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |
 
 > **Los cuadernillos de EJERCICIOS** (hechos con LilyPond, partitura real + tablatura). **Los 3 hitos están
-> completos: 51 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 34, Hito 3 = 35 a 51.
-> Más un **bonus post-programa** de 8 licks (52 a 59) que NO forma parte de las 12 semanas.
+> completos: 53 ejercicios con numeración corrida** — Hito 1 = 1 a 16, Hito 2 = 17 a 34, Hito 3 = 35 a 53.
+> Más un **bonus post-programa** de 6 licks (54 a 59) que NO forma parte de las 12 semanas.
 > El alumno ve un solo camino de 12 semanas, no tres PDFs sueltos.
 >
 > - **Hito 1 — EL MAPA:** de la caja 1 aislada al solo de 8 compases. El eje NO son las cajas: son los
@@ -907,13 +907,13 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 >   depende de la cabeza al final). Los ejercicios tienen la MITAD de notas que los del Hito 1, a propósito.
 >   Entregable doble: el solo del ej. 32 + el **antes/después** (1 min improvisando el día 1 y el día 30).
 > - **Hito 3 — EL VOCABULARIO:** una semana por escuela (británica = motivo repetido, dobles cuerdas,
->   unísonos · americana = frase vocal, legato, bendings largos); después **el color de cada grado** (ej. 41)
+>   unísonos · americana = frase vocal, legato, bendings largos); después **el color de cada grado** (ej. 43)
 >   y las 3 variaciones que convierten un lick prestado en propio (ritmo, remate, caja); y por último la
 >   arquitectura de 4 frases + el solo final.
 >   Trae **banco de licks** (tablatura en blanco para imprimir) donde el alumno anota *qué mecanismo* le robó
 >   a cada frase, no solo las notas. Entregable: **el solo propio de 1 minuto** = cierre del programa.
 >
-> **El color de los grados (ej. 41) es la bisagra teórica del programa.** Hasta ahí el alumno venía sabiendo
+> **El color de los grados (ej. 43) es la bisagra teórica del programa.** Hasta ahí el alumno venía sabiendo
 > que cerrar en la tónica suena a conclusión, pero nunca por qué. Acá se le da el mapa completo: 1ª = reposo ·
 > 3ªm = descanso triste · 4ª = suspenso · 5ª = firme pero abierta · 7ªm = flotando · 8ª = reposo brillante.
 > Y de paso se explica por qué la pentatónica "no tiene notas equivocadas": le faltan justo la 2ª, la 3ª mayor,
@@ -935,7 +935,47 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 >    ser **bonus post-programa**, a un lick por semana. Deja de ser carga escondida del mes 3 y pasa a ser
 >    un motivo de continuidad después del cierre.
 >
-> Resultado: **16 · 18 · 17 ejercicios** por hito, y la caja 2 se pisa en el mes 2 en vez del mes 3.
+> Resultado: **16 · 18 · 19 ejercicios** por hito, y la caja 2 se pisa en el mes 2 en vez del mes 3.
+
+> 🔍 **AUDITORÍA DE CAJAS (segunda pasada — corrige un efecto colateral del rebalanceo de arriba).**
+> Feli detectó que el Hito 3 estaba saturado de caja 1. Se verificó decodificando cada nota de las
+> partituras LilyPond a su traste. El dato: de 279 notas del Hito 3, solo 23 salían de la ventana de
+> caja 1 (trastes 5-8) = **8,2%**. Peor: comparado con los otros hitos, la trayectoria estaba **invertida**.
+>
+> | | Notas | Fuera de trastes 5-8 (ANTES) | (DESPUÉS) |
+> |---|---|---|---|
+> | Hito 1 — El Mapa | 339 | 47,2% | 47,2% (sin cambios, estaba sano) |
+> | Hito 2 — El Sabor | 255 | 14,1% | 14,1% (sin cambios) |
+> | Hito 3 — El Vocabulario | 279 → 313 | **8,2%** | **21,4%** |
+> | Bonus post-programa | 109 | 74,3% | — (2 licks repatriados) |
+>
+> **La causa fue el punto 3 del rebalanceo anterior:** los 8 licks que salieron del Hito 3 al bonus eran
+> justamente *todo* el territorio de cajas 3, 4 y 5. Se arregló el conteo de ejercicios y en el mismo
+> movimiento se le sacó al Hito 3 su geografía. El alumno terminaba las 12 semanas sin haber tocado un
+> lick real fuera de las cajas 1 y 2, y el **solo final (el entregable, el testimonio) tenía 84% de sus
+> notas en la caja 1** — contradiciendo la promesa de la bio ("te movés por las 5 cajas").
+>
+> **Los 5 cambios aplicados (sin agregar carga: se reescribió contenido existente):**
+> 1. **Ej. 50 (el esqueleto) — el de mayor impacto.** Sus 4 notas de llegada ahora caen en cajas 1, 2, 3
+>    y 5. Como el alumno rellena el medio, *no puede conectarlas sin recorrer el mástil*: el movimiento
+>    entra en SU propio solo, no solo en el modelo. Pasó de 0% a 60% fuera de caja 1.
+> 2. **Ej. 53 (el solo final).** El DESARROLLA se mudó a la caja 2 y el bending post-clímax a la caja 3.
+>    Recorre 1 → 2 → 1 → 2/3/4 → 3 → 1 → 5. De 16% a 27%.
+> 3. **Ej. 49 (la arquitectura).** El "la misma idea, más arriba" ahora significa **otra caja**, no otra
+>    cuerda. De 15% a 35%.
+> 4. **Ej. 51 (los tres finales).** Cada final en una caja distinta (1, 3 y 4): un cierre depende del
+>    gesto, no de la posición. De 0% a 50%.
+> 5. **Repatriación:** vuelven al Hito 3 como **ej. 47 (caja 3, celda Clapton)** y **ej. 48 (caja 5,
+>    riff Angus/Berry)**. El 47 es a propósito *el mismo mecanismo del ej. 35* tres cajas más arriba —
+>    demuestra que un lick es un patrón, no un lugar. El bonus queda en 6 licks (54-59).
+>
+> **Lo que NO se tocó, y por qué:** los 8 licks de escuela (35-42) siguen en caja 1. Es pedagogía correcta:
+> si le enseñás un mecanismo nuevo Y una posición nueva a la vez, falla en las dos. El ej. 43 (color de
+> los grados) también se queda: es de oído, no de geografía. Y el ej. 52 (el motivo que vuelve) va en la
+> misma caja las dos veces a propósito — si se muda, el oído no lo reconoce y se pierde el efecto.
+>
+> *Script de auditoría: decodifica pitch+cuerda de LilyPond a traste y reporta % fuera de la ventana 5-8.
+> Vale la pena volver a correrlo si se toca cualquier partitura.*
 
 > ⚠️ **HUECOS CONOCIDOS — MÓDULO 2 (futuro, no parchear ahora).** El programa entrena melodía, expresión y
 > arquitectura, pero deja dos cosas afuera a propósito, y el alumno las va a chocar cuando toque con gente:
