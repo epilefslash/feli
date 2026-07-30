@@ -37,6 +37,7 @@ LIGHT = colors.HexColor("#f5f0ec")
 LIGHT2 = colors.HexColor("#fdf6f5")
 BORDER = colors.HexColor("#ddcfc9")
 WOOD = colors.HexColor("#e8ded6")
+BLUE = colors.HexColor("#2f6fed")   # el blue note — distinto del rojo (tónica) y el gris oscuro (nota común)
 
 H1 = ParagraphStyle('H1', fontName='Helvetica-Bold', fontSize=15.5, leading=19,
                     textColor=RED, spaceBefore=2, spaceAfter=6)
@@ -330,6 +331,32 @@ class MapaCompleto(Flowable):
             c.line(xb, yy, xb, yy - 3.5)
             c.setFillColor(RED)
             c.drawCentredString((xa + xb) / 2, yy + 3, "caja %d" % caja)
+
+
+# Blue note = paso cromático entre la 4ª y la 5ª (el único "hueco" de un tono entero
+# de la pentatónica menor). Una posición por cuerda y por octava dentro del mástil.
+BLUE_NOTES = {1: [11], 2: [4, 16], 3: [8], 4: [1, 13], 5: [6], 6: [11]}
+
+
+class MapaBlueNotes(MapaCompleto):
+    """El mástil completo (igual que MapaCompleto) con el blue note marcado en cada cuerda.
+
+    Es la misma nota "de paso" que ya se probó en el Hito 2 (ej. 26, caja 2, 3ª cuerda,
+    traste 8) — acá se muestra que existe UNA sola por cuerda y por octava en todo el
+    mástil, no una por caja. Confirma la idea central del programa: no son 5 cajas
+    sueltas, es un solo mapa.
+    """
+
+    def draw(self):
+        super().draw()
+        c = self.canv
+        x0, y0 = self.PAD_L, self.PAD_B
+        w = self.width - self.PAD_L - self.PAD_R
+        fw = w / 17
+        for cuerda, trastes in BLUE_NOTES.items():
+            y = y0 + (6 - cuerda) * self.hs
+            for t in trastes:
+                _nota(c, x0 + (t - 0.5) * fw, y, False, r=4.3, texto="b5", color=BLUE)
 
 
 # ---------------------------------------------------------------- helpers de armado

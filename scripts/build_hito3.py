@@ -6,8 +6,8 @@ Requiere que antes se haya corrido `gen_scores_h3.py` (genera ./partituras/e35..
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, PageBreak, TableStyle, KeepTogether
 
-from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG,
-                               Diagrama, documento, tabla, banner, par, caja_oscura,
+from cuadernillo_comun import (H1, H2, BODY, SMALL, CELL, CELLB, CAJ, IG, BLUE,
+                               Diagrama, MapaBlueNotes, documento, tabla, banner, par, caja_oscura,
                                ejercicio, score, TablaturaEnBlanco)
 
 doc = documento("Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf",
@@ -256,6 +256,29 @@ S.append(ejercicio(43, "El color de cada grado (la prueba del reposo)", (
 S.append(Paragraph(
     "Cuando esto se te vuelve automático dejás de improvisar a ciegas: <b>ya no elegís notas, elegís "
     "sensaciones</b>. Los tres ejercicios que siguen son exactamente eso aplicado.", SMALL))
+
+# ============================================================ EL BLUE NOTE — EL MAPA COMPLETO
+S.append(Paragraph("EL BLUE NOTE: LA SEXTA NOTA (la que no está en la tabla de arriba)", H2))
+S.append(Paragraph(
+    "En el Hito 2 (ej. 26) ya probaste una nota que <b>no pertenece a la pentatónica</b>: el blue note, "
+    "metido de paso entre la 4ª y la 5ª. En ese momento la viste en un solo lugar — caja 2, 3ª cuerda, "
+    "traste 8. Ahora que ya tenés el mapa completo y entendés el color de cada grado, es el momento de "
+    "ver la foto entera: <b>hay un blue note por cuerda, uno por octava, en todo el mástil</b> — no es una "
+    "excepción de la caja 2, es parte del mapa. Por eso no tiene fila propia en la tabla de arriba: no es "
+    "un grado de la escala, es el hueco cromático entre dos grados que existe SIEMPRE en el mismo lugar "
+    "relativo, toques donde toques.", BODY))
+S.append(Spacer(1, 4))
+S.append(MapaBlueNotes(W))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "<font color=\"#%s\"><b>●</b></font> el blue note en cada cuerda y octava dentro del mástil. Fijate que "
+    "aparecen en las costuras entre cajas (borde de caja 1/2/3 en la 3ª cuerda, borde de caja 3/4 en la "
+    "1ª y 6ª, borde de caja 4 en la 2ª y 4ª) — es otra prueba de que las costuras no son frontera, son "
+    "territorio compartido." % BLUE.hexval()[2:], SMALL))
+S.append(Paragraph(
+    "<b>La regla no cambia por tener más lugares donde usarla:</b> es una nota de PASO, nunca de llegada. "
+    "Cruzala rápido entre la 4ª y la 5ª (en cualquier dirección) y nunca la sostengas ni le hagas vibrato "
+    "— ahí es donde deja de sonar a blues y empieza a sonar a error.", SMALL))
 
 S.append(ejercicio(44, "Mismas notas, tres ritmos distintos", (
     "Las mismas seis notas escritas tres veces, con tres ritmos: parejo, acelerando, y a contratiempo. "
