@@ -10,11 +10,16 @@ del hito: lo que se roba es el MECANISMO (el motivo que se repite, la doble
 cuerda, el bending que espera), no las notas de otro.
 
 Tonalidad: La menor pentatónica.
-Territorio: los licks de escuela (35-42) viven en la caja 1 a propósito — se aísla
-la variable: se aprende el MECANISMO, no una posición nueva. Desde el ej. 46 en
-adelante el hito se abre: 46 muda un lick por tres cajas, 47 y 48 son licks reales
-en las cajas 3 y 5, y 49/50/53 (arquitectura, esqueleto y solo final) tienen sus
-llegadas repartidas por el mástil para que el alumno NO pueda quedarse en la caja 1.
+Territorio: el hito se mueve por todo el mástil DESDE LA PRIMERA PÁGINA. Cada lick
+de escuela vive en una caja distinta y los "encadenados" (38 y 42) atraviesan varias:
+  35 caja 1 (la referencia) · 36 caja 2 · 37 caja 3 · 38 sube 1->2->3
+  39 caja 4 · 40 baja 4->1 · 41 caja 2 · 42 baja 4->2->3->1
+El 35 es el único que se queda en la caja 1, a propósito: es el punto de comparación
+contra el que se escucha el 47 (la misma celda, tres cajas más arriba). Sin esa
+referencia, "el mismo patrón suena distinto" no se puede demostrar.
+Después: 46 muda un lick por tres cajas, 47 y 48 son licks en las cajas 3 y 5, y
+49/50/53 (arquitectura, esqueleto y solo final) tienen las llegadas repartidas por
+el mástil para que el alumno NO pueda quedarse en la caja 1.
 
 Alturas LilyPond (sonido real, clave treble_8):
   6a: 3=g, 5=a, 8=c 10=d 12=e 15=g
@@ -46,58 +51,62 @@ EJ["e35"] = r"""
   e'4\2 a4\4^\markup{\bold "y recién ahí resolvés"} |
 """
 
-# 36: dobles cuerdas (la marca de Angus / Chuck Berry)
+# 36: dobles cuerdas (la marca de Angus / Chuck Berry) — en la CAJA 2
 EJ["e36"] = r"""
-  <e'\2 a'\1>8^\markup{\bold "dos cuerdas juntas"} <e'\2 a'\1>8 <g'\2 c''\1>4 <e'\2 a'\1>4 <g'\2 c''\1>4 |
-  <g'\2 c''\1>8 <e'\2 a'\1>8 d'4\3 c'8\3 a\4 g4\4 |
-  a1\4^\markup{\bold "vibrato"} |
+  <g'\2 c''\1>8^\markup{\bold "dos cuerdas juntas · CAJA 2"} <g'\2 c''\1>8 <a'\2 d''\1>4 <g'\2 c''\1>4 <a'\2 d''\1>4 |
+  <a'\2 d''\1>8 <g'\2 c''\1>8 e'4\3 d'8\3 c'\4 a4\4 |
+  a1\4^\markup{\bold "vibrato · la tónica de la caja 2"} |
 """
 
-# 37: el unísono (bendeás una cuerda hasta igualar la de al lado)
+# 37: el unísono (bendeás una cuerda hasta igualar la de al lado) — en la CAJA 3
 EJ["e37"] = r"""
-  <d'\3 e'\2>2^\markup{\bold "bendeá la 3ª hasta que suene IGUAL que la 2ª"} <d'\3 e'\2>2 |
-  <d'\3 e'\2>4 r4 c'8\3 a\4 g\4 e\5 |
-  a1\4^\markup{\bold "vibrato"} |
+  <g'\3 a'\2>2^\markup{\bold "bendeá la 3ª hasta igualar la 2ª · CAJA 3"} <g'\3 a'\2>2 |
+  <g'\3 a'\2>4 r4 e'8\3 c'\4 g\5 d\6 |
+  a1\5^\markup{\bold "vibrato · la tónica de la caja 3"} |
 """
 
-# 38: los tres recursos británicos encadenados
+# 38: los tres recursos británicos encadenados — y cada uno en su caja:
+# celda (1) -> dobles cuerdas (2) -> unísono (3). El encadenado ES el viaje.
 EJ["e38"] = r"""
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 } \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  <e'\2 a'\1>4 <g'\2 c''\1>4 |
-  <d'\3 e'\2>2^\markup{\bold "unísono"} d'8\3 c'\3 a4\4 |
-  a1\4^\markup{\bold "vibrato"} |
+  \tuplet 3/2 { c''8\1^\markup{\bold "celda · caja 1"}( a'\1) g'\2 } \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  <g'\2 c''\1>4^\markup{\bold "dobles cuerdas · caja 2"} <a'\2 d''\1>4 |
+  <g'\3 a'\2>2^\markup{\bold "unísono · caja 3"} e'8\3 c'\4 a4\5 |
+  a1\5^\markup{\bold "vibrato"} |
 """
 
 # ============================================ SEMANA 10 — ESCUELA AMERICANA
 # Lo que la define: frases que respiran como una voz, legato, bendings largos,
 # espacio. La frase vale por la MELODÍA, no por la insistencia.
 
-# 39: la frase vocal (escuela Gary Moore) — espera, estira, resuelve
+# 39: la frase vocal (escuela Gary Moore) — espera, estira, resuelve. En la CAJA 4:
+# es donde Gary Moore realmente vive, y el registro agudo hace la mitad del trabajo.
 EJ["e39"] = r"""
-  r4 a'8\1 c''8\1 ~ c''2 |
-  d'4\3^\markup{\bold "bend 1 tono + vibrato"} ~ d'2. |
-  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato largo"} |
+  r4 e''8\1^\markup{\bold "arriba de todo · CAJA 4"} g''8\1 ~ g''2 |
+  g'4\3^\markup{\bold "bend 1 tono + vibrato"} ~ g'2. |
+  c''8\2 a'\3 g'\3 e'\4 a2\5^\markup{\bold "vibrato largo · la tónica de la caja 4"} |
 """
 
-# 40: la línea fluida (escuela Slash) — casi todo ligado, casi nada punteado
+# 40: la línea fluida (escuela Slash) — casi todo ligado. Ahora baja DE VERDAD:
+# arranca en la caja 4 y desciende en diagonal hasta la 1.
 EJ["e40"] = r"""
-  r8 d''8\1 \glissando c''8\1^\markup{\bold "slide"}( a'\1) g'\2( e'\2) d'\3( c'\3) |
-  a8\4( g\4) e\5( d\5) c8\6 a,4.\6^\markup{\bold "vibrato"} |
+  r8 g''8\1^\markup{\bold "arrancás en la caja 4"} \glissando e''8\1( c''\2) a'\2( g'\3) e'\3( c'\4) |
+  a8\4^\markup{\bold "y llegás a la caja 1"}( g\4) e\5( d\5) c8\6 a,4.\6^\markup{\bold "vibrato"} |
 """
 
-# 41: dobles cuerdas con ligado (el remate estilo Hendrix)
+# 41: dobles cuerdas con ligado (el remate estilo Hendrix) — en la CAJA 2
 EJ["e41"] = r"""
-  <c'\3 e'\2>8^\markup{\bold "el hammer va en la cuerda de abajo"}( <d'\3 e'\2>8) <c'\3 e'\2>4
-  <c'\3 e'\2>8( <d'\3 e'\2>8) <c'\3 e'\2>4 |
-  g'8\2 e'\2 d'\3 c'\3 a2\4^\markup{\bold "vibrato"} |
+  <d'\3 g'\2>8^\markup{\bold "el hammer va en la cuerda de abajo · CAJA 2"}( <e'\3 g'\2>8) <d'\3 g'\2>4
+  <d'\3 g'\2>8( <e'\3 g'\2>8) <d'\3 g'\2>4 |
+  c''8\1 a'\2 g'\2 e'\3 a2\4^\markup{\bold "vibrato"} |
 """
 
-# 42: los tres recursos americanos encadenados
+# 42: los tres recursos americanos encadenados, cada uno en su caja:
+# línea fluida (4 -> 2) -> dobles cuerdas (2) -> bending (3) -> cierre (1).
 EJ["e42"] = r"""
-  r8 d''8\1 \glissando c''8\1( a'\1) g'\2( e'\2) d'\3( c'\3) |
-  <c'\3 e'\2>8( <d'\3 e'\2>8) <c'\3 e'\2>4 a4\4 r4 |
-  d'2\3^\markup{\bold "bend 1 tono"} d'2\3^\markup{\bold "vibrato"} |
-  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato"} |
+  r8 g''8\1^\markup{\bold "línea fluida · caja 4 a 2"} \glissando e''8\1( c''\2) a'\2( g'\3) e'\3( c'\4) |
+  <d'\3 g'\2>8^\markup{\bold "dobles cuerdas · caja 2"}( <e'\3 g'\2>8) <d'\3 g'\2>4 a4\4 r4 |
+  g'2\3^\markup{\bold "bend 1 tono · caja 3"} g'2\3^\markup{\bold "vibrato"} |
+  c'8\3^\markup{\bold "cerrás en la caja 1"} a\4 g\4 e\5 a2\4^\markup{\bold "vibrato"} |
 """
 
 # ============================================ SEMANA 11 — HACERLO TUYO

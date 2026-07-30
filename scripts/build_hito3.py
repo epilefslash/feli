@@ -138,29 +138,45 @@ S.append(Paragraph(
     "Cuando escuchás un solo de Zeppelin o de AC/DC y te queda pegado, casi nunca es por una melodía "
     "elaborada — es porque una celda de tres notas se te metió en la cabeza a fuerza de insistencia. "
     "Es la misma lógica de un riff, aplicada al solo.", BODY))
+S.append(Paragraph(
+    "<b>Y una advertencia sobre dónde están escritos estos licks.</b> Cada uno vive en una caja distinta: "
+    "el primero en la 1, el segundo en la 2, el tercero en la 3, y el cuarto los encadena a los tres "
+    "atravesando el mástil. Está hecho a propósito y es la mitad de la lección: un recurso <b>no pertenece "
+    "a una posición</b>. Si te cuesta ubicar el dibujo, volvé al mapa del Hito 1 — no es material nuevo, "
+    "es territorio que ya recorriste.", SMALL))
 
-S.append(ejercicio(35, "El motivo que se repite", (
+S.append(ejercicio(35, "El motivo que se repite (caja 1)", (
     "Una celda de tres notas, machacada cinco veces, y recién en la sexta resolvés. Vas a sentir que "
     "<b>estás repitiendo demasiado</b> — esa sensación es la trampa: desde adentro siempre parece más "
-    "repetido de lo que se escucha desde afuera. Grabate y vas a ver que suena convincente, no monótono."),
+    "repetido de lo que se escucha desde afuera. Grabate y vas a ver que suena convincente, no monótono.<br/><br/>"
+    "Éste es el único de la semana que va en la caja 1, y es a propósito: es tu <b>punto de comparación</b>. "
+    "En el ejercicio 47 vas a tocar esta misma celda tres cajas más arriba, y la diferencia solo se escucha "
+    "si tenés ésta en el oído."),
     "e35", W, "60 BPM en tresillos. El pull-off va en la 1ª cuerda (8 al 5); el Sol de la 2ª se puntea."))
 
-S.append(ejercicio(36, "Dobles cuerdas", (
+S.append(ejercicio(36, "Dobles cuerdas (caja 2)", (
     "Dos notas juntas, con la púa barriendo las dos cuerdas de una. Es el sonido de Chuck Berry y de medio "
     "AC/DC: suena más grande que una nota sola sin necesidad de tocar más rápido. Cuidá que las dos suenen "
-    "parejas — si una se escucha más, estás inclinando la púa."),
+    "parejas — si una se escucha más, estás inclinando la púa.<br/><br/>"
+    "Va en la <b>caja 2</b> (trastes 7 a 10). Es el mismo mecanismo que harías en la caja 1: dos cuerdas "
+    "agudas, dos formas que alternan. <b>Corriste la mano tres trastes, nada más.</b>"),
     "e36", W, "70 BPM. Apagá con la mano derecha las cuerdas que no usás: si zumba algo, se arruina."))
 
-S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota)", (
+S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota) — caja 3", (
     "El recurso más impactante de la escuela británica. Tocás dos cuerdas juntas y <b>bendeás la de abajo "
     "hasta que suene exactamente igual que la de arriba</b>. Cuando están afinadas, las dos notas se pelean "
     "y producen un batido que suena enorme. Cuando no, suena horrible — no hay término medio, y por eso "
-    "es el mejor test de afinación de bending que existe."),
+    "es el mejor test de afinación de bending que existe.<br/><br/>"
+    "Acá va en la <b>caja 3</b>: bendeás el traste 12 de la 3ª cuerda hasta igualar el 10 de la 2ª. "
+    "Es exactamente la misma relación que en la caja 1 (7ª contra 5ª) — la forma es idéntica, corrida."),
     "e37", W, "Lento, sin metrónomo. Escuchá el batido: cuando desaparece, llegaste."))
 
-S.append(ejercicio(38, "Los tres recursos encadenados", (
+S.append(ejercicio(38, "Los tres recursos encadenados (y el viaje)", (
     "Motivo repetido, dobles cuerdas y unísono en una sola frase. Fijate cuántas notas distintas usaste: "
-    "casi ninguna. Toda la fuerza vino del <b>tratamiento</b>, no del material."),
+    "casi ninguna. Toda la fuerza vino del <b>tratamiento</b>, no del material.<br/><br/>"
+    "Y fijate en algo más: cada recurso está en la caja donde lo aprendiste — celda en la 1, dobles cuerdas "
+    "en la 2, unísono en la 3. <b>La frase sube por el mástil sola</b>, porque el vocabulario que usás vive "
+    "repartido. Así se arma un solo que se mueve sin que el movimiento parezca un ejercicio."),
     "e38", W, "Con backing. Tocalo como si estuvieras enojado: esta escuela pide convicción, no delicadeza."))
 
 # ============================================================ SEMANA 10
@@ -174,27 +190,38 @@ S.append(Paragraph(
     "respira, sostiene, y no dice dos ideas al mismo tiempo. Si tu frase no la podés cantar, es porque "
     "la pensaste con los dedos.", BODY))
 
-S.append(ejercicio(39, "La frase vocal (escuela Gary Moore)", (
+S.append(ejercicio(39, "La frase vocal (escuela Gary Moore) — caja 4", (
     "Tres compases y apenas un puñado de notas. La estructura es la de una frase hablada: una entrada que "
     "<b>hace esperar</b>, un bending largo que es el momento importante, y una bajada que resuelve. "
-    "Lo difícil acá no es tocarlo: es aguantar los silencios sin rellenarlos."),
-    "e39", W, "Con backing lento. Cantala antes de tocarla, aunque desafines."))
+    "Lo difícil acá no es tocarlo: es aguantar los silencios sin rellenarlos.<br/><br/>"
+    "Va arriba de todo, en la <b>caja 4</b> (trastes 12 a 15), porque ahí es donde esta escuela realmente "
+    "vive: el registro agudo hace la mitad del trabajo emocional. La misma frase en la caja 1 suena "
+    "correcta; acá arriba <b>suena a que alguien está diciendo algo</b>."),
+    "e39", W, "Con backing lento. Cantala antes de tocarla, aunque desafines. Ojo: trastes angostos, menos fuerza."))
 
-S.append(ejercicio(40, "La línea fluida (escuela Slash)", (
+S.append(ejercicio(40, "La línea fluida (escuela Slash) — de la caja 4 a la 1", (
     "Casi todo ligado: en dos compases puntéas tres o cuatro veces nada más. El resultado es una línea que "
     "<b>se derrama</b> por el mástil en vez de marcar cada nota. Empezá lento — si acelerás antes de tiempo, "
-    "los ligados se apagan y queda un murmullo."),
+    "los ligados se apagan y queda un murmullo.<br/><br/>"
+    "Y acá \"derramarse por el mástil\" es literal: <b>arranca en la caja 4 y termina en la 1</b>, bajando "
+    "en diagonal. Es el mismo movimiento del ejercicio 15 del Hito 1, ahora con vocabulario encima."),
     "e40", W, "60 BPM y subís. Que las notas ligadas suenen igual de fuerte que las punteadas."))
 
-S.append(ejercicio(41, "Dobles cuerdas con ligado (remate estilo Hendrix)", (
+S.append(ejercicio(41, "Dobles cuerdas con ligado (remate estilo Hendrix) — caja 2", (
     "Dobles cuerdas otra vez, pero acá el hammer-on va <b>en la cuerda de abajo mientras la de arriba se "
     "sostiene</b>. Ese movimiento es la marca registrada de Hendrix y de todo el R&B. Es más difícil de lo "
-    "que parece: el dedo que golpea tiene que ser preciso para no apagar la otra cuerda."),
+    "que parece: el dedo que golpea tiene que ser preciso para no apagar la otra cuerda.<br/><br/>"
+    "En la <b>caja 2</b>: el hammer va del traste 7 al 9 en la 3ª cuerda, mientras la 2ª sostiene el 8. "
+    "Compará con el ejercicio 36, que también es de dobles cuerdas y está en la misma caja: "
+    "<b>mismo barrio, dos mecanismos distintos</b>."),
     "e41", W, "Lento. Si la nota de arriba se corta cuando hacés el hammer, tocás con demasiada fuerza."))
 
-S.append(ejercicio(42, "Los tres recursos encadenados", (
+S.append(ejercicio(42, "Los tres recursos encadenados (y el viaje de vuelta)", (
     "La línea fluida, la doble cuerda con ligado y el bending largo en una sola frase. Compará esta página "
-    "con el ejercicio 38: <b>la misma escala, el mismo mástil, dos idiomas distintos</b>."),
+    "con el ejercicio 38: <b>la misma escala, el mismo mástil, dos idiomas distintos</b>.<br/><br/>"
+    "Fijate también en la dirección. El 38 (británico) <b>sube</b> de la caja 1 a la 3; éste <b>baja</b> "
+    "de la 4 a la 1. No es casualidad: la escuela británica empuja hacia adelante y la americana deja caer, "
+    "y eso también se escribe en el mástil."),
     "e42", W, "Con backing. Tocalo relajado, casi perezoso. Esta escuela pide calma, no convicción."))
 
 # ============================================================ SEMANA 11
@@ -346,12 +373,12 @@ S.append(ejercicio(46, "El mismo lick, mudado de caja", (
     "por eso mudar de caja no es un requisito de checklist, es una <b>decisión expresiva</b>."),
     "e46", W, "Lento. Después probalo en las cajas 4 y 5 sin que esté escrito: ése es el verdadero examen."))
 
-S.append(Paragraph("DOS LICKS QUE NO VIVEN EN LA CAJA 1", H2))
+S.append(Paragraph("DOS LICKS MÁS, EN LOS DOS EXTREMOS DEL MÁSTIL", H2))
 S.append(Paragraph(
-    "Los ocho licks de las semanas 9 y 10 están en la caja 1 a propósito: no tenía sentido pelearte con una "
-    "posición nueva mientras aprendías el <i>mecanismo</i>. Pero ya sabés los mecanismos, y el ejercicio "
-    "anterior te acaba de mostrar que son transportables. Así que estos dos no son licks de caja 1 mudados: "
-    "son licks que <b>viven</b> en otro lado, con el carácter de esa zona.", BODY))
+    "Venís tocando vocabulario repartido por las cajas 1, 2, 3 y 4 desde la semana 9. Estos dos cierran el "
+    "mapa: uno vuelve a la <b>caja 3</b> — y es a propósito la misma celda del ejercicio 35, para que la "
+    "comparación sea directa — y el otro baja a la <b>caja 5</b>, la única zona que todavía no habías "
+    "pisado en este hito.", BODY))
 
 S.append(ejercicio(47, "La celda repetida, tres cajas más arriba (caja 3)", (
     "Es <b>exactamente el mecanismo del ejercicio 35</b> — la celda de tres notas machacada hasta que se "

@@ -946,7 +946,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > |---|---|---|---|
 > | Hito 1 — El Mapa | 339 | 47,2% | 47,2% (sin cambios, estaba sano) |
 > | Hito 2 — El Sabor | 255 | 14,1% | 14,1% (sin cambios) |
-> | Hito 3 — El Vocabulario | 279 → 313 | **8,2%** | **21,4%** |
+> | Hito 3 — El Vocabulario | 279 → 313 | **8,2%** | **38,7%** |
 > | Bonus post-programa | 109 | 74,3% | — (2 licks repatriados) |
 >
 > **La causa fue el punto 3 del rebalanceo anterior:** los 8 licks que salieron del Hito 3 al bonus eran
@@ -969,10 +969,25 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 >    riff Angus/Berry)**. El 47 es a propósito *el mismo mecanismo del ej. 35* tres cajas más arriba —
 >    demuestra que un lick es un patrón, no un lugar. El bonus queda en 6 licks (54-59).
 >
-> **Lo que NO se tocó, y por qué:** los 8 licks de escuela (35-42) siguen en caja 1. Es pedagogía correcta:
-> si le enseñás un mecanismo nuevo Y una posición nueva a la vez, falla en las dos. El ej. 43 (color de
-> los grados) también se queda: es de oído, no de geografía. Y el ej. 52 (el motivo que vuelve) va en la
-> misma caja las dos veces a propósito — si se muda, el oído no lo reconoce y se pierde el efecto.
+> **TERCERA PASADA — los licks de escuela también salen (decisión de Feli, 30/7).** En la segunda pasada
+> los 8 licks de escuela (35-42) se habían dejado en la caja 1 por el principio de "no enseñar mecanismo y
+> posición a la vez". Feli lo revirtió con dos argumentos que pesan más: (a) el alumno es intermedio, ya
+> entiende cómo funciona un lick — lo que le falta es justamente ver el patrón replicado; y (b) tener las
+> primeras 10 páginas en trastes 5-8 contradice la promesa del programa, y "el alumno abre, ve lo mismo,
+> cierra" antes de llegar a la nota al pie que lo explica. Resultado: cada lick de escuela vive ahora en
+> una caja distinta y los encadenados atraviesan varias —
+> **35 caja 1 · 36 caja 2 · 37 caja 3 · 38 sube 1→2→3 · 39 caja 4 · 40 baja 4→1 · 41 caja 2 · 42 baja 4→1**.
+> El 38 y el 42 quedaron especialmente bien: como cada recurso vive en su caja, *la frase sube o baja el
+> mástil sola*, sin que el movimiento parezca un ejercicio de desplazamiento. Y la dirección opuesta de los
+> dos (británico sube, americano baja) refuerza el contraste entre escuelas.
+>
+> **El ej. 35 se quedó en la caja 1 a propósito, y es el único.** Es el punto de comparación: el ej. 47 es
+> esa misma celda tres cajas más arriba, y "el mismo patrón suena distinto" no se puede demostrar sin tener
+> la referencia en el oído. El texto del 35 ahora lo dice explícito.
+>
+> **Hito 3 quedó en 38,7% fuera de la caja 1** (era 8,2% antes de todo esto). El ej. 43 (color de los
+> grados) sigue en caja 1 porque es de oído, no de geografía; y el ej. 52 (el motivo que vuelve) va en la
+> misma caja las dos veces porque si se muda, el oído no lo reconoce y se pierde el efecto.
 >
 > *Script de auditoría: decodifica pitch+cuerda de LilyPond a traste y reporta % fuera de la ventana 5-8.
 > Vale la pena volver a correrlo si se toca cualquier partitura.*
