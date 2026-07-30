@@ -199,26 +199,65 @@ S.append(Paragraph(
     "El vibrato es lo único de la guitarra que es <b>tuyo</b>: el de B.B. King, el de Clapton y el de Gary Moore "
     "se reconocen en una nota. Y también es lo que delata al amateur en una nota — porque el vibrato del amateur "
     "es involuntario: aparece del nervio, no de una decisión.", BODY))
+S.append(Spacer(1, 2))
+S.append(par([Diagrama(2, W * 0.5, titulo="TERRITORIO DE ESTA SEMANA: CAJA 2"),
+              Paragraph("Esta semana te quedás en la caja 2 — la misma zona donde ya bendeaste en la semana "
+                        "pasada. No sumás posición nueva justo cuando estás por sumar una técnica nueva.<br/><br/>"
+                        "Tónica: 2ª cuerda, traste 10.", BODY)],
+             [W * 0.5, W * 0.5]))
+S.append(Spacer(1, 4))
+
+S.append(Paragraph("EL AGARRE (esto es lo que nadie te corrige)", H2))
 S.append(tabla([
-    [Paragraph("<b>Los 3 errores</b>", CELLB), Paragraph("<b>Cómo se arregla</b>", CELLB)],
+    [Paragraph("<b>Punto</b>", CELLB), Paragraph("<b>Cómo va</b>", CELLB)],
+    [Paragraph("Pulgar", CELL),
+     Paragraph("<b>Por encima del diapasón</b>, apoyado suave — no escondido atrás del mástil. Para este "
+               "vibrato en particular, necesitás ese apoyo.", CELL)],
+    [Paragraph("Base del índice", CELL),
+     Paragraph("Hace contacto por abajo con la base de la mano. Es el segundo punto de apoyo, junto con "
+               "el pulgar — entre los dos sostienen el movimiento.", CELL)],
+    [Paragraph("Dedos de apoyo", CELL),
+     Paragraph("Apoyá los dedos <b>anteriores</b> al que estás usando (si vibrás con el anular, apoyá "
+               "índice y medio también). Te da fuerza y estabilidad — si el esfuerzo cae solo en la "
+               "falange del dedo que vibra, se cansa y pierde control.", CELL)],
+], [3.2 * cm, W - 3.2 * cm]))
+
+S.append(tabla([
+    [Paragraph("<b>Los errores más comunes</b>", CELLB), Paragraph("<b>Cómo se arregla</b>", CELLB)],
     [Paragraph("Tembleque descontrolado", CELL),
-     Paragraph("Medilo con metrónomo (ejercicio 25). Si no podés contar las ondas, no lo estás controlando: "
+     Paragraph("Medilo con metrónomo (ejercicio 27). Si no podés contar las ondas, no lo estás controlando: "
                "te está saliendo solo.", CELL)],
-    [Paragraph("Vibrato con el dedo", CELL),
-     Paragraph("Se hace con la <b>muñeca</b>, moviendo la mano entera como si girases un picaporte. El dedo "
-               "solo no tiene fuerza ni regularidad.", CELL)],
+    [Paragraph("Vibrato con el dedo (\"vibrato de falange\")", CELL),
+     Paragraph("Se hace con la <b>muñeca</b>, girándola como si abrieras el pomo de una puerta — no doblando "
+               "la última falange. El dedo solo no tiene fuerza ni regularidad.", CELL)],
+    [Paragraph("Alternar la dirección", CELL),
+     Paragraph("Vibrar <b>siempre para el mismo lado</b> (siempre para arriba, o siempre para abajo) es mucho "
+               "más fácil que alternar. Elegí un sentido y quedate ahí — alternar es un truco avanzado, "
+               "no el punto de partida.", CELL)],
+    [Paragraph("Mover el mástil de la guitarra", CELL),
+     Paragraph("Si además de la cuerda se mueve el mástil, estás regalando energía al instrumento en vez de "
+               "ponerla toda en la cuerda. El resultado es un vibrato menos preciso y más cansador.", CELL)],
     [Paragraph("Empezar a vibrar de inmediato", CELL),
      Paragraph("Dejá sonar la nota derecha medio segundo y <b>después</b> entrás con el vibrato. Ese retardo "
                "es lo que suena caro.", CELL)],
 ], [4.4 * cm, W - 4.4 * cm]))
+S.append(Paragraph(
+    "<b>Tensión y relajación:</b> un vibrato tiene dos momentos, no uno. Tensás (estirás la cuerda) y "
+    "<b>relajás</b> (soltás para que vuelva sola a su lugar). El error más común es no volver del todo — "
+    "la cuerda se queda un poquito estirada y la nota queda permanentemente desafinada, aunque sea poco.", SMALL))
 
 S.append(ejercicio(27, "Vibrato medido (con metrónomo) — caja 2", (
-    "La misma nota tres veces, con el vibrato contado: 2, 3 y 4 ondas por tiempo. Suena a ejercicio militar y "
-    "esa es la idea — <b>vibrato que podés contar es vibrato que controlás</b>. Después vas a elegir la velocidad "
-    "según la frase, pero primero tenés que poder elegirla.<br/><br/>"
+    "La misma nota tres veces, con el vibrato contado: 2, 3 y 4 ondas por tiempo (en términos de subdivisión: "
+    "corcheas, tresillos y semicorcheas). Suena a ejercicio militar y esa es la idea — <b>vibrato que podés "
+    "contar es vibrato que controlás</b>. Después vas a elegir la velocidad según la frase, pero primero "
+    "tenés que poder elegirla. Si no podés hacer esto medido, es muy probable que todavía no puedas hacerlo "
+    "libre — el ejercicio libre solo se nota bien cuando el medido ya está.<br/><br/>"
     "Va en la <b>caja 2</b> (tónica: 2ª cuerda, traste 10), no en la 1. Ya bendeaste ahí en la semana pasada — "
     "esto sigue en el mismo territorio en vez de volver para atrás."),
-    "e27", W, "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar."))
+    "e27", W,
+    "60 BPM. Empezá por el lento: es el más difícil, porque el nervio te empuja a acelerar. Repetilo variando "
+    "la <b>amplitud</b> (cuánto estirás) sin cambiar la velocidad — son dos controles distintos, no uno. Y "
+    "hacelo con cada dedo, no solo el índice: el meñique en particular te va a costar el doble."))
 
 S.append(ejercicio(28, "El mismo vibrato en tres registros (y un cuarto, en caja 4)", (
     "Una frase corta que termina en una nota larga, resuelta en grave, medio y agudo. Vas a descubrir que "
