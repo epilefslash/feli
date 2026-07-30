@@ -1498,6 +1498,17 @@ fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en
 | Conexión de cajas | – | – | ✓✓✓ | ✓✓ |
 | Dinámica | ✓ | ✓✓ | ✓ | ✓✓✓ |
 
+### Dos piezas de color adicionales (opcionales, no tocan el banco fijo de 4)
+
+> Igual que con Californication (ya referenciada en la tabla de "notas de afuera" del Hito 3): esto NO
+> es contenido nuevo obligatorio. Es el menú de opciones para la sección "híbrido" de más abajo — Feli
+> elige de acá cuando decida, no hay que aprenderse las dos.
+
+| Pieza | Guitarrista | Por qué sirve | Ojo con esto |
+|---|---|---|---|
+| **"Seven Nation Army"** | Jack White (The White Stripes) | El riff más famoso construido casi enteramente sobre mi menor pentatónico — extremadamente básico, ideal para alumnos que recién arrancan a "escuchar y reconocer" en vez de tocar rápido. Ata directo con el ej. 48 del Hito 3 (la zona grave, territorio de riff, no de solo). | **No es un solo, es un RIFF.** No tiene la estructura de 4 frases (presenta/desarrolla/clímax/cierra) de los otros 4 — es repetición pura, más parecido al ej. 35 (la celda británica) que a un solo de Gilmour. Además, no puedo confirmarte nota por nota sin transcribirlo, pero de memoria el riff toca la 6ª (no la 7ª menor) en un punto — la misma nota "de afuera" que ya está en la tabla del Hito 3. Si es así, es un ejemplo perfecto de esa tabla, no solo de repertorio. |
+| **"Californication"** | John Frusciante (RHCP) | Ya está referenciada en la tabla de notas de afuera del Hito 3 (color de la 2ª/9ª). Simple, melódico, poco bending — coincide con lo que Feli señaló: "cómo se mueve" y que suena en pentatónica menor casi pura. | Sigue siendo débil para robo de licks (Hito 3) por lo simple que es — mejor como ejemplo de Hito 2 (espacio/economía), no como pieza a desarmar en profundidad. |
+
 ### ⚠️ CONFLICTO A RESOLVER con la sección 20 (LA TABLA SEMANA A SEMANA ACTUAL)
 La sección 20 ya tiene un solo de referencia DISTINTO cada una de las 12 semanas (11 canciones
 distintas: Back in Black, Whole Lotta Love, Voodoo Child, Parisienne Walkways, Sweet Child O'Mine,
