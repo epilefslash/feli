@@ -1,0 +1,508 @@
+<title>Checklist imprimible — Carteras Jorgelina</title>
+<meta name="description" content="Hoja de referencia para enseñar a vender carteras artesanales por Instagram." />
+<style>
+  :root {
+    --paper: #F5F6F3;
+    --paper-raised: #FFFFFF;
+    --ink: #1E2A28;
+    --ink-soft: #4B5753;
+    --accent: #0F6B5C;
+    --accent-soft: #E4EFEA;
+    --accent-2: #A8721F;
+    --accent-2-soft: #F5EAD3;
+    --berry: #8C3B3B;
+    --berry-soft: #F3E4E1;
+    --line: #D8D9CE;
+    --shadow: 0 1px 2px rgba(30, 42, 40, 0.06), 0 8px 24px -12px rgba(30, 42, 40, 0.18);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #141F1C;
+      --paper-raised: #1A2622;
+      --ink: #ECEFEA;
+      --ink-soft: #AEBAB4;
+      --accent: #55BCA3;
+      --accent-soft: #1E322C;
+      --accent-2: #E0B15C;
+      --accent-2-soft: #2E2718;
+      --berry: #E09A9A;
+      --berry-soft: #332221;
+      --line: #2B3934;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #141F1C;
+    --paper-raised: #1A2622;
+    --ink: #ECEFEA;
+    --ink-soft: #AEBAB4;
+    --accent: #55BCA3;
+    --accent-soft: #1E322C;
+    --accent-2: #E0B15C;
+    --accent-2-soft: #2E2718;
+    --berry: #E09A9A;
+    --berry-soft: #332221;
+    --line: #2B3934;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+  :root[data-theme="light"] {
+    --paper: #F5F6F3;
+    --paper-raised: #FFFFFF;
+    --ink: #1E2A28;
+    --ink-soft: #4B5753;
+    --accent: #0F6B5C;
+    --accent-soft: #E4EFEA;
+    --accent-2: #A8721F;
+    --accent-2-soft: #F5EAD3;
+    --berry: #8C3B3B;
+    --berry-soft: #F3E4E1;
+    --line: #D8D9CE;
+    --shadow: 0 1px 2px rgba(30, 42, 40, 0.06), 0 8px 24px -12px rgba(30, 42, 40, 0.18);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sheet {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .mono {
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+  }
+
+  /* ---------- Header ---------- */
+  .masthead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid var(--ink);
+  }
+  .eyebrow {
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 38px);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    margin: 0;
+    text-wrap: balance;
+    font-weight: 800;
+  }
+  .subtitle {
+    color: var(--ink-soft);
+    font-size: 16px;
+    margin: 0;
+  }
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .print-btn {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 8px;
+    padding: 11px 18px;
+    font-size: 14.5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .print-btn:hover { opacity: 0.88; }
+  @media (prefers-reduced-motion: no-preference) {
+    .print-btn { transition: opacity 0.15s ease; }
+  }
+
+  .golden-rule {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-top: 18px;
+    font-size: 15.5px;
+  }
+  .golden-rule b { color: var(--accent); }
+
+  /* ---------- Section shell ---------- */
+  section.card {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 26px 26px 28px;
+    margin-bottom: 22px;
+    box-shadow: var(--shadow);
+    break-inside: avoid;
+  }
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .card-num {
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--accent-2);
+    background: var(--accent-2-soft);
+    border-radius: 5px;
+    padding: 2px 7px;
+  }
+  h2 {
+    font-size: 19px;
+    margin: 0;
+    letter-spacing: -0.005em;
+    text-wrap: balance;
+  }
+  .card-note {
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: -10px 0 16px;
+  }
+
+  /* ---------- Timeline (6.1) ---------- */
+  .timeline { list-style: none; margin: 0; padding: 0; }
+  .timeline li {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 14px;
+    position: relative;
+    padding-bottom: 18px;
+  }
+  .timeline li:last-child { padding-bottom: 0; }
+  .timeline li::before {
+    content: "";
+    position: absolute;
+    left: 27px;
+    top: 26px;
+    bottom: -2px;
+    width: 2px;
+    background: var(--line);
+  }
+  .timeline li:last-child::before { display: none; }
+  .tl-time {
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--paper-raised);
+    background: var(--accent);
+    border-radius: 999px;
+    height: 54px;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.15;
+    z-index: 1;
+  }
+  .tl-body { padding-top: 6px; }
+  .tl-body b { display: block; font-size: 15.5px; margin-bottom: 2px; }
+  .tl-body span { color: var(--ink-soft); font-size: 14.5px; }
+
+  .pedagogy {
+    margin-top: 18px;
+    font-size: 14.5px;
+    color: var(--ink-soft);
+    background: var(--paper);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .pedagogy b { color: var(--ink); }
+
+  /* ---------- Checklist (6.2) ---------- */
+  .check-list { list-style: none; margin: 0; padding: 0; columns: 1; }
+  .check-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 4px;
+    border-bottom: 1px dashed var(--line);
+    font-size: 15.5px;
+  }
+  .check-list li:last-child { border-bottom: none; }
+  .check-list input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--accent);
+    flex: none;
+  }
+
+  /* ---------- Pocket card (6.3) ---------- */
+  .pocket-wrap {
+    border: 2px dashed var(--accent-2);
+    border-radius: 14px;
+    padding: 22px;
+    position: relative;
+    background: var(--accent-2-soft);
+  }
+  .scissors-note {
+    position: absolute;
+    top: -13px;
+    left: 22px;
+    background: var(--paper-raised);
+    border: 2px dashed var(--accent-2);
+    border-radius: 999px;
+    padding: 3px 12px;
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-2);
+    letter-spacing: 0.03em;
+  }
+  .pocket-title {
+    font-size: 16.5px;
+    font-weight: 800;
+    margin: 6px 0 16px;
+  }
+  .pocket-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .pocket-steps li {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 15.5px;
+  }
+  .pocket-num {
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-weight: 700;
+    color: var(--paper-raised);
+    background: var(--ink);
+    border-radius: 6px;
+    min-width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    flex: none;
+    margin-top: 1px;
+  }
+  .pocket-steps b { font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace; }
+
+  /* ---------- Tables (6.4 / 6.6) ---------- */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  th {
+    text-align: left;
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    padding: 0 10px 8px;
+    border-bottom: 1px solid var(--ink);
+  }
+  td {
+    padding: 11px 10px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  .cost-total td {
+    border-top: 2px solid var(--ink);
+    border-bottom: none;
+    font-weight: 800;
+    padding-top: 13px;
+  }
+  .free-tag {
+    display: inline-block;
+    font-family: "SF Mono", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 5px;
+    padding: 2px 7px;
+  }
+
+  /* ---------- Replies (6.5) ---------- */
+  .replies { display: flex; flex-direction: column; gap: 12px; }
+  .reply {
+    background: var(--paper);
+    border-radius: 10px;
+    padding: 13px 15px;
+  }
+  .reply .q {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--berry);
+    margin-bottom: 5px;
+  }
+  .reply .a {
+    font-size: 14.5px;
+    font-style: italic;
+    color: var(--ink);
+  }
+
+  footer {
+    text-align: center;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-top: 30px;
+  }
+
+  /* ---------- Print ---------- */
+  .no-print { }
+  @media print {
+    @page { margin: 14mm; }
+    body {
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 12.5pt;
+    }
+    .sheet { max-width: 100%; padding: 0; }
+    .no-print { display: none !important; }
+    section.card {
+      box-shadow: none;
+      border: 1px solid #999;
+      background: #fff;
+    }
+    .golden-rule, .pedagogy, .reply, .check-list, .pocket-wrap {
+      background: #fff !important;
+    }
+    .pocket-wrap { border-color: #000; }
+    .scissors-note { border-color: #000; color: #000; background: #fff; }
+    .tl-time { background: #000 !important; color: #fff !important; }
+    .pocket-num { background: #000 !important; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+
+<div class="sheet">
+
+  <div class="masthead">
+    <div class="top-row">
+      <div>
+        <div class="eyebrow">Taller de Instagram · Carteras Jorgelina</div>
+        <h1>Checklist para enseñarle</h1>
+      </div>
+      <button class="print-btn no-print" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+    </div>
+    <p class="subtitle">Hoja de referencia para la tarde de enseñanza — Parte 6 de la guía completa (<span class="mono">GUIA-INSTAGRAM-CARTERAS.md</span>).</p>
+    <div class="golden-rule">
+      <span>☝️</span>
+      <span><b>Regla de oro:</b> la que toca la pantalla es Jorgelina, no vos. Vos señalás con el dedo, ella hace el clic. Si el que hace clic sos vos, al otro día no se acuerda del camino.</span>
+    </div>
+  </div>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.1</span><h2>Plan para la tarde (~2h30)</h2></div>
+    <ol class="timeline">
+      <li><span class="tl-time">30<br>min</span><div class="tl-body"><b>Crear la cuenta de Instagram</b><span>Usuario, biografía, foto de perfil, primer posteo</span></div></li>
+      <li><span class="tl-time">10<br>min</span><div class="tl-body"><b>Explicar el flujo de 5 pasos</b><span>Foto → Atlas AI → descargar → editar → publicar. Dibujarlo en papel si ayuda</span></div></li>
+      <li><span class="tl-time">40<br>min</span><div class="tl-body"><b>Generar fotos con Atlas AI</b><span>Con 1 cartera real, sobre fondo liso y buena luz</span></div></li>
+      <li><span class="tl-time">30<br>min</span><div class="tl-body"><b>Editar una foto en CapCut</b><span>Música y texto, juntas paso a paso</span></div></li>
+      <li><span class="tl-time">20<br>min</span><div class="tl-body"><b>Publicar el primer posteo</b><span>Ella toca la pantalla de principio a fin</span></div></li>
+      <li><span class="tl-time">10<br>min</span><div class="tl-body"><b>Repasar el calendario</b><span>Dejar la tarea de la semana anotada en el cuaderno</span></div></li>
+    </ol>
+    <div class="pedagogy"><b>Consejo:</b> mejor 2 carteras bien enseñadas que 5 apuradas. Si se cansa, se corta acá y se sigue otro día.</div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.2</span><h2>Checklist de configuración</h2></div>
+    <ul class="check-list">
+      <li><input type="checkbox" id="c1"><label for="c1">Cuenta de Instagram creada</label></li>
+      <li><input type="checkbox" id="c2"><label for="c2">Usuario (@...) anotado en el cuaderno</label></li>
+      <li><input type="checkbox" id="c3"><label for="c3">Contraseña de Instagram anotada en el cuaderno</label></li>
+      <li><input type="checkbox" id="c4"><label for="c4">Foto de perfil subida</label></li>
+      <li><input type="checkbox" id="c5"><label for="c5">Biografía completa, con forma de contacto</label></li>
+      <li><input type="checkbox" id="c6"><label for="c6">Cuenta creada en atlas-ia.com.ar</label></li>
+      <li><input type="checkbox" id="c7"><label for="c7">Usuario y contraseña de Atlas anotados</label></li>
+      <li><input type="checkbox" id="c8"><label for="c8">Confirmado que el plan es gratis (sin tarjeta cargada)</label></li>
+      <li><input type="checkbox" id="c9"><label for="c9">CapCut instalado</label></li>
+      <li><input type="checkbox" id="c10"><label for="c10">Primera cartera fotografiada con buena luz</label></li>
+      <li><input type="checkbox" id="c11"><label for="c11">Primer posteo publicado</label></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.3</span><h2>Tarjeta de bolsillo</h2></div>
+    <p class="card-note">Recortar por la línea punteada y dejar cerca de donde carga las fotos.</p>
+    <div class="pocket-wrap">
+      <span class="scissors-note">✂ recortar acá</span>
+      <div class="pocket-title">Los 5 pasos de siempre</div>
+      <ol class="pocket-steps">
+        <li><span class="pocket-num">1</span><span>📸 Sacale una foto a la cartera <b>(luz natural, fondo liso)</b></span></li>
+        <li><span class="pocket-num">2</span><span>🤖 Subila a <b>atlas-ia.com.ar</b> → Generar</span></li>
+        <li><span class="pocket-num">3</span><span>⬇️ Descargá la que más te guste</span></li>
+        <li><span class="pocket-num">4</span><span>🎵 <i>(Opcional)</i> CapCut → música y texto → Exportar</span></li>
+        <li><span class="pocket-num">5</span><span>📲 Instagram → <b>+</b> → Publicación → escribir y publicar</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.4</span><h2>Si algo sale mal</h2></div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Problema</th><th>Solución</th></tr>
+        <tr><td>No me acuerdo la contraseña</td><td>Tocar "¿Olvidaste tu contraseña?" en la pantalla de inicio; llega un código al mail</td></tr>
+        <tr><td>La foto no sube</td><td>Fijarse que el celular tenga wifi o datos móviles activados, probar de nuevo</td></tr>
+        <tr><td>Atlas AI pide pagar</td><td>Buscar la opción de plan gratis; si solo hay planes pagos, avisar antes de cargar la tarjeta</td></tr>
+        <tr><td>"Usuario no disponible" en Instagram</td><td>Agregar un punto: <span class="mono">@carteras.jorgelina</span></td></tr>
+        <tr><td>No aparece dónde escribir la descripción</td><td>Tocar directamente arriba de la foto, donde dice "Escribe algo..."</td></tr>
+        <tr><td>Subió una foto borrosa o fea</td><td>Los tres puntitos ⋮ del posteo → Eliminar, y se vuelve a subir</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.5</span><h2>Respuestas guardadas</h2></div>
+    <p class="card-note">Guardarlas en la app "Notas" del celular para copiar y pegar rápido.</p>
+    <div class="replies">
+      <div class="reply"><div class="q">"¿Cuánto sale?"</div><div class="a">"¡Hola! Esta cartera sale $[PRECIO]. Te paso más fotos por WhatsApp si querés 😊"</div></div>
+      <div class="reply"><div class="q">"¿Hacen envíos?"</div><div class="a">"Sí, hacemos envío a todo el país / retiro en [ZONA]. ¿A dónde te la mandamos?"</div></div>
+      <div class="reply"><div class="q">"¿Tienen en otro color?"</div><div class="a">"¡Sí! La tenemos en [COLORES]. ¿Cuál te gusta más?"</div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="card-head"><span class="card-num">6.6</span><h2>Resumen de costos</h2></div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Herramienta</th><th>Costo</th><th>Nota</th></tr>
+        <tr><td>Instagram</td><td><span class="free-tag">GRATIS</span></td><td>Sin límite de uso</td></tr>
+        <tr><td>atlas-ia.com.ar</td><td><span class="free-tag">GRATIS*</span></td><td>*Para empezar — revisar cuántas fotos incluye el plan free</td></tr>
+        <tr><td>CapCut</td><td><span class="free-tag">GRATIS</span></td><td>Evitar las opciones "PRO" o con 🔒</td></tr>
+        <tr><td>WhatsApp</td><td><span class="free-tag">GRATIS</span></td><td>Para que los interesados escriban</td></tr>
+        <tr><td>Gmail</td><td><span class="free-tag">GRATIS</span></td><td>Para el email del emprendimiento</td></tr>
+        <tr class="cost-total"><td>Total mensual</td><td colspan="2">$0, mientras se usen los planes gratuitos</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <footer>Guía preparada para el emprendimiento de carteras artesanales de Jorgelina — Buenos Aires.</footer>
+</div>
