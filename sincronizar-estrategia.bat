@@ -31,16 +31,28 @@ if not exist "D:\METODO FLOW 2026" (
 echo OK: Carpeta lista
 echo.
 
-REM Copiar archivo principal
+REM Copiar archivo principal (CLAUDE.md + memoria/, reemplaza a Estrategia-FLOW-guitarra-base.md)
 echo [3/3] Copiando archivos...
 
-copy "Estrategia-FLOW-guitarra-base.md" "D:\METODO FLOW 2026\Estrategia-FLOW-guitarra-base.md"
+copy "CLAUDE.md" "D:\METODO FLOW 2026\CLAUDE.md"
 if errorlevel 1 (
-    echo ERROR: No se pudo copiar el archivo principal.
+    echo ERROR: No se pudo copiar CLAUDE.md.
     pause
     exit /b 1
 )
-echo   [✓] Estrategia-FLOW-guitarra-base.md
+echo   [✓] CLAUDE.md
+
+if exist "memoria" (
+    if not exist "D:\METODO FLOW 2026\memoria" mkdir "D:\METODO FLOW 2026\memoria"
+    copy "memoria\*.md" "D:\METODO FLOW 2026\memoria\" >nul
+    echo   [✓] memoria\ (carpeta completa)
+)
+
+REM Se conserva por compatibilidad / historial - la memoria activa ya esta en memoria/
+if exist "Estrategia-FLOW-guitarra-base.md" (
+    copy "Estrategia-FLOW-guitarra-base.md" "D:\METODO FLOW 2026\Estrategia-FLOW-guitarra-base.md" >nul
+    echo   [✓] Estrategia-FLOW-guitarra-base.md (archivo historico)
+)
 
 REM Copiar archivos auxiliares si existen
 if exist "Carruseles-para-disenar.md" (
@@ -86,6 +98,16 @@ if exist "Guiones-Historia-Fijado-Vendedores.pdf" (
 if exist "Resumen-Ejecutivo-para-Nico.pdf" (
     copy "Resumen-Ejecutivo-para-Nico.pdf" "D:\METODO FLOW 2026\Resumen-Ejecutivo-para-Nico.pdf"
     echo   [✓] Resumen-Ejecutivo-para-Nico.pdf
+)
+
+if exist "Fundamentacion-Pedagogica-Metodo-Flow.pdf" (
+    copy "Fundamentacion-Pedagogica-Metodo-Flow.pdf" "D:\METODO FLOW 2026\Fundamentacion-Pedagogica-Metodo-Flow.pdf"
+    echo   [✓] Fundamentacion-Pedagogica-Metodo-Flow.pdf
+)
+
+if exist "Guiones-Pregrabado-Hito1-El-Mapa.pdf" (
+    copy "Guiones-Pregrabado-Hito1-El-Mapa.pdf" "D:\METODO FLOW 2026\Guiones-Pregrabado-Hito1-El-Mapa.pdf"
+    echo   [✓] Guiones-Pregrabado-Hito1-El-Mapa.pdf
 )
 
 if exist "Cuadernillo-Mes1-El-Mapa.pdf" (

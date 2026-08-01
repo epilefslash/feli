@@ -1,5 +1,11 @@
 # Estrategia FLOW guitarra — base (v2)
 
+> ⚠️ **ARCHIVO HISTÓRICO — la memoria activa ahora vive en `CLAUDE.md` + `memoria/`.**
+> Este archivo se partió en piezas temáticas dentro de la carpeta `memoria/` (mismo contenido exacto,
+> organizado por tema) y `CLAUDE.md` en la raíz del repo las conecta a todas. Se conserva acá sin
+> borrar por historial y por si algo quedó sin repartir — pero para trabajar, editar o retomar contexto,
+> andá a `CLAUDE.md` primero. No sigas editando este archivo: los cambios nuevos van en `memoria/`.
+
 > Documento de contexto para retomar el trabajo en cualquier sesión nueva.
 > **Cómo usarlo:** al abrir una conversación nueva, pegá este documento completo (o subí el PDF)
 > y decí *"este es el contexto, seguimos desde acá"*.
