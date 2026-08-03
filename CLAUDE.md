@@ -58,6 +58,17 @@ corresponda en vez de releer todo.
   nuevo cada vez que se toque una partitura. Referencia sana: Hito 1 ~47% · Hito 2 ~21% · Hito 3 ~47% ·
   Bonus ~73% — si el Hito 3 baja de ~30%, algo se volvió a concentrar en la caja 1 sin querer.
 
+## ⚠️ Lo primero que hay que saber antes de auditar nada
+
+**Los PDF que genero acá NO son los que Feli le entrega al alumno.** Los manda a Claude Design, que hace
+una versión maquetada más linda y más larga. **Ese paso redibuja las tablaturas y les mete errores
+musicales reales** (verificado: un FA fuera de escala repetido 6 veces en el ej. 47, las llegadas del
+ej. 50 todas en caja 1 cuando acá están en 4 cajas distintas). Detalle completo y el chequeo de 30
+segundos para detectarlo: `memoria/10-notas-tecnicas-asistente.md`, sección 30.
+
+Consecuencia práctica: si alguien reporta un error, **primero verificar en cuál de las dos versiones
+está** — mi fuente puede estar limpia y el entregable roto al mismo tiempo.
+
 ## Reglas de trabajo en este repo
 
 - El usuario filma y edita él mismo (guitarra, CapCut). Mi rol: guiones, estrategia, copy, pedagogía,
