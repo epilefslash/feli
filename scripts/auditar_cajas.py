@@ -11,8 +11,13 @@ se toque una partitura.
     python scripts/auditar_cajas.py
 
 Referencia sana (después de la auditoría de cajas):
-    Hito 1  47%  ·  Hito 2  14%  ·  Hito 3  21%  ·  Bonus  73%
-Si el Hito 3 baja de ~20%, algo se volvió a centrar en la caja 1.
+    Hito 1  47%  ·  Hito 2  21%  ·  Hito 3  47%  ·  Bonus  73%
+Si el Hito 3 baja de ~30%, algo se volvió a centrar en la caja 1.
+
+También valida la ESCALA: el mapa de abajo sólo contiene las notas de la
+pentatónica de La menor (La-Do-Re-Mi-Sol). Cualquier nota que no esté ahí no se
+puede mapear a un traste, y el script la reporta y termina con código de salida 1.
+O sea: si una partitura se va de la escala, esto lo caza.
 """
 import os
 import re
@@ -51,6 +56,9 @@ def cajas_de(f):
     return [c for c, (a, b) in CAJAS.items() if a <= f <= b]
 
 
+FUERA_DE_ESCALA = []
+
+
 def audita(EJ, titulo):
     print("=" * 78)
     print(titulo)
@@ -60,7 +68,8 @@ def audita(EJ, titulo):
     for k in sorted(EJ):
         fs, fallos = frets(EJ[k])
         if fallos:
-            print("  !! sin mapear en %s: %s" % (k, set(fallos)))
+            FUERA_DE_ESCALA.append((titulo.split(" —")[0], k, sorted(set(fallos))))
+            print("  !! FUERA DE LA PENTATÓNICA en %s: %s" % (k, sorted(set(fallos))))
         if not fs:
             continue
         fuera = [f for f in fs if not (5 <= f <= 8)]   # fuera de la ventana de caja 1
@@ -89,3 +98,16 @@ audita(gen_scores.EJ, "HITO 1 — EL MAPA (ej. 1-16)")
 audita(gen_scores_h2.EJ, "HITO 2 — EL SABOR (ej. 17-34)")
 audita(gen_scores_h3.EJ, "HITO 3 — EL VOCABULARIO (ej. 35-53)")
 audita(gen_scores_h3b.EJ, "BONUS — LICKS FUERA DE LA CAJA 1 (ej. 54-59)")
+
+print("=" * 78)
+if FUERA_DE_ESCALA:
+    print("VALIDACIÓN DE ESCALA: FALLÓ")
+    print("Estas notas no pertenecen a la pentatónica de La menor (La-Do-Re-Mi-Sol).")
+    print("Una nota fuera de escala en un ejercicio de memorización es un error real:")
+    print("el alumno la aprende mal. Arreglar la partitura antes de exportar el PDF.")
+    for hito, ej, notas in FUERA_DE_ESCALA:
+        for pitch, cuerda in notas:
+            print("  · %s · %s · '%s' en la cuerda %s" % (hito, ej, pitch, cuerda))
+    sys.exit(1)
+print("VALIDACIÓN DE ESCALA: OK — todas las notas caen en la pentatónica de La menor.")
+print("=" * 78)

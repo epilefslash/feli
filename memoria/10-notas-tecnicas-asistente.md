@@ -44,6 +44,46 @@ entero.
 encontrar errores que NO existen en el repo. Ambas cosas pueden ser ciertas a la vez — mi fuente limpia
 y el entregable roto. Antes de "corregir" algo, verificar en cuál de los dos está el problema.
 
+### SEGUNDA RONDA (3/8/2026) — la sesión de Design devolvió una lista de 18 "cambios a aplicar"
+
+Feli le pasó los cuadernillos nuevos a Design y Design devolvió un checklist de 18 ítems (5 críticos,
+9 importantes, 4 cosméticos). **Se verificaron uno por uno contra la fuente: los 5 críticos y varios de
+los importantes describen errores de la propia versión diseñada, no del repo.** Detalle:
+
+| Ítem de Design | Qué dice | Realidad verificada en la fuente |
+|---|---|---|
+| 1 · ej. 47 con FA (traste 13) | "1ª cuerda 13 → cambiar a 12" | La fuente **ya dice 12** (`e''\1`). Error de Design. |
+| 2 · ej. 50 con las 4 llegadas en caja 1 | "redistribuir a 4 cajas" | La fuente **ya está en 4 cajas**: trastes 7·10·12·5. Error de Design. |
+| 6 · ej. 51 con los 3 finales en caja 1 | "reescribir 2 de 3" | La fuente **ya está en 3 cajas**: trastes 5-7 · 12 · 12-13. Error de Design. |
+| 7 · ej. 53 no cumple lo que promete | "el bend está en caja 1" | La fuente **ya cumple**: bend en traste 12 (caja 3), cierre en traste 5 de la 6ª (caja 5). Error de Design. |
+| 8 · diagramas con puntos de más | "3ª cuerda tr. 9 en caja 1", etc. | Las 5 cajas de `cuadernillo_comun.py` tienen 12 puntos exactos y todos son de la pentatónica. Error de Design. |
+| 9 · "Los 5 recursos" (Hito 2) | "el título dice 5, la tabla lista 4" | Ya corregido antes: dice **"LOS 4 BLOQUES DEL MES"**. |
+| 10 · "40 solos de Frusciante" | "sacar la cifra inventada" | Ya sacado en una sesión anterior. |
+| 3 y 4 · el bonus duplicado / "8 licks" | numeración 52-59 vs 54-59 | En el repo el bonus **ya es 54-59** y el Hito 3 no menciona "8 licks del bonus". El PDF viejo de 8 licks vive solo en la máquina de Feli. |
+
+**Lo que sí era real y se aplicó en esta sesión:**
+- `auditar_cajas.py` ahora **valida escala explícitamente**: reporta cualquier nota fuera de la pentatónica
+  de La menor y termina con `exit 1`. Probado inyectando el FA del ej. 47 — lo caza. (Antes la validación
+  existía implícita: el mapa de trastes es una whitelist, pero fallaba en silencio.)
+- Header del script actualizado (decía Hito 2 14% / Hito 3 21%, valores viejos; ahora 21% / 47%).
+- `scripts/README.md` decía "51 ejercicios" y "bonus 52-59" → corregido a 53 y 54-59.
+- Hito 3: nota al pie **"los nombres son de estilo, no de pasaporte"** (Gary Moore es de Belfast y está
+  en la columna americana) — ítem 15 de Design, era válido.
+- Hito 3, cierre: sección nueva **"LO QUE ESTE PROGRAMA NO TE DIO"** (ritmo y cambios de acorde) — ítem 16.
+  El hueco estaba documentado internamente pero el alumno no lo veía. Ahora sí.
+- Hito 1: se sacó el "buscá en YouTube …" y se apunta a la carpeta de backings propios — ítem 13.
+
+**Ítems 11, 12, 18 (espacio en blanco, capa de texto, carpetas):** son del lado de Design / de la máquina
+de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 11/13/20/8 páginas.
+
+**Ítem 14 (convertir el puente del Hito 2 en ejercicio numerado):** rechazado a propósito. Ese puente
+("ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS") es práctica libre de oído sin partitura por diseño —
+escribirlo en TAB lo convierte en otra cosa. Además rompería la numeración corrida 1-59.
+
+> **Regla que sale de todo esto:** cuando una sesión externa reporte un error musical, **primero correr
+> `python3 scripts/auditar_cajas.py` y leer la fuente LilyPond**. Hasta ahora, 100% de los errores
+> musicales reportados por Design estaban en la versión de Design.
+
 ## 31) MATERIAL QUE FELI PRODUCE APARTE (no está en este repo)
 
 - **Módulo de ritmo del Hito 2** (`Cuadernillo_ritmo_hito_2_Sabor_2_ejercicios.pdf`, 19 pág.): cierra el

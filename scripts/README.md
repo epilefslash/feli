@@ -1,13 +1,19 @@
 # Scripts de los cuadernillos de ejercicios
 
-Generan los PDFs con partitura + tablatura de los 3 hitos (51 ejercicios) + el bonus post-programa (8 licks más).
+Generan los PDFs con partitura + tablatura de los 3 hitos (53 ejercicios, numeración corrida 1-53) + el
+bonus post-programa (6 licks más, 54-59).
+
+> **Antes de exportar cualquier PDF, corré `python3 auditar_cajas.py`.** Además de reportar el % de
+> notas fuera de la caja 1, valida que ninguna nota se salga de la pentatónica de La menor y termina con
+> código 1 si algo falla.
 
 | Archivo | Qué hace |
 |---|---|
 | `gen_scores.py` | Partituras del **Hito 1** (ejercicios 1 a 16) |
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
-| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 51) |
-| `gen_scores_h3b.py` | Partituras del **bonus post-programa** — licks fuera de la caja 1 (52 a 59) |
+| `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 53) |
+| `gen_scores_h3b.py` | Partituras del **bonus post-programa** — 6 licks fuera de la caja 1 (54 a 59) |
+| `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |

@@ -93,6 +93,11 @@ S.append(tabla([
      Paragraph("Que <b>no hace falta una nota nueva</b> para sostener una frase: alcanza con repetir bien.", CELL),
      Paragraph("Que <b>una sola nota bien estirada</b> dice más que doce apuradas.", CELL)],
 ], [3.0 * cm, (W - 3.0 * cm) / 2, (W - 3.0 * cm) / 2]))
+S.append(Paragraph(
+    "<b>Los nombres son de estilo, no de pasaporte.</b> Gary Moore era de Belfast y Slash nació en "
+    "Inglaterra, y los dos están en la columna \"americana\" — porque tocan así, no por dónde nacieron. "
+    "Lo mismo al revés: lo \"británico\" es una forma de pensar la frase (insistir) que también usan "
+    "guitarristas de cualquier otro lado. Quedate con el mecanismo, no con la etiqueta.", SMALL))
 
 S.append(Paragraph("CÓMO SACAR UN LICK DE OÍDO (el paso que todos evitan)", H2))
 S.append(Paragraph(
@@ -596,6 +601,25 @@ S.append(tabla([
      Paragraph("Todo el programa fue en La menor a propósito. Ahora movelo: Mi, Sol, Re. Es el mismo mapa "
                "corrido de lugar — vas a tardar mucho menos de lo que pensás.", CELL)],
 ], [0.8 * cm, 4.0 * cm, W - 4.8 * cm]))
+
+S.append(Paragraph("LO QUE ESTE PROGRAMA NO TE DIO (y lo digo de frente)", H2))
+S.append(Paragraph(
+    "Doce semanas alcanzan para el mapa, el sabor y el vocabulario. No alcanzan para todo, y preferimos "
+    "que lo sepas por acá antes de que lo descubras tocando con gente. Faltan dos cosas, a propósito:", BODY))
+S.append(tabla([
+    [Paragraph("<b>EL RITMO</b>", CELLB),
+     Paragraph("Trabajamos <b>qué</b> notas tocás y <b>cómo</b> las tocás, pero casi no trabajamos "
+               "<b>cuándo</b> entran respecto del pulso. Buena parte de lo que hace que un lick suene a "
+               "Page es dónde cae, no qué notas tiene. Subdivisión, shuffle contra recto, entrar a "
+               "contratiempo: eso es un módulo aparte.", CELL)],
+    [Paragraph("<b>LOS CAMBIOS DE ACORDE</b>", CELLB),
+     Paragraph("Los tres hitos improvisan sobre un vamp fijo en La menor. Eso es a propósito: aísla la "
+               "variable para que puedas concentrarte en el mástil y en el sabor. Pero un blues de 12 "
+               "compases se mueve, y ahí hay que saber qué hacer cuando el acorde cambia debajo tuyo.", CELL)],
+], [4.2 * cm, W - 4.2 * cm]))
+S.append(Paragraph(
+    "Nada de esto invalida lo que hiciste: son el escalón siguiente, no un agujero. Si al tocar con gente "
+    "sentís que \"algo no encaja\" aunque las notas estén bien, casi seguro es una de estas dos.", SMALL))
 
 S.append(Spacer(1, 8))
 S.append(caja_oscura(

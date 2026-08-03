@@ -71,8 +71,9 @@ S.append(tabla([
      Paragraph("Sin papel. Usás SOLO lo de esta semana. Es la parte más importante.", CELL)],
 ], [1.5 * cm, 6.4 * cm, W - 7.9 * cm]))
 S.append(Paragraph(
-    "Backing para todo el hito: buscá en YouTube <b>\"slow blues backing track A minor 60 bpm\"</b> o "
-    "<b>\"A minor rock backing track\"</b>. Elegí uno con espacio, no uno lleno de notas.", SMALL))
+    "<b>Backing para todo el hito:</b> los tenés en la carpeta de backings del programa — están grabados "
+    "para estos ejercicios, en La menor y con espacio de sobra. Usá esos antes que cualquier otro: los de "
+    "YouTube suelen estar llenos de notas y te tapan justo lo que estás tratando de escuchar.", SMALL))
 
 # ============================================================ 2. EL MAPA
 S.append(PageBreak())
