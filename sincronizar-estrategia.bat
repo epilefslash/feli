@@ -1,5 +1,5 @@
 @echo off
-REM Script para sincronizar Estrategia-FLOW-guitarra-base.md a D:\METODO FLOW 2026
+REM Script para sincronizar CLAUDE.md + memoria/ + los PDFs del proyecto a D:\METODO FLOW 2026
 REM Ejecutar desde la carpeta del proyecto en Windows
 
 echo ========================================
@@ -48,6 +48,11 @@ if exist "memoria" (
     echo   [✓] memoria\ (carpeta completa)
 )
 
+if exist "CONTEXTO-PARA-NUEVA-SESION.md" (
+    copy "CONTEXTO-PARA-NUEVA-SESION.md" "D:\METODO FLOW 2026\CONTEXTO-PARA-NUEVA-SESION.md" >nul
+    echo   [✓] CONTEXTO-PARA-NUEVA-SESION.md
+)
+
 REM Se conserva por compatibilidad / historial - la memoria activa ya esta en memoria/
 if exist "Estrategia-FLOW-guitarra-base.md" (
     copy "Estrategia-FLOW-guitarra-base.md" "D:\METODO FLOW 2026\Estrategia-FLOW-guitarra-base.md" >nul
@@ -58,16 +63,6 @@ REM Copiar archivos auxiliares si existen
 if exist "Carruseles-para-disenar.md" (
     copy "Carruseles-para-disenar.md" "D:\METODO FLOW 2026\Carruseles-para-disenar.md"
     echo   [✓] Carruseles-para-disenar.md
-)
-
-if exist "Guiones-para-filmar.pdf" (
-    copy "Guiones-para-filmar.pdf" "D:\METODO FLOW 2026\Guiones-para-filmar.pdf"
-    echo   [✓] Guiones-para-filmar.pdf
-)
-
-if exist "Guiones-vendedor-6-7-8.pdf" (
-    copy "Guiones-vendedor-6-7-8.pdf" "D:\METODO FLOW 2026\Guiones-vendedor-6-7-8.pdf"
-    echo   [✓] Guiones-vendedor-6-7-8.pdf
 )
 
 if exist "Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf" (
@@ -110,20 +105,6 @@ if exist "Guiones-Pregrabado-Hito1-El-Mapa.pdf" (
     echo   [✓] Guiones-Pregrabado-Hito1-El-Mapa.pdf
 )
 
-if exist "Cuadernillo-Mes1-El-Mapa.pdf" (
-    copy "Cuadernillo-Mes1-El-Mapa.pdf" "D:\METODO FLOW 2026\Cuadernillo-Mes1-El-Mapa.pdf"
-    echo   [✓] Cuadernillo-Mes1-El-Mapa.pdf
-)
-
-if exist "Cuadernillo-Expresividad-Sabor.pdf" (
-    copy "Cuadernillo-Expresividad-Sabor.pdf" "D:\METODO FLOW 2026\Cuadernillo-Expresividad-Sabor.pdf"
-    echo   [✓] Cuadernillo-Expresividad-Sabor.pdf
-)
-
-if exist "Cuadernillo-Mes3-El-Vocabulario.pdf" (
-    copy "Cuadernillo-Mes3-El-Vocabulario.pdf" "D:\METODO FLOW 2026\Cuadernillo-Mes3-El-Vocabulario.pdf"
-    echo   [✓] Cuadernillo-Mes3-El-Vocabulario.pdf
-)
 
 echo.
 echo ========================================
