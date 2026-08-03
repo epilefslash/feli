@@ -81,8 +81,46 @@ de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 11/13/20/8 
 escribirlo en TAB lo convierte en otra cosa. Además rompería la numeración corrida 1-59.
 
 > **Regla que sale de todo esto:** cuando una sesión externa reporte un error musical, **primero correr
-> `python3 scripts/auditar_cajas.py` y leer la fuente LilyPond**. Hasta ahora, 100% de los errores
-> musicales reportados por Design estaban en la versión de Design.
+> `python3 scripts/auditar_cajas.py` y leer la fuente LilyPond**. Hasta ahora, casi todos los errores
+> musicales reportados por Design estaban en la versión de Design — pero ver abajo la excepción.
+
+### TERCERA RONDA — el re-chequeo encontró UN error real: las ventanas de caja se solapan
+
+Design re-auditó y reportó que el ej. 50 pisaba cajas 1, 2 y 3 pero **no la caja 5**, aunque el texto
+la promete. **Tenía razón, y la causa es estructural:** las ventanas de las cajas se superponen.
+
+| Traste | Cajas a las que pertenece |
+|---|---|
+| 5 | **caja 1 y caja 5** |
+| 12 y 13 | **caja 3 y caja 4** |
+
+El ej. 50 cerraba en el traste 5 de la 6ª cuerda. Eso es la tónica grave, y técnicamente está dentro
+de la caja 5 — pero también dentro de la caja 1, así que **no prueba nada**: leyendo la tablatura no
+se puede saber si el alumno bajó a la caja 5 o se quedó en casa. Lo mismo pasaba en el ej. 53 (mismo
+cierre) y en el ej. 51, donde el 3er final caía en trastes 12-13, ambiguo entre cajas 3 y 4 — o sea
+indistinguible del 2º final.
+
+**Los 3 arreglos aplicados:**
+- **Ej. 50 y 53:** el último compás ahora baja primero al **traste 3** (SOL, exclusivo de la caja 5) y
+  recién después resuelve en la tónica del traste 5. Un solo gesto de dos notas y la caja 5 queda
+  probada, sin perder el cierre en la tónica grave.
+- **Ej. 51:** el 3er final se mudó del traste 12-13 al **traste 15** (doble cuerda RE + SOL), exclusivo
+  de la caja 4. Ahora los tres finales están en 5-7 · 12 · 15 — inconfundibles entre sí.
+- Los textos de los ej. 50 y 51 ahora **nombran los trastes**, no sólo las cajas. Doble beneficio: la
+  promesa es verificable, y si Design redibuja, el texto y la tablatura se contradicen a la vista.
+
+**Y el arreglo de fondo, en `auditar_cajas.py`:** columna nueva **`exclusivas`**, que lista sólo las
+cajas pisadas en trastes que no comparte ninguna otra. Es la métrica que faltaba: `cajas` puede decir
+`[1,2,3,4,5]` con el ejercicio entero metido en la caja 1.
+
+> ⚠️ **Al leer la columna `exclusivas`, las cajas 2 y 3 NUNCA aparecen, y no es un bug.** Sus trastes
+> exclusivos son el 6 y el 11, y ahí no hay ninguna nota de la pentatónica de La menor. La columna
+> sirve para las cajas 1, 4 y 5. No perseguir un imposible en una sesión futura.
+
+**Lo que Design reportó como "sin tocar" (bonus duplicado, "8 licks", "los 5 recursos", Frusciante):**
+sigue siendo lo mismo de la segunda ronda — en el repo ya está bien; lo que está desactualizado son
+los PDF maquetados que viven en la máquina de Feli. Se resuelve re-mandando los 4 archivos a Design,
+no editando la fuente.
 
 ## 31) MATERIAL QUE FELI PRODUCE APARTE (no está en este repo)
 

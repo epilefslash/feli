@@ -56,6 +56,23 @@ def cajas_de(f):
     return [c for c, (a, b) in CAJAS.items() if a <= f <= b]
 
 
+def cajas_exclusivas(fs):
+    """Cajas que el ejercicio pisa SIN AMBIGÜEDAD.
+
+    Las ventanas se solapan: el traste 5 es caja 1 y caja 5 a la vez, el 12 y el
+    13 son caja 3 y caja 4. Una nota en un traste compartido no prueba que el
+    ejercicio haya llegado a la caja que promete el texto. Esta lista sólo cuenta
+    los trastes que pertenecen a una única caja.
+
+    OJO al leer esto: las cajas 2 y 3 nunca pueden aparecer acá, y no es un error.
+    Sus trastes exclusivos (6 y 11) no tienen ninguna nota de la pentatónica de La
+    menor, así que toda nota de la caja 2 o 3 comparte ventana con una vecina. La
+    columna sirve para las cajas 1, 4 y 5: si el texto promete una de esas tres y
+    no aparece acá, la promesa no se está cumpliendo.
+    """
+    return sorted({cs[0] for f in fs for cs in [cajas_de(f)] if len(cs) == 1})
+
+
 FUERA_DE_ESCALA = []
 
 
@@ -78,9 +95,9 @@ def audita(EJ, titulo):
         usadas = sorted({c for f in fs for c in cajas_de(f)})
         if usadas == [1] or usadas == [1, 2] and max(fs) <= 8:
             solo_c1.append(k)
-        print("  %-5s notas=%3d  trastes %2d-%2d  fuera de 5-8: %3d (%4.0f%%)  cajas: %s"
+        print("  %-5s notas=%3d  trastes %2d-%2d  fuera de 5-8: %3d (%4.0f%%)  cajas: %-15s exclusivas: %s"
               % (k, len(fs), min(fs), max(fs), len(fuera),
-                 100 * len(fuera) / len(fs), usadas))
+                 100 * len(fuera) / len(fs), usadas, cajas_exclusivas(fs)))
     print("-" * 78)
     print("  TOTAL: %d notas · %d fuera de la ventana 5-8 (%.1f%%)"
           % (tot_notas, tot_fuera, 100 * tot_fuera / tot_notas))

@@ -72,14 +72,15 @@ Que se pueda buscar con Ctrl+F y copiar. Exportá como PDF con texto real, no co
 
 Marcá estas cinco cosas mirando el PDF que generaste:
 
-1. ☐ **Ejercicio 50** (Hito 3, "El esqueleto"): las cuatro llegadas dicen **7 · 10 · 12 · 5**.
-   Si dicen 5-7-7 o cualquier otra cosa, redibujaste la tablatura → volvé a empezar.
+1. ☐ **Ejercicio 50** (Hito 3, "El esqueleto"): las cuatro llegadas dicen **7 · 10 · 12 · 5**, y el
+   último compás baja primero al traste **3**. Si dicen 5-7-7 o cualquier otra cosa, redibujaste la
+   tablatura → volvé a empezar.
 2. ☐ **Ejercicio 47** (Hito 3): la primera cuerda dice **12 → 10** (no 13).
 3. ☐ **Ejercicio 51** (Hito 3, "los tres finales"): los tres finales están en trastes distintos —
-   el 1º alrededor del 5-7, el 2º en el **12**, el 3º en el **12-13**. Si los tres caen entre 5 y 8,
+   el 1º alrededor del **5-7**, el 2º en el **12**, el 3º en el **15**. Si los tres caen entre 5 y 8,
    redibujaste.
 4. ☐ **Ejercicio 53** (el solo final): el bending del clímax está en el traste **12** de la 3ª cuerda,
-   y la última nota es el traste **5** de la 6ª cuerda.
+   y el último compás es **3 → 5** en la 6ª cuerda.
 5. ☐ **Diagramas de mástil:** cada caja tiene exactamente **12 puntos** (2 por cuerda). Si alguna
    cuerda tiene 3, agregaste un punto que no existe.
 6. ☐ Todos los ejercicios numerados del original están, y todos tienen su partitura.

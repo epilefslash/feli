@@ -194,7 +194,7 @@ EJ["e50"] = r"""
   r1^\markup{\bold "TU frase 3 — el clímax, arriba de todo · CAJA 3"} |
   g'2\3^\markup{\bold "el bending va acá: 1 tono, llega a la tónica"} g'2\3^\markup{\bold "vibrato"} |
   r1^\markup{\bold "TU frase 4 — bajás por todo el mástil hasta la CAJA 5"} |
-  a,1\6^\markup{\bold "cerrás en la tónica más grave"} |
+  g,8\6^\markup{\bold "entrás por la caja 5 (traste 3)…"} a,2..\6^\markup{\bold "…y cerrás en la tónica más grave"} |
 """
 
 # 51: tres finales posibles — cada uno en una caja distinta, a propósito:
@@ -202,7 +202,7 @@ EJ["e50"] = r"""
 EJ["e51"] = r"""
   c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave · CAJA 1 — el más seguro"} |
   g'4\3^\markup{\bold "2 · bending largo que se apaga · CAJA 3"} ~ g'2. |
-  <c''\2 e''\1>2^\markup{\bold "3 · doble cuerda que queda sonando · CAJA 4"} <c''\2 e''\1>2 |
+  <d''\2 g''\1>2^\markup{\bold "3 · doble cuerda que queda sonando · CAJA 4 (traste 15)"} <d''\2 g''\1>2 |
 """
 
 # 52: el motivo que vuelve (el truco que hace que un solo suene "armado")
@@ -228,7 +228,7 @@ EJ["e53"] = r"""
   g'2\3^\markup{\bold "bend 1 tono · caja 3"} g'2\3^\markup{\bold "vibrato"} |
   r1 |
   \tuplet 3/2 { c''8\1\p^\markup{\bold "vuelve el motivo · CIERRA"}( a'\1) g'\2 } e'4\2 c'8\3 a\4 g4\4 |
-  a,1\6^\markup{\bold "vibrato · se apaga en la caja 5"} |
+  g,8\6^\markup{\bold "entrás a la CAJA 5…"} a,2..\6^\markup{\bold "…y se apaga en la tónica más grave · vibrato"} |
 """
 
 

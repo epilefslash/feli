@@ -441,7 +441,8 @@ S.append(ejercicio(50, "El esqueleto (completalo vos)", (
     "Están escritas las <b>llegadas</b> de cada frase y el lugar del bending; falta lo que va en el medio. "
     "Eso lo ponés vos, con tu vocabulario. Es un ejercicio de escritura, no de lectura: agarrá lápiz y "
     "anotá tus frases en los compases vacíos.<br/><br/>"
-    "<b>Mirá dónde caen las cuatro llegadas:</b> caja 1, caja 2, caja 3 y caja 5. Está hecho a propósito y "
+    "<b>Mirá dónde caen las cuatro llegadas:</b> caja 1 (traste 7), caja 2 (traste 10), caja 3 (traste 12) "
+    "y caja 5 (bajás al traste 3 y cerrás en el 5). Está hecho a propósito y "
     "no es negociable — <b>no vas a poder conectarlas sin recorrer el mástil</b>. Ese recorrido es el solo. "
     "Si te sale escribir las cuatro frases sin moverte de la caja 1, volvé al ejercicio 46: algo del mapa "
     "todavía no está."),
@@ -450,7 +451,8 @@ S.append(ejercicio(50, "El esqueleto (completalo vos)", (
 S.append(ejercicio(51, "Los tres finales posibles", (
     "Tres formas de terminar: a la tónica suave (el más seguro y el que casi siempre funciona), un bending "
     "largo que se apaga (el más dramático), o una doble cuerda que queda sonando (el más rockero). "
-    "Fijate que <b>cada uno está escrito en una caja distinta</b> — caja 1, caja 3 y caja 4: un final no "
+    "Fijate que <b>cada uno está escrito en una caja distinta</b> — caja 1 (trastes 5-7), caja 3 (traste 12) "
+    "y caja 4 (traste 15): un final no "
     "depende de la posición, depende del gesto. Podés cerrar donde te agarre el último compás. "
     "Probá los tres con tu solo y elegí uno. <b>Un solo sin final decidido suena a que te quedaste sin ideas.</b>"),
     "e51", W, "Con backing. El final se ensaya tanto como el principio."))
