@@ -454,11 +454,12 @@ S.append(ejercicio(52, "El motivo que vuelve (esto tiene nombre: leitmotiv)", (
     "El truco que hace que un solo suene <b>compuesto</b> y no improvisado a la deriva: presentás una idea al "
     "principio, la dejás ir, y la traés de vuelta al final. El oído la reconoce y siente que el solo cerró — "
     "aunque no sepa por qué. Es gratis y casi nadie lo usa.<br/><br/>"
-    "No es un truco casero: es un recurso con nombre — <b>leitmotiv</b> — y es, según el análisis de más de "
-    "40 solos de John Frusciante, la razón técnica número uno por la que sus solos se te quedan pegados. "
-    "Empieza con una idea simple, cantable, y la repite o la varía. Es exactamente lo que hiciste vos en "
-    "este ejercicio. <i>(Éste sí va en la misma caja las dos veces, y es la única vez que te lo voy a "
-    "pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
+    "No es un truco casero: es un recurso con nombre — <b>leitmotiv</b> — prestado de la música clásica y "
+    "del cine, donde un personaje tiene su melodía y vuelve cada vez que aparece. En la guitarra funciona "
+    "igual: Frusciante lo usa todo el tiempo, y es buena parte de por qué sus solos se te quedan pegados "
+    "aunque no sepas por qué. Empieza con una idea simple, cantable, y la repite o la varía. Es exactamente "
+    "lo que hiciste vos en este ejercicio. <i>(Éste sí va en la misma caja las dos veces, y es la única vez "
+    "que te lo voy a pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
     "e52", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
 
 # el solo final va entero en una pagina: el encabezado no se separa de la partitura

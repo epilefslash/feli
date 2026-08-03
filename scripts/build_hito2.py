@@ -32,7 +32,7 @@ S.append(Paragraph(
     "<b>Entregable del hito:</b> el solo del Ejercicio 34 grabado, y un antes/después: el mismo minuto de "
     "improvisación grabado el día 1 y el día 30.", BODY))
 
-S.append(Paragraph("LOS 5 RECURSOS, EN ESTE ORDEN Y POR ESTA RAZÓN", H2))
+S.append(Paragraph("LOS 4 BLOQUES DEL MES, EN ESTE ORDEN Y POR ESTA RAZÓN", H2))
 S.append(tabla([
     [Paragraph("<b>Sem.</b>", CELLB), Paragraph("<b>Recurso</b>", CELLB),
      Paragraph("<b>Qué resuelve</b>", CELLB), Paragraph("<b>Por qué va acá</b>", CELLB)],
