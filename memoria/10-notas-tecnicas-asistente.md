@@ -171,3 +171,40 @@ que viven en la máquina de Feli, no del repo.
   Cita correctamente el ej. 42 del Hito 3 ("el ritmo es el 70% de la identidad de una frase").
 - **Las "Guías del Profe"** (3 documentos) y una carpeta de **backing tracks propios**: existen en la
   máquina de Feli, no en el repo. Una auditoría externa las evaluó bien.
+
+## 32) ANEXO DE RITMO — el árbol de las figuras y las 3 velocidades (4/8/2026)
+
+`Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` (4 pág.) · `scripts/gen_scores_ritmo.py` + `build_ritmo.py`.
+Pedido de Feli, complementa el módulo de ritmo de Pozzoli de la sección 31 (que sigue viviendo en su
+máquina). **Va en paralelo al Hito 2 y sus ejercicios se numeran A · B · C**, para no romper la
+numeración corrida 1-59.
+
+**El dato que lo justifica, contado sobre la fuente (no sobre la conversación):** de las **395 notas**
+de los 4 cuadernillos → corchea 50% · negra 28% · blanca 13% · redonda 8% · **una sola semicorchea** ·
+**cero fusas** · 32 tresillos (sólo en Hitos 2 y 3). El alumno termina el programa con un vocabulario
+rítmico de dos figuras. El conteo se rehace con una línea de Python sobre los `EJ` de cada
+`gen_scores*.py` — si se agregan ejercicios, volver a correrlo antes de repetir el número.
+
+**Qué tiene, y las 3 decisiones de diseño que importan:**
+1. **El árbol** (`ArbolFiguras`, en `cuadernillo_comun.py`): redonda → 2 blancas → 4 negras → 8 corcheas
+   → 16 semicorcheas, con las líneas de parentesco dibujadas. El punto NO es memorizar duraciones: es
+   que **las cinco filas duran lo mismo** y bajar un escalón es partir la figura al medio, no "ir más
+   rápido".
+2. **Las 3 velocidades (ej. A):** la misma celda (8-5-8-5, caja 1) en negras, corcheas y semicorcheas.
+   Se presenta como cambio de **función**, no de velocidad — negras = frase, corcheas = comentario,
+   semicorcheas = adorno. Es el mismo truco del ej. 46 del Hito 3 (un lick en las 5 cajas) en el otro
+   eje: aquel probaba que un lick no es un lugar, éste que tampoco es una velocidad.
+3. **La regla que protege al Hito 2** — y es lo más importante del anexo:
+   > *Comprimir un lick no te ahorra tiempo: te regala silencio.*
+   Sin esa regla, el ejercicio se convierte en un drill de velocidad en tres días y contradice todo
+   lo que el Hito 2 enseñó sobre espacio (y el reel #6). Los silencios están **escritos** en la
+   partitura a propósito: son el contenido, no relleno. La escalera de práctica insiste en que **el
+   BPM no se toca** en ningún paso.
+
+**Tresillo y swing van en bloques SEPARADOS del árbol, a propósito.** Son otro eje: el árbol dice *qué
+figura* usás (divide por 2), el tresillo divide por 3 y el swing dice *dónde cae* la segunda corchea
+dentro del pulso. Mezclarlos en un mismo ejercicio confunde. El swing va escrito (negra + corchea en
+tresillo) para que se vea de dónde sale.
+
+> Este anexo **no cierra** el hueco de cambios de acorde (sigue pendiente para el Módulo 2). Cierra el
+> de ritmo, junto con el módulo de Pozzoli.

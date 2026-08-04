@@ -13,11 +13,13 @@ bonus post-programa (6 licks más, 54-59).
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
 | `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 53) |
 | `gen_scores_h3b.py` | Partituras del **bonus post-programa** — 6 licks fuera de la caja 1 (54 a 59) |
+| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A, B, C — no tocan la numeración 1-59) |
 | `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |
 | `build_hito3b.py` | Arma `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` |
+| `build_ritmo.py` | Arma `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` (va en paralelo al Hito 2) |
 | `cuadernillo_comun.py` | Estética, diagramas de mástil, tablatura en blanco y tablas que comparten los tres |
 
 - ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.
@@ -34,10 +36,12 @@ python3 gen_scores.py                # partituras del hito 1  -> ./partituras/
 python3 gen_scores_h2.py             # partituras del hito 2
 python3 gen_scores_h3.py             # partituras del hito 3
 python3 gen_scores_h3b.py            # partituras del bonus post-programa
+python3 gen_scores_ritmo.py          # partituras del anexo de ritmo
 python3 build_hito1.py               # PDF del hito 1  (queda en la carpeta de arriba)
 python3 build_hito2.py               # PDF del hito 2
 python3 build_hito3.py               # PDF del hito 3
 python3 build_hito3b.py              # PDF del bonus post-programa
+python3 build_ritmo.py               # PDF del anexo de ritmo
 ```
 
 Si tocaste una partitura, corré el `gen_scores*.py` **antes** del `build_hito*.py`.
@@ -56,8 +60,13 @@ Referencia en La menor pentatónica:
 | 2ª (Si) | 3, 5, 8, 10, 13, 15 | `d'` `e'` `g'` `a'` `c''` `d''` |
 | 1ª (Mi agudo) | 3, 5, 8, 10, 12, 15, 17 | `g'` `a'` `c''` `d''` `e''` `g''` `a''` |
 
-Duraciones: `4` negra · `8` corchea · `2` blanca · `1` redonda · `4.` negra con puntito.
+Duraciones: `4` negra · `8` corchea · `16` semicorchea · `2` blanca · `1` redonda · `4.` negra con puntito.
 `|` cierra el compás. `r4` es un silencio de negra.
+
+> **Ojo con el reparto de figuras.** Contando las 395 notas de los 4 cuadernillos: corcheas 50% ·
+> negras 28% · blancas 13% · redondas 8% · **una sola semicorchea** y ninguna fusa. Eso es a propósito
+> (el ritmo se trabaja en el anexo, no dentro de los hitos), pero si agregás ejercicios conviene saberlo
+> para no desbalancearlo más. El conteo sale de una línea de Python sobre los `EJ` de cada `gen_scores*`.
 
 Ejemplo — La (6ª cuerda traste 5) y Do (6ª traste 8) en corcheas:
 

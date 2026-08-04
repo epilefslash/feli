@@ -359,6 +359,100 @@ class MapaBlueNotes(MapaCompleto):
                 _nota(c, x0 + (t - 0.5) * fw, y, False, r=4.3, texto="b5", color=BLUE)
 
 
+class ArbolFiguras(Flowable):
+    """El árbol de las figuras: redonda -> 2 blancas -> 4 negras -> 8 corcheas -> 16 semis.
+
+    Cada fila vale exactamente lo mismo (un compás de 4/4). Las líneas que bajan de
+    cada figura a las dos de abajo son el punto del dibujo: bajar un escalón no es
+    "ir más rápido", es partir la figura al medio. Por eso se dibuja como árbol y no
+    como una lista de figuras con su duración al lado.
+
+    Las plicas van para arriba y los conectores salen de abajo de la cabeza, así el
+    árbol se lee de arriba hacia abajo sin que las líneas crucen las plicas.
+    """
+
+    FILAS = [
+        (1, "REDONDA", "4 pulsos"),
+        (2, "BLANCAS", "2 pulsos cada una"),
+        (4, "NEGRAS", "1 pulso cada una"),
+        (8, "CORCHEAS", "medio pulso"),
+        (16, "SEMICORCHEAS", "un cuarto de pulso"),
+    ]
+    PAD_L, PAD_R, PAD_T, PAD_B = 96, 4, 12, 10
+    FILA_H = 40.0
+    RX, RY = 4.2, 3.1       # radios de la cabeza de la nota
+    PLICA = 21.0
+
+    def __init__(self, width):
+        Flowable.__init__(self)
+        self.width = width
+        self.height = self.FILA_H * len(self.FILAS) + self.PAD_T + self.PAD_B
+
+    def _centros(self, n):
+        w = self.width - self.PAD_L - self.PAD_R
+        return [self.PAD_L + (j + 0.5) * w / n for j in range(n)]
+
+    def _cabeza(self, c, x, y, hueca):
+        c.saveState()
+        c.translate(x, y)
+        c.rotate(-20)
+        c.setLineWidth(1.1)
+        c.setStrokeColor(DARK)
+        if hueca:
+            c.setFillColor(colors.white)
+            c.ellipse(-self.RX, -self.RY, self.RX, self.RY, fill=1, stroke=1)
+        else:
+            c.setFillColor(DARK)
+            c.ellipse(-self.RX, -self.RY, self.RX, self.RY, fill=1, stroke=0)
+        c.restoreState()
+
+    def draw(self):
+        c = self.canv
+        top = self.height - self.PAD_T
+
+        for i, (n, nombre, dur) in enumerate(self.FILAS):
+            y = top - i * self.FILA_H - self.FILA_H / 2
+            xs = self._centros(n)
+
+            # conectores hacia la fila de abajo: cada figura se parte en dos
+            if i + 1 < len(self.FILAS):
+                y_hijo = y - self.FILA_H
+                hijos = self._centros(self.FILAS[i + 1][0])
+                c.setStrokeColor(BORDER)
+                c.setLineWidth(0.7)
+                for j, x in enumerate(xs):
+                    for xh in (hijos[2 * j], hijos[2 * j + 1]):
+                        c.line(x, y - self.RY - 1.5, xh, y_hijo + self.PLICA * 0 + self.RY + 5)
+
+            # plicas y barras de corchete (unen a los hermanos de la misma negra)
+            if n > 1:
+                c.setStrokeColor(DARK)
+                c.setLineWidth(1.1)
+                for x in xs:
+                    c.line(x + self.RX - 0.4, y + 1, x + self.RX - 0.4, y + self.PLICA)
+            if n >= 8:
+                grupo = n // 4          # corcheas de a 2, semicorcheas de a 4
+                c.setLineWidth(2.0)
+                for g in range(0, n, grupo):
+                    a, b = xs[g] + self.RX - 0.4, xs[g + grupo - 1] + self.RX - 0.4
+                    c.line(a, y + self.PLICA, b, y + self.PLICA)
+                    if n == 16:         # doble barra
+                        c.line(a, y + self.PLICA - 4, b, y + self.PLICA - 4)
+
+            for x in xs:
+                self._cabeza(c, x, y, hueca=(n <= 2))
+
+            c.setFillColor(RED)
+            c.setFont("Helvetica-Bold", 8)
+            c.drawString(4, y + 2, nombre)
+            c.setFillColor(GREY)
+            c.setFont("Helvetica", 7)
+            c.drawString(4, y - 7.5, dur)
+            c.setFont("Helvetica-Bold", 7)
+            c.setFillColor(DARK)
+            c.drawRightString(self.PAD_L - 8, y - 2.5, u"× %d" % n)
+
+
 # ---------------------------------------------------------------- helpers de armado
 def score(name, width):
     """Inserta una partitura ya renderizada por los scripts gen_scores*.py."""
