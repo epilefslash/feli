@@ -7,11 +7,14 @@ Este anexo NO es un hito nuevo: corre en paralelo al Hito 2, al lado del módulo
 ritmo basado en Pozzoli que Feli produce aparte. Por eso sus ejercicios se numeran
 con letras (A a G) y no tocan la numeración corrida 1-59 de los cuadernillos.
 
-El dato que justifica que exista, contado con `auditar_cajas.py` sobre las 395 notas
-de los 4 cuadernillos: corcheas 50% · negras 28% · blancas 13% · redondas 8% · UNA
-sola semicorchea, cero fusas. El alumno termina el programa con un vocabulario
-rítmico de dos figuras. Y de los 217 compases, solo 15 arrancan a contratiempo (7%);
-los 8 puntillos del programa son todos notas finales sostenidas, ninguno una figura
+El dato que justifica que exista, contado expandiendo las duraciones heredadas de
+LilyPond (en `c''8 a' g' e'` hay cuatro corcheas y un solo "8" escrito — contar los
+tokens da 395 y es el error que tuvo la primera versión de esta tabla): son **995
+notas**, corcheas 74% · negras 17% · blancas 5% · redondas 3% · **2 semicorcheas** ·
+cero fusas. El alumno termina el programa con un vocabulario rítmico de dos figuras.
+
+Y de los 217 compases, 165 arrancan justo en el 1 y solo 16 a contratiempo (7%); los
+5 puntillos del programa son todos notas finales sostenidas, ninguno una figura
 rítmica adentro de una frase. Ese segundo dato es el que justifica el bloque de síncopa.
 """
 from reportlab.lib.units import cm
@@ -42,19 +45,20 @@ def ej(letra, titulo, bajada, name, meta=None):
 # ============================================================ 1. POR QUÉ EXISTE
 S.append(Paragraph("POR QUÉ ESTE ANEXO EXISTE", H2))
 S.append(Paragraph(
-    "Conté todas las notas de los tres hitos y del bonus. Son <b>395</b>, y se reparten así:", BODY))
+    "Conté todas las notas de los tres hitos y del bonus. Son <b>995</b>, y se reparten así:", BODY))
 S.append(tabla([
     [Paragraph("<b>Figura</b>", CELLB), Paragraph("<b>Corchea</b>", CELLB), Paragraph("<b>Negra</b>", CELLB),
      Paragraph("<b>Blanca</b>", CELLB), Paragraph("<b>Redonda</b>", CELLB), Paragraph("<b>Semicorchea</b>", CELLB),
      Paragraph("<b>Fusa</b>", CELLB)],
-    [Paragraph("<b>Cuánto</b>", CELLB), Paragraph("50%", CELL), Paragraph("28%", CELL),
-     Paragraph("13%", CELL), Paragraph("8%", CELL),
-     Paragraph("<b>1 sola</b>", CELL), Paragraph("<b>ninguna</b>", CELL)],
+    [Paragraph("<b>Cuánto</b>", CELLB), Paragraph("74%", CELL), Paragraph("17%", CELL),
+     Paragraph("5%", CELL), Paragraph("3%", CELL),
+     Paragraph("<b>2 en total</b>", CELL), Paragraph("<b>ninguna</b>", CELL)],
 ], [W * 0.16] + [W * 0.14] * 6))
 S.append(Spacer(1, 7))
 S.append(Paragraph(
     "O sea: aprendiste <b>dónde</b> están las notas (Hito 1) y <b>cómo</b> atacarlas (Hito 2), pero durante "
-    "todo el programa las tocaste con dos figuras. Una sola semicorchea en 395 notas. Eso no está mal — se "
+    "todo el programa las tocaste con dos figuras: tres de cada cuatro notas son corcheas. Dos "
+    "semicorcheas en casi mil notas. Eso no está mal — se "
     "hizo a propósito, porque meter ritmo nuevo mientras aprendés a afinar un bending es pedirte dos cosas a "
     "la vez. Pero si no lo cerramos, te queda un solo que suena parejo: todas las frases con la misma "
     "densidad, como si hablaras siempre a la misma velocidad.", BODY))
@@ -180,10 +184,11 @@ S.append(Paragraph(
     "alta ahora mismo, sin la guitarra:", BODY))
 S.append(GrillaDelCompas(W))
 S.append(Paragraph(
-    "Conté los compases de los tres hitos y del bonus: son <b>217</b>, y solo <b>15 arrancan a contratiempo</b> "
-    "— el 7%. Los otros 202 arrancan justo en el 1, con el pie. Y hay <b>8 puntillos en todo el programa</b>: "
-    "los ocho son la última nota de una frase, aguantada hasta que se acaba el compás. Ninguno es una figura "
-    "rítmica adentro de una frase.", BODY))
+    "Conté los compases de los tres hitos y del bonus: son <b>217</b>, y solo <b>16 arrancan a contratiempo</b> "
+    "— el 7%. De los otros, <b>165 arrancan justo en el 1</b>, con el pie, y el resto arranca en algún otro "
+    "número (casi siempre en el 2). Y hay <b>5 puntillos en todo el programa</b>: los cinco son la última "
+    "nota de una frase, aguantada hasta que se acaba el compás. Ninguno es una figura rítmica adentro de "
+    "una frase.", BODY))
 S.append(Paragraph(
     "En el ejercicio 44 del Hito 3 te dije que <b>el ritmo es el 70% de la identidad de una frase</b> — y "
     "después el programa no te dio con qué moverlo. Este bloque es esa deuda.", BODY))
@@ -256,8 +261,9 @@ S.append(caja_oscura(
     'Si llenás ese 1 con otra nota para no dejar un hueco, la anticipación no suena mal — <b>desaparece</b>, '
     'porque ya no queda nada contra qué escucharla. El Hito 2 te enseñó que el silencio es parte de la frase; '
     'esto te dice <b>dónde</b> ponerlo: justo donde el oído más lo espera.<br/><br/>'
-    'Comprobalo: en todo este bloque no hay una sola semicorchea, y el compás más sincopado de todos '
-    '— el 3+3+2 — es el que tiene <b>menos</b> notas. Acá no hay nada que ganar tocando más rápido.</font>', W))
+    'Comprobalo contando la tablatura: en todo este bloque no hay una sola semicorchea, y los tres '
+    'compases del ejercicio G —los más sincopados de todos— se tocan con <b>tres</b> ataques cada uno, '
+    '<b>uno menos</b> que el compás recto del ejercicio E. Acá no hay nada que ganar tocando más rápido.</font>', W))
 
 S.append(Spacer(1, 8))
 S.append(Paragraph("EL PROBLEMA DE PRACTICAR ESTO SOLO (y los 3 correctores)", H2))
@@ -345,8 +351,9 @@ S.append(Spacer(1, 8))
 S.append(Paragraph(
     "<b>Entregable sugerido:</b> 1 minuto improvisando sobre un backing donde se escuche claramente una frase "
     "en negras y, más adelante, esa misma idea de adorno en semicorcheas. Que se reconozca que es la misma "
-    "idea. Y que haya <b>al menos tres frases que entren antes del tiempo fuerte</b> — contadas, no "
-    "\"cuando salga\". Eso es todo el anexo en una grabación.", BODY))
+    "idea. Y que haya <b>exactamente tres frases que entren antes del tiempo fuerte</b> — tres, contadas. "
+    "Si son más, dejó de ser un recurso y se volvió tu pulso nuevo. Eso es todo el anexo en una "
+    "grabación.", BODY))
 S.append(Paragraph(
     "Este anexo va en paralelo al Hito 2, junto con el módulo de ritmo. Sus ejercicios se numeran con letras "
     "(A a G) justamente para que no se mezclen con los 59 del programa: no reemplazan ninguna semana.", SMALL))

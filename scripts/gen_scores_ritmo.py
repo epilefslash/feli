@@ -88,10 +88,16 @@ EJ["r06"] = r"""
 # Compases 1 y 2 suenan idéntico y sus tablaturas son idénticas (8-5-8): el
 # puntillo no es una figura nueva, es la forma corta de escribir una ligadura.
 # Y como suma la mitad en vez de partirla, corre todo lo que sigue al contratiempo.
+#
+# OJO con el 3+3+2: es el compás 2 (1,5 + 1,5 + 1 = 3+3+2 corcheas), NO otro.
+# Una versión anterior rotulaba como "3+3+2" un compás que era 3+3+1+1 y encima
+# tenía 4 ataques, lo que desmentía la frase de la caja ("el más sincopado es el
+# que tiene menos notas"). El compás 3 ahora es el MISMO 3+3+2 bajando: prueba
+# que es un patrón transportable y mantiene los 3 ataques.
 EJ["r07"] = r"""
   c''4\1^\markup{\bold "1 · escrito con ligaduras"} ~ c''8\1 a'4\1 ~ a'8\1 g'4\2 |
-  c''4.\1^\markup{\bold "2 · lo MISMO, con puntillos"} a'4.\1 g'4\2 |
-  c''4.\1^\markup{\bold "3 · el 3+3+2 completo"} a'4.\1 g'8\2 e'\2 |
+  c''4.\1^\markup{\bold "2 · lo MISMO con puntillos = el 3+3+2"} a'4.\1 g'4\2 |
+  g'4.\2^\markup{\bold "3 · el mismo 3+3+2, bajando"} e'4.\2 d'4\3 |
 """
 
 if __name__ == "__main__":

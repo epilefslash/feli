@@ -136,6 +136,49 @@ def tabla_de_trastes():
     print()
 
 
+def valida_compases():
+    """Compila cada partitura y reporta los compases que no suman 4 negras.
+
+    Existe porque el ej. 7 del Hito 1 llegó al alumno con un compás de 4/4 que
+    tenía 4 tiempos y medio adentro (`g8 e d c2.` = 4,5): si lo tocaba con
+    metrónomo, no cerraba. LilyPond lo venía avisando en cada build con un
+    "barcheck failed", pero el aviso se perdía entre el resto de la salida y
+    nadie lo miraba. Ahora falla ruidoso, como la validación de escala.
+
+    No se puede reemplazar por aritmética en Python: hay que resolver duraciones
+    heredadas, tresillos y ligaduras, y el markup mete letras a-g que parecen
+    notas. LilyPond ya sabe hacer todo eso — se le pregunta a él.
+    """
+    import glob
+    import subprocess
+    malos = []
+    for ly in sorted(glob.glob(os.path.join(PARTITURAS, "*.ly"))):
+        nombre = os.path.basename(ly)[:-3]
+        r = subprocess.run(["lilypond", "-dcrop", "-o", "/tmp/_bc_" + nombre, ly],
+                           capture_output=True, text=True)
+        fallos = [l for l in r.stderr.splitlines() if "barcheck failed" in l]
+        if fallos:
+            malos.append((nombre, fallos[0].split("at:")[-1].strip()))
+    return malos
+
+
+PARTITURAS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "partituras")
+
+if "--compases" in sys.argv:
+    print("=" * 78)
+    print("VALIDACIÓN DE COMPASES (barcheck de LilyPond sobre cada partitura)")
+    print("=" * 78)
+    malos = valida_compases()
+    for nombre, exceso in malos:
+        print("  !! %s — un compás no suma 4 negras (sobra/falta %s)" % (nombre, exceso))
+    if malos:
+        print("\nUn compás mal medido no se ve leyendo la tablatura, pero el alumno lo choca")
+        print("apenas pone el metrónomo. Arreglar antes de exportar el PDF.")
+        sys.exit(1)
+    print("OK — los compases de todas las partituras suman 4 negras.")
+    print("=" * 78)
+    sys.exit(0)
+
 if "--tabla" in sys.argv:
     tabla_de_trastes()
     sys.exit(0)

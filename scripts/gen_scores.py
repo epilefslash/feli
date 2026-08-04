@@ -100,7 +100,7 @@ EJ["e07"] = r"""
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
   e'8\2 g'\2 a'\1 c''\1 \glissando d''4\1^\markup{\bold "slide → caja 2"} r4 |
   d''8\1 c''\1 a'\2 g'\2 e'\3 d'\3 c'\4 a\4 |
-  g8\5 e\5 d\6 c2.\6 |
+  g8\5 e\5 d\6 c\6 ~ c2\6 |
 """
 
 EJ["e08"] = r"""

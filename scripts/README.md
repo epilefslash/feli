@@ -63,10 +63,13 @@ Referencia en La menor pentatónica:
 Duraciones: `4` negra · `8` corchea · `16` semicorchea · `2` blanca · `1` redonda · `4.` negra con puntito.
 `|` cierra el compás. `r4` es un silencio de negra.
 
-> **Ojo con el reparto de figuras.** Contando las 395 notas de los 4 cuadernillos: corcheas 50% ·
-> negras 28% · blancas 13% · redondas 8% · **una sola semicorchea** y ninguna fusa. Eso es a propósito
-> (el ritmo se trabaja en el anexo, no dentro de los hitos), pero si agregás ejercicios conviene saberlo
-> para no desbalancearlo más. El conteo sale de una línea de Python sobre los `EJ` de cada `gen_scores*`.
+> **Ojo con el reparto de figuras.** Las 4 cuadernillos suman **995 notas**: corcheas 74% · negras 17% ·
+> blancas 5% · redondas 3% · **2 semicorcheas** y ninguna fusa. Eso es a propósito (el ritmo se trabaja en
+> el anexo, no dentro de los hitos), pero si agregás ejercicios conviene saberlo para no desbalancearlo más.
+>
+> ⚠️ **Al recontar, acordate de que la duración se HEREDA:** en `c''8\1 a'\1 g'\2 e'\2` hay cuatro corcheas
+> y un solo `8` escrito. Contar los tokens con duración explícita da 395 y es un número inventado — ya se
+> publicó una vez así. Hay que arrastrar la última duración vista.
 
 Ejemplo — La (6ª cuerda traste 5) y Do (6ª traste 8) en corcheas:
 
@@ -86,6 +89,11 @@ Otros símbolos:
 | `\p` `\mf` `\f` | dinámica (suave, medio, fuerte) |
 | `\tuplet 3/2 { ... }` | tresillo |
 | `<e'\2 a'\1>4` | doble cuerda (dos notas juntas) |
+
+> **Antes de exportar, corré también `python3 auditar_cajas.py --compases`:** compila cada partitura y
+> falla si algún compás no suma 4 negras. Existe porque el ej. 7 del Hito 1 llegó al alumno con un compás
+> de 4 tiempos y medio — LilyPond lo venía avisando en cada build y el aviso se perdía entre el resto de
+> la salida.
 
 > LilyPond 2.24 no dibuja flechas de bending en la tablatura, por eso los bendings van
 > anotados con `\markup`. Si algún día se actualiza a 2.25+, existe `\bendOn`.

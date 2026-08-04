@@ -256,3 +256,40 @@ Hito 1 a propósito).
 
 > Este anexo **no cierra** el hueco de cambios de acorde (sigue pendiente para el Módulo 2). Cierra el
 > de ritmo, junto con el módulo de Pozzoli.
+
+### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
+
+El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo
+se le cambió el trabajo al juez: en vez de sintetizar un diseño que ya estaba implementado, **auditarlo**.
+Valió la pena — encontró cuatro cosas reales, y **la peor estaba en material ya entregado**:
+
+| # | Qué | Dónde |
+|---|---|---|
+| 1 | **Un compás de 4/4 con 4 tiempos y medio adentro** (`g8 e d c2.` = 4,5) | `gen_scores.py`, ej. 7 del **Hito 1** — PDF ya entregado |
+| 2 | **Las "395 notas" y todo el reparto de figuras estaban mal** | tapa del anexo, README, esta memoria |
+| 3 | El compás rotulado "3+3+2" era en realidad **3+3+1+1**, y tenía 4 ataques | anexo, ej. G (`r07`) |
+| 4 | "los otros **202** arrancan justo en el 1" era una resta, no un conteo | anexo, sección de síncopa |
+
+**El #1 es el más grave y sobrevivió meses.** LilyPond lo venía avisando en *cada* build
+(`warning: barcheck failed`), pero el aviso se perdía entre el resto de la salida. **Arreglo de fondo:
+`auditar_cajas.py --compases`** compila todas las partituras y falla con exit 1 si alguna tiene un compás
+que no suma. Verificado: el ej. 7 era el único de las 65 partituras. Corregido a `g8 e d c ~ c2` — mismas
+alturas, mismo contorno.
+
+**El #2 tiene una causa que hay que recordar: en LilyPond la duración se HEREDA.** En
+`c''8\1 a'\1 g'\2 e'\2` hay **cuatro corcheas y un solo `8` escrito**. Mi conteo original contaba tokens
+con duración explícita, no notas. Números reales: **995 notas · corchea 74% · negra 17% · blanca 5% ·
+redonda 3% · 2 semicorcheas (no 1) · 5 puntillos (no 8) · 0 fusas**. El argumento del anexo *se refuerza*:
+74% de corcheas es más monolítico que el 50% que decía antes.
+
+**El #3 era un error musical de verdad, no de redacción.** `c''4. a'4. g'8 e'8` es 3+3+1+1, y encima
+tiene 4 ataques — lo que desmentía la frase de la caja ("el más sincopado es el que tiene menos notas"),
+contable a la vista en la tablatura de la misma página. Peor: **el compás 2 ya era el verdadero 3+3+2**
+(1,5+1,5+1). Se reescribió el compás 3 como el mismo 3+3+2 bajando (`g'4. e'4. d'4`): ahora los tres
+compases tienen 3 ataques, el rótulo dice la verdad, y de paso prueba que el patrón es transportable.
+
+> ⚠️ **Lección de método, para no repetirla:** escribí un script en Python para verificar las sumas de
+> compás y reportó ~160 compases malos. Eran **casi todos falsos positivos**: el regex tomaba las letras
+> a-g de adentro de los `\markup` como si fueran notas. La aritmética de compases **no se verifica con
+> regex** — hay duraciones heredadas, tresillos y ligaduras. Se le pregunta a LilyPond, que ya sabe.
+> Casi reporto 160 errores inventados por confiar en mi propio script sin contrastarlo.
