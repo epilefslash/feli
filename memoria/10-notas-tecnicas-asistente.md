@@ -122,6 +122,45 @@ sigue siendo lo mismo de la segunda ronda — en el repo ya está bien; lo que e
 los PDF maquetados que viven en la máquina de Feli. Se resuelve re-mandando los 4 archivos a Design,
 no editando la fuente.
 
+### CUARTA RONDA (4/8/2026) — Design maquetó bien, y el error esta vez fue MÍO
+
+La sesión externa auditó el PDF maquetado del Hito 3 (48 páginas) extrayendo las tablaturas como
+vectores, no a ojo. **Los tres arreglos de la tercera ronda sobrevivieron a la remaquetación:**
+
+| Verificación | Resultado en el PDF de Design |
+|---|---|
+| Ej. 50 · llegadas 7·10·12·5 + traste 3 antes del cierre | ✅ 4ª/7 · 2ª/10 · 3ª/12 · 6ª/3→5 |
+| Ej. 51 · tercer final en traste 15 (RE + SOL) | ✅ 1ª/15 + 2ª/15 |
+| Ej. 53 · último compás 3→5 en la 6ª | ✅ y el bend del clímax en 3ª/12 |
+| Los textos nombran trastes y coinciden con la música | ✅ los dos |
+| Sin regresiones (ej. 47 en 12, ej. 46 en las 5 cajas, diagramas de 12 puntos) | ✅ |
+
+**El único error real de la ronda estuvo en el briefing que escribí yo.** La tabla de referencia
+decía *"traste 7 = SI (caja 1 y 2)"* para la 6ª cuerda, y abajo aclaraba que lo que no estuviera en
+la lista era nota fuera de escala. **SI no pertenece a la pentatónica de La menor.** El traste 7 sí
+es LA — pero en la **4ª** cuerda, que es donde está la llegada 1 del ej. 50. Confundí una cuerda con
+otra. No afectó a ningún cuadernillo (la fuente estaba bien), pero una tabla así aprueba una nota
+mala en la ronda siguiente.
+
+**Arreglo de fondo:** `auditar_cajas.py --tabla` ahora imprime la tabla completa cuerda por cuerda,
+generada desde el mismo `MAPA` que usa la auditoría. **Nunca más escribir esa tabla de memoria en un
+briefing: correr el comando y pegar la salida.** La 6ª cuerda es 3·5·8·10·12·15 — el 7 no está.
+
+**Los 4 "pendientes" que reportó la sesión, verificados contra la fuente:** los cuatro son de los PDF
+que viven en la máquina de Feli, no del repo.
+
+| Reporte | Realidad en la fuente |
+|---|---|
+| "Los 5 recursos" (Hito 2) sigue diciendo 5 y lista 4 | `build_hito2.py` dice **"LOS 4 BLOQUES DEL MES"**. PDF viejo. |
+| "Las 8 semanas del bonus… los 8 licks" (Hito 3, última pág.) | En la fuente **no existe esa frase**. Los dos "8 licks" que hay (líneas 502 y 530) son la meta de licks propios del alumno, no el bonus — la propia sesión lo reconoce en su punto 5. La única mención al bonus en el Hito 3 es "ej. 54, el BB box". |
+| "40 solos de Frusciante" sin fuente | **No existe ninguna cifra** en la fuente: las 3 menciones a Frusciante no llevan número. Ya se había sacado. |
+| Bonus duplicado (`liks fuera de la box 1.pdf`, numerado 52-59) | Archivo viejo en la máquina de Feli. En el repo el bonus es 54-59 y la tapa dice 6 licks. |
+
+> **Acción para Feli, no para el repo:** borrar de `D:\METODO FLOW 2026` los PDF viejos (el bonus
+> numerado 52-59 y cualquier Hito 2 anterior al 3/8) y re-mandar los 4 archivos actuales. Mientras
+> los dos juegos convivan en la misma carpeta, cada auditoría externa va a seguir reportando estos
+> mismos cuatro fantasmas.
+
 ## 31) MATERIAL QUE FELI PRODUCE APARTE (no está en este repo)
 
 - **Módulo de ritmo del Hito 2** (`Cuadernillo_ritmo_hito_2_Sabor_2_ejercicios.pdf`, 19 pág.): cierra el

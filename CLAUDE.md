@@ -57,6 +57,9 @@ corresponda en vez de releer todo.
   traste real y reporta qué % de cada hito sale de la ventana de la caja 1 (trastes 5-8). Correrlo de
   nuevo cada vez que se toque una partitura. Referencia sana: Hito 1 ~47% · Hito 2 ~21% · Hito 3 ~47% ·
   Bonus ~73% — si el Hito 3 baja de ~30%, algo se volvió a concentrar en la caja 1 sin querer.
+  Con `--tabla` imprime qué traste de cada cuerda es qué nota y de qué caja. **Si hay que escribir
+  esa tabla en un briefing para otra sesión, correr el comando y pegar la salida — nunca de memoria**
+  (ya pasó: se listó el traste 7 de la 6ª cuerda como nota válida y ahí hay un SI, fuera de escala).
 
 ## ⚠️ Lo primero que hay que saber antes de auditar nada
 

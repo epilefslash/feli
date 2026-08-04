@@ -106,6 +106,41 @@ def audita(EJ, titulo):
     print()
 
 
+def tabla_de_trastes():
+    """Imprime, cuerda por cuerda, qué trastes son de la pentatónica y de qué caja.
+
+    Existe porque esta tabla se escribió a mano en un briefing para otra sesión y
+    salió mal: se listó el traste 7 de la 6ª cuerda como nota válida, cuando ahí
+    hay un SI, que no pertenece a la escala. El traste 7 es LA — pero en la 4ª
+    cuerda, no en la 6ª. Cada cuerda tiene sus propios trastes y no se pueden
+    mezclar de memoria.
+
+        python scripts/auditar_cajas.py --tabla
+    """
+    nombre = {"a": "LA", "c": "DO", "d": "RE", "e": "MI", "g": "SOL"}
+    print("=" * 78)
+    print("TRASTES DE LA PENTATÓNICA DE LA MENOR, POR CUERDA")
+    print("Entre corchetes, las cajas a las que pertenece cada traste.")
+    print("Un traste que no figura acá es una nota fuera de la escala.")
+    print("=" * 78)
+    for cuerda in range(1, 7):
+        celdas = []
+        for pitch, f in sorted(MAPA[cuerda].items(), key=lambda kv: kv[1]):
+            celdas.append("%2d=%-3s%s" % (f, nombre[pitch[0]], cajas_de(f)))
+        print("  cuerda %d:  %s" % (cuerda, "  ".join(celdas)))
+    print()
+    print("  Trastes exclusivos de una sola caja: 2 y 3 -> caja 5 · 14 y 15 -> caja 4.")
+    print("  Las cajas 2 y 3 no tienen ninguno (sus trastes propios, 6 y 11, están")
+    print("  fuera de la escala). Por eso nunca aparecen en la columna 'exclusivas'.")
+    print("=" * 78)
+    print()
+
+
+if "--tabla" in sys.argv:
+    tabla_de_trastes()
+    sys.exit(0)
+
+
 import gen_scores
 import gen_scores_h2
 import gen_scores_h3
