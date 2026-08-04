@@ -168,7 +168,28 @@ que viven en la máquina de Feli, no del repo.
   (no reemplaza semanas), 10 células rítmicas, 0 notas nuevas, entregable de 1 min. Basado en **Pozzoli**
   (*Guía Teórico-Práctica para la Enseñanza del Dictado Musical*) con página y serie citadas — fuente real
   y verificable. Usa palabras mnemotécnicas (PEZ · PA-TO · CHO-CO-LA-TE · PI-CAN-TE) para las células.
-  Cita correctamente el ej. 42 del Hito 3 ("el ritmo es el 70% de la identidad de una frase").
+  ⚠️ **Cita mal el ejercicio:** dice ej. 42, y "el ritmo es el 70% de la identidad de una frase" está en
+  el **ej. 44** (verificado en `build_hito3.py`). Esta memoria decía antes "cita correctamente el ej. 42",
+  o sea que avalaba el error — corregido el 4/8. Hay que arreglarlo en el PDF de Pozzoli, que vive en la
+  máquina de Feli.
+
+### Dónde va cada módulo de ritmo (decisión del 4/8)
+
+Había dos documentos de ritmo diciendo los dos "corre en paralelo al Hito 2", los dos con entregable de
+1 minuto y los dos cubriendo el puntillo. Una auditoría externa lo detectó y propuso jubilar el de
+Pozzoli. **Se resolvió separándolos por mes en vez de descartar uno:**
+
+| | Cuadernillo principal | Ritmo, en paralelo |
+|---|---|---|
+| **Mes 2 — El Sabor** | El Sabor (ej. 17-34) | **Pozzoli** — enseña a *leer* ritmo |
+| **Mes 3 — El Vocabulario** | El Vocabulario (ej. 35-53) | **Anexo A-G** — enseña a *aplicarlo* |
+
+**El anexo se movió al mes 3 por dependencias, no por carga:** (a) su operación es "agarrá un lick que ya
+sabés y movelo", y los primeros licks del programa aparecen recién en la semana 6 — al mes 3 el alumno
+llega con un banco, al mes 2 con dos; (b) citaba el ej. 44 y el 46, los dos del Hito 3, o sea referencias
+a futuro; (c) el ej. 44 es justamente lo que el anexo desarrolla — el 44 muestra tres ritmos terminados,
+el anexo entrega la palanca que los produce. Dato lateral: el archivo ya estaba guardado en la carpeta de
+hito 3 en la máquina de Feli. No estaba en la carpeta equivocada, tenía el rótulo equivocado.
 - **Las "Guías del Profe"** (3 documentos) y una carpeta de **backing tracks propios**: existen en la
   máquina de Feli, no en el repo. Una auditoría externa las evaluó bien.
 

@@ -3,9 +3,19 @@
 
 Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r07).
 
-Este anexo NO es un hito nuevo: corre en paralelo al Hito 2, al lado del módulo de
-ritmo basado en Pozzoli que Feli produce aparte. Por eso sus ejercicios se numeran
-con letras (A a G) y no tocan la numeración corrida 1-59 de los cuadernillos.
+Este anexo NO es un hito nuevo: corre en paralelo al Hito 3. Por eso sus ejercicios
+se numeran con letras (A a G) y no tocan la numeración corrida 1-59.
+
+VA EN EL MES 3, NO EN EL 2, y el motivo no es de carga sino de dependencias:
+  · su operación es "agarrá un lick que ya sabés y movelo", y los primeros licks del
+    programa aparecen recién en la semana 6 (ej. 25-26). Al mes 3 el alumno llega con
+    un banco; al mes 2, con dos.
+  · cita el ej. 44 y el ej. 46, los dos del Hito 3. En el mes 2 serían referencias a
+    material que el alumno todavía no vio.
+  · el ej. 44 ("mismas notas, tres ritmos") es justamente lo que este anexo desarrolla:
+    el 44 muestra tres ritmos terminados, el anexo entrega la palanca que los produce.
+El módulo de ritmo basado en Pozzoli (que Feli produce aparte) se queda en el mes 2:
+ése enseña a LEER ritmo, éste a APLICARLO. Un documento de ritmo por mes, en ese orden.
 
 El dato que justifica que exista, contado expandiendo las duraciones heredadas de
 LilyPond (en `c''8 a' g' e'` hay cuatro corcheas y un solo "8" escrito — contar los
@@ -27,7 +37,7 @@ from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, CAJ,
 doc = documento("Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf",
                 "ANEXO DE RITMO",
                 "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo, swing y síncopa",
-                "Solo con Sabor · Anexo de ritmo (va con el Hito 2)",
+                "Solo con Sabor · Anexo de ritmo (va con el Hito 3)",
                 "Anexo de ritmo - El arbol y las 3 velocidades")
 W = doc.width
 S = []
@@ -118,8 +128,8 @@ S.append(ej("A", "Las 3 velocidades de la misma celda",
             "compás — el efecto está en escuchar los tres pegados.<br/><br/>"
             "<b>Los silencios están escritos a propósito.</b> No son relleno: son el ejercicio.",
             "r01",
-            "Es el mismo truco del ejercicio 46 del Hito 3 (un lick en las 5 cajas), pero en el otro eje. "
-            "Aquel probaba que un lick no es un lugar. Éste prueba que tampoco es una velocidad."))
+            "Es el mismo truco del ejercicio 46 que ya hiciste este mes (un lick en las 5 cajas), pero en el "
+            "otro eje. Aquel probaba que un lick no es un lugar. Éste prueba que tampoco es una velocidad."))
 
 S.append(caja_oscura(
     '<font color="white"><b>LA REGLA QUE HACE QUE ESTO NO TE ARRUINE EL HITO 2</b><br/><br/>'
@@ -190,8 +200,9 @@ S.append(Paragraph(
     "nota de una frase, aguantada hasta que se acaba el compás. Ninguno es una figura rítmica adentro de "
     "una frase.", BODY))
 S.append(Paragraph(
-    "En el ejercicio 44 del Hito 3 te dije que <b>el ritmo es el 70% de la identidad de una frase</b> — y "
-    "después el programa no te dio con qué moverlo. Este bloque es esa deuda.", BODY))
+    "En el <b>ejercicio 44</b>, hace un par de semanas, te dije que <b>el ritmo es el 70% de la identidad "
+    "de una frase</b> — y ahí te mostré tres ritmos ya terminados, sin decirte de qué están hechos. Este "
+    "bloque es esa deuda: la palanca que los produce.", BODY))
 S.append(Spacer(1, 6))
 
 S.append(tabla([
@@ -300,8 +311,8 @@ S.append(Paragraph(
 S.append(Spacer(1, 10))
 S.append(Paragraph("CÓMO SE PRACTICA ESTO (10 MINUTOS, DENTRO DE TU RUTINA)", H2))
 S.append(Paragraph(
-    "No hace falta tiempo nuevo. Agarrás <b>un</b> lick que ya sabés — cualquiera del Hito 1 o del Hito 2 — "
-    "y le hacés esta escalera. Un lick por semana alcanza.", BODY))
+    "No hace falta tiempo nuevo. Agarrás <b>un</b> lick que ya sabés — cualquiera de los que venís "
+    "robando en el Hito 3, o del banco de licks — y le hacés esta escalera. Un lick por semana alcanza.", BODY))
 S.append(Spacer(1, 3))
 S.append(tabla([
     [Paragraph("<b>Paso</b>", CELLB), Paragraph("<b>Qué hacés</b>", CELLB), Paragraph("<b>Cuándo pasás al siguiente</b>", CELLB)],
@@ -355,8 +366,9 @@ S.append(Paragraph(
     "Si son más, dejó de ser un recurso y se volvió tu pulso nuevo. Eso es todo el anexo en una "
     "grabación.", BODY))
 S.append(Paragraph(
-    "Este anexo va en paralelo al Hito 2, junto con el módulo de ritmo. Sus ejercicios se numeran con letras "
-    "(A a G) justamente para que no se mezclen con los 59 del programa: no reemplazan ninguna semana.", SMALL))
+    "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a G) justamente para que "
+    "no se mezclen con los 59 del programa: no reemplazan ninguna semana. El módulo de ritmo del mes 2 "
+    "(el de lectura) te enseñó a LEER las figuras; éste te enseña a usarlas en tus propias frases.", SMALL))
 
 doc.build(S)
 print("OK  Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf")
