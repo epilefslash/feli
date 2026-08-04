@@ -76,6 +76,28 @@ segundos para detectarlo: `memoria/10-notas-tecnicas-asistente.md`, sección 30.
 Consecuencia práctica: si alguien reporta un error, **primero verificar en cuál de las dos versiones
 está** — mi fuente puede estar limpia y el entregable roto al mismo tiempo.
 
+## ⚠️ Si una sesión anterior quedó cortada (por límite de créditos o lo que sea)
+
+**Instrucción permanente de Feli:** *"Cuando se restablezca el límite, retomá automáticamente desde el
+último estado disponible. Revisá qué tareas quedaron incompletas, verificá los cambios ya realizados y
+terminá la implementación sin repetir trabajo ni deshacer avances."*
+
+Traducido a qué hacer, **sin esperar que Feli lo pida de nuevo** — alcanza con que escriba cualquier cosa:
+
+1. `git log --oneline -10` y `git status` — qué se llegó a commitear y qué quedó sin guardar.
+2. Leer la última sección de `memoria/10-notas-tecnicas-asistente.md`: ahí se documenta cada ronda de
+   trabajo terminada. Si lo último que hay en el log **no** está documentado ahí, esa es la tarea cortada.
+3. `python3 scripts/auditar_cajas.py` — si falla, hay una partitura a medio editar.
+4. Si había un Workflow corriendo, sus resultados parciales están en el `journal.jsonl` del run
+   (`subagents/workflows/<run_id>/`). **Leerlo antes de re-lanzar nada:** puede que la mitad del trabajo
+   ya esté hecha y solo falte sintetizarla. Se retoma con `resumeFromRunId` — los agentes que sí
+   terminaron se replayean desde cache y no se pagan de nuevo.
+5. Terminar lo que faltaba y recién ahí avisar. **No volver a empezar desde cero ni deshacer lo hecho.**
+
+> Nota honesta para el asistente: no podés auto-despertarte. Esto se dispara con el primer mensaje que
+> mande Feli, sea cual sea. Si alguna vez hace falta arranque sin intervención, es una tarea programada
+> (cron), no esta regla.
+
 ## Reglas de trabajo en este repo
 
 - El usuario filma y edita él mismo (guitarra, CapCut). Mi rol: guiones, estrategia, copy, pedagogía,
