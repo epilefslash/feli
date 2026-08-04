@@ -206,5 +206,53 @@ figura* usás (divide por 2), el tresillo divide por 3 y el swing dice *dónde c
 dentro del pulso. Mezclarlos en un mismo ejercicio confunde. El swing va escrito (negra + corchea en
 tresillo) para que se vea de dónde sale.
 
+### Bloque de síncopa (ejercicios D a G) — segunda ronda del anexo
+
+Feli volvió con un prompt pidiendo "más variedad rítmica". **El prompt venía con el género equivocado**
+(preguntaba por chamamé, chacarera, samba y "peña" — es una plantilla de otro proyecto). Se le marcó y se
+contestó sobre rock/blues, que es lo que el programa enseña. La intuición de Feli era correcta; el
+diagnóstico del prompt, no.
+
+**La recomendación del prompt era llevar las semicorcheas al 20%. Se rechazó, y el motivo importa:** en
+blues-rock la semicorchea no da sabor, da shred — y contradiría el reel #3 ("¿hay que tocar rápido?").
+Además, **contar duraciones de nota no mide ritmo**: un solo puede ser 100% corcheas y tener un swing
+bárbaro. El 50%/28% mide el esqueleto, no el feel.
+
+**Los gaps reales, medidos sobre la fuente:** de 217 compases, sólo **15 arrancan a contratiempo (7%)**;
+hay **8 puntillos** en todo el programa y **los ocho son notas finales sostenidas**, ninguno una figura
+rítmica adentro de una frase; y en los 4 cuadernillos hay **18 ligaduras, todas dentro del compás** —
+ninguna cruza la barra. Ésos eran los huecos, no la semicorchea.
+
+**Lo que se agregó (4 ejercicios, D a G, sin tocar los hitos):**
+- **D — el número y el "y":** UNA sola nota repetida, más el flowable `GrillaDelCompas` (los 8 casilleros
+  del compás, oscuros los fuertes). Arranca **sin guitarra**: pie y voz primero. Si hay que digitar algo,
+  la atención se va a los dedos y no al lugar del pulso.
+- **E — mover una nota, no agregarla:** tres compases, y **el 2 está MAL a propósito** (anticipa y vuelve
+  a pegar la nota). Se detecta contando la tablatura: 5 números contra 4. El rótulo "MAL" vive dentro de
+  la partitura, no sólo en el texto — si Design la redibuja, se nota.
+- **F — el push:** las mismas 7 notas (8-5-8-5-7-5-7) rectas y anticipadas. Es la **primera ligadura del
+  repo que cruza una barra de compás**, y el último compás queda con la **tablatura vacía**: ahí cae el 1.
+- **G — el puntillo:** compases 1 y 2 suenan igual y sus tablaturas son idénticas (8-5-8), uno con
+  ligaduras y otro con puntillos. Encaje con el árbol: el árbol **parte** por la mitad, el puntillo
+  **suma** la mitad — por eso no entra en el árbol y por eso sincopa. Cierra con el 3+3+2.
+
+**La regla de blindaje, en su segunda cara:** *sincopar no agrega notas, mueve una — y la síncopa no se
+escucha en la nota que tocás, se escucha en el tiempo fuerte que dejaste vacío.* Prueba interna: en todo
+el bloque no hay una sola semicorchea, y el compás más sincopado (3+3+2) es el que tiene **menos** notas.
+
+**Los 3 correctores para practicar solo** (el click flaco a la mitad del BPM sonando sólo en 1 y 3 ·
+contar en voz alta *mientras* se toca · filmarse el pie) están porque éste es el primer bloque del anexo
+que **no se puede practicar sin metrónomo**: una síncopa mal medida suena igual que llegar tarde, y el
+error típico —que el pulso se mude y el "y" se vuelva el 1— es invisible desde adentro.
+
+> ⚠️ **Nota de lectura de TAB que hay que dejar dicha:** una nota ligada **no lleva número** en la
+> tablatura, porque no se vuelve a puntear. En el ej. F eso deja el compás final en blanco. Es correcto y
+> es el punto del ejercicio, pero un alumno que sólo lee TAB lo puede leer como un error de impresión —
+> por eso está aclarado en el pie del ejercicio.
+
+**Por qué NO se metió en el Hito 2, que era lo que pedía el prompt:** rompería el balance 16/18/19,
+rompería la numeración corrida 1-59, y contradiría el diseño del Hito 2 (tiene la mitad de notas que el
+Hito 1 a propósito).
+
 > Este anexo **no cierra** el hueco de cambios de acorde (sigue pendiente para el Módulo 2). Cierra el
 > de ritmo, junto con el módulo de Pozzoli.

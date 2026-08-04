@@ -1,26 +1,29 @@
 # -*- coding: utf-8 -*-
-"""Arma el PDF del ANEXO DE RITMO — el árbol de las figuras y las 3 velocidades.
+"""Arma el PDF del ANEXO DE RITMO — el árbol, las 3 velocidades y la síncopa.
 
-Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r03).
+Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r07).
 
 Este anexo NO es un hito nuevo: corre en paralelo al Hito 2, al lado del módulo de
 ritmo basado en Pozzoli que Feli produce aparte. Por eso sus ejercicios se numeran
-con letras (A, B, C) y no tocan la numeración corrida 1-59 de los cuadernillos.
+con letras (A a G) y no tocan la numeración corrida 1-59 de los cuadernillos.
 
 El dato que justifica que exista, contado con `auditar_cajas.py` sobre las 395 notas
 de los 4 cuadernillos: corcheas 50% · negras 28% · blancas 13% · redondas 8% · UNA
 sola semicorchea, cero fusas. El alumno termina el programa con un vocabulario
-rítmico de dos figuras.
+rítmico de dos figuras. Y de los 217 compases, solo 15 arrancan a contratiempo (7%);
+los 8 puntillos del programa son todos notas finales sostenidas, ninguno una figura
+rítmica adentro de una frase. Ese segundo dato es el que justifica el bloque de síncopa.
 """
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, KeepTogether
 
 from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, CAJ,
-                               ArbolFiguras, documento, tabla, caja_oscura, score)
+                               ArbolFiguras, GrillaDelCompas, documento, tabla,
+                               caja_oscura, score)
 
 doc = documento("Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf",
                 "ANEXO DE RITMO",
-                "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo y swing",
+                "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo, swing y síncopa",
                 "Solo con Sabor · Anexo de ritmo (va con el Hito 2)",
                 "Anexo de ritmo - El arbol y las 3 velocidades")
 W = doc.width
@@ -164,6 +167,129 @@ S.append(ej("C", "La misma frase, recta y con swing",
             "Buena parte del blues-rock que te gusta está en swing, no en recto. Es una de las razones por "
             "las que un lick tuyo bien tocado igual no termina de sonar al disco."))
 
+# ============================================================ 5-BIS. SÍNCOPA
+S.append(Spacer(1, 10))
+S.append(Paragraph("DÓNDE CAE — CONTRATIEMPO, SÍNCOPA Y ANTICIPACIÓN", H2))
+S.append(Paragraph(
+    "Hasta acá el anexo contestó dos preguntas: <b>qué figura</b> usás (el árbol) y <b>en cuántos pedazos</b> "
+    "se parte el pulso (tresillo y swing). Falta la tercera, y es la que más cambia el carácter de un lick: "
+    "<b>dónde empieza la nota respecto del pulso</b>.", BODY))
+S.append(Paragraph(
+    "Un compás de 4/4 tiene <b>ocho</b> lugares donde puede caer una nota, no cuatro. Cuatro son los números "
+    "— UNO, DOS, TRES, CUATRO — y cuatro son los huecos del medio, que se cuentan <b>\"y\"</b>. Decilo en voz "
+    "alta ahora mismo, sin la guitarra:", BODY))
+S.append(GrillaDelCompas(W))
+S.append(Paragraph(
+    "Conté los compases de los tres hitos y del bonus: son <b>217</b>, y solo <b>15 arrancan a contratiempo</b> "
+    "— el 7%. Los otros 202 arrancan justo en el 1, con el pie. Y hay <b>8 puntillos en todo el programa</b>: "
+    "los ocho son la última nota de una frase, aguantada hasta que se acaba el compás. Ninguno es una figura "
+    "rítmica adentro de una frase.", BODY))
+S.append(Paragraph(
+    "En el ejercicio 44 del Hito 3 te dije que <b>el ritmo es el 70% de la identidad de una frase</b> — y "
+    "después el programa no te dio con qué moverlo. Este bloque es esa deuda.", BODY))
+S.append(Spacer(1, 6))
+
+S.append(tabla([
+    [Paragraph("<b>Las tres palabras, que no son sinónimos</b>", CELLB), Paragraph("<b>Qué es</b>", CELLB)],
+    [Paragraph("<b>CONTRATIEMPO</b>", CELLB),
+     Paragraph("La nota cae en un <b>\"y\"</b>, en el hueco entre dos números. Nada más que eso: es un lugar.", CELL)],
+    [Paragraph("<b>SÍNCOPA</b>", CELLB),
+     Paragraph("La nota entra en el \"y\" <b>y se estira por encima del número que sigue</b>, que queda sin "
+               "ataque. El contratiempo es el lugar; la síncopa es el lugar <i>más</i> la duración.", CELL)],
+    [Paragraph("<b>ANTICIPACIÓN</b><br/>(el <i>push</i>)", CELLB),
+     Paragraph("Una síncopa que cruza la <b>barra de compás</b>: entrás en el \"y\" del 4 y el 1 del compás "
+               "siguiente ya te encuentra sonando. Es el gesto más rockero de los tres.", CELL)],
+], [W * 0.26, W * 0.74]))
+S.append(Spacer(1, 6))
+
+S.append(ej("D", "El número y el \"y\" (una sola nota)",
+            "Antes de leer nada, hacé esto <b>sin la guitarra</b>, 30 segundos: marcá el pulso con el pie y "
+            "contá en voz alta <b>UN y DOS y TRES y CUA y</b>. El pie <b>baja</b> en el número y <b>sube</b> "
+            "en el \"y\". Cuando el pie sube solo, sin que lo pienses, recién ahí agarrá la viola.<br/><br/>"
+            "Una sola nota las ocho veces — DO, primera cuerda traste 8. No hay nada que digitar: toda tu "
+            "atención tiene que estar en el <b>lugar</b>, no en los dedos. En el compás 2, cada vez que tocás, "
+            "<b>tu pie está arriba</b>. Esa incomodidad es el ejercicio.",
+            "r04"))
+
+S.append(ej("E", "Mover una nota, no agregarla",
+            "Las mismas cuatro notas de siempre (8-5-8-5). Lo único que se mueve es el LA.<br/><br/>"
+            "<b>Compás 1:</b> todo a tiempo, el LA cae justo en el 2. Es tu punto de comparación.<br/>"
+            "<b>Compás 2:</b> el LA entra medio tiempo antes… y lo volvés a pegar en el 2. "
+            "<b>Está mal a propósito.</b> No suena sincopado: suena a que metiste una nota de más y tropezaste. "
+            "Es el error que comete casi todo el mundo.<br/>"
+            "<b>Compás 3:</b> entra medio tiempo antes y <b>no lo repetís</b> — hay una ligadura. El 2 queda "
+            "sin ataque. <i>Eso</i> es una síncopa.<br/><br/>"
+            "<b>Ahora contá los números de la tablatura.</b> El compás 2 tiene cinco. El compás 3 tiene cuatro, "
+            "los mismos que el compás 1. El que sincopa toca <b>menos</b>, no más.",
+            "r05"))
+
+S.append(ej("F", "El push — cruzar la barra de compás",
+            "La celda de siempre cayendo en la tónica, dos veces.<br/><br/>"
+            "<b>Versión recta:</b> la llegada cae justo en el 1 del compás siguiente. Bien tocado, bien "
+            "medido… y suena a alguien practicando.<br/>"
+            "<b>Versión anticipada:</b> <b>las mismas siete notas y las mismas figuras</b>, corridas medio "
+            "tiempo para atrás. La llegada entra en el \"y\" del 4 y se liga sobre la barra.<br/><br/>"
+            "Mirá las dos tablaturas: <b>8-5-8-5-7-5-7 las dos veces</b>, no cambió ni un traste. Y ahora "
+            "mirá el último compás: <b>está vacío</b>. Ahí es exactamente donde cae el 1 de la banda, y vos "
+            "no tocás nada — ya venías sonando desde antes.",
+            "r06",
+            "Ojo con la tablatura: una nota ligada no lleva número, porque no se vuelve a puntear. Ese "
+            "casillero en blanco justo en el tiempo fuerte no es un error de impresión — es la síncopa."))
+
+S.append(ej("G", "El puntillo: la máquina de fabricar síncopas",
+            "<b>Escuchá los compases 1 y 2 y decime cuál es cuál. No vas a poder:</b> son el mismo sonido "
+            "escrito de dos maneras, el primero con ligaduras y el segundo con puntillos. Las dos tablaturas "
+            "son <b>idénticas</b> (8-5-8). El puntillo no es una figura nueva que hay que aprender: es la "
+            "forma corta de escribir una nota ligada a la mitad de sí misma.<br/><br/>"
+            "Y fijate de dónde sale. El árbol parte todo <b>por la mitad</b>; el puntillo hace lo contrario: "
+            "le <b>suma</b> la mitad. Por eso no entra en el árbol — y por eso sincopa: un tiempo y medio no "
+            "encaja en una grilla de a un tiempo, así que corre todo lo que sigue al contratiempo.<br/><br/>"
+            "<b>Compás 3:</b> el patrón <b>3+3+2</b> (tres corcheas, tres corcheas, dos). Es el reparto "
+            "sincopado más usado del rock, y no tiene una sola nota nueva.",
+            "r07"))
+
+S.append(caja_oscura(
+    '<font color="white"><b>LA REGLA (la misma de antes, en su otra cara)</b><br/><br/>'
+    '<b>Sincopar no agrega notas: mueve una.</b> Si después de sincopar tenés más notas que antes, no '
+    'sincopaste — rellenaste.<br/><br/>'
+    'Y la síncopa <b>no se escucha en la nota que tocás: se escucha en el tiempo fuerte que dejaste vacío</b>. '
+    'Si llenás ese 1 con otra nota para no dejar un hueco, la anticipación no suena mal — <b>desaparece</b>, '
+    'porque ya no queda nada contra qué escucharla. El Hito 2 te enseñó que el silencio es parte de la frase; '
+    'esto te dice <b>dónde</b> ponerlo: justo donde el oído más lo espera.<br/><br/>'
+    'Comprobalo: en todo este bloque no hay una sola semicorchea, y el compás más sincopado de todos '
+    '— el 3+3+2 — es el que tiene <b>menos</b> notas. Acá no hay nada que ganar tocando más rápido.</font>', W))
+
+S.append(Spacer(1, 8))
+S.append(Paragraph("EL PROBLEMA DE PRACTICAR ESTO SOLO (y los 3 correctores)", H2))
+S.append(Paragraph(
+    "Esto es lo primero del anexo que <b>no podés practicar sin metrónomo o backing</b>. Con las 3 velocidades "
+    "o el tresillo podías controlarte solo; acá no, y la razón es incómoda: <b>una síncopa mal medida suena "
+    "igual que llegar tarde</b>. Y hay un error que es invisible desde adentro — tocás la nota anticipada y "
+    "tu pie se va con ella: el \"y\" se te vuelve el 1 nuevo, el compás entero rota, y terminás tocando algo "
+    "perfectamente recto convencido de que sincopaste. Un profesor al lado te lo corrige en dos segundos; "
+    "solo en tu casa lo podés practicar mal durante meses.", BODY))
+S.append(Spacer(1, 3))
+S.append(tabla([
+    [Paragraph("<b>Corrector</b>", CELLB), Paragraph("<b>Cómo se hace</b>", CELLB), Paragraph("<b>Qué te delata</b>", CELLB)],
+    [Paragraph("<b>El click flaco</b>", CELLB),
+     Paragraph("Poné el metrónomo a la <b>mitad</b> del BPM, sonando solo en el 1 y el 3.", CELL),
+     Paragraph("Si corriste el pulso, a los cuatro compases te desencontrás del click. Un click denso te tapa "
+               "el error; uno flaco te lo canta.", CELL)],
+    [Paragraph("<b>Contar en voz alta</b>", CELLB),
+     Paragraph("<b>Mientras</b> tocás, no después: UN y DOS y TRES y CUA y.", CELL),
+     Paragraph("Si no podés, el pulso está en tus manos y no en tu cabeza — y si está en tus manos, se te va "
+               "a mudar cada vez que sincopes.", CELL)],
+    [Paragraph("<b>Filmate el pie</b>", CELLB),
+     Paragraph("20 segundos de celular apuntando al piso.", CELL),
+     Paragraph("Tiene que haber al menos una nota que ataques con el pie <b>arriba</b>. Si pie y mano bajan "
+               "siempre juntos, no sincopaste: moviste el 1.", CELL)],
+], [W * 0.20, W * 0.38, W * 0.42]))
+S.append(Spacer(1, 6))
+S.append(Paragraph(
+    "<b>Y una advertencia de dosis:</b> si anticipás todo, al tercer compás el oído del que escucha se "
+    "reacomoda y toma la anticipación como el pulso nuevo. Ahí la síncopa deja de existir. Una síncopa vale "
+    "por lo que la rodea — necesita notas que sí caigan en el tiempo para que se note.", BODY))
+
 # ============================================================ 6. CÓMO PRACTICARLO
 S.append(Spacer(1, 10))
 S.append(Paragraph("CÓMO SE PRACTICA ESTO (10 MINUTOS, DENTRO DE TU RUTINA)", H2))
@@ -186,7 +312,12 @@ S.append(tabla([
      Paragraph("Ahora <b>atresillalo</b>. Y después probalo con <b>swing</b>.", CELL),
      Paragraph("Cuando los dos suenan distintos entre sí de verdad.", CELL)],
     [Paragraph("5", CELLB),
-     Paragraph("Poné un backing y <b>mezclá</b>: la misma idea en negras, después de adorno en semicorcheas.", CELL),
+     Paragraph("<b>Anticipalo</b>: el mismo lick entrando medio tiempo antes, ligando sobre la barra. "
+               "Metrónomo solo en el 1 y el 3.", CELL),
+     Paragraph("Cuando seguís enganchado al click a los ocho compases y el tiempo fuerte queda vacío.", CELL)],
+    [Paragraph("6", CELLB),
+     Paragraph("Poné un backing y <b>mezclá</b>: la misma idea en negras, después de adorno en semicorcheas, "
+               "después anticipada.", CELL),
      Paragraph("Éste no se termina nunca. Es improvisar.", CELL)],
 ], [W * 0.08, W * 0.50, W * 0.42]))
 S.append(Spacer(1, 8))
@@ -206,15 +337,19 @@ S.append(tabla([
     [Paragraph(CAJ, CELL), Paragraph("Distingo de oído un tresillo de un par de corcheas.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Distingo de oído recto de swing, y puedo tocar la misma frase de las dos formas.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("En una improvisación uso <b>al menos dos densidades distintas</b> — no todo parejo.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Puedo contar <b>UN y DOS y TRES y CUA y</b> en voz alta mientras toco, sin trabarme.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Toco una frase anticipada con el metrónomo solo en el 1 y el 3, y sigo enganchado a los 8 compases.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Al menos una frase mía <b>entra antes del tiempo fuerte</b> — y ese tiempo fuerte queda vacío.", CELL)],
 ], [1.1 * cm, W - 1.1 * cm], header=False))
 S.append(Spacer(1, 8))
 S.append(Paragraph(
     "<b>Entregable sugerido:</b> 1 minuto improvisando sobre un backing donde se escuche claramente una frase "
     "en negras y, más adelante, esa misma idea de adorno en semicorcheas. Que se reconozca que es la misma "
-    "idea. Eso es todo el anexo en una grabación.", BODY))
+    "idea. Y que haya <b>al menos tres frases que entren antes del tiempo fuerte</b> — contadas, no "
+    "\"cuando salga\". Eso es todo el anexo en una grabación.", BODY))
 S.append(Paragraph(
     "Este anexo va en paralelo al Hito 2, junto con el módulo de ritmo. Sus ejercicios se numeran con letras "
-    "(A, B, C) justamente para que no se mezclen con los 59 del programa: no reemplazan ninguna semana.", SMALL))
+    "(A a G) justamente para que no se mezclen con los 59 del programa: no reemplazan ninguna semana.", SMALL))
 
 doc.build(S)
 print("OK  Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf")

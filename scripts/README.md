@@ -13,13 +13,13 @@ bonus post-programa (6 licks más, 54-59).
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
 | `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 53) |
 | `gen_scores_h3b.py` | Partituras del **bonus post-programa** — 6 licks fuera de la caja 1 (54 a 59) |
-| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A, B, C — no tocan la numeración 1-59) |
+| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a G — no tocan la numeración 1-59) |
 | `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |
 | `build_hito3b.py` | Arma `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` |
-| `build_ritmo.py` | Arma `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` (va en paralelo al Hito 2) |
+| `build_ritmo.py` | Arma `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` — árbol, diminución, tresillo, swing y síncopa (va en paralelo al Hito 2) |
 | `cuadernillo_comun.py` | Estética, diagramas de mástil, tablatura en blanco y tablas que comparten los tres |
 
 - ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.
@@ -81,7 +81,8 @@ Otros símbolos:
 | `a,8\6( c\6)` | ligado (hammer-on subiendo, pull-off bajando) |
 | `\glissando` entre dos notas | slide |
 | `^\markup{\bold "bend 1 tono"}` | cartel arriba de la nota |
-| `~` | ligadura de prolongación (la nota sigue sonando) |
+| `~` | ligadura de prolongación (la nota sigue sonando; si cruza la barra de compás, la 2ª mitad **no lleva número en la TAB** — es correcto, no se vuelve a puntear) |
+| `c''4.` | figura con puntillo (dura una vez y media) |
 | `\p` `\mf` `\f` | dinámica (suave, medio, fuerte) |
 | `\tuplet 3/2 { ... }` | tresillo |
 | `<e'\2 a'\1>4` | doble cuerda (dos notas juntas) |

@@ -453,6 +453,59 @@ class ArbolFiguras(Flowable):
             c.drawRightString(self.PAD_L - 8, y - 2.5, u"× %d" % n)
 
 
+class GrillaDelCompas(Flowable):
+    """Los 8 lugares donde puede caer una nota en un compás de 4/4.
+
+    Los cuatro números (tiempos fuertes, pie abajo) van llenos; los cuatro "y"
+    (contratiempo, pie arriba) van huecos. Es el andamio que le falta a alguien
+    que nunca contó un compás en voz alta: antes de leer una síncopa en la
+    partitura tiene que poder ver que el compás no tiene cuatro lugares, tiene
+    ocho.
+    """
+
+    PAD_T, PAD_B = 26, 30
+    H = 34.0
+
+    def __init__(self, width):
+        Flowable.__init__(self)
+        self.width = width
+        self.height = self.H + self.PAD_T + self.PAD_B
+
+    def draw(self):
+        c = self.canv
+        etiquetas = ["1", "y", "2", "y", "3", "y", "4", "y"]
+        w = self.width / 8
+        y = self.PAD_B
+
+        for i, et in enumerate(etiquetas):
+            x = i * w
+            fuerte = (i % 2 == 0)
+            c.setStrokeColor(BORDER)
+            c.setLineWidth(0.8)
+            c.setFillColor(DARK if fuerte else colors.white)
+            c.rect(x + 2, y, w - 4, self.H, fill=1, stroke=1)
+
+            c.setFillColor(colors.white if fuerte else GREY)
+            c.setFont("Helvetica-Bold", 15 if fuerte else 12)
+            c.drawCentredString(x + w / 2, y + self.H / 2 - 5, et)
+
+            c.setFillColor(RED if not fuerte else GREY)
+            c.setFont("Helvetica-Bold", 6.5)
+            c.drawCentredString(x + w / 2, y - 11, "PIE ARRIBA" if not fuerte else "pie abajo")
+
+        c.setFillColor(DARK)
+        c.setFont("Helvetica-Bold", 8.5)
+        c.drawString(0, y + self.H + 11, "UN  y  DOS  y  TRES  y  CUA  y")
+        c.setFillColor(GREY)
+        c.setFont("Helvetica-Oblique", 7.5)
+        c.drawRightString(self.width, y + self.H + 11,
+                          "los oscuros son los tiempos fuertes · los blancos son el contratiempo")
+        c.setFillColor(RED)
+        c.setFont("Helvetica-Bold", 7.5)
+        c.drawCentredString(self.width / 2, y - 25,
+                            "Casi todo lo que tocaste en los 3 hitos empieza en un casillero oscuro.")
+
+
 # ---------------------------------------------------------------- helpers de armado
 def score(name, width):
     """Inserta una partitura ya renderizada por los scripts gen_scores*.py."""
