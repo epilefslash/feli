@@ -37,16 +37,40 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 # sistema de cajas, y eso es correcto, no un bug.
 MAPA = {
     6: {"e,": 0, "g,": 3, "a,": 5, "c": 8, "d": 10, "e": 12, "g": 15},
-    5: {"a,": 0, "c": 3, "d": 5, "e": 7, "g": 10, "a": 12, "c'": 15},
-    4: {"d": 0, "e": 2, "g": 5, "a": 7, "c'": 10, "d'": 12, "e'": 14},
-    3: {"g": 0, "a": 2, "c'": 5, "d'": 7, "e'": 9, "g'": 12, "a'": 14},
+    5: {"a,": 0, "c": 3, "d": 5, "e": 7, "g": 10, "a": 12, "c'": 15, "d'": 17},
+    4: {"d": 0, "e": 2, "g": 5, "a": 7, "c'": 10, "d'": 12, "e'": 14, "g'": 17},
+    3: {"g": 0, "a": 2, "c'": 5, "d'": 7, "e'": 9, "g'": 12, "a'": 14, "c''": 17},
     2: {"d'": 3, "e'": 5, "g'": 8, "a'": 10, "c''": 13, "d''": 15},
     1: {"e'": 0, "g'": 3, "a'": 5, "c''": 8, "d''": 10, "e''": 12, "g''": 15, "a''": 17},
 }
 
+# CROMATICAS PERMITIDAS — notas que NO son de la pentatonica de La menor y que
+# entran igual, a proposito y documentadas. Decision de Feli (5/8/2026) al importar
+# sus transcripciones. Van aparte del MAPA para que se vean: cualquier nota alterada
+# que no este aca sigue haciendo fallar la validacion.
+#
+#   MIb / RE# -> el BLUE NOTE (b5). El alumno ya lo conoce del ej. 26 del Hito 2.
+#   SI        -> la 2a (o 9a). Color melodico, no de blues. Aparece en el ej. I.
+#   FA#       -> la 6a mayor del "BB box". Ya estaba en el ej. 54 del bonus desde
+#                siempre, pero el regex viejo no la veia: la caza este arreglo.
+#
+# Si se agrega una tercera, escribir aca POR QUE. Una lista de excepciones sin
+# motivo escrito deja de ser una excepcion y pasa a ser un agujero.
+CROMATICAS = {
+    4: {"ees'": 13, "dis'": 13},
+    3: {"ees'": 8, "dis'": 8, "b": 4, "fis'": 11},
+    2: {"b'": 12},
+    1: {"ees''": 11, "dis''": 11},
+}
+
 CAJAS = {1: (5, 8), 2: (7, 10), 3: (9, 13), 4: (12, 15), 5: (2, 5)}
 
-NOTA = re.compile(r"([a-g][,']*)\d*\.*\\(\d)")
+# OJO con este regex: la version anterior era r"([a-g][,']*)\d*\.*\\(\d)" y NO
+# contemplaba alteraciones, asi que "ees'" (el blue note del ej. 26) y "dis'" no
+# matcheaban nunca. El validador informaba "escala OK" sin haber mirado una sola
+# nota alterada — justo las que mas probable es que esten mal. Si se toca este
+# regex, probarlo contra ees' / dis' / b antes de dar nada por bueno.
+NOTA = re.compile(r"([a-g](?:isis|eses|is|es)?[,']*)\d*\.*\\(\d)")
 
 
 def frets(src):
@@ -55,6 +79,9 @@ def frets(src):
         c = int(cuerda)
         if pitch in MAPA.get(c, {}):
             out.append(MAPA[c][pitch])
+        elif pitch in CROMATICAS.get(c, {}):
+            out.append(CROMATICAS[c][pitch])
+            CROMATICAS_USADAS.append((pitch, c))
         else:
             fallos.append((pitch, c))
     return out, fallos
@@ -82,6 +109,7 @@ def cajas_exclusivas(fs):
 
 
 FUERA_DE_ESCALA = []
+CROMATICAS_USADAS = []
 
 
 def audita(EJ, titulo):

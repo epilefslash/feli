@@ -19,15 +19,16 @@ el mismo truco del ejercicio 46 del Hito 3 (un lick en las 5 cajas) pero en el
 otro eje: si aquel probaba que un lick no es un lugar, éste prueba que tampoco
 es una velocidad.
 
-⚠️ POR ESO EL ANEXO VIVE CASI ENTERO EN LA CAJA 1 (98% de sus notas en trastes
-5-8), Y NO ES UN DESCUIDO. Es la única forma de aislar la variable: si además de
-cambiar la figura cambiara la posición, el alumno no sabría qué produjo el cambio
-de sonido. Es el mismo criterio que mantiene juntas las tres versiones de los ej.
-44 y 45 del Hito 3. La única excepción es el ej. I, donde la segunda mitad de
-la conversación entera (llamada Y respuesta) se muda a la caja 4 — porque ahí el
-movimiento es el contenido: la misma pregunta hecha una octava arriba no es la
-misma pregunta. No "arreglar" esto subiendo ejercicios de caja:
-rompe el diseño. La geografía se enseña en los hitos, acá se enseña el ritmo.
+⚠️ LOS EJERCICIOS A-G VIVEN CASI ENTEROS EN LA CAJA 1, Y NO ES UN DESCUIDO. Es la
+única forma de aislar la variable: si además de cambiar la figura cambiara la
+posición, el alumno no sabría qué produjo el cambio de sonido. Mismo criterio que
+mantiene juntas las tres versiones de los ej. 44 y 45 del Hito 3. No "arreglarlo"
+subiendo esos ejercicios de caja: rompe el diseño.
+
+Los ejercicios H, H-bis e I son otra cosa: son TRANSCRIPCIONES DE FELI importadas
+del MusicXML (ver importar_musicxml.py), recorren de la cuerda al aire al traste 17
+y traen notas cromáticas. Ahí la geografía es parte del contenido, no una variable
+suelta. Con ellos el anexo quedó en 46% fuera de la caja 1 (era 98% adentro).
 
 La celda usada en todos: DO-LA-SOL-MI descendente en la caja 1
   (1a cuerda 8 y 5, 2a cuerda 8 y 5) = c'' a' g' e'
@@ -120,48 +121,78 @@ EJ["r07"] = r"""
   g'4.\2^\markup{\bold "3 · el mismo 3+3+2, bajando"} e'4.\2 d'4\3 |
 """
 
-# ------------------------------------------------- H) la escalera de desplazamiento
-# El ej. F prueba UNA vez que mover el arranque cambia todo. Éste lo convierte en
-# procedimiento: la misma célula entrando en cinco lugares distintos del compás.
-#
-# Los dos últimos compases son el punto que casi nadie enseña: cuando el arranque se
-# corre lo suficiente, la frase YA NO ENTRA, y hay que tocar el final — no el
-# principio. Sacar una nota no es hacer trampa: es el ajuste que hace viable el
-# desplazamiento. Sin esto, el alumno lo intenta solo, no le cierra el compás, y
-# concluye que la síncopa "no le sale".
+# ----------------------------------- H) el reto de construccion de frases
+# TRANSCRIPCION DE FELI (Guitar Pro -> MusicXML -> importar_musicxml.py).
+# NO se re-tipeo a mano: se parseo el XML, asi que las alturas y las cuerdas son
+# exactamente las que el escribio. Cinco ejercicios: la misma frase entrando en el
+# 1, en el "y" del 1, en el 2, en el "y" del 2 y en el 3, mas un encadenado final.
+# Las cuentas ("1 and 2 and") vienen del propio XML y se imprimen sobre el compas:
+# el alumno LEE donde entrar en vez de contar silencios.
 EJ["r08"] = r"""
-  c''8\1^\markup{\bold "1"} a'\1 g'\2 e'\2 r2 |
-  r8^\markup{\bold "1   y"} c''8\1 a'\1 g'\2 e'\2 r4. |
-  r4^\markup{\bold "1   y   2"} c''8\1 a'\1 g'\2 e'\2 r4 |
-  r4.^\markup{\bold "1   y   2   y"} c''8\1 a'\1 g'\2 e'\2 r8 |
-  r2^\markup{\bold "1   y   2   y   3"} c''8\1 a'\1 g'\2 e'\2 |
-  r2.^\markup{\bold "más tarde YA NO ENTRA"} c''8\1 a'\1 ~ |
-  a'4\1 g'8\2 e'\2 r2 |
-  r2.^\markup{\bold "el arreglo: una nota MENOS"} c''8\1 a'\1 ~ |
-  a'4\1 g'4\2 r2 |
+  e8\5^\markup{\bold "1"} g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 c''8\2 |
+  a'1\2 |
+  r8^\markup{\bold "1"}^\markup{\bold "and"} e8\5 g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 |
+  c''16\2 a'16\2 ~ a'8\2 ~ a'4\2 ~ a'2\2 |
+  r4^\markup{\bold "1 and"}^\markup{\bold "2"} d'4\4 \tabSym \bendFull a'8\3 g'8\3 d'8\4 \tabSym \bendFull d'8\4 |
+  c'4\4 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 r2 |
+  r4^\markup{\bold "1 and"}^\markup{\bold "2"}^\markup{\bold "and"} r8 d'8\4 \tabSym \bendFull a'8\3 g'8\3 d'8\4 \tabSym \bendFull d'8\4 |
+  c'4\4 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 r2 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3"} g'8\2 \tabSym \bendFull a'8\2 dis'32\3 \glissando^\markup{\bold\small "sl."}( d'32\3^\markup{\bold\small "H"})( c'16\3) a8\4 |
+  d'8\3 c'8\3 a16\4^\markup{\bold\small "H"}( g16\4) e8\5 g8\4 a8\4 ~ a4\4 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3"}^\markup{\bold "and"} r8 g'8\2 \tabSym \bendFull a'8\2 g'8\2 |
+  dis'32\3 \glissando^\markup{\bold\small "sl."}( d'32\3^\markup{\bold\small "H"})( c'16\3) a8\4 d'8\3 c'8\3 a16\4^\markup{\bold\small "H"}( g16\4) e8\5 g8\4 a8\4 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3 and"}^\markup{\bold "4"} r4 e'8\3 g'8\2 |
+  a'8\2 e'8\3 a'8\2 c''8\1 a'2\2 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3 and"}^\markup{\bold "4"}^\markup{\bold "and"} r4 r8 e'8\3 |
+  a'8\2 e'8\3 a'8\2 c''8\1 a'2\2 |
+  r4 r2. |
+  r4 r2. |
 """
 
-# ------------------------------------------------- I) llamada y respuesta (1-2-1-3)
-# Arquitectura CONVERSACIONAL, distinta de la del ej. 49 del Hito 3 (que es narrativa:
-# presenta-desarrolla-clímax-cierra). Acá el solo es un diálogo de dos voces.
-#
-# Las dos LLAMADAS comparten el primer compás nota por nota: eso es lo que hace que el
-# oído la reconozca. Lo único que cambia es el final (compás 2 cierra abierto en la 5ª,
-# compás 6 en la 4ª) y el registro — la 2ª llamada se muda a la caja 2, que es
-# exactamente "repetir la idea más arriba".
-#
-# Las dos RESPUESTAS bajan y resuelven en la tónica: la 1ª en la tónica de la 4ª cuerda,
-# la 2ª una octava abajo, en la 6ª. Bajar de octava en la respuesta final es lo que
-# hace que el cierre se sienta definitivo y no otra respuesta más.
+# El encadenado final (EX5 del original de Feli): los cuatro puntos de entrada
+# seguidos, sin parar. Va como partitura aparte porque los 34 compases juntos no
+# entran en una pagina — y de paso queda mejor: primero se practican los cinco
+# sueltos y recien despues se tocan de corrido.
+EJ["r08b"] = r"""
+  e8\5^\markup{\bold "1"} g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 c''8\2 |
+  a'1\2 |
+  r8^\markup{\bold "1"}^\markup{\bold "and"} e8\5 g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 |
+  c''16\2 a'16\2 ~ a'8\2 ~ a'4\2 ~ a'2\2 |
+  r4^\markup{\bold "1 and"}^\markup{\bold "2"} d'4\5 \tabSym \bendFull a'8\3 g'8\4 d'8\5 \tabSym \bendFull d'8\5 |
+  c'4\5 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 r2 |
+  r4^\markup{\bold "1 and"}^\markup{\bold "2"}^\markup{\bold "and"} r8 d'8\5 \tabSym \bendFull a'8\3 g'8\4 d'8\5 \tabSym \bendFull d'8\5 |
+  c'4\5 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 r2 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3"} g'8\3 \tabSym \bendFull a'8\2 dis'32\4 \glissando^\markup{\bold\small "sl."}( d'32\4^\markup{\bold\small "H"})( c'16\4) a8\5 |
+  d'8\4 c'8\4 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 g8\5 a8\5 ~ a4\5 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3"}^\markup{\bold "and"} r8 g'8\3 \tabSym \bendFull a'8\2 g'8\3 |
+  dis'32\4 \glissando^\markup{\bold\small "sl."}( d'32\4^\markup{\bold\small "H"})( c'16\4) a8\5 d'8\4 c'8\4 a16\5^\markup{\bold\small "H"}( g16\5) e8\6 g8\5 a8\5 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3 and"}^\markup{\bold "4"} r4 e'8\3 g'8\2 |
+  a'8\2 e'8\3 a'8\2 c''8\1 a'2\2 |
+  r2^\markup{\bold "1 and 2 and"}^\markup{\bold "3 and"}^\markup{\bold "4"}^\markup{\bold "and"} r4 r8 e'8\4 |
+  a'8\3 e'8\4 a'8\3 c''8\3 a'2\3 |
+"""
+
+# ----------------------------------- I) llamada y respuesta
+# TRANSCRIPCION DE FELI, importada del MusicXML igual que la H.
+# Llamada y respuesta dos veces, cada par en un registro distinto, y despues dos
+# frases largas que recorren el mastil entero. Trae notas cromaticas (el MIb, que
+# es el blue note que el alumno ya conoce del ej. 26, y el SI, que es la 2a) —
+# estan a proposito y se explican en el texto del ejercicio.
 EJ["r09"] = r"""
-  r8 a'8\1^\markup{\bold "LLAMADA · abajo"} c''\1 a'\1 g'4\2 e'\2 |
-  d'4\3 e'\2 ~ e'2\2^\markup{\bold "queda abierta"} |
-  r8 g'8\2^\markup{\bold "RESPUESTA · abajo"} e'\2 d'\3 c'4\3 a4\4 |
-  a1\4^\markup{\bold "resuelve en la tónica"} |
-  r8 e''8\1^\markup{\bold "LA MISMA LLAMADA · arriba, caja 4"} g''\1 e''\1 d''4\2 c''4\2 |
-  a'4\3 c''\2 ~ c''2\2^\markup{\bold "queda abierta igual"} |
-  r8 d''8\2^\markup{\bold "RESPUESTA FINAL · arriba"} c''\2 a'\3 g'4\3 a'4\3 |
-  a'1\3^\markup{\bold "la misma tónica, una octava arriba"} |
+  r8^\markup{\bold "LLAMADA"} d'8\4 \tabSym \bendFull ~ d'8\4 e'8\3 a'8\2 e'8\3 g'8\3 \glissando^\markup{\bold\small "sl."}( a'8\3) |
+  c''16\2 a'8.\3 a'4\3 r2 |
+  r8^\markup{\bold "RESPUESTA"} g'8\3 \tabSym \bendFull ~ g'8\3 a'8\2 dis'32\4 \glissando^\markup{\bold\small "sl."}( d'32\4^\markup{\bold\small "H"})( c'16\4) a8\5 d'8\4 c'8\4 |
+  a2\5 r2 |
+  r8^\markup{\bold "LLAMADA"} d'8\4 \tabSym \bendFull ~ d'8\4 e'8\3 a'8\2 e'8\3 g'8\3 \glissando^\markup{\bold\small "sl."}( a'8\3) |
+  c''16\2 a'8.\3 ~ a'8\3 c''8\2 ~ c''16\2 a'32\3^\markup{\bold\small "H"}( g'32\3 \glissando^\markup{\bold\small "sl."})( e'16\3) r4 r16 |
+  r8^\markup{\bold "RESPUESTA"} c''8\2 \tabSym \bendFull ~ c''8\2 \tabSym \bendRel ~ c''8\2 a'16\2 e'16\3 d'32\4 \glissando^\markup{\bold\small "sl."}( dis'32\4 \glissando^\markup{\bold\small "sl."})( d'16\4^\markup{\bold\small "H"})( c'16\4) a16\5 d'16\4^\markup{\bold\small "H"}( c'16\4) |
+  a2\5 r2 |
+  \grace c''32.\1^\markup{\bold\small "H"}( d''8.\1) c''16\1 a'8.\2 g'16\2 \grace e'32\3 \glissando^\markup{\bold\small "sl."}( d'16\3^\markup{\bold\small "H"})( c'16\3) d'16\3 a16\4 \tuplet 3/2 { c'8\3 d'8\3 e'8\3 |
+  \grace c'32\3^\markup{\bold\small "H"}( d'8.\3) c'16\3 a8.\4 g16\4 \grace e32\5 \glissando^\markup{\bold\small "sl."}( d16\5) c16\5 d16\5 a,16\6 \tuplet 3/2 { c8\5 d8\5 e8\5 |
+  \grace c32\5^\markup{\bold\small "H"}( d8.\5) c16\5 a,4\5 r2 |
+  b8.\3 \tabSym \bendHalf b16\3 a8.\4 g16\4 a16\4 e16\5 g16\4 a16\4 \glissando^\markup{\bold\small "sl."}( c'16\4) d'16\3 e'16\3 \glissando^\markup{\bold\small "sl."}( g'16\3) |
+  b'8.\2 \tabSym \bendHalf b'16\2 a'8.\2 g'16\3 \glissando^\markup{\bold\small "sl."}( a'16\3) c''16\2 d''16\2 a'16\3 c''16\2^\markup{\bold\small "H"}( d''16\2) e''16\1 g''16\1 \tabSym \bendFull ~ |
+  g''2\1 r2 |
 """
 
 # ------------------------------------------------- J) el cierre: todo encadenado

@@ -469,6 +469,40 @@ olvida y después contradice a la partitura):
 Y las cuatro semanas pisan ahora alguna caja **exclusiva** (4 o 5), cosa que antes no pasaba en
 ninguna.
 
+### DÉCIMA RONDA — se importan las transcripciones de Feli (y aparece un bug grave)
+
+Feli transcribió a La menor en Guitar Pro el material de fraseo de Ross Campbell y pidió meterlo
+**calcado**. Mandó los MusicXML. Decisiones suyas: *Reto de construcción* y *llamada y respuesta*
+entran; *subdivisiones* queda afuera (lo ubica él en otro lado); las cromáticas se habilitan.
+
+**`scripts/importar_musicxml.py` (nuevo).** Parsea el pentagrama de TABLATURA del XML (el único que
+trae `<string>`/`<fret>`) y emite el dialecto LilyPond del repo. **El motivo de que exista es el mismo
+error que venimos cazando hace rondas:** re-tipear una tablatura mirándola es lo que hizo Design
+cuando metió el FA del ej. 47. Acá no hay lectura humana en el medio.
+
+> Le faltaba soportar **tresillos** y el ej. I falló el barcheck (un compás daba 18/16). Se agregó
+> `<time-modification>` → `\tuplet`. **El barcheck de LilyPond es el que valida la importación, no la
+> vista.** Con la partitura ya renderizada, el error no se veía.
+
+**🔴 EL BUG GRAVE, y es del validador de escala.** El regex era `([a-g][,']*)\d*\.*\\(\d)` y **no
+contemplaba alteraciones**: `ees'` y `dis'` no matcheaban nunca. O sea que `auditar_cajas.py` venía
+informando *"escala OK"* **sin haber mirado una sola nota alterada** — justo las que más probable es
+que estén mal. Arreglado a `([a-g](?:isis|eses|is|es)?[,']*)...`, y **lo primero que cazó fue un FA#
+en el ej. 54 del bonus** que llevaba invisible desde siempre (es la 6ª del BB box, intencional y
+documentada en la memoria, pero nadie la había validado).
+
+**`CROMATICAS` (dict nuevo, aparte del MAPA).** Las notas fuera de la pentatónica que entran a
+propósito, con el motivo escrito al lado: **MIb** (blue note, ej. 26) · **SI** (la 2ª, ej. I) ·
+**FA#** (6ª del BB box, ej. 54). Van separadas del MAPA para que se vean. Cualquier alterada que no
+esté ahí sigue haciendo fallar el build.
+
+**Ubicación (decidida con Feli):** *Reto de construcción* → **ej. H** del anexo, partido en H (los 5
+puntos de entrada, 18 compases) y **H-bis** (el encadenado, 16) porque 34 compases no entran en una
+página. *llamada y respuesta* → **ej. I**, 14 compases. Las letras no tocan la numeración 1-59.
+
+**Resultado:** anexo **12 → 15 páginas**, 397 notas, **46% fuera de la caja 1** (era 98% adentro), y
+por primera vez el programa usa **cuerda al aire** (traste 0) y llega al **traste 17**.
+
 ### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
 
 El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo

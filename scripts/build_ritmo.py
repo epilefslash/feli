@@ -296,69 +296,82 @@ S.append(caja_oscura(
     '<b>uno menos</b> que el compás recto del ejercicio E. Acá no hay nada que ganar tocando más rápido.</font>', W))
 
 S.append(Spacer(1, 10))
-S.append(Paragraph("LA ESCALERA DE DESPLAZAMIENTO", H2))
+S.append(Paragraph("EL RETO DE CONSTRUCCIÓN DE FRASES", H2))
 S.append(Paragraph(
-    "El ejercicio F te probó <b>una vez</b> que mover el arranque cambia todo. Este lo convierte en un "
-    "procedimiento que podés aplicar a cualquier lick tuyo: la misma celda entrando en cinco lugares "
-    "distintos del compás, uno detrás del otro. <b>Las notas no cambian nunca</b> — 8-5-8-5, las cinco "
-    "veces. Lo único que se mueve es dónde empieza.", BODY))
+    "El ejercicio F te probó <b>una vez</b> que mover el arranque cambia todo. Esto lo convierte en un "
+    "procedimiento completo: <b>la misma frase entrando en cinco lugares distintos del compás</b>, cada uno "
+    "tocado dos veces, y al final los cuatro encadenados de corrido.", BODY))
+S.append(Paragraph(
+    "<b>Mirá los números impresos arriba de cada compás.</b> Dicen la cuenta que tenés que llevar hasta "
+    "entrar: <i>1</i> · <i>1 y</i> · <i>1 y 2</i> · <i>1 y 2 y</i>. No es decoración — es la instrucción. "
+    "En vez de mirar los silencios y deducir dónde arranca, contás en voz alta y entrás donde termina la "
+    "cuenta. Es la diferencia entre leer un ejercicio y ejecutarlo.", BODY))
 S.append(Spacer(1, 4))
-S.append(ej("H", "La misma celda entrando en cinco lugares",
-            "Tocá los cinco compases seguidos, con metrónomo, sin parar entre uno y otro. Vas a escuchar "
-            "que la celda es siempre la misma y aun así los cinco suenan distinto. <b>Ese es todo el "
-            "recurso</b>: no necesitás cinco licks, necesitás uno y cinco lugares para meterlo.<br/><br/>"
-            "<b>Y ahora la parte que casi nadie enseña</b>, que es la que te va a pasar a vos apenas lo "
-            "intentes solo. Fijate en el compás 6: si corrés el arranque un poco más, la frase <b>ya no "
-            "entra</b> — se te va del compás y tenés que ligar la última nota para que no quede colgando. "
-            "El compás 7 muestra el arreglo de verdad: <b>sacar una nota</b>. Contá las tablaturas, tiene "
-            "una menos.<br/><br/>"
-            "Sacar una nota no es hacer trampa ni es que te salió mal: <b>es el ajuste que hace posible el "
-            "desplazamiento</b>. Cuando movés el principio de una frase, casi siempre vas a tener que "
-            "tocar el final. Si no sabés esto, probás, no te cierra el compás, y concluís que la síncopa "
-            "no te sale.",
+S.append(ej("H", "La misma frase entrando en cinco lugares del compás",
+            "Tocá cada par de compases con metrónomo, repitiendo, hasta que la entrada te salga sin pensar. "
+            "Recién cuando los cinco te salen sueltos, hacé el encadenado del final: ahí se escucha lo que "
+            "de verdad enseña el ejercicio, que es <b>la misma idea sonando distinta cinco veces</b> sin que "
+            "hayas cambiado una nota.<br/><br/>"
+            "<b>Y prestale atención a los finales</b>, que es donde está la letra chica. Cuando la frase "
+            "entra más tarde, ya no entra completa: hay que sacarle o agregarle algo del final para que "
+            "cierre el compás. Eso no es que te salió mal — <b>es el ajuste que hace posible el "
+            "desplazamiento</b>. Si no lo sabés, probás solo, no te cierra, y concluís que la síncopa no te "
+            "sale.",
             "r08",
-            "Regla práctica: si al desplazar te sobra frase, sacá del final, no del principio. El "
+            "Regla práctica: si al desplazar te sobra frase, sacá del final, nunca del principio. El "
             "principio es lo que hace que el oído reconozca que es la misma idea."))
+
+S.append(Spacer(1, 6))
+S.append(ej("H-bis", "Los cinco, encadenados",
+            "Lo mismo de arriba pero de corrido, sin parar entre uno y otro. <b>Recién acá se escucha lo que "
+            "el ejercicio enseña:</b> suena a un solo que va a algún lado, y sin embargo es una sola frase "
+            "repetida cinco veces. Eso es todo el recurso — no necesitás cinco ideas, necesitás una y cinco "
+            "lugares donde meterla.",
+            "r08b",
+            "Cuando te salga, hacelo con un lick TUYO en lugar de esta frase. Ahí el ejercicio deja de ser "
+            "un ejercicio."))
 
 S.append(Spacer(1, 10))
 S.append(Paragraph("LLAMADA Y RESPUESTA — el solo como conversación", H2))
 S.append(Paragraph(
-    "Hasta acá el anexo trabajó <b>una</b> frase. Esto es lo que pasa cuando hay dos y se hablan entre "
-    "ellas. El ejercicio 49 del Hito 3 ya te dio una arquitectura de solo — presenta, desarrolla, clímax, "
-    "cierra — pero esa es una arquitectura <b>narrativa</b>: una curva que sube y baja. Esta es otra, y "
-    "es <b>conversacional</b>: una pregunta, una respuesta, la pregunta de nuevo, y la respuesta que "
-    "cierra. No es la misma con otro nombre, y no compiten: son dos moldes distintos y te conviene "
-    "tener los dos.", BODY))
+    "Hasta acá el anexo trabajó <b>una</b> frase. Esto es lo que pasa cuando hay dos y se hablan. El "
+    "ejercicio 49 del Hito 3 ya te dio una arquitectura de solo —presenta, desarrolla, clímax, cierra—, "
+    "pero esa es <b>narrativa</b>: una curva que sube y baja. Ésta es <b>conversacional</b>: una pregunta, "
+    "una respuesta, la pregunta otra vez, y la respuesta que cierra. No compiten — son dos moldes distintos "
+    "y te conviene tener los dos.", BODY))
 S.append(Spacer(1, 4))
 S.append(tabla([
     [Paragraph("<b>Frase</b>", CELLB), Paragraph("<b>Qué hace</b>", CELLB), Paragraph("<b>Cómo se reconoce</b>", CELLB)],
     [Paragraph("<b>1 · LLAMADA</b>", CELLB),
-     Paragraph("Pregunta. Presenta la idea y la deja abierta.", CELL),
-     Paragraph("Termina en una nota que <b>no</b> es la tónica (acá, la 5ª). El oído queda esperando.", CELL)],
+     Paragraph("Pregunta. Abre con un bending, que es el gesto más parecido a levantar la voz.", CELL),
+     Paragraph("Queda colgada arriba, sin resolver. El oído espera algo.", CELL)],
     [Paragraph("<b>2 · RESPUESTA</b>", CELLB),
      Paragraph("Contesta. Baja y cierra lo que la llamada dejó abierto.", CELL),
-     Paragraph("Termina en la <b>tónica</b>. Fijate que arranca igual que la llamada: está escuchando.", CELL)],
+     Paragraph("Arranca igual que la llamada —está escuchando— y termina en la tónica.", CELL)],
     [Paragraph("<b>1 · LLAMADA otra vez</b>", CELLB),
-     Paragraph("Repite la pregunta — pero no idéntica.", CELL),
-     Paragraph("<b>Mismo primer compás, otro final</b>, y mudada a la caja 2. Eso es \"repetir más arriba\".", CELL)],
+     Paragraph("Repite la pregunta, apenas cambiada.", CELL),
+     Paragraph("Lo reconocés porque empieza igual. Si cambiara el principio sería otra frase.", CELL)],
     [Paragraph("<b>3 · RESPUESTA FINAL</b>", CELLB),
      Paragraph("Cierra la conversación entera, no sólo la última pregunta.", CELL),
-     Paragraph("La misma tónica, pero <b>una octava abajo</b>. Bajar de octava es lo que la vuelve final.", CELL)],
-], [W * 0.22, W * 0.34, W * 0.44]))
+     Paragraph("Es la más larga y la que más baja. Por eso se siente final.", CELL)],
+], [W * 0.22, W * 0.36, W * 0.42]))
 S.append(Spacer(1, 6))
-S.append(ej("I", "Llamada y respuesta (el molde 1 · 2 · 1 · 3)",
-            "Ocho compases, cuatro frases de dos. Tocalo con backing y prestá atención a una sola cosa: "
-            "<b>las dos llamadas comparten el primer compás nota por nota</b>. Eso no es pereza — es lo "
-            "único que hace que el oyente reconozca que volvió la misma pregunta. Si cambiás el principio, "
-            "es otra frase; si cambiás sólo el final, es la misma frase contestada distinto.<br/><br/>"
-            "<b>Por qué la segunda llamada está en la caja 2:</b> repetir una idea más arriba es la forma "
-            "más barata de que suene desarrollada y no repetida. Es el mismo mecanismo del ejercicio 46 del "
-            "Hito 3 (un lick en las 5 cajas), usado acá con un fin distinto: allá probaba que un lick no es "
-            "un lugar, acá <b>usa</b> ese hecho para construir una conversación.",
+S.append(ej("I", "Llamada y respuesta, y dos frases largas",
+            "Los primeros ocho compases son la conversación: llamada, respuesta, llamada, respuesta final. "
+            "Los últimos seis son <b>dos frases largas</b> — lo más largo de todo el programa — que recorren "
+            "el mástil de punta a punta, desde la cuerda al aire hasta el traste 15.<br/><br/>"
+            "<b>Tres cosas que vas a encontrar acá y en ningún otro ejercicio:</b><br/>"
+            "· <b>Notas de afuera.</b> Hay un MI bemol (el <i>blue note</i> del ej. 26, que ya conocés) y un "
+            "SI, que es la 2ª. No pertenecen a la pentatónica y están puestas a propósito: son <b>notas de "
+            "paso</b>, cruzalas sin frenar. Si te parás en ellas suenan desafinadas, porque lo están.<br/>"
+            "· <b>Una cuerda al aire.</b> En la frase larga 1 aparece el traste 0. Suena distinto a la misma "
+            "nota pisada — más abierta, más larga — y te deja la mano libre para mudarte de posición.<br/>"
+            "· <b>Bendings de medio tono.</b> Los <b>½</b> de la frase larga 2. Medio tono, no un tono: "
+            "chequealos, tu mano viene entrenada para estirar el doble.",
             "r09",
-            "El error típico: contestar más fuerte y más rápido de lo que preguntaste. Una respuesta que "
-            "grita no está contestando — está interrumpiendo. Contestá al mismo volumen y en el mismo "
-            "lugar del compás que la llamada."))
+            "Con backing. Las dos frases largas no son para tocarlas de una: sacá cuatro compases por día. "
+            "Y una vez que salgan, robales el <b>mecanismo</b> —cómo entra, cómo baja, dónde respira— y "
+            "olvidate de las notas. Eso es lo que vale."))
 
 S.append(Spacer(1, 8))
 S.append(Paragraph("EL PROBLEMA DE PRACTICAR ESTO SOLO (y los 3 correctores)", H2))
