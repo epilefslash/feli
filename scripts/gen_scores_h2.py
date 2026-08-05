@@ -60,8 +60,8 @@ EJ["e19"] = r"""
 
 # 20: ligados + slide juntos, ya como frase
 EJ["e20"] = r"""
-  r4 e'8\2^\markup{\bold\small "H"}( g'\2) a'4\1 \glissando c''4\1^\markup{\bold\small "sl."} |
-  c''8\1^\markup{\bold\small "P"}( a'\1) g'\2( e'\2) d'\3( c'\3) a4\4 \tabSym \vib |
+  r4 e'8\3^\markup{\bold\small "H"}( g'\3) a'4\2 \glissando c''4\2^\markup{\bold\small "sl."} |
+  c''8\2^\markup{\bold\small "P"}( a'\2) g'\3( e'\3) d'\4( c'\4) a4\5 \tabSym \vib |
 """
 
 # ===================================================== SEMANA 6 — BENDING
@@ -76,9 +76,9 @@ EJ["e21"] = r"""
 
 # 22: bending con destino, en tres cuerdas, ya en contexto
 EJ["e22"] = r"""
-  d'4\3 \tabSym \bendFull ~ d'4 c'8\3 a\4 g4\4 |
-  g'4\2 \tabSym \bendFull ~ g'4 e'8\2 d'\3 c'4\3 |
-  c''4\1 \tabSym \bendFull ~ c''4 a'8\1 g'\2 e'4\2 |
+  d'4\3 \tabSym \bendFull ^\markup{\bold "1 · abajo (traste 7) · cuesta MÁS"} ~ d'4 c'8\3 a\4 g4\4 |
+  g'4\3 \tabSym \bendFull ^\markup{\bold "2 · al medio (traste 12)"} ~ g'4 a'8\3 g'\3 e'4\3 |
+  d''4\2 \tabSym \bendFull ^\markup{\bold "3 · arriba (traste 15) · cuesta MENOS"} ~ d''4 c''8\2 a'\3 g'4\3 |
 """
 
 # 23: bending y vuelta (release) — controlar la bajada
@@ -89,9 +89,9 @@ EJ["e23"] = r"""
 
 # 24: lick de bending (escuela Gary Moore): esperar, estirar, resolver
 EJ["e24"] = r"""
-  r8 e'8\2 g'\2 a'\1 c''4\1 ~ c''4 |
-  d'4\3 \tabSym \bendFull ~ d'4 c'8\3 a\4 g4\4 |
-  a1\4 \tabSym \vib^\markup{\bold "ancho · dejala morir"} |
+  r8 a'8\2 c''\2 d''\1 e''4\1 ~ e''4 |
+  g'4\3 \tabSym \bendFull ~ g'4 e'8\3 d'\4 c'4\4 |
+  a1\5 \tabSym \vib^\markup{\bold "ancho · dejala morir"} |
 """
 
 # 25: bend a la tonica de la caja 2 (Albert King / SRV) - primer contacto con caja 2

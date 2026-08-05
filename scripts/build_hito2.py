@@ -142,10 +142,23 @@ S.append(ejercicio(21, "Escuchá el destino, después bendeá", (
     "Tu oído es el que corrige la mano, no al revés."),
     "e21", W, "Sin metrónomo, con backing. Hacelo 5 minutos por día toda la semana: es el que más rinde."))
 
-S.append(ejercicio(22, "Bending con destino, en tres cuerdas", (
-    "El mismo bending de 1 tono en la 3ª, la 2ª y la 1ª cuerda. Vas a notar que <b>cada cuerda pide fuerza "
-    "distinta</b>: la 3ª es gruesa y cuesta, la 1ª es finita y se pasa sola. Por eso hay que practicarlo en cada una."),
-    "e22", W, "70 BPM con backing. En las cuerdas finas, frená antes de lo que te parece."))
+S.append(ejercicio(22, "El mismo bending en tres zonas del mástil", (
+    "El mismo bending de 1 tono, tres veces — pero en el traste <b>7</b>, en el <b>12</b> y en el <b>15</b>. "
+    "Tocá los tres seguidos y prestá atención a una sola cosa: <b>cuánta fuerza tenés que hacer en cada uno</b>."
+    "<br/><br/>"
+    "No es el mismo gesto y no es tu imaginación. Cuanto más arriba del mástil, <b>más corta es la parte de "
+    "la cuerda que vibra</b>, así que el mismo empujón produce más cambio de altura — y además la cuerda se "
+    "siente más blanda. Abajo pasa al revés: en el traste 7 hay que empujar bastante más para llegar al mismo "
+    "tono.<br/><br/>"
+    "<b>Por qué esto importa más de lo que parece.</b> Si practicás el bending siempre en la misma zona, no "
+    "aprendés a bendear: aprendés a bendear <i>ahí</i>. El día que tu solo llegue al clímax arriba del mástil "
+    "—cosa que va a pasar, es el ej. 53— vas a estirar con la fuerza de abajo y te vas a pasar de largo. "
+    "Suena desafinado y no vas a saber por qué.<br/><br/>"
+    "La 3ª cuerda es gruesa y cuesta, la 1ª es finita y se pasa sola: <b>la cuerda y la posición son dos "
+    "variables distintas</b>, y las dos te cambian la fuerza. Este ejercicio mueve las dos a propósito."),
+    "e22", W,
+    "70 BPM con backing. Chequeá cada bending contra la nota de destino pisada, como en el ej. 21 — pero "
+    "hacelo en las tres zonas. Arriba vas a frenar antes de lo que creías; abajo vas a tener que empujar más."))
 
 S.append(ejercicio(23, "Bending y vuelta (el release)", (
     "La mitad del bending que nadie practica: <b>la bajada</b>. Subís, sostenés, y volvés despacio y controlado — "
