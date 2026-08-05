@@ -60,8 +60,9 @@ EJ["e19"] = r"""
 
 # 20: ligados + slide juntos, ya como frase
 EJ["e20"] = r"""
-  r4 e'8\3^\markup{\bold\small "H"}( g'\3) a'4\2 \glissando c''4\2^\markup{\bold\small "sl."} |
-  c''8\2^\markup{\bold\small "P"}( a'\2) g'\3( e'\3) d'\4( c'\4) a4\5 \tabSym \vib |
+  a8\3^\markup{\bold "toda la pentatónica en UNA sola cuerda"} \glissando c'8\3( d'\3 e'\3) \glissando g'8\3( a'\3) ~ a'4\3 |
+  c''4\2 \tabSym \bendHalf ^\markup{\bold "½ tono en la 2ª · la nota de afuera"} ~ c''4 a'2\3 \tabSym \vib^\markup{\bold "y volvés a casa"} |
+  a'8\3( g'\3) \glissando e'8\3( d'\3) \glissando c'8\3( a\3) ~ a4\3 |
 """
 
 # ===================================================== SEMANA 6 — BENDING
@@ -160,9 +161,9 @@ EJ["e31"] = r"""
 
 # 32: pregunta y respuesta (mismo ritmo, distinto final), en la caja 2
 EJ["e32"] = r"""
-  r4 c''8\1^\markup{\bold "caja 2"} d''\1 a'4\2 g'4\2^\markup{\bold "pregunta: queda abierta"} |
+  r4 a,8\6^\markup{\bold "PREGUNTA · caja 5, abajo de todo"} c\5 d4\5 e4\4^\markup{\bold "queda abierta"} |
   r1 |
-  r4 d''8\1 c''\1 g'4\2 a'4\2^\markup{\bold "respuesta: cierra en la tónica"} |
+  r8 e''8\1^\markup{\bold "RESPUESTA · caja 4, arriba de todo"} d''\2 c''\2 a'2\3 \tabSym \vib^\markup{\bold "cierra en la tónica"} |
   r1 |
 """
 

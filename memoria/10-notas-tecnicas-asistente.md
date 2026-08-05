@@ -438,6 +438,37 @@ aislar está bien ahí) · ej. 21 y 29 (se referencian entre sí para comparar) 
 > **La regla que sale de acá, para cualquier técnica nueva:** aislar la posición en la ADQUISICIÓN
 > (primer ejercicio), variarla en la APLICACIÓN. Antes aislábamos en las dos.
 
+### NOVENA RONDA — el recorrido horizontal (idea de Feli) y la tónica con dos humores
+
+Feli pidió "jugársela un poco más" y propuso un ejercicio concreto: **recorrer la pentatónica entera
+por una sola cuerda**, ligando, desde el traste 2 hasta el 14, y rematar con un bending de medio tono
+en el traste 13 de la 2ª resolviendo al 14 de la 3ª. Se implementó tal cual, reescribiendo dos
+ejercicios existentes (sin tocar la numeración 1-59 ni el balance 16/18/19/6).
+
+**Ej. 20 — toda la pentatónica en UNA cuerda.** 3ª cuerda, trastes **2 · 5 · 7 · 9 · 12 · 14**: la
+octava completa sin cambiar de cuerda. Es el mejor ejercicio anti-caja del programa por una razón
+visual: la tablatura es **una sola línea de números**, y ninguna caja tiene esa forma. Los saltos de
+2 trastes van con hammer/pull y los de 3 con slide, porque a tres trastes el hammer ya no suena
+parejo — eso también hay que decirlo. El compás 2 es el remate de Feli: bend de ½ en la 2ª/13 y
+resolución con vibrato en la 3ª/14. **Segundo bending de medio tono del programa** (el otro es el ej. 26).
+
+**Ej. 32 — pregunta abajo, respuesta arriba.** Antes vivía entero en la caja 2. Ahora la pregunta está
+en la **caja 5** (trastes 2-5) y la respuesta en la **caja 4** (12-15). El contenido nuevo no es la
+estructura pregunta/respuesta —ya estaba— sino que **el registro es parte de lo que la frase dice**:
+abajo suena gorda y pesa, arriba suena brillante y "llega". Cubre además las dos cajas que el Hito 2
+menos pisaba.
+
+**Tres textos que quedaron desactualizados y se corrigieron en la misma pasada** (esto es lo que se
+olvida y después contradice a la partitura):
+- La bajada de la semana 5 decía *"todo el mes se toca en la caja 1 y algo de la 2"*. Ya es falso.
+- La tabla de bloques decía que la semana 6 *"cierra mudándose a la caja 2"*. Ahora son 3 zonas.
+- La regla *"aislar, después integrar"* pasó a **"aprender quieto, aplicar moviéndose"**, con el motivo
+  físico escrito.
+
+**Hito 2: 20,9% → 33,3% fuera de la caja 1.** Ejercicios que no pasan del traste 10: de 16 a **12**.
+Y las cuatro semanas pisan ahora alguna caja **exclusiva** (4 o 5), cosa que antes no pasaba en
+ninguna.
+
 ### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
 
 El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo

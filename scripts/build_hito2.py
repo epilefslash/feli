@@ -41,7 +41,8 @@ S.append(tabla([
      Paragraph("Es lo más mecánico y lo menos dependiente del oído: se aprende rápido y ya te cambia el sonido.", CELL)],
     [Paragraph("6", CELLB), Paragraph("<b>Bending</b>", CELL),
      Paragraph("Cantar con la cuerda. Es el recurso más expresivo de la guitarra.", CELL),
-     Paragraph("Es el más difícil de afinar: necesita las 4 semanas. Cierra mudándose a la caja 2.", CELL)],
+     Paragraph("Es el más difícil de afinar: necesita las 4 semanas. Y se practica en tres zonas del "
+               "mástil, porque la fuerza que pide cambia según dónde estés.", CELL)],
     [Paragraph("7", CELLB), Paragraph("<b>Vibrato</b>", CELL),
      Paragraph("Que la nota larga no se muera. Es tu firma personal.", CELL),
      Paragraph("Va después del bending porque lo mejor de todo es bendear Y vibrar la misma nota.", CELL)],
@@ -59,9 +60,11 @@ S.append(tabla([
     [Paragraph("<b>Grabate</b>", CELL),
      Paragraph("Es el mes donde el oído miente más. Tu bending te parece afinado mientras tocás y no lo está. "
                "El celular no miente. Grabá una vez por semana, mínimo.", CELL)],
-    [Paragraph("<b>Aislar, después integrar</b>", CELL),
-     Paragraph("Cada semana arranca con el recurso solo, aburrido, sin contexto — y termina metiéndolo en una "
-               "frase. Si te salteás la parte aburrida, el recurso no te sale cuando improvisás.", CELL)],
+    [Paragraph("<b>Aprender quieto,<br/>aplicar moviéndose</b>", CELL),
+     Paragraph("Cada semana arranca con el recurso solo, en un lugar fijo del mástil, aburrido y sin contexto. "
+               "Y <b>termina lejos de ahí</b>: el último ejercicio de cada bloque se va a otra caja. La razón "
+               "no es variedad — es que un bending en el traste 7 y uno en el 12 no son el mismo gesto, y si "
+               "sólo practicás uno, el otro te sale desafinado.", CELL)],
     [Paragraph("<b>Todo con backing</b>", CELL),
      Paragraph("La expresividad es relativa a algo. Un bending afinado se escucha afinado CONTRA un acorde. "
                "Solo, no tenés referencia.", CELL)],
@@ -85,12 +88,14 @@ S.append(PageBreak())
 S.append(banner(5, "LIGADOS Y SLIDES — que la púa deje de tocar todo",
                 "Objetivo: que las notas se peguen entre sí. Es el cambio de sonido más rápido de todo el mes.", W))
 S.append(Spacer(1, 8))
-S.append(par([Diagrama(1, W * 0.5, titulo="TERRITORIO: CAJA 1 (trastes 5 a 8)"),
-              Paragraph("Todo el mes se toca en la <b>caja 1</b> y algo de la <b>caja 2</b>. Ya las conocés: "
-                        "es a propósito. Si tenés que pensar dónde estás parado, no te queda cabeza para "
-                        "pensar cómo suena.<br/><br/>"
-                        "<b>Hammer-on:</b> puntéas la nota baja y golpeás la alta con el dedo, sin puntear.<br/>"
-                        "<b>Pull-off:</b> al revés — desde la nota alta, tirás el dedo hacia abajo y suena la baja.", BODY)],
+S.append(par([Diagrama(1, W * 0.5, titulo="DONDE SE APRENDE: CAJA 1 (trastes 5 a 8)"),
+              Paragraph("<b>Hammer-on:</b> puntéas la nota baja y golpeás la alta con el dedo, sin puntear.<br/>"
+                        "<b>Pull-off:</b> al revés — desde la nota alta, tirás el dedo hacia abajo y suena la baja."
+                        "<br/><br/>"
+                        "Los tres primeros ejercicios se hacen acá, en la caja 1, y es a propósito: mientras "
+                        "aprendés un movimiento nuevo de la mano no conviene estar además buscando dónde "
+                        "estás parado. <b>Pero el cuarto se va de la caja</b> — y bastante lejos. "
+                        "Un recurso que sólo te sale en un lugar del mástil todavía no lo tenés.", BODY)],
              [W * 0.5, W * 0.5]))
 S.append(Spacer(1, 4))
 
@@ -112,10 +117,24 @@ S.append(ejercicio(19, "El tresillo de rock (una púa cada 3 notas)", (
     "se duplica sin que hayas ganado nada de velocidad real."),
     "e19", W, "50 BPM en tresillos, y subís de a poco. Que las 3 notas suenen con el mismo volumen."))
 
-S.append(ejercicio(20, "Ligados y slide dentro de una frase", (
-    "Acá se junta: hammer, pull, un slide para cambiar de zona y un vibrato de cierre. Fijate en lo que pasó — "
-    "es la misma pentatónica del Hito 1, pero ya no suena a escala. Y todavía no tocaste ni un bending."),
-    "e20", W, "Con backing, 70 BPM. Repetilo hasta que salga sin pensar en la técnica."))
+S.append(ejercicio(20, "Toda la pentatónica en UNA sola cuerda", (
+    "<b>Mirá la tablatura antes de tocar nada.</b> Todo el primer compás está en una sola línea: 3ª cuerda, "
+    "trastes 2 · 5 · 7 · 9 · 12 · 14. Eso es la pentatónica de La menor entera, una octava completa, sin "
+    "mover el dedo de una cuerda. <b>Ninguna caja tiene esta forma, porque esto no es una caja</b> — es el "
+    "mástil mirado de costado.<br/><br/>"
+    "Cómo se sube: los saltos de <b>dos trastes</b> se hacen con <i>hammer-on</i> (5→7, 7→9, 12→14) y los de "
+    "<b>tres</b> con <i>slide</i> (2→5, 9→12), porque a tres trastes el hammer ya no suena parejo. Bajando es "
+    "lo mismo al revés: <i>pull-off</i> de a dos, <i>slide</i> de a tres.<br/><br/>"
+    "<b>El compás 2 es el premio.</b> Llegaste al traste 14 (la tónica aguda). Ahí saltás a la 2ª cuerda, "
+    "traste 13, y lo estirás <b>medio tono</b>: esa es una nota que no está en la pentatónica, y es la que "
+    "hace que el blues suene a blues. Después volvés a caer en el 14 con vibrato. Tensión y resolución en "
+    "dos compases.<br/><br/>"
+    "<b>Para qué sirve de verdad:</b> cuando sepas hacer esto, dejás de estar atado a las posiciones. Todas "
+    "las cuerdas tienen su recorrido horizontal — probalo en la 2ª y en la 6ª cuando esto te salga."),
+    "e20", W,
+    "Con backing, 70 BPM. Primero sin ligados, cada nota picada, para ubicar los trastes. Recién cuando los "
+    "tengas de memoria metés los hammer y los slides. <b>Ojo con el ½ del compás 2:</b> es medio tono, no un "
+    "tono — chequealo contra el traste 14 de la 3ª cuerda, tiene que quedar apenas abajo."))
 
 # ============================================================ SEMANA 6
 S.append(PageBreak())
@@ -332,13 +351,20 @@ S.append(ejercicio(31, "La regla de las 3 notas (y de nuevo, en caja 5)", (
     "que te parecía desde adentro."),
     "e31", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
 
-S.append(ejercicio(32, "Pregunta y respuesta — caja 2", (
+S.append(ejercicio(32, "Pregunta abajo, respuesta arriba", (
     "Dos frases con el <b>mismo ritmo</b> y distinto final: la primera termina en una nota que queda colgada "
     "(pregunta), la segunda en la tónica (respuesta). Así habla la gente, y así hablan los buenos solos. "
     "Es la estructura más vieja y más efectiva que existe.<br/><br/>"
-    "Otra vez en <b>caja 2</b>: la pregunta queda en el traste 8 (no resuelve), la respuesta cae en el "
-    "traste 10 (la tónica). Practicalo acá antes de probarlo en la caja 1 de memoria."),
-    "e32", W, "Con backing. Cuando salga, improvisá pregunta/respuesta con frases tuyas."))
+    "<b>Y acá le sumamos la otra mitad:</b> la pregunta vive en la <b>caja 5</b>, abajo de todo (trastes 2 a "
+    "5), y la respuesta en la <b>caja 4</b>, arriba de todo (trastes 12 a 15). No es capricho — cambia el "
+    "<i>humor</i> de cada frase. Abajo la guitarra suena gorda, oscura, casi como un bajo: la pregunta pesa. "
+    "Arriba suena finita y brillante, y ahí la respuesta se escucha como que <b>llegó</b>.<br/><br/>"
+    "La misma pregunta hecha arriba y la misma respuesta hecha abajo funcionarían igual de bien "
+    "gramaticalmente — y sonarían a otra cosa. <b>Dónde tocás una frase es parte de lo que la frase dice.</b> "
+    "Eso no se puede escribir en el papel: hay que escucharlo."),
+    "e32", W,
+    "Con backing. Después hacelo al revés — pregunta arriba, respuesta abajo — y decidí cuál te gusta más. "
+    "No hay una correcta: hay una que te suena a vos."))
 
 S.append(ejercicio(33, "La misma frase en tres volúmenes — caja 2", (
     "Idéntica frase, tocada suave, normal y fuerte. La dinámica no se hace con la perilla: se hace con "
