@@ -30,6 +30,25 @@ TEMPLATE = r"""\version "2.24.0"
   evenHeaderMarkup = ##f
 }
 
+%% --- notacion estandar de guitarra (el vocabulario que lee cualquier guitarrista) ---
+%% Los slides (\glissando) y los ligados (slur + ^"H" / ^"P") ya salen nativos y se
+%% dibujan solos en la tablatura. El bending no: LilyPond 2.24 no le pone flecha al
+%% numero de traste, asi que se arma con markup.
+%%
+%% \bendUp / \bendHalf se ponen ANTES de la nota que se bendea; el markup va DESPUES.
+%% Lo que hacen es destapar el TextScript en la tablatura (el template lo apaga para
+%% que los carteles didacticos no se dupliquen), para que el "full" y la flecha
+%% aparezcan sobre el numero de traste, que es donde el guitarrista los busca.
+bendUp = {
+  \once \override TabVoice.TextScript.stencil = #ly:text-interface::print
+  \once \override TabVoice.TextScript.padding = #0.4
+  \once \override Voice.TextScript.padding = #0.4
+}
+bendFull = \markup \override #'(baseline-skip . 1.3) \center-column {
+  \bold \small "full" \arrow-head #Y #UP ##t }
+bendHalf = \markup \override #'(baseline-skip . 1.3) \center-column {
+  \bold \small "½" \arrow-head #Y #UP ##t }
+
 musica = {
   \key a \minor
   \time 4/4

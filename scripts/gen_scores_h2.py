@@ -65,10 +65,10 @@ EJ["e20"] = r"""
 # ===================================================== SEMANA 6 — BENDING
 # 21: el destino primero, después el bending (afinar el oído)
 EJ["e21"] = r"""
-  e'2\3^\markup{\bold "escuchá el destino: traste 9"} r2 |
-  d'1\3^\markup{\bold "ahora bendeá el 7 hasta que suene IGUAL"} |
-  a'2\2^\markup{\bold "el destino: traste 10"} r2 |
-  g'1\2^\markup{\bold "bendeá el 8"} |
+  e'2\3^\markup{\bold "1 · escuchá el destino"} r2 |
+  \bendUp d'1\3^\bendFull |
+  a'2\2^\markup{\bold "2 · escuchá el destino"} r2 |
+  \bendUp g'1\2^\bendFull |
 """
 
 # 22: bending con destino, en tres cuerdas, ya en contexto
