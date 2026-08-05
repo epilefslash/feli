@@ -100,9 +100,16 @@ EJ["e25"] = r"""
   g'2\2 \tabSym \vib^\markup{\bold "ancho, sin soltar el bending"} e'8\3 d'\3 a4\4 |
 """
 
-# 26: el blue note, de paso (todavia en caja 2)
+# 26: el blue note, de paso (todavia en caja 2) — y las DOS formas de llegar a el.
+# Compases 1-2: pisado (3a cuerda, traste 8 = MIb).
+# Compases 3-4: la MISMA nota estirando el traste 7 (RE) medio tono. Misma frase,
+# misma altura, otra mano — y suena distinto porque el bending llega deslizandose.
+# Es el unico bending de MEDIO tono del programa y es a proposito que sea este:
+# el blue note es la nota a la que el blues llega estirando, no pisando.
 EJ["e26"] = r"""
-  r8 a'8\2 g'\2 e'\3 d'8\3 ees'\3^\markup{\bold "blue note · solo de paso"} e'\3 g'\2 |
+  r8 a'8\2 g'\2 e'\3 d'8\3 ees'\3^\markup{\bold "blue note · PISADO (traste 8)"} e'\3 g'\2 |
+  e'8\3 d'\3 c'\4 g\5 a2\4 \tabSym \vib |
+  r8 a'8\2 g'\2 e'\3 d'4\3 \tabSym \bendHalf ^\markup{\bold "el MISMO blue note, ESTIRANDO el 7"} ~ d'4 |
   e'8\3 d'\3 c'\4 g\5 a2\4 \tabSym \vib |
 """
 

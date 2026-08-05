@@ -369,6 +369,33 @@ frases escritas tienen copyright, y **en el 5-Level Phrasing Challenge no hay ni
 hay título de canción ni crédito, y las notas son pentatónica de Do menor pura. Lo de "es un fragmento
 de un solo de Hendrix" venía del backing del video, no de la partitura.
 
+### SÉPTIMA RONDA — segunda pasada por los PDF de Campbell: 2 rescates
+
+Feli pidió releer *Subdivision* y *Repetition* "muy atentamente, a ver si rescatamos algo". Salieron dos
+cosas, y la primera es un hueco que llevaba 59 ejercicios sin que nadie lo viera.
+
+**1. Cero bendings de MEDIO TONO en todo el programa.** Los `½` de Campbell (dos, en LONG PHRASE 2) lo
+delataron: los 59 ejercicios usan sólo bendings de tono entero. Y el **blue note del ej. 26 sólo existía
+como nota PISADA** — cuando en el blues casi siempre se llega a él **estirando** el RE medio tono. La
+ironía: el solo de referencia del Hito 2 es *The Thrill Is Gone*, cuyo vocabulario entero son medios tonos.
+
+Arreglado extendiendo el ej. 26 (sin ejercicio nuevo, sin tocar la numeración): compases 1-2 el blue note
+pisado en el traste 8, compases 3-4 **la misma frase** estirando el 7 medio tono. Misma altura, otra mano.
+El texto explica por qué suena distinto: pisado aparece de golpe, estirado la cuerda **recorre el camino**,
+y ese recorrido es el quejido. Hito 2 pasó de 20,9% a 22,1% fuera de caja 1.
+
+> El `\bendHalf` ya existía en el template desde la ronda anterior y no lo usaba nadie. Eso fue la pista.
+
+**2. Al comprimir, la mano derecha tiene que cambiar.** El EX3 de subdivisión de Campbell llena de
+hammer-ons y slides justo el tramo de semicorcheas. O sea: **cuando la figura se achica, se pica menos**.
+Nosotros enseñábamos ligados (Hito 2, ej. 17-20) y subdivisión (anexo) sin conectarlos nunca. Se agregó
+una sección al anexo, después del ej. A. De paso le da sentido retroactivo al **ej. 19** ("una púa cada 3
+notas"), que no era de velocidad sino de **economía de púa** y nunca se había dicho.
+
+**Lo que NO se tomó, y por qué:** el EX3 completo (sube a semicorcheas hasta el traste 18) es shred y
+contradice el reel #3. La escalera de 5 subdivisiones seguidas de su EX2 mezcla el eje binario con el
+tresillo, que nosotros separamos a propósito.
+
 ### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
 
 El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo

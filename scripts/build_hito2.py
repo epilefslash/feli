@@ -181,14 +181,26 @@ S.append(ejercicio(25, "El bend que aterriza en la tónica (Albert King / SRV)",
     "Escuchá: Albert King, «Born Under a Bad Sign» · Stevie Ray Vaughan, «Texas Flood». "
     "70 BPM con backing. Comprobá el bending contra el traste 10 antes de tocarlo."))
 
-S.append(ejercicio(26, "El blue note, de paso", (
+S.append(ejercicio(26, "El blue note, de paso — y las dos formas de llegar", (
     "La primera nota del programa que <b>no pertenece a la pentatónica</b>: el MI bemol (3ª cuerda traste 8), "
     "el famoso <i>blue note</i>. Le pone la mugre al blues, pero con una regla estricta — "
     "<b>es una nota de paso, nunca de llegada</b>. Va metida entre el RE (traste 7) y el MI (traste 9), "
-    "cruzándola sin frenar. Si te quedás parado en ella suena desafinado, porque lo está."),
+    "cruzándola sin frenar. Si te quedás parado en ella suena desafinado, porque lo está.<br/><br/>"
+    "<b>Los compases 3 y 4 son la misma frase, y ahí está lo importante de este ejercicio.</b> En vez de "
+    "pisar el traste 8, pisás el <b>7</b> y lo estirás <b>medio tono</b> — mirá la flecha, dice <b>½</b> y no "
+    "<i>full</i>. Llegás a la misma altura por otro camino. Es el <b>único bending de medio tono de todo el "
+    "programa</b>, y no es un capricho que sea justo éste: en el blues, al blue note casi nunca se llega "
+    "pisándolo. Se llega estirando.<br/><br/>"
+    "¿Por qué suena distinto si la nota es la misma? Porque el dedo <b>pasa por el medio</b>. Pisado, el MI "
+    "bemol aparece de golpe, afinado y limpio. Estirado, la cuerda recorre todo lo que hay entre el RE y el "
+    "MI bemol, y ese recorrido — que dura una fracción de segundo — es literalmente el quejido del blues. "
+    "Eso es lo que hace B.B. King en <i>The Thrill Is Gone</i>, que es el solo de referencia de este mes."),
     "e26", W,
     "Escuchá: cualquier shuffle de Clapton o de Page — está en todos. "
-    "70 BPM. Tocá el compás 1 sin el MI bemol y después con él: esa diferencia es el sabor."))
+    "70 BPM. Tocá el compás 1 sin el MI bemol y después con él: esa diferencia es el sabor. "
+    "Después tocá el 1 y el 3 seguidos: misma nota, distinta emoción. "
+    "<b>Ojo con el medio tono:</b> tu mano viene entrenada del ej. 21 para estirar un tono entero, así que "
+    "lo más probable es que te pases. Chequealo contra el traste 8 pisado hasta que coincidan."))
 
 # ============================================================ SEMANA 7
 S.append(PageBreak())

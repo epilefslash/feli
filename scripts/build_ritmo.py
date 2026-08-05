@@ -140,6 +140,25 @@ S.append(caja_oscura(
     'volviste a sonar atropellado. <b>Lo que hacés con esos 3 pulsos que quedaron libres es lo que decide '
     'si sonás a músico.</b></font>', W))
 
+S.append(Spacer(1, 8))
+S.append(Paragraph("Y ALGO QUE NADIE TE AVISA: AL COMPRIMIR, LA MANO DERECHA TIENE QUE CAMBIAR", H2))
+S.append(Paragraph(
+    "Tocá el ejercicio A tres veces y prestá atención a la mano de la púa, no a la izquierda. En negras "
+    "picás las cuatro notas cómodo. En corcheas todavía llegás. En semicorcheas, si intentás picar las "
+    "cuatro con la misma fuerza, <b>se te endurece la frase</b>: suena a máquina y se te tensa el "
+    "antebrazo.", BODY))
+S.append(Paragraph(
+    "La salida no es tocar más rápido: es <b>picar menos</b>. A medida que la figura se achica, cada vez "
+    "más notas se resuelven con los ligados que aprendiste en el Hito 2 — hammer-on, pull-off y slide — y "
+    "la púa se reserva para la primera de cada grupo. Por eso los solos rápidos de verdad tienen "
+    "<b>menos</b> ataques de púa que los lentos, no más.", BODY))
+S.append(Paragraph(
+    "Esto es también una tercera variable expresiva, además de la altura y la velocidad: <b>a medida que "
+    "el solo crece, el ataque se vuelve más ligado</b>. No es sólo un recurso técnico para poder llegar — "
+    "es parte de por qué un clímax suena a que se desborda en vez de sonar a que se apura. Volvé al "
+    "ejercicio 19 del Hito 2 (una púa cada tres notas) con esto en la cabeza: ese ejercicio no era de "
+    "velocidad, era de <b>economía de púa</b>, y recién ahora se entiende para qué era.", BODY))
+
 # ============================================================ 4. EL TRESILLO
 S.append(Spacer(1, 10))
 S.append(Paragraph("EL TRESILLO — EL QUE NO ENTRA EN EL ÁRBOL", H2))
