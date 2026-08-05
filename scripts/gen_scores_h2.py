@@ -60,9 +60,9 @@ EJ["e19"] = r"""
 
 # 20: ligados + slide juntos, ya como frase
 EJ["e20"] = r"""
-  a8\3^\markup{\bold "toda la pentatónica en UNA sola cuerda"} \glissando c'8\3( d'\3 e'\3) \glissando g'8\3( a'\3) ~ a'4\3 |
-  c''4\2 \tabSym \bendHalf ^\markup{\bold "½ tono en la 2ª · la nota de afuera"} ~ c''4 a'2\3 \tabSym \vib^\markup{\bold "y volvés a casa"} |
-  a'8\3( g'\3) \glissando e'8\3( d'\3) \glissando c'8\3( a\3) ~ a4\3 |
+  r4 a8\3^\markup{\bold "toda la pentatónica en UNA sola cuerda"} \glissando c'8\3( d'\3 e'\3) \glissando g'8\3( a'\3) |
+  c''16\2 \tabSym \bendHalf ^\markup{\bold "½ tono en la 2ª"} a'16\3 ~ a'2..\3 \tabSym \vib^\markup{\bold "y volvés a casa"} |
+  a'8\3( g'\3) \glissando e'8\3( d'\3 c'\3) \glissando a8\3 r4 |
 """
 
 # ===================================================== SEMANA 6 — BENDING
