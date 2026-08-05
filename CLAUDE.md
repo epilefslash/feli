@@ -48,7 +48,7 @@ corresponda en vez de releer todo.
   `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf`.
 - **Anexo de ritmo (PDF, va en paralelo al Hito 3):** `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf`
   — el árbol de las figuras + la misma celda en negras/corcheas/semicorcheas + tresillo y swing +
-  síncopa, anticipación (el *push*) y el puntillo. Sus ejercicios se numeran **con letras (A a G)**
+  síncopa, anticipación (el *push*) y el puntillo. Sus ejercicios se numeran **con letras (A a J)**
   justamente para no tocar la numeración 1-59.
 - **Guiones de video (PDF):** `Guiones-Historia-Fijado-Vendedores.pdf`,
   `Guiones-Pregrabado-Hito1-El-Mapa.pdf`.

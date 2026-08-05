@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """Arma el PDF del ANEXO DE RITMO — el árbol, las 3 velocidades y la síncopa.
 
-Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r07).
+Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r10).
 
 Este anexo NO es un hito nuevo: corre en paralelo al Hito 3. Por eso sus ejercicios
-se numeran con letras (A a G) y no tocan la numeración corrida 1-59.
+se numeran con letras (A a J) y no tocan la numeración corrida 1-59.
 
 VA EN EL MES 3, NO EN EL 2, y el motivo no es de carga sino de dependencias:
   · su operación es "agarrá un lick que ya sabés y movelo", y los primeros licks del
@@ -36,7 +36,7 @@ from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, CAJ,
 
 doc = documento("Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf",
                 "ANEXO DE RITMO",
-                "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo, swing y síncopa",
+                "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo, swing,\n                 síncopa, desplazamiento y llamada-respuesta",
                 "Solo con Sabor · Anexo de ritmo (va con el Hito 3)",
                 "Anexo de ritmo - El arbol y las 3 velocidades")
 W = doc.width
@@ -276,6 +276,71 @@ S.append(caja_oscura(
     'compases del ejercicio G —los más sincopados de todos— se tocan con <b>tres</b> ataques cada uno, '
     '<b>uno menos</b> que el compás recto del ejercicio E. Acá no hay nada que ganar tocando más rápido.</font>', W))
 
+S.append(Spacer(1, 10))
+S.append(Paragraph("LA ESCALERA DE DESPLAZAMIENTO", H2))
+S.append(Paragraph(
+    "El ejercicio F te probó <b>una vez</b> que mover el arranque cambia todo. Este lo convierte en un "
+    "procedimiento que podés aplicar a cualquier lick tuyo: la misma celda entrando en cinco lugares "
+    "distintos del compás, uno detrás del otro. <b>Las notas no cambian nunca</b> — 8-5-8-5, las cinco "
+    "veces. Lo único que se mueve es dónde empieza.", BODY))
+S.append(Spacer(1, 4))
+S.append(ej("H", "La misma celda entrando en cinco lugares",
+            "Tocá los cinco compases seguidos, con metrónomo, sin parar entre uno y otro. Vas a escuchar "
+            "que la celda es siempre la misma y aun así los cinco suenan distinto. <b>Ese es todo el "
+            "recurso</b>: no necesitás cinco licks, necesitás uno y cinco lugares para meterlo.<br/><br/>"
+            "<b>Y ahora la parte que casi nadie enseña</b>, que es la que te va a pasar a vos apenas lo "
+            "intentes solo. Fijate en el compás 6: si corrés el arranque un poco más, la frase <b>ya no "
+            "entra</b> — se te va del compás y tenés que ligar la última nota para que no quede colgando. "
+            "El compás 7 muestra el arreglo de verdad: <b>sacar una nota</b>. Contá las tablaturas, tiene "
+            "una menos.<br/><br/>"
+            "Sacar una nota no es hacer trampa ni es que te salió mal: <b>es el ajuste que hace posible el "
+            "desplazamiento</b>. Cuando movés el principio de una frase, casi siempre vas a tener que "
+            "tocar el final. Si no sabés esto, probás, no te cierra el compás, y concluís que la síncopa "
+            "no te sale.",
+            "r08",
+            "Regla práctica: si al desplazar te sobra frase, sacá del final, no del principio. El "
+            "principio es lo que hace que el oído reconozca que es la misma idea."))
+
+S.append(Spacer(1, 10))
+S.append(Paragraph("LLAMADA Y RESPUESTA — el solo como conversación", H2))
+S.append(Paragraph(
+    "Hasta acá el anexo trabajó <b>una</b> frase. Esto es lo que pasa cuando hay dos y se hablan entre "
+    "ellas. El ejercicio 49 del Hito 3 ya te dio una arquitectura de solo — presenta, desarrolla, clímax, "
+    "cierra — pero esa es una arquitectura <b>narrativa</b>: una curva que sube y baja. Esta es otra, y "
+    "es <b>conversacional</b>: una pregunta, una respuesta, la pregunta de nuevo, y la respuesta que "
+    "cierra. No es la misma con otro nombre, y no compiten: son dos moldes distintos y te conviene "
+    "tener los dos.", BODY))
+S.append(Spacer(1, 4))
+S.append(tabla([
+    [Paragraph("<b>Frase</b>", CELLB), Paragraph("<b>Qué hace</b>", CELLB), Paragraph("<b>Cómo se reconoce</b>", CELLB)],
+    [Paragraph("<b>1 · LLAMADA</b>", CELLB),
+     Paragraph("Pregunta. Presenta la idea y la deja abierta.", CELL),
+     Paragraph("Termina en una nota que <b>no</b> es la tónica (acá, la 5ª). El oído queda esperando.", CELL)],
+    [Paragraph("<b>2 · RESPUESTA</b>", CELLB),
+     Paragraph("Contesta. Baja y cierra lo que la llamada dejó abierto.", CELL),
+     Paragraph("Termina en la <b>tónica</b>. Fijate que arranca igual que la llamada: está escuchando.", CELL)],
+    [Paragraph("<b>1 · LLAMADA otra vez</b>", CELLB),
+     Paragraph("Repite la pregunta — pero no idéntica.", CELL),
+     Paragraph("<b>Mismo primer compás, otro final</b>, y mudada a la caja 2. Eso es \"repetir más arriba\".", CELL)],
+    [Paragraph("<b>3 · RESPUESTA FINAL</b>", CELLB),
+     Paragraph("Cierra la conversación entera, no sólo la última pregunta.", CELL),
+     Paragraph("La misma tónica, pero <b>una octava abajo</b>. Bajar de octava es lo que la vuelve final.", CELL)],
+], [W * 0.22, W * 0.34, W * 0.44]))
+S.append(Spacer(1, 6))
+S.append(ej("I", "Llamada y respuesta (el molde 1 · 2 · 1 · 3)",
+            "Ocho compases, cuatro frases de dos. Tocalo con backing y prestá atención a una sola cosa: "
+            "<b>las dos llamadas comparten el primer compás nota por nota</b>. Eso no es pereza — es lo "
+            "único que hace que el oyente reconozca que volvió la misma pregunta. Si cambiás el principio, "
+            "es otra frase; si cambiás sólo el final, es la misma frase contestada distinto.<br/><br/>"
+            "<b>Por qué la segunda llamada está en la caja 2:</b> repetir una idea más arriba es la forma "
+            "más barata de que suene desarrollada y no repetida. Es el mismo mecanismo del ejercicio 46 del "
+            "Hito 3 (un lick en las 5 cajas), usado acá con un fin distinto: allá probaba que un lick no es "
+            "un lugar, acá <b>usa</b> ese hecho para construir una conversación.",
+            "r09",
+            "El error típico: contestar más fuerte y más rápido de lo que preguntaste. Una respuesta que "
+            "grita no está contestando — está interrumpiendo. Contestá al mismo volumen y en el mismo "
+            "lugar del compás que la llamada."))
+
 S.append(Spacer(1, 8))
 S.append(Paragraph("EL PROBLEMA DE PRACTICAR ESTO SOLO (y los 3 correctores)", H2))
 S.append(Paragraph(
@@ -346,6 +411,27 @@ S.append(caja_oscura(
     'metrónomo, estás haciendo otro ejercicio.</font>', W))
 
 S.append(Spacer(1, 10))
+S.append(Paragraph("EL CIERRE — TODO ENCADENADO", H2))
+S.append(Paragraph(
+    "Cada hito del programa cierra tocando una pieza entera: el ejercicio 16, el 34, el 53. Este anexo "
+    "también tiene el suyo. Nueve compases con <b>la misma celda de siempre</b> pasando, en orden, por "
+    "todo lo que trabajaste acá: negras, corcheas, tresillo, contratiempo, puntillo y el push.", BODY))
+S.append(Spacer(1, 4))
+S.append(ej("J", "Los nueve compases que resumen el anexo",
+            "No hay nada nuevo. Es literalmente 8-5-8-5 de punta a punta, y aun así los nueve compases "
+            "suenan a nueve cosas distintas. Si podés tocarlo entero, a tempo y sin mirar, el anexo está "
+            "aprendido.<br/><br/>"
+            "<b>Mirá el último compás.</b> Vuelve el motivo del compás 1 — las mismas cuatro notas con las "
+            "que arrancaste — pero en <b>blancas</b>: la mitad de velocidad. Eso hace dos cosas a la vez. "
+            "Es el <b>leitmotiv</b> del ejercicio 52 del Hito 3 (la idea que vuelve al final y hace que el "
+            "solo se sienta cerrado), y es la tesis de todo este anexo demostrada sobre sí misma: "
+            "<b>mismas notas, otra figura, otra función</b>. Empezaste con una frase y terminás con una "
+            "conclusión, sin haber cambiado una sola nota.",
+            "r10",
+            "Cuando lo tengas, hacé el paso siguiente: tocá los mismos nueve compases con un lick TUYO en "
+            "lugar de la celda. Ahí el anexo deja de ser un ejercicio y pasa a ser una herramienta."))
+
+S.append(Spacer(1, 10))
 S.append(Paragraph("CHECKLIST DE CIERRE", H2))
 S.append(tabla([
     [Paragraph(CAJ, CELL), Paragraph("Puedo dibujar el árbol de memoria y explicar por qué todas las filas duran lo mismo.", CELL)],
@@ -366,9 +452,14 @@ S.append(Paragraph(
     "Si son más, dejó de ser un recurso y se volvió tu pulso nuevo. Eso es todo el anexo en una "
     "grabación.", BODY))
 S.append(Paragraph(
-    "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a G) justamente para que "
+    "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a J) justamente para que "
     "no se mezclen con los 59 del programa: no reemplazan ninguna semana. El módulo de ritmo del mes 2 "
-    "(el de lectura) te enseñó a LEER las figuras; éste te enseña a usarlas en tus propias frases.", SMALL))
+    "(el de lectura) te enseñó a LEER las figuras; éste te enseña a usarlas en tus propias frases.<br/><br/>"
+    "<b>Y una aclaración, porque te la vas a preguntar:</b> casi todo el anexo está en la caja 1 y eso es "
+    "a propósito. Si además de cambiar la figura te cambiara la posición, no sabrías cuál de las dos cosas "
+    "te cambió el sonido. Acá la geografía la dejamos quieta para poder escuchar el ritmo — ya la "
+    "trabajaste los tres meses. La única excepción es el ejercicio I, donde mudarse de caja <i>es</i> el "
+    "contenido.", SMALL))
 
 doc.build(S)
 print("OK  Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf")

@@ -13,7 +13,7 @@ bonus post-programa (6 licks más, 54-59).
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
 | `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 53) |
 | `gen_scores_h3b.py` | Partituras del **bonus post-programa** — 6 licks fuera de la caja 1 (54 a 59) |
-| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a G — no tocan la numeración 1-59) |
+| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a J — no tocan la numeración 1-59) |
 | `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
