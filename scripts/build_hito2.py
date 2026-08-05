@@ -297,7 +297,14 @@ S.append(ejercicio(31, "La regla de las 3 notas (y de nuevo, en caja 5)", (
     "Tocás tres notas y <b>te callás un compás entero</b>. Vas a sentir una incomodidad física, unas ganas "
     "enormes de llenar el silencio: esa incomodidad es exactamente lo que estás entrenando a tolerar. "
     "El silencio escrito acá no es una pausa entre ejercicios — es parte de la música. El último par repite "
-    "la misma idea en la <b>caja 5</b>: abajo el silencio pesa distinto, y también hay que aprender a tolerarlo ahí."),
+    "la misma idea en la <b>caja 5</b>: abajo el silencio pesa distinto, y también hay que aprender a tolerarlo ahí."
+    "<br/><br/>"
+    "<b>Si contar no te alcanza, hacelo con el cuerpo.</b> Ponete una taza de café al lado. Tocás tus tres "
+    "notas, <b>soltás la mano derecha y agarrás la taza</b>, tomás un sorbo, la apoyás, y recién ahí volvés a "
+    "tocar. Suena a chiste y no lo es: contar es una operación mental que podés hacer <i>mientras</i> seguís "
+    "tocando — o sea que podés hacer trampa sin darte cuenta. Con la taza en la mano no podés. El silencio "
+    "deja de ser una decisión y pasa a ser un hecho físico, y de paso descubrís que dura mucho menos de lo "
+    "que te parecía desde adentro."),
     "e31", W, "Con backing, obligatorio. Contá los tiempos del silencio en voz alta si hace falta."))
 
 S.append(ejercicio(32, "Pregunta y respuesta — caja 2", (

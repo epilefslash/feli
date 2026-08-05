@@ -424,7 +424,13 @@ S.append(ejercicio(49, "La arquitectura: las 4 frases de un solo", (
     "variables a la vez, no solo una. <b>Altura</b> — empezás en un registro medio y subís — y <b>velocidad</b> "
     "— arrancás lento y melódico, y te guardás las notas rápidas para el clímax. Si solo subís de altura pero "
     "tocás siempre al mismo ritmo, la curva se nota menos. Las dos variables juntas son las que hacen que un "
-    "solo se sienta que va a algún lado."),
+    "solo se sienta que va a algún lado.<br/><br/>"
+    "<b>Y hay una tercera, que casi nadie cuenta: el silencio.</b> No sólo crecen la altura y la velocidad — "
+    "también <b>baja la cantidad de aire</b>. Presentá con mucho espacio entre frase y frase (dos, tres "
+    "tiempos de silencio, sin miedo), acortá esos huecos en el desarrollo, y para el clímax que casi no "
+    "queden. El oyente no escucha el silencio que sacaste, pero <b>siente que el solo se está apretando</b>. "
+    "Es la variable más barata de las tres —no requiere tocar mejor, requiere tocar menos al principio— y es "
+    "la que más separa un solo que crece de uno que simplemente sube."),
     "e49", W, "Con backing. Fijate en las dinámicas escritas: la curva es tanto de VOLUMEN como de altura."))
 
 # ============================================================ SEMANA 12

@@ -278,6 +278,50 @@ Hito 1 a propósito).
 > Este anexo **no cierra** el hueco de cambios de acorde (sigue pendiente para el Módulo 2). Cierra el
 > de ritmo, junto con el módulo de Pozzoli.
 
+### QUINTA RONDA (5/8/2026) — la masterclass de fraseo de Ross Campbell
+
+Feli trajo una masterclass de **Ross Campbell** (bulletproofguitarplayer.com) con 3 PDF de tablatura
+(*5 Level Phrasing Challenge* · *Subdivision Exercises* · *Repetition*). Los tres en **Do menor**,
+♩=115, con copyright explícito al pie. Se auditaron sus **5 niveles** contra el programa.
+
+**Tres de los cinco ya estaban cubiertos, y dos mejor que en su material:**
+
+| Nivel de Ross | Dónde está en lo nuestro |
+|---|---|
+| 5 · Bookends | **Ej. 52** del Hito 3 — y le da el nombre real (*leitmotiv*) y su origen. |
+| 4 · Espacio ("café challenge") | **Ej. 31** del Hito 2 + el checklist, que pide *4 silencios de +2 tiempos por minuto*: una métrica verificable que Ross no tiene. |
+| 2 · Ritmo | El árbol del anexo. Sólo faltaba el tresillo de negra. |
+
+> ⚠️ **En la primera lectura reporté el bookend como hueco. Era falso** — se detectó leyendo la fuente
+> (`build_hito3.py`), no la memoria. Regla que se confirma: antes de declarar un hueco, `grep` al script.
+
+**Los 4 huecos reales → ejercicios H, I, J del anexo + el tresillo de negra en B.** Detalle completo en
+el commit y en el docstring de `gen_scores_ritmo.py`. Lo que más valía de todo el material era una sola
+frase suya: **al desplazar el arranque de una frase hay que ajustar el FINAL** (sacar o agregar una
+nota). Sin eso el alumno prueba solo, no le cierra el compás y concluye que la síncopa no le sale.
+
+**Dos agregados de texto en los hitos, sin ejercicio nuevo:**
+- **Hito 2, ej. 31** — el café como variante *física* de la regla de las 3 notas. Contar es mental y se
+  puede hacer mientras seguís tocando; con la taza en la mano no. El silencio deja de ser una decisión.
+- **Hito 3, ej. 49** — el arco crecía en 2 variables (altura + velocidad, regla de Brian May). Se suma
+  la **tercera: la densidad de silencio baja a medida que el solo crece**.
+
+**Sobre copiar el material:** los conceptos no son de él (están en Pozzoli y en cualquier tratado de
+fraseo) y usarlos es libre. Las frases escritas sí, están con copyright y son de un challenge público.
+Además la transposición literal Cm→Am sería **peor** para nosotros: no usa nuestras células, no engancha
+con el ej. 44 ni el 46. Se tomó la estructura y se escribieron las notas nuestras.
+
+**Lo que Feli reportó y no pude confirmar:** dijo haber visto **fusas** en el EX3 de subdivisión. Los
+rótulos explícitos del PDF llegan hasta *16TH NOTES* y su propio resumen de la masterclass lista las
+subdivisiones cuatro veces sin mencionar fusas. Sospecha: corchea con puntillo + semicorchea, o
+semicorcheas beameadas junto a corcheas. **Queda abierto** — se resuelve contando barras de plica
+(1=corchea · 2=semicorchea · 3=fusa). No cambia ninguna decisión: ese ejercicio es el que no copiamos.
+
+> **El anexo vive 98% en la caja 1 y es a propósito** — aislar la variable rítmica, mismo criterio que
+> mantiene juntas las 3 versiones de los ej. 44 y 45. Está escrito en el docstring **y en el PDF** para
+> que una auditoría externa no lo "arregle". Única excepción: el ej. I, donde mudarse de caja *es* el
+> contenido. **Anexo: 4 → 11 páginas, A-G → A-J. La numeración 1-59 no se tocó.**
+
 ### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
 
 El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo
