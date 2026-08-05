@@ -235,6 +235,22 @@ S.append(ejercicio(13, "La caja 5, ida y vuelta", (
     "Es la caja más incómoda de las cinco — es normal, no la estás haciendo mal."),
     "e13", W, "60 BPM, meta 75."))
 
+S.append(Spacer(1, 6))
+S.append(caja_oscura(
+    '<font color="white"><b>UN REGALO QUE TIENE LA GUITARRA Y CASI NADIE APROVECHA</b><br/><br/>'
+    'La caja 5 llega hasta el traste 2. ¿Y abajo? Está la <b>posición abierta</b>, y ahí pasa algo que '
+    'parece un truco y no lo es: <b>de las seis cuerdas al aire, CINCO son notas de la pentatónica de La '
+    'menor.</b><br/><br/>'
+    '<b>6ª = MI · 5ª = LA · 4ª = RE · 3ª = SOL · 1ª = MI.</b> La única que se sale es la <b>2ª (SI)</b>.'
+    '<br/><br/>'
+    'O sea que tu guitarra, sin que le pises nada, ya está sonando casi toda en la escala que estás '
+    'estudiando. Eso te da tres cosas gratis: una nota que <b>suena sola</b> mientras tu mano se muda de '
+    'posición, un <b>pedal</b> grave para dejar sonando abajo, y un timbre distinto — la cuerda al aire '
+    'suena más abierta y más larga que la misma nota pisada.<br/><br/>'
+    '<b>Probalo ahora, sin partitura:</b> tocá la caja 5 y cada vez que llegues a la 6ª, en vez de pisar el '
+    'traste 5, dejá sonar la cuerda al aire y escuchá la diferencia. No está escrito en ningún ejercicio de '
+    'este cuadernillo a propósito — es tuyo para explorar.</font>', W))
+
 S.append(ejercicio(14, "El círculo: de la caja 5 a la caja 1", (
     "Subís por la caja 5 y al llegar a la 1ª cuerda traste 5… <b>ya estás en la caja 1</b>. No hay slide ni "
     "salto: es la misma nota. Ahí entendés que las 5 cajas son un círculo, no una fila. Después de la 5 viene "

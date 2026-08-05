@@ -27,13 +27,21 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # Traste de cada nota de la pentatónica de Lam, por cuerda (según la cabecera
 # de gen_scores_h3.py). clave: (pitch_lilypond, cuerda) -> traste
+# Traste 0 = cuerda al aire. Dato que vale la pena saber: de las 6 cuerdas al aire,
+# CINCO son notas de la pentatonica de La menor (MI, LA, RE, SOL, MI). La unica que
+# no pertenece es la 2a (SI). O sea que la guitarra en afinacion estandar ya es casi
+# una pentatonica de Lam sonando. Por eso estan en el mapa: si un ejercicio usa una
+# cuerda al aire, es escala valida y no tiene que fallar la validacion.
+# OJO: el traste 0 no cae dentro de ninguna de las 5 cajas (la mas baja, la 5, arranca
+# en el 2). cajas_de(0) devuelve [] a proposito: la posicion abierta esta afuera del
+# sistema de cajas, y eso es correcto, no un bug.
 MAPA = {
-    6: {"g,": 3, "a,": 5, "c": 8, "d": 10, "e": 12, "g": 15},
-    5: {"c": 3, "d": 5, "e": 7, "g": 10, "a": 12, "c'": 15},
-    4: {"e": 2, "g": 5, "a": 7, "c'": 10, "d'": 12, "e'": 14},
-    3: {"a": 2, "c'": 5, "d'": 7, "e'": 9, "g'": 12, "a'": 14},
+    6: {"e,": 0, "g,": 3, "a,": 5, "c": 8, "d": 10, "e": 12, "g": 15},
+    5: {"a,": 0, "c": 3, "d": 5, "e": 7, "g": 10, "a": 12, "c'": 15},
+    4: {"d": 0, "e": 2, "g": 5, "a": 7, "c'": 10, "d'": 12, "e'": 14},
+    3: {"g": 0, "a": 2, "c'": 5, "d'": 7, "e'": 9, "g'": 12, "a'": 14},
     2: {"d'": 3, "e'": 5, "g'": 8, "a'": 10, "c''": 13, "d''": 15},
-    1: {"g'": 3, "a'": 5, "c''": 8, "d''": 10, "e''": 12, "g''": 15, "a''": 17},
+    1: {"e'": 0, "g'": 3, "a'": 5, "c''": 8, "d''": 10, "e''": 12, "g''": 15, "a''": 17},
 }
 
 CAJAS = {1: (5, 8), 2: (7, 10), 3: (9, 13), 4: (12, 15), 5: (2, 5)}

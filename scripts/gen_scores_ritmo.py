@@ -23,9 +23,10 @@ es una velocidad.
 5-8), Y NO ES UN DESCUIDO. Es la única forma de aislar la variable: si además de
 cambiar la figura cambiara la posición, el alumno no sabría qué produjo el cambio
 de sonido. Es el mismo criterio que mantiene juntas las tres versiones de los ej.
-44 y 45 del Hito 3. La única excepción es el ej. I, donde la 2ª llamada SÍ se muda
-a la caja 2 — porque ahí el movimiento es el contenido ("repetir la idea más
-arriba"), no una variable suelta. No "arreglar" esto subiendo ejercicios de caja:
+44 y 45 del Hito 3. La única excepción es el ej. I, donde la segunda mitad de
+la conversación entera (llamada Y respuesta) se muda a la caja 4 — porque ahí el
+movimiento es el contenido: la misma pregunta hecha una octava arriba no es la
+misma pregunta. No "arreglar" esto subiendo ejercicios de caja:
 rompe el diseño. La geografía se enseña en los hitos, acá se enseña el ritmo.
 
 La celda usada en todos: DO-LA-SOL-MI descendente en la caja 1
@@ -129,14 +130,14 @@ EJ["r07"] = r"""
 # desplazamiento. Sin esto, el alumno lo intenta solo, no le cierra el compás, y
 # concluye que la síncopa "no le sale".
 EJ["r08"] = r"""
-  c''8\1^\markup{\bold "1 · en el 1"} a'\1 g'\2 e'\2 r2 |
-  r8 c''8\1^\markup{\bold "2 · en el 'y' del 1"} a'\1 g'\2 e'\2 r4. |
-  r4 c''8\1^\markup{\bold "3 · en el 2"} a'\1 g'\2 e'\2 r4 |
-  r4. c''8\1^\markup{\bold "4 · en el 'y' del 2"} a'\1 g'\2 e'\2 r8 |
-  r2 c''8\1^\markup{\bold "5 · en el 3 · entra justo"} a'\1 g'\2 e'\2 |
-  r2. c''8\1^\markup{\bold "6 · más tarde YA NO ENTRA"} a'\1 ~ |
+  c''8\1^\markup{\bold "1"} a'\1 g'\2 e'\2 r2 |
+  r8^\markup{\bold "1   y"} c''8\1 a'\1 g'\2 e'\2 r4. |
+  r4^\markup{\bold "1   y   2"} c''8\1 a'\1 g'\2 e'\2 r4 |
+  r4.^\markup{\bold "1   y   2   y"} c''8\1 a'\1 g'\2 e'\2 r8 |
+  r2^\markup{\bold "1   y   2   y   3"} c''8\1 a'\1 g'\2 e'\2 |
+  r2.^\markup{\bold "más tarde YA NO ENTRA"} c''8\1 a'\1 ~ |
   a'4\1 g'8\2 e'\2 r2 |
-  r2. c''8\1^\markup{\bold "7 · el arreglo: una nota MENOS"} a'\1 ~ |
+  r2.^\markup{\bold "el arreglo: una nota MENOS"} c''8\1 a'\1 ~ |
   a'4\1 g'4\2 r2 |
 """
 
@@ -153,14 +154,14 @@ EJ["r08"] = r"""
 # la 2ª una octava abajo, en la 6ª. Bajar de octava en la respuesta final es lo que
 # hace que el cierre se sienta definitivo y no otra respuesta más.
 EJ["r09"] = r"""
-  r8 a'8\1^\markup{\bold "LLAMADA"} c''\1 a'\1 g'4\2 e'\2 |
-  d'4\3 e'\2 ~ e'2\2^\markup{\bold "queda abierta (5ª)"} |
-  r8 g'8\2^\markup{\bold "RESPUESTA"} e'\2 d'\3 c'4\3 a4\4 |
+  r8 a'8\1^\markup{\bold "LLAMADA · abajo"} c''\1 a'\1 g'4\2 e'\2 |
+  d'4\3 e'\2 ~ e'2\2^\markup{\bold "queda abierta"} |
+  r8 g'8\2^\markup{\bold "RESPUESTA · abajo"} e'\2 d'\3 c'4\3 a4\4 |
   a1\4^\markup{\bold "resuelve en la tónica"} |
-  r8 c''8\1^\markup{\bold "LLAMADA otra vez · misma forma, caja 2"} d''\1 c''\1 a'4\2 g'\2 |
-  e'4\3 d'\3 ~ d'2\3^\markup{\bold "otro final (4ª)"} |
-  r8 g'8\2^\markup{\bold "RESPUESTA FINAL"} e'\2 d'\3 c'8\3 a\4 g\4 e\5 |
-  a,1\6^\markup{\bold "misma tónica, una octava abajo"} |
+  r8 e''8\1^\markup{\bold "LA MISMA LLAMADA · arriba, caja 4"} g''\1 e''\1 d''4\2 c''4\2 |
+  a'4\3 c''\2 ~ c''2\2^\markup{\bold "queda abierta igual"} |
+  r8 d''8\2^\markup{\bold "RESPUESTA FINAL · arriba"} c''\2 a'\3 g'4\3 a'4\3 |
+  a'1\3^\markup{\bold "la misma tónica, una octava arriba"} |
 """
 
 # ------------------------------------------------- J) el cierre: todo encadenado
