@@ -127,8 +127,14 @@ S.append(ejercicio(20, "Toda la pentatónica en UNA sola cuerda", (
     "lo mismo al revés: <i>pull-off</i> de a dos, <i>slide</i> de a tres.<br/><br/>"
     "<b>El compás 2 es el premio.</b> Llegaste al traste 14 (la tónica aguda). Ahí saltás a la 2ª cuerda, "
     "traste 13, y lo estirás <b>medio tono</b>: esa es una nota que no está en la pentatónica, y es la que "
-    "hace que el blues suene a blues. Después volvés a caer en el 14 con vibrato. Tensión y resolución en "
-    "dos compases.<br/><br/>"
+    "hace que el blues suene a blues. Después volvés a caer en el 14 con vibrato.<br/><br/>"
+    "<b>Fijate en las figuras, porque ahí está el efecto:</b> el 13 y el 14 son dos <b>semicorcheas "
+    "pegadas</b> — un gesto rápido, casi un latigazo — y recién después viene la nota larga con vibrato. "
+    "Si tocás el bending lento y la resolución lenta se te va el chiste: no son dos notas, es <b>un solo "
+    "movimiento</b> que termina en una nota sostenida.<br/><br/>"
+    "Y mirá cómo empieza y cómo termina: arranca en el <b>tiempo 2</b>, y la bajada cierra dejando un "
+    "silencio de un tiempo. Es un <b>espejo</b> — el aire que había al principio queda al final. No es "
+    "decorado: es lo que hace que suene a frase cerrada y no a escala que se cortó.<br/><br/>"
     "<b>Para qué sirve de verdad:</b> cuando sepas hacer esto, dejás de estar atado a las posiciones. Todas "
     "las cuerdas tienen su recorrido horizontal — probalo en la 2ª y en la 6ª cuando esto te salga."),
     "e20", W,
