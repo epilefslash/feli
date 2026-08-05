@@ -322,6 +322,53 @@ semicorcheas beameadas junto a corcheas. **Queda abierto** — se resuelve conta
 > que una auditoría externa no lo "arregle". Única excepción: el ej. I, donde mudarse de caja *es* el
 > contenido. **Anexo: 4 → 11 páginas, A-G → A-J. La numeración 1-59 no se tocó.**
 
+### SEXTA RONDA (5/8/2026) — notación estándar de guitarra en los 4 cuadernillos
+
+Feli, mirando los PDF de Ross Campbell: *"hay más expresión en sus partituras que en las nuestras"*.
+Medido sobre la fuente, **tenía razón — pero el diagnóstico real es otro**: no enseñábamos menos
+expresión (el Hito 2 entero es expresión), **no la notábamos**. Escribíamos la técnica en prosa
+castellana arriba del pentagrama, y sobre la TABLATURA no aparecía nada: el alumno veía un 7 pelado
+con un cartel lejos que decía "bend 1 tono".
+
+**Lo que soporta LilyPond 2.24.3, probado:**
+
+| Recurso | Cómo sale |
+|---|---|
+| Hammer-on / pull-off | **Nativo**: slur `( )` + `^"H"` / `^"P"`. Dibuja el arco en la tablatura. |
+| Slide | **Nativo**: `\glissando`. Ya lo teníamos, faltaba usarlo y rotularlo `sl.` |
+| Bending | ⚠️ El `Bend_engraver` **NO** pone flecha sobre el traste (probado con y sin `Glissando_engraver`: dibuja una línea de slide). Se resolvió con markup. |
+| Vibrato | `\draw-squiggle-line` — la línea ondulada de siempre. |
+
+**Los helpers nuevos viven en el TEMPLATE de `gen_scores.py`** y los usan los cinco generadores:
+`\tabSym` + `\bendFull` · `\bendHalf` · `\bendRel` · `\vib`.
+
+> ⚠️ **`\tabSym` se hace con `\tweak`, NO con `\once \override`, y el motivo importa.** El override
+> alcanzaba a *todos* los markups de esa nota, así que cuando había símbolo Y texto en la misma nota
+> el texto se duplicaba sobre la tablatura ("dejala morir" aparecía dos veces en el ej. 24). Con
+> `\tweak` el símbolo va a los dos pentagramas y la prosa sólo al de arriba. Si alguna vez se ve un
+> cartel repetido sobre la TAB, es que alguien volvió al override.
+
+**La regla de redacción que salió de acá, y que vale para cualquier ejercicio nuevo:**
+*si la notación ya lo dice, el texto no lo repite.* Salieron "bend 1 tono", "vibrato", "slide",
+"traste 9"; se quedaron "escuchá el destino", "blue note", "caés en la tónica de la caja 2" — eso la
+notación no lo dice. El ej. 21 es el caso testigo: decía *"escuchá el destino: traste 9"* + *"ahora
+bendeá el 7 hasta que suene IGUAL"*, y ahora dice *"1 · escuchá el destino"* con `full ▲` sobre el 7.
+
+**Aplicado a los 4 cuadernillos** (Hito 1 también: Feli lo sospechaba y era cierto — 2 bendings y 6
+vibratos en prosa, más 3 slides rotulados "slide" en vez de `sl.`). **El Hito 1 no lleva H ni P a
+propósito:** los ligados se enseñan recién en el ej. 17. Y en el Hito 2 hay ligaduras que **no** son
+hammer ni pull porque cruzan de cuerda (ej. 30: 2ª/8 → 3ª/9; ej. 34, dos casos) — van sin letra. Ésa
+es la parte que hace que el rollout no sea mecánico.
+
+**Verificado tras el cambio:** barcheck OK en las 71 partituras · escala OK · cajas **47,1 / 20,9 /
+47,1 / 73,3 %**, o sea idénticas a la referencia sana: la notación no movió una sola nota.
+
+**Sobre el material de Campbell (decisión de Feli):** dijo que transcribe él los licks a La menor con
+Guitar Pro. Es su decisión y está tomada. Lo que quedó dicho de mi lado: los conceptos son libres, las
+frases escritas tienen copyright, y **en el 5-Level Phrasing Challenge no hay ningún Hendrix** — no
+hay título de canción ni crédito, y las notas son pentatónica de Do menor pura. Lo de "es un fragmento
+de un solo de Hendrix" venía del backing del video, no de la partitura.
+
 ### AUDITORÍA DEL BLOQUE (panel de agentes) — encontró 4 errores reales, 3 míos
 
 El panel de diseño del bloque de síncopa se cortó por límite de créditos (2 de 4 agentes). Al retomarlo

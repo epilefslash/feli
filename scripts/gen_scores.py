@@ -35,19 +35,31 @@ TEMPLATE = r"""\version "2.24.0"
 %% dibujan solos en la tablatura. El bending no: LilyPond 2.24 no le pone flecha al
 %% numero de traste, asi que se arma con markup.
 %%
-%% \bendUp / \bendHalf se ponen ANTES de la nota que se bendea; el markup va DESPUES.
-%% Lo que hacen es destapar el TextScript en la tablatura (el template lo apaga para
-%% que los carteles didacticos no se dupliquen), para que el "full" y la flecha
-%% aparezcan sobre el numero de traste, que es donde el guitarrista los busca.
-bendUp = {
-  \once \override TabVoice.TextScript.stencil = #ly:text-interface::print
-  \once \override TabVoice.TextScript.padding = #0.4
-  \once \override Voice.TextScript.padding = #0.4
-}
+%% \tabSym marca UN markup para que aparezca tambien sobre la TABLATURA (el template
+%% apaga los TextScript ahi para que los carteles didacticos no se dupliquen). Va
+%% DESPUES de la nota, y afecta solo al markup que lo sigue — por eso en la misma nota
+%% pueden convivir el simbolo (que va a los dos pentagramas) y un cartel en prosa (que
+%% va solo al de arriba). Se hace con \tweak y no con \once \override justamente por
+%% eso: el override alcanzaba a los dos markups y duplicaba el texto en la tablatura.
+%%
+%%   d'2\3 \tabSym \bendFull            bending de un tono  (full + flecha arriba)
+%%   d'2\3 \tabSym \bendHalf            bending de medio tono
+%%   d'2\3 \tabSym \bendRel             soltar el bending   (rel. + flecha abajo)
+%%   a1\4  \tabSym \vib                 vibrato             (la linea ondulada)
+%%   a1\4  \tabSym \vib ^\markup{...}   simbolo en las dos, prosa solo arriba
+%%
+%% La regla al escribir un ejercicio: si la notacion ya lo dice, el texto no lo repite.
+%% "bend 1 tono", "vibrato", "slide", "traste 9" salen; "escucha el destino", "blue
+%% note", "caes en la tonica de la caja 2" se quedan, porque eso la notacion no lo dice.
+tabSym = #(define-music-function (mk) (markup?)
+  #{ -\tweak stencil #ly:text-interface::print -\tweak padding #0.4 ^#mk #})
 bendFull = \markup \override #'(baseline-skip . 1.3) \center-column {
   \bold \small "full" \arrow-head #Y #UP ##t }
 bendHalf = \markup \override #'(baseline-skip . 1.3) \center-column {
   \bold \small "½" \arrow-head #Y #UP ##t }
+bendRel = \markup \override #'(baseline-skip . 1.3) \center-column {
+  \bold \small "rel." \arrow-head #Y #DOWN ##t }
+vib = \markup \raise #0.4 \draw-squiggle-line #0.3 #'(4 . 0) ##t
 
 musica = {
   \key a \minor
@@ -98,8 +110,8 @@ EJ["e03"] = r"""
 """
 
 EJ["e04"] = r"""
-  r4 g'8\2 e'\2 d'4\3^\markup{\bold "bend 1 tono"} ~ d'4 |
-  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "vibrato"} |
+  r4 g'8\2 e'\2 d'4\3 \tabSym \bendFull ~ d'4 |
+  c'8\3 a\4 g\4 e\5 a2\4 \tabSym \vib |
 """
 
 # ===== SEMANA 2 — CAJA 2 (trastes 7-10) =====
@@ -117,14 +129,14 @@ EJ["e06"] = r"""
 
 EJ["e07"] = r"""
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
-  e'8\2 g'\2 a'\1 c''\1 \glissando d''4\1^\markup{\bold "slide → caja 2"} r4 |
+  e'8\2 g'\2 a'\1 c''\1 \glissando d''4\1^\markup{\bold "sl. → caja 2"} r4 |
   d''8\1 c''\1 a'\2 g'\2 e'\3 d'\3 c'\4 a\4 |
   g8\5 e\5 d\6 c\6 ~ c2\6 |
 """
 
 EJ["e08"] = r"""
-  r8 a'8\1 g'\2 e'\2 d'4\3^\markup{\bold "bend 1 tono"} c'4\3 |
-  d'8\3 \glissando e'\3^\markup{\bold "ya estás en caja 2"} g'4\2 a'2\2^\markup{\bold "vibrato"} |
+  r8 a'8\1 g'\2 e'\2 d'4\3 \tabSym \bendFull c'4\3 |
+  d'8\3 \glissando e'\3^\markup{\bold "ya estás en caja 2"} g'4\2 a'2\2 \tabSym \vib |
 """
 
 # ===== SEMANA 3 — CAJAS 3 y 4 =====
@@ -141,11 +153,11 @@ EJ["e10"] = r"""
 """
 
 EJ["e11"] = r"""
-  g'8\2 a'\2 c''\1 d''\1 \glissando e''4\1^\markup{\bold "slide → caja 3"} r4 |
+  g'8\2 a'\2 c''\1 d''\1 \glissando e''4\1^\markup{\bold "sl. → caja 3"} r4 |
   e''8\1 c''\2 a'\2 g'\3 e'\3 d'\4 c'\4 a\5 |
-  a8\5 c'\4 d'\4 g'\3 a'\2 \glissando c''4.\2^\markup{\bold "slide → caja 4"} |
+  a8\5 c'\4 d'\4 g'\3 a'\2 \glissando c''4.\2^\markup{\bold "sl. → caja 4"} |
   d''8\2 e''\1 g''\1 e''\1 d''4\2 c''4\2 |
-  a'1\3^\markup{\bold "vibrato"} |
+  a'1\3 \tabSym \vib |
 """
 
 EJ["e12"] = r"""
@@ -177,13 +189,13 @@ EJ["e15"] = r"""
 
 EJ["e16"] = r"""
   r4 g'8\2 a'\1 c''4\1 ~ c''4 |
-  a'8\1 g'\2 e'2.\2^\markup{\bold "vibrato · dejá respirar"} |
+  a'8\1 g'\2 e'2.\2 \tabSym \vib ^\markup{\bold "dejá respirar"} |
   d'8\3 e'\3 g'\2 a'\2 c''4\1 d''4\1 |
-  e''2\1^\markup{\bold "nota larga · vibrato"} r2 |
+  e''2\1 \tabSym \vib ^\markup{\bold "nota larga"} r2 |
   g''8\1 e''\1 d''\2 c''\2 a'4\3 g'4\3 |
   e'8\3 d'\4 c'\4 a\5 g4\5 e4\5 |
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
-  a'1\1^\markup{\bold "vibrato · cerrás en casa"} |
+  a'1\1 \tabSym \vib ^\markup{\bold "cerrás en casa"} |
 """
 
 

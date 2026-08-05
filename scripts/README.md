@@ -13,6 +13,32 @@ bonus post-programa (6 licks más, 54-59).
 | `gen_scores_h2.py` | Partituras del **Hito 2** (ejercicios 17 a 34) |
 | `gen_scores_h3.py` | Partituras del **Hito 3** (ejercicios 35 a 53) |
 | `gen_scores_h3b.py` | Partituras del **bonus post-programa** — 6 licks fuera de la caja 1 (54 a 59) |
+
+## Notación de guitarra en las partituras
+
+El TEMPLATE de `gen_scores.py` define los helpers que usan los cinco generadores:
+
+| Escribís | Sale |
+|---|---|
+| `d'2\3 \tabSym \bendFull` | bending de un tono: **full** + flecha arriba, en pentagrama **y** tablatura |
+| `d'2\3 \tabSym \bendHalf` | bending de medio tono |
+| `d'2\3 \tabSym \bendRel` | soltar el bending: **rel.** + flecha abajo |
+| `a1\4 \tabSym \vib` | vibrato: la línea ondulada |
+| `a1\4 \tabSym \vib ^\markup{...}` | símbolo en las dos, prosa sólo en el pentagrama |
+| `g'8\2^"H"( a'\2)` | hammer-on — **nativo**, dibuja el arco en la TAB |
+| `a'8\2^"P"( g'\2)` | pull-off — **nativo** |
+| `c''4\1 \glissando d''4\1` | slide — **nativo**, dibuja la diagonal en la TAB |
+
+Tres cosas que hay que saber antes de tocar esto:
+
+1. **`\tabSym` usa `\tweak`, no `\once \override`.** El override alcanzaba a todos los markups de la
+   nota y duplicaba la prosa sobre la tablatura. Si ves un cartel repetido en la TAB, alguien lo cambió.
+2. **La regla de redacción:** si la notación ya lo dice, el texto no lo repite. Fuera "bend 1 tono",
+   "vibrato", "slide", "traste 9"; adentro "escuchá el destino", "blue note", "caés en la tónica".
+3. **H y P sólo en la misma cuerda.** Una ligadura que cruza de cuerda es de fraseo y va sin letra
+   (pasa en el ej. 30 y dos veces en el ej. 34). El Hito 1 no lleva ninguna: los ligados se enseñan
+   recién en el ej. 17.
+
 | `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a J — no tocan la numeración 1-59) |
 | `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |

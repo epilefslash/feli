@@ -36,15 +36,15 @@ EJ = {}
 # 54: B.B. King — la 6a mayor en lugar de la 7a menor (la nota que endulza)
 EJ["e54"] = r"""
   r8 e''8\1 d''\1 a'\2 fis'8\3^\markup{\bold "6ª MAYOR · la nota dulce"} a'\2 fis'\3 a'\2 |
-  a'2\2^\markup{\bold "vibrato rápido y angosto"} e'8\3 d'\4 a4\5 |
+  a'2\2 \tabSym \vib ^\markup{\bold "rápido y angosto"} e'8\3 d'\4 a4\5 |
 """
 
 # ==================================================== CAJA 4 (trastes 12 a 15)
 # 55: Gilmour — una sola nota, estirada y sostenida una eternidad
 EJ["e55"] = r"""
   r2 a'8\3 c''8\2 ~ c''4 |
-  c''1\2^\markup{\bold "bend 1 tono · y lo sostenés"} |
-  c''2\2^\markup{\bold "vibrato lento y ancho"} a'8\3 g'\3 e'4\4 |
+  c''1\2 \tabSym \bendFull ^\markup{\bold "y lo sostenés"} |
+  c''2\2 \tabSym \vib ^\markup{\bold "lento y ancho"} a'8\3 g'\3 e'4\4 |
   a1\5^\markup{\bold "a casa"} |
 """
 
@@ -53,14 +53,14 @@ EJ["e56"] = r"""
   <c''\2 e''\1>8^\markup{\bold "dos cuerdas juntas, bien arriba"} <c''\2 e''\1>8
   <d''\2 g''\1>4 <c''\2 e''\1>4 <d''\2 g''\1>4 |
   <d''\2 g''\1>8 <c''\2 e''\1>8 a'4\3 g'8\3 e'\4 d'4\4 |
-  a1\5^\markup{\bold "vibrato"} |
+  a1\5 \tabSym \vib |
 """
 
 # ==================================================== CAJA 5 (trastes 2 a 5)
 # 57: la caja 5 también canta — frase melódica con espacio en la zona grave
 EJ["e57"] = r"""
   r4 c'8\3 d'8\2 ~ d'2 |
-  e'4\2^\markup{\bold "vibrato"} ~ e'4 c'8\3 a\3 g4\4 |
+  e'4\2 \tabSym \vib ~ e'4 c'8\3 a\3 g4\4 |
   a,1\6^\markup{\bold "la tónica más grave que tenés"} |
 """
 
@@ -70,14 +70,14 @@ EJ["e58"] = r"""
   g,8\6^\markup{\bold "caja 5"} a,\6 c\5 d\5 e\4 g\4 a\3 c'\3 |
   d'8\2 e'\2 g'\1 a'\1 \glissando c''4\1^\markup{\bold "caja 1"} r4 |
   c''8\1 \glissando d''4\1^\markup{\bold "caja 2"} \glissando e''4\1^\markup{\bold "caja 3"} r4. |
-  e''1\1^\markup{\bold "vibrato · llegaste al traste 12"} |
+  e''1\1 \tabSym \vib ^\markup{\bold "llegaste al traste 12"} |
 """
 
 # 59: Slash — la bajada diagonal, casi todo ligado
 EJ["e59"] = r"""
   a''8\1 \glissando g''8\1^\markup{\bold "caja 4"}( e''\1) c''\2( a'\2) e'\3( d'\3) a8\4 |
   g8\4^\markup{\bold "caja 1"} e\5 d\5 c\5^\markup{\bold "caja 5"} a,4\6 g,4\6 |
-  a,1\6^\markup{\bold "vibrato · cerrás en la tónica grave"} |
+  a,1\6 \tabSym \vib ^\markup{\bold "cerrás en la tónica grave"} |
 """
 
 
