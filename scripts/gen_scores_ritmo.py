@@ -25,10 +25,17 @@ posición, el alumno no sabría qué produjo el cambio de sonido. Mismo criterio
 mantiene juntas las tres versiones de los ej. 44 y 45 del Hito 3. No "arreglarlo"
 subiendo esos ejercicios de caja: rompe el diseño.
 
-Los ejercicios H, H-bis e I son otra cosa: son TRANSCRIPCIONES DE FELI importadas
-del MusicXML (ver importar_musicxml.py), recorren de la cuerda al aire al traste 17
-y traen notas cromáticas. Ahí la geografía es parte del contenido, no una variable
-suelta. Con ellos el anexo quedó en 46% fuera de la caja 1 (era 98% adentro).
+Los ejercicios H, H-bis e I son otra cosa: son TRANSCRIPCIONES DE FELI. Recorren de
+la cuerda al aire al traste 17 y traen notas cromáticas; ahí la geografía es parte
+del contenido, no una variable suelta. Con ellos el anexo quedó en 46% fuera de la
+caja 1 (era 98% adentro).
+
+⚠️ SUS CLAVES EMPIEZAN CON "_" (_ref_h, _ref_hbis, _ref_i) Y NO SE RENDERIZAN.
+La imagen que va al cuadernillo es el recorte del PDF de Guitar Pro de Feli
+(partituras/r08, r08b y r09 .cropped.png), que se ve mejor que mi render. Las notas
+viven igual acá para que auditar_cajas.py las mida y para que el barcheck verifique
+que los compases cierran — así se encontró el compás de 18/16 de la Frase larga 1.
+Si alguien les saca el guion bajo, el generador PISA las imágenes de Feli.
 
 La celda usada en todos: DO-LA-SOL-MI descendente en la caja 1
   (1a cuerda 8 y 5, 2a cuerda 8 y 5) = c'' a' g' e'
@@ -128,7 +135,7 @@ EJ["r07"] = r"""
 # 1, en el "y" del 1, en el 2, en el "y" del 2 y en el 3, mas un encadenado final.
 # Las cuentas ("1 and 2 and") vienen del propio XML y se imprimen sobre el compas:
 # el alumno LEE donde entrar en vez de contar silencios.
-EJ["r08"] = r"""
+EJ["_ref_h"] = r"""
   e8\5^\markup{\bold "1"} g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 c''8\2 |
   a'1\2 |
   r8^\markup{\bold "1"}^\markup{\bold "and"} e8\5 g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 |
@@ -153,7 +160,7 @@ EJ["r08"] = r"""
 # seguidos, sin parar. Va como partitura aparte porque los 34 compases juntos no
 # entran en una pagina — y de paso queda mejor: primero se practican los cinco
 # sueltos y recien despues se tocan de corrido.
-EJ["r08b"] = r"""
+EJ["_ref_hbis"] = r"""
   e8\5^\markup{\bold "1"} g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 c''8\2 |
   a'1\2 |
   r8^\markup{\bold "1"}^\markup{\bold "and"} e8\5 g8\4 a8\4 c'8\3 \grace d'32\3 e'8\3 g'8\2 a'8\2 |
@@ -178,7 +185,7 @@ EJ["r08b"] = r"""
 # frases largas que recorren el mastil entero. Trae notas cromaticas (el MIb, que
 # es el blue note que el alumno ya conoce del ej. 26, y el SI, que es la 2a) —
 # estan a proposito y se explican en el texto del ejercicio.
-EJ["r09"] = r"""
+EJ["_ref_i"] = r"""
   r8^\markup{\bold "LLAMADA"} d'8\4 \tabSym \bendFull ~ d'8\4 e'8\3 a'8\2 e'8\3 g'8\3 \glissando^\markup{\bold\small "sl."}( a'8\3) |
   c''16\2 a'8.\3 a'4\3 r2 |
   r8^\markup{\bold "RESPUESTA"} g'8\3 \tabSym \bendFull ~ g'8\3 a'8\2 dis'32\4 \glissando^\markup{\bold\small "sl."}( d'32\4^\markup{\bold\small "H"})( c'16\4) a8\5 d'8\4 c'8\4 |
@@ -216,5 +223,12 @@ EJ["r10"] = r"""
 """
 
 if __name__ == "__main__":
-    fails = [k for k in sorted(EJ) if not render(k, EJ[k])]
+    # Las claves que empiezan con "_" NO se renderizan: son las transcripciones de
+    # Feli importadas del MusicXML, y su imagen en el cuadernillo es el recorte del
+    # PDF de Guitar Pro (partituras/r08, r08b, r09 .cropped.png), que se ve mejor.
+    # Viven igual en este archivo para que auditar_cajas.py pueda medirlas y para
+    # que el barcheck valide que los compases cierran — fue asi como se encontro
+    # el compas de 18/16 de la Frase larga 1. Si se renderizaran, PISARIAN las
+    # imagenes de Feli. Por eso el guion bajo.
+    fails = [k for k in sorted(EJ) if not k.startswith("_") and not render(k, EJ[k])]
     print("\nFallaron:", fails if fails else "ninguno")
