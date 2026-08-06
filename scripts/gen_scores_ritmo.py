@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Genera las partituras del ANEXO DE RITMO (ejercicios A a J).
+"""Genera las partituras del ANEXO DE RITMO (ejercicios A a I).
 
 Salida: ./partituras/rNN.cropped.png
 
@@ -11,7 +11,6 @@ LETRAS y no con números: la numeración corrida 1-59 de los cuadernillos no se 
   D a G   -> síncopa, anticipación (el push) y el puntillo.
   H       -> la escalera de desplazamiento (la celda entrando en 5 lugares).
   I       -> llamada y respuesta, el molde 1-2-1-3.
-  J       -> el cierre: los nueve compases que encadenan todo el anexo.
 
 La consigna de todo el anexo: **las notas no cambian nunca**. En cada ejercicio
 la tablatura repite los mismos trastes y lo único que se mueve es la figura. Es
@@ -200,26 +199,6 @@ EJ["_ref_i"] = r"""
   b8.\3 \tabSym \bendHalf b16\3 a8.\4 g16\4 a16\4 e16\5 g16\4 a16\4 \glissando^\markup{\bold\small "sl."}( c'16\4) d'16\3 e'16\3 \glissando^\markup{\bold\small "sl."}( g'16\3) |
   b'8.\2 \tabSym \bendHalf b'16\2 a'8.\2 g'16\3 \glissando^\markup{\bold\small "sl."}( a'16\3) c''16\2 d''16\2 a'16\3 c''16\2^\markup{\bold\small "H"}( d''16\2) e''16\1 g''16\1 \tabSym \bendFull ~ |
   g''2\1 r2 |
-"""
-
-# ------------------------------------------------- J) el cierre: todo encadenado
-# El anexo terminaba en el ej. G y se cortaba. Los hitos cierran con un solo (ej. 16,
-# 34, 53); éste no tenía su equivalente. Son nueve compases con la MISMA célula de
-# siempre pasando por todo lo que enseña el anexo, en orden.
-#
-# El último compás es el motivo del compás 1 devuelto en BLANCAS — o sea aumentado, no
-# repetido igual. Es el leitmotiv del ej. 52 del Hito 3 y, al mismo tiempo, la tesis del
-# anexo demostrada sobre sí misma: mismas notas, otra figura, otra función.
-EJ["r10"] = r"""
-  c''4\1^\markup{\bold "NEGRAS · la frase"} a'\1 g'\2 e'\2 |
-  d'2\3 r2 |
-  c''8\1^\markup{\bold "CORCHEAS · el comentario"} a'\1 g'\2 e'\2 d'\3 c'\3 a4\4 |
-  \tuplet 3/2 { c''8\1^\markup{\bold "TRESILLO"} a'\1 g'\2 } \tuplet 3/2 { e'8\2 d'\3 c'\3 } a4\4 r4 |
-  r8 c''8\1^\markup{\bold "A CONTRATIEMPO"} a'\1 g'\2 e'4\2 r4 |
-  c''4.\1^\markup{\bold "PUNTILLO · 3+3+2"} a'4.\1 g'4\2 |
-  r8 c''8\1^\markup{\bold "EL PUSH · cruza la barra"} a'\1 g'\2 e'\2 d'\3 c'\3 a8\4 ~ |
-  a4\4 r4 c''4\1^\markup{\bold "vuelve el motivo…"} a'\1 |
-  g'2\2^\markup{\bold "…pero en blancas: mismas notas, otra función"} e'2\2 |
 """
 
 if __name__ == "__main__":

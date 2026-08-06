@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """Arma el PDF del ANEXO DE RITMO — el árbol, las 3 velocidades y la síncopa.
 
-Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r10).
+Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r09).
 
 Este anexo NO es un hito nuevo: corre en paralelo al Hito 3. Por eso sus ejercicios
-se numeran con letras (A a J) y no tocan la numeración corrida 1-59.
+se numeran con letras (A a I) y no tocan la numeración corrida 1-59.
 
 VA EN EL MES 3, NO EN EL 2, y el motivo no es de carga sino de dependencias:
   · su operación es "agarrá un lick que ya sabés y movelo", y los primeros licks del
@@ -443,27 +443,6 @@ S.append(caja_oscura(
     'metrónomo, estás haciendo otro ejercicio.</font>', W))
 
 S.append(Spacer(1, 10))
-S.append(Paragraph("EL CIERRE — TODO ENCADENADO", H2))
-S.append(Paragraph(
-    "Cada hito del programa cierra tocando una pieza entera: el ejercicio 16, el 34, el 53. Este anexo "
-    "también tiene el suyo. Nueve compases con <b>la misma celda de siempre</b> pasando, en orden, por "
-    "todo lo que trabajaste acá: negras, corcheas, tresillo, contratiempo, puntillo y el push.", BODY))
-S.append(Spacer(1, 4))
-S.append(ej("J", "Los nueve compases que resumen el anexo",
-            "No hay nada nuevo. Es literalmente 8-5-8-5 de punta a punta, y aun así los nueve compases "
-            "suenan a nueve cosas distintas. Si podés tocarlo entero, a tempo y sin mirar, el anexo está "
-            "aprendido.<br/><br/>"
-            "<b>Mirá el último compás.</b> Vuelve el motivo del compás 1 — las mismas cuatro notas con las "
-            "que arrancaste — pero en <b>blancas</b>: la mitad de velocidad. Eso hace dos cosas a la vez. "
-            "Es el <b>leitmotiv</b> del ejercicio 52 del Hito 3 (la idea que vuelve al final y hace que el "
-            "solo se sienta cerrado), y es la tesis de todo este anexo demostrada sobre sí misma: "
-            "<b>mismas notas, otra figura, otra función</b>. Empezaste con una frase y terminás con una "
-            "conclusión, sin haber cambiado una sola nota.",
-            "r10",
-            "Cuando lo tengas, hacé el paso siguiente: tocá los mismos nueve compases con un lick TUYO en "
-            "lugar de la celda. Ahí el anexo deja de ser un ejercicio y pasa a ser una herramienta."))
-
-S.append(Spacer(1, 10))
 S.append(Paragraph("CHECKLIST DE CIERRE", H2))
 S.append(tabla([
     [Paragraph(CAJ, CELL), Paragraph("Puedo dibujar el árbol de memoria y explicar por qué todas las filas duran lo mismo.", CELL)],
@@ -484,7 +463,7 @@ S.append(Paragraph(
     "Si son más, dejó de ser un recurso y se volvió tu pulso nuevo. Eso es todo el anexo en una "
     "grabación.", BODY))
 S.append(Paragraph(
-    "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a J) justamente para que "
+    "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a I) justamente para que "
     "no se mezclen con los 59 del programa: no reemplazan ninguna semana. El módulo de ritmo del mes 2 "
     "(el de lectura) te enseñó a LEER las figuras; éste te enseña a usarlas en tus propias frases.<br/><br/>"
     "<b>Y una aclaración, porque te la vas a preguntar:</b> casi todo el anexo está en la caja 1 y eso es "
