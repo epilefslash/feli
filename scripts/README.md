@@ -45,7 +45,7 @@ Tres cosas que hay que saber antes de tocar esto:
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |
 | `build_hito3.py` | Arma `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` |
 | `build_hito3b.py` | Arma `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` |
-| `build_ritmo.py` | Arma `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` — árbol, diminución, tresillo, swing y síncopa (va en paralelo al Hito 3) |
+| `build_ritmo.py` | Arma `Anexo-Ritmo-y-Construccion-de-Frases.pdf` — árbol, diminución, tresillo, swing y síncopa (va en paralelo al Hito 3) |
 | `cuadernillo_comun.py` | Estética, diagramas de mástil, tablatura en blanco y tablas que comparten los tres |
 
 - ¿Querés **cambiar un ejercicio**? Se edita el bloque `EJ["eNN"]` en el `gen_scores*.py` que corresponda.

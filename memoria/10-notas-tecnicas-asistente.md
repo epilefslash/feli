@@ -195,7 +195,7 @@ hito 3 en la máquina de Feli. No estaba en la carpeta equivocada, tenía el ró
 
 ## 32) ANEXO DE RITMO — el árbol de las figuras y las 3 velocidades (4/8/2026)
 
-`Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf` (4 pág.) · `scripts/gen_scores_ritmo.py` + `build_ritmo.py`.
+`Anexo-Ritmo-y-Construccion-de-Frases.pdf` (13 pág.) · `scripts/gen_scores_ritmo.py` + `build_ritmo.py`.
 Pedido de Feli, complementa el módulo de ritmo de Pozzoli de la sección 31 (que sigue viviendo en su
 máquina). **Va en paralelo al Hito 2 y sus ejercicios se numeran A · B · C**, para no romper la
 numeración corrida 1-59.

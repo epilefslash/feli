@@ -46,7 +46,7 @@ corresponda en vez de releer todo.
 - **Cuadernillos de ejercicios (PDF, para el alumno):** `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf`,
   `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf`, `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf`,
   `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf`.
-- **Anexo de ritmo (PDF, va en paralelo al Hito 3):** `Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf`
+- **Anexo de ritmo (PDF, va en paralelo al Hito 3):** `Anexo-Ritmo-y-Construccion-de-Frases.pdf`
   — el árbol de las figuras + la misma celda en negras/corcheas/semicorcheas + tresillo y swing +
   síncopa, anticipación (el *push*) y el puntillo. Sus ejercicios se numeran **con letras (A a J)**
   justamente para no tocar la numeración 1-59.

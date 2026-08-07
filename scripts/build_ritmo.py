@@ -1,5 +1,14 @@
 # -*- coding: utf-8 -*-
-"""Arma el PDF del ANEXO DE RITMO — el árbol, las 3 velocidades y la síncopa.
+"""Arma el PDF de RITMO Y CONSTRUCCIÓN DE FRASES (anexo del Hito 3).
+
+Dos mitades, y la segunda es la que no está en ningún otro cuadernillo:
+  A-G          -> gramática rítmica: árbol de figuras, tresillo, swing, síncopa, push.
+  H, H-bis, I  -> construcción de frases: desplazar una frase media corchea, y el
+                  molde de llamada y respuesta. Son transcripciones de Feli.
+
+El título dice las dos porque cuando decía sólo "ANEXO DE RITMO" se leía como una
+repetición del módulo de Pozzoli del mes 2 — y el alumno cerraba antes de llegar a
+la segunda mitad, que es justamente la parte que Pozzoli no cubre.
 
 Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r09).
 
@@ -19,13 +28,17 @@ El módulo de ritmo basado en Pozzoli (que Feli produce aparte) se queda en el m
 
 El dato que justifica que exista, contado expandiendo las duraciones heredadas de
 LilyPond (en `c''8 a' g' e'` hay cuatro corcheas y un solo "8" escrito — contar los
-tokens da 395 y es el error que tuvo la primera versión de esta tabla): son **995
-notas**, corcheas 74% · negras 17% · blancas 5% · redondas 3% · **2 semicorcheas** ·
-cero fusas. El alumno termina el programa con un vocabulario rítmico de dos figuras.
+tokens da un número mucho menor, y ése fue el error de las dos primeras versiones de
+esta tabla): los tres hitos tienen **934 notas**, corcheas 77% · negras 13% ·
+blancas 7% · redondas 3% · **4 semicorcheas** · cero fusas. El alumno termina el
+programa con un vocabulario rítmico de dos figuras.
 
-Y de los 217 compases, 165 arrancan justo en el 1 y solo 16 a contratiempo (7%); los
-5 puntillos del programa son todos notas finales sostenidas, ninguno una figura
+Y de los 201 compases, 151 arrancan justo en el 1 y solo 16 a contratiempo (8%); los
+6 puntillos del programa son todos notas largas sostenidas, ninguno una figura
 rítmica adentro de una frase. Ese segundo dato es el que justifica el bloque de síncopa.
+
+⚠️ Estos números son de los TRES HITOS, sin el bonus (cancelado) y sin este anexo. Si
+se agrega o saca un ejercicio, recontarlos — no repetirlos de memoria.
 """
 from reportlab.lib.units import cm
 from reportlab.platypus import Paragraph, Spacer, KeepTogether
@@ -34,11 +47,11 @@ from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, CAJ,
                                ArbolFiguras, GrillaDelCompas, documento, tabla,
                                caja_oscura, score)
 
-doc = documento("Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf",
+doc = documento("Anexo-Ritmo-y-Construccion-de-Frases.pdf",
                 "RITMO Y CONSTRUCCIÓN DE FRASES",
                 "Primera parte — el árbol de las figuras, tresillo, swing y síncopa.\n                 Segunda parte — mover una frase media corchea, y el molde de llamada y respuesta",
                 "Solo con Sabor · Ritmo y construcción de frases (va con el Hito 3)",
-                "Anexo de ritmo - El arbol y las 3 velocidades")
+                "Ritmo y construccion de frases - anexo del Hito 3")
 W = doc.width
 S = []
 
@@ -473,4 +486,4 @@ S.append(Paragraph(
     "contenido.", SMALL))
 
 doc.build(S)
-print("OK  Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf")
+print("OK  Anexo-Ritmo-y-Construccion-de-Frases.pdf")
