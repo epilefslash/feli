@@ -4,7 +4,7 @@
 Requiere que antes se haya corrido `gen_scores_ritmo.py` (genera ./partituras/r01..r09).
 
 Este anexo NO es un hito nuevo: corre en paralelo al Hito 3. Por eso sus ejercicios
-se numeran con letras (A a I) y no tocan la numeración corrida 1-59.
+se numeran con letras (A a I) y no tocan la numeración corrida 1-53.
 
 VA EN EL MES 3, NO EN EL 2, y el motivo no es de carga sino de dependencias:
   · su operación es "agarrá un lick que ya sabés y movelo", y los primeros licks del
@@ -55,20 +55,20 @@ def ej(letra, titulo, bajada, name, meta=None):
 # ============================================================ 1. POR QUÉ EXISTE
 S.append(Paragraph("POR QUÉ ESTE ANEXO EXISTE", H2))
 S.append(Paragraph(
-    "Conté todas las notas de los tres hitos y del bonus. Son <b>995</b>, y se reparten así:", BODY))
+    "Conté todas las notas de los tres hitos. Son <b>934</b>, y se reparten así:", BODY))
 S.append(tabla([
     [Paragraph("<b>Figura</b>", CELLB), Paragraph("<b>Corchea</b>", CELLB), Paragraph("<b>Negra</b>", CELLB),
      Paragraph("<b>Blanca</b>", CELLB), Paragraph("<b>Redonda</b>", CELLB), Paragraph("<b>Semicorchea</b>", CELLB),
      Paragraph("<b>Fusa</b>", CELLB)],
-    [Paragraph("<b>Cuánto</b>", CELLB), Paragraph("74%", CELL), Paragraph("17%", CELL),
-     Paragraph("5%", CELL), Paragraph("3%", CELL),
-     Paragraph("<b>2 en total</b>", CELL), Paragraph("<b>ninguna</b>", CELL)],
+    [Paragraph("<b>Cuánto</b>", CELLB), Paragraph("77%", CELL), Paragraph("13%", CELL),
+     Paragraph("7%", CELL), Paragraph("3%", CELL),
+     Paragraph("<b>4 en total</b>", CELL), Paragraph("<b>ninguna</b>", CELL)],
 ], [W * 0.16] + [W * 0.14] * 6))
 S.append(Spacer(1, 7))
 S.append(Paragraph(
     "O sea: aprendiste <b>dónde</b> están las notas (Hito 1) y <b>cómo</b> atacarlas (Hito 2), pero durante "
-    "todo el programa las tocaste con dos figuras: tres de cada cuatro notas son corcheas. Dos "
-    "semicorcheas en casi mil notas. Eso no está mal — se "
+    "todo el programa las tocaste con dos figuras: casi cuatro de cada cinco notas son corcheas. Cuatro "
+    "semicorcheas en más de novecientas notas. Eso no está mal — se "
     "hizo a propósito, porque meter ritmo nuevo mientras aprendés a afinar un bending es pedirte dos cosas a "
     "la vez. Pero si no lo cerramos, te queda un solo que suena parejo: todas las frases con la misma "
     "densidad, como si hablaras siempre a la misma velocidad.", BODY))
@@ -213,10 +213,10 @@ S.append(Paragraph(
     "alta ahora mismo, sin la guitarra:", BODY))
 S.append(GrillaDelCompas(W))
 S.append(Paragraph(
-    "Conté los compases de los tres hitos y del bonus: son <b>217</b>, y solo <b>16 arrancan a contratiempo</b> "
-    "— el 7%. De los otros, <b>165 arrancan justo en el 1</b>, con el pie, y el resto arranca en algún otro "
-    "número (casi siempre en el 2). Y hay <b>5 puntillos en todo el programa</b>: los cinco son la última "
-    "nota de una frase, aguantada hasta que se acaba el compás. Ninguno es una figura rítmica adentro de "
+    "Conté los compases de los tres hitos: son <b>201</b>, y solo <b>16 arrancan a contratiempo</b> "
+    "— el 8%. De los otros, <b>151 arrancan justo en el 1</b>, con el pie, y el resto arranca en algún otro "
+    "número (casi siempre en el 2). Y hay <b>6 puntillos en todo el programa</b>: los seis son una nota "
+    "larga aguantada hasta que se acaba el compás. Ninguno es una figura rítmica adentro de "
     "una frase.", BODY))
 S.append(Paragraph(
     "En el <b>ejercicio 44</b>, hace un par de semanas, te dije que <b>el ritmo es el 70% de la identidad "
@@ -464,7 +464,7 @@ S.append(Paragraph(
     "grabación.", BODY))
 S.append(Paragraph(
     "Este anexo va en paralelo al Hito 3. Sus ejercicios se numeran con letras (A a I) justamente para que "
-    "no se mezclen con los 59 del programa: no reemplazan ninguna semana. El módulo de ritmo del mes 2 "
+    "no se mezclen con los 53 del programa: no reemplazan ninguna semana. El módulo de ritmo del mes 2 "
     "(el de lectura) te enseñó a LEER las figuras; éste te enseña a usarlas en tus propias frases.<br/><br/>"
     "<b>Y una aclaración, porque te la vas a preguntar:</b> casi todo el anexo está en la caja 1 y eso es "
     "a propósito. Si además de cambiar la figura te cambiara la posición, no sabrías cuál de las dos cosas "

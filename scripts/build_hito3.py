@@ -330,8 +330,8 @@ S.append(Paragraph(
     "<b>Cómo elegís:</b> escuchá el acompañamiento. Si la base es un vamp menor tipo Lam–Fa–Sol "
     "(o cualquier balada menor), va la <b>6ª menor</b>. Si la base es un blues o un vamp con séptimas, "
     "va la <b>6ª mayor</b>. Metida al revés, cualquiera de las dos suena mal — y no es tu oído fallando, "
-    "es la nota chocando de verdad contra el acorde. La 6ª mayor se trabaja a fondo en el "
-    "<b>cuadernillo bonus (ej. 54, el \"BB box\")</b>, después del programa.", SMALL))
+    "es la nota chocando de verdad contra el acorde. La <b>6ª mayor</b> —el \"BB box\"— es territorio "
+    "para después del programa: por ahora te alcanza con saber que existe y por qué suena distinta.", SMALL))
 
 S.append(PageBreak())
 S.append(Paragraph("EL BLUE NOTE EN TODO EL MÁSTIL", H2))

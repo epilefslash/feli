@@ -231,7 +231,7 @@ S.append(PageBreak())
 S.append(seccion_roja("5 · MATERIAL DE CLASE (cuadernillos de ejercicios)"))
 S.append(Spacer(1, 8))
 S.append(Paragraph(
-    "El programa entero está respaldado por <b>53 ejercicios con numeración corrida</b> (más 6 de bonus), "
+    "El programa entero está respaldado por <b>53 ejercicios con numeración corrida</b> (más un anexo de ritmo), "
     "cada uno con partitura real y tablatura hechas con LilyPond, diagramas de mástil verificados traste "
     "por traste, criterios claros de \"ya lo tenés\", y un entregable grabable por hito. No es un curso "
     "improvisado sobre la marcha: el contenido pedagógico de los 3 meses ya existe.", BODY))
@@ -327,7 +327,7 @@ S.append(Spacer(1, 10))
 S.append(caja_oscura(
     '<font color="white" size="10.5"><b>El estado real del proyecto</b></font><br/>'
     '<font color="#f7d7d2" size="9">8 videos filmados + 5 guiones listos para filmar, el programa '
-    'pedagógico completo (53 ejercicios + 6 de bonus), 3 lead magnets, 4 carruseles, y el embudo '
+    'pedagógico completo (53 ejercicios + anexo de ritmo), 3 lead magnets, 4 carruseles, y el embudo '
     'completamente diseñado. Lo que falta son decisiones de 5 minutos, no producción. · %s</font>' % IG, W))
 
 doc.build(S)

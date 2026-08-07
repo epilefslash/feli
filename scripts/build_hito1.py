@@ -315,7 +315,7 @@ S.append(Paragraph("Y DESPUÉS DE ESTO, ¿QUÉ?", H2))
 S.append(Paragraph(
     "El Hito 1 te da el <b>territorio</b>: ya sabés dónde están las notas y podés moverte sin perderte. "
     "Pero saber dónde están las notas no alcanza para emocionar a nadie — por eso el Hito 2 es <b>EL SABOR</b>: "
-    "ligados, slides, adornos, bending y vibrato trabajados en serio, que es lo que hace que la misma escala suene "
+    "ligados, slides, bending, vibrato, espacio y dinámica trabajados en serio, que es lo que hace que la misma escala suene "
     "a Gary Moore y no a ejercicio. Y el Hito 3 es <b>EL VOCABULARIO</b>: tus propios licks, robados honestamente "
     "a los grandes, y tu solo final.", BODY))
 S.append(Paragraph(
