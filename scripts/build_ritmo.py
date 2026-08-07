@@ -35,9 +35,9 @@ from cuadernillo_comun import (H1, H2, H3, BODY, SMALL, CELL, CELLB, CAJ,
                                caja_oscura, score)
 
 doc = documento("Anexo-Ritmo-El-Arbol-y-las-3-Velocidades.pdf",
-                "ANEXO DE RITMO",
-                "El árbol de las figuras · el mismo lick en 4, 2 o 1 pulso · tresillo, swing,\n                 síncopa, desplazamiento y llamada-respuesta",
-                "Solo con Sabor · Anexo de ritmo (va con el Hito 3)",
+                "RITMO Y CONSTRUCCIÓN DE FRASES",
+                "Primera parte — el árbol de las figuras, tresillo, swing y síncopa.\n                 Segunda parte — mover una frase media corchea, y el molde de llamada y respuesta",
+                "Solo con Sabor · Ritmo y construcción de frases (va con el Hito 3)",
                 "Anexo de ritmo - El arbol y las 3 velocidades")
 W = doc.width
 S = []
