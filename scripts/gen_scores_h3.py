@@ -70,7 +70,7 @@ EJ["e37"] = r"""
 EJ["e38"] = r"""
   \tuplet 3/2 { c''8\1^\markup{\bold "celda · caja 1"}( a'\1) g'\2 } \tuplet 3/2 { c''8\1( a'\1) g'\2 }
   <g'\2 c''\1>4^\markup{\bold "dobles cuerdas · caja 2"} <a'\2 d''\1>4 |
-  <g'\3 a'\2>2^\markup{\bold "unísono · caja 3"} e'8\3 c'\4 a4\5 |
+  <g'\3 a'\2>2^\markup{\bold "unísono · caja 3"} \tabSym \bendFull e'8\3 c'\4 a4\5 |
   a1\5 \tabSym \vib |
 """
 
