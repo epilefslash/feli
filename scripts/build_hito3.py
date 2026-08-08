@@ -62,10 +62,17 @@ S.append(Paragraph(
 
 S.append(Paragraph("UNA ACLARACIÓN SOBRE LAS PARTITURAS DE ESTE CUADERNILLO", H2))
 S.append(Paragraph(
-    "Los licks que vas a encontrar acá <b>no son transcripciones</b> de solos de nadie: son frases originales "
-    "escritas <i>en el estilo de</i> cada escuela. Es a propósito, y es exactamente el punto del hito. "
-    "Lo que se enseña acá no son las notas de Page — es el <b>mecanismo</b> que hace que las frases de Page "
-    "funcionen. Ese mecanismo no tiene dueño, y es lo único que te sirve para inventar lo tuyo.", BODY))
+    "Acá vas a ver dos cosas distintas, y conviene que sepas cuál estás mirando en cada página.", BODY))
+S.append(Paragraph(
+    "<b>Los ejercicios numerados (del 35 al 53) NO son transcripciones</b> de solos de nadie: son frases "
+    "originales escritas <i>en el estilo de</i> cada escuela. Es a propósito, y es exactamente el punto del "
+    "hito. Lo que se enseña acá no son las notas de Page — es el <b>mecanismo</b> que hace que las frases de "
+    "Page funcionen. Ese mecanismo no tiene dueño, y es lo único que te sirve para inventar lo tuyo.", BODY))
+S.append(Paragraph(
+    "<b>Las páginas marcadas como CITA son otra cosa:</b> ésas sí son transcripciones, y están para que veas "
+    "el mecanismo en su hábitat — tocado por el que lo inventó, en un disco de verdad. <b>No se practican "
+    "como los ejercicios.</b> Se escuchan, se miran, y se les busca el recurso adentro. Cada cita te dice "
+    "exactamente qué mirar; si te ponés a sacarla nota por nota antes de tiempo, estás haciendo otra cosa.", BODY))
 
 # ============================================================ LAS DOS ESCUELAS
 S.append(PageBreak())
