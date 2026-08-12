@@ -303,6 +303,46 @@
   .warn { border-left: 5px solid var(--rust); background: var(--paper-2); padding: 0.95rem 1.15rem; }
   .warn h4 { color: var(--rust); margin-bottom: 0.3rem; }
 
+  /* Bloques que le hablan a Feli, no a Alejo. Van visualmente
+     apagados para que el alumno sepa que puede saltearlos. */
+  .profe {
+    border: 1px dashed var(--ink-faint);
+    background: transparent;
+    padding: 0.9rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .profe-tag {
+    align-self: flex-start;
+    font-family: var(--f-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    border: 1px solid var(--rule);
+    padding: 0.18rem 0.45rem;
+  }
+  .profe h4 { color: var(--ink-soft); margin-bottom: 0.3rem; }
+  .profe table { font-size: 0.85rem; }
+  .profe > p, .profe li { color: var(--ink-soft); font-size: 0.92rem; }
+
+  /* Cargadas de cancha. */
+  .cancha {
+    border-left: 5px solid var(--rust);
+    background: var(--paper-2);
+    padding: 0.8rem 1.05rem;
+  }
+  .cancha b {
+    display: block;
+    font-family: var(--f-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 0.3rem;
+  }
+
   .table-scroll { overflow-x: auto; }
   table {
     width: 100%;
@@ -618,11 +658,11 @@
 
 <header class="cover">
   <div class="wrap stack stack-md">
-    <span class="eyebrow">Cuadernillo de guitarra eléctrica · Alejo</span>
+    <span class="eyebrow">Tu cuadernillo de guitarra eléctrica · Ale</span>
     <h1>Encuentro con un ángel <em>amateur</em></h1>
     <p class="cover-sub">
       Indio Solari y Los Fundamentalistas del Aire Acondicionado. De no haber
-      agarrado nunca una guitarra a tocar el tema entero, en cuatro clases.
+      agarrado una guitarra en tu vida a tocarlo entero, en cuatro clases.
     </p>
     <div class="cover-meta">
       <span>4 clases · 60 min</span>
@@ -661,26 +701,34 @@
 
         <div class="stack stack-md">
           <p class="lede">
-            Alejo arranca de cero, así que el curso está armado al revés de como
-            suele enseñarse: <span class="marker">toca música el primer día</span>
-            y la teoría entra después, cuando ya tiene dónde apoyarla.
+            Arrancás de cero, así que armé esto al revés de como se enseña
+            normalmente: <span class="marker">tocás música desde el primer día</span>
+            y la teoría entra después, cuando ya tenés dónde apoyarla.
           </p>
           <p>
             El tema, en el disco, está en <strong>Do mayor</strong>: va sobre
             C, F, <strong>Fm</strong> y G. Ese <strong>Fm</strong> es lo más lindo
             que tiene —es el acorde que hace que la frase te agarre el pecho— pero
-            lleva cejilla y en la clase 2 lo mata. Así que no lo tocamos en Do.
+            lleva cejilla, que es aplastar las seis cuerdas con un dedo solo. Para
+            alguien que arranca es un muro.
           </p>
+          <div class="cancha">
+            <b>Nota deportiva</b>
+            No te voy a hacer tocar el Fa menor en la segunda clase. Te pongo una
+            cejilla, no te sale, te frustrás, dejás la guitarra
+            <span class="marker">y me terminás mandando a entrenar a las inferiores
+            de Central</span>. Y eso, sinceramente, no me lo merezco.
+          </div>
         </div>
 
         <div class="key stack stack-sm">
           <h4>La decisión que ordena todo el cuadernillo</h4>
           <p>
-            Bajamos el tema tres semitonos y lo tocamos en <strong>La mayor</strong>.
+            Bajamos el tema tres semitonos y lo tocás en <strong>La mayor</strong>.
             Los mismos cuatro acordes pasan a ser <strong>A, D, Dm y E</strong>:
             los cuatro abiertos, <span class="marker">ni una cejilla en todo el
-            tema</span>. Y para que suene afinado contra el video de YouTube, Alejo
-            usa <strong>Transpose en −3</strong>.
+            tema</span>. Y para que suene afinado contra el video de YouTube, usás
+            <strong>Transpose en −3</strong>.
           </p>
         </div>
 
@@ -691,7 +739,7 @@
               <thead>
                 <tr>
                   <th>En el disco (Do)</th>
-                  <th>Alejo toca (La)</th>
+                  <th>Vos tocás (La)</th>
                   <th>Dificultad</th>
                 </tr>
               </thead>
@@ -718,41 +766,40 @@
                 <tr><th>Clase</th><th>Tema técnico</th><th>Logro concreto</th></tr>
               </thead>
               <tbody>
-                <tr><td class="t">01 ✓</td><td class="b">Partes, afinación, digitación</td><td>Hace <span class="ch">A</span> y <span class="ch">E</span>, un compás cada uno a 50 BPM</td></tr>
-                <tr><td class="t">02</td><td class="b">El <span class="ch">D</span> y el primer ritmo</td><td>Encadena A, D y E con la mano en corcheas</td></tr>
-                <tr><td class="t">03</td><td class="b">El <span class="ch">Dm</span> y el rasgueo</td><td>Toca la frase D–Dm–A con «quiero pan yo quiero»</td></tr>
-                <tr><td class="t">04</td><td class="b">Estructura y dinámica</td><td>Toca el tema con el video, de punta a punta</td></tr>
+                <tr><td class="t">01 ✓</td><td class="b">Partes, afinación, digitación</td><td>Hacés <span class="ch">A</span> y <span class="ch">E</span>, un compás cada uno a 50 BPM</td></tr>
+                <tr><td class="t">02</td><td class="b">El <span class="ch">D</span> y el primer ritmo</td><td>Encadenás A, D y E con la mano en corcheas</td></tr>
+                <tr><td class="t">03</td><td class="b">El <span class="ch">Dm</span> y el rasgueo</td><td>Tocás la frase D–Dm–A con «quiero pan yo quiero»</td></tr>
+                <tr><td class="t">04</td><td class="b">Estructura y dinámica</td><td>Tocás el tema con el video, de punta a punta</td></tr>
               </tbody>
             </table>
           </div>
           <p class="small soft">
-            El curso va entero por <strong>acordes abiertos</strong>: un acorde nuevo
-            por clase, sumado a los que ya tiene. Ninguno lleva cejilla, así que no
-            hay un muro donde frenarse. Los power chords quedan como recurso para más
-            adelante, no como puerta de entrada.
+            Vamos enteros por <strong>acordes abiertos</strong>: un acorde nuevo por
+            clase, sumado a los que ya tenés. Ninguno lleva cejilla, así que no hay
+            ningún muro donde frenarte.
           </p>
         </div>
 
         <div class="stack stack-md">
-          <h3>El kit</h3>
+          <h3>Lo que necesitás</h3>
           <ul class="todo">
-            <li><span class="box"></span><span>Guitarra eléctrica, cable y ampli (alcanza un ampli chico).</span></li>
-            <li><span class="box"></span><span>Púas de <strong>0,73 mm</strong>. Llevá varias: se pierden.</span></li>
-            <li><span class="box"></span><span>Afinador: app en el celu está perfecto.</span></li>
+            <li><span class="box"></span><span>Guitarra eléctrica, cable y ampli (alcanza uno chico).</span></li>
+            <li><span class="box"></span><span>Púas de <strong>0,73 mm</strong>. Llevate varias: se pierden.</span></li>
+            <li><span class="box"></span><span>Afinador: la app del celu está perfecta.</span></li>
             <li><span class="box"></span><span>Metrónomo (app) para las clases 1 y 2.</span></li>
-            <li><span class="box"></span><span><strong>Transpose</strong> instalado en Chrome, en la compu que use para practicar.</span></li>
-            <li><span class="box"></span><span>Correa, si va a querer tocar parado más adelante.</span></li>
+            <li><span class="box"></span><span><strong>Transpose</strong> instalado en Chrome, en la compu que uses para practicar.</span></li>
+            <li><span class="box"></span><span>Correa, si más adelante querés tocar parado.</span></li>
           </ul>
         </div>
 
-        <div class="warn stack stack-sm">
-          <h4>Dos cosas que arruinan la primera clase</h4>
+        <div class="profe">
+          <span class="profe-tag">Nota para mí, antes de la 1ª clase</span>
+          <h4>Dos cosas que la arruinan</h4>
           <p>
             <strong>La guitarra desafinada</strong> y <strong>la acción muy alta.</strong>
-            Si las cuerdas están lejísimos del diapasón, Alejo va a creer que no
-            tiene fuerza en los dedos cuando en realidad el problema es el
-            instrumento. Chequealo antes de arrancar y, si hace falta, ajustale el
-            puente o mandalo a un setup.
+            Si las cuerdas están lejísimos del diapasón, Ale va a creer que no tiene
+            fuerza en los dedos cuando el problema es el instrumento. Chequear antes
+            de arrancar y, si hace falta, ajustar el puente o mandarla a un setup.
           </p>
         </div>
 
@@ -770,21 +817,21 @@
         <p>
           Es una extensión gratuita de Chrome que le cambia el <strong>tono</strong>
           y la <strong>velocidad</strong> a cualquier video de YouTube, y te deja
-          repetir un pedacito en loop. Es la herramienta que convierte a YouTube en
-          una sala de ensayo. La instala una vez y la usa para siempre.
+          repetir un pedacito en loop. Es lo que convierte a YouTube en tu sala de
+          ensayo. La instalás una vez y la usás para siempre.
         </p>
 
         <div class="stack stack-md">
-          <h3>Cómo se instala</h3>
+          <h3>Cómo la instalás</h3>
           <ol>
-            <li>En Chrome, entrar a la Chrome Web Store y buscar <strong>Transpose ▲▼ pitch ▹ speed ▹ loop</strong>.</li>
-            <li>«Añadir a Chrome». No hay que crear cuenta ni pagar nada.</li>
-            <li>Abrir el video del tema. Aparece un panelito de Transpose sobre el reproductor.</li>
+            <li>En Chrome, entrá a la Chrome Web Store y buscá <strong>Transpose ▲▼ pitch ▹ speed ▹ loop</strong>.</li>
+            <li>«Añadir a Chrome». No hace falta crear cuenta ni pagar nada.</li>
+            <li>Abrí el video del tema. Te va a aparecer un panelito de Transpose sobre el reproductor.</li>
           </ol>
         </div>
 
         <div class="stack stack-md">
-          <h3>Cómo lo configura para este tema</h3>
+          <h3>Cómo la configurás para este tema</h3>
           <dl class="knob">
             <div>
               <dt>Pitch</dt>
@@ -811,25 +858,25 @@
           <p>
             De Do a La hay tres semitonos para abajo: <span class="mono">Do → Si → Si♭ → La</span>.
             Al poner −3, el video suena en La y coincide clavado con los acordes que
-            está tocando Alejo. <span class="marker">Si suena raro, casi siempre es
-            que quedó en +3 en vez de −3.</span>
+            estás tocando. <span class="marker">Si te suena raro, fijate que no haya
+            quedado en +3 en vez de −3</span> — es el error de siempre.
           </p>
         </div>
 
         <div class="stack stack-md">
           <h3>El loop: para lo que de verdad sirve</h3>
           <p>
-            Cuando llegue al <strong>D → Dm</strong> y no le salga, que marque el
-            loop justo en esos cuatro segundos y lo deje girando. Diez vueltas
-            seguidas del pedacito difícil valen más que veinte pasadas del tema
-            entero. Es la diferencia entre practicar y solo tocar.
+            Cuando llegues al <strong>D → Dm</strong> y no te salga, marcá el loop
+            justo en esos cuatro segundos y dejalo girando. Diez vueltas seguidas del
+            pedacito difícil valen más que veinte pasadas del tema entero. Es la
+            diferencia entre practicar y solo tocar.
           </p>
         </div>
 
         <div class="warn stack stack-sm">
           <h4>La regla de la velocidad</h4>
           <p>
-            Que suba de 0.75 a 1.0 <strong>solo cuando le salga limpio tres veces
+            Subí de 0.75 a 1.0 <strong>solo cuando te salga limpio tres veces
             seguidas</strong>, nunca antes. Subir la velocidad demasiado pronto es la
             forma más rápida de aprender un error y después tener que desaprenderlo.
           </p>
@@ -857,7 +904,7 @@
           <h3>La estructura</h3>
           <p class="small soft">
             Cada bloque = 4 tiempos (un compás). Contá «uno, dos, tres, cuatro» y
-            cambiás.
+            cambiás de acorde.
           </p>
           <div class="map">
             <div class="map-row">
@@ -899,25 +946,26 @@
           <p>
             <strong>A</strong> es «casa» y <strong>E</strong> es el que tira para
             volver a casa. El tema es básicamente ese ida y vuelta, y cada tanto
-            aparece el <strong>D</strong>, que abre. Si Alejo escucha eso, ya no
-            necesita memorizar nada: lo va a anticipar.
+            aparece el <strong>D</strong>, que abre. Si aprendés a escuchar eso, no
+            necesitás memorizar nada: lo vas a anticipar solo.
           </p>
         </div>
 
-        <div class="warn stack stack-sm">
-          <h4>Contá las vueltas con el video</h4>
+        <div class="profe">
+          <span class="profe-tag">Nota para mí</span>
+          <h4>Contar las vueltas con el video</h4>
           <p>
             Los acordes y el orden son estos, pero la cantidad exacta de repeticiones
-            de cada parte —y en qué frase entra el <strong>Dm</strong>— conviene
-            contarlas con el video puesto en la primera clase y anotarlas acá al
-            margen. En el disco además hay riffs y punteos entre las frases: eso se
-            lo agregás en la clase 5, cuando el esqueleto ya esté firme.
+            de cada parte —y en qué frase entra el Dm— conviene contarlas con el
+            video puesto en la primera clase y anotarlas acá al margen. En el disco
+            además hay riffs y punteos entre las frases: eso se agrega en la clase 5,
+            cuando el esqueleto ya esté firme.
           </p>
         </div>
 
         <p class="small soft">
           La letra no va en el cuadernillo. Imprimila aparte y engrampala al final,
-          así él puede escribir los acordes encima de las sílabas donde cambian.
+          así podés escribir los acordes encima de las sílabas donde cambian.
         </p>
 
       </div>
@@ -935,20 +983,21 @@
           <h3>Power chords · para más adelante</h3>
           <p>
             Índice y anular, siempre a la misma distancia. Es <strong>la misma
-            forma</strong> movida por el mástil: si aprende una, aprendió las tres.
-            Solo suenan las dos cuerdas marcadas; el resto se apagan apoyando la
-            palma.
+            forma</strong> movida por el mástil: si aprendés una, aprendiste las
+            tres. Solo suenan las dos cuerdas marcadas; el resto las apagás
+            apoyando la palma.
           </p>
           <div class="chords" id="chords-power"></div>
           <div class="key stack stack-sm">
             <h4>No están en las cuatro clases</h4>
             <p>
-              Van acá de referencia, para cuando quiera que el tema suene más pesado
-              o con distorsión. Un power chord son dos notas y
+              Van acá de referencia, para cuando quieras que el tema suene más
+              pesado o con distorsión. Un power chord son dos notas y
               <strong>no tiene la nota que decide si es mayor o menor</strong>: por
               eso <span class="marker">D y Dm son el mismo D5</span> y el tema entero
-              sale con tres formas. Es un buen recurso más adelante, pero no reemplaza
-              a los acordes abiertos, que son los que le abren las otras canciones.
+              te sale con tres formas. Es un buen recurso para más adelante, pero no
+              reemplaza a los acordes abiertos, que son los que te abren las otras
+              canciones.
             </p>
           </div>
         </div>
@@ -973,7 +1022,7 @@
             </p>
             <p class="small soft">
               Los dedos sí se reordenan: en el D van 1-G, 2-e, 3-B, y en el Dm van
-              1-e, 2-G, 3-B. El anular se queda quieto en los dos.
+              1-e, 2-G, 3-B. El anular se te queda quieto en los dos.
             </p>
           </div>
         </div>
@@ -988,7 +1037,7 @@
       <div class="wrap class-bar-inner">
         <span class="class-num">01</span>
         <div>
-          <h2>Partes, afinación y los dos primeros acordes</h2>
+          <h2>Partes, afinación y tus dos primeros acordes</h2>
           <span class="class-goal">Dada ✓ · A y E, un compás cada uno a 50 BPM</span>
         </div>
       </div>
@@ -1000,7 +1049,7 @@
         <table>
           <thead><tr><th>Orden</th><th>Bloque</th><th>Qué vimos</th></tr></thead>
           <tbody>
-            <tr><td class="t">1</td><td class="b">La guitarra</td><td>Las partes, cable y ampli. Cómo se sienta y cómo agarra la púa.</td></tr>
+            <tr><td class="t">1</td><td class="b">La guitarra</td><td>Las partes, cable y ampli. Cómo sentarte y cómo agarrar la púa.</td></tr>
             <tr><td class="t">2</td><td class="b">Afinación</td><td>Mi–La–Re–Sol–Si–Mi con la app, cuerda por cuerda.</td></tr>
             <tr><td class="t">3</td><td class="b">Digitación</td><td>Trastes 7 al 10, un dedo por traste, púa abajo y arriba.</td></tr>
             <tr><td class="t">4</td><td class="b">Dos acordes</td><td><span class="ch">A</span> y <span class="ch">E</span>, abiertos. Los dos son del tema.</td></tr>
@@ -1010,7 +1059,7 @@
       </div>
 
       <div class="stack stack-md">
-        <h3>1 · Las partes de la guitarra</h3>
+        <h3>1 · Las partes de tu guitarra</h3>
         <div class="table-scroll">
           <table>
             <thead><tr><th>Parte</th><th>Para qué sirve</th></tr></thead>
@@ -1048,20 +1097,21 @@
       <div class="stack stack-md">
         <h3>3 · Cómo afinar</h3>
         <p>
-          Con la app abierta, se toca una cuerda al aire y se gira la clavija hasta
-          que la nota quede justo en el centro. De la 6ª a la 1ª, una por una.
+          Con la app abierta, tocás una cuerda al aire y girás la clavija hasta que
+          la nota quede justo en el centro. De la 6ª a la 1ª, una por una.
         </p>
         <ul>
-          <li><strong>Girar de a poquito.</strong> Un cuarto de vuelta ya mueve bastante.</li>
-          <li><strong>Llegar siempre subiendo.</strong> Si te pasaste, aflojá de más y volvé a subir hasta la nota. Si llegás bajando, la cuerda se desafina sola a los dos minutos.</li>
-          <li><strong>Dar una segunda vuelta.</strong> Afinar una cuerda destensa un poco las otras, así que cuando terminás la 1ª volvés a chequear la 6ª.</li>
+          <li><strong>Girá de a poquito.</strong> Un cuarto de vuelta ya mueve bastante.</li>
+          <li><strong>Llegá siempre subiendo.</strong> Si te pasaste, aflojá de más y volvé a subir hasta la nota. Si llegás bajando, la cuerda se desafina sola a los dos minutos.</li>
+          <li><strong>Dale una segunda vuelta.</strong> Afinar una cuerda destensa un poco las otras, así que cuando termines la 1ª volvé a chequear la 6ª.</li>
         </ul>
-        <div class="warn stack stack-sm">
-          <h4>Antes de tocar, siempre</h4>
+        <div class="profe">
+          <span class="profe-tag">Nota para mí</span>
           <p>
-            Que afine <em>él</em>, aunque tarde cinco minutos y vos lo harías en
-            treinta segundos. Un principiante que no sabe afinar depende de alguien
-            para poder tocar, y el día que no está ese alguien, no agarra la guitarra.
+            Que afine <em>él</em> siempre, aunque tarde cinco minutos y yo lo haría
+            en treinta segundos. Un principiante que no sabe afinar depende de
+            alguien para poder tocar, y el día que no está ese alguien, no agarra la
+            guitarra.
           </p>
         </div>
       </div>
@@ -1071,6 +1121,10 @@
         <p>
           Un dedo por traste, sin levantar el anterior hasta que haga falta. La púa
           va <strong>alternada</strong>: abajo, arriba, abajo, arriba.
+        </p>
+        <p class="small soft">
+          Esto no se toca de un tema, es puro gimnasio para la mano — como el
+          precalentamiento antes de entrar a la cancha.
         </p>
         <pre class="tab">e|--------------------------------|
 B|--------------------------------|
@@ -1085,50 +1139,50 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
           <p>
             Ahí arriba <span class="marker">los trastes están más juntos</span>, así
             que la mano se estira mucho menos y no se cansa. Cuando la digitación ya
-            salga cómoda, se va bajando de a un traste hacia el clavijero, que es la
+            te salga cómoda, vas bajando de a un traste hacia el clavijero, que es la
             zona difícil.
           </p>
         </div>
         <p class="small soft">
           Después de la 6ª cuerda, el mismo ejercicio en la 5ª, la 4ª, y así hasta la
-          1ª. Es el calentamiento del resto de su vida como guitarrista.
+          1ª. Es el calentamiento del resto de tu vida como guitarrista.
         </p>
       </div>
 
       <div class="stack stack-md">
-        <h3>5 · Los dos primeros acordes</h3>
+        <h3>5 · Tus dos primeros acordes</h3>
         <p>
           Los dos son abiertos y ninguno lleva cejilla. El <strong>E</strong> usa las
           seis cuerdas; en el <strong>A</strong> la 6ª no suena. En el A los tres
-          dedos van en fila sobre el traste 2, y al principio se pisan entre ellos:
-          que entre con la punta de cada dedo y baje el pulgar por detrás del mástil.
+          dedos van en fila sobre el traste 2, y al principio se te van a pisar entre
+          ellos: entrá con la punta de cada dedo y bajá el pulgar por detrás del
+          mástil.
         </p>
         <div class="chords" id="chords-c1"></div>
         <div class="warn stack stack-sm">
-          <h4>Si suena a trapo</h4>
+          <h4>Si te suena a trapo</h4>
           <p>
-            Que toque las cuerdas del acorde <strong>una por una</strong> y busque
-            cuál no suena. Casi siempre es un dedo que se acostó sobre la cuerda de
-            al lado. Se corrige entrando más con la punta del dedo y llevando la
-            muñeca un poco hacia adelante.
+            Tocá las cuerdas del acorde <strong>una por una</strong> y buscá cuál no
+            suena. Casi siempre es un dedo que se te acostó sobre la cuerda de al
+            lado. Se corrige entrando más con la punta del dedo y llevando la muñeca
+            un poco hacia adelante.
           </p>
         </div>
       </div>
 
       <div class="key stack stack-sm">
-        <h4>Con estos dos ya tiene medio tema</h4>
+        <h4>Con estos dos ya tenés medio tema</h4>
         <p>
           <span class="ch">A</span> y <span class="ch">E</span> no son dos acordes
           cualquiera: son <em>los</em> dos acordes de
           <em>Ángel amateur</em>. La intro, la estrofa y el cierre son ese ida y
           vuelta. O sea que
-          <span class="marker">después de la primera clase ya puede tocar la mayor
-          parte del tema</span> — le falta nada más la frase del medio, que son dos
-          acordes más.
+          <span class="marker">ya podés tocar la mayor parte del tema</span> — te
+          falta nada más la frase del medio, que son dos acordes más.
         </p>
         <div class="map">
           <div class="map-row">
-            <span class="map-label">Lo que ya cubre</span>
+            <span class="map-label">Lo que ya cubrís</span>
             <div class="bars">
               <span class="bar">A</span><span class="bar alt">E</span>
               <span class="bar">A</span><span class="bar alt">E</span>
@@ -1136,9 +1190,6 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
             </div>
           </div>
         </div>
-        <p class="small soft">
-          Decíselo tal cual en la clase 2. Es cierto y es lo que lo va a enganchar.
-        </p>
       </div>
 
       <div class="stack stack-md">
@@ -1155,18 +1206,18 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
           <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
         </div>
         <p class="small soft">
-          Todavía no hay patrón de rasgueo: eso entra más adelante. Por ahora la mano
+          Todavía no hay patrón de rasgueo: eso entra más adelante. Por ahora tu mano
           derecha solo marca el pulso.
         </p>
       </div>
 
       <div class="key stack stack-sm">
-        <h4>La clave de esta clase</h4>
+        <h4>Lo más importante de esta clase</h4>
         <p>
-          No importa si el cambio de acorde queda lento o sucio.
+          No importa si el cambio de acorde te queda lento o sucio.
           <span class="marker">Importa que no se corte el pulso.</span>
-          Si se le va a trabar, que llegue tarde al acorde pero siga contando. Esto
-          es lo más difícil de instalar y lo que más rinde después.
+          Si se te va a trabar, llegá tarde al acorde pero seguí contando. Esto es lo
+          más difícil de instalar y lo que más te va a rendir después.
         </p>
       </div>
 
@@ -1176,7 +1227,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
           <li><span class="box"></span><span>10 minutos por día, todos los días. Mejor 10 diarios que 70 el sábado.</span></li>
           <li><span class="box"></span><span>Afinar solo, antes de cada práctica.</span></li>
           <li><span class="box"></span><span>Digitación 7-8-9-10 con púa alternada, en la 6ª cuerda.</span></li>
-          <li><span class="box"></span><span><strong>Que suenen los dos acordes</strong>: un compás de A, un compás de E, con la base a 50 BPM.</span></li>
+          <li><span class="box"></span><span><strong>Que te suenen los dos acordes</strong>: un compás de A, un compás de E, con la base a 50 BPM.</span></li>
           <li><span class="box"></span><span>Chequear cuerda por cuerda que en cada acorde no haya ninguna muda.</span></li>
         </ul>
       </div>
@@ -1202,7 +1253,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <table>
           <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
-            <tr><td class="t">0–10</td><td class="b">Repaso</td><td>Que afine él solo. La vuelta <span class="ch">A</span> ↔ <span class="ch">E</span> a 50, chequeando que no haya cuerdas mudas.</td></tr>
+            <tr><td class="t">0–10</td><td class="b">Repaso</td><td>Afinar solo. La vuelta <span class="ch">A</span> ↔ <span class="ch">E</span> a 50, chequeando que no haya cuerdas mudas.</td></tr>
             <tr><td class="t">10–22</td><td class="b">El <span class="ch">D</span></td><td>El triangulito. Es el que más ensucia al principio.</td></tr>
             <tr><td class="t">22–32</td><td class="b">Cambios</td><td><span class="ch">A</span> ↔ <span class="ch">D</span> y <span class="ch">D</span> ↔ <span class="ch">A</span> ↔ <span class="ch">E</span>.</td></tr>
             <tr><td class="t">32–44</td><td class="b">Ritmo</td><td>De negras a corcheas ↓↑. La mano no frena nunca.</td></tr>
@@ -1224,9 +1275,10 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <div class="warn stack stack-sm">
           <h4>Es el que más ensucia al principio</h4>
           <p>
-            Dos cosas fallan casi siempre: el dedo del medio se acuesta y apaga la 1ª
-            cuerda, y la mano derecha golpea la 6ª y la 5ª, que no deberían sonar.
-            Que apunte la púa a la 4ª cuerda y que empiece desde ahí para abajo.
+            Dos cosas van a fallar casi seguro: el dedo del medio se te acuesta y
+            apaga la 1ª cuerda, y la mano derecha golpea la 6ª y la 5ª, que no
+            deberían sonar. Apuntá la púa a la 4ª cuerda y empezá desde ahí para
+            abajo.
           </p>
         </div>
       </div>
@@ -1234,11 +1286,11 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
       <div class="stack stack-md">
         <h3>2 · Los cambios</h3>
         <p>
-          Con estos tres acordes ya tiene todo el tema menos una parte. Practicá los
+          Con estos tres acordes ya tenés todo el tema menos una parte. Practicá los
           cambios de a pares, no la canción entera.
         </p>
         <ul>
-          <li><strong>A ↔ E</strong> — la vuelta que ya trae de la clase 1. Debería salir sin pensarlo.</li>
+          <li><strong>A ↔ E</strong> — la vuelta que ya traés de la clase 1. Te debería salir sin pensarla.</li>
           <li><strong>A ↔ D</strong> — el nuevo. Los dedos cruzan de las cuerdas graves a las finitas.</li>
           <li><strong>D ↔ A ↔ E</strong> — los tres seguidos, un compás cada uno.</li>
         </ul>
@@ -1247,8 +1299,8 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
           <p>
             En el cambio <strong>A → D</strong> hay un dedo que casi no se mueve: el
             que está en la 3ª cuerda se queda en el traste 2 y solo cambia de dedo.
-            <span class="marker">Que use eso de referencia</span> en vez de rearmar
-            el acorde desde cero cada vez.
+            <span class="marker">Usá eso de referencia</span> en vez de rearmar el
+            acorde desde cero cada vez.
           </p>
         </div>
       </div>
@@ -1256,9 +1308,9 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
       <div class="stack stack-md">
         <h3>3 · Ritmo: de negras a corcheas</h3>
         <p>
-          En la clase 1 la mano marcaba cuatro golpes para abajo. Ahora se duplica:
+          En la clase 1 tu mano marcaba cuatro golpes para abajo. Ahora se duplica:
           baja y sube sin parar, como un péndulo. Aunque el acorde dure, la mano no
-          frena nunca. <strong>Este es el primer ritmo de verdad del curso.</strong>
+          frena nunca. <strong>Este es tu primer ritmo de verdad.</strong>
         </p>
         <div class="table-scroll">
           <div class="grid8" aria-label="Corcheas: abajo arriba alternado, ocho golpes">
@@ -1282,7 +1334,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
       <div class="stack stack-md">
         <h3>4 · Palm mute</h3>
         <p>
-          El canto de la mano derecha apoya suavecito sobre las cuerdas, justo donde
+          El canto de tu mano derecha apoya suavecito sobre las cuerdas, justo donde
           tocan el puente. El acorde deja de sonar abierto y pasa a sonar corto,
           apretado. Es lo que le da el empuje a las estrofas — y sirve igual sobre
           acordes abiertos, no hace falta ningún acorde especial.
@@ -1290,19 +1342,20 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <div class="warn stack stack-sm">
           <h4>El error típico</h4>
           <p>
-            Se apoya demasiado adelante y las notas se apagan del todo, o demasiado
-            atrás y no pasa nada. Es cuestión de milímetros: que mueva la mano de a
-            poco hasta encontrarlo, y que se acuerde de dónde quedó.
+            Apoyarte demasiado adelante y que las notas se apaguen del todo, o
+            demasiado atrás y que no pase nada. Es cuestión de milímetros: movés la
+            mano de a poco hasta encontrarlo, y después te acordás dónde quedó.
           </p>
         </div>
       </div>
 
       <div class="key stack stack-sm">
-        <h4>La clave de esta clase</h4>
+        <h4>Lo más importante de esta clase</h4>
         <p>
-          Hoy se va tocando <span class="marker">una parte reconocible del tema</span>,
-          no un ejercicio. Poné el video y que toque la estrofa encima aunque sea
-          lento: escucharse adentro de la canción es lo que hace que un alumno siga.
+          Hoy te vas tocando <span class="marker">una parte reconocible del tema</span>,
+          no un ejercicio suelto. Poné el video y tocá la estrofa encima aunque sea
+          lento: escucharte adentro de la canción es lo que te va a dar ganas de
+          seguir.
         </p>
       </div>
 
@@ -1310,10 +1363,10 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <h3>Tarea</h3>
         <ul class="todo">
           <li><span class="box"></span><span>Afinar solo, antes de cada práctica.</span></li>
-          <li><span class="box"></span><span>El D solo: tocar sus cuatro cuerdas una por una y que suenen las cuatro.</span></li>
+          <li><span class="box"></span><span>El D solo: tocar sus cuatro cuerdas una por una y que te suenen las cuatro.</span></li>
           <li><span class="box"></span><span>Cambios A ↔ D, veinte veces, lento.</span></li>
           <li><span class="box"></span><span>Corcheas ↓↑ sobre un solo acorde, dos minutos sin parar la mano.</span></li>
-          <li><span class="box"></span><span>Con el video en −3 y speed 0.75, tocar la estrofa (A ↔ E) encima.</span></li>
+          <li><span class="box"></span><span>Con el video en −3 y speed 0.75, tocá la estrofa (A ↔ E) encima.</span></li>
         </ul>
       </div>
 
@@ -1338,10 +1391,10 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <table>
           <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
-            <tr><td class="t">0–8</td><td class="b">Repaso</td><td>Los tres acordes que ya tiene, con corcheas. El D limpio.</td></tr>
+            <tr><td class="t">0–8</td><td class="b">Repaso</td><td>Los tres acordes que ya tenés, con corcheas. El D limpio.</td></tr>
             <tr><td class="t">8–20</td><td class="b"><span class="ch">Dm</span></td><td>El momento del tema. Una nota baja un traste; el anular queda de ancla.</td></tr>
             <tr><td class="t">20–30</td><td class="b">Cambios</td><td>Contador de cambios: cuántos <span class="ch">D</span>↔<span class="ch">Dm</span> limpios en un minuto.</td></tr>
-            <tr><td class="t">30–38</td><td class="b">La frase</td><td><span class="ch">D</span> – <span class="ch">Dm</span> – <span class="ch">A</span>, que es la parte que le faltaba.</td></tr>
+            <tr><td class="t">30–38</td><td class="b">La frase</td><td><span class="ch">D</span> – <span class="ch">Dm</span> – <span class="ch">A</span>, la parte que te faltaba.</td></tr>
             <tr><td class="t">38–52</td><td class="b">Rasgueo</td><td>«Quiero pan yo quiero» (T T P P T P) sobre los cuatro acordes.</td></tr>
             <tr><td class="t">52–58</td><td class="b">El tema</td><td>Entero, lento, con el rasgueo nuevo.</td></tr>
             <tr><td class="t">58–60</td><td class="b">Cierre</td><td>Tarea.</td></tr>
@@ -1353,7 +1406,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
         <h3>1 · Los cuatro acordes del tema</h3>
         <p>
           Con el <span class="ch">Dm</span> se completa el juego. Los otros tres ya
-          los tiene: <span class="ch">A</span> y <span class="ch">E</span> desde la
+          los tenés: <span class="ch">A</span> y <span class="ch">E</span> desde la
           clase 1, <span class="ch">D</span> desde la clase 2.
         </p>
         <div class="chords" id="chords-c3"></div>
@@ -1367,11 +1420,11 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
           <li><strong>Uñas cortas.</strong> Con uña larga es físicamente imposible.</li>
         </ul>
         <div class="warn stack stack-sm">
-          <h4>Si suena a trapo</h4>
+          <h4>Si te suena a trapo</h4>
           <p>
-            Que toque las cuerdas del acorde <strong>una por una</strong> y busque
-            cuál no suena. Casi siempre es un dedo que se acostó sobre la cuerda de
-            abajo. Se corrige levantando la muñeca un poco hacia adelante.
+            Tocá las cuerdas del acorde <strong>una por una</strong> y buscá cuál no
+            suena. Casi siempre es un dedo que se te acostó sobre la cuerda de abajo.
+            Se corrige levantando la muñeca un poco hacia adelante.
           </p>
         </div>
       </div>
@@ -1379,7 +1432,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
       <div class="stack stack-md">
         <h3>3 · El cambio que es el tema: D → <span class="ch">Dm</span></h3>
         <p>
-          Poné los dos diagramas al lado y que los compare <em>antes</em> de tocarlos.
+          Poné los dos diagramas al lado y comparalos <em>antes</em> de tocarlos.
           <strong>De sonido cambia una sola nota</strong> —la cuerda finita baja del
           traste 2 al 1— y ahí está todo el tema. Pero ojo, que los dedos no se
           quedan quietos: el <strong>anular es el ancla</strong> y no se mueve nunca,
@@ -1397,26 +1450,26 @@ E|------x------|------x------|   no suena
           2 → e     2 → G
           3 → B     3 → B  (ancla)</pre>
         <div class="warn stack stack-sm">
-          <h4>Cómo hacer el cambio sin que se desarme</h4>
+          <h4>Cómo hacer el cambio sin que se te desarme</h4>
           <p>
-            Que clave primero el <strong>anular</strong> en la 2ª cuerda y recién
-            después acomode los otros dos. Si intenta mover los tres a la vez, pierde
-            la referencia y tiene que rearmar el acorde mirando. Con el ancla puesta,
-            la mano sabe dónde está sin mirar.
+            Clavá primero el <strong>anular</strong> en la 2ª cuerda y recién después
+            acomodá los otros dos. Si intentás mover los tres a la vez, perdés la
+            referencia y tenés que rearmar el acorde mirando. Con el ancla puesta, la
+            mano sabe dónde está sin mirar.
           </p>
         </div>
         <div class="key stack stack-sm">
           <h4>El ejercicio del minuto</h4>
           <p>
             Un minuto de reloj cambiando D ↔ Dm lo más limpio posible, contando
-            cuántos cambios logra. Se anota el número. La clase que viene se intenta
-            superar. <span class="marker">Es adictivo y funciona.</span>
+            cuántos cambios lográs. Anotá el número. La clase que viene tratá de
+            superarlo. <span class="marker">Es adictivo y funciona.</span>
           </p>
           <p class="small soft">Anotá acá: clase 3 → ______ cambios · clase 4 → ______ cambios</p>
         </div>
         <p class="small soft">
-          Esta es la digitación estándar del Dm y conviene que la aprenda así desde
-          el principio: es la que va a encontrar en cualquier libro, y es la que le
+          Esta es la digitación estándar del Dm y te conviene aprenderla así desde el
+          principio: es la que vas a encontrar en cualquier libro, y es la que te
           deja la mano preparada para lo que viene después.
         </p>
       </div>
@@ -1424,9 +1477,9 @@ E|------x------|------x------|   no suena
       <div class="stack stack-md">
         <h3>4 · El rasgueo: «quiero pan yo quiero»</h3>
         <p>
-          Seis golpes, y el nombre de cada uno te lo dice la frase. Que la diga en
-          voz alta mientras toca: la boca le va a enseñar el ritmo a la mano mucho
-          más rápido que la cabeza.
+          Seis golpes, y el nombre de cada uno te lo dice la frase. Decila en voz
+          alta mientras tocás: la boca te va a enseñar el ritmo a la mano mucho más
+          rápido que la cabeza.
         </p>
         <div class="rasgueo" aria-label="Rasgueo quiero pan yo quiero: abajo, abajo, arriba, arriba, abajo, arriba">
           <div class="cell"><span class="syl">QUIE</span><span class="ar">↓</span><span class="tp">T</span></div>
@@ -1438,17 +1491,17 @@ E|------x------|------x------|   no suena
         </div>
         <p class="small soft">
           <strong>T</strong> es golpe hacia abajo, <strong>P</strong> hacia arriba —
-          la misma notación de la hoja de rasgueos que ya usás, así Alejo lee los dos
-          materiales sin traducir nada.
+          la misma notación de la hoja de rasgueos que ya venís usando, así no tenés
+          que traducir nada entre un material y otro.
         </p>
 
         <div class="key stack stack-sm">
           <h4>De dónde sale: es la clase 2, salteando dos golpes</h4>
           <p>
-            La mano sigue haciendo corcheas sin parar, igual que la clase pasada.
+            Tu mano sigue haciendo corcheas sin parar, igual que la clase pasada.
             <span class="marker">Lo único nuevo es que dos de los ocho golpes pasan
             al aire</span> — la mano hace el movimiento pero no toca las cuerdas.
-            Si el brazo no frena nunca, el ritmo sale solo.
+            Si el brazo no frena nunca, el ritmo te sale solo.
           </p>
         </div>
 
@@ -1470,12 +1523,12 @@ E|------x------|------x------|   no suena
         </p>
 
         <div class="stack stack-md">
-          <h4>Cuando ya le salga: la versión con ×</h4>
+          <h4>Cuando ya te salga: la versión con ×</h4>
           <p class="small">
             Mismos seis golpes, pero el 2º y el 5º se tocan <strong>apagados</strong>:
             la mano izquierda afloja apenas los dedos —sin soltar el acorde— y en vez
-            de sonar el acorde suena un «chac». Caen en los tiempos 2 y 4, o sea que
-            <span class="marker">Alejo se está haciendo la batería él solo</span>.
+            del acorde suena un «chac». Caen en los tiempos 2 y 4, o sea que
+            <span class="marker">te estás haciendo la batería vos solo</span>.
           </p>
           <div class="rasgueo" aria-label="Variante con golpes apagados en el segundo y quinto golpe">
             <div class="cell"><span class="syl">QUIE</span><span class="ar">↓</span><span class="tp">T</span></div>
@@ -1485,19 +1538,19 @@ E|------x------|------x------|   no suena
             <div class="cell mute"><span class="syl">QUIE</span><span class="ar">×</span><span class="tp">T</span></div>
             <div class="cell"><span class="syl">RO</span><span class="ar">↑</span><span class="tp">P</span></div>
           </div>
-          <p class="small soft">
-            Esto va recién cuando el patrón básico salga sin pensarlo. Si se lo das
-            junto, se le mezclan los dos y no le sale ninguno.
-          </p>
+          <div class="profe">
+            <span class="profe-tag">Nota para mí</span>
+            <p>Esto va recién cuando el patrón básico le salga sin pensarlo. Si se lo doy junto, se le mezclan los dos y no le sale ninguno.</p>
+          </div>
         </div>
       </div>
 
       <div class="stack stack-md">
         <h3>Tarea</h3>
         <ul class="todo">
-          <li><span class="box"></span><span>Los cuatro acordes, uno por uno, chequeando que suenen todas las cuerdas.</span></li>
+          <li><span class="box"></span><span>Los cuatro acordes, uno por uno, chequeando que te suenen todas las cuerdas.</span></li>
           <li><span class="box"></span><span>Ejercicio del minuto: D ↔ Dm. Anotar el número cada día.</span></li>
-          <li><span class="box"></span><span>«Quiero pan yo quiero» sobre A, dos minutos sin frenar la mano. Diciéndolo en voz alta.</span></li>
+          <li><span class="box"></span><span>«Quiero pan yo quiero» sobre A, dos minutos sin frenar la mano. Decilo en voz alta.</span></li>
           <li><span class="box"></span><span>Loop en Transpose sobre la frase del Dm, diez vueltas.</span></li>
         </ul>
       </div>
@@ -1523,11 +1576,11 @@ E|------x------|------x------|   no suena
         <table>
           <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
-            <tr><td class="t">0–6</td><td class="b">Repaso</td><td>Ejercicio del minuto. ¿Superó el número?</td></tr>
-            <tr><td class="t">6–18</td><td class="b">Estructura</td><td>Armás el mapa entero y lo tocan sin el video.</td></tr>
+            <tr><td class="t">0–6</td><td class="b">Repaso</td><td>Ejercicio del minuto. ¿Superaste el número?</td></tr>
+            <tr><td class="t">6–18</td><td class="b">Estructura</td><td>Armamos el mapa entero y lo tocamos sin el video.</td></tr>
             <tr><td class="t">18–28</td><td class="b">Dinámica</td><td>Estrofa con palm mute, la frase abierta y fuerte.</td></tr>
             <tr><td class="t">28–40</td><td class="b">Con el video</td><td>Transpose −3, speed 1.0. Varias pasadas completas.</td></tr>
-            <tr><td class="t">40–46</td><td class="b">Grabar</td><td>Con el celu. Es el trofeo y se lo lleva.</td></tr>
+            <tr><td class="t">40–46</td><td class="b">Grabar</td><td>Con el celu. Es tu trofeo y te lo llevás.</td></tr>
             <tr><td class="t">46–56</td><td class="b">Bonus</td><td>El capo: cómo volver al tono del disco sin Transpose.</td></tr>
             <tr><td class="t">56–60</td><td class="b">Qué sigue</td><td>Cejilla, pentatónica, primer solo.</td></tr>
           </tbody>
@@ -1537,8 +1590,8 @@ E|------x------|------x------|   no suena
       <div class="stack stack-md">
         <h3>1 · Dinámica: que no sea todo igual</h3>
         <p>
-          Ya sabe las notas. Lo que separa «tocar los acordes» de «tocar el tema» es
-          que las partes suenen distinto entre sí.
+          Ya te sabés las notas. Lo que separa «tocar los acordes» de «tocar el
+          tema» es que las partes suenen distinto entre sí.
         </p>
         <div class="table-scroll">
           <table>
@@ -1557,8 +1610,8 @@ E|------x------|------x------|   no suena
         <h4>Grabalo</h4>
         <p>
           Con el celu, una sola toma, aunque tenga errores.
-          <span class="marker">A los cuatro meses ese audio vale oro</span> y es lo
-          que lo hace seguir estudiando cuando se le complique.
+          <span class="marker">A los cuatro meses ese audio te vale oro</span> y es
+          lo que te va a dar ganas de seguir cuando se te complique.
         </p>
       </div>
 
@@ -1566,8 +1619,8 @@ E|------x------|------x------|   no suena
         <h3>2 · Qué viene después</h3>
         <ul>
           <li><strong>La cejilla.</strong> Y con ella el Fm, para poder tocarlo en el tono original sin nada.</li>
-          <li><strong>Escala pentatónica menor.</strong> La caja 1. Es el idioma de todos los solos que le gustan.</li>
-          <li><strong>Sacar de oído.</strong> Un tema corto, él solo, usando Transpose para bajar la velocidad.</li>
+          <li><strong>Escala pentatónica menor.</strong> La caja 1. Es el idioma de todos los solos que te gustan.</li>
+          <li><strong>Sacar de oído.</strong> Un tema corto, vos solo, usando Transpose para bajar la velocidad.</li>
         </ul>
       </div>
 
@@ -1582,18 +1635,17 @@ E|------x------|------x------|   no suena
       <div class="stack stack-lg">
 
         <p>
-          Este es el cierre del círculo y el momento que engancha a cualquier alumno.
-          El capo es <strong>Transpose, pero para la guitarra</strong>: hace lo mismo
-          que la extensión, solo que al revés — en vez de bajar el video, sube la
-          guitarra.
+          Esto te va a volar un poco la cabeza. El capo es
+          <strong>Transpose, pero para la guitarra</strong>: hace lo mismo que la
+          extensión, solo que al revés — en vez de bajar el video, sube la guitarra.
         </p>
 
         <div class="key stack stack-sm">
-          <h4>La revelación de la clase 4</h4>
+          <h4>La revelación de esta clase</h4>
           <p>
-            Si Alejo se pone el <strong>capo en el traste 3</strong> y hace
-            exactamente los mismos cuatro dibujos que ya sabe,
-            <span class="marker">está tocando el tema en Do, el tono del disco</span>,
+            Si te ponés el <strong>capo en el traste 3</strong> y hacés exactamente
+            los mismos cuatro dibujos que ya sabés,
+            <span class="marker">estás tocando el tema en Do, el tono del disco</span>,
             sin Transpose y sin haber aprendido un acorde nuevo. Los mismos dedos.
             Otro tono.
           </p>
@@ -1615,11 +1667,12 @@ E|------x------|------x------|   no suena
         </div>
 
         <div class="stack stack-md">
-          <h3>Banco de temas para la clase 5</h3>
+          <h3>Para la clase 5: elegís vos</h3>
           <p>
-            De sus bandas, para elegir uno juntos y sacarlo. Chequeá los acordes en el
-            momento —cada versión anda distinto— pero todos son de dificultad
-            razonable para alguien que ya tiene estos cuatro y sabe usar el capo:
+            De tus bandas, para sacar uno en la próxima. Los acordes los chequeamos
+            en el momento —cada versión anda un poco distinta— pero todos son de una
+            dificultad razonable para alguien que ya tiene estos cuatro acordes y
+            sabe usar el capo:
           </p>
           <div class="table-scroll">
             <table>
@@ -1634,9 +1687,8 @@ E|------x------|------x------|   no suena
             </table>
           </div>
           <p class="small soft">
-            Dejá que elija él. El tema que elige el alumno se estudia el triple que el
-            que elige el profe. Y ahora tiene con qué: si el tono no le sirve, lo
-            mueve.
+            Pensalo para la próxima clase. Y ya tenés con qué: si el tono no te
+            sirve, lo movés con el capo.
           </p>
         </div>
 
