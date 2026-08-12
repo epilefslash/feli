@@ -361,6 +361,85 @@
   .strum .arrow { font-size: 1.15rem; line-height: 1.1; color: var(--mamba); }
   .strum .beat { font-size: 0.66rem; color: var(--ink-faint); }
 
+  /* Rasgueo con sílabas + notación T/P de la hoja de Feli */
+  .rasgueo { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+  .rasgueo .cell {
+    flex: 1 1 3.1rem;
+    min-width: 3.1rem;
+    text-align: center;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 0.45rem 0.2rem 0.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .rasgueo .syl {
+    font-family: var(--f-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    font-weight: 700;
+  }
+  .rasgueo .ar {
+    font-size: 1.6rem;
+    line-height: 1.05;
+    color: var(--mamba);
+    font-weight: 700;
+    -webkit-text-stroke: 0.8px currentColor;
+  }
+  .rasgueo .tp {
+    font-family: var(--f-display);
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+  }
+  .rasgueo .cell.mute { border-color: var(--rust); }
+  .rasgueo .cell.mute .ar,
+  .rasgueo .cell.mute .tp { color: var(--rust); }
+
+  /* Grilla de las 8 corcheas: la mano nunca frena */
+  .grid8 {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(2.9rem, 1fr));
+    gap: 0.25rem;
+    min-width: 24rem;
+  }
+  .grid8 .cell {
+    text-align: center;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 0.4rem 0.15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+  .grid8 .cell.air {
+    background: transparent;
+    border-style: dashed;
+  }
+  .grid8 .count {
+    font-family: var(--f-mono);
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--ink-faint);
+  }
+  .grid8 .ar {
+    font-size: 1.35rem;
+    line-height: 1.05;
+    color: var(--mamba);
+    font-weight: 700;
+    -webkit-text-stroke: 0.6px currentColor;
+  }
+  .grid8 .cell.air .ar { color: var(--ink-faint); opacity: 0.45; }
+  .grid8 .syl {
+    font-family: var(--f-mono);
+    font-size: 0.55rem;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    font-weight: 700;
+    min-height: 1.1em;
+  }
+
   .chords { display: grid; grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr)); gap: 0.7rem; }
   .chord {
     background: var(--paper-2);
@@ -516,12 +595,25 @@
 
   @media print {
     .nav { display: none; }
-    body { font-size: 11.5pt; background: #FFFFFF; }
-    .section, .class-bar { break-inside: avoid; }
-    .class-bar { break-before: page; }
-    .key, .warn, .chord, .tab, table, .knob { break-inside: avoid; }
+    body { font-size: 10.5pt; line-height: 1.5; background: #FFFFFF; }
+
+    /* Solo los bloques chicos evitan partirse. Ponerlo sobre .section
+       obliga a secciones enteras a caber en una hoja y deja medias
+       paginas en blanco. */
+    .key, .warn, .chord, .tab, .knob, .rasgueo, .grid8,
+    .strum, .facts, .map-row, .todo li, tr { break-inside: avoid; }
+
+    .class-bar { break-before: page; break-after: avoid; }
+    .section-head, h3, h4 { break-after: avoid; }
+
+    .section { padding-top: 1.6rem; }
+    .cover { padding-block: 1.8rem 1.4rem; }
+    .cover h1 { font-size: 30pt; }
+
     .marker { background: none; text-decoration: underline; text-decoration-thickness: 2px; }
+    a { text-decoration: none; }
   }
+  @page { size: A4; }
 </style>
 
 <header class="cover">
@@ -1053,16 +1145,23 @@ E|--------------------|--5----5----5----5--|</pre>
           Cuando las negras salen solas, se duplica: la mano derecha baja y sube sin
           parar, como un péndulo. Aunque el acorde dure, la mano no frena nunca.
         </p>
-        <div class="strum" aria-label="Corcheas: abajo arriba alternado">
-          <div><span class="arrow">↓</span><br /><span class="beat">1</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">2</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">3</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+        <div class="table-scroll">
+          <div class="grid8" aria-label="Corcheas: abajo arriba alternado, ocho golpes">
+            <div class="cell"><span class="count">1</span><span class="ar">↓</span><span class="syl">T</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">P</span></div>
+            <div class="cell"><span class="count">2</span><span class="ar">↓</span><span class="syl">T</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">P</span></div>
+            <div class="cell"><span class="count">3</span><span class="ar">↓</span><span class="syl">T</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">P</span></div>
+            <div class="cell"><span class="count">4</span><span class="ar">↓</span><span class="syl">T</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">P</span></div>
+          </div>
         </div>
+        <p class="small soft">
+          <strong>T</strong> es hacia abajo y <strong>P</strong> hacia arriba. Estas
+          ocho corcheas son la base de todo: el rasgueo de la clase que viene sale de
+          acá, salteando dos golpes.
+        </p>
       </div>
 
       <div class="stack stack-md">
@@ -1126,7 +1225,7 @@ E|--------------------|--5----5----5----5--|</pre>
             <tr><td class="t">14–22</td><td class="b">D</td><td>El triangulito. Es el que más ensucia al principio.</td></tr>
             <tr><td class="t">22–32</td><td class="b">Dm</td><td>El momento del tema. Un dedo baja un traste.</td></tr>
             <tr><td class="t">32–42</td><td class="b">Cambios</td><td>Contador de cambios: cuántos A↔E limpios en un minuto.</td></tr>
-            <tr><td class="t">42–52</td><td class="b">Rasgueo</td><td>↓ ↓↑ ↓ ↓↑ sobre los cuatro acordes.</td></tr>
+            <tr><td class="t">42–52</td><td class="b">Rasgueo</td><td>«Quiero pan yo quiero» (T T P P T P) sobre los cuatro acordes.</td></tr>
             <tr><td class="t">52–58</td><td class="b">El tema</td><td>Con acordes abiertos, lento.</td></tr>
             <tr><td class="t">58–60</td><td class="b">Cierre</td><td>Tarea.</td></tr>
           </tbody>
@@ -1190,25 +1289,74 @@ E|------x------|------x------|   no suena</pre>
       </div>
 
       <div class="stack stack-md">
-        <h3>4 · El rasgueo</h3>
+        <h3>4 · El rasgueo: «quiero pan yo quiero»</h3>
         <p>
-          Este patrón le sirve para el tema y para media discografía de las bandas
-          que le gustan. Contalo en voz alta mientras toca.
+          Seis golpes, y el nombre de cada uno te lo dice la frase. Que la diga en
+          voz alta mientras toca: la boca le va a enseñar el ritmo a la mano mucho
+          más rápido que la cabeza.
         </p>
-        <div class="strum" aria-label="Rasgueo: abajo, abajo arriba, abajo, abajo arriba">
-          <div><span class="arrow">↓</span><br /><span class="beat">1</span></div>
-          <div><span class="arrow">·</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">2</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">3</span></div>
-          <div><span class="arrow">·</span><br /><span class="beat">y</span></div>
-          <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
-          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+        <div class="rasgueo" aria-label="Rasgueo quiero pan yo quiero: abajo, abajo, arriba, arriba, abajo, arriba">
+          <div class="cell"><span class="syl">QUIE</span><span class="ar">↓</span><span class="tp">T</span></div>
+          <div class="cell"><span class="syl">RO</span><span class="ar">↓</span><span class="tp">T</span></div>
+          <div class="cell"><span class="syl">PAN</span><span class="ar">↑</span><span class="tp">P</span></div>
+          <div class="cell"><span class="syl">YO</span><span class="ar">↑</span><span class="tp">P</span></div>
+          <div class="cell"><span class="syl">QUIE</span><span class="ar">↓</span><span class="tp">T</span></div>
+          <div class="cell"><span class="syl">RO</span><span class="ar">↑</span><span class="tp">P</span></div>
         </div>
         <p class="small soft">
-          Los puntos son movimientos «al aire»: la mano sigue bajando y subiendo,
-          pero no toca las cuerdas. Así el brazo nunca pierde el pulso.
+          <strong>T</strong> es golpe hacia abajo, <strong>P</strong> hacia arriba —
+          la misma notación de la hoja de rasgueos que ya usás, así Alejo lee los dos
+          materiales sin traducir nada.
         </p>
+
+        <div class="key stack stack-sm">
+          <h4>De dónde sale: es la clase 2, salteando dos golpes</h4>
+          <p>
+            La mano sigue haciendo corcheas sin parar, igual que la clase pasada.
+            <span class="marker">Lo único nuevo es que dos de los ocho golpes pasan
+            al aire</span> — la mano hace el movimiento pero no toca las cuerdas.
+            Si el brazo no frena nunca, el ritmo sale solo.
+          </p>
+        </div>
+
+        <div class="table-scroll">
+          <div class="grid8" aria-label="Las ocho corcheas del compás, con los dos golpes que van al aire">
+            <div class="cell"><span class="count">1</span><span class="ar">↓</span><span class="syl">QUIE</span></div>
+            <div class="cell air"><span class="count">y</span><span class="ar">↑</span><span class="syl">aire</span></div>
+            <div class="cell"><span class="count">2</span><span class="ar">↓</span><span class="syl">RO</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">PAN</span></div>
+            <div class="cell air"><span class="count">3</span><span class="ar">↓</span><span class="syl">aire</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">YO</span></div>
+            <div class="cell"><span class="count">4</span><span class="ar">↓</span><span class="syl">QUIE</span></div>
+            <div class="cell"><span class="count">y</span><span class="ar">↑</span><span class="syl">RO</span></div>
+          </div>
+        </div>
+        <p class="small soft">
+          Las dos celdas punteadas son los golpes al aire. Fijate que caen justo
+          después del 1 y en el 3: por eso el rasgueo «respira» y no suena a máquina.
+        </p>
+
+        <div class="stack stack-md">
+          <h4>Cuando ya le salga: la versión con ×</h4>
+          <p class="small">
+            Mismos seis golpes, pero el 2º y el 5º se tocan <strong>apagados</strong>:
+            la mano izquierda afloja apenas los dedos —sin soltar el acorde— y en vez
+            de sonar el acorde suena un «chac». Caen en los tiempos 2 y 4, o sea que
+            <span class="marker">Alejo se está haciendo la batería él solo</span>.
+          </p>
+          <div class="rasgueo" aria-label="Variante con golpes apagados en el segundo y quinto golpe">
+            <div class="cell"><span class="syl">QUIE</span><span class="ar">↓</span><span class="tp">T</span></div>
+            <div class="cell mute"><span class="syl">RO</span><span class="ar">×</span><span class="tp">T</span></div>
+            <div class="cell"><span class="syl">PAN</span><span class="ar">↑</span><span class="tp">P</span></div>
+            <div class="cell"><span class="syl">YO</span><span class="ar">↑</span><span class="tp">P</span></div>
+            <div class="cell mute"><span class="syl">QUIE</span><span class="ar">×</span><span class="tp">T</span></div>
+            <div class="cell"><span class="syl">RO</span><span class="ar">↑</span><span class="tp">P</span></div>
+          </div>
+          <p class="small soft">
+            Esto va recién cuando el patrón básico salga sin pensarlo. Si se lo das
+            junto, se le mezclan los dos y no le sale ninguno.
+          </p>
+        </div>
       </div>
 
       <div class="stack stack-md">
@@ -1216,7 +1364,7 @@ E|------x------|------x------|   no suena</pre>
         <ul class="todo">
           <li><span class="box"></span><span>Los cuatro acordes, uno por uno, chequeando que suenen todas las cuerdas.</span></li>
           <li><span class="box"></span><span>Ejercicio del minuto: D ↔ Dm. Anotar el número cada día.</span></li>
-          <li><span class="box"></span><span>El rasgueo ↓ ↓↑ ↓ ↓↑ sobre A, dos minutos sin frenar.</span></li>
+          <li><span class="box"></span><span>«Quiero pan yo quiero» sobre A, dos minutos sin frenar la mano. Diciéndolo en voz alta.</span></li>
           <li><span class="box"></span><span>Loop en Transpose sobre la frase del Dm, diez vueltas.</span></li>
         </ul>
       </div>
@@ -1413,6 +1561,9 @@ E|------x------|------x------|   no suena</pre>
         <div><dt>Cejilla</dt><dd>Aplastar varias cuerdas a la vez con un solo dedo. En este cuadernillo no hace falta ninguna.</dd></div>
         <div><dt>Capo</dt><dd>La pinza que hace de cejilla por vos. Sube el tono sin cambiar las formas.</dd></div>
         <div><dt>Palm mute</dt><dd>Apoyar el canto de la mano derecha sobre las cuerdas cerca del puente para que suenen cortas y apretadas.</dd></div>
+        <div><dt>T y P</dt><dd>Las letras de la hoja de rasgueos. <strong>T</strong> es golpe hacia abajo, <strong>P</strong> hacia arriba.</dd></div>
+        <div><dt>Golpe al aire</dt><dd>La mano hace el movimiento pero no toca las cuerdas. Sirve para no perder el pulso.</dd></div>
+        <div><dt>Golpe apagado (×)</dt><dd>Se toca aflojando los dedos de la mano izquierda sin soltar el acorde: suena un «chac» en vez del acorde.</dd></div>
         <div><dt>Tab</dt><dd>Las seis líneas con números. Cada línea es una cuerda, cada número es el traste que apretás.</dd></div>
         <div><dt>BPM</dt><dd>Pulsos por minuto. La velocidad del tema.</dd></div>
       </dl>
