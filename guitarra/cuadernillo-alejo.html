@@ -1,0 +1,1544 @@
+<title>La Pequeña Mamba en 4 Clases</title>
+
+<style>
+  /* ============================================================
+     TOKENS — paleta "mamba": papel frío con sesgo verde,
+     tinta oliva-negra, acento viridiano, marcador chartreuse.
+     ============================================================ */
+  :root {
+    --paper:      #EFF1EC;
+    --paper-2:    #E3E7DE;
+    --paper-3:    #D7DCD1;
+    --ink:        #16190F;
+    --ink-soft:   #5C6353;
+    --ink-faint:  #8A9180;
+    --mamba:      #0E7A4A;
+    --mamba-deep: #0A5334;
+    --rust:       #A8401C;
+    --marker-bg:  #CDF255;
+    --marker-ink: #16190F;
+    --rule:       #C3C9BA;
+    --on-mamba:   #FFFFFF;
+
+    /* Superficies que se mantienen oscuras en los dos temas:
+       la portada, las barras de clase y los bloques de tab. */
+    --slab-bg:     #16190F;
+    --slab-ink:    #EFF1EC;
+    --slab-soft:   #A8B09B;
+    --slab-line:   #3E4634;
+    --slab-accent: #CDF255;
+    --code-bg:     #16190F;
+    --code-ink:    #C9D1BC;
+    --chip-bg:     #16190F;
+    --chip-ink:    #EFF1EC;
+
+    --f-display: "Arial Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --f-body: Georgia, "Times New Roman", serif;
+    --f-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Courier New", monospace;
+
+    --measure: 68ch;
+    --gutter: clamp(1.1rem, 4vw, 2.5rem);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #12150E;
+      --paper-2:    #1B1F16;
+      --paper-3:    #262B20;
+      --ink:        #E9ECE2;
+      --ink-soft:   #A3AB97;
+      --ink-faint:  #6E7666;
+      --mamba:      #48C489;
+      --mamba-deep: #7FE0AE;
+      --rust:       #E0794C;
+      --marker-bg:  #B9DE45;
+      --marker-ink: #12150E;
+      --rule:       #333A2B;
+      --on-mamba:   #08130C;
+
+      --slab-bg:     #090C06;
+      --slab-ink:    #E9ECE2;
+      --slab-soft:   #939C87;
+      --slab-line:   #333A2B;
+      --slab-accent: #CDF255;
+      --code-bg:     #090C06;
+      --code-ink:    #C4CCB7;
+      --chip-bg:     #2C3325;
+      --chip-ink:    #E9ECE2;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper:      #12150E;
+    --paper-2:    #1B1F16;
+    --paper-3:    #262B20;
+    --ink:        #E9ECE2;
+    --ink-soft:   #A3AB97;
+    --ink-faint:  #6E7666;
+    --mamba:      #48C489;
+    --mamba-deep: #7FE0AE;
+    --rust:       #E0794C;
+    --marker-bg:  #B9DE45;
+    --marker-ink: #12150E;
+    --rule:       #333A2B;
+    --on-mamba:   #08130C;
+
+    --slab-bg:     #090C06;
+    --slab-ink:    #E9ECE2;
+    --slab-soft:   #939C87;
+    --slab-line:   #333A2B;
+    --slab-accent: #CDF255;
+    --code-bg:     #090C06;
+    --code-ink:    #C4CCB7;
+    --chip-bg:     #2C3325;
+    --chip-ink:    #E9ECE2;
+  }
+
+  /* ============================================================
+     BASE
+     ============================================================ */
+  * { box-sizing: border-box; }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--f-body);
+    font-size: 17px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  p { margin: 0; }
+  ul, ol { margin: 0; padding-left: 1.25em; }
+  li { margin-bottom: 0.35em; }
+  li::marker { color: var(--mamba); }
+  strong { font-weight: 700; }
+  a { color: var(--mamba); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, button:focus-visible {
+    outline: 3px solid var(--mamba);
+    outline-offset: 3px;
+  }
+
+  .wrap {
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+  .wrap-wide {
+    max-width: 78rem;
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .stack { display: flex; flex-direction: column; }
+  .stack-sm  { gap: 0.7rem; }
+  .stack-md  { gap: 1.15rem; }
+  .stack-lg  { gap: 2rem; }
+  .stack-xl  { gap: 3.25rem; }
+
+  /* ============================================================
+     TIPOGRAFÍA
+     ============================================================ */
+  h1, h2, h3, h4 {
+    font-family: var(--f-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    margin: 0;
+    line-height: 1.02;
+  }
+  h2 { font-size: clamp(1.5rem, 4.2vw, 2.15rem); }
+  h3 {
+    font-size: 1.02rem;
+    letter-spacing: 0.02em;
+    line-height: 1.25;
+  }
+  h4 {
+    font-size: 0.8rem;
+    letter-spacing: 0.09em;
+    color: var(--ink-soft);
+  }
+
+  .eyebrow {
+    font-family: var(--f-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--mamba);
+    font-weight: 700;
+  }
+  .lede {
+    font-size: 1.1rem;
+    color: var(--ink-soft);
+  }
+  .small { font-size: 0.86rem; }
+  .soft  { color: var(--ink-soft); }
+  .mono  { font-family: var(--f-mono); }
+
+  .marker {
+    background: linear-gradient(100deg,
+      transparent 0.4%, var(--marker-bg) 0.4%,
+      var(--marker-bg) 98.6%, transparent 99.2%);
+    color: var(--marker-ink);
+    padding: 0.08em 0.22em;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    font-weight: 700;
+  }
+
+  /* ============================================================
+     PORTADA
+     ============================================================ */
+  .cover {
+    background: var(--slab-bg);
+    color: var(--slab-ink);
+    padding-block: clamp(2.5rem, 8vw, 4.5rem) clamp(2rem, 6vw, 3.25rem);
+    position: relative;
+    overflow: hidden;
+  }
+  .cover::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0 0;
+    height: 6px;
+    background: repeating-linear-gradient(90deg,
+      var(--mamba) 0 22px, transparent 22px 34px);
+  }
+  .cover .eyebrow { color: var(--slab-accent); }
+  .cover h1 {
+    font-size: clamp(2.6rem, 11vw, 5.2rem);
+    letter-spacing: -0.035em;
+    line-height: 0.9;
+  }
+  .cover h1 em {
+    font-style: normal;
+    display: block;
+    color: var(--slab-accent);
+  }
+  .cover-sub {
+    font-size: clamp(1rem, 2.6vw, 1.2rem);
+    color: var(--slab-soft);
+    max-width: 46ch;
+  }
+  .cover-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    font-family: var(--f-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+  .cover-meta span {
+    border: 1px solid var(--slab-line);
+    color: var(--slab-soft);
+    padding: 0.32rem 0.6rem;
+  }
+
+  /* ============================================================
+     NAV
+     ============================================================ */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    display: flex;
+    gap: 0.15rem;
+    overflow-x: auto;
+    padding-block: 0.5rem;
+    scrollbar-width: thin;
+  }
+  .nav a {
+    font-family: var(--f-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink-soft);
+    padding: 0.4rem 0.62rem;
+    white-space: nowrap;
+    border-radius: 2px;
+  }
+  .nav a:hover { color: var(--ink); background: var(--paper-2); }
+
+  /* ============================================================
+     SECCIONES
+     ============================================================ */
+  main { padding-bottom: 4rem; }
+
+  .section { padding-top: clamp(2.5rem, 7vw, 4rem); }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    border-bottom: 3px solid var(--ink);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .section-head h2 { flex: 1; }
+
+  /* Barra de apertura de cada clase */
+  .class-bar {
+    background: var(--slab-bg);
+    color: var(--slab-ink);
+    padding: clamp(1.1rem, 3.5vw, 1.6rem) 0;
+    margin-bottom: 1.75rem;
+  }
+  .class-bar-inner {
+    display: flex;
+    align-items: center;
+    gap: clamp(0.9rem, 3vw, 1.5rem);
+  }
+  .class-num {
+    font-family: var(--f-display);
+    font-size: clamp(2.4rem, 9vw, 3.6rem);
+    line-height: 0.8;
+    color: var(--slab-accent);
+    letter-spacing: -0.05em;
+  }
+  .class-bar h2 { color: var(--slab-ink); font-size: clamp(1.25rem, 4.4vw, 1.9rem); }
+  .class-bar .class-goal {
+    font-family: var(--f-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slab-soft);
+    margin-top: 0.4rem;
+    display: block;
+  }
+
+  /* ============================================================
+     BLOQUES
+     ============================================================ */
+  .card {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    padding: clamp(1rem, 3vw, 1.4rem);
+  }
+
+  .key {
+    border-left: 5px solid var(--mamba);
+    background: var(--paper-2);
+    padding: 0.95rem 1.15rem;
+  }
+  .key h4 { color: var(--mamba); margin-bottom: 0.3rem; }
+
+  .warn {
+    border-left: 5px solid var(--rust);
+    background: var(--paper-2);
+    padding: 0.95rem 1.15rem;
+  }
+  .warn h4 { color: var(--rust); margin-bottom: 0.3rem; }
+
+  /* Tabla run-of-show */
+  .table-scroll { overflow-x: auto; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    min-width: 30rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.7rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    font-family: var(--f-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    border-bottom: 2px solid var(--ink);
+    font-weight: 700;
+  }
+  td.t {
+    font-family: var(--f-mono);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    color: var(--mamba);
+    font-weight: 700;
+    font-size: 0.82rem;
+  }
+  td.b { font-weight: 700; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  /* TAB */
+  .tab {
+    font-family: var(--f-mono);
+    font-size: 0.8rem;
+    line-height: 1.5;
+    background: var(--code-bg);
+    color: var(--code-ink);
+    padding: 0.9rem 1rem;
+    overflow-x: auto;
+    margin: 0;
+    white-space: pre;
+    border-radius: 2px;
+  }
+  .tab b { color: var(--slab-accent); font-weight: 700; }
+
+  /* Patrón de rasgueo */
+  .strum {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    font-family: var(--f-mono);
+    align-items: flex-end;
+  }
+  .strum div {
+    text-align: center;
+    min-width: 2.6rem;
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 0.4rem 0.2rem;
+  }
+  .strum .arrow { font-size: 1.15rem; line-height: 1.1; color: var(--mamba); }
+  .strum .beat  { font-size: 0.66rem; color: var(--ink-faint); }
+
+  /* Grid de acordes */
+  .chords {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    gap: 0.7rem;
+  }
+  .chord {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    padding: 0.65rem 0.4rem 0.7rem;
+    text-align: center;
+  }
+  .chord .cname {
+    font-family: var(--f-display);
+    font-size: 1.02rem;
+    letter-spacing: 0.01em;
+    margin-bottom: 0.15rem;
+  }
+  .chord .csub {
+    font-family: var(--f-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    min-height: 1.6em;
+    display: block;
+    padding-inline: 0.2rem;
+    line-height: 1.3;
+  }
+  .chord svg { display: block; margin: 0.35rem auto 0; }
+
+  /* Checklist de tarea */
+  .todo { list-style: none; padding-left: 0; }
+  .todo li {
+    display: flex;
+    gap: 0.65rem;
+    align-items: flex-start;
+    padding: 0.45rem 0;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .todo li:last-child { border-bottom: none; }
+  .todo .box {
+    flex: 0 0 auto;
+    width: 1.05rem;
+    height: 1.05rem;
+    border: 2px solid var(--mamba);
+    margin-top: 0.32rem;
+  }
+
+  /* Mapa del tema */
+  .map { display: flex; flex-direction: column; gap: 0.5rem; }
+  .map-row {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    gap: 0.75rem;
+    align-items: center;
+    border-bottom: 1px solid var(--rule);
+    padding: 0.55rem 0;
+  }
+  .map-row:last-child { border-bottom: none; }
+  .map-label {
+    font-family: var(--f-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 700;
+  }
+  .bars { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .bar {
+    font-family: var(--f-mono);
+    font-weight: 700;
+    font-size: 0.82rem;
+    background: var(--chip-bg);
+    color: var(--chip-ink);
+    padding: 0.3rem 0.65rem;
+    letter-spacing: 0.02em;
+  }
+  .bar.alt { background: var(--mamba); color: var(--on-mamba); }
+  .bar.rep {
+    background: transparent;
+    color: var(--ink-soft);
+    border: 1px dashed var(--rule);
+  }
+  @media (max-width: 34rem) {
+    .map-row { grid-template-columns: 1fr; gap: 0.35rem; }
+  }
+
+  /* Datos del tema */
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+  .facts div { background: var(--paper); padding: 0.75rem 0.85rem; }
+  .facts dt {
+    font-family: var(--f-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .facts dd {
+    margin: 0.2rem 0 0;
+    font-family: var(--f-display);
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+  }
+
+  /* Glosario */
+  .gloss { display: grid; gap: 0.8rem; }
+  .gloss div {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: 0.9rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.8rem;
+  }
+  .gloss dt { font-weight: 700; font-family: var(--f-body); }
+  .gloss dd { margin: 0; color: var(--ink-soft); font-size: 0.94rem; }
+  @media (max-width: 34rem) {
+    .gloss div { grid-template-columns: 1fr; gap: 0.15rem; }
+  }
+
+  footer {
+    border-top: 3px solid var(--ink);
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    font-family: var(--f-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+
+  /* ============================================================
+     IMPRESIÓN
+     ============================================================ */
+  @media print {
+    .nav { display: none; }
+    body { font-size: 11.5pt; background: #FFFFFF; }
+    .section, .class-bar { break-inside: avoid; }
+    .class-bar { break-before: page; }
+    .card, .key, .warn, .chord, .tab, table { break-inside: avoid; }
+    .marker { background: none; text-decoration: underline; text-decoration-thickness: 2px; }
+  }
+</style>
+
+<header class="cover">
+  <div class="wrap stack stack-md">
+    <span class="eyebrow">Cuadernillo de guitarra eléctrica · Alejo</span>
+    <h1>La Pequeña<br />Mamba <em>en 4 clases</em></h1>
+    <p class="cover-sub">
+      Indio Solari y Los Fundamentalistas del Aire Acondicionado. De no haber
+      agarrado nunca una guitarra a tocar el tema entero con el disco puesto.
+    </p>
+    <div class="cover-meta">
+      <span>4 clases · 60 min</span>
+      <span>Nivel: cero</span>
+      <span>Do mayor · 125 BPM</span>
+      <span>C · Fmaj7 · G · Am</span>
+    </div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Índice del cuadernillo">
+  <div class="wrap-wide nav-inner">
+    <a href="#plan">El plan</a>
+    <a href="#mapa">Mapa del tema</a>
+    <a href="#acordes">Acordes</a>
+    <a href="#c1">Clase 1</a>
+    <a href="#c2">Clase 2</a>
+    <a href="#c3">Clase 3</a>
+    <a href="#c4">Clase 4</a>
+    <a href="#bonus">Bonus</a>
+    <a href="#ficha">Ficha</a>
+    <a href="#glosario">Glosario</a>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ========================= EL PLAN ========================= -->
+  <section class="section" id="plan">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>El plan</h2>
+      </div>
+
+      <div class="stack stack-lg">
+
+        <div class="stack stack-md">
+          <p class="lede">
+            Alejo arranca de cero, así que el curso está armado al revés de como
+            suele enseñarse: <span class="marker">toca música el primer día</span>
+            y la teoría entra después, cuando ya tiene dónde apoyarla.
+          </p>
+          <p>
+            El tema lo permite. <em>La Pequeña Mamba</em> vive sobre cuatro acordes
+            —C, Fmaj7, G y Am— y ninguno necesita cejilla. Encima el «F» del tema
+            es un <strong>Fmaj7</strong>, que es literalmente el acorde con el que
+            se zafa de la cejilla en cualquier método para principiantes. No hay que
+            simplificar nada: la versión fácil <em>es</em> la versión real.
+          </p>
+        </div>
+
+        <div class="key stack stack-sm">
+          <h4>La idea del curso en una línea</h4>
+          <p>
+            Clases 1 y 2 el tema entero en <strong>power chords</strong> (dos dedos,
+            suena a rock desde el minuto uno). Clases 3 y 4 el mismo tema en
+            <strong>acordes abiertos</strong>, que es lo que le abre las otras
+            doscientas canciones.
+          </p>
+        </div>
+
+        <div class="stack stack-md">
+          <h3>Qué se lleva de cada clase</h3>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>Clase</th>
+                  <th>Tema técnico</th>
+                  <th>Logro concreto</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="t">01</td>
+                  <td class="b">Postura, púa, power chord</td>
+                  <td>Toca la estrofa (C5 ↔ F5) a tempo lento</td>
+                </tr>
+                <tr>
+                  <td class="t">02</td>
+                  <td class="b">Ritmo y palm mute</td>
+                  <td>Toca el tema entero en power chords</td>
+                </tr>
+                <tr>
+                  <td class="t">03</td>
+                  <td class="b">Acordes abiertos y cambios</td>
+                  <td>Hace C, Fmaj7, G y Am y los encadena</td>
+                </tr>
+                <tr>
+                  <td class="t">04</td>
+                  <td class="b">Estructura y dinámica</td>
+                  <td>Toca el tema con el disco, de punta a punta</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="stack stack-md">
+          <h3>El kit</h3>
+          <ul class="todo">
+            <li><span class="box"></span><span>Guitarra eléctrica, cable y ampli (alcanza un ampli chico).</span></li>
+            <li><span class="box"></span><span>Púas de <strong>0,73 mm</strong>. Llevá varias: se pierden.</span></li>
+            <li><span class="box"></span><span>Afinador: app en el celu está perfecto.</span></li>
+            <li><span class="box"></span><span>Metrónomo (app) para las clases 1 y 2.</span></li>
+            <li><span class="box"></span><span>El tema descargado o en Spotify, listo para poner.</span></li>
+            <li><span class="box"></span><span>Correa, si va a querer tocar parado más adelante.</span></li>
+          </ul>
+        </div>
+
+        <div class="warn stack stack-sm">
+          <h4>Dos cosas que arruinan la primera clase</h4>
+          <p>
+            <strong>La guitarra desafinada</strong> y <strong>la acción muy alta.</strong>
+            Si las cuerdas están lejísimos del diapasón, Alejo va a creer que no
+            tiene fuerza en los dedos cuando en realidad el problema es el
+            instrumento. Chequealo antes de arrancar y, si hace falta, ajustale el
+            puente o mandalo a un setup.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= MAPA ========================= -->
+  <section class="section" id="mapa">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Mapa del tema</h2>
+      </div>
+
+      <div class="stack stack-lg">
+
+        <dl class="facts">
+          <div><dt>Tono</dt><dd>Do mayor</dd></div>
+          <div><dt>Tempo</dt><dd>≈125 BPM</dd></div>
+          <div><dt>Compás</dt><dd>4/4</dd></div>
+          <div><dt>Álbum</dt><dd>El Ruiseñor, el Amor y la Muerte (2018)</dd></div>
+        </dl>
+
+        <div class="stack stack-md">
+          <h3>La estructura</h3>
+          <p class="small soft">
+            Cada bloque = 4 tiempos (un compás). Contá «uno, dos, tres, cuatro» y
+            cambiás.
+          </p>
+          <div class="map">
+            <div class="map-row">
+              <span class="map-label">Intro</span>
+              <div class="bars">
+                <span class="bar">C</span><span class="bar alt">Fmaj7</span>
+                <span class="bar">C</span><span class="bar alt">Fmaj7</span>
+                <span class="bar rep">× 2</span>
+              </div>
+            </div>
+            <div class="map-row">
+              <span class="map-label">Estrofa</span>
+              <div class="bars">
+                <span class="bar">C</span><span class="bar alt">Fmaj7</span>
+                <span class="bar">C</span><span class="bar alt">Fmaj7</span>
+                <span class="bar rep">se repite</span>
+              </div>
+            </div>
+            <div class="map-row">
+              <span class="map-label">Estribillo</span>
+              <div class="bars">
+                <span class="bar">G</span><span class="bar alt">F</span>
+                <span class="bar">G</span><span class="bar alt">F</span>
+                <span class="bar rep">y vuelve a C</span>
+              </div>
+            </div>
+            <div class="map-row">
+              <span class="map-label">Sección Am</span>
+              <div class="bars">
+                <span class="bar">Am</span><span class="bar alt">F</span>
+                <span class="bar">Am</span><span class="bar alt">F</span>
+                <span class="bar rep">× 2</span>
+              </div>
+            </div>
+            <div class="map-row">
+              <span class="map-label">Final</span>
+              <div class="bars">
+                <span class="bar">C</span><span class="bar alt">Fmaj7</span>
+                <span class="bar rep">hasta apagar</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="warn stack stack-sm">
+          <h4>Contá las vueltas con el disco</h4>
+          <p>
+            Los acordes y el orden de las partes son estos, pero la cantidad exacta
+            de repeticiones de cada sección conviene contarla con el tema puesto en
+            la primera clase, marcándolas acá al margen. En el disco además hay
+            riffs sobre el C–Fmaj7 que acá reducimos a bloques de cuatro tiempos:
+            es lo que Alejo puede sostener ahora, y el riff se lo agregás cuando ya
+            le salga el loop.
+          </p>
+        </div>
+
+        <div class="key stack stack-sm">
+          <h4>Por qué este tema y no otro</h4>
+          <p>
+            Los cuatro acordes de <em>La Pequeña Mamba</em> son los cuatro acordes
+            con los que empieza cualquier guitarrista. Al terminar el cuadernillo
+            Alejo no aprendió «un tema»: aprendió el vocabulario con el que después
+            va a sacar a Soda, a Cerati, a Las Pastillas y a NTVG casi de oído.
+          </p>
+        </div>
+
+        <p class="small soft">
+          La letra no va en el cuadernillo. Imprimila aparte y engrampala al final,
+          así él puede escribir los acordes encima de las sílabas donde cambian.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= ACORDES ========================= -->
+  <section class="section" id="acordes">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Diccionario de acordes</h2>
+      </div>
+
+      <div class="stack stack-lg">
+
+        <div class="stack stack-md">
+          <h3>Power chords · clases 1 y 2</h3>
+          <p>
+            Un solo dedo índice y un anular, siempre a la misma distancia. Es
+            <strong>la misma forma</strong> movida por el mástil: si aprende una,
+            aprendió las cuatro. Solo suenan las dos cuerdas marcadas; el resto se
+            apagan apoyando la palma.
+          </p>
+          <div class="chords" id="chords-power"></div>
+          <div class="key stack stack-sm">
+            <h4>El atajo para memorizarlos</h4>
+            <p>
+              <span class="marker">G5 y C5 están en el mismo traste, el 3</span> —
+              solo cambia la cuerda por la que arrancás. Y F5 está dos trastes abajo
+              de G5, A5 dos trastes arriba. Todo el tema entra entre el traste 1 y el
+              7, sin mover casi la mano.
+            </p>
+          </div>
+        </div>
+
+        <div class="stack stack-md">
+          <h3>Acordes abiertos · clases 3 y 4</h3>
+          <p>
+            Los números adentro de los puntos son los dedos:
+            <strong>1</strong> índice, <strong>2</strong> mayor,
+            <strong>3</strong> anular, <strong>4</strong> meñique.
+            <strong>O</strong> es cuerda al aire, <strong>×</strong> es cuerda que
+            no suena.
+          </p>
+          <div class="chords" id="chords-open"></div>
+          <div class="key stack stack-sm">
+            <h4>Fmaj7 es el regalo del tema</h4>
+            <p>
+              El F normal lleva cejilla y es donde la mayoría abandona. Acá no hace
+              falta: el acorde del tema es <strong>Fmaj7</strong>, que se hace con
+              tres dedos sueltos y una cuerda al aire. Además
+              <span class="marker">comparte dos dedos con el C</span>, así que el
+              cambio C→Fmaj7 es casi no moverse.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= CLASE 1 ========================= -->
+  <section id="c1">
+    <div class="class-bar">
+      <div class="wrap class-bar-inner">
+        <span class="class-num">01</span>
+        <div>
+          <h2>Que suene el primer día</h2>
+          <span class="class-goal">Objetivo · tocar la estrofa a 60 BPM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap stack stack-lg">
+
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="t">0–8</td><td class="b">Arranque</td><td>Partes de la guitarra, cable, ampli. Ponés un sonido limpio y le dejás tocar cuerdas al aire para que escuche.</td></tr>
+            <tr><td class="t">8–15</td><td class="b">Cuerpo</td><td>Cómo se sienta, dónde apoya la guitarra, cómo agarra la púa.</td></tr>
+            <tr><td class="t">15–22</td><td class="b">Afinación</td><td>Mi–La–Re–Sol–Si–Mi con la app. Que afine él la 6ª cuerda.</td></tr>
+            <tr><td class="t">22–32</td><td class="b">Mano izquierda</td><td>Cromático 1-2-3-4 en la 6ª cuerda, con metrónomo a 60.</td></tr>
+            <tr><td class="t">32–48</td><td class="b">Power chord</td><td>La forma de dos dedos. F5 y C5. Cómo apagar lo que no suena.</td></tr>
+            <tr><td class="t">48–58</td><td class="b">La estrofa</td><td>C5 ↔ F5, cuatro golpes cada uno, con el tema de fondo.</td></tr>
+            <tr><td class="t">58–60</td><td class="b">Cierre</td><td>Le pasás el cuadernillo y le marcás la tarea.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>1 · Las cuerdas, de la más gruesa a la más fina</h3>
+        <pre class="tab">6ª  Mi grave  (E)   ← la más gorda, arriba de todo
+5ª  La        (A)
+4ª  Re        (D)
+3ª  Sol       (G)
+2ª  Si        (B)
+1ª  Mi agudo  (e)   ← la más finita, abajo de todo</pre>
+        <p class="small soft">
+          Ojo con esto, que confunde a todo el mundo: la 6ª cuerda es la que está
+          <em>físicamente arriba</em>, pero suena <em>más grave</em>. «Arriba» y
+          «abajo» en la guitarra se dicen por el sonido, no por la posición.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>2 · Cromático: el ejercicio de siempre</h3>
+        <p>
+          Un dedo por traste, sin levantar el anterior hasta que sea necesario.
+          Púa siempre para abajo. A 60 BPM, una nota por click.
+        </p>
+        <pre class="tab">e|--------------------------|
+B|--------------------------|
+G|--------------------------|
+D|--------------------------|
+A|--------------------------|
+E|--<b>1</b>----<b>2</b>----<b>3</b>----<b>4</b>--------|
+   ded1 ded2 ded3 ded4</pre>
+        <p class="small soft">
+          Cuando le salga, lo pasás a la 5ª cuerda, después a la 4ª, y así. Es el
+          calentamiento del resto de su vida como guitarrista.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>3 · El power chord</h3>
+        <p>
+          Índice en la cuerda gruesa, anular <strong>dos trastes más arriba</strong>
+          en la cuerda de al lado. Presionás cerca del traste, no en el medio: se
+          necesita mucha menos fuerza.
+        </p>
+        <div class="chords" id="chords-c1"></div>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>4 · La estrofa</h3>
+        <p>Cuatro golpes de púa en C5, cuatro en F5, y de nuevo. Todo el día.</p>
+        <pre class="tab">      <b>C5</b>                    <b>F5</b>
+e|--------------------|--------------------|
+B|--------------------|--------------------|
+G|--------------------|--------------------|
+D|--5----5----5----5--|--------------------|
+A|--3----3----3----3--|--3----3----3----3--|
+E|--------------------|--1----1----1----1--|
+   1    2    3    4     1    2    3    4</pre>
+        <div class="strum" aria-label="Patrón de rasgueo: cuatro golpes hacia abajo">
+          <div><span class="arrow">↓</span><br /><span class="beat">1</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">2</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">3</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
+        </div>
+      </div>
+
+      <div class="key stack stack-sm">
+        <h4>La clave de esta clase</h4>
+        <p>
+          No importa si el cambio de acorde queda lento o sucio.
+          <span class="marker">Importa que no se corte el pulso.</span>
+          Si se le va a trabar, que llegue tarde al acorde pero siga contando.
+          Esto es lo más difícil de instalar y lo que más rinde después.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>Tarea</h3>
+        <ul class="todo">
+          <li><span class="box"></span><span>10 minutos por día, todos los días. Mejor 10 diarios que 70 el sábado.</span></li>
+          <li><span class="box"></span><span>Cromático 1-2-3-4 en la 6ª cuerda a 60 BPM.</span></li>
+          <li><span class="box"></span><span>C5 ↔ F5, cuatro golpes cada uno, sin cortar el pulso.</span></li>
+          <li><span class="box"></span><span>Escuchar el tema tres veces, sin guitarra, buscando dónde cambia.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================= CLASE 2 ========================= -->
+  <section id="c2">
+    <div class="class-bar">
+      <div class="wrap class-bar-inner">
+        <span class="class-num">02</span>
+        <div>
+          <h2>El tema entero, versión cruda</h2>
+          <span class="class-goal">Objetivo · las 4 partes en power chords a 100 BPM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap stack stack-lg">
+
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="t">0–6</td><td class="b">Repaso</td><td>Que afine él solo. C5 ↔ F5 a 70 BPM.</td></tr>
+            <tr><td class="t">6–16</td><td class="b">Dos formas más</td><td>G5 y A5. Misma forma, otro traste.</td></tr>
+            <tr><td class="t">16–26</td><td class="b">Estribillo</td><td>G5 ↔ F5.</td></tr>
+            <tr><td class="t">26–34</td><td class="b">Sección Am</td><td>A5 ↔ F5.</td></tr>
+            <tr><td class="t">34–44</td><td class="b">Ritmo</td><td>Negras → corcheas ↓↑. Palm mute en la estrofa.</td></tr>
+            <tr><td class="t">44–56</td><td class="b">El tema</td><td>De punta a punta con la estructura, a 100 BPM.</td></tr>
+            <tr><td class="t">56–60</td><td class="b">Cierre</td><td>Tarea.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>1 · Las dos formas nuevas</h3>
+        <div class="chords" id="chords-c2"></div>
+        <p class="small soft">
+          Fijate que es exactamente el mismo dibujo que ya sabe. Solo se mueve.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>2 · Estribillo</h3>
+        <pre class="tab">      <b>G5</b>                    <b>F5</b>
+D|--------------------|--------------------|
+A|--5----5----5----5--|--3----3----3----3--|
+E|--3----3----3----3--|--1----1----1----1--|</pre>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>3 · Sección Am</h3>
+        <pre class="tab">      <b>A5</b>                    <b>F5</b>
+D|--------------------|--------------------|
+A|--7----7----7----7--|--3----3----3----3--|
+E|--5----5----5----5--|--1----1----1----1--|</pre>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>4 · Ritmo: de negras a corcheas</h3>
+        <p>
+          Cuando las negras salen solas, se duplica: la mano derecha baja y sube sin
+          parar, como un péndulo. Aunque el acorde dure, la mano no frena nunca.
+        </p>
+        <div class="strum" aria-label="Patrón de corcheas: abajo arriba alternado">
+          <div><span class="arrow">↓</span><br /><span class="beat">1</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">2</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">3</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+        </div>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>5 · Palm mute</h3>
+        <p>
+          El canto de la mano derecha apoya suavecito sobre las cuerdas, justo donde
+          tocan el puente. El acorde deja de sonar abierto y pasa a sonar corto,
+          apretado. Es lo que le da el empuje a las estrofas de rock.
+        </p>
+        <div class="warn stack stack-sm">
+          <h4>El error típico</h4>
+          <p>
+            Se apoya demasiado adelante y las notas se apagan del todo, o demasiado
+            atrás y no pasa nada. Es cuestión de milímetros: que mueva la mano de a
+            poco hasta encontrarlo, y que se acuerde de dónde quedó.
+          </p>
+        </div>
+      </div>
+
+      <div class="key stack stack-sm">
+        <h4>La clave de esta clase</h4>
+        <p>
+          Hoy termina tocando el tema completo. Feo, lento, pero
+          <span class="marker">de principio a fin</span>. Ese es el momento en que
+          un alumno decide si sigue o deja: hacé que se vaya con esa sensación.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>Tarea</h3>
+        <ul class="todo">
+          <li><span class="box"></span><span>El tema entero en power chords, tres veces al día.</span></li>
+          <li><span class="box"></span><span>Corcheas ↓↑ sobre un solo acorde, dos minutos sin parar la mano.</span></li>
+          <li><span class="box"></span><span>Probar de tocar arriba del tema a velocidad real. No importa si se pierde.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================= CLASE 3 ========================= -->
+  <section id="c3">
+    <div class="class-bar">
+      <div class="wrap class-bar-inner">
+        <span class="class-num">03</span>
+        <div>
+          <h2>Los cuatro acordes de verdad</h2>
+          <span class="class-goal">Objetivo · C, Fmaj7, G y Am encadenados</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap stack stack-lg">
+
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="t">0–6</td><td class="b">Repaso</td><td>El tema en power chords, con el disco puesto.</td></tr>
+            <tr><td class="t">6–14</td><td class="b">Am</td><td>Su primer acorde abierto. El más fácil de los cuatro.</td></tr>
+            <tr><td class="t">14–24</td><td class="b">C y Fmaj7</td><td>El corazón del tema. Fmaj7 sin cejilla.</td></tr>
+            <tr><td class="t">24–30</td><td class="b">G</td><td>El que más estira la mano.</td></tr>
+            <tr><td class="t">30–40</td><td class="b">Cambios</td><td>Contador de cambios: cuántos C↔Fmaj7 limpios en un minuto.</td></tr>
+            <tr><td class="t">40–52</td><td class="b">Rasgueo</td><td>↓ ↓↑ ↓ ↓↑ sobre los cuatro acordes.</td></tr>
+            <tr><td class="t">52–58</td><td class="b">El tema</td><td>Con acordes abiertos, a 80 BPM.</td></tr>
+            <tr><td class="t">58–60</td><td class="b">Cierre</td><td>Tarea.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>1 · El orden en que se enseñan</h3>
+        <p>
+          No es alfabético ni caprichoso: van de menos a más estiramiento, y cada
+          uno reutiliza dedos del anterior.
+        </p>
+        <div class="chords" id="chords-c3"></div>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>2 · Las tres reglas de la mano izquierda</h3>
+        <ul>
+          <li><strong>Puntas de los dedos, no yemas.</strong> El dedo entra casi vertical, si no apaga la cuerda de al lado.</li>
+          <li><strong>Pulgar detrás del mástil</strong>, más o menos a la altura del dedo mayor. No abrazando el mástil.</li>
+          <li><strong>Uñas cortas.</strong> Con uña larga es físicamente imposible.</li>
+        </ul>
+        <div class="warn stack stack-sm">
+          <h4>Si suena a trapo</h4>
+          <p>
+            Que toque las cuerdas del acorde <strong>una por una</strong> y busque
+            cuál no suena. Casi siempre es un dedo que se acostó sobre la cuerda de
+            abajo. Se corrige levantando la muñeca un poco hacia adelante.
+          </p>
+        </div>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>3 · El cambio que importa: C → Fmaj7</h3>
+        <p>
+          Poné los dos acordes al lado y que los compare antes de tocarlos. El
+          índice y el mayor casi no se mueven; lo único que viaja de verdad es el
+          anular, que baja de la 5ª cuerda a la 4ª.
+        </p>
+        <pre class="tab">        <b>C</b>            <b>Fmaj7</b>
+e|------0------|------0------|   al aire las dos
+B|------1------|------1------|   índice: NO se mueve
+G|------0------|------2------|   entra el mayor
+D|------2------|------3------|   entra el anular
+A|------3------|-------------|
+E|-------------|-------------|</pre>
+        <div class="key stack stack-sm">
+          <h4>El ejercicio del minuto</h4>
+          <p>
+            Un minuto de reloj, cambiando C ↔ Fmaj7 lo más limpio posible, contando
+            cuántos cambios logra. Se anota el número. La clase que viene se intenta
+            superar. <span class="marker">Es adictivo y funciona.</span>
+          </p>
+          <p class="small soft">Anotá acá: clase 3 → ______ cambios · clase 4 → ______ cambios</p>
+        </div>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>4 · El rasgueo</h3>
+        <p>
+          Este patrón le sirve para la estrofa y para media discografía de las
+          bandas que le gustan. Contalo en voz alta mientras toca.
+        </p>
+        <div class="strum" aria-label="Patrón de rasgueo: abajo, abajo arriba, abajo, abajo arriba">
+          <div><span class="arrow">↓</span><br /><span class="beat">1</span></div>
+          <div><span class="arrow">·</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">2</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">3</span></div>
+          <div><span class="arrow">·</span><br /><span class="beat">y</span></div>
+          <div><span class="arrow">↓</span><br /><span class="beat">4</span></div>
+          <div><span class="arrow">↑</span><br /><span class="beat">y</span></div>
+        </div>
+        <p class="small soft">
+          Los puntos son movimientos «al aire»: la mano sigue bajando y subiendo,
+          pero no toca las cuerdas. Así el brazo nunca pierde el pulso.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>Tarea</h3>
+        <ul class="todo">
+          <li><span class="box"></span><span>Los cuatro acordes, uno por uno, chequeando que suenen todas las cuerdas.</span></li>
+          <li><span class="box"></span><span>Ejercicio del minuto: C ↔ Fmaj7. Anotar el número cada día.</span></li>
+          <li><span class="box"></span><span>El rasgueo ↓ ↓↑ ↓ ↓↑ sobre Am, dos minutos sin frenar.</span></li>
+          <li><span class="box"></span><span>El tema con acordes abiertos, lento, sin el disco.</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================= CLASE 4 ========================= -->
+  <section id="c4">
+    <div class="class-bar">
+      <div class="wrap class-bar-inner">
+        <span class="class-num">04</span>
+        <div>
+          <h2>Tocarlo con el disco</h2>
+          <span class="class-goal">Objetivo · el tema de punta a punta, grabado</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap stack stack-lg">
+
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="t">0–6</td><td class="b">Repaso</td><td>Ejercicio del minuto. ¿Superó el número?</td></tr>
+            <tr><td class="t">6–18</td><td class="b">Estructura</td><td>Armás el mapa entero y lo tocan sin el disco.</td></tr>
+            <tr><td class="t">18–30</td><td class="b">Dinámica</td><td>Estrofa con palm mute, estribillo abierto y fuerte.</td></tr>
+            <tr><td class="t">30–42</td><td class="b">Con el disco</td><td>Varias pasadas completas a velocidad real.</td></tr>
+            <tr><td class="t">42–48</td><td class="b">Grabar</td><td>Con el celu. Es el trofeo y se lo lleva.</td></tr>
+            <tr><td class="t">48–56</td><td class="b">Bonus</td><td>El capo: los mismos cuatro acordes en otro tono.</td></tr>
+            <tr><td class="t">56–60</td><td class="b">Qué sigue</td><td>Cejilla, pentatónica, primer solo.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>1 · Dinámica: que no sea todo igual</h3>
+        <p>
+          Ya sabe las notas. Lo que separa «tocar los acordes» de «tocar el tema» es
+          que las partes suenen distinto entre sí.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr><th>Parte</th><th>Cómo</th><th>Sensación</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="b">Intro</td><td>Acordes abiertos, suave, sin distorsión</td><td>Entra el tema</td></tr>
+              <tr><td class="b">Estrofa</td><td>Power chords con palm mute</td><td>Contenido, en tensión</td></tr>
+              <tr><td class="b">Estribillo</td><td>Acordes abiertos, fuerte, sin mute</td><td>Se abre</td></tr>
+              <tr><td class="b">Sección Am</td><td>Rasgueo parejo, medio volumen</td><td>Baja y prepara</td></tr>
+              <tr><td class="b">Final</td><td>Vuelve al loop y se apaga</td><td>Se va</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="key stack stack-sm">
+        <h4>Grabalo</h4>
+        <p>
+          Con el celu, una sola toma, aunque tenga errores.
+          <span class="marker">A los cuatro meses ese audio vale oro</span> y es lo
+          que lo hace seguir estudiando cuando se le complique.
+        </p>
+      </div>
+
+      <div class="stack stack-md">
+        <h3>2 · Qué viene después</h3>
+        <ul>
+          <li><strong>La cejilla.</strong> Con el F con cejilla se le abren todos los tonos.</li>
+          <li><strong>Escala pentatónica menor.</strong> La caja 1. Es el idioma de todos los solos que le gustan.</li>
+          <li><strong>Sacar de oído.</strong> Un tema corto, él solo, sin buscar los acordes en internet.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================= BONUS ========================= -->
+  <section class="section" id="bonus">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>El bonus: el capo</h2>
+      </div>
+
+      <div class="stack stack-lg">
+
+        <p>
+          Este es el momento que engancha a cualquier alumno. Los mismos cuatro
+          dibujos de dedos, con un capo puesto en otro traste, suenan en otro tono.
+          O sea: Alejo ya no sabe cuatro acordes, sabe cuatro acordes
+          <em>en doce tonos</em>.
+        </p>
+
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr><th>Capo</th><th>Hacés la forma de C</th><th>Suena en realidad</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="t">Sin capo</td><td class="b">C</td><td>Do</td></tr>
+              <tr><td class="t">Traste 2</td><td class="b">C</td><td>Re</td></tr>
+              <tr><td class="t">Traste 4</td><td class="b">C</td><td>Mi</td></tr>
+              <tr><td class="t">Traste 5</td><td class="b">C</td><td>Fa</td></tr>
+              <tr><td class="t">Traste 7</td><td class="b">C</td><td>Sol</td></tr>
+              <tr><td class="t">Traste 9</td><td class="b">C</td><td>La</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="stack stack-md">
+          <h3>Banco de temas para la clase 5</h3>
+          <p>
+            De sus bandas, para elegir uno juntos y sacarlo. Chequeá los acordes en
+            el momento —cada versión anda distinto— pero todos son de dificultad
+            razonable para alguien que ya tiene estos cuatro:
+          </p>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th>Banda</th><th>Candidatos</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="b">Indio / Redondos</td><td>Un poco de amor francés · El pibe de los astilleros · Todo un palo</td></tr>
+                <tr><td class="b">Soda Stereo</td><td>Trátame suavemente · Persiana americana · De música ligera</td></tr>
+                <tr><td class="b">Cerati</td><td>Crimen · Puente · Adiós</td></tr>
+                <tr><td class="b">Las Pastillas</td><td>Cuando yo no esté · El sensei · Barro</td></tr>
+                <tr><td class="b">NTVG</td><td>Chau · Clara · A las nueve</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="small soft">
+            Dejá que elija él. El tema que elige el alumno se estudia el triple que
+            el que elige el profe.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= FICHA ========================= -->
+  <section class="section" id="ficha">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ficha de seguimiento</h2>
+      </div>
+
+      <div class="stack stack-md">
+        <p class="small soft">
+          Para vos, Feli. Un mínimo por clase: si no lo alcanzó, no pasa nada, pero
+          la clase siguiente arranca ahí.
+        </p>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr><th>Clase</th><th>Mínimo indispensable</th><th>¿Salió?</th><th>Notas</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="t">01</td><td>C5 ↔ F5 sin cortar el pulso</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">___________</td></tr>
+              <tr><td class="t">02</td><td>Las cuatro partes en power chords</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">___________</td></tr>
+              <tr><td class="t">03</td><td>Los cuatro acordes suenan limpios</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">___________</td></tr>
+              <tr><td class="t">04</td><td>El tema completo con el disco</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">___________</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="warn stack stack-sm">
+          <h4>Si se atrasa</h4>
+          <p>
+            El punto de corte natural es la clase 3. Si los acordes abiertos no
+            salen, estirá el cuadernillo a cinco clases y quedate más tiempo en los
+            cambios: <strong>es preferible que toque bien el tema en power chords a
+            que toque mal las dos versiones.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= GLOSARIO ========================= -->
+  <section class="section" id="glosario">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Glosario</h2>
+      </div>
+
+      <dl class="gloss">
+        <div><dt>Traste</dt><dd>Cada una de las barritas de metal del mástil. «Traste 3» es el espacio entre la tercera y la cuarta barrita.</dd></div>
+        <div><dt>Cuerda al aire</dt><dd>Cuerda que suena sin apretar ningún traste.</dd></div>
+        <div><dt>Power chord</dt><dd>Acorde de dos notas (fundamental y quinta). No es mayor ni menor, por eso suena bien con distorsión.</dd></div>
+        <div><dt>Cejilla</dt><dd>Aplastar varias cuerdas a la vez con un solo dedo. En este cuadernillo no hace falta.</dd></div>
+        <div><dt>Capo</dt><dd>La pinza que hace de cejilla por vos. Sube el tono sin cambiar las formas.</dd></div>
+        <div><dt>Palm mute</dt><dd>Apoyar el canto de la mano derecha sobre las cuerdas cerca del puente para que suenen cortas y apretadas.</dd></div>
+        <div><dt>Tab</dt><dd>Las seis líneas con números. Cada línea es una cuerda, cada número es el traste que apretás.</dd></div>
+        <div><dt>BPM</dt><dd>Pulsos por minuto. La velocidad del tema.</dd></div>
+        <div><dt>Compás 4/4</dt><dd>La música se cuenta de a cuatro. Casi todo el rock es así.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Cuadernillo armado para Alejo · 4 clases · guitarra eléctrica<br />
+    La Pequeña Mamba — Indio Solari y Los Fundamentalistas del Aire Acondicionado
+  </div>
+</footer>
+
+<script>
+  /* ============================================================
+     Diagramas de acordes generados desde una spec compacta.
+     frets[] va de la 6ª cuerda (índice 0) a la 1ª (índice 5).
+     null = cuerda muteada, 0 = al aire, N = traste absoluto.
+     ============================================================ */
+  (function () {
+    var NF = 4; // trastes visibles
+    var MONO = 'ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace';
+
+    function diagram(spec) {
+      var W = 104, LEFT = 17, RIGHT = 17;
+      var TOP = 26, SW = (W - LEFT - RIGHT) / 5, FH = 21;
+      var H = TOP + FH * NF + 8;
+      var base = spec.baseFret || 1;
+      var ns = "http://www.w3.org/2000/svg";
+
+      var svg = document.createElementNS(ns, "svg");
+      svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+      svg.setAttribute("width", W);
+      svg.setAttribute("height", H);
+      svg.setAttribute("role", "img");
+      svg.setAttribute("aria-label", "Diagrama del acorde " + spec.name);
+
+      function el(tag, attrs) {
+        var n = document.createElementNS(ns, tag);
+        for (var k in attrs) n.setAttribute(k, attrs[k]);
+        svg.appendChild(n);
+        return n;
+      }
+
+      // Trastes horizontales
+      for (var f = 0; f <= NF; f++) {
+        var isNut = (f === 0 && base === 1);
+        el("line", {
+          x1: LEFT, y1: TOP + f * FH, x2: W - RIGHT, y2: TOP + f * FH,
+          stroke: "currentColor",
+          "stroke-width": isNut ? 4 : 1,
+          "stroke-opacity": isNut ? 1 : 0.42
+        });
+      }
+
+      // Cuerdas verticales
+      for (var s = 0; s < 6; s++) {
+        el("line", {
+          x1: LEFT + s * SW, y1: TOP, x2: LEFT + s * SW, y2: TOP + NF * FH,
+          stroke: "currentColor", "stroke-width": 1, "stroke-opacity": 0.42
+        });
+      }
+
+      // Número de traste inicial
+      if (base > 1) {
+        var lbl = el("text", {
+          x: LEFT - 6, y: TOP + FH * 0.68,
+          "text-anchor": "end", "font-size": 10,
+          "font-family": MONO, fill: "currentColor", "fill-opacity": 0.65
+        });
+        lbl.textContent = base + "fr";
+      }
+
+      // Marcas arriba (× / O) y puntos
+      spec.frets.forEach(function (fret, i) {
+        var x = LEFT + i * SW;
+
+        if (fret === null) {
+          var xm = el("text", {
+            x: x, y: TOP - 7, "text-anchor": "middle", "font-size": 11,
+            "font-family": MONO, fill: "currentColor", "fill-opacity": 0.45
+          });
+          xm.textContent = "×";
+          return;
+        }
+        if (fret === 0) {
+          el("circle", {
+            cx: x, cy: TOP - 10, r: 3.6,
+            fill: "none", stroke: "currentColor", "stroke-width": 1.4, "stroke-opacity": 0.6
+          });
+          return;
+        }
+
+        var rel = fret - base + 1;
+        if (rel < 1 || rel > NF) return;
+        var cy = TOP + (rel - 0.5) * FH;
+
+        el("circle", { cx: x, cy: cy, r: 7.4, style: "fill: var(--mamba)" });
+
+        var fin = spec.fingers && spec.fingers[i];
+        if (fin) {
+          var t = el("text", {
+            x: x, y: cy + 3.4, "text-anchor": "middle", "font-size": 9.5,
+            "font-family": MONO, "font-weight": "700",
+            style: "fill: var(--paper-2)"
+          });
+          t.textContent = fin;
+        }
+      });
+
+      return svg;
+    }
+
+    function render(containerId, specs) {
+      var host = document.getElementById(containerId);
+      if (!host) return;
+      specs.forEach(function (spec) {
+        var card = document.createElement("div");
+        card.className = "chord";
+
+        var name = document.createElement("div");
+        name.className = "cname";
+        name.textContent = spec.name;
+
+        var sub = document.createElement("span");
+        sub.className = "csub";
+        sub.textContent = spec.sub || "";
+
+        card.appendChild(name);
+        card.appendChild(sub);
+        card.appendChild(diagram(spec));
+        host.appendChild(card);
+      });
+    }
+
+    var POWER = [
+      { name: "F5",  sub: "6ª cuerda · traste 1", baseFret: 1, frets: [1, 3, null, null, null, null], fingers: [1, 3] },
+      { name: "G5",  sub: "6ª cuerda · traste 3", baseFret: 3, frets: [3, 5, null, null, null, null], fingers: [1, 3] },
+      { name: "A5",  sub: "6ª cuerda · traste 5", baseFret: 5, frets: [5, 7, null, null, null, null], fingers: [1, 3] },
+      { name: "C5",  sub: "5ª cuerda · traste 3", baseFret: 3, frets: [null, 3, 5, null, null, null], fingers: [0, 1, 3] }
+    ];
+
+    var OPEN = [
+      { name: "Am",    sub: "el más fácil",        baseFret: 1, frets: [null, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+      { name: "C",     sub: "estrofa e intro",     baseFret: 1, frets: [null, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
+      { name: "Fmaj7", sub: "el F sin cejilla",    baseFret: 1, frets: [null, null, 3, 2, 1, 0], fingers: [0, 0, 3, 2, 1, 0] },
+      { name: "G",     sub: "estribillo",          baseFret: 1, frets: [3, 2, 0, 0, 0, 3], fingers: [2, 1, 0, 0, 0, 3] }
+    ];
+
+    render("chords-power", POWER);
+    render("chords-open", OPEN);
+    render("chords-c1", [POWER[3], POWER[0]]);
+    render("chords-c2", [POWER[1], POWER[2]]);
+    render("chords-c3", OPEN);
+  })();
+</script>
