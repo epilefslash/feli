@@ -327,34 +327,25 @@
   .profe table { font-size: 0.85rem; }
   .profe > p, .profe li { color: var(--ink-soft); font-size: 0.92rem; }
 
-  /* Cargadas de cancha. */
-  .cancha {
-    border-left: 5px solid var(--rust);
-    background: var(--paper-2);
-    padding: 0.8rem 1.05rem;
-  }
-  .cancha b {
-    display: block;
-    font-family: var(--f-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--rust);
-    margin-bottom: 0.3rem;
-  }
-
+  /* Tablas: min-width + overflow-x:auto está pensado para pantalla
+     (donde sobra ancho y a lo sumo aparece un scroll). En el PDF no
+     hay scroll: si la tabla queda más ancha que la hoja, el sobrante
+     se recorta contra el borde físico de la página. Por eso ninguna
+     regla de ancho fijo/nowrap va acá — ver overrides de @media print
+     más abajo, que son la versión que manda al exportar. */
   .table-scroll { overflow-x: auto; }
   table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.92rem;
-    min-width: 30rem;
+    table-layout: fixed;
   }
   th, td {
     text-align: left;
     padding: 0.6rem 0.7rem;
     border-bottom: 1px solid var(--rule);
     vertical-align: top;
+    overflow-wrap: break-word;
   }
   th {
     font-family: var(--f-mono);
@@ -368,13 +359,18 @@
   td.t {
     font-family: var(--f-mono);
     font-variant-numeric: tabular-nums;
-    white-space: nowrap;
     color: var(--mamba);
     font-weight: 700;
     font-size: 0.82rem;
   }
-  td.b { font-weight: 700; white-space: nowrap; }
+  td.b { font-weight: 700; }
   tbody tr:last-child td { border-bottom: none; }
+
+  /* Anchos de columna para table-layout:fixed. Solo hace falta
+     ponerlos en el <th> — fixed toma el ancho de la primera fila. */
+  th.w-sm { width: 4.4rem; }
+  th.w-md { width: 8.5rem; }
+  th.w-check { width: 5.4rem; }
 
   .tab {
     font-family: var(--f-mono);
@@ -710,15 +706,10 @@
             C, F, <strong>Fm</strong> y G. Ese <strong>Fm</strong> es lo más lindo
             que tiene —es el acorde que hace que la frase te agarre el pecho— pero
             lleva cejilla, que es aplastar las seis cuerdas con un dedo solo. Para
-            alguien que arranca es un muro.
+            alguien que arranca es un muro, así que
+            <span class="marker">no lo vamos a tocar así</span> — esperamos a que
+            tengas más calle con la guitarra.
           </p>
-          <div class="cancha">
-            <b>Nota deportiva</b>
-            No te voy a hacer tocar el Fa menor en la segunda clase. Te pongo una
-            cejilla, no te sale, te frustrás, dejás la guitarra
-            <span class="marker">y me terminás mandando a entrenar a las inferiores
-            de Central</span>. Y eso, sinceramente, no me lo merezco.
-          </div>
         </div>
 
         <div class="key stack stack-sm">
@@ -738,8 +729,8 @@
             <table>
               <thead>
                 <tr>
-                  <th>En el disco (Do)</th>
-                  <th>Vos tocás (La)</th>
+                  <th class="w-md">En el disco (Do)</th>
+                  <th class="w-md">Vos tocás (La)</th>
                   <th>Dificultad</th>
                 </tr>
               </thead>
@@ -763,7 +754,7 @@
           <div class="table-scroll">
             <table>
               <thead>
-                <tr><th>Clase</th><th>Tema técnico</th><th>Logro concreto</th></tr>
+                <tr><th class="w-sm">Clase</th><th>Tema técnico</th><th>Logro concreto</th></tr>
               </thead>
               <tbody>
                 <tr><td class="t">01 ✓</td><td class="b">Partes, afinación, digitación</td><td>Hacés <span class="ch">A</span> y <span class="ch">E</span>, un compás cada uno a 50 BPM</td></tr>
@@ -1047,7 +1038,7 @@
 
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Orden</th><th>Bloque</th><th>Qué vimos</th></tr></thead>
+          <thead><tr><th class="w-sm">Orden</th><th>Bloque</th><th>Qué vimos</th></tr></thead>
           <tbody>
             <tr><td class="t">1</td><td class="b">La guitarra</td><td>Las partes, cable y ampli. Cómo sentarte y cómo agarrar la púa.</td></tr>
             <tr><td class="t">2</td><td class="b">Afinación</td><td>Mi–La–Re–Sol–Si–Mi con la app, cuerda por cuerda.</td></tr>
@@ -1062,7 +1053,7 @@
         <h3>1 · Las partes de tu guitarra</h3>
         <div class="table-scroll">
           <table>
-            <thead><tr><th>Parte</th><th>Para qué sirve</th></tr></thead>
+            <thead><tr><th class="w-md">Parte</th><th>Para qué sirve</th></tr></thead>
             <tbody>
               <tr><td class="b">Clavijas</td><td>Se giran para afinar. Cada una es de una cuerda.</td></tr>
               <tr><td class="b">Cejuela</td><td>La barrita del principio. Marca dónde arranca la cuerda que suena.</td></tr>
@@ -1251,7 +1242,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
 
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
+          <thead><tr><th class="w-sm">Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
             <tr><td class="t">0–10</td><td class="b">Repaso</td><td>Afinar solo. La vuelta <span class="ch">A</span> ↔ <span class="ch">E</span> a 50, chequeando que no haya cuerdas mudas.</td></tr>
             <tr><td class="t">10–22</td><td class="b">El <span class="ch">D</span></td><td>El triangulito. Es el que más ensucia al principio.</td></tr>
@@ -1389,7 +1380,7 @@ E|--<b>7</b>----<b>8</b>----<b>9</b>---<b>10</b>--------------|
 
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
+          <thead><tr><th class="w-sm">Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
             <tr><td class="t">0–8</td><td class="b">Repaso</td><td>Los tres acordes que ya tenés, con corcheas. El D limpio.</td></tr>
             <tr><td class="t">8–20</td><td class="b"><span class="ch">Dm</span></td><td>El momento del tema. Una nota baja un traste; el anular queda de ancla.</td></tr>
@@ -1574,7 +1565,7 @@ E|------x------|------x------|   no suena
 
       <div class="table-scroll">
         <table>
-          <thead><tr><th>Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
+          <thead><tr><th class="w-sm">Min</th><th>Bloque</th><th>Qué hacés</th></tr></thead>
           <tbody>
             <tr><td class="t">0–6</td><td class="b">Repaso</td><td>Ejercicio del minuto. ¿Superaste el número?</td></tr>
             <tr><td class="t">6–18</td><td class="b">Estructura</td><td>Armamos el mapa entero y lo tocamos sin el video.</td></tr>
@@ -1595,7 +1586,7 @@ E|------x------|------x------|   no suena
         </p>
         <div class="table-scroll">
           <table>
-            <thead><tr><th>Parte</th><th>Cómo</th><th>Sensación</th></tr></thead>
+            <thead><tr><th class="w-md">Parte</th><th>Cómo</th><th>Sensación</th></tr></thead>
             <tbody>
               <tr><td class="b">Intro</td><td>Acordes abiertos, suave, sin distorsión</td><td>Entra el tema</td></tr>
               <tr><td class="b">Estrofa</td><td>A y E con palm mute</td><td>Contenido, en tensión</td></tr>
@@ -1654,7 +1645,7 @@ E|------x------|------x------|   no suena
         <div class="table-scroll">
           <table>
             <thead>
-              <tr><th>Capo</th><th>Hace la forma de</th><th>Suena en realidad</th></tr>
+              <tr><th class="w-md">Capo</th><th>Hace la forma de</th><th>Suena en realidad</th></tr>
             </thead>
             <tbody>
               <tr><td class="t">Sin capo</td><td class="b">A</td><td>La <span class="soft small">← nuestra versión</span></td></tr>
@@ -1676,7 +1667,7 @@ E|------x------|------x------|   no suena
           </p>
           <div class="table-scroll">
             <table>
-              <thead><tr><th>Banda</th><th>Candidatos</th></tr></thead>
+              <thead><tr><th class="w-md">Banda</th><th>Candidatos</th></tr></thead>
               <tbody>
                 <tr><td class="b">Indio / Redondos</td><td>Un poco de amor francés · El pibe de los astilleros · Todo un palo</td></tr>
                 <tr><td class="b">Soda Stereo</td><td>Trátame suavemente · Persiana americana · De música ligera</td></tr>
@@ -1708,7 +1699,7 @@ E|------x------|------x------|   no suena
         </p>
         <div class="table-scroll">
           <table>
-            <thead><tr><th>Clase</th><th>Mínimo indispensable</th><th>¿Salió?</th><th>Notas</th></tr></thead>
+            <thead><tr><th class="w-sm">Clase</th><th>Mínimo indispensable</th><th class="w-check">¿Salió?</th><th>Notas</th></tr></thead>
             <tbody>
               <tr><td class="t">01</td><td>A y E suenan limpios, un compás cada uno a 50</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">__________</td></tr>
               <tr><td class="t">02</td><td>A, D y E encadenados con corcheas</td><td class="mono">☐ sí ☐ no</td><td class="mono soft">__________</td></tr>
