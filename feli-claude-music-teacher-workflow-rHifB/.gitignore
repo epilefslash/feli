@@ -1,7 +1,0 @@
-# Intermedios de LilyPond: se regeneran con scripts/gen_scores*.py
-scripts/partituras/*.ly
-scripts/partituras/*.pdf
-
-# Python
-__pycache__/
-*.pyc
