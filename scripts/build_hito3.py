@@ -211,6 +211,21 @@ S.append(ejercicio(39, "La frase vocal (escuela Gary Moore) — caja 4", (
     "correcta; acá arriba <b>suena a que alguien está diciendo algo</b>."),
     "e39", W, "Con backing lento. Cantala antes de tocarla, aunque desafines. Ojo: trastes angostos, menos fuerza."))
 
+S.append(ejercicio("39-bis", "El slide previo y el double stop fantasma (Gary Moore) — caja 4", (
+    "Dos trucos que separan un bending \"tocado\" de uno \"cantado\", los dos de la misma clase de Gary "
+    "Moore. <b>Primero, el slide previo:</b> en vez de pisar la nota y estirar de una, deslizate hacia "
+    "ella. El bend deja de sonar a golpe y empieza a sonar <i>slick</i> — fluido, con intención.<br/><br/>"
+    "<b>Segundo, el double stop fantasma:</b> mientras sostenés el bend en la 1ª cuerda, la punta de ese "
+    "mismo dedo roza la 2ª cuerda de al lado — <b>sin estirarla</b>. No es el bend a dos cuerdas del "
+    "ejercicio 37 (ahí las dos se estiran juntas hasta empatar): acá una suena estirada y la otra suena "
+    "fija, y esa fricción es lo que le agrega cuerpo al momento más intenso del solo. Es un gesto de mano "
+    "derecha, así que no está dibujado en el pentagrama — practicalo directamente sobre la partitura del "
+    "ejercicio 39, en el mismo compás del bending largo.<br/><br/>"
+    "<i>Nota de transporte: la clase original está en Do menor, traste 18. Acá está pasada a La menor "
+    "(3 trastes abajo, traste 15) para que caiga en la misma caja 4 que ya conocés del ejercicio 39.</i>"),
+    "e39bis", W, "Practicá el slide solo, después el double stop solo, y recién ahí los dos juntos. "
+    "El error típico es apurar el slide — dale el mismo tiempo que le darías a una palabra."))
+
 S.append(ejercicio(40, "La línea fluida (escuela Slash) — de la caja 4 a la 1", (
     "Casi todo ligado: en dos compases puntéas tres o cuatro veces nada más. El resultado es una línea que "
     "<b>se derrama</b> por el mástil en vez de marcar cada nota. Empezá lento — si acelerás antes de tiempo, "

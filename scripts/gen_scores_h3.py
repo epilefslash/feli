@@ -86,6 +86,24 @@ EJ["e39"] = r"""
   c''8\2 a'\3 g'\3 e'\4 a2\5 \tabSym \vib ^\markup{\bold "largo · la tónica de la caja 4"} |
 """
 
+# 39-bis: el slide previo al bend + el "double stop fantasma" (Gary Moore).
+# Fuente: leccion de Gary Moore que trajo Feli, transcripta en Do menor (traste 18).
+# Transportada a La menor bajando una 3a menor (Do menor -> La menor = 3 trastes): 18 -> 15.
+# Misma caja 4 del ej. 39 — es su continuacion natural, no una posicion nueva.
+#
+# OJO, esto NO es el bend a dos cuerdas del unisono (ej. 37): ahi las dos cuerdas se
+# estiran juntas hasta empatar en la misma nota. Aca se estira SOLO la 1a cuerda; la
+# tecnica real (segun la clase que transcribio Feli) es que, sosteniendo el bend, la
+# PUNTA del mismo dedo que empuja roza la 2a cuerda de al lado SIN estirarla — un
+# gesto de mano derecha/dedo, no un segundo bend. Por eso la partitura dibuja una sola
+# nota sostenida: la 2a cuerda va aclarada en el texto del cuadernillo, no en el
+# pentagrama (inventar ahi un acorde con un solo tabSym adentro es notacion que este
+# repo nunca uso y no se puede verificar sin lilypond instalado en este entorno).
+EJ["e39bis"] = r"""
+  e''8\1^\markup{\bold "slide previo · caja 4"}( \glissando g''8\1) \tabSym \bendFull g''2. |
+  g''1\1^\markup{\bold "sostené el bend · tocá también la 2ª cuerda, sin estirarla"} \tabSym \vib |
+"""
+
 # 40: la línea fluida (escuela Slash) — casi todo ligado. Ahora baja DE VERDAD:
 # arranca en la caja 4 y desciende en diagonal hasta la 1.
 EJ["e40"] = r"""

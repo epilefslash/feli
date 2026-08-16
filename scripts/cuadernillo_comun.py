@@ -515,7 +515,7 @@ def score(name, width):
 
 
 def ejercicio(num, titulo, bajada, name, width, meta=None):
-    els = [Paragraph("EJERCICIO %d — %s" % (num, titulo), H3),
+    els = [Paragraph("EJERCICIO %s — %s" % (num, titulo), H3),
            Paragraph(bajada, BODY)]
     if meta:
         els.append(Paragraph(meta, SMALL))
