@@ -384,7 +384,11 @@ S.append(ejercicio(44, "Mismas notas, tres ritmos distintos (cajas 2 y 3)", (
     "El ritmo es el 70% de la identidad de una frase, y es lo primero que hay que tocar.<br/><br/>"
     "La frase está escrita entre las <b>cajas 2 y 3</b>, no en la 1. Y fijate que las tres versiones están "
     "en la MISMA posición: es a propósito. Si cambiara de caja entre una y otra, no sabrías si lo que cambió "
-    "el sonido fue el ritmo o el registro. Acá la única variable es el ritmo."),
+    "el sonido fue el ritmo o el registro. Acá la única variable es el ritmo.<br/><br/>"
+    "Si este juego de <b>mover el ritmo sin cambiar las notas</b> te enganchó, en el Anexo de Ritmo del "
+    "Hito 2 (ej. A, Las 3 velocidades) hay la otra cara de la moneda: la MISMA idea metida en menos espacio, "
+    "recorriendo las cinco cajas. Ahí es donde el ritmo deja de ser una variante y se convierte en una "
+    "decisión compositiva."),
     "e44", W, "70 BPM. El tercero (a contratiempo) es el más difícil: contá en voz alta si hace falta."))
 
 S.append(ejercicio(45, "Mismo arranque, tres remates (cajas 2 y 3)", (
