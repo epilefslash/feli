@@ -11,6 +11,17 @@
 - El usuario = Feli. Habla español rioplatense. NO confundir Feli con Nico.
 - El usuario filma y edita él mismo (guitarra, CapCut). Mi rol: guiones, estrategia, copy, pedagogía,
   auditoría de contenido, fact-check.
+- 🔴 **LA FUENTE DE VERDAD ES EL PDF QUE SUBE FELI, NO ESTE REPO.** (Regla dada por Feli el 19/8:
+  *"el final termina siendo el que sale de Design, así que hacé siempre los cambios en base al que te
+  subo como «terminado»"*.) El flujo real es: repo → prompt a Design → Feli revisa/ajusta → **ese PDF
+  es el estado actual**. O sea que el repo va SIEMPRE un paso atrás, y eso es normal, no un bug.
+  **Antes de proponer cualquier cambio, pedir o leer el cuadernillo «terminado» más reciente** y
+  trabajar sobre él. Si se edita el repo sin mirarlo, se pisan ejercicios que Feli ya aprobó — ya pasó
+  el 19/8 con el ej. 35 (lo reemplacé por Highway to Hell cuando en Design eso ya vivía como 35-bis).
+- **Corolario:** las partituras del repo que corresponden a transcripciones de Feli (35-bis, 36-bis,
+  37-bis, 47-ter, 40-bis, 41-bis…) son **aproximaciones mías**, no sus transcripciones. Las que llegan
+  al alumno son las imágenes de él. No "corregirlas" por diferencias con el PDF: la que está bien es
+  la de él. Para alinear el repo hace falta su MusicXML/Guitar Pro + `importar_musicxml.py`.
 - **No regenerar el PDF final del cuadernillo (`build_hito*.py` / `build_ritmo.py`) salvo que Feli lo
   pida explícitamente.** El PDF que él usa de verdad lo arma con Claude Design (18/8, confirmado por
   Feli). Alcanza con: editar `gen_scores_h*.py`/`build_hito*.py`, generar las partituras PNG
