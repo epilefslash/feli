@@ -539,3 +539,72 @@ compases tienen 3 ataques, el rótulo dice la verdad, y de paso prueba que el pa
 > a-g de adentro de los `\markup` como si fueran notas. La aritmética de compases **no se verifica con
 > regex** — hay duraciones heredadas, tresillos y ligaduras. Se le pregunta a LilyPond, que ya sabe.
 > Casi reporto 160 errores inventados por confiar en mi propio script sin contrastarlo.
+
+## 33) ESTADO AL CORTE DEL 19/8 — qué quedó hecho y qué falta
+
+> Sesión larga, retomada después de un ensayo de Feli. Se liquidó el ITEM 1 del backlog de la noche
+> anterior y se avanzó fuerte en el ITEM 2 (citas reales para la escuela británica). Esto es el
+> corte real: si la sesión se corta acá, **empezar por "LO QUE FALTA" de abajo, no repetir lo ya hecho.**
+
+### Lo que quedó HECHO y commiteado (branch `claude/music-teacher-workflow-rHifB`)
+
+1. **Ej. 44 (Hito 3):** agregado el párrafo que conecta con "Las 3 velocidades" del Anexo de Ritmo
+   Hito 2 (ej. A) — mover el ritmo sin tocar las notas vs. comprimir la misma idea en menos espacio.
+   Commit `72dcbd0`.
+2. **Escuela británica — 3 citas reales de Angus Young/AC/DC**, transcriptas por Feli (no compuestas
+   "al estilo de", como el resto del hito):
+   - **Ej. 35** reemplazado entero: *Highway to Hell*, el bend-y-soltá repetido que abre el solo.
+     Se queda en caja 1 a propósito (sigue siendo el punto de comparación contra el ej. 47).
+   - **Ej. 36-bis** (nuevo): *"pentatónica + 6"*, el color Dorian (FA#) de Angus sobre dobles cuerdas.
+     Caja 3-4.
+   - **Ej. 37-bis** (nuevo): *Lick 1*, compases 2 a 4 — los 4 bendings descendentes (12→10→8→5) +
+     remate legato.
+   - Se agregó el helper compartido **`bendQuarter`** (bending de ¼ de tono) en `gen_scores.py`,
+     junto a `bendFull`/`bendHalf` ya existentes — es la primera vez que el programa usa un micro-bend.
+   - `CROMATICAS`: se sumó `b'` (SI) en la 1ª cuerda, traste 7 — lo usa el 37-bis.
+   - El ej. 35 ahora referencia hacia adelante al ej. 47 ("vas a volver a ver este mecanismo, tres
+     cajas más arriba") — antes la referencia solo iba en un sentido (47→35).
+   - **Verificado:** escala OK (`auditar_cajas.py`) y barcheck de compases OK en las 65 partituras
+     del hito (`auditar_cajas.py --compases`). Los primeros intentos de e35/e36-bis/e37-bis fallaron
+     el barcheck (compases mal medidos) y se corrigieron antes de tocar el PDF — commit `0d74140`.
+   - PDF `Cuadernillo-Hito3-El-Vocabulario-EJERCICIOS.pdf` regenerado y commiteado.
+
+### Material descartado en esta sesión (con motivo, para no volver a evaluarlo)
+
+Feli pasó 5 PDF de licks ("Eric liks", "Licks Tony Iommi", "LICK repetitivos inglesa Rock", "Some
+Jimi Hendrix Licks", "Some Licks From Jimmy Page"). **Ninguno es transcripción real** — son ejercicios
+compuestos "al estilo de" (créditos: "Feli bayá" o "Words & Music by Sukko", no el artista real).
+Se rescató UNA sola cosa: el concepto de **bending de ¼ de tono**, que aparece repetido en varios de
+esos PDF y hoy sí está incorporado (ver arriba, `bendQuarter`). El resto se descartó: nivel técnico
+de shred (sextillizos, posiciones hasta traste 20), acordes con extensiones de jazz (Am7, A7#9,
+C7#9+) que no encajan con el vamp estático del programa, y Tony Iommi ni siquiera está en el panel
+de referentes (metal/doom, no rock/blues pentatónico). No hace falta revisarlos de nuevo.
+
+### LO QUE FALTA — el backlog de 5 items sigue así:
+
+1. ✅ Ej. 44 connector — DONE (ver arriba)
+2. 🟡 Escuela británica — **HECHO el reemplazo de citas reales** (35, 36-bis, 37-bis). Lo que
+   queda de este item: **Clapton**. Sigue sin cita propia — se mencionaba solo de pasada. Candidata
+   ya identificada en rondas anteriores: *Crossroads* (Cream). Ubicación a decidir: ¿ej. 43-bis
+   (después de "el color de cada grado"), o reemplazar algo existente? Ver
+   `/scratchpad/ITEM3_CLAPTON.md` para el detalle completo de opciones — sigue vigente.
+3. ⬜ Balance escuela americana — ¿agregar Slash real (Sweet Child O' Mine intro) o B.B. King real
+   (Thrill Is Gone) para emparejar con Gary Moore/Hendrix que ya tienen cita real? Ver
+   `/scratchpad/ITEM4_AMERICAN_BALANCE.md`.
+4. ⬜ Apoyatura — falta nombrar el concepto en el Hito 2 (El Sabor). Aparece implícito en el 39-bis
+   y el 41 del Hito 3 pero nunca se explica qué es. Propuesta: ej. 35-bis en Hito 2, después del
+   ej. 34. Ver `/scratchpad/ITEM5_APOYATURA.md`.
+5. Pendiente transversal: cuando se cierre Clapton, actualizar `hoja_de_recursos_hito3.md` (la hoja
+   de cierre del Hito 3) sumando las filas de los nuevos ejercicios (36-bis, 37-bis y lo que salga
+   de Clapton) a la tabla "DOBLES CUERDAS" / "MOTIVO E INSISTENCIA" correspondiente, antes de mandarla
+   a Design — ver `/scratchpad/cierre_bonus/PROMPT_CIERRE_PARA_DESIGN.txt`, que todavía no se envió.
+
+### Nota sobre archivos del scratchpad (no están en el repo, son de esta sesión)
+
+Los documentos de decisión (`ITEM2_BRITISH_CITATIONS.md`, `ITEM3_CLAPTON.md`, `ITEM4_AMERICAN_BALANCE.md`,
+`ITEM5_APOYATURA.md`, `SUMMARY_BACKLOG_5_ITEMS.md`, `BACKLOG_PENDIENTE_NOCHE.md`) viven en el directorio
+scratchpad de la sesión, **no en el repo** — si una sesión nueva arranca en un container fresco, esos
+archivos no van a estar. Esta sección de la memoria es el resumen que sobrevive; si hace falta el detalle
+completo de las opciones A/B/C/D de cada item, está en el mensaje del chat donde se escribieron (buscar
+"ITEM2_BRITISH_CITATIONS" en el historial) o simplemente re-derivarlas — el razonamiento está resumido
+arriba.
