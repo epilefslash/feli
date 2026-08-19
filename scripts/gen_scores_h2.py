@@ -189,6 +189,16 @@ EJ["e34"] = r"""
   a1\4 \tabSym \vib^\markup{\bold "dejala morir"} |
 """
 
+# 34-bis: la apoyatura — nota de aproximación, PICADA (no ligada). Se usa sin
+# nombrar en el 39-bis y el 41 del Hito 3; acá se nombra por primera vez.
+# Caja 1, a propósito: aislar el concepto antes de que el Hito 3 lo dé por sabido.
+EJ["e34bis"] = r"""
+  c''2\1^\markup{\bold "sin apoyatura · CAJA 1"} r2 |
+  a'8\1^\markup{\bold "con apoyatura"} c''4.\1 r2 |
+  a'8\1 c''4.\1 \tabSym \vib r2 |
+  e'8\2^\markup{\bold "bajando, con apoyatura en cada nota"} g'4\2 c'8\3 a2\4 \tabSym \vib |
+"""
+
 if __name__ == "__main__":
     fails = [k for k in sorted(EJ) if not render(k, EJ[k])]
     print("\nFallaron:", fails if fails else "ninguno")

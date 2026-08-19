@@ -418,6 +418,22 @@ S.append(Spacer(1, 4))
 S.append(Paragraph(
     "El compás 5 es un silencio completo, en el medio del solo. Es la nota más valiente de la partitura.", SMALL))
 
+S.append(PageBreak())
+S.append(Paragraph("LA APOYATURA — la nota que prepara a la otra", H2))
+S.append(Paragraph(
+    "Ya la usaste sin nombrarla: es esa nota corta que entra <b>justo antes</b> de la nota importante, "
+    "y que hace que la llegada suene menos \"pisada\" y más \"cantada\". No es un ligado — se puntea con "
+    "la púa, igual que la nota a la que apunta — y no es un bending: son dos notas distintas, una de paso "
+    "y otra de destino.<br/><br/>"
+    "Compará el primer compás con el segundo: misma nota de llegada, pero el segundo la anuncia. Ese "
+    "medio segundo de aviso es lo que separa una frase mecánica de una que respira.", BODY))
+S.append(Spacer(1, 2))
+S.append(score("e34bis", W))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "70 BPM. La apoyatura entra corta y sin acento — el peso va en la nota de llegada, no en la de paso. "
+    "Si las dos suenan igual de fuerte, todavía no es apoyatura: es dos notas sueltas.", SMALL))
+
 # ============================================================ CIERRE
 S.append(PageBreak())
 S.append(Paragraph("¿CERRASTE EL HITO 2? (checklist honesto)", H1))
