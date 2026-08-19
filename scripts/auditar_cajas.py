@@ -50,9 +50,11 @@ MAPA = {
 # que no este aca sigue haciendo fallar la validacion.
 #
 #   MIb / RE# -> el BLUE NOTE (b5). El alumno ya lo conoce del ej. 26 del Hito 2.
-#   SI        -> la 2a (o 9a). Color melodico, no de blues. Aparece en el ej. I.
+#   SI        -> la 2a (o 9a). Color melodico, no de blues. Aparece en el ej. I,
+#                y en el ej. 37-bis (cita de Angus Young, Lick 1) en la 1a cuerda.
 #   FA#       -> la 6a mayor del "BB box". Ya estaba en el ej. 54 del bonus desde
 #                siempre, pero el regex viejo no la veia: la caza este arreglo.
+#                Tambien es "el 6 agregado" del ej. 36-bis (Am pentatonica + 6).
 #
 # Si se agrega una tercera, escribir aca POR QUE. Una lista de excepciones sin
 # motivo escrito deja de ser una excepcion y pasa a ser un agujero.
@@ -60,7 +62,7 @@ CROMATICAS = {
     4: {"ees'": 13, "dis'": 13},
     3: {"ees'": 8, "dis'": 8, "b": 4, "fis'": 11},
     2: {"b'": 12},
-    1: {"ees''": 11, "dis''": 11},
+    1: {"ees''": 11, "dis''": 11, "b'": 7},
 }
 
 CAJAS = {1: (5, 8), 2: (7, 10), 3: (9, 13), 4: (12, 15), 5: (2, 5)}

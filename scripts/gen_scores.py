@@ -44,6 +44,7 @@ TEMPLATE = r"""\version "2.24.0"
 %%
 %%   d'2\3 \tabSym \bendFull            bending de un tono  (full + flecha arriba)
 %%   d'2\3 \tabSym \bendHalf            bending de medio tono
+%%   d'2\3 \tabSym \bendQuarter          bending de cuarto de tono (micro-bend, color)
 %%   d'2\3 \tabSym \bendRel             soltar el bending   (rel. + flecha abajo)
 %%   a1\4  \tabSym \vib                 vibrato             (la linea ondulada)
 %%   a1\4  \tabSym \vib ^\markup{...}   simbolo en las dos, prosa solo arriba
@@ -57,6 +58,8 @@ bendFull = \markup \override #'(baseline-skip . 1.3) \center-column {
   \bold \small "full" \arrow-head #Y #UP ##t }
 bendHalf = \markup \override #'(baseline-skip . 1.3) \center-column {
   \bold \small "½" \arrow-head #Y #UP ##t }
+bendQuarter = \markup \override #'(baseline-skip . 1.3) \center-column {
+  \bold \small "¼" \arrow-head #Y #UP ##t }
 bendRel = \markup \override #'(baseline-skip . 1.3) \center-column {
   \bold \small "rel." \arrow-head #Y #DOWN ##t }
 vib = \markup \raise #0.4 \draw-squiggle-line #0.3 #'(4 . 0) ##t

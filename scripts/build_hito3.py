@@ -157,14 +157,15 @@ S.append(Paragraph(
     "a una posición</b>. Si te cuesta ubicar el dibujo, volvé al mapa del Hito 1 — no es material nuevo, "
     "es territorio que ya recorriste.", SMALL))
 
-S.append(ejercicio(35, "El motivo que se repite (caja 1)", (
-    "Una celda de tres notas, machacada cinco veces, y recién en la sexta resolvés. Vas a sentir que "
-    "<b>estás repitiendo demasiado</b> — esa sensación es la trampa: desde adentro siempre parece más "
-    "repetido de lo que se escucha desde afuera. Grabate y vas a ver que suena convincente, no monótono.<br/><br/>"
+S.append(ejercicio(35, "CITA — Angus Young / AC/DC, \"Highway to Hell\" (caja 1)", (
+    "Los primeros compases del solo, tal como los toca Angus. Ni bien arranca hace una repetición — "
+    "bendeá y soltá, cuatro veces — antes de aflojar a medio tono y después a un cuarto: la escuela "
+    "británica en estado puro, la frase vale por la insistencia, no por la melodía.<br/><br/>"
     "Éste es el único de la semana que va en la caja 1, y es a propósito: es tu <b>punto de comparación</b>. "
     "En el ejercicio 47 vas a tocar esta misma celda tres cajas más arriba, y la diferencia solo se escucha "
     "si tenés ésta en el oído."),
-    "e35", W, "60 BPM en tresillos. El pull-off va en la 1ª cuerda (8 al 5); el Sol de la 2ª se puntea."))
+    "e35", W, "60 BPM. Todo en la 1ª cuerda, traste 5. El cuarto de tono es el más difícil: apenas movés "
+    "la cuerda, no le pongas fuerza de bend entero."))
 
 S.append(ejercicio(36, "Dobles cuerdas (caja 2)", (
     "Dos notas juntas, con la púa barriendo las dos cuerdas de una. Es el sonido de Chuck Berry y de medio "
@@ -174,6 +175,16 @@ S.append(ejercicio(36, "Dobles cuerdas (caja 2)", (
     "agudas, dos formas que alternan. <b>Corriste la mano tres trastes, nada más.</b>"),
     "e36", W, "70 BPM. Apagá con la mano derecha las cuerdas que no usás: si zumba algo, se arruina."))
 
+S.append(ejercicio("36-bis", "CITA — Angus Young, \"pentatónica + 6\" (caja 3-4)", (
+    "El otro truco clásico de Angus, además de la celda repetida: agregarle a la pentatónica menor "
+    "el <b>6º grado</b> (FA#), una nota que no es blue note ni la 2ª que ya conocés — es un color "
+    "distinto, más dulce, casi mayor.<br/><br/>"
+    "Subís por la 3ª cuerda pisando esa nota de paso, llegás arriba con medio tono de bending, y "
+    "bajás por el mismo camino cerrando con un cuarto de tono. La misma pentatónica de siempre, "
+    "con una sola nota prestada que le cambia el humor."),
+    "e36bis", W, "El FA# es de paso, igual que el blue note del ej. 26: no te quedes parado en él, "
+    "es el puente hacia el bending, no el destino."))
+
 S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota) — caja 3", (
     "El recurso más impactante de la escuela británica. Tocás dos cuerdas juntas y <b>bendeás la de abajo "
     "hasta que suene exactamente igual que la de arriba</b>. Cuando están afinadas, las dos notas se pelean "
@@ -182,6 +193,15 @@ S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota) — caja 3", (
     "Acá va en la <b>caja 3</b>: bendeás el traste 12 de la 3ª cuerda hasta igualar el 10 de la 2ª. "
     "Es exactamente la misma relación que en la caja 1 (7ª contra 5ª) — la forma es idéntica, corrida."),
     "e37", W, "Lento, sin metrónomo. Escuchá el batido: cuando desaparece, llegaste."))
+
+S.append(ejercicio("37-bis", "CITA — Angus Young, Lick 1 (compases 2 a 4)", (
+    "Cuatro bendings que van bajando de posición en la 1ª cuerda — traste 12, 10, 8 y 5 — y después "
+    "un remate legato que resuelve en la tónica. Es el mismo Angus del ej. 35 y el 36-bis, pero de "
+    "arriba hacia abajo: cierra el trío mostrando la escuela en las dos direcciones del mástil.<br/><br/>"
+    "Fijate que cada bending cuesta distinto según la posición — ya lo viste en el ej. 22 del Hito 2. "
+    "Acá lo tenés cuatro veces seguidas, bajando: la mano tiene que reajustar la fuerza en cada uno."),
+    "e37bis", W, "70 BPM. Cada bending es de un tono completo — no lo sueltes de golpe, dejalo sonar "
+    "arriba antes de bajar al siguiente."))
 
 S.append(ejercicio(38, "Los tres recursos encadenados (y el viaje)", (
     "Motivo repetido, dobles cuerdas y unísono en una sola frase. Fijate cuántas notas distintas usaste: "

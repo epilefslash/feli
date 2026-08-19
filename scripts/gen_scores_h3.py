@@ -4,10 +4,12 @@
 Salida: ./partituras/eNN.cropped.png
 Reutiliza la plantilla y el renderizador de `gen_scores.py`.
 
-IMPORTANTE — los licks son ORIGINALES, escritos *en el estilo de* cada escuela.
-No son transcripciones de solos ajenos. Es a propósito y es el punto pedagógico
-del hito: lo que se roba es el MECANISMO (el motivo que se repite, la doble
-cuerda, el bending que espera), no las notas de otro.
+IMPORTANTE — la mayoría de los licks son ORIGINALES, escritos *en el estilo de*
+cada escuela: no son transcripciones de solos ajenos. Es a propósito y es el
+punto pedagógico del hito: lo que se roba es el MECANISMO (el motivo que se
+repite, la doble cuerda, el bending que espera), no las notas de otro.
+Excepción, marcada explícitamente en cada caso: 35, 36-bis y 37-bis SÍ son
+citas reales (Angus Young / AC/DC), transcriptas y transportadas por Feli.
 
 Tonalidad: La menor pentatónica.
 Territorio: el hito se mueve por todo el mástil DESDE LA PRIMERA PÁGINA. Cada lick
@@ -40,16 +42,24 @@ EJ = {}
 # Lo que define a la escuela: motivos cortos que se repiten, dobles cuerdas,
 # ataque rítmico. La frase vale por la INSISTENCIA, no por la melodía.
 
-# 35: el motivo que se repite (celda de 3 notas, machacada)
+# 35: CITA REAL — Angus Young / AC/DC, "Highway to Hell", primeros 4 compases del
+# solo. Transcripción de Feli. Ni bien arranca hace una repetición (bend-y-suelta,
+# x4) — es la escuela británica en estado puro: la frase vale por la insistencia,
+# no por la melodía. Caja 1, todo en la 1ª cuerda.
 EJ["e35"] = r"""
-  \tuplet 3/2 { c''8\1^\markup{\bold "una celda de 3 notas · P"}( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 } |
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  e'4\2 a4\4^\markup{\bold "y recién ahí resolvés"} |
+  a'4\1^\markup{\bold "Angus Young — Highway to Hell · repetí el bend-y-soltá · CAJA 1"} \tabSym \bendFull
+  a'4\1 \tabSym \bendRel
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel |
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel |
+  a'2\1^\markup{\bold "ahora medio tono…"} \tabSym \bendHalf
+  a'2\1^\markup{\bold "…y ahora un cuarto"} \tabSym \bendQuarter |
+  a'1\1 \tabSym \vib |
 """
+# (el mismo mecanismo vuelve en el ej. 47, tres cajas más arriba — ver texto ahí)
 
 # 36: dobles cuerdas (la marca de Angus / Chuck Berry) — en la CAJA 2
 EJ["e36"] = r"""
@@ -58,11 +68,34 @@ EJ["e36"] = r"""
   a1\4 \tabSym \vib ^\markup{\bold "la tónica de la caja 2"} |
 """
 
+# 36-bis: CITA REAL — Angus Young, "Am pentatónica + 6". El agregado del 6º grado
+# (FA#, un color tipo Dorian) sobre dobles cuerdas es el otro truco clásico de
+# Angus además de la celda repetida. Caja 3/4: FA# vive en el traste 11 de la 3ª.
+EJ["e36bis"] = r"""
+  d'4\3^\markup{\bold "Angus Young — pentatónica + 6 · CAJA 3-4"} e'4\3 fis'4\3^\markup{\bold "el 6º agregado (FA#)"}
+  g'4\3 \tabSym \bendHalf |
+  g'4\3 \tabSym \vib fis'4\3 e'4\3 d'4\3 |
+  c'4\3 a2\4 \tabSym \bendQuarter ^\markup{\bold "y cierra con un cuarto de tono"} r4 |
+"""
+
 # 37: el unísono (bendeás una cuerda hasta igualar la de al lado) — en la CAJA 3
 EJ["e37"] = r"""
   <g'\3 a'\2>2 \tabSym \bendFull ^\markup{\bold "bendeá la 3ª hasta igualar la 2ª · CAJA 3"} <g'\3 a'\2>2 |
   <g'\3 a'\2>4 r4 e'8\3 c'\4 g\5 d\6 |
   a1\5 \tabSym \vib ^\markup{\bold "la tónica de la caja 3"} |
+"""
+
+# 37-bis: CITA REAL — Angus Young, Lick 1, compases 2 a 4. Cuatro bendings que
+# bajan de posición en la 1ª cuerda (12, 10, 8, 5) y después un remate legato que
+# resuelve en la tónica. Es el mismo Angus del 35 y el 36-bis, pero de arriba
+# hacia abajo: cierra el trío mostrando la escuela en las dos direcciones.
+EJ["e37bis"] = r"""
+  e''4\1^\markup{\bold "Angus Young — Lick 1 (comp. 2-4)"} \tabSym \bendFull ~ e''4
+  d''4\1 \tabSym \bendFull ~ d''4 |
+  c''4\1 \tabSym \bendFull ~ c''4
+  a'4\1 \tabSym \bendFull ~ a'4 |
+  b'8\1^\markup{\bold "el remate, bajando"} a'\1 b'\1 a'\1 b'\1 a'\1
+  a'4\1 \tabSym \vib |
 """
 
 # 38: los tres recursos británicos encadenados — y cada uno en su caja:
