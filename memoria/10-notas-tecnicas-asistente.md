@@ -651,3 +651,39 @@ archivos no van a estar. Esta sección de la memoria es el resumen que sobrevive
 completo de las opciones A/B/C/D de cada item, está en el mensaje del chat donde se escribieron (buscar
 "ITEM2_BRITISH_CITATIONS" en el historial) o simplemente re-derivarlas — el razonamiento está resumido
 arriba.
+
+### UNDÉCIMA RONDA — Feli: "el premio del programa arranca en la caja 1 y eso me disgusta"
+
+Objeción sobre el **ej. 53, el solo final**: abría con seis compases anclados en la caja 1. Medido contra
+la fuente: **72% de sus notas dentro de la ventana 5-8** — el peor número del hito, justo en el ejercicio
+que es el entregable. El **ej. 52** (leitmotiv) estaba **100% en caja 1**.
+
+**Por qué la objeción es correcta y no un capricho:** el ej. 53 no es un ejercicio más, es el video que el
+alumno graba como trofeo y que Feli usa de testimonio. La promesa de la bio es *"te movés por las 5 cajas"*.
+Abrir seis compases en la caja 1 contradice esa promesa **en el primer segundo del video** — el "después"
+arrancaba sonando igual que el "antes". Y el gate del propio cuadernillo ya exigía *"Territorio: que se
+mueva por al menos 3 cajas. No puede vivir en la caja 1"*: el modelo no cumplía lo que le pide al alumno.
+
+**Ej. 53 — arranca en la CAJA 5.** Recorrido nuevo **5 → 2 → 3 → 4 → 3 → 5** (antes 1→2→1→4→3→1→5).
+El arco no se rompe, se cumple mejor: la frase 1 tiene que ser *grave y simple*, y **grave no quiere decir
+caja 1, quiere decir abajo** — la caja 5 (trastes 2-5) está más abajo todavía, y es territorio que el ej. 48
+ya enseñó. Beneficio extra: **abre y cierra en la misma zona**, o sea que el solo vuelve a casa.
+**De 28% a 86% fuera de la ventana 5-8**, y ahora pisa las cajas exclusivas 4 y 5.
+
+**Ej. 52 — mudado entero a la CAJA 3.** Acá estaba el razonamiento sutil: la memoria decía *"va en la misma
+caja las dos veces porque si se muda, el oído no lo reconoce"*. **Eso sigue siendo cierto y se respetó** —
+las dos apariciones están en la misma caja. Lo que la regla **no** decía era que esa caja tuviera que ser la
+1. Se mudó usando la celda del ej. 47, así que además queda enganchado con él. **De 0% a 100%.**
+
+> **La lección de método:** una restricción documentada puede ser correcta y estar aplicada de más al mismo
+> tiempo. "El motivo tiene que repetirse idéntico" no implica "el motivo tiene que estar en la caja 1" —
+> pero durante rondas enteras se leyó así. Antes de dejar un ejercicio quieto por una regla vieja, chequear
+> qué dice la regla **exactamente**.
+
+**Los ej. 49 y 50 se dejaron abriendo en la caja 1, a propósito:** sus llegadas ya están repartidas en 4
+cajas (1-2-3-5) y nunca tuvieron el problema. El desfasaje con el 53 se convirtió en contenido dentro del
+propio cuadernillo: *"no es un error, es la prueba de que la arquitectura es portátil — el molde es grave,
+desarrollo, clímax, cierre; dónde apoyás cada escalón lo elegís vos"*.
+
+**Hito 3 en conjunto: 48,4% → 56,1%** fuera de la ventana de caja 1. Escala OK y barcheck OK en las 73
+partituras. Commit `dce8d4d`. PDF no regenerado (lo arma Feli con Design — ver sección 15).
