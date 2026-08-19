@@ -533,7 +533,10 @@ S.append(ejercicio(52, "El motivo que vuelve (esto tiene nombre: leitmotiv)", (
     "igual: Frusciante lo usa todo el tiempo, y es buena parte de por qué sus solos se te quedan pegados "
     "aunque no sepas por qué. Empieza con una idea simple, cantable, y la repite o la varía. Es exactamente "
     "lo que hiciste vos en este ejercicio. <i>(Éste sí va en la misma caja las dos veces, y es la única vez "
-    "que te lo voy a pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i>"),
+    "que te lo voy a pedir: el motivo tiene que sonar IGUAL para que se reconozca.)</i><br/><br/>"
+    "Fijate <b>cuál</b> caja: la 3, y el motivo es la misma celda del ejercicio 47. Que tenga que repetirse "
+    "idéntico no significa que tenga que vivir en la caja 1 — significa que las dos veces caiga en el mismo "
+    "lugar. Elegí el que quieras: lo único que no se negocia es que la vuelta suene igual que la ida."),
     "e52", W, "Metelo en tu solo: que la frase 1 y la frase 4 compartan algo."))
 
 # el solo final va entero en una pagina: el encabezado no se separa de la partitura
@@ -544,9 +547,19 @@ S.append(KeepTogether([
         "vibrato, ligados y dinámica (Hito 2), y está armado con vocabulario de las dos escuelas sobre el molde "
         "de cuatro frases, con el motivo que vuelve al final (Hito 3).", BODY),
     Paragraph(
-        "<b>El recorrido:</b> presenta en la caja 1, desarrolla mudado a la caja 2, vuelve a la 1 para el motivo "
-        "británico, sube por las cajas 2, 3 y 4 en el clímax, bendea en la 3 y baja a cerrar en la 5. "
-        "Siete cambios de zona en doce compases, y ninguno es gratuito: cada uno cae donde la frase lo pide.", BODY),
+        "<b>El recorrido:</b> presenta en la <b>caja 5</b> — la zona grave, abajo de todo —, desarrolla subiendo "
+        "a la caja 2, mete el motivo británico en la 3, trepa a la 4 en el clímax, bendea de vuelta en la 3 y "
+        "cierra bajando otra vez a la 5. Seis cambios de zona en doce compases, y ninguno es gratuito: "
+        "cada uno cae donde la frase lo pide.", BODY),
+    Paragraph(
+        "<b>Y fijate que no arranca en la caja 1.</b> Es a propósito, y es la decisión más importante de toda "
+        "la página: éste es el video que vas a mostrar como prueba de tres meses de trabajo. La frase de "
+        "apertura tiene que ser grave y simple — pero grave no quiere decir caja 1, quiere decir <i>abajo</i>, "
+        "y la caja 5 está más abajo todavía. Abrir ahí prueba la promesa del programa en el primer segundo, "
+        "en vez de contradecirla. Además el solo abre y cierra en la misma zona: <b>vuelve a casa</b>. "
+        "Los ejercicios 49 y 50 abren en la caja 1 y éste en la 5 — no es un error: es la prueba de que "
+        "la arquitectura es <b>portátil</b>. El molde es \"grave, desarrollo, clímax, cierre\"; dónde "
+        "apoyás cada escalón lo elegís vos.", BODY),
     Paragraph(
         "Estudialo, tocalo, y después <b>usalo como modelo para el tuyo</b>. La consigna del entregable no es "
         "tocar éste: es que grabes uno propio con esta misma arquitectura.", BODY),

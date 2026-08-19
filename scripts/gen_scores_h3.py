@@ -279,30 +279,39 @@ EJ["e51"] = r"""
   <d''\2 g''\1>2^\markup{\bold "3 · doble cuerda que queda sonando · CAJA 4 (traste 15)"} <d''\2 g''\1>2 |
 """
 
-# 52: el motivo que vuelve (el truco que hace que un solo suene "armado")
+# 52: el motivo que vuelve (el truco que hace que un solo suene "armado").
+# Va en la CAJA 3, y las dos apariciones en la MISMA caja: si el motivo se muda
+# de posición al volver, el oído no lo reconoce y se pierde todo el efecto. Lo
+# que NO hacía falta era que esa caja fuera la 1 — acá es la celda del ej. 47.
 EJ["e52"] = r"""
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "el motivo, al principio"} r2 |
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2^\markup{\bold "el motivo, al principio · CAJA 3"} r2 |
   r1 |
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a4\4 r4 |
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a'2\2 \tabSym \vib |
 """
 
 # 53: EL SOLO FINAL — 12 compases, el trofeo del programa.
-# Recorre cajas 1 -> 2 -> 3 -> 4 -> 3 -> 1 -> 5. Es la prueba de la promesa.
+# ARRANCA EN LA CAJA 5, no en la 1. Motivo: es el entregable, o sea el video que
+# funciona como testimonio, y la promesa del programa es "te movés por las cinco
+# cajas". Abrir seis compases anclado en la caja 1 contradecía esa promesa en el
+# primer segundo del video. La frase 1 tiene que ser GRAVE y simple — y la caja 5
+# (trastes 2-5) es mas grave que la caja 1, asi que el arco no se rompe: se cumple
+# mejor. Ademas abre y cierra en la misma zona: el solo vuelve a casa.
+# Recorre cajas 5 -> 2 -> 3 -> 4 -> 3 -> 5. Es la prueba de la promesa.
 EJ["e53"] = r"""
-  r4 a8\4\p^\markup{\bold "PRESENTA · caja 1"} c'\3 d'4\3 c'4\3 |
-  a2\4 \tabSym \vib r2 |
-  r4 e'8\3^\markup{\bold "DESARROLLA · mudado a la CAJA 2"} g'\2 a'4\2 c''4\1 |
+  r4 a,8\6\p^\markup{\bold "PRESENTA · CAJA 5, la zona grave"} c\5 d4\5 c4\5 |
+  a,2\6 \tabSym \vib r2 |
+  r4 e'8\3^\markup{\bold "DESARROLLA · subís a la CAJA 2"} g'\2 a'4\2 c''4\1 |
   a'2\2 \tabSym \vib ^\markup{\bold "tónica de la caja 2"} r2 |
-  \tuplet 3/2 { c''8\1\mf^\markup{\bold "vuelve a caja 1: el motivo británico"}( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
-  \tuplet 3/2 { c''8\1( a'\1) g'\2 } e'4\2 |
-  <e'\2 a'\1>8 <e'\2 a'\1>8 <g'\2 c''\1>4 <e'\2 a'\1>4 <g'\2 c''\1>4 |
-  r8 c''8\1\f \glissando d''4\1^\markup{\bold "CLÍMAX · subís por las cajas 2, 3 y 4"} e''4\1 g''4\1 |
-  g''2\1 \tabSym \vib ^\markup{\bold "ancho · caja 4"} e''8\1 d''\2 c''\2 a'\2 |
-  g'2\3 \tabSym \bendFull ^\markup{\bold "caja 3"} g'2\3 \tabSym \vib |
+  \tuplet 3/2 { e''8\1\mf^\markup{\bold "el motivo británico · CAJA 3"}( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2 |
+  <a'\2 d''\1>8 <a'\2 d''\1>8 <c''\2 e''\1>4 <a'\2 d''\1>4 <c''\2 e''\1>4 |
+  r8 d''8\1\f \glissando e''4\1^\markup{\bold "CLÍMAX · trepás a la CAJA 4"} g''2\1 |
+  g''2\1 \tabSym \vib ^\markup{\bold "ancho · traste 15"} e''8\1 d''\2 c''\2 a'\2 |
+  g'2\3 \tabSym \bendFull ^\markup{\bold "y bajás a la caja 3"} g'2\3 \tabSym \vib |
   r1 |
-  \tuplet 3/2 { c''8\1\p^\markup{\bold "vuelve el motivo · CIERRA"}( a'\1) g'\2 } e'4\2 c'8\3 a\4 g4\4 |
-  g,8\6^\markup{\bold "entrás a la CAJA 5…"} a,2..\6 \tabSym \vib ^\markup{\bold "…y se apaga en la tónica más grave"} |
+  \tuplet 3/2 { e''8\1\p^\markup{\bold "vuelve el motivo · CIERRA"}( d''\1) c''\2 } a'4\2 e'8\3 c'\3 a4\3 |
+  g,8\6^\markup{\bold "volvés a la CAJA 5…"} a,2..\6 \tabSym \vib ^\markup{\bold "…y se apaga en la tónica más grave"} |
 """
 
 
