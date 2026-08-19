@@ -476,11 +476,15 @@ S.append(ejercicio(48, "La zona grave: la caja 5 (trastes 2 a 5)", (
     "es incómodo al principio y es justamente lo que hay que entrenar."))
 
 S.append(ejercicio(49, "La arquitectura: las 4 frases de un solo", (
-    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple, en la caja 1), "
+    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple, acá en la caja 1), "
     "desarrolla (la misma idea <b>mudada a la caja 2</b>), clímax (subís a la caja 3, lo más agudo y lo más "
     "fuerte), cierra (bajás por el mástil y resolvés abajo). Ocho compases que son el molde de casi cualquier "
     "solo que te haya gustado en tu vida. <b>Fijate que cada frase vive en una caja distinta:</b> no es "
     "decoración, es lo que hace que la curva se escuche. Aprendételo de memoria: es el plano.<br/><br/>"
+    "<b>Ojo con una trampa de lectura:</b> \"presenta grave\" no quiere decir \"presenta en la caja 1\". "
+    "Quiere decir <i>abajo</i>. Acá arranca en la 1 porque es el ejemplo más simple de leer, pero el "
+    "ejercicio 53 —el solo final— arranca en la caja 5, que está más abajo todavía. El molde es la curva; "
+    "en qué caja apoyás cada escalón lo elegís vos.<br/><br/>"
     "<b>La regla de Brian May, que acá se aplica sin nombrarla:</b> el crecimiento tiene que ser en DOS "
     "variables a la vez, no solo una. <b>Altura</b> — empezás en un registro medio y subís — y <b>velocidad</b> "
     "— arrancás lento y melódico, y te guardás las notas rápidas para el clímax. Si solo subís de altura pero "
