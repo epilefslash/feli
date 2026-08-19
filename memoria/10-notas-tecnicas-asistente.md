@@ -580,23 +580,55 @@ de shred (sextillizos, posiciones hasta traste 20), acordes con extensiones de j
 C7#9+) que no encajan con el vamp estático del programa, y Tony Iommi ni siquiera está en el panel
 de referentes (metal/doom, no rock/blues pentatónico). No hace falta revisarlos de nuevo.
 
-### LO QUE FALTA — el backlog de 5 items sigue así:
+### ACTUALIZACIÓN — Feli mostró el cuadernillo real de Design (más avanzado) y se realineó
+
+Feli compartió `cuadernillo_3.pdf` (55 páginas, la versión de Claude Design), que está más adelantado
+que este repo: ya tiene **35-bis** (Highway to Hell, separado del 35 compuesto — nunca reemplaza, siempre
+agrega "-bis"), **36-bis**, **37-bis** (pero como "unísono con bending", NO como los 4 bendings sueltos
+que yo había armado), **40-bis** (Welcome to the Jungle), **41-bis** (Little Wing), **41-ter**, **47-bis**
+(Jimmy Page, "The Lemon Song"), **52-bis** (Frusciante, Californication), y un **bono entero de escala
+menor natural** (ej. 54-58 + un lick final de Page "para dentro de un año"). Ese material llegó a Design
+por prompts sueltos (ver rondas anteriores) que nunca se mergearon de vuelta al repo.
+
+**Se corrigió lo que estaba desalineado (commit `da3bec2`):**
+- **Ej. 35** vuelve a ser compuesto (la celda de 3 notas original). La cita real de Highway to Hell pasa
+  a **ej. 35-bis**, separada — restaura el patrón "nunca reemplazar, siempre agregar -bis" de todo
+  el resto del cuadernillo.
+- **Ej. 37-bis** se reescribió: ya no son 4 bendings descendentes en una sola cuerda — ahora es el MISMO
+  mecanismo de unísono del ej. 37 (una nota fija + un bend que la iguala), en 4 posiciones bajando de
+  la caja 4 a la 1. Usa acordes `<nota_fija\1 nota_bendeada\2>` con `\bendFull`, igual que el ej. 37.
 
 1. ✅ Ej. 44 connector — DONE (ver arriba)
-2. 🟡 Escuela británica — **HECHO el reemplazo de citas reales** (35, 36-bis, 37-bis). Lo que
-   queda de este item: **Clapton**. Sigue sin cita propia — se mencionaba solo de pasada. Candidata
-   ya identificada en rondas anteriores: *Crossroads* (Cream). Ubicación a decidir: ¿ej. 43-bis
-   (después de "el color de cada grado"), o reemplazar algo existente? Ver
-   `/scratchpad/ITEM3_CLAPTON.md` para el detalle completo de opciones — sigue vigente.
-3. ⬜ Balance escuela americana — ¿agregar Slash real (Sweet Child O' Mine intro) o B.B. King real
-   (Thrill Is Gone) para emparejar con Gary Moore/Hendrix que ya tienen cita real? Ver
-   `/scratchpad/ITEM4_AMERICAN_BALANCE.md`.
-4. ⬜ Apoyatura — falta nombrar el concepto en el Hito 2 (El Sabor). Aparece implícito en el 39-bis
+2. ✅ Escuela británica — **HECHO** (35 compuesto + 35-bis Highway to Hell + 36-bis + 37-bis, todos
+   alineados con el cuadernillo de Design).
+3. ✅ **Clapton — HECHO.** Nuevo **ej. 47-ter**: misma caja 3 que el 47 (compuesto) y el 47-bis (Page,
+   cita real), pero con la firma de Clapton — bend largo sostenido con vibrato ancho, en vez de la
+   celda repetida. **Es compuesto, NO una cita real** — el material "Eric liks" que se había evaluado
+   antes es un ejercicio compuesto (créditos "Feli bayá"), no una transcripción verificada. Nota
+   explícita en el texto del cuadernillo aclarando esto. Si en algún momento aparece una transcripción
+   real de *Crossroads* (Cream), se agrega aparte como **47-quater**, sin tocar el 47-ter.
+   Con esto la tabla "Referentes" de la escuela británica (página 4 del cuadernillo de Design: "Jimmy
+   Page, Angus Young, Clapton") queda cumplida — antes solo tenía citas de Angus y Page.
+   Balance final: británica = 35-bis + 36-bis + 37-bis (Angus) + 47-bis (Page) + 47-ter (Clapton,
+   compuesto) = 5 recursos, 3 artistas. Americana = 39-bis (Gary Moore) + 40-bis (Slash/GNR) + 41-bis
+   + 41-ter (Hendrix) + 52-bis (Frusciante) = 5 recursos, 4 artistas. Parejo.
+4. ⬜ Balance escuela americana — ya está parejo con la británica (ver punto 3). Este item queda
+   CERRADO, no hace falta agregar más citas americanas por ahora.
+5. ⬜ Apoyatura — falta nombrar el concepto en el Hito 2 (El Sabor). Aparece implícito en el 39-bis
    y el 41 del Hito 3 pero nunca se explica qué es. Propuesta: ej. 35-bis en Hito 2, después del
    ej. 34. Ver `/scratchpad/ITEM5_APOYATURA.md`.
-5. Pendiente transversal: cuando se cierre Clapton, actualizar `hoja_de_recursos_hito3.md` (la hoja
-   de cierre del Hito 3) sumando las filas de los nuevos ejercicios (36-bis, 37-bis y lo que salga
-   de Clapton) a la tabla "DOBLES CUERDAS" / "MOTIVO E INSISTENCIA" correspondiente, antes de mandarla
+6. **NUEVO PENDIENTE — backfill al repo de lo que ya existe en Design pero no en `gen_scores_h3.py`:**
+   `40-bis` (Welcome to the Jungle), `41-bis` (Little Wing), `41-ter`, `47-bis` (Jimmy Page, "The Lemon
+   Song", compases 27-29 del solo, celda repetida traste 17), `52-bis` (Frusciante, "Californication",
+   compases 3-10, la célula de bending 9-11 repetida = leitmotiv del ej. 52), y el **bono de escala
+   menor natural** (ej. 54-58, las 5 cajas + las 2 notas nuevas — 2ª y ♭6 — más un lick final de Jimmy
+   Page "para dentro de un año", sin tocar). Todo esto ya está redactado y con partituras en
+   `cuadernillo_3.pdf` (55 páginas) — el trabajo es transcribirlo a LilyPond/`gen_scores_h3.py` y
+   `build_hito3.py` para que el repo deje de estar atrasado respecto de lo que Feli ya tiene en Design.
+   Sin esto, cualquier auditoría futura sobre el repo va a seguir reportando estos ejercicios como
+   "faltantes" cuando en realidad ya existen y están aprobados — solo desactualizados acá.
+7. Pendiente transversal: actualizar `hoja_de_recursos_hito3.md` (la hoja de cierre del Hito 3)
+   sumando las filas de 36-bis, 37-bis y 47-ter a las tablas correspondientes, antes de mandarla
    a Design — ver `/scratchpad/cierre_bonus/PROMPT_CIERRE_PARA_DESIGN.txt`, que todavía no se envió.
 
 ### Nota sobre archivos del scratchpad (no están en el repo, son de esta sesión)
