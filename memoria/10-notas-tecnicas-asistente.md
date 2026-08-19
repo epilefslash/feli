@@ -11,6 +11,12 @@
 - El usuario = Feli. Habla español rioplatense. NO confundir Feli con Nico.
 - El usuario filma y edita él mismo (guitarra, CapCut). Mi rol: guiones, estrategia, copy, pedagogía,
   auditoría de contenido, fact-check.
+- **No regenerar el PDF final del cuadernillo (`build_hito*.py` / `build_ritmo.py`) salvo que Feli lo
+  pida explícitamente.** El PDF que él usa de verdad lo arma con Claude Design (18/8, confirmado por
+  Feli). Alcanza con: editar `gen_scores_h*.py`/`build_hito*.py`, generar las partituras PNG
+  (`python3 scripts/gen_scores_h*.py`), y correr `auditar_cajas.py` (escala + `--compases`) para
+  verificar antes de commitear. El build del PDF sigue existiendo en el repo por si hace falta, pero
+  no es el paso por defecto de cada cambio.
 - Métrica que importa: comentarios con palabra clave (leads) y guardados. NO los likes.
 
 ## 30) ⚠️ EL FLUJO DE DISEÑO — LOS PDF QUE ENTREGA FELI NO SON LOS QUE GENERO YO
@@ -614,9 +620,14 @@ por prompts sueltos (ver rondas anteriores) que nunca se mergearon de vuelta al 
    + 41-ter (Hendrix) + 52-bis (Frusciante) = 5 recursos, 4 artistas. Parejo.
 4. ⬜ Balance escuela americana — ya está parejo con la británica (ver punto 3). Este item queda
    CERRADO, no hace falta agregar más citas americanas por ahora.
-5. ⬜ Apoyatura — falta nombrar el concepto en el Hito 2 (El Sabor). Aparece implícito en el 39-bis
-   y el 41 del Hito 3 pero nunca se explica qué es. Propuesta: ej. 35-bis en Hito 2, después del
-   ej. 34. Ver `/scratchpad/ITEM5_APOYATURA.md`.
+5. ✅ **Apoyatura — HECHO.** Nuevo **ej. 34-bis** en el Hito 2 (El Sabor), después del ej. 34 (solo de
+   evaluación), antes del checklist de cierre. **Numeración corregida respecto del plan original**
+   (`ITEM5_APOYATURA.md` proponía "35-bis", pero 35 ya es el primer ejercicio del Hito 3 — usar ese
+   número ahí chocaba con la numeración corrida). Caja 1 a propósito: 4 compases, de "sin apoyatura"
+   a "con apoyatura" a "bajando con apoyatura en cada nota". No se forzó un cross-reference hacia el
+   ej. 39-bis o el 41 del Hito 3 — revisados de nuevo, ninguno de los dos es en rigor una apoyatura
+   (39-bis es un slide previo, 41 es un ligado), habría sido una afirmación pedagógica falsa. Commit
+   `337373c`. Verificado: escala OK y barcheck de compases OK en las 73 partituras.
 6. **NUEVO PENDIENTE — backfill al repo de lo que ya existe en Design pero no en `gen_scores_h3.py`:**
    `40-bis` (Welcome to the Jungle), `41-bis` (Little Wing), `41-ter`, `47-bis` (Jimmy Page, "The Lemon
    Song", compases 27-29 del solo, celda repetida traste 17), `52-bis` (Frusciante, "Californication",
