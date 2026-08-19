@@ -42,11 +42,23 @@ EJ = {}
 # Lo que define a la escuela: motivos cortos que se repiten, dobles cuerdas,
 # ataque rítmico. La frase vale por la INSISTENCIA, no por la melodía.
 
-# 35: CITA REAL — Angus Young / AC/DC, "Highway to Hell", primeros 4 compases del
-# solo. Transcripción de Feli. Ni bien arranca hace una repetición (bend-y-suelta,
-# x4) — es la escuela británica en estado puro: la frase vale por la insistencia,
-# no por la melodía. Caja 1, todo en la 1ª cuerda.
+# 35: el motivo que se repite (celda de 3 notas, machacada) — se queda COMPUESTO
+# a propósito: es el punto de comparación contra el ej. 47 (misma celda, caja 3).
 EJ["e35"] = r"""
+  \tuplet 3/2 { c''8\1^\markup{\bold "una celda de 3 notas · P"}( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 } |
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  e'4\2 a4\4^\markup{\bold "y recién ahí resolvés"} |
+"""
+
+# 35-bis: CITA REAL — Angus Young / AC/DC, "Highway to Hell", primeros 4 compases
+# del solo. Transcripción de Feli. Ni bien arranca hace una repetición (bend-y-
+# suelta, x4) — el mismo recurso del ej. 35, tocado por la escuela británica en
+# un disco real. Caja 1, todo en la 1ª cuerda.
+EJ["e35bis"] = r"""
   a'4\1^\markup{\bold "Angus Young — Highway to Hell · repetí el bend-y-soltá · CAJA 1"} \tabSym \bendFull
   a'4\1 \tabSym \bendRel
   a'4\1 \tabSym \bendFull
@@ -59,7 +71,6 @@ EJ["e35"] = r"""
   a'2\1^\markup{\bold "…y ahora un cuarto"} \tabSym \bendQuarter |
   a'1\1 \tabSym \vib |
 """
-# (el mismo mecanismo vuelve en el ej. 47, tres cajas más arriba — ver texto ahí)
 
 # 36: dobles cuerdas (la marca de Angus / Chuck Berry) — en la CAJA 2
 EJ["e36"] = r"""
@@ -85,17 +96,18 @@ EJ["e37"] = r"""
   a1\5 \tabSym \vib ^\markup{\bold "la tónica de la caja 3"} |
 """
 
-# 37-bis: CITA REAL — Angus Young, Lick 1, compases 2 a 4. Cuatro bendings que
-# bajan de posición en la 1ª cuerda (12, 10, 8, 5) y después un remate legato que
-# resuelve en la tónica. Es el mismo Angus del 35 y el 36-bis, pero de arriba
-# hacia abajo: cierra el trío mostrando la escuela en las dos direcciones.
+# 37-bis: CITA REAL — Angus Young, Lick 1, compases 2 a 4. El MISMO mecanismo del
+# ej. 37 (unísono: dos cuerdas juntas, una fija y la otra bendeada hasta igualarla)
+# pero en cuatro posiciones descendentes — de la caja 4 a la caja 1.
 EJ["e37bis"] = r"""
-  e''4\1^\markup{\bold "Angus Young — Lick 1 (comp. 2-4)"} \tabSym \bendFull ~ e''4
-  d''4\1 \tabSym \bendFull ~ d''4 |
-  c''4\1 \tabSym \bendFull ~ c''4
-  a'4\1 \tabSym \bendFull ~ a'4 |
-  b'8\1^\markup{\bold "el remate, bajando"} a'\1 b'\1 a'\1 b'\1 a'\1
-  a'4\1 \tabSym \vib |
+  <e''\1 d''\2>4^\markup{\bold "Angus Young — Lick 1 (comp. 2-4) · el mismo unísono del ej. 37, bajando"} \tabSym \bendFull
+  <e''\1 d''\2>4 \tabSym \bendRel
+  <d''\1 c''\2>4 \tabSym \bendFull
+  <d''\1 c''\2>4 \tabSym \bendRel |
+  <c''\1 a'\2>4 \tabSym \bendFull
+  <c''\1 a'\2>4 \tabSym \bendRel
+  <a'\1 g'\2>4 \tabSym \bendFull
+  <a'\1 g'\2>4 \tabSym \bendRel |
 """
 
 # 38: los tres recursos británicos encadenados — y cada uno en su caja:
@@ -214,6 +226,17 @@ EJ["e47"] = r"""
   \tuplet 3/2 { e''8\1( d''\1) c''\2 }
   \tuplet 3/2 { e''8\1( d''\1) c''\2 }
   a'2\2 \tabSym \vib ^\markup{\bold "la tónica de la caja 3"} |
+"""
+
+# 47-ter: en el estilo de Clapton (Cream) — misma caja 3 que el 47 y el 47-bis,
+# pero con SU firma en vez de la celda repetida: un bending largo sostenido con
+# vibrato ancho. Es compuesto, NO una cita — no hay transcripción real verificada
+# todavía (ver memoria). Si en algún momento aparece una transcripción real de
+# "Crossroads", se agrega aparte como 47-quater.
+EJ["e47ter"] = r"""
+  r4 e'8\3^\markup{\bold "en el estilo de Clapton (Cream) · CAJA 3"} d'\3 c'4\3 ~ c'4 |
+  c'2\3 \tabSym \bendFull \tabSym \vib ^\markup{\bold "el bend largo, con vibrato ancho — la firma de Clapton"} c'2\3 |
+  d'8\3 c'\3 a8\4 g8\4 a2\4 \tabSym \vib |
 """
 
 # 48: la CAJA 5, la zona grave (repatriado del bonus) — Angus / Chuck Berry

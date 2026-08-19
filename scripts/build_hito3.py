@@ -157,14 +157,20 @@ S.append(Paragraph(
     "a una posición</b>. Si te cuesta ubicar el dibujo, volvé al mapa del Hito 1 — no es material nuevo, "
     "es territorio que ya recorriste.", SMALL))
 
-S.append(ejercicio(35, "CITA — Angus Young / AC/DC, \"Highway to Hell\" (caja 1)", (
-    "Los primeros compases del solo, tal como los toca Angus. Ni bien arranca hace una repetición — "
-    "bendeá y soltá, cuatro veces — antes de aflojar a medio tono y después a un cuarto: la escuela "
-    "británica en estado puro, la frase vale por la insistencia, no por la melodía.<br/><br/>"
+S.append(ejercicio(35, "El motivo que se repite (caja 1)", (
+    "Una celda de tres notas, machacada cinco veces, y recién en la sexta resolvés. Vas a sentir que "
+    "<b>estás repitiendo demasiado</b> — esa sensación es la trampa: desde adentro siempre parece más "
+    "repetido de lo que se escucha desde afuera. Grabate y vas a ver que suena convincente, no monótono.<br/><br/>"
     "Éste es el único de la semana que va en la caja 1, y es a propósito: es tu <b>punto de comparación</b>. "
     "En el ejercicio 47 vas a tocar esta misma celda tres cajas más arriba, y la diferencia solo se escucha "
     "si tenés ésta en el oído."),
-    "e35", W, "60 BPM. Todo en la 1ª cuerda, traste 5. El cuarto de tono es el más difícil: apenas movés "
+    "e35", W, "60 BPM en tresillos. El pull-off va en la 1ª cuerda (8 al 5); el Sol de la 2ª se puntea."))
+
+S.append(ejercicio("35-bis", "CITA — Angus Young / AC/DC, \"Highway to Hell\" (caja 1)", (
+    "Los primeros compases del solo, tal como los toca Angus: exactamente el recurso del ej. 35, tocado "
+    "por la escuela británica en un disco real. Ni bien arranca hace una repetición — bendeá y soltá, "
+    "cuatro veces — antes de aflojar a medio tono y después a un cuarto."),
+    "e35bis", W, "60 BPM. Todo en la 1ª cuerda, traste 5. El cuarto de tono es el más difícil: apenas movés "
     "la cuerda, no le pongas fuerza de bend entero."))
 
 S.append(ejercicio(36, "Dobles cuerdas (caja 2)", (
@@ -194,10 +200,10 @@ S.append(ejercicio(37, "El unísono (dos cuerdas, la misma nota) — caja 3", (
     "Es exactamente la misma relación que en la caja 1 (7ª contra 5ª) — la forma es idéntica, corrida."),
     "e37", W, "Lento, sin metrónomo. Escuchá el batido: cuando desaparece, llegaste."))
 
-S.append(ejercicio("37-bis", "CITA — Angus Young, Lick 1 (compases 2 a 4)", (
-    "Cuatro bendings que van bajando de posición en la 1ª cuerda — traste 12, 10, 8 y 5 — y después "
-    "un remate legato que resuelve en la tónica. Es el mismo Angus del ej. 35 y el 36-bis, pero de "
-    "arriba hacia abajo: cierra el trío mostrando la escuela en las dos direcciones del mástil.<br/><br/>"
+S.append(ejercicio("37-bis", "CITA — Angus Young, Lick 1, unísono con bending (compases 2 a 4)", (
+    "El mismo mecanismo del ejercicio 37 — la nota fija arriba, y abajo una serie de bendings completos "
+    "que van igualándola — pero tocado por Angus, bajando de posición cuatro veces: de la caja 4 a la "
+    "caja 1.<br/><br/>"
     "Fijate que cada bending cuesta distinto según la posición — ya lo viste en el ej. 22 del Hito 2. "
     "Acá lo tenés cuatro veces seguidas, bajando: la mano tiene que reajustar la fuerza en cada uno."),
     "e37bis", W, "70 BPM. Cada bending es de un tono completo — no lo sueltes de golpe, dejalo sonar "
@@ -450,6 +456,15 @@ S.append(ejercicio(47, "La celda repetida, tres cajas más arriba (caja 3)", (
     "e47", W,
     "Escuchá: Clapton en Cream — casi todo su vocabulario vive en esta zona. "
     "70 BPM. La tónica de llegada es la 2ª cuerda traste 10."))
+
+S.append(ejercicio("47-ter", "En el estilo de Clapton — el bend largo, en la misma caja", (
+    "Misma caja 3 que el 47, pero con otra firma: en vez de insistir con una celda, Clapton se queda "
+    "en <b>una sola nota estirada, sostenida con vibrato ancho</b>. Es la tercera cara de la escuela "
+    "británica — Page repite motivos, Angus también, Clapton canta con un bending que no se apura.<br/><br/>"
+    "<i>Nota: éste es compuesto en el estilo de Clapton, no una transcripción — a diferencia del "
+    "35-bis y el 47-bis, todavía no hay una cita real verificada de él en el cuadernillo.</i>"),
+    "e47ter", W,
+    "El bending dura lo que dure tu aire si lo cantaras: no lo cortes antes de tiempo."))
 
 S.append(ejercicio(48, "La zona grave: la caja 5 (trastes 2 a 5)", (
     "El otro extremo del mástil, y el que casi nadie usa. Acá abajo la pentatónica <b>deja de sonar a solo "
