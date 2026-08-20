@@ -131,7 +131,12 @@ def audita(EJ, titulo):
         tot_notas += len(fs)
         tot_fuera += len(fuera)
         usadas = sorted({c for f in fs for c in cajas_de(f)})
-        if usadas == [1] or usadas == [1, 2] and max(fs) <= 8:
+        # OJO: no mirar `usadas` para esto. Las ventanas se solapan (el traste 5 es
+        # caja 1 Y 5; el 8 es caja 1 Y 2), asi que un ejercicio encerrado en 5-8 da
+        # usadas == [1, 2, 5] y nunca [1] ni [1, 2]. La version anterior comparaba
+        # contra esas listas y por eso reportaba 0 SIEMPRE, con cualquier dato.
+        # Lo unico que define "no sale de la ventana" es que no haya notas afuera.
+        if not fuera:
             solo_c1.append(k)
         print("  %-5s notas=%3d  trastes %2d-%2d  fuera de 5-8: %3d (%4.0f%%)  cajas: %-15s exclusivas: %s"
               % (k, len(fs), min(fs), max(fs), len(fuera),

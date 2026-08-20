@@ -37,11 +37,27 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 ### MES 2 — EL SABOR (semanas 5-8): que suene a música
 | Semana | Tema | Jueves: solo de referencia | Sábado: consigna de impro |
 |---|---|---|---|
-| 5 | BENDING: afinado, con destino (la nota a la que llegás) | Sweet Child O' Mine intro/solo (Slash) | Frases donde cada bending llega a una nota real |
-| 6 | VIBRATO: amplio, controlado, tu firma | Still Got the Blues (Gary Moore) | Una nota larga con vibrato por frase, obligatorio |
-| 7 | ESPACIO: el silencio como parte de la frase | The Thrill Is Gone (B.B. King) | Regla de las 3 notas + contar hasta 2 antes de la siguiente frase |
-| 8 | DINÁMICA + la nota agregada (blue note) | Texas Flood (SRV) | Impro con curva: empezar suave, crecer, cerrar suave |
-| | **Entregable Mes 2:** video tocando 5 licks con sabor sobre backing | | |
+| 5 | **LIGADOS Y SLIDES:** que la púa deje de tocar todo (ej. 17-20) | *(a definir — ver nota)* | Frases sin puntear todas las notas + la penta entera en una sola cuerda |
+| 6 | **BENDING:** afinado, con destino — y en tres zonas del mástil (ej. 21-26) | Texas Flood (SRV) · Born Under a Bad Sign (Albert King) | Cada bending llega a una nota real, y se prueba en los trastes 7, 12 y 15 |
+| 7 | **VIBRATO:** amplio, controlado, tu firma (ej. 27-30) | Still Got the Blues (Gary Moore) | Una nota larga con vibrato por frase, obligatorio |
+| 8 | **ESPACIO Y DINÁMICA:** la parte que no se toca con los dedos (ej. 31-33) | The Thrill Is Gone (B.B. King) | Regla de las 3 notas + impro con curva: suave, crecer, cerrar suave |
+| | **Entregable Mes 2:** el solo del ej. 34 grabado + el antes/después (1 min el día 1 y el día 30) | | |
+
+> ⚠️ **Esta tabla se realineó el 20/8 contra `build_hito2.py`, que es la fuente.** Decía semana 5 =
+> bending, 6 = vibrato, 7 = espacio, 8 = dinámica — o sea el plan viejo, de antes de que el cuadernillo
+> insertara *ligados y slides* como semana 5 y fusionara *espacio y dinámica* en la 8. **El cuadernillo
+> manda: es lo que el alumno tiene en la mano.** Si armás la clase desde acá, ahora coinciden.
+>
+> Dos cosas que quedaron abiertas y son decisión tuya, no las inventé:
+> - **El solo de la semana 5** (ligados): el cuadernillo no nombra ninguno. El candidato natural es
+>   *Heartbreaker* (Page) por el tresillo hammer/pull del ej. 19, pero ya está asignado a la semana 9.
+> - **El entregable** que decía esta tabla ("5 licks con sabor") no es el que pide el cuadernillo.
+>   Se corrigió al real (ej. 34 + antes/después). El de "5 licks" venía del borrador de la sección 3.
+>
+> Y ojo con el conflicto ya documentado en `08-repertorio-solos.md`: el banco fijo de 4 solos asigna
+> **un** solo al Hito 2 entero (*The Thrill Is Gone*), y el cuadernillo lo confirma — el ej. 26 lo llama
+> textual "el solo de referencia de este mes". Esta tabla sigue listando uno por semana. Es el mismo
+> conflicto de siempre, sin resolver.
 
 ### MES 3 — EL VOCABULARIO (semanas 9-12): licks propios y el solo final
 | Semana | Tema | Jueves: solo de referencia | Sábado: consigna de impro |
