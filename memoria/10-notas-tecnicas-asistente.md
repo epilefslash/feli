@@ -698,3 +698,70 @@ desarrollo, clímax, cierre; dónde apoyás cada escalón lo elegís vos"*.
 
 **Hito 3 en conjunto: 48,4% → 56,1%** fuera de la ventana de caja 1. Escala OK y barcheck OK en las 73
 partituras. Commit `dce8d4d`. PDF no regenerado (lo arma Feli con Design — ver sección 15).
+
+### DUODÉCIMA RONDA — auditoría del "terminado" de El Sabor (Hito 2) + 3 citas nuevas pendientes de transcripción
+
+Feli subió el PDF "terminado" de El Sabor (Hito 2) más el módulo de Ritmo (Pozzoli). El segundo vive
+fuera del repo (ver sección 31) y no se auditó. El primero SÍ, con el mismo método que ya venía
+rindiendo en el Hito 3: comparar cada ejercicio contra `gen_scores_h2.py` y contra `auditar_cajas.py`.
+
+**4 errores reales encontrados en El Sabor**, mismo patrón sistémico (VexFlow redibuja mal, ninguna
+tablatura era imagen embebida — a diferencia del Hito 3, que ya se arregló):
+- **Ej. 27:** el texto decía "traste 10" (la tónica de la caja 2), la tablatura mostraba **7**.
+- **Ej. 28:** los compases "grave" y "medio" tenían menos notas que la fuente (parecía simplificado
+  al redibujar) — la fuente tiene 5 notas por compás (8-5-7-5-7 en grave), el PDF mostraba 3-4.
+- **Ej. 33:** tablatura mostraba 7-9-8-10; la fuente (y la lógica: misma frase del 27/30, caja 2) es
+  **8-10-10-8**.
+- **Ej. 34 (clímax):** el PDF mostraba **"full (14)"** — bendear el traste 12 hasta sonar como el 14,
+  que es **FA#, fuera de la pentatónica**. Es el mismo bug documentado en la sección 30 (memoria vieja)
+  como "ya corregido" — no lo estaba en este PDF. La fuente actual (`gen_scores_h2.py`) pasa la
+  validación de escala sin problema; el bug vive solo en el PDF de Design.
+- **Además, el ej. 34-bis (apoyatura) no estaba** en este PDF — lógico, se agregó recién en esta sesión.
+
+**Se generaron y verificaron a ojo (nota por nota contra la fuente) los 19 PNG** (ej. 17 a 34 + 34-bis)
+y se mandaron a Feli para que se los pase a Design, con un prompt explicando cada corrección puntual —
+mismo mecanismo que funcionó en el Hito 3. Sin commit al repo porque son las mismas partituras que ya
+existían en `scripts/partituras/`, generadas de nuevo nomás para confirmar que seguían vigentes.
+
+**Objeción de Feli: "¿hay mucha caja 1 en el Hito 2?"** Medido: 31,9% fuera de la ventana 5-8, con 6 de
+19 ejercicios 100% adentro. De esos 6: **17, 18, 19** (ligados) y **34-bis** (apoyatura) están bien ahí
+— son primera exposición a una técnica sin variable de posición que aislar (a diferencia del bending,
+acá el gesto no cambia con el traste). **23 y 29** comparten a propósito el mismo traste que el 21
+(cuerda 3, traste 7→9): es una cadena de 3 pasos sobre el MISMO bending — escuchar el destino (21) →
+controlar la bajada (23) → sumarle vibrato (29). El 29 ya lo decía explícito ("Volvé al ejercicio 21");
+al 23 le faltaba decirlo — se le agregó. También se sumó el 23 a la sección "ANTES DEL SOLO" (que ya
+invita a repetir el bending/vibrato de oído en cajas 3-4-5), que antes solo mencionaba el 21 y el 27.
+Commit `96d9880`. Solo texto, no toca ninguna partitura.
+
+**Se armó y descartó un backfill del ej. 47-bis (Led Zeppelin, "The Lemon Song") al repo** — Feli pidió
+"olvidate del lick ese del 47, el Hito 3 ya está cerrado, foco al Hito 2" a mitad de camino. Se había
+recortado la imagen de la cita directo del PDF de Design (sin re-transcribir, para no inventar ritmos
+de un solo ajeno adivinando desde una captura) pero se descartó sin comittear — no quedó nada en el
+repo de ese intento. Si se retoma en el futuro, la imagen fuente está en la página del "Estilo y onda"
+PDF que subió Feli (compases 27-29, bending 1½/full repetido sobre el traste 17, resolviendo a 20-17).
+
+**Pedido nuevo de Feli: reemplazar las citas de SRV/Albert King (bending) y B.B. King (vibrato/espacio)
+del Hito 2 por artistas del roster ya establecido** (Slash, Frusciante, Gary Moore, Page, Hendrix,
+Angus, y sumando a George Harrison). Se armó una lista de candidatas por semana evitando duplicar lo
+que ya está citado en el Hito 3, y **Feli confirmó 3**:
+- **Semana 6 — Bending:** "November Rain" (Guns N' Roses, Slash) — reemplaza a SRV/Albert King.
+- **Semana 7 — Vibrato:** "Still Got the Blues" (Gary Moore) — reemplaza a B.B. King. (Distinta de
+  "Parisienne Walkways", que ya es el solo de referencia del Hito 1 — no se pisan.)
+- **Semana 8 — Espacio y dinámica:** "Something" (Harrison, The Beatles) — reemplaza a B.B. King.
+  Es la única candidata donde Harrison encaja de verdad (su fuerte es la economía melódica, no el
+  bending — un solo suyo de bending habría sido forzado).
+
+**Estado: SOLO DECIDIDO, NADA TRANSCRIPTO NI IMPLEMENTADO.** Feli no tiene todavía las transcripciones
+de estos 3 temas — el plan acordado es "primero juntar todas las referencias, después ir por las
+tabs/partituras". Cuando lleguen las transcripciones, agregarlas como ejercicios "-bis" (no reemplazar
+los ejercicios existentes, mismo patrón que todo el resto del programa) en las semanas correspondientes
+del Hito 2, con el crédito real (canción, artista, compases) — y el mismo cuidado de siempre: no
+inventar ritmos ni trastes de memoria, pedirle a Feli la transcripción o el fret-por-fret antes de
+tocar `gen_scores_h2.py`.
+
+**Pendiente de esta ronda, para la próxima sesión:**
+1. Conseguir las transcripciones de "November Rain", "Still Got the Blues" y "Something" (Feli las
+   va a conseguir/transcribir).
+2. Esperar confirmación de Design sobre los 19 PNG de El Sabor que se mandaron.
+3. El backfill de Hito 3 (40-bis, 41-bis, 41-ter, 47-bis, 52-bis, bono de escala menor natural) sigue
+   pendiente — ver sección 33, punto 6. Explícitamente puesto en pausa por pedido de Feli.
