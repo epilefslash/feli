@@ -818,3 +818,54 @@ conflicto ya conocido entre el banco fijo de 4 solos y la lista de uno por seman
 > textos que los referencian (el checklist, la tabla semanal, las bajadas de sección). Vale la pena que
 > cada vez que se mueva un ejercicio se corra `grep -on "ejercicio[s]* [0-9]\+" scripts/build_hito*.py`
 > y se verifique que cada número sigue apuntando a donde dice.
+
+### DECIMOCUARTA RONDA (20/8) — chequeo del "terminado" contra la lista de 7 correcciones
+
+Feli subió `lo_q_tenemos_hoy_el_hito_dos_el_sabor.pdf` (**33 páginas**) antes de irse, con el pedido
+exacto: *"chequeá que lo que realmente estemos por corregir no sea algo que ya está corregido"*.
+Verificados los 7 ítems uno por uno. **Tres ya estaban hechos** — mandarlos a Design habría sido
+trabajo al pedo y riesgo de romper algo que ya funcionaba.
+
+| Ítem | Estado real en el PDF |
+|---|---|
+| Checklist: filas que decían ej. 25 y 27 | ✅ **YA CORREGIDO** — dice 27 y 29 |
+| Ej. 34-bis (apoyatura) no existía | ✅ **YA ESTÁ** (pág. 29) |
+| Las 3 citas "pendientes de transcripción" | ✅ **YA INSERTADAS** (ver abajo) |
+| Ej. 34 · `full (14)` | 🔴 sigue |
+| Ej. 27 · traste 7 | 🔴 sigue |
+| Ej. 28 · notas faltantes | 🔴 sigue, **y es peor** |
+| Ej. 33 · trastes de caja 1 | 🔴 sigue |
+| Checklist sin filas del 20, 22 y 34-bis | 🔴 sigue |
+
+**Las 4 citas reales ya están en el cuadernillo**, o sea que la sección de la duodécima ronda que dice
+*"SOLO DECIDIDO, NADA TRANSCRIPTO NI IMPLEMENTADO"* **quedó vieja**: `25-bis` November Rain (Slash) ·
+`27-bis` Still Got the Blues (Gary Moore) · `31-bis` Something (Harrison) · **`34-ter` The Ocean
+(Page)**. Ojo con la última: figuraba como *descartada por pedido de Feli* y sin embargo está adentro
+— no es un error, pero conviene confirmarlo con él antes de tocarla. También apareció un **34-ter de
+apoyatura ligada** (hammer-on, una púa para dos notas) que complementa al 34-bis punteado.
+
+**El ej. 28 es peor de lo que decía la auditoría anterior.** No es sólo que falten notas:
+
+| Compás | PDF | Fuente |
+|---|---|---|
+| grave | 5-8-7 | **8-5-7-5-7** |
+| medio | 5-7-7 | **5-7-5-8-5** |
+| agudo | 5-8-8 | **8-10-12-15-17** ← no faltan notas, están en la **cuerda equivocada** |
+| caja 4 | 12-14-14 | **12-13-15-12-14** |
+
+En el compás "agudo" la **partitura de arriba dibuja notas agudas y la tablatura de abajo dice trastes
+graves**: se contradicen entre sí dentro de la misma página. Es la firma de redibujado más clara que
+apareció hasta ahora, y se ve sin comparar contra nada.
+
+**El ej. 34 confirmado a ojo:** `clímax full ▲ · full (14)` sobre el traste 12 de la 1ª cuerda. El 12
+es MI; bendeado un tono da **FA#, fuera de la pentatónica**. Y en la fuente ese clímax **ni siquiera es
+un bending** — es el traste 15 (SOL) pisado. Design inventó el gesto y lo mandó a una nota que no
+existe en la escala. Es el entregable del hito.
+
+**No hay ejercicios repetidos ni duplicados.** El índice corre limpio: 17-25, 25-bis, 26, 27, 27-bis,
+28-31, 31-bis, 32-34, 34-bis, 34-ter.
+
+> **Regla que se confirma, y esta vez la pidió Feli:** antes de mandar una lista de correcciones a
+> Design, **verificarla contra el "terminado" más reciente**. De 7 ítems, 3 ya estaban resueltos. La
+> lista de correcciones envejece igual que el material — el repo va un paso atrás por diseño
+> (sección 30), así que una corrección "pendiente" puede haberse aplicado sin que el repo se entere.
