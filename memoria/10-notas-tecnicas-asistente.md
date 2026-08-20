@@ -765,3 +765,56 @@ tocar `gen_scores_h2.py`.
 2. Esperar confirmación de Design sobre los 19 PNG de El Sabor que se mandaron.
 3. El backfill de Hito 3 (40-bis, 41-bis, 41-ter, 47-bis, 52-bis, bono de escala menor natural) sigue
    pendiente — ver sección 33, punto 6. Explícitamente puesto en pausa por pedido de Feli.
+
+### DECIMOTERCERA RONDA (20/8) — el checklist certificaba la versión vieja del hito, y el validador mentía
+
+Sesión en paralelo mientras Feli ensayaba. Tres hallazgos, los tres encontrados **leyendo la fuente**,
+ninguno reportado por nadie desde afuera.
+
+**1. 🔴 El checklist de cierre del Hito 2 mandaba a los ejercicios equivocados.** Decía *"velocidad de
+mi vibrato → hago el ejercicio 25"* (el 25 es el bend de Albert King) y *"bendear y vibrar → el
+ejercicio 27"* (el 27 es el vibrato medido). Van al **27** y al **29**. Las dos filas estaban
+desfasadas por 2, o sea que quedaron de una numeración anterior a alguna inserción y nunca se
+revisaron. **Este bug viajó a Design:** la línea existía en `build_hito2.py` cuando se commiteó el PDF
+(7/8), y Design transcribe bien el texto — sólo redibuja tablatura. **Hay que verificarlo en el PDF
+terminado de Feli, que es la fuente de verdad.** Las otras 9 referencias cruzadas del archivo se
+chequearon una por una y están bien.
+
+**2. 🔴 `auditar_cajas.py` reportaba "0 ejercicios encerrados en la ventana 5-8" SIEMPRE, con
+cualquier dato.** La condición era `usadas == [1] or usadas == [1, 2] and max(fs) <= 8`. Pero las
+ventanas se solapan —y eso ya estaba documentado en la tercera ronda—: el traste 5 es caja 1 **y** 5,
+el 8 es caja 1 **y** 2. Así que un ejercicio encerrado en 5-8 da `usadas == [1, 2, 5]` y no matcheaba
+ninguna de las dos listas. Nunca. Ahora cuenta lo único que el rótulo promete: **cero notas fuera de
+la ventana**.
+
+> ⚠️ **Consecuencia para el registro:** la frase de la novena ronda *"de tener varios ejercicios 100%
+> encerrados en la ventana 5-8 a cero"* era un **falso negativo**, no un logro. Los números reales hoy
+> son **4/16 · 6/19 · 3/24 · 0/6**. La buena noticia es que los 13 están justificados uno por uno en
+> esta misma memoria (e01-e04 presentan la caja 1 · e17-e19 aíslan la mecánica del ligado · e23 y e29
+> se comparan contra el ej. 21 · e34bis aísla la apoyatura · e35/e35bis son el punto de comparación
+> del ej. 47 · e43 es de oído, no de geografía). O sea: el bug tapaba información, no daño.
+>
+> Es el **mismo patrón que el regex de escala de la décima ronda** — un validador que informa OK sin
+> haber mirado. Tercera vez que aparece. Regla: cuando un validador reporte un cero perfecto,
+> **probarlo contra un caso que deba fallar** antes de creerle.
+
+**3. El checklist no verificaba tres cambios de las últimas rondas** (ej. 20, ej. 22, ej. 34-bis). El
+del 22 era el que importaba: la fila *"mis bendings llegan afinados"* mandaba **sólo al ej. 21**, que
+vive entero en la caja 1 — o sea que el alumno podía tildarla habiendo estirado únicamente en el
+traste 7, que es **exactamente el problema que el ej. 22 vino a resolver en la octava ronda**. El
+checklist había quedado certificando la versión vieja del hito. Se agregaron las tres filas.
+
+**Y en `memoria/06`: la tabla semana a semana del Hito 2 estaba desalineada con el cuadernillo.** Decía
+5=bending · 6=vibrato · 7=espacio · 8=dinámica (el plan viejo, de antes de que el cuadernillo insertara
+*ligados y slides* como semana 5 y fusionara *espacio y dinámica* en la 8), y el entregable que listaba
+("5 licks con sabor") tampoco era el real (es el solo del ej. 34 + el antes/después). **Esa es la tabla
+que Feli usa para armar las clases en vivo**, así que el desfasaje llegaba a la clase: habría dado
+bending en la semana 5 mientras el PDF del alumno decía hammer-ons. Realineada contra `build_hito2.py`,
+dejando marcadas las dos decisiones que no me correspondía inventar (qué solo va en la semana 5, y el
+conflicto ya conocido entre el banco fijo de 4 solos y la lista de uno por semana).
+
+> **Lección de método que se repite:** los tres hallazgos son de **coherencia interna entre partes que
+> se editaron en momentos distintos** — no de música. Cada ronda arregla ejercicios y deja atrás los
+> textos que los referencian (el checklist, la tabla semanal, las bajadas de sección). Vale la pena que
+> cada vez que se mueva un ejercicio se corra `grep -on "ejercicio[s]* [0-9]\+" scripts/build_hito*.py`
+> y se verifique que cada número sigue apuntando a donde dice.
