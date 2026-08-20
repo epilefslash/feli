@@ -201,10 +201,10 @@ S.append(ejercicio(24, "Lick de bending (escuela Gary Moore)", (
 
 S.append(Paragraph("Y AHORA SÍ: SALÍS DE LA CAJA 1", H2))
 S.append(Paragraph(
-    "Hasta este ejercicio todo el Hito 2 vivió en la caja 1, a propósito: no tenía sentido pelearte con "
-    "la ubicación mientras aprendías a bendear. Pero ya sabés bendear, así que <b>es el momento de mudarte</b> — "
-    "y no es casualidad que sea a la caja 2: es <b>la caja del bending</b>. Ahí la tónica de la 2ª cuerda "
-    "(traste 10) tiene la 7ª menor justo un tono abajo, o sea exactamente a distancia de estirón.", BODY))
+    "Hasta acá te moviste por el mástil cuando el ejercicio lo pedía (el 20 recorre una cuerda entera, el 22 "
+    "bendea en tres zonas), pero siempre <b>de paso</b>: la casa seguía siendo la caja 1. Ahora te mudás de "
+    "verdad — y no es casualidad que sea a la caja 2: es <b>la caja del bending</b>. Ahí la tónica de la 2ª "
+    "cuerda (traste 10) tiene la 7ª menor justo un tono abajo, o sea exactamente a distancia de estirón.", BODY))
 S.append(Spacer(1, 2))
 S.append(par([Diagrama(2, W * 0.5),
               Paragraph("Ya la conocés del Hito 1 y comparte los trastes 7 y 8 con la caja 1, así que no estás "
@@ -386,11 +386,12 @@ S.append(ejercicio(33, "La misma frase en tres volúmenes — caja 2", (
 S.append(PageBreak())
 S.append(Paragraph("ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS", H2))
 S.append(Paragraph(
-    "Este mes te concentraste en las cajas 1 y 2 a propósito — no tenía sentido pelearte con la ubicación "
-    "mientras la mano aprendía a bendear y a vibrar afinado. Pero fijate: la <b>técnica</b> no vive en una "
-    "caja. Bendear un tono es el mismo movimiento en la caja 3 que en la caja 1; un vibrato de muñeca es el "
-    "mismo gesto arriba que abajo. Lo que cambia es la digitación, no el mecanismo — y esa digitación ya la "
-    "tenés, viene del Hito 1.", BODY))
+    "Este mes <b>aprendiste</b> cada recurso en un lugar fijo y lo <b>aplicaste</b> moviéndote: el bending "
+    "salió a los trastes 12 y 15, el vibrato a la caja 4, la pregunta y la respuesta del ejercicio 32 a las "
+    "cajas 5 y 4. Pero eso pasó cuando el ejercicio te lo pedía. Lo que falta es que lo hagas <b>vos</b>, sin "
+    "que esté escrito — porque la <b>técnica</b> no vive en una caja: bendear un tono es el mismo movimiento "
+    "en la caja 3 que en la caja 1, y un vibrato de muñeca es el mismo gesto arriba que abajo. Lo que cambia "
+    "es la digitación, no el mecanismo — y esa digitación ya la tenés, viene del Hito 1.", BODY))
 S.append(Spacer(1, 4))
 S.append(MapaCompleto(W))
 S.append(Spacer(1, 4))
