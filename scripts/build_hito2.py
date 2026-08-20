@@ -187,7 +187,10 @@ S.append(ejercicio(22, "El mismo bending en tres zonas del mástil", (
 
 S.append(ejercicio(23, "Bending y vuelta (el release)", (
     "La mitad del bending que nadie practica: <b>la bajada</b>. Subís, sostenés, y volvés despacio y controlado — "
-    "no soltando de golpe. Si soltás de golpe, todas las notas intermedias suenan como un resbalón."),
+    "no soltando de golpe. Si soltás de golpe, todas las notas intermedias suenan como un resbalón.<br/><br/>"
+    "Es a propósito el <b>mismo traste del ejercicio 21</b> — no es que te quedaste sin ideas de dónde ponerlo. "
+    "Cuando compares los dos vas a escuchar solamente lo nuevo (la vuelta controlada), sin el ruido de una "
+    "posición distinta metiéndose en el medio. El ejercicio 29 sigue esta misma cadena un escalón más."),
     "e23", W, "Lento, 60 BPM. La bajada tiene que durar lo mismo que la subida."))
 
 S.append(ejercicio(24, "Lick de bending (escuela Gary Moore)", (
@@ -394,9 +397,10 @@ S.append(Spacer(1, 4))
 S.append(Paragraph(
     "<b>Antes de pasar al solo de evaluación, agarrá 10 minutos y probá esto:</b> elegí un bending de la "
     "semana 6 y hacelo en las cajas 3, 4 y 5 sin que esté escrito — buscá la nota destino de oído, como en el "
-    "ejercicio 21. Después agarrá el vibrato medido del ejercicio 27 y repetilo parado en cada una de las "
-    "cinco. No hace falta que te salga prolijo la primera vez: lo que estás comprobando es que <b>no hay una "
-    "caja \"para el sabor\" y otras \"para el mapa\"</b> — hay un mástil, y el sabor va donde vayas vos. "
+    "ejercicio 21, y practicá también la bajada controlada del 23 ahí arriba. Después agarrá el vibrato medido "
+    "del ejercicio 27 y repetilo parado en cada una de las cinco. No hace falta que te salga prolijo la "
+    "primera vez: lo que estás comprobando es que <b>no hay una caja \"para el sabor\" y otras \"para el "
+    "mapa\"</b> — hay un mástil, y el sabor va donde vayas vos. "
     "El solo que sigue ya te va a pedir esto mismo, sin avisar.", SMALL))
 S.append(Spacer(1, 8))
 
