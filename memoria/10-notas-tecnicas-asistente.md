@@ -869,3 +869,30 @@ existe en la escala. Es el entregable del hito.
 > Design, **verificarla contra el "terminado" más reciente**. De 7 ítems, 3 ya estaban resueltos. La
 > lista de correcciones envejece igual que el material — el repo va un paso atrás por diseño
 > (sección 30), así que una corrección "pendiente" puede haberse aplicado sin que el repo se entere.
+
+## 34) REGLA PERMANENTE: nunca confiar en un conteo/validador sin probarlo — sea de otro sistema o propio
+
+Pedido explícito de Feli tras esta ronda: *"necesito que seamos profesionales, prolijos y óptimos — no
+quiero volver a chequear todo 1000 veces"*. El disparador fue puntual (al subir el PDF de 33 páginas,
+el aviso automático del entorno decía "16 páginas" — un dato de otro sistema, no mío, y estaba mal),
+pero la sesión ya había pisado el mismo pozo dos veces antes con herramientas propias: el regex de
+escala que no miraba alteradas (sección 32) y el contador de cajas que daba 0 siempre (sección
+"decimotercera ronda"). Es un solo patrón, no tres incidentes sueltos: **un número que se presenta
+como verificado sin haber sido puesto a prueba.**
+
+**La regla, para que la siga cualquier sesión sin que Feli tenga que pedirla de nuevo:**
+1. **Cualquier conteo o metadato que no generé yo en este mismo turno —páginas de un PDF, tamaño de
+   un archivo, cuántas notas tiene un ejercicio— se trata como un dato SIN VERIFICAR hasta que se
+   confirme con la herramienta real** (`pdfinfo`, `wc`, el propio script). No se cita en un mensaje ni
+   se usa para decidir cuántas páginas leer sin ese paso.
+2. **Cualquier validador que reporte "todo OK" o un cero perfecto se prueba contra un caso que DEBA
+   fallar** antes de confiar en él la primera vez que se toca (o se re-audita si es viejo y nunca se
+   probó así). Un validador nunca antes puesto a prueba no es evidencia, es una promesa sin cumplir.
+3. **Esto no es un chequeo extra que se le pide a Feli — es un paso que hago yo, antes de reportar
+   un número.** El costo de un `pdfinfo` o de inyectar un dato falso a un validador es segundos; el
+   costo de un número mal confiado ya causó, en esta sesión, que se mandara a Design una lista con 3
+   ítems ya resueltos y que se celebrara como logro un bug que ocultaba información.
+
+> No es una promesa de "no me va a volver a pasar" — es la garantía de que la próxima sesión (esta
+> misma memoria es lo único que persiste entre sesiones) arranca sabiendo que este paso es obligatorio,
+> no opcional ni dependiente de que alguien lo pida.
