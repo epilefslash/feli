@@ -949,3 +949,22 @@ los de Design, no los del repo. Medidas contando páginas del PDF: **fuente = 12
 
 **Verificado tras el cambio:** escala OK · barcheck OK en las 73 partituras · cajas 47,1 / 31,9 / 56,1
 / 74,0 % — idénticas a antes, porque sólo se tocó texto. PDF no regenerado (lo arma Feli con Design).
+
+**Cierre de la ronda — decisiones de Feli sobre los 2 ítems abiertos (21/8):**
+- **34-quinquies (Tom Misch, en re menor): se queda.** Va con una nota al pie que dice que la
+  tonalidad distinta es a propósito — las **citas se dejan en su tono real** para que sigan
+  coincidiendo con el disco; transportarlas les saca el sentido de ser referencia. La nota además
+  frena al alumno que intentaría tocarla con la digitación de La menor.
+- **54-bis: se crea el ejercicio, no se saca la fila del índice.** Verificado: el 54-bis **no existía
+  en ninguna parte** — ni en el repo (el bonus es 54-59, `build_hito3b.py`, el 54 es el BB box) ni,
+  probablemente, en el PDF de Feli. La fila del índice de "El banco completo" se agregó cuando se
+  mandó `PROMPT_CIERRE_PARA_DESIGN.txt`, pero el ejercicio nunca se armó. Queda como referencia
+  colgada hasta que Design inserte `octavas_84_87.png`.
+- **El bonus se entrega JUNTO con el Hito 3** (no aparte, no antes). Motivo: "El banco completo" es
+  el índice al que el alumno vuelve meses después, y sus referencias apuntan al bonus — si el bonus
+  no está en su carpeta, el índice apunta al vacío justo en el documento pensado para el largo plazo.
+  Con la salvedad de mantener la separación visual (portada propia) para que no se lea como semana 13.
+
+> ⚠️ **El 54-bis sigue sin existir en el repo.** Si alguna sesión futura audita el bonus, va a contar
+> 6 licks (54-59) y va a estar bien. El 54-bis vive sólo en el flujo de Design, a partir de la imagen
+> del scratchpad. Para bajarlo al repo hace falta el MusicXML de Feli + `importar_musicxml.py`.
