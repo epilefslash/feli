@@ -458,10 +458,12 @@ S.append(ejercicio(46, "EL MISMO LICK EN LAS CINCO CAJAS", (
 
 S.append(Paragraph("DOS LICKS MÁS, EN LOS DOS EXTREMOS DEL MÁSTIL", H2))
 S.append(Paragraph(
-    "Venís tocando vocabulario repartido por las cajas 1, 2, 3 y 4 desde la semana 9. Estos dos cierran el "
-    "mapa: uno vuelve a la <b>caja 3</b> — y es a propósito la misma celda del ejercicio 35, para que la "
-    "comparación sea directa — y el otro baja a la <b>caja 5</b>, la única zona que todavía no habías "
-    "pisado en este hito.", BODY))
+    "Venís tocando vocabulario repartido por todo el mástil desde la semana 9. Lo que sigue cierra el mapa "
+    "por los dos extremos. Primero, un grupo entero se planta en la <b>caja 3</b>: el mismo barrio, visto por "
+    "tres manos distintas — la celda del ejercicio 35 tres cajas más arriba, y después cómo la usan Page y "
+    "Clapton. Es la comparación más directa del hito: mismo territorio, tres personalidades.<br/><br/>"
+    "Y después el último baja a la <b>caja 5</b>. Ya la cruzaste de paso en el ejercicio 46, pero nunca la "
+    "habitaste: acá abajo la escala cambia de carácter, y ese cambio es el punto del ejercicio.", BODY))
 
 S.append(ejercicio(47, "La celda repetida, tres cajas más arriba (caja 3)", (
     "Es <b>exactamente el mecanismo del ejercicio 35</b> — la celda de tres notas machacada hasta que se "
@@ -491,11 +493,15 @@ S.append(ejercicio(48, "La zona grave: la caja 5 (trastes 2 a 5)", (
     "es incómodo al principio y es justamente lo que hay que entrenar."))
 
 S.append(ejercicio(49, "La arquitectura: las 4 frases de un solo", (
-    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple, en la caja 1), "
+    "Un solo no es una lista de licks: es una <b>curva</b>. Presenta (grave y simple, acá en la caja 1), "
     "desarrolla (la misma idea <b>mudada a la caja 2</b>), clímax (subís a la caja 3, lo más agudo y lo más "
     "fuerte), cierra (bajás por el mástil y resolvés abajo). Ocho compases que son el molde de casi cualquier "
     "solo que te haya gustado en tu vida. <b>Fijate que cada frase vive en una caja distinta:</b> no es "
     "decoración, es lo que hace que la curva se escuche. Aprendételo de memoria: es el plano.<br/><br/>"
+    "<b>Ojo con una trampa de lectura:</b> \"presenta grave\" no quiere decir \"presenta en la caja 1\". "
+    "Quiere decir <i>abajo</i>. Acá arranca en la 1 porque es el ejemplo más simple de leer, pero el "
+    "ejercicio 53 —el solo final— arranca en la caja 5, que está más abajo todavía. El molde es la curva; "
+    "en qué caja apoyás cada escalón lo elegís vos.<br/><br/>"
     "<b>La regla de Brian May, que acá se aplica sin nombrarla:</b> el crecimiento tiene que ser en DOS "
     "variables a la vez, no solo una. <b>Altura</b> — empezás en un registro medio y subís — y <b>velocidad</b> "
     "— arrancás lento y melódico, y te guardás las notas rápidas para el clímax. Si solo subís de altura pero "
@@ -584,6 +590,11 @@ S.append(KeepTogether([
     Paragraph(
         "Compás 10: silencio completo, justo después del bending más importante. Es el aire antes del cierre — "
         "sin ese compás vacío, la vuelta del motivo no emocionaría.", SMALL),
+    Paragraph(
+        "▸ Un aviso de mano para los compases 1 y 2: la frase de apertura es exactamente la misma melodía "
+        "que venías tocando arriba, pero <b>una octava más abajo</b> — no hay nada nuevo que aprender de "
+        "oído. Lo que sí es nuevo es el vibrato del compás 2, en la 6ª cuerda: esa cuerda es más gruesa y "
+        "pide más muñeca para que se escuche. Practicalo suelto antes, como hiciste con el ejercicio 28.", SMALL),
 ]))
 
 # ============================================================ BANCO DE LICKS

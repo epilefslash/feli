@@ -234,9 +234,9 @@ EJ["e47"] = r"""
 # todavía (ver memoria). Si en algún momento aparece una transcripción real de
 # "Crossroads", se agrega aparte como 47-quater.
 EJ["e47ter"] = r"""
-  r4 e'8\3^\markup{\bold "en el estilo de Clapton (Cream) · CAJA 3"} d'\3 c'4\3 ~ c'4 |
-  c'2\3 \tabSym \bendFull \tabSym \vib ^\markup{\bold "el bend largo, con vibrato ancho — la firma de Clapton"} c'2\3 |
-  d'8\3 c'\3 a8\4 g8\4 a2\4 \tabSym \vib |
+  r4 c''8\2^\markup{\bold "en el estilo de Clapton (Cream) · CAJA 3"} a'\2 g'4\3 ~ g'4 |
+  g'2\3 \tabSym \bendFull \tabSym \vib ^\markup{\bold "el bend largo, con vibrato ancho — la firma de Clapton"} g'2\3 |
+  e'8\3 d'\4 c'\4 a\5 a2\5 \tabSym \vib ^\markup{\bold "la tónica grave de la caja 3"} |
 """
 
 # 48: la CAJA 5, la zona grave (repatriado del bonus) — Angus / Chuck Berry
