@@ -687,3 +687,36 @@ desarrollo, clímax, cierre; dónde apoyás cada escalón lo elegís vos"*.
 
 **Hito 3 en conjunto: 48,4% → 56,1%** fuera de la ventana de caja 1. Escala OK y barcheck OK en las 73
 partituras. Commit `dce8d4d`. PDF no regenerado (lo arma Feli con Design — ver sección 15).
+
+### DUODÉCIMA RONDA — el "Cuadernillo BONUS" separado quedó OBSOLETO
+
+> ⚠️ **Corregir cualquier referencia futura a `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` como si
+> fuera lo que Feli entrega.** Ya no lo es. El archivo sigue en el repo (lo genera `build_hito3b.py`,
+> ejercicios 54-59, "BB box" + licks fuera de caja 1) pero **Feli no lo usa** — se lo pregunté
+> directamente y confirmó "ese no existe".
+
+**Lo que pasó realmente (verificado leyendo `cuadernillo_3.pdf`, el PDF real de Design, páginas 48-55):**
+el contenido de cierre del programa se reescribió y **quedó DENTRO del mismo Hito 3**, no en un archivo
+aparte. Las páginas finales del Hito 3 real son:
+1. **"Las 5 cajas, una por una"** — ej. **54 a 58**, un ejercicio por caja, todos con el mismo texto
+   base ("el mismo recorrido que ya hacés en esta caja, con la 2ª y la ♭6 metidas de paso"). Esto **NO
+   es el BB box** — es contenido nuevo y distinto al que describe la sección 30/33 más arriba de esta
+   memoria (esa descripción del bonus 54-59 quedó vieja).
+2. **"Cómo se toca esto sin marearse"** — 3 reglas + un recuadro de cierre ("tocá tu solo final
+   permitiéndote las dos notas nuevas").
+3. **"Y después de esto, explorá"** — 3 puertas optativas, sin numerar: *Los modos* / *Los arpegios* /
+   *Más kilometraje*.
+4. **"Jimmy Page, lick 2"** (sin numerar, "no es para tocarlo ahora... volvé a mirarlo dentro de un año").
+
+**Consecuencia para el repo:** `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` / `build_hito3b.py` /
+`gen_scores_h3b.py` describen un programa que ya no es el real. No los regeneres ni los cites como
+fuente de verdad sin preguntarle antes a Feli si siguen vigentes — a la fecha de esta ronda, no.
+(Esto es distinto del punto 6 de la ronda anterior, que ya señalaba que `54-58 escala menor natural`
++ el lick de Page estaban en Design y no en el repo — sigue pendiente el backfill a LilyPond de todo
+ese bloque, punto 6 arriba.)
+
+**Lo que se resolvió en esta ronda:** dónde va la imagen `octavas_84_87.png` (que iba a ser "54-bis").
+Al no existir más el hueco "después del ej. 54", se reubicó como **4ª puerta** en "Y después de esto,
+explorá" — mismo tono exploratorio/no obligatorio que las otras 3, sin número de ejercicio. Prompt
+actualizado en `/scratchpad/cierre_bonus/PROMPT_CIERRE_PARA_DESIGN.txt`, sección 1 (y se sacó la fila
+que esa misma sección agregaba a la hoja de recursos — una puerta optativa no entra en esa tabla).
