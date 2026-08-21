@@ -23,7 +23,7 @@
 
 **Esto es lo más importante de esta sección.** Los cuadernillos que salen de `scripts/build_*.py` NO son
 los que Feli le entrega al alumno: los manda a **Claude Design**, que hace una versión maquetada más
-linda (y más larga — 30/32/51/19 páginas contra las 11/13/20/8 mías). Ese paso es el que llega al alumno.
+linda (y más larga — al 21/8/2026: ~30/32/43 páginas contra las 12/16/25/8 mías). Ese paso es el que llega al alumno.
 
 **El problema verificado (3/8/2026):** Design **redibuja las tablaturas en vez de embeber mis imágenes**,
 y al transcribirlas introduce errores musicales reales. Encontrados en la versión diseñada del Hito 3:
@@ -80,7 +80,7 @@ los importantes describen errores de la propia versión diseñada, no del repo.*
 - Hito 1: se sacó el "buscá en YouTube …" y se apunta a la carpeta de backings propios — ítem 13.
 
 **Ítems 11, 12, 18 (espacio en blanco, capa de texto, carpetas):** son del lado de Design / de la máquina
-de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 11/13/20/8 páginas.
+de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 12/16/25/8 páginas (medidas 21/8/2026).
 
 **Ítem 14 (convertir el puente del Hito 2 en ejercicio numerado):** rechazado a propósito. Ese puente
 ("ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS") es práctica libre de oído sin partitura por diseño —
@@ -687,3 +687,56 @@ desarrollo, clímax, cierre; dónde apoyás cada escalón lo elegís vos"*.
 
 **Hito 3 en conjunto: 48,4% → 56,1%** fuera de la ventana de caja 1. Escala OK y barcheck OK en las 73
 partituras. Commit `dce8d4d`. PDF no regenerado (lo arma Feli con Design — ver sección 15).
+
+### DUODÉCIMA RONDA (21/8/2026) — auditoría externa de los 3 hitos: 6 ítems, 2 eran míos
+
+Una sesión externa auditó los PDF **maquetados de Design** (Hito 1 = 30 pp · Hito 2 = 32 pp · Hito 3 =
+43 pp) y devolvió 6 pendientes. Verificados uno por uno contra la fuente: **2 son del repo y se
+arreglaron, 4 son de la carpeta de Feli.** Nota positiva de la auditoría: el ej. 46 reescrito pasó la
+verificación nota por nota — las cinco versiones tocan las mismas seis alturas, o sea que la frase "las
+cinco líneas son idénticas" ahora es literalmente cierta.
+
+**🔴 EL ERROR REAL, y estaba en mi texto del ej. 46 — invertido.** El recuadro de Design decía que la
+caja 3 "suena más brillante (registros más agudos)". Es falso por partida doble: las cinco versiones
+son las **mismas alturas** (no hay diferencia de registro), y encima estaba al revés. **Mi propio texto
+tenía la misma inversión con otras palabras:** decía *"en la caja 5 la frase suena pesada, casi a riff;
+en la 4 suena urgente"*. Medido contra la fuente:
+
+| Versión del ej. 46 | Cuerdas | Trastes | Timbre real |
+|---|---|---|---|
+| caja 5 | **1ª · 2ª · 3ª** (finas) | 2-5 (bajos) | abierto, brillante, con ataque |
+| caja 4 | **3ª · 4ª · 5ª** (gruesas) | 12-15 (altos) | gordo, redondo, con sustain |
+
+O sea exactamente lo contrario de lo que decía el texto. **El concepto que faltaba nombrar no es
+registro: es color de cuerda** — misma altura, cuerda fina en traste bajo vs cuerda gruesa en traste
+alto.
+
+**De dónde salió el error, que es lo que hay que recordar:** el texto del ej. 46 se copió la
+caracterización del **ej. 48**, donde la caja 5 sí suena a riff pesado — pero ahí está tocada en la 5ª
+y la 6ª cuerda, **una octava más abajo**. Verificado en la fuente (`g,` `a,` `c` `d` …). Misma caja,
+otro registro. Se reescribió el bloque explicando el color de cuerda, conectándolo con el ej. 22
+(arriba la cuerda está más floja y el bending sale más fácil) y **se agregó la advertencia explícita de
+que la caja 5 del ej. 46 no es la del ej. 48** — que es justo la confusión que produjo el bug.
+
+> **Regla que sale de acá:** "caja" dice **dónde ponés la mano**, no **qué tan grave suena**. Antes de
+> escribir que un ejercicio suena grave/agudo/pesado, mirar **en qué cuerdas está escrito**, no en qué
+> caja. Dos ejercicios en la misma caja pueden estar a una octava de distancia.
+
+**🟡 EL SEGUNDO ERROR MÍO: las páginas.** El resumen ejecutivo que escribí ese mismo día decía
+11/13/20 pp, y la auditoría marcó que los archivos reales son bastante más grandes. **Las dos cifras
+estaban mal**: 11/13/20 eran números viejos que venían arrastrándose en esta memoria, y 30/32/43 son
+los de Design, no los del repo. Medidas contando páginas del PDF: **fuente = 12 · 16 · 25 · 8 (bonus)
+· 13 (anexo)**. Corregido en el resumen (ahora con **dos columnas**, fuente y entregable) y en
+`memoria/06` y `memoria/10`, que repetían las cifras viejas.
+
+**Los otros 4 ítems son de la carpeta de Feli, no del repo:**
+
+| Ítem de la auditoría | Realidad verificada |
+|---|---|
+| 34-quinquies (cita de Tom Misch) está en re menor | **No existe en el repo** — `grep` de "quinquies/quater/Tom Misch" no da nada. Es contenido que llegó a Design por un prompt suelto. Si se queda, va con una línea que aclare que la tonalidad distinta es a propósito. |
+| El índice referencia el ej. 54-bis y no hay PDF de bonus | "54-bis" **no existe en el repo**; sale de `PROMPT_CIERRE_PARA_DESIGN.txt` (octavas, transcripción de Feli), que pedía agregar esa fila. El bonus **sí existe acá** (`Cuadernillo-BONUS-…pdf`, 8 pp, ej. 54-59) — falta en la carpeta de Feli, no en el repo. |
+| El 3NPC sin recortar ("SOLO 01 Y 02" con diagramas 01-08) | Material de la máquina de Feli. No está en el repo. |
+| Periferia sin semana asignada (calentamientos 13 pp, Pozzoli 54 pp sueltos en la carpeta del Hito 2) | Organización de carpetas de Feli. Lo que sí falta y es real: un **índice de raíz** que diga qué es tarea y qué es referencia. |
+
+**Verificado tras el cambio:** escala OK · barcheck OK en las 73 partituras · cajas 47,1 / 31,9 / 56,1
+/ 74,0 % — idénticas a antes, porque sólo se tocó texto. PDF no regenerado (lo arma Feli con Design).

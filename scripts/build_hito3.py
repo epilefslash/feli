@@ -434,9 +434,24 @@ S.append(ejercicio(46, "EL MISMO LICK EN LAS CINCO CAJAS", (
     "Mirá la partitura sin leer la tablatura: las cinco líneas son <i>idénticas</i>. Ahora mirá la tablatura: "
     "no se parecen en nada. Eso es todo lo que hay que entender — <b>un lick no es un lugar del mástil, es un "
     "patrón</b>. Si lo tenés en una caja lo tenés en las cinco, y acá se paga entero el trabajo del Hito 1.<br/><br/>"
-    "Y escuchá el carácter de cada una: en la caja 5 la frase suena pesada, casi a riff; en la 4 suena urgente, "
-    "casi desesperada. Son las mismas seis notas. Por eso mudarse de caja no es un requisito de checklist: "
-    "es una <b>decisión expresiva</b>, y a partir de acá la tomás vos."),
+    "Y ahora lo fino, que es lo que hace que este ejercicio valga la pena. Las cinco versiones no suenan "
+    "<i>parecido</i>: son <b>literalmente las mismas seis alturas</b> — el mismo LA, el mismo SOL, el mismo MI. "
+    "No hay una más aguda que otra. Lo único que cambia es <b>en qué cuerdas las tocás</b>, y eso cambia el "
+    "color:<br/><br/>"
+    "· La versión de la <b>caja 5</b> vive en las cuerdas <b>1ª, 2ª y 3ª</b>, abajo en el mástil (trastes 2-5). "
+    "Cuerda fina + traste bajo = sonido <b>abierto y brillante</b>, con más ataque. Casi suena a que estuvieras "
+    "usando cuerdas al aire.<br/>"
+    "· La versión de la <b>caja 4</b> vive en las cuerdas <b>3ª, 4ª y 5ª</b>, arriba (trastes 12-15). "
+    "Cuerda gruesa + traste alto = sonido <b>gordo y redondo</b>, con más sustain y más cuerpo. Es la zona "
+    "donde la guitarra más se parece a una voz — y de paso, donde el bending sale más fácil, porque la cuerda "
+    "está más floja (acordate del ejercicio 22).<br/><br/>"
+    "Ninguna de las dos es mejor. Son dos <b>timbres</b> distintos para decir exactamente lo mismo. Por eso "
+    "mudarse de caja no es un requisito de checklist: es una <b>decisión expresiva</b>, y a partir de acá la "
+    "tomás vos.<br/><br/>"
+    "<i>Ojo con una confusión fácil: la caja 5 de ESTE ejercicio no es la caja 5 del ejercicio 48. Acá está "
+    "tocada en las cuerdas finas y suena brillante; allá está tocada una octava más abajo, en la 5ª y la 6ª, "
+    "y por eso suena a riff. Misma caja, dos registros distintos — la caja te dice dónde poner la mano, no "
+    "qué tan grave va a sonar.</i>"),
     "e46", W,
     "Lento, una caja por día si hace falta. Cuando las cinco te salgan, hacé esto: poné el backing, "
     "improvisá, y cada vez que uses esta frase elegí una caja distinta según lo que quieras que suene."))
