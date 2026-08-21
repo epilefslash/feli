@@ -1006,3 +1006,33 @@ Al no existir más el hueco "después del ej. 54", se reubicó como **4ª puerta
 explorá" — mismo tono exploratorio/no obligatorio que las otras 3, sin número de ejercicio. Prompt
 actualizado en `/scratchpad/cierre_bonus/PROMPT_CIERRE_PARA_DESIGN.txt`, sección 1 (y se sacó la fila
 que esa misma sección agregaba a la hoja de recursos — una puerta optativa no entra en esa tabla).
+
+### DECIMOSÉPTIMA RONDA — re-chequeo de la lista de 6 ítems contra el PDF real, y se manda el prompt único
+
+Feli pidió el prompt "de una vez" y pasó de nuevo la lista de 6 ítems (la misma de la ronda 15). Antes
+de reenviar nada se releyó `cuadernillo_3.pdf` **página por página** (no de memoria) para ver qué de esa
+lista seguía pendiente en el archivo real. Resultado: **de los 6, solo 2 seguían rotos.**
+
+| Ítem | Estado real verificado en el PDF |
+|---|---|
+| 1 · Ej. 46, recuadro invertido | 🔴 **Sigue roto.** Confirmado carácter por carácter: sigue diciendo "más brillante (registros más agudos)" para la caja 3 y "más profunda" para la caja 5 — la misma inversión de siempre. |
+| 2 · 34-quinquies en re menor | ⚠️ **No existe en el PDF de Hito 2 actual** (`A_Cuadernillo_El_Sabor_Hito_2_MES_2_terminado.pdf`, 28 pp, subido hoy). `grep` de "quinquies/misch/quater" no da nada — el 34-bis y el 34-ter (Jimmy Page, "The Ocean") sí están, el quinquies no. Puede ser de una versión más vieja que ya no circula, o de la carpeta de Feli. No se manda prompt: no hay nada que corregir en el archivo vigente. |
+| 3 · Índice referencia 54-bis, no hay bonus | ✅ **Resuelto de raíz esta misma sesión** (ver ronda anterior): no hace falta bonus aparte, octavas va como puerta en "explorá". |
+| 4 · 3NPC sin recortar | Es un archivo en la carpeta de Feli, no en el repo ni en Design. Sin acción posible desde acá. |
+| 5 · Resumen ejecutivo con páginas viejas | ✅ **Corregido en el repo**, `scripts/build_resumen.py`: la tabla decía 11/11/19 pp, ahora dice 12/16/25 (fuente), con una aclaración de que la versión maquetada de Design es más larga. |
+| 6 · Índice de raíz para la periferia | Pendiente real, sin resolver — requiere reorganizar la carpeta de Feli, no es algo que se resuelva desde el repo. Queda anotado para si lo pide. |
+
+**Bug nuevo, no estaba en la lista de nadie:** en el **ej. 41-ter** (Hendrix Lick 4, ya insertado y
+correcto en contenido) quedó flotando sobre la tablatura del último compás el texto **"acá resuelve en
+la 3era"** — una anotación de trabajo en celeste que nunca se borró. Se agregó como punto 3 del prompt.
+
+**También se confirmó que el 41-ter (que una ronda anterior creía pendiente de mandar) YA ESTÁ
+insertado en el PDF real**, con el mismo título y casi el mismo texto que el prompt viejo del
+scratchpad iba a pedir — mandarlo de nuevo habría sido redundante. Verificar siempre contra el PDF
+más reciente antes de reenviar un prompt viejo del scratchpad: puede haber quedado aplicado entre
+sesiones sin que esta memoria se enterara.
+
+**Se mandó un único prompt consolidado** (`PROMPT_FINAL_UNICO_PARA_DESIGN.txt`, enviado a Feli con
+`octavas_84_87.png` adjunta) con los 3 puntos reales: el recuadro del ej. 46, la puerta de octavas, y
+el bug del 41-ter. Los otros 3 ítems de la lista de 6 no requieren prompt (2 ya resueltos, 1 sin
+archivo que corregir, 2 son de la carpeta de Feli).
