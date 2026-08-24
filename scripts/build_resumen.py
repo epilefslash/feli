@@ -247,7 +247,8 @@ S.append(PageBreak())
 S.append(seccion_roja("5 · MATERIAL DE CLASE (cuadernillos de ejercicios)"))
 S.append(Spacer(1, 8))
 S.append(Paragraph(
-    "El programa entero está respaldado por <b>53 ejercicios con numeración corrida</b> (más un anexo de ritmo), "
+    "El programa entero está respaldado por <b>53 ejercicios con numeración corrida</b> (más 2 anexos de "
+    "ritmo, uno en paralelo a cada hito), "
     "cada uno con partitura real y tablatura hechas con LilyPond, diagramas de mástil verificados traste "
     "por traste, criterios claros de \"ya lo tenés\", y un entregable grabable por hito. No es un curso "
     "improvisado sobre la marcha: el contenido pedagógico de los 3 meses ya existe.", BODY))
@@ -261,16 +262,28 @@ S.append(tabla([
      Paragraph("Ligados/slides → bending → vibrato → espacio y dinámica. Sale a la caja 2 en la "
                "semana 6 (bend a la tónica + blue note).", CELL),
      Paragraph("17-34", CELL), Paragraph("16", CELL)],
+    [Paragraph("↳ Anexo — El Ritmo", CELLB),
+     Paragraph("En paralelo al Hito 2 (no reemplaza semanas). Enseña a LEER ritmo — 10 células, "
+               "basado en Pozzoli, entregable de 1 min. Vive en la máquina de Feli, no en este repo.", CELL),
+     Paragraph("10 células", CELL), Paragraph("19", CELL)],
     [Paragraph("Hito 3 — El Vocabulario", CELLB),
      Paragraph("Escuela británica vs. americana, el color de cada grado, las notas de afuera, dos "
                "licks en las cajas 3 y 5, arquitectura del solo. Cierra con el solo final de 12 "
                "compases que recorre el mástil.", CELL),
      Paragraph("35-53", CELL), Paragraph("25", CELL)],
+    [Paragraph("↳ Anexo — Ritmo y Construcción de Frases", CELLB),
+     Paragraph("En paralelo al Hito 3. Enseña a APLICAR el ritmo (el árbol de las figuras, tresillo y "
+               "swing, síncopa, el push, frases largas con cita real). Sí está en este repo.", CELL),
+     Paragraph("A-J", CELL), Paragraph("13", CELL)],
     [Paragraph("Bonus post-programa", CELLB),
      Paragraph("6 licks más, fuera de las cajas 1 y 2 (cajas 3, 4, 5 y mástil completo). No es parte "
                "de las 12 semanas.", CELL),
      Paragraph("54-59", CELL), Paragraph("8", CELL)],
 ], [3.6 * cm, W - 3.6 * cm - 3.0 * cm, 1.6 * cm, 1.4 * cm]))
+S.append(Paragraph(
+    "<i>Los 2 anexos de ritmo son material EN PARALELO, no semanas nuevas — cierran el hueco de ritmo "
+    "documentado como pendiente. El de Hito 2 vive solo en la carpeta de Feli; el de Hito 3 está en el "
+    "repo (`Anexo-Ritmo-y-Construccion-de-Frases.pdf`).</i>", SMALL))
 S.append(Paragraph(
     "<i>Pág. = páginas de la fuente que genera este repo. La versión maquetada que arma Claude Design "
     "para el alumno es más larga y agrega citas reales de discos (\"-bis\") a varios de estos "
