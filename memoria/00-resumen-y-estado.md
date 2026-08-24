@@ -65,10 +65,20 @@ PENTA) → #11 TU HISTORIA (60 seg, humaniza, sec. 25) → #12 REEL FIJADO (30 s
 → #13 CÓMO ES UNA CLASE (40-50 seg, resuelve la objeción "¿qué compro?", sec. 27) → los VENDEDORES
 (guion "Como que desaparece" + variantes, sección 23).
 
-> **Guiones YA ESCRITOS, sin filmar (los 4 que faltan para completar 12-15 videos):**
-> #7 equipo (sec. 8) · "3 formas romper cajas" (sec. 24) · TU HISTORIA (sec. 25, tiene 6 blancos a
-> completar con tu historia real antes de grabar) · REEL FIJADO (sec. 26, no es hablado — es una
-> partitura emocional de 30 seg) · CÓMO ES UNA CLASE (sec. 27, keyword nueva: CLASE) · vendedor (sec. 23).
+> **Guiones YA ESCRITOS, sin filmar (actualizado 24/8 — la versión anterior de esta lista estaba
+> desactualizada en 3 puntos y se corrigió):**
+> #7 equipo (sec. 8) — ⚠️ **sólo faltan las guitarras**, no el video entero; la tabla de arriba es
+> la que manda · "3 formas romper cajas" (sec. 24) · TU HISTORIA (sec. 25) — ⚠️ **ya NO tiene blancos**:
+> los 6 datos reales de Feli están cargados en el guion, se filma tal cual está · REEL FIJADO (sec. 26,
+> no es hablado — es una partitura emocional de 30 seg) · vendedor "Como que desaparece" (sec. 23).
+>
+> ❌ **CÓMO ES UNA CLASE salió de esta lista:** la sección 27 lo dio de baja como video público
+> (regala en abierto lo que la llamada de venta necesita vender). Seguía listado acá por error.
+>
+> ❌ **"Dejá de mirar tutoriales" (sec. 21) NO se filma todavía:** su CTA promete "3 licks con el
+> cómo" y ese lead magnet **no existe**. Los únicos 3 que existen son `Mapa-5-cajas-pentatonica.pdf`,
+> `Rutina-Toca2-Callate2.pdf` y `Ejercicio-Destapar-el-Oido.pdf`. No grabar a cámara una promesa
+> que no se puede cumplir.
 > "Cantá primero, tocá después" ya filmado (#8). Voz/melodía interna y desarmar-lick, pendientes de registrar.
 > Ver sección 9 para el ORDEN DE PUBLICACIÓN (distinto del orden de filmación).
 

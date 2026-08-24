@@ -190,7 +190,7 @@ la caja 1, cierre con vibrato en la tónica. Practicala 5 min antes. Tocás BIEN
 > nuevas, leés reviews en foros… y seguís sonando igual.
 >
 > 🎯 Angus Young — SG + Marshall, sin pedalera. Una vida de pentatónica menor.
-> 🎯 Mark Knopfler — sin púa, sin distorsión. Y nadie suena como él.
+> 🎯 Mark Knopfler — toca con los dedos, sin púa. Y nadie suena como él.
 >
 > Lo que tienen ellos no se compra. Está en cómo aprietan la cuerda, en el vibrato, en dejar respirar la nota. Eso se entrena.
 >
@@ -199,9 +199,19 @@ la caja 1, cierre con vibrato en la tónica. Practicala 5 min antes. Tocás BIEN
 **Hashtags:**
 `#guitarra #guitarraelectrica #pentatonica #solodeguitarra #rock #bluesrock #guitarristas #angusyoung #knopfler #aprenderguitarra #toneworship #guitartone #homestudio`
 
-**⚠️ FACT-CHECK (sigue vigente):** el argumento es "el dedo importa más que el equipo extra", NO "ellos no
-usaban pedales" (Hendrix usaba Fuzz Face, Octavia, Univibe, Wah). Angus Young (SG+Marshall sin pedalera)
-y Knopfler (sin púa/sin distorsión) son los ejemplos blindados.
+**⚠️ FACT-CHECK (corregido 24/8 — la versión anterior tenía un error propio):** el argumento es "el dedo
+importa más que el equipo extra", NO "ellos no usaban pedales" (Hendrix usaba Fuzz Face, Octavia,
+Univibe, Wah).
+
+⚠️ **"Knopfler = sin distorsión" es FALSO y estaba escrito 3 veces como si fuera blindado.**
+*Money for Nothing* es uno de los tonos más distorsionados y procesados del rock, y es de él. En un
+reel con `#guitartone` ese es EL comentario que te van a hacer, justo en el momento de autoridad.
+Lo verificable de Knopfler es que **toca con los dedos, sin púa** — y además sirve más al argumento:
+el sonido que no se copia le sale de la yema del dedo. Corregido en los dos guiones.
+
+**Angus:** "SG + Marshall, sin pedalera" es defendible pero no absoluto (usó el Schaffer-Vega, que
+de hecho agregaba compresión y ganancia). Formulación segura: **"una SG, un Marshall, y nada en el
+medio."** Mantiene la fuerza sin dejar flanco.
 
 ### GUION VIDEO 6 — VERSIÓN HABLADA (palabra por palabra)
 
@@ -238,7 +248,7 @@ y Knopfler (sin púa/sin distorsión) son los ejemplos blindados.
 
 **[0:37–0:43] PRUEBA DE AUTORIDAD — cama suave**
 > "Angus Young: una SG y un Marshall, sin una sola pedalera. Toda su carrera.
-> Knopfler: sin púa, sin distorsión. Y nadie suena como él.
+> Knopfler toca con los dedos, sin púa. Y nadie suena como él.
 > Lo que tienen no se compra."
 
 **[0:43–0:48] CTA — a cámara**
