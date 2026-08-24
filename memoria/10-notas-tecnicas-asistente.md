@@ -11,6 +11,17 @@
 - El usuario = Feli. Habla español rioplatense. NO confundir Feli con Nico.
 - El usuario filma y edita él mismo (guitarra, CapCut). Mi rol: guiones, estrategia, copy, pedagogía,
   auditoría de contenido, fact-check.
+- 🔴 **LA FUENTE DE VERDAD ES EL PDF QUE SUBE FELI, NO ESTE REPO.** (Regla dada por Feli el 19/8:
+  *"el final termina siendo el que sale de Design, así que hacé siempre los cambios en base al que te
+  subo como «terminado»"*.) El flujo real es: repo → prompt a Design → Feli revisa/ajusta → **ese PDF
+  es el estado actual**. O sea que el repo va SIEMPRE un paso atrás, y eso es normal, no un bug.
+  **Antes de proponer cualquier cambio, pedir o leer el cuadernillo «terminado» más reciente** y
+  trabajar sobre él. Si se edita el repo sin mirarlo, se pisan ejercicios que Feli ya aprobó — ya pasó
+  el 19/8 con el ej. 35 (lo reemplacé por Highway to Hell cuando en Design eso ya vivía como 35-bis).
+- **Corolario:** las partituras del repo que corresponden a transcripciones de Feli (35-bis, 36-bis,
+  37-bis, 47-ter, 40-bis, 41-bis…) son **aproximaciones mías**, no sus transcripciones. Las que llegan
+  al alumno son las imágenes de él. No "corregirlas" por diferencias con el PDF: la que está bien es
+  la de él. Para alinear el repo hace falta su MusicXML/Guitar Pro + `importar_musicxml.py`.
 - **No regenerar el PDF final del cuadernillo (`build_hito*.py` / `build_ritmo.py`) salvo que Feli lo
   pida explícitamente.** El PDF que él usa de verdad lo arma con Claude Design (18/8, confirmado por
   Feli). Alcanza con: editar `gen_scores_h*.py`/`build_hito*.py`, generar las partituras PNG
@@ -23,7 +34,7 @@
 
 **Esto es lo más importante de esta sección.** Los cuadernillos que salen de `scripts/build_*.py` NO son
 los que Feli le entrega al alumno: los manda a **Claude Design**, que hace una versión maquetada más
-linda (y más larga — 30/32/51/19 páginas contra las 11/13/20/8 mías). Ese paso es el que llega al alumno.
+linda (y más larga — al 21/8/2026: ~30/32/43 páginas contra las 12/16/25/8 mías). Ese paso es el que llega al alumno.
 
 **El problema verificado (3/8/2026):** Design **redibuja las tablaturas en vez de embeber mis imágenes**,
 y al transcribirlas introduce errores musicales reales. Encontrados en la versión diseñada del Hito 3:
@@ -80,7 +91,7 @@ los importantes describen errores de la propia versión diseñada, no del repo.*
 - Hito 1: se sacó el "buscá en YouTube …" y se apunta a la carpeta de backings propios — ítem 13.
 
 **Ítems 11, 12, 18 (espacio en blanco, capa de texto, carpetas):** son del lado de Design / de la máquina
-de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 11/13/20/8 páginas.
+de Feli, no del repo. Los PDF que genero acá tienen capa de texto y 12/16/25/8 páginas (medidas 21/8/2026).
 
 **Ítem 14 (convertir el puente del Hito 2 en ejercicio numerado):** rechazado a propósito. Ese puente
 ("ANTES DEL SOLO: ESTO YA TE SIRVE EN LAS 5 CAJAS") es práctica libre de oído sin partitura por diseño —
@@ -687,3 +698,341 @@ desarrollo, clímax, cierre; dónde apoyás cada escalón lo elegís vos"*.
 
 **Hito 3 en conjunto: 48,4% → 56,1%** fuera de la ventana de caja 1. Escala OK y barcheck OK en las 73
 partituras. Commit `dce8d4d`. PDF no regenerado (lo arma Feli con Design — ver sección 15).
+
+### DUODÉCIMA RONDA — auditoría del "terminado" de El Sabor (Hito 2) + 3 citas nuevas pendientes de transcripción
+
+Feli subió el PDF "terminado" de El Sabor (Hito 2) más el módulo de Ritmo (Pozzoli). El segundo vive
+fuera del repo (ver sección 31) y no se auditó. El primero SÍ, con el mismo método que ya venía
+rindiendo en el Hito 3: comparar cada ejercicio contra `gen_scores_h2.py` y contra `auditar_cajas.py`.
+
+**4 errores reales encontrados en El Sabor**, mismo patrón sistémico (VexFlow redibuja mal, ninguna
+tablatura era imagen embebida — a diferencia del Hito 3, que ya se arregló):
+- **Ej. 27:** el texto decía "traste 10" (la tónica de la caja 2), la tablatura mostraba **7**.
+- **Ej. 28:** los compases "grave" y "medio" tenían menos notas que la fuente (parecía simplificado
+  al redibujar) — la fuente tiene 5 notas por compás (8-5-7-5-7 en grave), el PDF mostraba 3-4.
+- **Ej. 33:** tablatura mostraba 7-9-8-10; la fuente (y la lógica: misma frase del 27/30, caja 2) es
+  **8-10-10-8**.
+- **Ej. 34 (clímax):** el PDF mostraba **"full (14)"** — bendear el traste 12 hasta sonar como el 14,
+  que es **FA#, fuera de la pentatónica**. Es el mismo bug documentado en la sección 30 (memoria vieja)
+  como "ya corregido" — no lo estaba en este PDF. La fuente actual (`gen_scores_h2.py`) pasa la
+  validación de escala sin problema; el bug vive solo en el PDF de Design.
+- **Además, el ej. 34-bis (apoyatura) no estaba** en este PDF — lógico, se agregó recién en esta sesión.
+
+**Se generaron y verificaron a ojo (nota por nota contra la fuente) los 19 PNG** (ej. 17 a 34 + 34-bis)
+y se mandaron a Feli para que se los pase a Design, con un prompt explicando cada corrección puntual —
+mismo mecanismo que funcionó en el Hito 3. Sin commit al repo porque son las mismas partituras que ya
+existían en `scripts/partituras/`, generadas de nuevo nomás para confirmar que seguían vigentes.
+
+**Objeción de Feli: "¿hay mucha caja 1 en el Hito 2?"** Medido: 31,9% fuera de la ventana 5-8, con 6 de
+19 ejercicios 100% adentro. De esos 6: **17, 18, 19** (ligados) y **34-bis** (apoyatura) están bien ahí
+— son primera exposición a una técnica sin variable de posición que aislar (a diferencia del bending,
+acá el gesto no cambia con el traste). **23 y 29** comparten a propósito el mismo traste que el 21
+(cuerda 3, traste 7→9): es una cadena de 3 pasos sobre el MISMO bending — escuchar el destino (21) →
+controlar la bajada (23) → sumarle vibrato (29). El 29 ya lo decía explícito ("Volvé al ejercicio 21");
+al 23 le faltaba decirlo — se le agregó. También se sumó el 23 a la sección "ANTES DEL SOLO" (que ya
+invita a repetir el bending/vibrato de oído en cajas 3-4-5), que antes solo mencionaba el 21 y el 27.
+Commit `96d9880`. Solo texto, no toca ninguna partitura.
+
+**Se armó y descartó un backfill del ej. 47-bis (Led Zeppelin, "The Lemon Song") al repo** — Feli pidió
+"olvidate del lick ese del 47, el Hito 3 ya está cerrado, foco al Hito 2" a mitad de camino. Se había
+recortado la imagen de la cita directo del PDF de Design (sin re-transcribir, para no inventar ritmos
+de un solo ajeno adivinando desde una captura) pero se descartó sin comittear — no quedó nada en el
+repo de ese intento. Si se retoma en el futuro, la imagen fuente está en la página del "Estilo y onda"
+PDF que subió Feli (compases 27-29, bending 1½/full repetido sobre el traste 17, resolviendo a 20-17).
+
+**Pedido nuevo de Feli: reemplazar las citas de SRV/Albert King (bending) y B.B. King (vibrato/espacio)
+del Hito 2 por artistas del roster ya establecido** (Slash, Frusciante, Gary Moore, Page, Hendrix,
+Angus, y sumando a George Harrison). Se armó una lista de candidatas por semana evitando duplicar lo
+que ya está citado en el Hito 3, y **Feli confirmó 3**:
+- **Semana 6 — Bending:** "November Rain" (Guns N' Roses, Slash) — reemplaza a SRV/Albert King.
+- **Semana 7 — Vibrato:** "Still Got the Blues" (Gary Moore) — reemplaza a B.B. King. (Distinta de
+  "Parisienne Walkways", que ya es el solo de referencia del Hito 1 — no se pisan.)
+- **Semana 8 — Espacio y dinámica:** "Something" (Harrison, The Beatles) — reemplaza a B.B. King.
+  Es la única candidata donde Harrison encaja de verdad (su fuerte es la economía melódica, no el
+  bending — un solo suyo de bending habría sido forzado).
+
+**Estado: SOLO DECIDIDO, NADA TRANSCRIPTO NI IMPLEMENTADO.** Feli no tiene todavía las transcripciones
+de estos 3 temas — el plan acordado es "primero juntar todas las referencias, después ir por las
+tabs/partituras". Cuando lleguen las transcripciones, agregarlas como ejercicios "-bis" (no reemplazar
+los ejercicios existentes, mismo patrón que todo el resto del programa) en las semanas correspondientes
+del Hito 2, con el crédito real (canción, artista, compases) — y el mismo cuidado de siempre: no
+inventar ritmos ni trastes de memoria, pedirle a Feli la transcripción o el fret-por-fret antes de
+tocar `gen_scores_h2.py`.
+
+**Pendiente de esta ronda, para la próxima sesión:**
+1. Conseguir las transcripciones de "November Rain", "Still Got the Blues" y "Something" (Feli las
+   va a conseguir/transcribir).
+2. Esperar confirmación de Design sobre los 19 PNG de El Sabor que se mandaron.
+3. El backfill de Hito 3 (40-bis, 41-bis, 41-ter, 47-bis, 52-bis, bono de escala menor natural) sigue
+   pendiente — ver sección 33, punto 6. Explícitamente puesto en pausa por pedido de Feli.
+
+### DECIMOTERCERA RONDA (20/8) — el checklist certificaba la versión vieja del hito, y el validador mentía
+
+Sesión en paralelo mientras Feli ensayaba. Tres hallazgos, los tres encontrados **leyendo la fuente**,
+ninguno reportado por nadie desde afuera.
+
+**1. 🔴 El checklist de cierre del Hito 2 mandaba a los ejercicios equivocados.** Decía *"velocidad de
+mi vibrato → hago el ejercicio 25"* (el 25 es el bend de Albert King) y *"bendear y vibrar → el
+ejercicio 27"* (el 27 es el vibrato medido). Van al **27** y al **29**. Las dos filas estaban
+desfasadas por 2, o sea que quedaron de una numeración anterior a alguna inserción y nunca se
+revisaron. **Este bug viajó a Design:** la línea existía en `build_hito2.py` cuando se commiteó el PDF
+(7/8), y Design transcribe bien el texto — sólo redibuja tablatura. **Hay que verificarlo en el PDF
+terminado de Feli, que es la fuente de verdad.** Las otras 9 referencias cruzadas del archivo se
+chequearon una por una y están bien.
+
+**2. 🔴 `auditar_cajas.py` reportaba "0 ejercicios encerrados en la ventana 5-8" SIEMPRE, con
+cualquier dato.** La condición era `usadas == [1] or usadas == [1, 2] and max(fs) <= 8`. Pero las
+ventanas se solapan —y eso ya estaba documentado en la tercera ronda—: el traste 5 es caja 1 **y** 5,
+el 8 es caja 1 **y** 2. Así que un ejercicio encerrado en 5-8 da `usadas == [1, 2, 5]` y no matcheaba
+ninguna de las dos listas. Nunca. Ahora cuenta lo único que el rótulo promete: **cero notas fuera de
+la ventana**.
+
+> ⚠️ **Consecuencia para el registro:** la frase de la novena ronda *"de tener varios ejercicios 100%
+> encerrados en la ventana 5-8 a cero"* era un **falso negativo**, no un logro. Los números reales hoy
+> son **4/16 · 6/19 · 3/24 · 0/6**. La buena noticia es que los 13 están justificados uno por uno en
+> esta misma memoria (e01-e04 presentan la caja 1 · e17-e19 aíslan la mecánica del ligado · e23 y e29
+> se comparan contra el ej. 21 · e34bis aísla la apoyatura · e35/e35bis son el punto de comparación
+> del ej. 47 · e43 es de oído, no de geografía). O sea: el bug tapaba información, no daño.
+>
+> Es el **mismo patrón que el regex de escala de la décima ronda** — un validador que informa OK sin
+> haber mirado. Tercera vez que aparece. Regla: cuando un validador reporte un cero perfecto,
+> **probarlo contra un caso que deba fallar** antes de creerle.
+
+**3. El checklist no verificaba tres cambios de las últimas rondas** (ej. 20, ej. 22, ej. 34-bis). El
+del 22 era el que importaba: la fila *"mis bendings llegan afinados"* mandaba **sólo al ej. 21**, que
+vive entero en la caja 1 — o sea que el alumno podía tildarla habiendo estirado únicamente en el
+traste 7, que es **exactamente el problema que el ej. 22 vino a resolver en la octava ronda**. El
+checklist había quedado certificando la versión vieja del hito. Se agregaron las tres filas.
+
+**Y en `memoria/06`: la tabla semana a semana del Hito 2 estaba desalineada con el cuadernillo.** Decía
+5=bending · 6=vibrato · 7=espacio · 8=dinámica (el plan viejo, de antes de que el cuadernillo insertara
+*ligados y slides* como semana 5 y fusionara *espacio y dinámica* en la 8), y el entregable que listaba
+("5 licks con sabor") tampoco era el real (es el solo del ej. 34 + el antes/después). **Esa es la tabla
+que Feli usa para armar las clases en vivo**, así que el desfasaje llegaba a la clase: habría dado
+bending en la semana 5 mientras el PDF del alumno decía hammer-ons. Realineada contra `build_hito2.py`,
+dejando marcadas las dos decisiones que no me correspondía inventar (qué solo va en la semana 5, y el
+conflicto ya conocido entre el banco fijo de 4 solos y la lista de uno por semana).
+
+> **Lección de método que se repite:** los tres hallazgos son de **coherencia interna entre partes que
+> se editaron en momentos distintos** — no de música. Cada ronda arregla ejercicios y deja atrás los
+> textos que los referencian (el checklist, la tabla semanal, las bajadas de sección). Vale la pena que
+> cada vez que se mueva un ejercicio se corra `grep -on "ejercicio[s]* [0-9]\+" scripts/build_hito*.py`
+> y se verifique que cada número sigue apuntando a donde dice.
+
+### DECIMOCUARTA RONDA (20/8) — chequeo del "terminado" contra la lista de 7 correcciones
+
+Feli subió `lo_q_tenemos_hoy_el_hito_dos_el_sabor.pdf` (**33 páginas**) antes de irse, con el pedido
+exacto: *"chequeá que lo que realmente estemos por corregir no sea algo que ya está corregido"*.
+Verificados los 7 ítems uno por uno. **Tres ya estaban hechos** — mandarlos a Design habría sido
+trabajo al pedo y riesgo de romper algo que ya funcionaba.
+
+| Ítem | Estado real en el PDF |
+|---|---|
+| Checklist: filas que decían ej. 25 y 27 | ✅ **YA CORREGIDO** — dice 27 y 29 |
+| Ej. 34-bis (apoyatura) no existía | ✅ **YA ESTÁ** (pág. 29) |
+| Las 3 citas "pendientes de transcripción" | ✅ **YA INSERTADAS** (ver abajo) |
+| Ej. 34 · `full (14)` | 🔴 sigue |
+| Ej. 27 · traste 7 | 🔴 sigue |
+| Ej. 28 · notas faltantes | 🔴 sigue, **y es peor** |
+| Ej. 33 · trastes de caja 1 | 🔴 sigue |
+| Checklist sin filas del 20, 22 y 34-bis | 🔴 sigue |
+
+**Las 4 citas reales ya están en el cuadernillo**, o sea que la sección de la duodécima ronda que dice
+*"SOLO DECIDIDO, NADA TRANSCRIPTO NI IMPLEMENTADO"* **quedó vieja**: `25-bis` November Rain (Slash) ·
+`27-bis` Still Got the Blues (Gary Moore) · `31-bis` Something (Harrison) · **`34-ter` The Ocean
+(Page)**. Ojo con la última: figuraba como *descartada por pedido de Feli* y sin embargo está adentro
+— no es un error, pero conviene confirmarlo con él antes de tocarla. También apareció un **34-ter de
+apoyatura ligada** (hammer-on, una púa para dos notas) que complementa al 34-bis punteado.
+
+**El ej. 28 es peor de lo que decía la auditoría anterior.** No es sólo que falten notas:
+
+| Compás | PDF | Fuente |
+|---|---|---|
+| grave | 5-8-7 | **8-5-7-5-7** |
+| medio | 5-7-7 | **5-7-5-8-5** |
+| agudo | 5-8-8 | **8-10-12-15-17** ← no faltan notas, están en la **cuerda equivocada** |
+| caja 4 | 12-14-14 | **12-13-15-12-14** |
+
+En el compás "agudo" la **partitura de arriba dibuja notas agudas y la tablatura de abajo dice trastes
+graves**: se contradicen entre sí dentro de la misma página. Es la firma de redibujado más clara que
+apareció hasta ahora, y se ve sin comparar contra nada.
+
+**El ej. 34 confirmado a ojo:** `clímax full ▲ · full (14)` sobre el traste 12 de la 1ª cuerda. El 12
+es MI; bendeado un tono da **FA#, fuera de la pentatónica**. Y en la fuente ese clímax **ni siquiera es
+un bending** — es el traste 15 (SOL) pisado. Design inventó el gesto y lo mandó a una nota que no
+existe en la escala. Es el entregable del hito.
+
+**No hay ejercicios repetidos ni duplicados.** El índice corre limpio: 17-25, 25-bis, 26, 27, 27-bis,
+28-31, 31-bis, 32-34, 34-bis, 34-ter.
+
+> **Regla que se confirma, y esta vez la pidió Feli:** antes de mandar una lista de correcciones a
+> Design, **verificarla contra el "terminado" más reciente**. De 7 ítems, 3 ya estaban resueltos. La
+> lista de correcciones envejece igual que el material — el repo va un paso atrás por diseño
+> (sección 30), así que una corrección "pendiente" puede haberse aplicado sin que el repo se entere.
+
+## 34) REGLA PERMANENTE: nunca confiar en un conteo/validador sin probarlo — sea de otro sistema o propio
+
+Pedido explícito de Feli tras esta ronda: *"necesito que seamos profesionales, prolijos y óptimos — no
+quiero volver a chequear todo 1000 veces"*. El disparador fue puntual (al subir el PDF de 33 páginas,
+el aviso automático del entorno decía "16 páginas" — un dato de otro sistema, no mío, y estaba mal),
+pero la sesión ya había pisado el mismo pozo dos veces antes con herramientas propias: el regex de
+escala que no miraba alteradas (sección 32) y el contador de cajas que daba 0 siempre (sección
+"decimotercera ronda"). Es un solo patrón, no tres incidentes sueltos: **un número que se presenta
+como verificado sin haber sido puesto a prueba.**
+
+**La regla, para que la siga cualquier sesión sin que Feli tenga que pedirla de nuevo:**
+1. **Cualquier conteo o metadato que no generé yo en este mismo turno —páginas de un PDF, tamaño de
+   un archivo, cuántas notas tiene un ejercicio— se trata como un dato SIN VERIFICAR hasta que se
+   confirme con la herramienta real** (`pdfinfo`, `wc`, el propio script). No se cita en un mensaje ni
+   se usa para decidir cuántas páginas leer sin ese paso.
+2. **Cualquier validador que reporte "todo OK" o un cero perfecto se prueba contra un caso que DEBA
+   fallar** antes de confiar en él la primera vez que se toca (o se re-audita si es viejo y nunca se
+   probó así). Un validador nunca antes puesto a prueba no es evidencia, es una promesa sin cumplir.
+3. **Esto no es un chequeo extra que se le pide a Feli — es un paso que hago yo, antes de reportar
+   un número.** El costo de un `pdfinfo` o de inyectar un dato falso a un validador es segundos; el
+   costo de un número mal confiado ya causó, en esta sesión, que se mandara a Design una lista con 3
+   ítems ya resueltos y que se celebrara como logro un bug que ocultaba información.
+
+> No es una promesa de "no me va a volver a pasar" — es la garantía de que la próxima sesión (esta
+> misma memoria es lo único que persiste entre sesiones) arranca sabiendo que este paso es obligatorio,
+> no opcional ni dependiente de que alguien lo pida.
+
+### DECIMOQUINTA RONDA (21/8/2026) — auditoría externa de los 3 hitos: 6 ítems, 2 eran míos
+
+Una sesión externa auditó los PDF **maquetados de Design** (Hito 1 = 30 pp · Hito 2 = 32 pp · Hito 3 =
+43 pp) y devolvió 6 pendientes. Verificados uno por uno contra la fuente: **2 son del repo y se
+arreglaron, 4 son de la carpeta de Feli.** Nota positiva de la auditoría: el ej. 46 reescrito pasó la
+verificación nota por nota — las cinco versiones tocan las mismas seis alturas, o sea que la frase "las
+cinco líneas son idénticas" ahora es literalmente cierta.
+
+**🔴 EL ERROR REAL, y estaba en mi texto del ej. 46 — invertido.** El recuadro de Design decía que la
+caja 3 "suena más brillante (registros más agudos)". Es falso por partida doble: las cinco versiones
+son las **mismas alturas** (no hay diferencia de registro), y encima estaba al revés. **Mi propio texto
+tenía la misma inversión con otras palabras:** decía *"en la caja 5 la frase suena pesada, casi a riff;
+en la 4 suena urgente"*. Medido contra la fuente:
+
+| Versión del ej. 46 | Cuerdas | Trastes | Timbre real |
+|---|---|---|---|
+| caja 5 | **1ª · 2ª · 3ª** (finas) | 2-5 (bajos) | abierto, brillante, con ataque |
+| caja 4 | **3ª · 4ª · 5ª** (gruesas) | 12-15 (altos) | gordo, redondo, con sustain |
+
+O sea exactamente lo contrario de lo que decía el texto. **El concepto que faltaba nombrar no es
+registro: es color de cuerda** — misma altura, cuerda fina en traste bajo vs cuerda gruesa en traste
+alto.
+
+**De dónde salió el error, que es lo que hay que recordar:** el texto del ej. 46 se copió la
+caracterización del **ej. 48**, donde la caja 5 sí suena a riff pesado — pero ahí está tocada en la 5ª
+y la 6ª cuerda, **una octava más abajo**. Verificado en la fuente (`g,` `a,` `c` `d` …). Misma caja,
+otro registro. Se reescribió el bloque explicando el color de cuerda, conectándolo con el ej. 22
+(arriba la cuerda está más floja y el bending sale más fácil) y **se agregó la advertencia explícita de
+que la caja 5 del ej. 46 no es la del ej. 48** — que es justo la confusión que produjo el bug.
+
+> **Regla que sale de acá:** "caja" dice **dónde ponés la mano**, no **qué tan grave suena**. Antes de
+> escribir que un ejercicio suena grave/agudo/pesado, mirar **en qué cuerdas está escrito**, no en qué
+> caja. Dos ejercicios en la misma caja pueden estar a una octava de distancia.
+
+**🟡 EL SEGUNDO ERROR MÍO: las páginas.** El resumen ejecutivo que escribí ese mismo día decía
+11/13/20 pp, y la auditoría marcó que los archivos reales son bastante más grandes. **Las dos cifras
+estaban mal**: 11/13/20 eran números viejos que venían arrastrándose en esta memoria, y 30/32/43 son
+los de Design, no los del repo. Medidas contando páginas del PDF: **fuente = 12 · 16 · 25 · 8 (bonus)
+· 13 (anexo)**. Corregido en el resumen (ahora con **dos columnas**, fuente y entregable) y en
+`memoria/06` y `memoria/10`, que repetían las cifras viejas.
+
+**Los otros 4 ítems son de la carpeta de Feli, no del repo:**
+
+| Ítem de la auditoría | Realidad verificada |
+|---|---|
+| 34-quinquies (cita de Tom Misch) está en re menor | **No existe en el repo** — `grep` de "quinquies/quater/Tom Misch" no da nada. Es contenido que llegó a Design por un prompt suelto. Si se queda, va con una línea que aclare que la tonalidad distinta es a propósito. |
+| El índice referencia el ej. 54-bis y no hay PDF de bonus | "54-bis" **no existe en el repo**; sale de `PROMPT_CIERRE_PARA_DESIGN.txt` (octavas, transcripción de Feli), que pedía agregar esa fila. El bonus **sí existe acá** (`Cuadernillo-BONUS-…pdf`, 8 pp, ej. 54-59) — falta en la carpeta de Feli, no en el repo. |
+| El 3NPC sin recortar ("SOLO 01 Y 02" con diagramas 01-08) | Material de la máquina de Feli. No está en el repo. |
+| Periferia sin semana asignada (calentamientos 13 pp, Pozzoli 54 pp sueltos en la carpeta del Hito 2) | Organización de carpetas de Feli. Lo que sí falta y es real: un **índice de raíz** que diga qué es tarea y qué es referencia. |
+
+**Verificado tras el cambio:** escala OK · barcheck OK en las 73 partituras · cajas 47,1 / 31,9 / 56,1
+/ 74,0 % — idénticas a antes, porque sólo se tocó texto. PDF no regenerado (lo arma Feli con Design).
+
+**Cierre de la ronda — decisiones de Feli sobre los 2 ítems abiertos (21/8):**
+- **34-quinquies (Tom Misch, en re menor): se queda.** Va con una nota al pie que dice que la
+  tonalidad distinta es a propósito — las **citas se dejan en su tono real** para que sigan
+  coincidiendo con el disco; transportarlas les saca el sentido de ser referencia. La nota además
+  frena al alumno que intentaría tocarla con la digitación de La menor.
+- **54-bis: se crea el ejercicio, no se saca la fila del índice.** Verificado: el 54-bis **no existía
+  en ninguna parte** — ni en el repo (el bonus es 54-59, `build_hito3b.py`, el 54 es el BB box) ni,
+  probablemente, en el PDF de Feli. La fila del índice de "El banco completo" se agregó cuando se
+  mandó `PROMPT_CIERRE_PARA_DESIGN.txt`, pero el ejercicio nunca se armó. Queda como referencia
+  colgada hasta que Design inserte `octavas_84_87.png`.
+- **El bonus se entrega JUNTO con el Hito 3** (no aparte, no antes). Motivo: "El banco completo" es
+  el índice al que el alumno vuelve meses después, y sus referencias apuntan al bonus — si el bonus
+  no está en su carpeta, el índice apunta al vacío justo en el documento pensado para el largo plazo.
+  Con la salvedad de mantener la separación visual (portada propia) para que no se lea como semana 13.
+
+> ⚠️ **El 54-bis sigue sin existir en el repo.** Si alguna sesión futura audita el bonus, va a contar
+> 6 licks (54-59) y va a estar bien. El 54-bis vive sólo en el flujo de Design, a partir de la imagen
+> del scratchpad. Para bajarlo al repo hace falta el MusicXML de Feli + `importar_musicxml.py`.
+
+> ⚠️⚠️ **ACTUALIZACIÓN — esta conclusión quedó superada, ver la ronda siguiente.** Se abrió el PDF real
+> de Design (`cuadernillo_3.pdf`) y el "Cuadernillo BONUS" separado que esta ronda dio por bueno **no es
+> lo que Feli entrega**: el contenido de cierre está reescrito y vive dentro del propio Hito 3, y ya no
+> hay un hueco "ej. 54-bis" — ver DECIMOSEXTA RONDA para el detalle y la reubicación de la imagen.
+
+### DECIMOSEXTA RONDA — el "Cuadernillo BONUS" separado quedó OBSOLETO (esto SUPERA la decisión de la ronda anterior)
+
+> ⚠️ **Corregir cualquier referencia futura a `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` como si
+> fuera lo que Feli entrega.** Ya no lo es. El archivo sigue en el repo (lo genera `build_hito3b.py`,
+> ejercicios 54-59, "BB box" + licks fuera de caja 1) pero **Feli no lo usa** — se lo pregunté
+> directamente y confirmó "ese no existe".
+
+**Lo que pasó realmente (verificado leyendo `cuadernillo_3.pdf`, el PDF real de Design, páginas 48-55):**
+el contenido de cierre del programa se reescribió y **quedó DENTRO del mismo Hito 3**, no en un archivo
+aparte. Las páginas finales del Hito 3 real son:
+1. **"Las 5 cajas, una por una"** — ej. **54 a 58**, un ejercicio por caja, todos con el mismo texto
+   base ("el mismo recorrido que ya hacés en esta caja, con la 2ª y la ♭6 metidas de paso"). Esto **NO
+   es el BB box** — es contenido nuevo y distinto al que describe la sección 30/33 más arriba de esta
+   memoria (esa descripción del bonus 54-59 quedó vieja).
+2. **"Cómo se toca esto sin marearse"** — 3 reglas + un recuadro de cierre ("tocá tu solo final
+   permitiéndote las dos notas nuevas").
+3. **"Y después de esto, explorá"** — 3 puertas optativas, sin numerar: *Los modos* / *Los arpegios* /
+   *Más kilometraje*.
+4. **"Jimmy Page, lick 2"** (sin numerar, "no es para tocarlo ahora... volvé a mirarlo dentro de un año").
+
+**Consecuencia para el repo:** `Cuadernillo-BONUS-Licks-Fuera-de-la-Caja1.pdf` / `build_hito3b.py` /
+`gen_scores_h3b.py` describen un programa que ya no es el real. No los regeneres ni los cites como
+fuente de verdad sin preguntarle antes a Feli si siguen vigentes — a la fecha de esta ronda, no.
+(Esto es distinto del punto 6 de la ronda anterior, que ya señalaba que `54-58 escala menor natural`
++ el lick de Page estaban en Design y no en el repo — sigue pendiente el backfill a LilyPond de todo
+ese bloque, punto 6 arriba.)
+
+**Lo que se resolvió en esta ronda:** dónde va la imagen `octavas_84_87.png` (que iba a ser "54-bis").
+Al no existir más el hueco "después del ej. 54", se reubicó como **4ª puerta** en "Y después de esto,
+explorá" — mismo tono exploratorio/no obligatorio que las otras 3, sin número de ejercicio. Prompt
+actualizado en `/scratchpad/cierre_bonus/PROMPT_CIERRE_PARA_DESIGN.txt`, sección 1 (y se sacó la fila
+que esa misma sección agregaba a la hoja de recursos — una puerta optativa no entra en esa tabla).
+
+### DECIMOSÉPTIMA RONDA — re-chequeo de la lista de 6 ítems contra el PDF real, y se manda el prompt único
+
+Feli pidió el prompt "de una vez" y pasó de nuevo la lista de 6 ítems (la misma de la ronda 15). Antes
+de reenviar nada se releyó `cuadernillo_3.pdf` **página por página** (no de memoria) para ver qué de esa
+lista seguía pendiente en el archivo real. Resultado: **de los 6, solo 2 seguían rotos.**
+
+| Ítem | Estado real verificado en el PDF |
+|---|---|
+| 1 · Ej. 46, recuadro invertido | 🔴 **Sigue roto.** Confirmado carácter por carácter: sigue diciendo "más brillante (registros más agudos)" para la caja 3 y "más profunda" para la caja 5 — la misma inversión de siempre. |
+| 2 · 34-quinquies en re menor | ⚠️ **No existe en el PDF de Hito 2 actual** (`A_Cuadernillo_El_Sabor_Hito_2_MES_2_terminado.pdf`, 28 pp, subido hoy). `grep` de "quinquies/misch/quater" no da nada — el 34-bis y el 34-ter (Jimmy Page, "The Ocean") sí están, el quinquies no. Puede ser de una versión más vieja que ya no circula, o de la carpeta de Feli. No se manda prompt: no hay nada que corregir en el archivo vigente. |
+| 3 · Índice referencia 54-bis, no hay bonus | ✅ **Resuelto de raíz esta misma sesión** (ver ronda anterior): no hace falta bonus aparte, octavas va como puerta en "explorá". |
+| 4 · 3NPC sin recortar | Es un archivo en la carpeta de Feli, no en el repo ni en Design. Sin acción posible desde acá. |
+| 5 · Resumen ejecutivo con páginas viejas | ✅ **Corregido en el repo**, `scripts/build_resumen.py`: la tabla decía 11/11/19 pp, ahora dice 12/16/25 (fuente), con una aclaración de que la versión maquetada de Design es más larga. |
+| 6 · Índice de raíz para la periferia | Pendiente real, sin resolver — requiere reorganizar la carpeta de Feli, no es algo que se resuelva desde el repo. Queda anotado para si lo pide. |
+
+**Bug nuevo, no estaba en la lista de nadie:** en el **ej. 41-ter** (Hendrix Lick 4, ya insertado y
+correcto en contenido) quedó flotando sobre la tablatura del último compás el texto **"acá resuelve en
+la 3era"** — una anotación de trabajo en celeste que nunca se borró. Se agregó como punto 3 del prompt.
+
+**También se confirmó que el 41-ter (que una ronda anterior creía pendiente de mandar) YA ESTÁ
+insertado en el PDF real**, con el mismo título y casi el mismo texto que el prompt viejo del
+scratchpad iba a pedir — mandarlo de nuevo habría sido redundante. Verificar siempre contra el PDF
+más reciente antes de reenviar un prompt viejo del scratchpad: puede haber quedado aplicado entre
+sesiones sin que esta memoria se enterara.
+
+**Se mandó un único prompt consolidado** (`PROMPT_FINAL_UNICO_PARA_DESIGN.txt`, enviado a Feli con
+`octavas_84_87.png` adjunta) con los 3 puntos reales: el recuadro del ej. 46, la puerta de octavas, y
+el bug del 41-ter. Los otros 3 ítems de la lista de 6 no requieren prompt (2 ya resueltos, 1 sin
+archivo que corregir, 2 son de la carpeta de Feli).
