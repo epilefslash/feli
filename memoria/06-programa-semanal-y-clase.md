@@ -13,6 +13,14 @@
 > se enseña cada semana. Juntas = el delivery entero visible. Es un borrador vivo: se ajusta con la
 > primera camada y con Nico. No hace falta memorizarlo ni perfeccionarlo ahora.
 
+> ⚠️ **Esto describe el TEMARIO (qué se enseña cada semana), no el delivery real.** El borrador de abajo
+> quedó escrito cuando el plan todavía eran 4 sesiones en vivo por semana. Esa parte **cambió**:
+> `memoria/02`, sección 28-BIS, es la decisión vigente — **1-2 encuentros en vivo por semana** + contenido
+> pregrabado (basado en estos mismos cuadernillos) + grupo de WhatsApp, no las 4 sesiones semanales que
+> describen las tablas siguientes. El QUÉ (el tema de cada semana, los solos de referencia, las
+> consignas) sigue sirviendo tal cual; el CUÁNTAS VECES POR SEMANA hay que reagruparlo en 1-2 encuentros
+> antes de usarlo para explicarle "cómo es una clase" a un alumno real o prepararte una llamada de venta.
+
 ### La lógica fija de la semana (se repite las 12 semanas)
 Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | Día | Sesión | Ángulo del tema semanal |
@@ -267,6 +275,11 @@ que lo hacés una vez.
 5. **Está bien no saber todo.** Si un alumno pregunta algo que no sabés en el momento: "buenísima, la vemos el lunes que la preparo bien". Es honesto y pro, no un bache.
 
 ### Las 4 sesiones de la semana, y qué las diferencia
+
+> ⚠️ Igual que en la sección 20: esto describe los 4 ÁNGULOS del tema semanal, no que haya 4 encuentros
+> en vivo. El delivery vigente es 1-2 vivos/semana (`memoria/02`, sección 28-BIS) — estos 4 ángulos se
+> reparten entre esos 1-2 encuentros y el contenido pregrabado, no son 4 Zooms distintos por semana.
+
 - **Lunes (Teoría/Q&A):** más charlado. Resolvés dudas, explicás el concepto de la semana. Poca guitarra, mucho pizarrón mental.
 - **Martes (Técnica):** la de arriba (ronda de práctica). La más "manos a la obra".
 - **Jueves (Repertorio):** analizás UN solo icónico de la semana, todos lo desarman juntos.

@@ -431,8 +431,7 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 
 **[0:06–0:22] EL PUNTO A — el contraste que hace fuerte esta historia**
 > "Pasé por todo lo que puede pasar un guitarrista: aprendí con tablaturas de internet, con videos,
-> tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. No me recibí,
-> pero aprendí un montón ahí.
+> tuve profesores particulares, y hasta estudié en la facultad de música en Rosario.
 > Y aun así — con todo eso encima — durante años seguí tocando las mismas frases de siempre.
 > Sabía un montón de teoría. Pero cuando improvisaba, sonaba siempre igual."
 
@@ -460,7 +459,7 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 
 **Copy del post:**
 > Empecé a tocar a los once años. Pasé por tablaturas de internet, videos, profesores particulares,
-> y hasta la facultad de música — no me recibí, pero aprendí muchísimo ahí.
+> y hasta la facultad de música — ahí aprendí muchísimo.
 >
 > Y con todo eso encima, durante años seguí tocando las mismas frases de siempre.
 >
