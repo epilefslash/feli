@@ -86,9 +86,11 @@ S.append(tabla([
     [Paragraph("Keyword de CTA", CELL), chip("~ PROVISORIO", False),
      Paragraph("Rota por reel (PENTA, SOLO, ROCK, SABOR…). Keywords fijas ya asignadas: CLASE "
                "(reservada, aunque el video que la usaba se dio de baja del stock público).", CELL)],
-    [Paragraph("Precio", CELL), chip("~ PROVISORIO", False),
-     Paragraph("<b>USD 400</b> \"fundadores\" — por debajo del rango original (600-900). Probablemente "
-               "Nico empuje para arriba. Revisar en mentoría.", CELL)],
+    [Paragraph("Precio", CELL), chip("~ RECOMENDACIÓN", False),
+     Paragraph("<b>USD 600</b> — no es el placeholder viejo (400): es el número al que convergieron 3 "
+               "análisis independientes (el rango original de Nico, el sistema de venta recién armado, y "
+               "el propio riesgo de \"grupal = barato\" que un video de Nico denuncia). 400 queda "
+               "descartado como piso — tira justo hacia esa trampa. Confirmar en mentoría.", CELL)],
     [Paragraph("Garantía", CELL), chip("? ABIERTO", False),
      Paragraph("Dos propuestas armadas (30 días con devolución 100%, o 1ª clase). Sin elegir.", CELL)],
     [Paragraph("Fecha 1ª cohorte", CELL), chip("? ABIERTO", False),
@@ -132,25 +134,33 @@ S.append(tabla([
      Paragraph("Grupal online, <b>4 a 6 alumnos</b> por cohorte. No 1 a 1.", CELL)],
     [Paragraph("<b>Duración</b>", CELLB), Paragraph("12 semanas (3 meses).", CELL)],
     [Paragraph("<b>Tu tiempo</b>", CELLB),
-     Paragraph("~4 hs de vivo por semana para 4-6 personas (las mismas horas que antes le dabas a 1 solo "
-               "alumno).", CELL)],
+     Paragraph("1-2 encuentros en vivo por semana para 4-6 personas + contenido pregrabado + grupo de "
+               "WhatsApp de seguimiento. Bajó de 4 hs/semana (plan original) a esto — modelo de delivery "
+               "inspirado en el caso Sergio Assat, decisión ya tomada.", CELL)],
     [Paragraph("<b>Precio</b>", CELLB),
-     Paragraph("USD 400 fundadores (provisorio, ver sección 1). Rango original sugerido por Nico: 600-900, "
-               "subir a 900 con 2 testimonios.", CELL)],
+     Paragraph("USD 600 recomendado (ver sección 1) — provisorio hasta confirmarlo con Nico. Rango "
+               "original: 600-900, subir a 900 con 2 testimonios.", CELL)],
 ], [2.6 * cm, W - 2.6 * cm]))
 
-S.append(Paragraph("LAS 4 SESIONES SEMANALES", H3))
+S.append(Paragraph("EL DELIVERY REAL (no las 4 sesiones del plan original)", H3))
+S.append(Paragraph(
+    "El borrador original tenía 4 sesiones en vivo por semana (Lunes teoría, Martes técnica, Jueves "
+    "repertorio, Sábado improvisación) — <b>ese plan quedó reemplazado</b>. El delivery vigente:", BODY))
 S.append(tabla([
-    [Paragraph("<b>Día</b>", CELLB), Paragraph("<b>Sesión</b>", CELLB), Paragraph("<b>Qué pasa</b>", CELLB)],
-    [Paragraph("Lunes", CELLB), Paragraph("Teoría / Q&A grupal", CELL),
-     Paragraph("Resolver dudas de la semana (el video ya está en la plataforma).", CELL)],
-    [Paragraph("Martes", CELLB), Paragraph("Técnica", CELL),
-     Paragraph("Rutina de práctica guiada, todos tocan, vos corregís.", CELL)],
-    [Paragraph("Jueves", CELLB), Paragraph("Repertorio", CELL),
-     Paragraph("Análisis de un solo icónico por semana.", CELL)],
-    [Paragraph("Sábado", CELLB), Paragraph("Improvisación", CELL),
-     Paragraph("Cada alumno toca, devolución personalizada — la sesión joya.", CELL)],
-], [1.8 * cm, 3.0 * cm, W - 4.8 * cm]))
+    [Paragraph("<b>Capa</b>", CELLB), Paragraph("<b>Qué es</b>", CELLB)],
+    [Paragraph("Pregrabado", CELLB),
+     Paragraph("Cubre lo que antes daban las 4 sesiones en vivo. Se graba una vez con los 3 cuadernillos "
+               "ya escritos como guion — sirve para todas las cohortes, no se regraba cada vez.", CELL)],
+    [Paragraph("1-2 vivos/semana", CELLB),
+     Paragraph("Se reserva para lo que sí necesita presencia real: dudas puntuales, corrección "
+               "personalizada, repertorio e improvisación con devolución.", CELL)],
+    [Paragraph("WhatsApp", CELLB),
+     Paragraph("Seguimiento constante entre encuentros — mensaje semanal con la tarea y qué viene.", CELL)],
+], [3.2 * cm, W - 3.2 * cm]))
+S.append(Paragraph(
+    "El QUÉ se enseña cada semana (los 4 ángulos temáticos por hito, los solos de referencia, las "
+    "consignas) sigue tal cual estaba diseñado — lo que cambió es cuántas veces por semana hay encuentro "
+    "en vivo, no el contenido pedagógico.", SMALL))
 
 S.append(Paragraph("LOS 3 HITOS (el camino de transformación)", H3))
 S.append(tabla([
@@ -208,23 +218,29 @@ S.append(tabla([
 S.append(Paragraph(
     "Formato A = Autoridad (alcance) · Formato C = Creencia atacada (conversión, el motor del embudo).", SMALL))
 
-S.append(Paragraph("GUIONES ESCRITOS, TODAVÍA SIN FILMAR", H2))
+S.append(Paragraph("PRÓXIMOS A FILMAR — orden ya decidido (4 sesiones)", H2))
 S.append(tabla([
-    [Paragraph("<b>Video</b>", CELLB), Paragraph("<b>Formato</b>", CELLB), Paragraph("<b>Nota</b>", CELLB)],
-    [Paragraph("\"3 formas de romper las cajas\"", CELL), Paragraph("A", CELL),
-     Paragraph("Alcance + alimenta lead magnet PENTA. Guion listo.", CELL)],
-    [Paragraph("TU HISTORIA", CELL), Paragraph("P (Personal)", CELL),
-     Paragraph("Guion FINAL con los 6 datos reales de Feli ya cargados. Listo para filmar.", CELL)],
-    [Paragraph("REEL FIJADO", CELL), Paragraph("A (Autoridad)", CELL),
-     Paragraph("No es hablado — es una \"partitura emocional\" de 30 seg (presenta/desarrolla/clímax/cierra).", CELL)],
-    [Paragraph("VENDEDOR — \"Como que desaparece\"", CELL), Paragraph("Conversión", CELL),
-     Paragraph("Filmar ya, publicar recién con autoridad construida (después de 5-6 Formato C).", CELL)],
-    [Paragraph("VENDEDOR — \"Dejá de mirar tutoriales\"", CELL), Paragraph("Conversión", CELL),
-     Paragraph("Mismo criterio de publicación que el anterior.", CELL)],
-], [5.4 * cm, 2.8 * cm, W - 8.2 * cm]))
+    [Paragraph("<b>Orden</b>", CELLB), Paragraph("<b>Video</b>", CELLB), Paragraph("<b>Formato</b>", CELLB),
+     Paragraph("<b>Nota</b>", CELLB)],
+    [Paragraph("1º", CELLB), Paragraph("#7 — terminar (solo faltan las guitarras)", CELL), Paragraph("C", CELL),
+     Paragraph("A medias hace rondas — se prioriza para no perder la continuidad del plano hablado ya "
+               "filmado.", CELL)],
+    [Paragraph("2º", CELLB), Paragraph("\"3 formas de romper las cajas\"", CELL), Paragraph("A", CELL),
+     Paragraph("Blindado: cero decisiones abiertas, cero fact-check pendiente. Alimenta lead magnet "
+               "PENTA.", CELL)],
+    [Paragraph("3º", CELLB), Paragraph("REEL FIJADO", CELL), Paragraph("A (Autoridad)", CELL),
+     Paragraph("No es hablado — \"partitura emocional\" de 30 seg. Va después de calentar la mano en la "
+               "sesión anterior.", CELL)],
+    [Paragraph("4º", CELLB), Paragraph("TU HISTORIA + VENDEDOR \"Como que desaparece\"", CELL),
+     Paragraph("P + Conversión", CELL),
+     Paragraph("Mismo setup (cara a cámara, sin tocar), se filman juntos. El vendedor se publica recién "
+               "con autoridad ya construida (5-6 Formato C en el feed).", CELL)],
+], [1.4 * cm, 5.6 * cm, 2.4 * cm, W - 9.4 * cm]))
 S.append(Paragraph(
-    "\"Cómo es una clase\" se sacó del stock público: ese contenido corresponde a la llamada de "
-    "descubrimiento, mano a mano — publicarlo le sacaría a la llamada su motivo de existir.", SMALL))
+    "El vendedor \"Dejá de mirar tutoriales\" queda AFUERA de esta ronda: promete un lead magnet de \"3 "
+    "licks con el cómo\" que todavía no existe como PDF. \"Cómo es una clase\" se sacó del stock público "
+    "hace rondas: ese contenido corresponde a la llamada de descubrimiento, mano a mano — publicarlo le "
+    "sacaría a la llamada su motivo de existir.", SMALL))
 
 # ============================================================ MATERIAL DE CLASE
 S.append(PageBreak())
@@ -256,8 +272,18 @@ S.append(tabla([
      Paragraph("54-59", CELL), Paragraph("8", CELL)],
 ], [3.6 * cm, W - 3.6 * cm - 3.0 * cm, 1.6 * cm, 1.4 * cm]))
 S.append(Paragraph(
-    "<i>Pág. = páginas de la fuente (el material que genera este repo). La versión maquetada que "
-    "arma Claude Design para el alumno es más larga.</i>", SMALL))
+    "<i>Pág. = páginas de la fuente que genera este repo. La versión maquetada que arma Claude Design "
+    "para el alumno es más larga y agrega citas reales de discos (\"-bis\") a varios de estos "
+    "ejercicios — no compite con la fuente, la expande.</i>", SMALL))
+S.append(Spacer(1, 6))
+S.append(tabla([
+    [chip("✓ FIRME", True),
+     Paragraph("Los 3 hitos + bonus ya pasaron <b>múltiples rondas de auditoría</b> (escala, distribución "
+               "por caja, coherencia entre ejercicios, checklist vs. contenido real) — no es la primera "
+               "revisión. Pedagógicamente está sólido y listo para dar clase con esto. Lo único que sigue "
+               "puliéndose es la <b>estética de las tablaturas</b> en la maquetación de Design, un tema "
+               "visual, no de contenido.", CELL)],
+], [2.4 * cm, W - 2.4 * cm]))
 
 S.append(Paragraph("LEAD MAGNETS (regalo por DM)", H3))
 S.append(tabla([
@@ -303,6 +329,34 @@ S.append(tabla([
                "ajenos (Formato A, construye alcance).", CELL)],
 ], [1.6 * cm, W - 1.6 * cm]))
 
+# ============================================================ SISTEMA DE VENTA (NUEVO)
+S.append(PageBreak())
+S.append(seccion_roja("7 · SISTEMA DE VENTA — recién armado, sin probar en una llamada real"))
+S.append(Spacer(1, 8))
+S.append(Paragraph(
+    "Es exactamente lo que Nico cubre en el mes 3 de la mentoría (\"Conversión y Delivery\"). Se armó "
+    "un borrador de los 4 documentos que faltaban, con la salvedad honesta de que <b>Feli nunca vendió "
+    "high-ticket por voz</b> — esto necesita la mirada de Nico antes de una llamada real, no está "
+    "pensado para reemplazarla.", BODY))
+S.append(tabla([
+    [Paragraph("<b>Documento</b>", CELLB), Paragraph("<b>Qué resuelve</b>", CELLB)],
+    [Paragraph("Manejo de objeciones", CELLB),
+     Paragraph("\"Es caro\", \"no tengo tiempo\", \"lo pienso\", \"¿y si no me sale?\" — guionado palabra "
+               "por palabra, con la pregunta que se hace ANTES de responder cada una.", CELL)],
+    [Paragraph("El momento del cierre", CELLB),
+     Paragraph("La transición de \"te cuento el programa\" a decir el precio, los 3 finales posibles de "
+               "la llamada guionados, y el seguimiento después de un \"lo pienso\".", CELL)],
+    [Paragraph("Plantilla de DM", CELLB),
+     Paragraph("Del comentario con keyword a la llamada agendada. Regla de oro: NO se vende en el DM, "
+               "solo se agenda la llamada.", CELL)],
+    [Paragraph("Precio, garantía y fecha", CELLB),
+     Paragraph("Recomendación decidida (no un menú de opciones) para las 3 decisiones abiertas de la "
+               "sección 1.", CELL)],
+], [3.8 * cm, W - 3.8 * cm]))
+S.append(Paragraph(
+    "El precio de USD 600 (ver sección 1) salió de este ejercicio, cruzado con el rango original del "
+    "propio método FLOW — no es un número inventado aparte.", SMALL))
+
 # ============================================================ LO QUE FALTA CERRAR
 S.append(PageBreak())
 S.append(Paragraph("LO QUE QUEDA PARA LA MENTORÍA CON NICO", H1))
@@ -313,15 +367,19 @@ S.append(tabla([
     [Paragraph("<b>#</b>", CELLB), Paragraph("<b>Decisión</b>", CELLB), Paragraph("<b>Qué se necesita</b>", CELLB)],
     [Paragraph("1", CELLB), Paragraph("Fecha de arranque de la 1ª cohorte", CELL),
      Paragraph("Es la que más urge: desbloquea el precio final, la keyword y el ritmo de publicación.", CELL)],
-    [Paragraph("2", CELLB), Paragraph("Precio definitivo", CELL),
-     Paragraph("USD 400 (provisorio) vs. el rango 600-900 que sugiere el propio método FLOW.", CELL)],
+    [Paragraph("2", CELLB), Paragraph("Validar el precio de USD 600", CELL),
+     Paragraph("Ya no es el placeholder de 400 — es una recomendación con análisis detrás (sección 7). "
+               "Falta el visto bueno de Nico, no una decisión desde cero.", CELL)],
     [Paragraph("3", CELLB), Paragraph("Garantía", CELL),
      Paragraph("Elegir entre las 2 propuestas ya redactadas (30 días fuerte / 1ª clase suave).", CELL)],
-    [Paragraph("4", CELLB), Paragraph("Nombre del programa", CELL),
+    [Paragraph("4", CELLB), Paragraph("Revisar el sistema de venta antes de la 1ª llamada real", CELL),
+     Paragraph("Objeciones, cierre y DM (sección 7) son un borrador — Feli nunca vendió high-ticket por "
+               "voz. Practicarlo con Nico antes de usarlo con un prospecto real.", CELL)],
+    [Paragraph("5", CELLB), Paragraph("Nombre del programa", CELL),
      Paragraph("\"Solo con Sabor\" no convence del todo a Feli. No bloquea el lanzamiento.", CELL)],
-    [Paragraph("5", CELLB), Paragraph("Confirmar usuario de Instagram", CELL),
+    [Paragraph("6", CELLB), Paragraph("Confirmar usuario de Instagram", CELL),
      Paragraph("@felibayamenor — validar formato exacto antes de imprimirlo en todo el material.", CELL)],
-    [Paragraph("6", CELLB), Paragraph("Módulo 2 (futuro)", CELL),
+    [Paragraph("7", CELLB), Paragraph("Módulo 2 (futuro)", CELL),
      Paragraph("Ritmo y cambios de acorde quedaron fuera de las 12 semanas a propósito — es contenido "
                "post-programa, no un hueco a tapar ahora.", CELL)],
 ], [0.9 * cm, 4.4 * cm, W - 5.3 * cm]))
@@ -329,9 +387,12 @@ S.append(tabla([
 S.append(Spacer(1, 10))
 S.append(caja_oscura(
     '<font color="white" size="10.5"><b>El estado real del proyecto</b></font><br/>'
-    '<font color="#f7d7d2" size="9">8 videos filmados + 5 guiones listos para filmar, el programa '
-    'pedagógico completo (53 ejercicios + anexo de ritmo), 3 lead magnets, 4 carruseles, y el embudo '
-    'completamente diseñado. Lo que falta son decisiones de 5 minutos, no producción. · %s</font>' % IG, W))
+    '<font color="#f7d7d2" size="9">7 videos completos + 1 a medias (falta terminar el #7) + 4 más con '
+    'orden de filmación ya decidido. El programa pedagógico completo (53 ejercicios + anexo de ritmo), '
+    'firme tras múltiples rondas de auditoría — pedagógicamente sólido, falta pulir estética de '
+    'tablatura nomás. 3 lead magnets, 4 carruseles, el embudo diseñado, y ahora también un primer '
+    'borrador del sistema de venta (objeciones, cierre, DM, precio). Lo que falta son decisiones y '
+    'practicar la venta con Nico, no producción de contenido. · %s</font>' % IG, W))
 
 doc.build(S)
 print("OK Resumen-Ejecutivo-para-Nico.pdf")

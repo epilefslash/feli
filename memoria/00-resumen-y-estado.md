@@ -60,10 +60,10 @@ fuera de tema, el video es de oído/melodía. (2) Reforzar el CTA con texto gran
 te paso la rutina gratis" (el audio del CTA quedó ambiguo). (3) El label del paso 3 tiene que decir "slide",
 no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
 
-**Próximos a filmar (en orden):** #9 "3 formas de romper las cajas de la penta" (Formato A, alcance + alimenta
-PENTA) → #11 TU HISTORIA (60 seg, humaniza, sec. 25) → #12 REEL FIJADO (30 seg, carta de presentación, sec. 26)
-→ #13 CÓMO ES UNA CLASE (40-50 seg, resuelve la objeción "¿qué compro?", sec. 27) → los VENDEDORES
-(guion "Como que desaparece" + variantes, sección 23).
+**Próximos a filmar (orden actualizado 24/8 — por setup físico, ver el bloque de abajo para el detalle):**
+1º terminar #7 (guitarras) → 2º #9 "3 formas de romper las cajas" (Formato A, alcance + alimenta PENTA)
+→ 3º #12 REEL FIJADO (sec. 26) → 4º #11 TU HISTORIA (sec. 25) + vendedor "Como que desaparece" (sec. 23),
+mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver por qué abajo).
 
 > **Guiones YA ESCRITOS, sin filmar (actualizado 24/8 — la versión anterior de esta lista estaba
 > desactualizada en 3 puntos y se corrigió):**
