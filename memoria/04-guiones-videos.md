@@ -160,8 +160,8 @@ Universal Audio (profesional/digital). Mismos dedos, misma frase.
 
 | Tiempo | Texto en pantalla | Qué hacés / qué tocás |
 |---|---|---|
-| 0:00–0:04 | "¿Esperás que un mejor equipo te arregle el solo?" | Plano a cámara |
-| 0:04–0:06 | "Un ampli chico + un micrófono 🎙️" | Mostrás el SX con el SM57 apuntando al parlante |
+| 0:00–0:04 | "¿Cuánto gastaste en equipo pensando que te iba a arreglar el solo?" | Plano a cámara |
+| 0:04–0:06 | "Un ampli chico + un micrófono 🎙️. Pensá que va a sonar horrible." | Mostrás el SX con el SM57 apuntando al parlante |
 | 0:06–0:16 | (sin texto, dejá sonar) | Tocás tu frase con sabor (bending, vibrato, espacio). Suena hermoso |
 | 0:16–0:18 | "Ahora con un equipo profesional 💻" | Cambio a la interfaz / pantalla con el plugin UA |
 | 0:18–0:28 | "Misma frase. Mismos dedos." | Tocás la MISMA frase. Distinto color, igual de bien |
@@ -220,11 +220,11 @@ medio."** Mantiene la fuerza sin dejar flanco.
 > vende. Contalo como te pasó de verdad.
 
 **[0:00–0:05] HOOK — a cámara, honesto**
-> "¿Estás esperando que un mejor equipo te arregle el solo?
-> Yo lo creí durante años. Y gasté una fortuna al pedo. Te muestro."
+> "¿Cuánto gastaste en equipo pensando que te iba a arreglar el solo? Yo perdí la cuenta.
+> Años creyendo eso. Una fortuna al pedo. Te muestro."
 
 **[0:05–0:08] SETUP 1 — mostrás el ampli chico**
-> "Mirá. Un ampli de diez pulgadas, chiquito, y un micrófono barato apuntándole."
+> "Mirá. Un ampli de diez pulgadas, chiquito, y un micrófono barato apuntándole. Pensá que va a sonar horrible."
 >
 > *(Plano del SX con el SM57. Ese plano es oro, dejá que se vea.)*
 
@@ -285,14 +285,20 @@ medio."** Mantiene la fuerza sin dejar flanco.
 > autoridad construida (después de varios Formato C), no como primer contenido.
 > **Keyword:** SABOR (la del método — cambiar si se define CHIMI).
 
+> ⚠️ **Corregido tras el panel de auditoría (24/8):** era el único guion de conversión sin un
+> momento de "yo" — arranca ahora en primera persona, como el resto del stock ("Yo era ese tipo",
+> "Yo lo creí durante años"). También se desarmó una oración con tres subordinadas apiladas
+> (prosa escrita, no algo que alguien dice de memoria a cámara).
+
 **VERSIÓN PRINCIPAL:**
-> Mirás tutoriales, guardás licks, sacás los solos de tus ídolos… pero cuando improvisás, nada de
-> eso aparece. Le dedicaste un montón de horas — y en el momento de tocar, terminás metido en la
-> misma caja de siempre, con las mismas frases de siempre. Como si todo lo que estudiaste no
-> existiera. Como que desaparece.
+> A mí me pasaba esto todo el tiempo: miraba tutoriales, guardaba licks, sacaba los solos de mis
+> ídolos… y cuando me tocaba improvisar, nada de eso aparecía. Le dediqué un montón de horas — y
+> terminaba metido en la misma caja de siempre, con las mismas frases de siempre. Como si todo lo
+> que había estudiado no existiera. Como que desaparece.
 >
-> Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema que convierta
-> eso que estudiás en TU forma de tocar — que cuando improvises, salga solo, con sabor, sin pensarlo.
+> Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema. Uno que agarre
+> todo lo que ya estudiaste y lo convierta en tu forma de tocar. Que cuando improvises, salga solo.
+> Con sabor. Sin pensarlo.
 >
 > Si querés trabajar en serio, en un proceso paso a paso, para improvisar solos de rock con la
 > libertad que buscás, mandame **SABOR** y te cuento cómo trabajamos.
@@ -301,6 +307,11 @@ medio."** Mantiene la fuerza sin dejar flanco.
 > Guardás licks que después nunca aparecen cuando improvisás. El problema no es cuánto estudiás —
 > es que nada lo conecta. No necesitás más material: necesitás un sistema. Mandame **SABOR** y te
 > cuento cómo trabajamos.
+
+> ⚠️ **Para filmar el REEL, usar esta VERSIÓN CORTA** (33 palabras ≈ 13 seg habladas + silencios
+> para que respire — sí entra en los 30-35 seg declarados abajo). La VERSIÓN PRINCIPAL de arriba
+> es para el copy del post y la destacada MÉTODO, no para decir de memoria a cámara (114 palabras
+> ≈ 46 seg, no entra).
 
 **Decisiones de adaptación (para futuras variantes):**
 1. "La misma caja de siempre" reemplaza "los mismos recursos" — la caja 1 es la cárcel CON NOMBRE del avatar, imagen física que reconoce al instante.
@@ -371,31 +382,36 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 > perfecto porque el tema ES el lead magnet — el cierre conecta directo con el mapa de las 5 cajas.
 > **Duración:** 45-60 seg · **Tono:** canchero, generoso, cero chamuyo — acá REGALÁS valor real.
 
-**[HOOK — a cámara, y arranca un solo tuyo de fondo]**
-> "Te voy a mostrar tres formas de romperle las cajas a la pentatónica."
+> ⚠️ **Corregido tras el panel de auditoría (24/8):** se sacó el saludo de tutorial ("¿Cómo
+> andan?") — es aire muerto justo después del hook y es el único guion de todo el stock que abre
+> así. Se sacó el calco "van tres formas" (rioplatense: "te traigo"). Y se agregaron timestamps:
+> sumando todo el texto hablado a ritmo natural (~2,5 palabras/seg) esto da **~90 seg**, casi el
+> doble de los "45-60" declarados. **Recomendación: si al ensayarlo te pasás de 60 seg, sacá la
+> Forma 2 (Diagonal) del reel y guardala para un carrusel** — Horizontal y Legos son las que más
+> se entienden viendo, y "mi favorita" no alcanza para justificar el tiempo extra en un reel.
+
+**[0:00–0:03] HOOK — a cámara, y arranca un solo tuyo de fondo**
+> "Te voy a mostrar tres formas de romperle las cajas a la pentatónica.
+> La mayoría las aprende, pero nadie te enseña a salir de ellas."
 > *(suena un fragmento de solo tuyo, 2-3 seg — el gancho es que se escuche que sabés)*
 
-**[INTRO]**
-> "¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR
-> de ellas. Así que van tres formas que funcionan de verdad."
-
-**[FORMA 1 — HORIZONTAL]**
-> "Forma uno: horizontal." *(demostración)*
+**[0:03–0:15] FORMA 1 — HORIZONTAL**
+> "Forma uno: horizontal." *(demostración, 4 seg)*
 > "En vez de subir y bajar encerrado en una caja, conectá una posición con la siguiente.
 > Pensá el mástil para adelante y para atrás — no para arriba y abajo."
 
-**[FORMA 2 — DIAGONAL]**
-> "Forma dos: diagonal." *(demostración)*
-> "Ésta es mi favorita. En vez de moverte derecho, conectá las octavas en diagonal.
-> Cubrís muchísimo más mástil sin perderte nunca."
+**[0:15–0:27] FORMA 2 — DIAGONAL** *(primera en sacrificarse si el tiempo aprieta)*
+> "Forma dos: diagonal." *(demostración, 4 seg)*
+> "Te traigo mi favorita. En vez de moverte derecho, conectá las octavas en diagonal.
+> Cubrís mucho más mástil sin perderte nunca."
 
-**[FORMA 3 — LEGOS]**
-> "Forma tres: Legos." *(demostración)*
+**[0:27–0:42] FORMA 3 — LEGOS**
+> "Forma tres: Legos." *(demostración, 4 seg)*
 > "Cada caja es una piecita. Cuando las encastrás entre sí, el mástil deja de ser cinco cajas
 > separadas… y pasa a ser UN solo mapa."
 > *(acá va el solo extenso tuyo — 10-12 seg recorriendo todo el mástil, con sabor)*
 
-**[CIERRE + CTA]**
+**[0:42–0:52] CIERRE + CTA**
 > "No necesitás aprender más pentatónicas. Necesitás más formas de navegar la que ya sabés.
 > ¿Cuál de las tres vas a probar primero? Contame abajo. 👇
 > Y si querés el mapa de las cinco cajas conectadas, comentá PENTA y te lo mando gratis."
@@ -425,14 +441,20 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 > el mástil en vez de memorizar cajas sueltas** (el germen exacto del Hito 1, "El Mapa") · lo que
 > cambió fue que empezó a improvisar con libertad, sin depender de licks memorizados.
 
+> ⚠️ **Corregido tras el panel de auditoría (24/8):** el hook arrancaba con un dato neutro (la
+> edad) en vez de la tensión — se invierte el orden. El bloque siguiente se hablaba a ~240
+> palabras/min contra las ~150-160 que esta misma guía de tono pide: se acortaron las oraciones
+> y se agregaron pausas explícitas.
+
 **[0:00–0:06] HOOK — a cámara, sin guitarra colgada o con ella quieta**
-> "Empecé a tocar la guitarra a los once años.
-> Y durante mucho tiempo pensé que el problema era que me faltaba talento."
+> "Durante años pensé que me faltaba talento.
+> Empecé a tocar a los once, hice de todo... y seguía sonando igual."
 
 **[0:06–0:22] EL PUNTO A — el contraste que hace fuerte esta historia**
-> "Pasé por todo lo que puede pasar un guitarrista: aprendí con tablaturas de internet, con videos,
-> tuve profesores particulares, y hasta estudié en la facultad de música en Rosario.
-> Y aun así — con todo eso encima — durante años seguí tocando las mismas frases de siempre.
+> "Pasé por todo lo que puede pasar un guitarrista. Tablaturas de internet. Videos.
+> Profesores particulares. Hasta estudié en la facultad de música, acá en Rosario.
+> [pausa]
+> Y con todo eso encima, durante años seguí tocando las mismas frases de siempre.
 > Sabía un montón de teoría. Pero cuando improvisaba, sonaba siempre igual."
 
 **[0:22–0:38] EL QUIEBRE**
