@@ -71,6 +71,9 @@
 | **Billy Gibbons** (ZZ Top) | Tone monstruoso con setup simple, groove | "No es el equipo" |
 | **B.B. King** | El rey de UNA nota bien tocada | "Tocar rápido" / "Más licks" |
 | **Stevie Ray Vaughan** | Penta menor con sabor blues, gigante del bending | "Penta básica" |
-| **Mark Knopfler** | Toca con los dedos, sin púa, imposible de copiar | "No es el equipo" (cierre brutal) |
+
+> Mark Knopfler salió del panel (25/8, pedido de Feli): no es un artista que tenga escuchado a
+> fondo, y citar autoridad que no se puede sostener con naturalidad contradice la regla del
+> proyecto de no inventar/forzar datos que no se dominan.
 
 ---

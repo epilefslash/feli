@@ -37,7 +37,8 @@
 - **Nicho elegido:** improvisación en rock/blues sobre **pentatónica menor con sabor**
   (la fusión mayor/menor queda como bonus avanzado del mes 3, NO como puerta de entrada).
 - **Referentes/estilo:** Angus Young, Jimmy Page, Slash, Hendrix, Gary Moore, Joe Perry,
-  Knopfler, Clapton, B.B. King, SRV, Billy Gibbons.
+  Clapton, B.B. King, SRV, Billy Gibbons. (Knopfler se sacó del panel el 25/8 — Feli no lo
+  tiene escuchado a fondo, no se cita autoridad que no se pueda sostener con naturalidad.)
 - **Inspiración de formato IG:** Andy Kligman (@andy_kligman) — copy largo + destacada "Método".
 - **Estrategia de lanzamiento:** NO publicar todavía. Acumular ~15 reels primero, después abrir
   el Instagram nuevo y publicar con stock. El delivery de las clases se arma cuando arranquen las

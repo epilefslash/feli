@@ -121,7 +121,7 @@ S.append(tabla([
 S.append(Spacer(1, 8))
 S.append(Paragraph("REFERENTES / ESTILO DE LA MARCA", H3))
 S.append(Paragraph(
-    "Angus Young, Jimmy Page, Slash, Hendrix, Gary Moore, Joe Perry, Knopfler, Clapton, B.B. King, "
+    "Angus Young, Jimmy Page, Slash, Hendrix, Gary Moore, Joe Perry, Clapton, B.B. King, "
     "SRV, Billy Gibbons. Inspiración de formato de Instagram: personas que trabajaron con Nico — copy "
     "largo + destacada \"Método\".", BODY))
 
