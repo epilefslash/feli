@@ -54,9 +54,25 @@ La transición es el punto donde más profesores se caen, porque es el momento e
 
 ### El texto
 
-> "El programa dura 12 semanas, es grupal — somos 4 a 6 personas, no más, porque la devolución personalizada es lo que lo hace funcionar. Tenés las clases pregrabadas de todo el método, uno o dos encuentros en vivo por semana donde tocás y te corrijo en el momento, y un grupo de WhatsApp para las dudas de la semana. Vas a salir con tu propio solo grabado, de un minuto, como cierre.
+> ⚠️ Corregido (auditoría, 27/8): eran ~90 palabras corridas justo antes del silencio que este
+> mismo documento marca como "lo único que importa" — partido en tramos con respiro, y el
+> `[NÚMERO]` ya completado con el precio decidido (USD 600, ver `04-precio-garantia.md`).
+
+> "El programa dura 12 semanas, es grupal — somos 4 a 6 personas, no más, porque la devolución
+> personalizada es lo que lo hace funcionar."
 >
-> La inversión para este primer grupo es de [NÚMERO]."
+> *(respirás)*
+>
+> "Tenés las clases pregrabadas de todo el método, uno o dos encuentros en vivo por semana donde
+> te corrijo en el momento, y un grupo de WhatsApp para las dudas de la semana."
+>
+> *(respirás)*
+>
+> "Vas a salir con tu propio solo grabado, de un minuto, como cierre."
+>
+> *(pausa corta)*
+>
+> "La inversión para este primer grupo es de seiscientos dólares."
 
 *(Y ahí te callás. No agregás "más o menos", no agregás "eh". Contás mentalmente hasta cinco antes de volver a hablar, aunque se sienta larguísimo del otro lado de la pantalla.)*
 
@@ -64,7 +80,15 @@ La transición es el punto donde más profesores se caen, porque es el momento e
 
 No tenés (todavía) el anclaje fuerte de high-ticket real, que es "esto vale 10x lo que cobro porque X testimonios". Lo que SÍ tenés, y es honesto usarlo, es el anclaje de comparación con lo que él ya conoce: la clase suelta.
 
-> "Como referencia: una clase particular suelta ronda [tu tarifa 1 a 1] la hora. Esto son 12 semanas con seguimiento constante, comunidad y grabaciones para siempre — no es "más barato por hora", es un camino completo en vez de clases sueltas sin rumbo."
+> "Como referencia: una clase particular suelta ronda [tu tarifa 1 a 1] la hora. Esto son 12
+> semanas con seguimiento constante y comunidad — no es "más barato por hora", es un camino
+> completo en vez de clases sueltas sin rumbo."
+
+> ⚠️ Corregido (auditoría, 27/8): decía "grabaciones para siempre" — es una promesa de
+> infraestructura (¿dónde alojás años de video de todas las cohortes, gratis, para siempre?) que
+> capaz no querés firmar por escrito. Si querés mencionar las grabaciones acá, decilo como
+> "te quedás con las grabaciones de todos los encuentros, para repasarlas cuando quieras" — el
+> beneficio real (tenerlas) sin el compromiso de custodia eterna.
 
 Esto está tomado casi literal del argumento de valor que ya tenías escrito: *"Una clase particular presencial ronda [USD X] la hora... Pero el argumento real no es el precio: es el RESULTADO"* (`memoria/01-avatar-y-oferta.md:102-106`). Decilo, pero no te quedes ahí — la frase que cierra el párrafo original es la que en realidad vende: no discutas el precio en términos de horas. Si él pregunta "¿por qué cuesta eso?", ahí sí volvés a esto. Si no pregunta, no lo repitas.
 
@@ -86,7 +110,14 @@ Mi lectura para ESTE momento específico (primera cohorte, sin testimonios, prec
 
 No lo arruines con entusiasmo excesivo tipo vendedor de curso online. Bajá un cambio, sé el profesor que sos.
 
-> "Genial. Me alegra un montón, la verdad. Te cuento cómo seguimos: te paso un link de pago — podés hacerlo en un pago o en dos cuotas si te sirve más así. Apenas confirma el pago quedás adentro del grupo de WhatsApp y te mando el acceso a las clases del Hito 1 para que puedas ir arrancando esta misma semana. ¿Tu mail es el mismo con el que hablamos por acá?"
+> "Genial. Me alegra un montón, la verdad. Te cuento cómo seguimos: te paso un link de pago —
+> podés hacerlo en un pago o en dos cuotas si te sirve más así. Apenas se acredite el pago
+> quedás adentro del grupo de WhatsApp y te mando el acceso a las clases del Hito 1 para que
+> arranques esta misma semana. ¿Tu mail es el mismo con el que hablamos por acá?"
+
+> ⚠️ Corregido (auditoría, 27/8): decía "Apenas confirma el pago" — tercera persona suelta en
+> un documento que usa voseo consistente en todo lo demás. Es la frase que cierra la venta; un
+> lapso justo ahí, dicho en automático, suena raro al oído de quien está por decir que sí.
 
 **Logística de cobro y arranque — lo que tenés que tener resuelto ANTES, no improvisado en la llamada:**
 - Link de pago funcionando (Mercado Pago / transferencia — lo que decidas con Nico).
@@ -199,7 +230,17 @@ Es una frase de auto-corrección honesta, no un apuro grosero — y de paso le m
 
 Ya tenés escrito con qué filtrás quién NO es tu alumno: no es para principiantes absolutos (*"hay un piso: caja 1 y acordes básicos"*, `memoria/01-avatar-y-oferta.md:127`), no es para el que busca clases sueltas, no es un videocurso pasivo. Cuando en el diagnóstico (minuto 0-5) te das cuenta de que la persona no cumple ese piso — nunca agarró una pentatónica, por ejemplo — el cierre elegante es cortar el proceso de venta ANTES de llegar al precio, no llegar hasta ahí y decirle que no al final.
 
-> "Mirá, te soy sincero: este programa está pensado para alguien que ya tiene la caja 1 andando y algo de tiempo tocado — y por lo que me contás, todavía estás un escalón antes de eso, lo cual está perfecto, es un momento hermoso para arrancar. Este programa en este momento te iría rápido y te iba a frustrar más que ayudarte. Lo que te recomiendo es [alternativa honesta: seguir practicando solo con los recursos gratuitos que subís, un profesor particular hasta afianzar la base, etc.]. Guardate mi Instagram igual — cuando tengas esa base, este es tu programa. Y si querés, avisame en unos meses y lo retomamos."
+> "Mirá, te soy sincero: este programa está pensado para alguien que ya tiene la caja 1 andando y
+> algo de tiempo tocado — y por lo que me contás, todavía estás un escalón antes de eso, lo cual
+> está perfecto, es un momento hermoso para arrancar. Este programa en este momento te iría rápido
+> y te iba a frustrar más que ayudarte."
+>
+> *(reemplazá esto por lo que aplique — no lo digas entre corchetes: "Lo que te recomiendo es
+> seguir practicando con los recursos gratuitos que subo" / "...es buscar un profesor particular
+> hasta afianzar la base", según el caso)*
+>
+> "Guardate mi Instagram igual — cuando tengas esa base, este es tu programa. Y si querés,
+> avisame en unos meses y lo retomamos."
 
 **Lo que hace que esto no quede como rechazo:**
 1. Le decís la razón real y verificable (el piso técnico), no una excusa vaga tipo "no tengo cupo".

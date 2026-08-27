@@ -3,7 +3,14 @@
 ## Antes de usarlo: 3 cosas que tenés que saber
 
 1. **Este manual asume una llamada de 15-20 min** (sección 11 de la memoria: diagnóstico 5' → objetivo 5' → presentación 5' → cierre 5'). Las objeciones aparecen casi todas en los últimos 5 minutos. Por eso cada guion de abajo es corto — no tenés margen para un discurso.
-2. **Hay 3 blancos sin llenar en este manual, a propósito**: el precio final (hoy `USD 400` es piso privado, sin comunicar; el rango de referencia es `USD 600-900`), la garantía (falta elegir entre "30 días de participación" o "primera clase"), y la fecha de la primera cohorte. Los dejé como `[PRECIO]`, `[GARANTÍA]` y `[FECHA]` — completalos vos cuando los cierres, no los until entonces.
+2. **⚠️ Actualizado (27/8): PRECIO y GARANTÍA ya se decidieron** — ver `04-precio-garantia.md`.
+   Precio: **USD 600**, no 400. Garantía: **"si en el primer mes, viniendo a las clases, no ves
+   la diferencia, te devuelvo todo — el riesgo lo tomo yo, no vos"** (ligada al entregable del
+   Hito 1). Ya reemplazados en los guiones de abajo. **Sigue faltando UN blanco real**: tu tarifa
+   de clase particular 1 a 1, la que necesitás para el argumento de valor (ver el `[USD X]` que
+   queda en `02-cierre.md` y `04-precio-garantia.md`) — ese número solo lo tenés vos, complétalo
+   antes de tu primera llamada. Y la **fecha de la 1ª cohorte** sigue abierta, ver la sección 3
+   de `04-precio-garantia.md` para el criterio de cómo elegirla.
 3. **Es tu primera cohorte y no tenés testimonios.** Ningún guion de acá inventa uno. Donde otros manuales dirían "mis alumnos lograron X", este dice la verdad: sos vos, tu propio proceso, y una primera camada a precio de fundador. Es un activo real (atención total, precio bajo, así arrancó Sergio también) — no hace falta disfrazarlo de otra cosa.
 
 **Regla general antes de responder cualquier objeción: primero preguntá, después contestás.** Una objeción que no entendiste todavía no se puede responder — se puede, como mucho, atropellar. Y el avatar (28-45, profesional, con plata si ve resultado real) detecta el atropello al toque.
@@ -21,11 +28,25 @@ Esta pregunta sola resuelve la mitad de los casos: si te contesta "con un curso 
 
 **El guion (una vez que sabés cuál de las tres es):**
 
-> "Te entiendo, es una decisión de plata real, no te la voy a minimizar. Te cuento cómo lo pienso yo: esto no es una clase de una hora — es 3 meses con acompañamiento en vivo, todo el contenido grabado para vos para siempre, y las devoluciones de tu forma personal de tocar, no de un genérico. Si lo comparás con lo que cuesta una clase particular por hora durante 3 meses, sale más barato. Pero honestamente el argumento real no es ese: es que en 90 días tenés un solo tuyo grabado, con sabor, y dejás de ser el que siempre suelta las mismas frases. Esa es la pregunta que importa: ¿cuánto vale eso para vos, después de años trabado?"
+> ⚠️ **Corregido (auditoría, 27/8):** eran ~130 palabras corridas — imposible de recitar sin
+> sonar leído, y "las devoluciones... no de un genérico" tenía un desacuerdo de género que se
+> traba en la boca. Partido en 2 intervenciones cortas, con lugar para que el otro reaccione.
+
+> "Te entiendo, es plata real, no te la voy a minimizar. Pero pensalo así: esto no es una clase
+> suelta de una hora. Son 3 meses con acompañamiento en vivo, todo grabado para vos, y la
+> devolución es de TU forma de tocar, no una genérica."
+>
+> *(pausa, dejalo reaccionar)*
+>
+> "Si venís haciendo el trabajo, en 90 días tenés un solo tuyo grabado, con sabor — y dejás de
+> ser el que siempre suelta las mismas frases. Esa es la pregunta que importa: ¿cuánto vale eso
+> para vos, después de años trabado?"
 
 Si el problema es de confianza (b), sumá:
 
-> "Y mirá, entiendo la duda de si a VOS te va a funcionar — es lógico, es plata. Por eso el programa tiene [GARANTÍA]. No te estoy pidiendo que me creas a ciegas."
+> "Y mirá, entiendo la duda de si a VOS te va a funcionar — es lógico, es plata. Por eso el riesgo
+> lo tomo yo: si en el primer mes no ves la diferencia, te devuelvo todo. No te estoy pidiendo
+> que me creas a ciegas."
 
 **Nunca hagas esto:** bajar el precio en la llamada porque se puso incómodo. Si bajás en el momento, le confirmás que el precio no era en serio — y la próxima objeción va a ser sobre otra cosa.
 
@@ -59,7 +80,17 @@ Si el tiempo real es el problema (agenda muy apretada, no el "en vivo"):
 
 **El guion (si es sobre el resultado):**
 
-> "Te entiendo, y te voy a ser honesto: no te puedo prometer magia. Lo que sí te puedo decir es que el problema nunca fue tu talento — es que venís acumulando información suelta sin un orden que la conecte. Este método parte de ahí: primero el mapa completo del mástil, después el sabor, después el vocabulario. Vos hacé la parte tuya — practicar lo que te doy, venir a las clases — y el sistema hace la parte de ordenar. Y por eso existe [GARANTÍA]: si en el primer tramo ves que no es para vos, no te quedás atado."
+> ⚠️ Corregido (auditoría, 27/8): ~100 palabras corridas + placeholder `[GARANTÍA]` sin llenar,
+> justo en el cierre. Partido en 2, con la garantía real adentro.
+
+> "Te entiendo, y te voy a ser honesto: no te puedo prometer magia. Pero el problema nunca fue tu
+> talento — es que venías acumulando información suelta, sin un orden que la conecte."
+>
+> *(pausa)*
+>
+> "Este método arranca por ahí: primero el mapa completo del mástil, después el sabor, después
+> el vocabulario. Vos ponés la práctica, el sistema pone el orden. Y por eso el riesgo lo tomo yo,
+> no vos: si en el primer mes no ves la diferencia, te devuelvo todo."
 
 **El guion (si es sobre la vergüenza frente a otros):**
 
@@ -76,9 +107,12 @@ Si el tiempo real es el problema (agenda muy apretada, no el "en vivo"):
 
 Esta pregunta hace dos cosas: si es real, te da la objeción verdadera (que probablemente es "es caro" o "tiempo") disfrazada, y podés dejarle argumentos concretos para esa charla. Si es evasiva, la persona no va a poder contestar con precisión — ahí lo sabés.
 
-**El guion:**
+**El guion** (reemplazá el día por uno real, ej. "el viernes" — nunca digas "cualquier día", eso
+no genera compromiso):
 
-> "Me parece perfecto, es una decisión de los dos. Te paso por escrito lo que charlamos hoy — qué incluye, el antes y después, para que se lo puedas mostrar tal cual. ¿Te sirve si quedamos en que me escribís [fecha concreta, no 'cualquier día'] con la respuesta, sea la que sea?"
+> "Me parece perfecto, es una decisión de los dos. Te paso por escrito lo que charlamos hoy — qué
+> incluye, el antes y después, para que se lo puedas mostrar tal cual. ¿Te sirve si quedamos en
+> que el viernes me escribís con la respuesta, sea la que sea?"
 
 **Nunca hagas esto:** decir "dale, avisame cuando puedas" sin fecha. Eso es dejar la pelota picando para siempre — no por presión, sino porque un follow-up sin fecha casi nunca vuelve.
 
@@ -195,7 +229,9 @@ Tres señales que casi siempre marcan un **no real**, no una objeción a resolve
 
 **Cuando detectás esto, el guion es soltar, no insistir:**
 
-> "Te noto que capaz esto hoy no es para vos, y está perfecto — no todos los programas son para todas las personas en el momento en que hablás. No te voy a insistir. Si en algún momento cambia algo de tu lado, la puerta sigue abierta."
+> "Te noto que capaz esto hoy no es para vos, y está perfecto — no siempre es el momento, y está
+> bien así. No te voy a insistir. Si en algún momento cambia algo de tu lado, la puerta sigue
+> abierta."
 
 **Por qué soltar así es la jugada correcta y no una pérdida:** según la regla 97/3 ya documentada en el proyecto, la mayoría de la gente con la que hablás no está lista para comprar todavía — y no es una falla tuya ni de la llamada. Insistir sobre un no real no convierte a nadie: solo gasta la confianza que el contenido orgánico construyó. Un "no" tratado con respeto es alguien que puede volver en 3 meses cuando publiques más contenido; un "no" presionado es alguien que no vuelve nunca.
 
@@ -203,7 +239,11 @@ Tres señales que casi siempre marcan un **no real**, no una objeción a resolve
 
 ## Checklist antes de usar este manual en una llamada real
 
-- [ ] Definir `[PRECIO]` — 400 privado vs. rango 600-900 (memoria/00 y memoria/02).
-- [ ] Elegir `[GARANTÍA]` — 30 días de participación (fuerte) o primera clase (suave) (memoria/01, sección 19).
-- [ ] Definir `[FECHA]` de arranque de la primera cohorte.
+- [x] ~~Definir `[PRECIO]`~~ — **USD 600**, decidido y ya reemplazado en los guiones de arriba.
+- [x] ~~Elegir `[GARANTÍA]`~~ — **"si en el primer mes no ves la diferencia, te devuelvo todo"**,
+      ligada al entregable del Hito 1. Ya reemplazado en los guiones de arriba.
+- [ ] Completar tu tarifa real de clase particular 1 a 1 — el único `[USD X]` que queda, en
+      `02-cierre.md` y `04-precio-garantia.md`. Nadie más puede llenarlo, solo vos lo sabés.
+- [ ] Definir la fecha de arranque de la primera cohorte (ver `04-precio-garantia.md`, sección 3,
+      para el criterio de cómo elegirla — no es un número al azar).
 - [ ] Ensayar en voz alta al menos las objeciones 1, 3 y 7 antes de la primera llamada real — son las que más van a aparecer con este avatar y las que más dependen de tono, no de texto.

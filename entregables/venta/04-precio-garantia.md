@@ -88,7 +88,15 @@ Y el estado real de producción hoy (`memoria/00`, tabla de videos): 6 de los 8 
 **La urgencia REAL** (no la inventada): no hace falta un countdown falso. La urgencia ya está en la estructura que el propio plan diseñó:
 - Cupo real y chico: *"Grupo reducido (máx 6): no sos un número"* (`memoria/01`) — es un límite operativo real, no un truco.
 - El precio fundadores tiene fecha de vencimiento real: sube a 900 en cuanto haya 2 testimonios de esta misma cohorte, algo que va a pasar en semanas, no en meses.
-- Eso se dice así en la llamada: *"Este precio es de esta primera camada. La que viene ya arranca en 900, porque para esa altura voy a tener a Nacho y a Lucía mostrando su solo grabado."*
+- Eso se dice así en la llamada: *"Este precio es de esta primera camada. La que viene ya arranca en 900 — el salto pasa apenas tenga los primeros dos solos grabados de esta cohorte para mostrar."*
+
+> ⚠️ **Corregido (auditoría lingüística, 27/8):** decía textual "voy a tener a Nacho y a Lucía
+> mostrando su solo grabado" — Nacho y Lucía son los alumnos FICTICIOS de la simulación guionada
+> de `memoria/07` (sección 18, un ejercicio de visualización, no una lista real de inscriptos).
+> Decir eso en una llamada real y que pregunten "¿quién es Nacho?" no tiene respuesta, y es
+> exactamente el tipo de frase que si se descubre falsa se lleva puesta toda la credibilidad que
+> el resto del documento construye con honestidad (el propio doc se jacta 3 veces de no inventar
+> testimonios). Reescrito sin nombres inventados, mismo argumento de urgencia real.
 
 ---
 
@@ -111,9 +119,27 @@ El propio documento no tiene todavía la tarifa que Feli cobraba por clase 1 a 1
 
 ---
 
-## 5) EL ARGUMENTO DE VALOR — para decir en la llamada, tal cual
+## 5) EL ARGUMENTO DE VALOR — para decir en la llamada, en tramos cortos
 
-> "Mirá, una clase particular te resuelve una duda puntual, una vez por semana, vos solo. Acá no comprás una hora suelta: comprás un camino completo de 12 semanas con un método probado — el mapa, el sabor, el vocabulario — más devolución personalizada tuya en vivo, más un grupo de gente en tu mismo momento, más el WhatsApp para cuando te trabás un martes a las 11 de la noche. En 90 días salís con un solo propio grabado, tuyo, no con una lista de licks que mirás y después no aparecen cuando improvisás. Eso no se compara con el precio por hora de nadie, porque nadie te vende el resultado — te venden el minuto."
+> ⚠️ Corregido (auditoría, 27/8): eran ~120 palabras corridas etiquetadas "decir tal cual" —
+> nadie sostiene eso de memoria sin sonar leído, ni un vendedor con años de experiencia. Partido
+> en 3 tramos con pausa. También se resolvió una ambigüedad: "tu mismo momento" no decía de qué —
+> ahora dice "tu mismo nivel".
+
+> "Mirá, una clase particular te resuelve una duda puntual, una vez por semana, vos solo. Acá no
+> comprás una hora suelta: comprás un camino completo de 12 semanas, con un método — el mapa, el
+> sabor, el vocabulario."
+>
+> *(pausa)*
+>
+> "Más devolución tuya en vivo, más un grupo de gente en tu mismo nivel, más el WhatsApp para
+> cuando te trabás un martes a la noche."
+>
+> *(pausa)*
+>
+> "En 90 días salís con un solo propio grabado, tuyo — no con una lista de licks que después no
+> aparecen cuando improvisás. Eso no se compara con el precio por hora de nadie: nadie te vende
+> el resultado, te vende el minuto."
 
 ---
 

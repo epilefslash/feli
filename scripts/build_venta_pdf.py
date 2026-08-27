@@ -51,14 +51,56 @@ def inline(txt):
     return txt
 
 
+def merge_continuations(raw_lines):
+    """Une líneas físicas que son continuación del mismo párrafo/ítem de lista (el markdown de
+    los agentes suele venir con wrap manual a ~100 caracteres). Sin esto, cada línea física se
+    renderiza como un Paragraph aparte y el espaciado queda roto."""
+    def is_block_start(s):
+        if not s:
+            return True
+        if s.startswith('#') or s.startswith('>'):
+            return True
+        if s.startswith('|') and s.endswith('|'):
+            return True
+        if s in ('---', '***', '___'):
+            return True
+        if re.match(r'^[-*]\s', s) or re.match(r'^\d+\.\s', s):
+            return True
+        return False
+
+    merged = []
+    for raw in raw_lines:
+        s = raw.strip()
+        if not s:
+            merged.append('')
+            continue
+        if not merged or merged[-1] == '' or is_block_start(s):
+            merged.append(s)
+        else:
+            merged[-1] = merged[-1] + ' ' + s
+    return merged
+
+
 def render_markdown(md_text, story):
-    lines = md_text.split('\n')
+    lines = merge_continuations(md_text.split('\n'))
     i = 0
     quote_buf = []
 
     def flush_quote():
         if quote_buf:
-            joined = ' '.join(quote_buf)
+            # quote_buf puede tener '' como marcador de salto de párrafo (línea ">" sola,
+            # típico para separar pausas dentro de un mismo diálogo largo).
+            paragraphs, current = [], []
+            for item in quote_buf:
+                if item == '':
+                    if current:
+                        paragraphs.append(' '.join(current))
+                        current = []
+                else:
+                    current.append(item)
+            if current:
+                paragraphs.append(' '.join(current))
+            joined = '<br/><br/>'.join(paragraphs)
             story.append(Paragraph(inline(joined), MOBILE_QUOTE))
             story.append(Spacer(1, 4))
             quote_buf.clear()
@@ -112,6 +154,11 @@ def render_markdown(md_text, story):
                 story.append(t)
                 story.append(Spacer(1, 6))
             i = next_i
+            continue
+
+        if stripped == '>':
+            quote_buf.append('')
+            i += 1
             continue
 
         if stripped.startswith('> '):
