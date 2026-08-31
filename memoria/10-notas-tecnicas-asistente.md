@@ -1036,3 +1036,51 @@ sesiones sin que esta memoria se enterara.
 `octavas_84_87.png` adjunta) con los 3 puntos reales: el recuadro del ej. 46, la puerta de octavas, y
 el bug del 41-ter. Los otros 3 ítems de la lista de 6 no requieren prompt (2 ya resueltos, 1 sin
 archivo que corregir, 2 son de la carpeta de Feli).
+
+## 35) EL HITO 1 TENÍA BENDING Y VIBRATO — TÉCNICA DEL HITO 2, ADENTRO DEL "MAPA"
+
+Feli lo detectó en vivo, dando clase: una alumna sin la técnica de bending desarrollada se trabó en
+un ejercicio del Hito 1, y a él "le hizo ruido" — el Hito 1 se llama "El Mapa" y se supone que es
+geografía pura; el bending/vibrato es la firma del Hito 2 ("El Sabor"). Verificado contra la fuente
+(no contra esta memoria): tenía razón, y era peor de lo que sonaba.
+
+**El bug, con números:** de los 16 ejercicios del Hito 1, **4 usaban bending y/o vibrato real**
+(no solo la definición de plantilla que aparece en todo `.ly` — eso generó un falso positivo en el
+primer chequeo con `grep -c`, había que mirar adentro del bloque `musica={...}`):
+- **Ej. 4** ("Tu primer lick con sabor" — el nombre ya lo decía) mete bending Y vibrato en la
+  **semana 1**, antes de que el Hito 2 exista en el camino del alumno.
+- **Ej. 8** repite bending + vibrato en la semana 2.
+- **Ej. 11** cierra con un vibrato largo (semana 3).
+- **Ej. 16** (el solo de evaluación, el entregable del hito) reutiliza vibrato tres veces — y esto
+  es en rigor una réplica intencional de lo enseñado antes en el mismo hito (el propio texto decía
+  *"usan todo lo del mes: espacio, bending, vibrato, slides"*), no un bug independiente: es la
+  consecuencia directa de que los ej. 4/8/11 ya lo tuvieran.
+- Y estaba **incrustado en el material de referencia del propio cuadernillo**: el glosario "Cómo
+  leer los ejercicios" enseñaba la notación de bend/vibrato como si el alumno la fuera a necesitar
+  ese mes, y la rutina diaria de 20 minutos decía textual, en el bloque de los minutos 10-15:
+  *"Acá aparece el sabor: bending, vibrato, slide."* — con la palabra "sabor" (la marca registrada
+  del Hito 2) adentro del Hito 1.
+- Y el checklist de cierre le pedía al alumno **certificar dominio de bending y vibrato**
+  ("Mi bending llega afinado" / "Tengo vibrato, no temblor") antes de que el programa se los
+  hubiera enseñado en ningún lado — el Hito 2 (ej. 21-26 bending, ej. 27-30 vibrato) todavía no
+  existe en la experiencia del alumno cuando cierra el Hito 1.
+
+**El arreglo (en `gen_scores.py`, fuente real del Hito 1 — no hay `gen_scores_h1.py` separado):**
+se sacó el markup `\bendFull` y `\vib` de los 4 ejercicios, **sin tocar una sola nota ni el ritmo** —
+mismo fraseo, misma digitación, solo se dejó de pedir una técnica que el alumno todavía no tiene.
+El ej. 8 conserva su slide (eso SÍ es Hito 1 legítimo: el mismo puente del ej. 7). Se actualizó el
+texto de los ej. 4, 8, 11, 16, el glosario y la rutina diaria en `build_hito1.py`, y se reemplazaron
+las 2 filas del checklist por otras que sí miden lo que el hito enseña de verdad (frase con silencio
+real, cruzar de caja adentro de una frase). **Lo que se dejó sin tocar, a propósito:** el cierre
+"Y DESPUÉS DE ESTO, ¿QUÉ?" que anticipa el Hito 2 ("ligados, slides, bending, vibrato...") — eso es
+correcto, mira hacia adelante, no describe el contenido del propio Hito 1.
+
+**Verificado:** escala OK, barcheck OK en las 73 partituras, y la distribución de cajas del Hito 1
+sigue en **47.1%** fuera de la ventana 5-8 — idéntica a antes, porque no se movió ninguna nota, solo
+se sacó la técnica que no correspondía todavía.
+
+> **Regla que sale de acá:** un `grep -c` de un helper de LilyPond en el archivo completo cuenta
+> también las definiciones de plantilla (que aparecen en TODOS los `.ly`, se use o no la técnica).
+> Para saber si una técnica se usa de verdad hay que mirar adentro del bloque `musica={...}`, no
+> el archivo entero — el mismo error que ya se documentó antes con la validación de escala y el
+> contador de compases (sección 34): un validador que no mira lo que dice mirar.

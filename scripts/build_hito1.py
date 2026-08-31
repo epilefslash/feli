@@ -49,11 +49,8 @@ S.append(Paragraph(
 S.append(tabla([
     [Paragraph("<b>Símbolo</b>", CELLB), Paragraph("<b>Qué es</b>", CELLB), Paragraph("<b>Cómo se toca</b>", CELLB)],
     [Paragraph("línea entre dos números", CELL), Paragraph("Slide", CELL),
-     Paragraph("Tocás la primera y te deslizás a la segunda sin levantar el dedo ni volver a puntear.", CELL)],
-    [Paragraph('"bend 1 tono"', CELL), Paragraph("Bending", CELL),
-     Paragraph("Empujás la cuerda hasta que suene DOS trastes más arriba. Afinado, o no cuenta.", CELL)],
-    [Paragraph('"vibrato"', CELL), Paragraph("Vibrato", CELL),
-     Paragraph("Movés la cuerda arriba y abajo, parejo. Es tu firma: sin vibrato la nota queda muerta.", CELL)],
+     Paragraph("Tocás la primera y te deslizás a la segunda sin levantar el dedo ni volver a puntear. Es el "
+               "único movimiento nuevo de este mes — el que te lleva de una caja a otra.", CELL)],
     [Paragraph("punto rojo con A", CELL), Paragraph("Tónica (La)", CELL),
      Paragraph("Tu casa. Empezar y terminar frases ahí es lo que hace que suene resuelto.", CELL)],
 ], [3.2 * cm, 2.4 * cm, W - 5.6 * cm]))
@@ -66,7 +63,7 @@ S.append(tabla([
     [Paragraph("5–10", CELLB), Paragraph("Secuencias / tónicas", CELL),
      Paragraph("Que la mano deje de ir en línea recta y el oído ubique el LA.", CELL)],
     [Paragraph("10–15", CELLB), Paragraph("El lick o el puente de la semana", CELL),
-     Paragraph("Acá aparece el sabor: bending, vibrato, slide.", CELL)],
+     Paragraph("Acá conectás territorio: el slide que te cruza de caja, o el ritmo que convierte la escala en frase.", CELL)],
     [Paragraph("15–20", CELLB), Paragraph("<b>Improvisás</b> sobre backing en Lam", CELL),
      Paragraph("Sin papel. Usás SOLO lo de esta semana. Es la parte más importante.", CELL)],
 ], [1.5 * cm, 6.4 * cm, W - 7.9 * cm]))
@@ -144,11 +141,11 @@ S.append(ejercicio(3, "Secuencia de a 4 (romper la línea recta)", (
     "del cuadernillo y el que más se te va a notar."),
     "e03", W, "60 BPM, meta 75. Si te trabás, hacé solo el primer compás 20 veces antes de seguir."))
 
-S.append(ejercicio(4, "Tu primer lick con sabor", (
-    "Cuatro tiempos de música de verdad. El <b>bending de 1 tono</b> va en la 3ª cuerda traste 7: empujás hasta "
-    "que suene igual que el traste 9. Compará: tocá el 9, escuchalo, después bendeá el 7 hasta que suene "
-    "idéntico. El <b>vibrato</b> del final es lo que separa a un alumno de un guitarrista: movelo parejo, sin apuro."),
-    "e04", W, "Repetilo 10 veces por día toda la semana. Grabate el viernes y escuchá si el bending llega afinado."))
+S.append(ejercicio(4, "Una frase, no una escala", (
+    "Cuatro tiempos con un silencio adelante y una nota larga en el medio — todavía no hay ningún truco nuevo "
+    "en la mano. Lo que cambia es el <b>ritmo</b>: dejás de subir y bajar parejo, y eso solo ya alcanza para "
+    "que suene a frase y no a ejercicio."),
+    "e04", W, "Repetilo 10 veces por día toda la semana. Tocalo con el backing y fijate que respetás el silencio del principio."))
 
 # ============================================================ SEMANA 2
 S.append(PageBreak())
@@ -180,8 +177,8 @@ S.append(ejercicio(7, "EL PUENTE — de la caja 1 a la caja 2", (
     "e07", W, "60 BPM. Cuando salga, probá el mismo cruce en la 2ª cuerda (8 a 10) y en la 3ª (7 a 9): es la misma idea."))
 
 S.append(ejercicio(8, "Un lick que cruza las dos cajas", (
-    "Acá se junta todo: bending en la caja 1, slide al medio, y el vibrato final ya en la caja 2. "
-    "Cuando puedas tocar esto sin pensarlo dejaste de tener dos cajas: tenés una sola zona de 6 trastes."),
+    "Una frase completa que arranca en la caja 1 y, con el mismo slide del ejercicio 7, termina en la "
+    "caja 2. Cuando puedas tocar esto sin pensarlo dejaste de tener dos cajas: tenés una sola zona de 6 trastes."),
     "e08", W, "Repetilo 10 veces por día. Después improvisá 5 minutos usando SOLO estas dos cajas."))
 
 # ============================================================ SEMANA 3
@@ -207,7 +204,7 @@ S.append(ejercicio(10, "La caja 4, ida y vuelta", (
 
 S.append(ejercicio(11, "Dos puentes encadenados (2 a 3 a 4)", (
     "Dos slides seguidos: del 10 al 12 en la 1ª cuerda (entrás a la caja 3) y del 10 al 13 en la 2ª "
-    "(entrás a la caja 4). Terminás con un vibrato largo en la 3ª cuerda traste 14: esa nota es un LA, "
+    "(entrás a la caja 4). Terminás en una nota larga en la 3ª cuerda traste 14: esa nota es un LA, "
     "por eso suena a llegada."),
     "e11", W, "Lento, 55 BPM si hace falta. La prolijidad de los slides importa más que la velocidad."))
 
@@ -264,7 +261,7 @@ S.append(ejercicio(15, "Bajar el mástil en diagonal", (
 
 S.append(Paragraph("EJERCICIO 16 — EL SOLO DE EVALUACIÓN (tu entregable)", H2))
 S.append(Paragraph(
-    "Ocho compases que recorren las cinco cajas y usan todo lo del mes: espacio, bending, vibrato, slides y un cierre "
+    "Ocho compases que recorren las cinco cajas y usan todo lo del mes: espacio, ritmo variado, slides y un cierre "
     "en la tónica. No es un examen de velocidad: <b>es un examen de mapa</b>. Aprendetelo, tocalo sobre el backing, "
     "grabalo y mandámelo. Ese video es tu Hito 1 cerrado.", BODY))
 S.append(Spacer(1, 2))
@@ -290,10 +287,10 @@ S.append(tabla([
      Paragraph("Toco el ejercicio 12 entero, a tempo, sin cortes ni dudas.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("Bajo el mástil, no solo lo subo", CELL),
      Paragraph("Toco el ejercicio 15 con la misma soltura que el 12.", CELL)],
-    [Paragraph(CAJ, CELL), Paragraph("Mi bending llega afinado", CELL),
-     Paragraph("Grabo el ejercicio 4 y al escucharlo el bending suena igual que el traste de destino.", CELL)],
-    [Paragraph(CAJ, CELL), Paragraph("Tengo vibrato, no temblor", CELL),
-     Paragraph("En la grabación el vibrato es parejo y controlado, no un tembleque nervioso.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Toco una frase, no una escala", CELL),
+     Paragraph("Grabo el ejercicio 4 y se escucha un silencio real al principio y una nota que se sostiene.", CELL)],
+    [Paragraph(CAJ, CELL), Paragraph("Cruzo de caja adentro de una frase", CELL),
+     Paragraph("Toco el ejercicio 8 entero y suena a una frase sola, no a dos mitades pegadas.", CELL)],
     [Paragraph(CAJ, CELL), Paragraph("<b>Grabé el ejercicio 16 y lo mandé</b>", CELL),
      Paragraph("El video existe. Es el entregable del hito.", CELL)],
 ], [0.9 * cm, 6.3 * cm, W - 7.2 * cm]))

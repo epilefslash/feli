@@ -113,8 +113,8 @@ EJ["e03"] = r"""
 """
 
 EJ["e04"] = r"""
-  r4 g'8\2 e'\2 d'4\3 \tabSym \bendFull ~ d'4 |
-  c'8\3 a\4 g\4 e\5 a2\4 \tabSym \vib |
+  r4 g'8\2 e'\2 d'4\3 ~ d'4 |
+  c'8\3 a\4 g\4 e\5 a2\4 |
 """
 
 # ===== SEMANA 2 — CAJA 2 (trastes 7-10) =====
@@ -138,8 +138,8 @@ EJ["e07"] = r"""
 """
 
 EJ["e08"] = r"""
-  r8 a'8\1 g'\2 e'\2 d'4\3 \tabSym \bendFull c'4\3 |
-  d'8\3 \glissando e'\3^\markup{\bold "ya estás en caja 2"} g'4\2 a'2\2 \tabSym \vib |
+  r8 a'8\1 g'\2 e'\2 d'4\3 c'4\3 |
+  d'8\3 \glissando e'\3^\markup{\bold "ya estás en caja 2"} g'4\2 a'2\2 |
 """
 
 # ===== SEMANA 3 — CAJAS 3 y 4 =====
@@ -160,7 +160,7 @@ EJ["e11"] = r"""
   e''8\1 c''\2 a'\2 g'\3 e'\3 d'\4 c'\4 a\5 |
   a8\5 c'\4 d'\4 g'\3 a'\2 \glissando c''4.\2^\markup{\bold "sl. → caja 4"} |
   d''8\2 e''\1 g''\1 e''\1 d''4\2 c''4\2 |
-  a'1\3 \tabSym \vib |
+  a'1\3 |
 """
 
 EJ["e12"] = r"""
@@ -192,13 +192,13 @@ EJ["e15"] = r"""
 
 EJ["e16"] = r"""
   r4 g'8\2 a'\1 c''4\1 ~ c''4 |
-  a'8\1 g'\2 e'2.\2 \tabSym \vib ^\markup{\bold "dejá respirar"} |
+  a'8\1 g'\2 e'2.\2 ^\markup{\bold "dejá respirar"} |
   d'8\3 e'\3 g'\2 a'\2 c''4\1 d''4\1 |
-  e''2\1 \tabSym \vib ^\markup{\bold "nota larga"} r2 |
+  e''2\1 ^\markup{\bold "nota larga"} r2 |
   g''8\1 e''\1 d''\2 c''\2 a'4\3 g'4\3 |
   e'8\3 d'\4 c'\4 a\5 g4\5 e4\5 |
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
-  a'1\1 \tabSym \vib ^\markup{\bold "cerrás en casa"} |
+  a'1\1 ^\markup{\bold "cerrás en casa"} |
 """
 
 
