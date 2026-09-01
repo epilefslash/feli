@@ -576,3 +576,259 @@ fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en
 > aunque los filmes ahora.
 
 ---
+
+## 35) GUION EPIFANÍA — "El día que dejé de ver cajas" (categoría nueva, pedida por Nico)
+
+> **Por qué existe:** la Hoja de Ruta de Nico pide **1 posteo de Epifanía** entre los primeros 15, y
+> es una categoría que no existía en nuestro marco (teníamos A / B / C / P / V). No es lo mismo que
+> TU HISTORIA (#11): la Historia es el **arco completo** de 60 seg (11 años → facultad → estancamiento
+> → quiebre → hoy). La Epifanía es **un solo instante**, contado en cámara lenta.
+> **Duración:** 20-28 seg · **Formato:** hablado a cámara, sin backing (o clima casi inaudible).
+> **Función:** instala LA TESIS DEL MÉTODO ("el mástil es un mapa, no cinco cajas") sin enseñar nada
+> y sin vender nada. El que la ve entiende de dónde sale todo el resto del perfil.
+
+### La regla que hace que una epifanía funcione (y que casi nadie cumple)
+Una epifanía necesita **un detalle concreto y sensorial**: dónde estabas, qué estabas tocando, qué te
+dijo esa persona **textual**. Sin ese detalle es una moraleja, y una moraleja no se comparte. Con el
+detalle es un recuerdo, y un recuerdo el otro lo vive como propio.
+
+> ⚠️ **4 blancos a completar antes de grabar** (marcados `[...]`). No los inventes ni los saltees:
+> son exactamente lo que separa este video de un consejo genérico. Si no te acordás con precisión,
+> aproximá pero que sea REAL (el año, el barrio, la marca de la guitarra que tenías).
+
+### Guion, palabra por palabra
+
+**[0:00–0:05] EL ANTES — a cámara, tono bajo, como quien se acuerda de algo**
+> "Yo tenía las cinco cajas de la pentatónica estudiadas. Las cinco. Me las sabía de memoria.
+> Y cuando improvisaba, no me movía de la primera."
+
+**[0:05–0:14] EL INSTANTE — acá van los detalles reales**
+> "Un día, en [ **1 · DÓNDE / CON QUIÉN** — 'una clase con un profesor en Rosario', el lugar real ],
+> estaba tocando [ **2 · QUÉ ESTABAS TOCANDO** — un blues, un lick, lo que fuera ] y me frena.
+> Y me dice: [ **3 · LA FRASE TEXTUAL** — lo más cerca posible de lo que dijo de verdad ]."
+
+*(Acá va la pausa más importante del video: **un segundo entero de silencio** después de la frase del
+profesor. Que quede sonando. No la expliques encima.)*
+
+**[0:14–0:22] LO QUE SE TE MOVIÓ — la tesis, dicha como conclusión propia, no como enseñanza**
+> "Y ahí se me cayó la ficha. Yo no tenía cinco cajas. Tenía **un** mástil, y me lo habían enseñado
+> partido en cinco pedazos que nunca nadie me dijo cómo unir.
+> No me faltaban notas. Me faltaba el mapa."
+
+**[0:22–0:28] EL DESPUÉS — corto, sin vender**
+> "A partir de ese día empecé a tocar distinto. [ **4 · QUÉ CAMBIÓ CONCRETO** — 'dejé de repetir los
+> mismos tres licks', 'empecé a moverme sin pensar', lo que te haya pasado de verdad ].
+> Por eso hoy, cuando enseño, siempre empiezo por ahí."
+
+**CTA:** ninguno explícito. Este posteo **no pide nada** — y eso es a propósito. Es el único de los 15
+que existe solo para que te entiendan. Como mucho, en el copy: *"¿Vos en qué caja vivís? Contame 👇"*
+(pregunta de engagement, sin keyword).
+
+### Guía de tono
+- **No lo actúes de emocionado.** La epifanía se cuenta bajo, casi como si te sorprendiera acordarte.
+  Si la contás con energía de reel, se convierte en una anécdota motivacional y pierde todo.
+- **La frase del profesor decila con otra voz** — un poco más lenta, marcando que estás citando.
+- **Cero música en el instante.** Si vas a poner algo, que entre recién en "por eso hoy, cuando enseño".
+- Sin memes, sin zooms, sin efectos. Mismo criterio que la Historia: cualquier adorno le resta verdad.
+
+### Copy del post
+> Me sabía las cinco cajas de la pentatónica. Las cinco.
+>
+> Y cuando improvisaba, no salía de la primera.
+>
+> Hasta que un día un profesor me frenó en medio de una frase y me dijo [ **la frase textual** ].
+>
+> Ahí entendí que el problema no era que me faltaran notas. Me sobraban notas.
+> Lo que me faltaba era el mapa: entender que eso no son cinco cajas separadas, es **un solo mástil**
+> y hay puentes entre una posición y la siguiente.
+>
+> Nadie me lo había dicho nunca así. Y me cambió la forma de tocar.
+>
+> Por eso hoy, cuando enseño, siempre empiezo por ahí. No por más escalas. Por el mapa.
+>
+> ¿Vos en qué caja vivís? Contame 👇
+
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #bluesrock #guitarristas`
+
+---
+
+## 36) LOS 2 POSTEOS DE STORYTELLING (formato FOTO — categoría nueva, pedida por Nico)
+
+> **Por qué existen y por qué en foto:** Nico pide **2 posteos de StoryTelling (Foto / Imagen)** entre
+> los primeros 15. Todo tu flujo hoy es video (filmás + CapCut). Estos dos son **foto + copy largo**:
+> se leen, no se miran. Sirven para tres cosas que el video no hace igual de bien — descansan la grilla
+> (que si no es un muro de reels), se leen completos en el feed sin sonido, y **el copy largo es
+> exactamente el formato de Andy Kligman** que venís usando de referencia.
+> **Producción:** 2 fotos tuyas bien iluminadas con la guitarra. Es el único ítem de los 15 que necesita
+> un mini-flujo de fotos que hoy no tenés. Media hora con luz natural y el celular alcanza.
+
+### StoryTelling 1 — "Toco desde los 11 años. Y durante años sonaba igual."
+**Función:** máxima identificación. El avatar se tiene que ver a sí mismo en el segundo párrafo.
+**Foto:** vos con la guitarra, en tu espacio real (la pieza, el estudio, donde practicás de verdad).
+Luz natural, sin producción. Si tenés una foto vieja tuya tocando de chico, **usala** — vale doble.
+
+> Empecé a tocar la guitarra a los once años.
+>
+> Aprendí de todas las formas que se puede aprender: tablaturas de internet, videos, profesores
+> particulares. Después estudié en la facultad de música en Rosario. No me recibí, pero aprendí
+> muchísimo ahí.
+>
+> Y te voy a ser honesto: con todo eso encima, durante años seguí tocando las mismas frases.
+>
+> Sabía teoría. Sabía las escalas. Sabía nombrar lo que estaba pasando. Y cuando agarraba la viola
+> para improvisar, salía siempre lo mismo.
+>
+> Ese es el punto que casi nadie cuenta: se puede saber mucho y sonar igual. No son la misma cosa.
+>
+> Si te está pasando eso — que estudiás, que mirás, que guardás, y al improvisar seguís sonando como
+> hace dos años — no es falta de talento y no es falta de información.
+>
+> Es otra cosa. Y tiene arreglo.
+>
+> ¿Cuánto hace que tocás? Contame abajo 👇
+
+**Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock #bluesrock #pentatonica`
+
+### StoryTelling 2 — "Por qué dejé de dar clases sueltas"
+**Función:** instala el modelo (programa con proceso, no clases por hora) **sin vender nada**. Cuando
+más adelante aparezca la oferta, ya está pre-explicada. Este posteo hace que el precio tenga sentido
+antes de que exista el precio.
+**Foto:** vos enseñando, o el cuaderno/cuadernillo/mástil anotado. Algo que se vea "de trabajo", no de show.
+
+> Durante mucho tiempo di clases sueltas. Una hora, un tema, chau, nos vemos la semana que viene.
+>
+> Y funcionaba… más o menos.
+>
+> Porque pasaba siempre lo mismo: el alumno venía, se llevaba algo bueno, lo practicaba una semana,
+> y a la clase siguiente arrancábamos otra cosa. Un tema arriba del otro. Mucho contenido, poco camino.
+>
+> Un día lo vi claro: yo le estaba dando **piezas**, y él necesitaba un **orden**.
+>
+> Nadie mejora porque le tiren más información. Mejora cuando alguien le dice qué va primero, qué va
+> después, y por qué. Cuando lo que estudia hoy prepara lo que va a estudiar en tres semanas.
+>
+> Por eso dejé de vender clases y armé un proceso: primero el mapa del mástil, después el sabor
+> (bending, vibrato, espacio), y recién al final el vocabulario propio. En ese orden, porque en otro
+> orden no funciona.
+>
+> No es más contenido. Es el mismo contenido, ordenado. Y esa diferencia es todo.
+
+**Hashtags:** `#guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock #bluesrock`
+
+> **Ojo con el timing del ST2:** va en la semana 3, no antes. Necesita que el perfil ya haya demostrado
+> que sabés tocar (autoridad), si no suena a que hablás de pedagogía sin haber mostrado la mano.
+
+---
+
+## 37) POSTEO DE "2 PASOS" — la pieza de captación (categoría nueva, pedida por Nico)
+
+> **Qué es:** Nico pide **1 posteo de 2 pasos (Imagen)** entre los primeros 15. Es el posteo de
+> captación pura: no enseña, no ataca una creencia, no cuenta una historia. **Su único trabajo es
+> canjear el lead magnet.** Los "2 pasos" son literales: paso 1 comentás la palabra, paso 2 te llega.
+> **Por qué lo necesitás aunque ya tengas CTAs:** hoy tus CTA viven *adentro* de los reels — solo los
+> ve quien miró el reel hasta el final. Este vive en la grilla y capta solo, todo el tiempo, incluso
+> de gente que llegó al perfil seis meses después.
+> **Lead magnet:** `Mapa-5-cajas-pentatonica.pdf` (ya está hecho) · **Keyword:** PENTA.
+
+### La pieza (imagen única, o carrusel de 2 slides)
+**Slide 1 — lo que se ve:** un mockup del PDF del mapa. Que se vea que es un material real, con los
+diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. Arriba, una sola frase:
+
+> **"El mapa de las 5 cajas conectadas"**
+> *Gratis. Comentá PENTA.*
+
+**Slide 2 (opcional) — los dos pasos, gráficos y enormes:**
+> **1 ·** Comentá **PENTA** acá abajo
+> **2 ·** Te lo mando por privado. Listo.
+
+### Copy del post
+> 🎸 **El mapa de las 5 cajas conectadas — gratis.**
+>
+> Si sabés la caja 1 de la pentatónica menor y no salís de ahí, el problema no es que te falte
+> estudiar más. Es que nadie te mostró **dónde se tocan** una caja con la otra.
+>
+> Armé un PDF de una página con eso: las 5 cajas, dónde está la tónica en cada una, y los puntos
+> exactos donde una se conecta con la siguiente. Es lo primero que le doy a cualquier alumno mío.
+>
+> **Paso 1:** comentá **PENTA** acá abajo.
+> **Paso 2:** te lo mando por privado.
+>
+> Es gratis, no te pido el mail, no hay letra chica. Guardalo 📌
+
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra #solodeguitarra #rock #bluesrock #guitarristas`
+
+### Las 3 reglas de este posteo (marketing, no estética)
+1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy, el otro ya no necesita
+   pedir el PDF. El valor tiene que estar **del otro lado del comentario**.
+2. **Bajá la fricción explícitamente.** "No te pido el mail, no hay letra chica" existe porque tu
+   avatar ya se quemó con veinte embudos. Decirlo convierte.
+3. **Repetible.** Este posteo se vuelve a publicar cada 4-6 semanas con otra pieza gráfica. Es el
+   único de los 15 que se recicla tal cual — el resto envejece, éste no.
+
+---
+
+## 38) LOS 2 TESTIMONIOS — guía de entrevista (categoría nueva, y el hueco más duro)
+
+> **El problema:** Nico pide **2 Testimonios (Video - Entrevistas)** entre los primeros 15, y vos no
+> tenés alumnos del programa grupal todavía. Parece imposible.
+> **La solución que ya tenés en la mano:** **tus alumnos 1 a 1 actuales**. No son testimonios del
+> programa "Solo con Sabor" — son testimonios **de vos como profesor**, y eso es exactamente lo que
+> un desconocido necesita para creerte. No hay que mentir en ningún lado: se presenta como lo que es.
+> **Es el ítem de los 15 que más tarda en conseguirse** (depende de la agenda de otra persona).
+> **Arrancalo primero, aunque se publique último.**
+
+### Formato de producción
+- Videollamada grabada (Zoom/Meet) o presencial con el celular. 10-15 min de charla → editás a 40-60 seg.
+- **Pedile que tenga la guitarra al lado.** El testimonio cierra con él tocando 15-20 seg. Eso es la
+  prueba: no lo que dice, lo que suena.
+- Avisale de qué se trata **antes**, sin mandarle las preguntas. Si las prepara, contesta en publicidad.
+
+### ⚠️ La instrucción técnica que hace o rompe el testimonio
+**Pedile que conteste incluyendo la pregunta en la respuesta.** No "sí, mucho" sino "sí, cambió mucho
+cómo improviso". Si contesta suelto, en la edición no se entiende nada y el material es inservible.
+Decíselo así, textual: *"contestame como si yo no estuviera, metiendo la pregunta adentro de la
+respuesta"*. Es lo primero que se aclara y hay que repetirlo una vez a mitad de la charla.
+
+### Las 5 preguntas (en este orden, y no son negociables)
+
+| # | Pregunta | Qué está sacando |
+|---|---|---|
+| 1 | "¿Cómo tocabas antes de empezar conmigo? Contame lo que te pasaba cuando improvisabas." | **El Punto A**, en las palabras de él. Es lo que hace que el que mira se vea reflejado. |
+| 2 | "¿Qué habías probado antes que no te terminó de funcionar?" | Elimina las alternativas (YouTube, cursos, otros profes) sin que vos las critiques. |
+| 3 | "¿Hubo algún momento donde te hizo clic algo?" | El giro. Si nombra un concepto tuyo (el mapa, los puentes, el espacio), es oro puro. |
+| 4 | "¿Qué podés hacer hoy con la guitarra que antes no podías?" | **El Punto B**, concreto y demostrable. Ojo: buscá que diga una capacidad, no un elogio. |
+| 5 | "¿A quién le recomendarías esto?" | **Auto-selecciona tu avatar.** Va a describir a alguien igual a él — y el que mira se anota solo. |
+
+**Y al final, la toma que vale más que las 5 respuestas:**
+> "Bueno, tocame algo. Lo que quieras, improvisá 20 segundos."
+
+### Cómo se edita (60 seg)
+| Tramo | Qué va |
+|---|---|
+| 0:00–0:08 | Arranca con **la frase más cruda de la respuesta 1** (el dolor). Sin intro, sin presentación. |
+| 0:08–0:20 | Respuesta 2 (lo que probó y no funcionó) |
+| 0:20–0:35 | Respuesta 3 (el clic) — acá va el concepto tuyo si lo nombró |
+| 0:35–0:45 | Respuesta 4 (lo que puede hacer hoy) |
+| 0:45–1:00 | **Él tocando.** Sin voz encima. Esto es el cierre y la prueba. |
+
+- **Subtítulos obligatorios** y nombre en placa chica (nombre de pila + hace cuánto toca).
+- **Pedile permiso explícito por escrito** para usar el video. Un mensaje de WhatsApp alcanza y te cubre.
+- **Cero elogios tuyos en el video.** Si él dice "Feli es un capo", ese pedazo **se corta**. El
+  testimonio que convierte habla del cambio del alumno, no de lo bueno que sos vos.
+
+### Copy del post
+> [Nombre] toca hace [X] años. Cuando empezamos, me dijo esto: *"[la frase de la respuesta 1]"*.
+>
+> Le pasaba lo que le pasa a casi todos: sabía la caja 1, sabía un montón de licks sueltos, y al
+> improvisar salía siempre lo mismo.
+>
+> Lo que cambió no fue que aprendiera más notas. Fue el orden: primero el mapa del mástil, después el
+> sabor, y recién ahí el vocabulario propio.
+>
+> Escuchá cómo suena hoy 👆
+>
+> (Y gracias [Nombre] por prestarte a esto 🙏)
+
+**Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #bluesrock #solodeguitarra`
+
+---

@@ -66,6 +66,14 @@ no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
 → 3º #12 REEL FIJADO (sec. 26) → 4º #11 TU HISTORIA (sec. 25) + vendedor "Como que desaparece" (sec. 23),
 mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver por qué abajo).
 
+> ⚠️ **PLAN DE PUBLICACIÓN VIGENTE (1/9): `memoria/05`, sección 34.** La Hoja de Ruta de Método Flow
+> pide una composición exacta para los primeros 15 posteos, y auditada contra este stock aparecieron
+> 4 categorías que no teníamos (Epifanía · StoryTelling en foto · posteo de 2 pasos · 2 testimonios).
+> Hallazgo principal: **estamos sobre-indexados en Formato C** (6 de 8 reels son creencias atacadas)
+> — no hace falta filmar más de ese tipo por ahora. Los guiones nuevos están en `memoria/04`,
+> secciones 35 a 38. **Reemplaza a la sección 9 como plan operativo** (sus 2 reglas de fondo siguen
+> vigentes: no encadenar creencias · los vendedores van después de la autoridad).
+
 > **Guiones YA ESCRITOS, sin filmar (actualizado 24/8 — la versión anterior de esta lista estaba
 > desactualizada en 3 puntos y se corrigió):**
 > #7 equipo (sec. 8) — ⚠️ **sólo faltan las guitarras**, no el video entero; la tabla de arriba es
@@ -80,6 +88,7 @@ mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver
 > cómo" y ese lead magnet **no existe**. Los únicos 3 que existen son `Mapa-5-cajas-pentatonica.pdf`,
 > `Rutina-Toca2-Callate2.pdf` y `Ejercicio-Destapar-el-Oido.pdf`. No grabar a cámara una promesa
 > que no se puede cumplir.
+>
 > "Cantá primero, tocá después" ya filmado (#8). Voz/melodía interna y desarmar-lick, pendientes de registrar.
 > Ver sección 9 para el ORDEN DE PUBLICACIÓN (distinto del orden de filmación).
 
