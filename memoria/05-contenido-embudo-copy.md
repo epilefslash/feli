@@ -57,16 +57,37 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 ```
 > Regla de oro: NO se vende en DM. El DM solo agenda la llamada. La venta se cierra por voz.
 
-**Bio de Instagram (modelo):**
+**Bio de Instagram (modelo — actualizado 1/9 con el formato oficial de InstaMúsico, módulo "Optimización
+de Biografía"):**
+
+> Nico usa su propia bio de ejemplo: **Título** (rol/nicho) → **Promesa** con emoji → **Validación /
+> prueba social** con emoji → **CTA** con emoji → link. Nuestra versión anterior tenía promesa y CTA
+> pero le faltaba la línea de validación — el por qué creerte. Corregido:
+
 ```
-🎸 Programa "Solo con Sabor"
-De pentatónica caja 1 → improvisar con sabor en 90 días
-Para guitarristas de rock/blues
-👇 Aplicá acá
-[link al formulario]
+🎸 Profesor de guitarra rock
+Te ayudo a pasar de la caja 1 a improvisar con sabor en 12 semanas
+📖 Formado en la facultad de música de Rosario · años enseñando 1 a 1
+👇 Comentá SOLO y arrancamos
+[link]
 ```
 
-**3 destacadas (highlights):** MÉTODO · ALUMNOS · YO TOCO.
+**Checklist de foto de perfil (nuevo, del mismo módulo):**
+- Solo vos en la foto — nada de familia, amigos, mascotas
+- Buena iluminación, fondo que no distraiga del foco (tu cara)
+- **Nunca una selfie.** Si te la tenés que sacar vos mismo, usá temporizador
+- Nombre de usuario simple: sin guiones bajos, sin números, fácil de recordar y escribir
+  (`felibayamenor` ya cumple — confirmar que sea el @ exacto y sin variantes)
+
+**3 destacadas (highlights) — ampliado a 4, con la lista oficial de InstaMúsico:**
+
+> La lista oficial de Nico es: Testimonios · Prensa · Formación · Quién sos · Tu servicio/programa
+> (máximo 5, si son más la gente tiene que scrollear). Contra nuestras 3 anteriores (MÉTODO · ALUMNOS ·
+> YO TOCO), sumamos **FORMACIÓN** — es donde vive el dato de la facultad de Rosario, que hoy solo
+> aparece en el guion de la Historia (memoria/04 §25) y no tiene un lugar permanente en el perfil.
+> "Prensa" queda afuera por ahora — no hay cobertura de prensa todavía, se agrega cuando exista.
+
+**MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO.**
 
 **Destacada MÉTODO (serie de 7 historias, inspirada en Andy Kligman):**
 1. PROMESA — "Te enseño a improvisar solos de rock como Page, Slash y Hendrix dominando la penta menor."
@@ -76,6 +97,10 @@ Para guitarristas de rock/blues
 5. PASO 4 — EL VOCABULARIO (licks de los grandes)
 6. RESULTADO (en 90 días grabás tu propio solo)
 7. CTA (comentá SOLO por DM)
+
+**Destacada FORMACIÓN (nueva, 3-4 historias):** el paso por la facultad de música de Rosario, los años
+enseñando 1 a 1, y por qué eso te hace confiable como guía — no como vendedor. Guion base: el mismo
+bloque de "el Punto A" del guion de la Historia (memoria/04 §25), recortado a formato historia.
 
 **Estructura de la llamada de descubrimiento (20 min):**
 1. (5 min) Diagnóstico: ¿hace cuánto tocás? ¿qué te frustra? ¿qué intentaste?
@@ -315,5 +340,75 @@ vendedores entran recién acá**, igual que decía la sección 9.
 - **3-6 pilares con 3-5 micro-pasos cada uno.** Nuestros 3 hitos cumplen, pero estamos en el **piso**
   del rango (3 de 3-6). Pregunta para el Onboarding: ¿conviene abrir a 4-5 pilares, o los 3 hitos con
   sus micro-pasos ya alcanzan?
+
+---
+
+## 35) LO QUE SUMAN LOS MÓDULOS INSTAMÚSICO 6-15 (leídos 1/9) — validación + hallazgos nuevos
+
+> Feli compartió los módulos de InstaMúsico (el material de Nico sobre crecimiento en Instagram):
+> **6** Identificar Estudiante Ideal · **7** Perfil Magnético · **8** Optimización de Biografía ·
+> **9-10** Creando/Optimizando Contenido · **11** Posteos de Valor · **12** Posteos de StoryTelling ·
+> **13** Posteos de Autoridad · **14** Posteos de Dos Pasos · **15** Acción - Perfil y Publicaciones.
+> **Regla de trabajo con este material (instrucción explícita de Feli): lo que dice Nico es palabra
+> mayor — se le hace caso y se aplica tal cual. Él tiene la data, nosotros activamos.** Lo aplicado a
+> bio y destacadas ya se volcó arriba, en la sección 11.
+
+### Lo que valida lo que ya teníamos (sin cambios necesarios)
+- **Posteos de Valor** (mód. 11): "desafiar el status quo, desmentir mitos, señalar errores" es
+  exactamente el Formato C (§5). "Compartir herramientas, explicar conceptos distinto" es el Formato A.
+- **Posteos de Autoridad** (mód. 13): "sos el ejemplo de lo que enseñás, una versión anterior de tu
+  estudiante ideal que ya llegó" — es la función exacta del Reel Fijado (§26) y de #1/#2.
+- **Posteos de StoryTelling** (mód. 12): confirma el eje de vulnerabilidad que ya usamos en la Epifanía
+  (memoria/04 §35) — *"las marcas que más facturan comparten momentos duros, no aparentan
+  perfección"*. Y confirma la mecánica de creencia falsa → anécdota que la resuelve, que es el molde
+  del Formato C aplicado a historia.
+- **Posteos de Dos Pasos** (mód. 14): confirma exacto el diseño del posteo de 2 pasos de §34/memoria-04
+  §37 — regalo que resuelve un dolor puntual, consumible en menos de 10 min, CTA de palabra clave.
+  Ejemplo de Nico: *"¿Quién quiere un tutorial cortito sobre cómo invertir acordes? Comentá 'YO'!"* —
+  mismo mecanismo que nuestro PENTA. Nada que corregir, el diseño ya estaba alineado.
+- **15-20 publicaciones antes de mandar tráfico** (mód. 9 y 15): coincide con nuestro plan de 15 (§34).
+  El mód. 15 lo confirma con la misma cifra: *"si aún no tenés un mínimo de 15 publicaciones en tu
+  Feed, tu misión ahora es esa."*
+- **Estrategia Océano Azul** (mód. 6): nichear en vez de competir en el mercado general de guitarra.
+  Ya lo hicimos (rock, pentatónica menor, un avatar específico) — sirve como confirmación del lenguaje
+  de Nico para justificar la elección si hace falta explicarla en la sesión.
+
+### Los hallazgos nuevos
+
+**1 · Falta la categoría LIVES.** La lista oficial de tipos de posteo (mód. 9) es: *Valor · StoryTelling
+· Autoridad · De dos pasos · Lives · Testimonios · Otros.* Confirma que el mapeo de la sección 34 está
+bien encuadrado — pero **nunca planeamos un solo Live**. No es urgente para los primeros 15 posteos
+(son todos feed), pero es una categoría entera pendiente para más adelante. Encaja bien una vez que
+haya alumnos del programa: un Live de Q&A abierto, o repasando un ejercicio en vivo con quien se conecte.
+
+**2 · "Compartir tus valores" es un 4º tipo de StoryTelling que no teníamos.** El mód. 12 lista 4 formas
+de conectar por historia: (a) tu historia personal — Historia #11 · (b) momentos vulnerables — la
+Epifanía · (c) momentos duros del camino — también cubierto · **(d) compartir tus valores — sin
+cubrir.** Es distinto de contar una anécdota: es afirmar directamente en qué creés como profesor (ej.
+*"no creo en enseñar más escalas, creo en enseñar a usar bien las que ya sabés"*). Queda anotado como
+idea de contenido para más adelante, después del stock de los 15 — no hace falta un guion nuevo ahora,
+pero es candidato natural para la semana 5 en adelante (§34).
+
+**3 · Ideas concretas para posteos de Autoridad** (mód. 13, ejemplo "para un profesor de guitarra"):
+mostrarte tocando en vivo · una foto de ensayo · **el backstage de la creación de algo** (grabando un
+cuadernillo, armando un cover, editando un video) · tocando y demostrando nivel. El "backstage de
+creación" es la idea más nueva: filmar el proceso de armar un ejercicio o de laburar un cover, no solo
+el resultado final. Sirve como variante de contenido A para cuando el stock de reels de valor se agote.
+
+**4 · La regla del hook (mód. 15, instrucción directa de Nico).** *"Siempre debemos pasar más tiempo
+pensando y desarrollando el hook del posteo — esa frase inicial que va a ser la diferencia entre una
+persona deteniendo el scroll o pasando el posteo de largo."* No estaba escrito como regla operativa en
+ningún lado de la memoria. Se suma como principio de producción: **el hook (primeros 1-3 seg de texto
+o los primeros 3 seg hablados) se piensa y se itera aparte, no se improvisa al filmar.** Aplica a los
+15 posteos del plan, especialmente a los que todavía no tienen hook cerrado (Epifanía, StoryTelling).
+
+**5 · El material es una guía, no una receta (mód. 15, dicho explícito por Nico).** *"No es necesario
+seguir esta estructura al pie de la letra... mezclá, probá cosas nuevas, si ves algo que funciona
+duplicalo."* Confirma que el plan de la sección 34 puede ajustarse con lo que funcione una vez que
+empiece a publicarse — no hay que tratarlo como definitivo.
+
+### Lo que se aplicó ya (sección 11, arriba)
+Bio con línea de validación agregada · checklist de foto de perfil · destacada FORMACIÓN sumada a las
+3 que había (ahora son 4: MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO).
 
 ---
