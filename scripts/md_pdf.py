@@ -33,6 +33,9 @@ MOBILE_H1 = ParagraphStyle('MD_H1', parent=H1, fontSize=16, leading=20, spaceBef
 MOBILE_H2 = ParagraphStyle('MD_H2', parent=H2, fontSize=13, leading=16.5, spaceBefore=10, spaceAfter=6)
 MOBILE_H3 = ParagraphStyle('MD_H3', parent=H3, fontSize=11.5, leading=14.5, spaceBefore=8, spaceAfter=4)
 BULLET = ParagraphStyle('MD_BULLET', parent=MOBILE_BODY, leftIndent=10)
+CODE_BLOCK = ParagraphStyle('MD_CODE', parent=MOBILE_BODY, fontName='Courier-Bold', fontSize=10,
+                            leading=14, textColor=DARK, backColor=LIGHT, borderColor=BORDER,
+                            borderWidth=0.5, borderPadding=8, leftIndent=2)
 TABLE_CELL = ParagraphStyle('MD_CELL', parent=MOBILE_BODY, fontSize=9, leading=12)
 TABLE_HEAD_CELL = ParagraphStyle('MD_HEAD', parent=TABLE_CELL, fontName='Helvetica-Bold', textColor=RED)
 
@@ -57,27 +60,51 @@ def merge_continuations(raw_lines):
     El markdown del repo viene con wrap manual a ~100 caracteres. Sin esto, cada linea fisica
     se renderiza como un Paragraph aparte y el espaciado queda roto.
     """
-    def is_block_start(s):
-        if not s:
-            return True
+    def is_locked(s):
+        # Un heading, un separador, una fila de tabla o una cita nunca reciben la linea de
+        # abajo como continuacion, tengan o no una linea en blanco que los separe del texto
+        # que sigue -- si no, "## Titulo\nprosa sin blanco" se fusiona en el titulo entero.
         if s.startswith('#') or s.startswith('>'):
             return True
         if s.startswith('|') and s.endswith('|'):
             return True
         if s in ('---', '***', '___'):
             return True
+        return False
+
+    def is_block_start(s):
+        if not s:
+            return True
+        if is_locked(s):
+            return True
         if re.match(r'^[-*]\s', s) or re.match(r'^\d+\.\s', s):
             return True
         return False
 
     merged = []
+    locked = []  # paralelo a merged: True si esa linea no debe recibir continuaciones
+    in_fence = False
     for raw in raw_lines:
         s = raw.strip()
+        if s.startswith('```'):
+            # Los fences de codigo nunca se unen con nada, ni entre si ni con lo de afuera:
+            # cada linea de adentro tiene que sobrevivir intacta (es texto para copiar y pegar).
+            in_fence = not in_fence
+            merged.append(s)
+            locked.append(True)
+            continue
+        if in_fence:
+            merged.append(s)
+            locked.append(True)
+            continue
         if not s:
             merged.append('')
+            locked.append(True)
             continue
-        if not merged or merged[-1] == '' or is_block_start(s):
+        prev_locked = locked[-1] if locked else True
+        if not merged or merged[-1] == '' or prev_locked or is_block_start(s):
             merged.append(s)
+            locked.append(is_locked(s))
         else:
             merged[-1] = merged[-1] + ' ' + s
     return merged
@@ -96,7 +123,10 @@ def _col_widths(raw_cells, ncols, width):
         largos.append(max(largo, 1))
     total = float(sum(largos))
     crudos = [width * (l / total) for l in largos]
-    piso = width * 0.06
+    # 6% alcanzaba para una columna de un digito pero no para una palabra corta ("Bloquea",
+    # "Espera"): a ese ancho el texto se corta en dos lineas apretadas. 10% da lugar a ~7-8
+    # caracteres sin partir, y con hasta 8 columnas en una fila todavia no se come el 100%.
+    piso = width * 0.10
     # Lo que haga falta para levantar las columnas flacas al piso se le saca a las que sobran.
     faltante = sum(piso - w for w in crudos if w < piso)
     sobrante = sum(w - piso for w in crudos if w > piso)
@@ -151,8 +181,26 @@ def render_markdown(md_text, story, width):
             raw_cells.append(cells)
         return rows, raw_cells, j
 
+    def render_code_block(start):
+        """Lineas entre ```: se muestran tal cual, sin negrita/cursiva/emoji, para copiar y pegar."""
+        j = start + 1
+        code_lines = []
+        while j < len(lines) and not lines[j].strip().startswith('```'):
+            code_lines.append(lines[j].rstrip())
+            j += 1
+        text = '<br/>'.join(l.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;') or '&nbsp;'
+                             for l in code_lines)
+        story.append(Paragraph(text, CODE_BLOCK))
+        story.append(Spacer(1, 6))
+        return j + 1  # salta el ``` de cierre
+
     while i < len(lines):
         stripped = lines[i].rstrip().strip()
+
+        if stripped.startswith('```'):
+            flush_quote()
+            i = render_code_block(i)
+            continue
 
         if not stripped:
             flush_quote()
