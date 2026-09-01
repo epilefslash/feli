@@ -343,12 +343,13 @@ vendedores entran recién acá**, igual que decía la sección 9.
 
 ---
 
-## 35) LO QUE SUMAN LOS MÓDULOS INSTAMÚSICO 6-15 (leídos 1/9) — validación + hallazgos nuevos
+## 35) LO QUE SUMAN LOS MÓDULOS INSTAMÚSICO 6-16 (leídos 1/9) — validación + hallazgos nuevos
 
 > Feli compartió los módulos de InstaMúsico (el material de Nico sobre crecimiento en Instagram):
 > **6** Identificar Estudiante Ideal · **7** Perfil Magnético · **8** Optimización de Biografía ·
 > **9-10** Creando/Optimizando Contenido · **11** Posteos de Valor · **12** Posteos de StoryTelling ·
-> **13** Posteos de Autoridad · **14** Posteos de Dos Pasos · **15** Acción - Perfil y Publicaciones.
+> **13** Posteos de Autoridad · **14** Posteos de Dos Pasos · **15** Acción - Perfil y Publicaciones ·
+> **16** Sistema de Atracción (frío/tibio/caliente).
 > **Regla de trabajo con este material (instrucción explícita de Feli): lo que dice Nico es palabra
 > mayor — se le hace caso y se aplica tal cual. Él tiene la data, nosotros activamos.** Lo aplicado a
 > bio y destacadas ya se volcó arriba, en la sección 11.
@@ -406,6 +407,34 @@ o los primeros 3 seg hablados) se piensa y se itera aparte, no se improvisa al f
 seguir esta estructura al pie de la letra... mezclá, probá cosas nuevas, si ves algo que funciona
 duplicalo."* Confirma que el plan de la sección 34 puede ajustarse con lo que funcione una vez que
 empiece a publicarse — no hay que tratarlo como definitivo.
+
+**6 · El sistema de Atracción: frío / tibio / caliente (mód. 16)** — framework nuevo, no estaba en
+ningún lado de la memoria. Los 3 tipos de tráfico:
+
+| Tipo | Qué significa |
+|---|---|
+| **Frío** | Nunca escuchó de vos. |
+| **Tibio** | Ya tuvo un primer encuentro con tu marca personal — todavía no recuerda tu nombre, no confía, no se generó conexión. |
+| **Caliente** | Sabe quién sos y confía en vos. Es de donde salen la mayoría de las compras. |
+
+> El objetivo de todo el marketing es mover a la gente de frío a caliente lo más rápido posible.
+
+- **Frío → Tibio** pasa solo, automático: alguien llega a tu perfil magnético (bio + fijado +
+  destacadas) y ya tuvo su primer encuentro. Es la razón de fondo por la que el perfil tiene que estar
+  armado ANTES de mandar tráfico — confirma con mecanismo causal por qué el plan pide 15 posteos antes
+  de abrir la puerta.
+- **Tibio → Caliente** necesita *más de un encuentro*, y se logra de 2 formas:
+  1. **Orgánica** — con el contenido e historias que se van publicando (lo que ya hacemos).
+  2. **Campañas de remarketing** — cuando el público sea más grande, campañas de bajo presupuesto para
+     que los posteos le sigan llegando a los seguidores, **sobre todo a quienes interactuaron en los
+     últimos 30 días** (son los más enganchados). Es una táctica de Ads concreta que no teníamos: no
+     es "tráfico nuevo" sino recalentar a quien ya mostró interés. Queda para más adelante (cuando
+     haya volumen de seguidores), no para ahora.
+
+**Vocabulario útil para hablar del embudo (sección 11) de acá en más:** en vez de solo "atrae → DM →
+llamada → venta", se puede pensar cada pieza de contenido por la temperatura a la que empuja al que
+la ve — un reel de valor calienta un poco, un testimonio calienta mucho, un posteo de 2 pasos convierte
+tibio en un DM activo.
 
 ### Lo que se aplicó ya (sección 11, arriba)
 Bio con línea de validación agregada · checklist de foto de perfil · destacada FORMACIÓN sumada a las
