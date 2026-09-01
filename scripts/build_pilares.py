@@ -29,10 +29,10 @@ S.append(Paragraph(
 S.append(Spacer(1, 8))
 S.append(caja_oscura(
     '<font color="white" size="10"><b>Estado</b></font><br/>'
-    '<font color="#f7d7d2" size="9">El contenido pedagogico de los 3 pilares esta terminado y '
-    'auditado: 4 cuadernillos con partitura y tablatura reales, 59 ejercicios de numeracion corrida, '
-    'mas un anexo de ritmo. Lo que falta es produccion y distribucion, no diseno del programa. '
-    'La pregunta abierta esta al final.</font>', W))
+    '<font color="#f7d7d2" size="9">El contenido pedagogico tiene una primera version terminada y '
+    'auditada: 4 cuadernillos con partitura y tablatura reales, 59 ejercicios de numeracion corrida, '
+    'mas un anexo de ritmo. Falta produccion y distribucion, y sigue abierto a que el equipo aporte '
+    'o ajuste el diseno. La pregunta abierta esta al final.</font>', W))
 S.append(Spacer(1, 10))
 
 with open("entregables/contenido/PILARES-Y-MICROPASOS.md", encoding="utf-8") as f:

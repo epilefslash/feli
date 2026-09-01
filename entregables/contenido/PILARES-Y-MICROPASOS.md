@@ -102,8 +102,9 @@ Grupal online, cohortes de 4 a 6, 12 semanas.
 | Grabaciones de todos los encuentros, se las queda el alumno | Por definir plataforma |
 | Un entregable filmado por pilar: la prueba de avance | Definido |
 
-**Lo que ya está terminado es el 100% del contenido pedagógico.** Lo que falta es producción
-(grabar el pregrabado) y distribución (plataforma), no diseño del programa.
+**El contenido pedagógico tiene una primera versión terminada y auditada.** Falta producción
+(grabar el pregrabado) y distribución (plataforma) — y sigue abierto a que el equipo aporte o
+ajuste el diseño del programa, esto no es la versión final.
 
 ---
 
