@@ -66,6 +66,15 @@ no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
 → 3º #12 REEL FIJADO (sec. 26) → 4º #11 TU HISTORIA (sec. 25) + vendedor "Como que desaparece" (sec. 23),
 mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver por qué abajo).
 
+> 📄 **PARA EL ONBOARDING (jue 3/9, 10:30):** `Pilares-y-Micropasos-Solo-con-Sabor.pdf` (3 pág).
+> Es el bloque *"Estructurar Programa de Alto Valor"* de la Hoja de Ruta ya resuelto — traduce los
+> 3 hitos + los 53 ejercicios al vocabulario de Nico (pilares / micro pasos / vehículo) **sin rehacer
+> nada**. Presenta **4 pilares**: los 3 hitos secuenciales + EL PULSO (ritmo) como transversal, para
+> salir del piso del rango 3-6. Cierra con las 3 preguntas abiertas: ¿4 pilares o 3? · el precio
+> (400 vs 600) · **cuándo abrir la Capa 2**. Esa última es la importante: el objetivo de facturación
+> del mentorado supone una oferta que escala y la nuestra está diseñada para no escalar — el modelo
+> de capas de Nico (`memoria/08`) parece ser la respuesta, falta la secuencia.
+
 > ⚠️ **PLAN DE PUBLICACIÓN VIGENTE (1/9): `memoria/05`, sección 34.** La Hoja de Ruta de Método Flow
 > pide una composición exacta para los primeros 15 posteos, y auditada contra este stock aparecieron
 > 4 categorías que no teníamos (Epifanía · StoryTelling en foto · posteo de 2 pasos · 2 testimonios).
