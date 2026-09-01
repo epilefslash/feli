@@ -1,6 +1,6 @@
 ## La frase
 
-**Ayudo a** guitarristas de rock y blues trabados en la caja 1 de la pentatónica menor
+**Ayudo a** guitarristas de rock trabados en la caja 1 de la pentatónica menor
 **a** improvisar solos propios con sabor por todo el mástil
 **en** 12 semanas
 **con** el método Solo con Sabor: el mapa, el sabor y el vocabulario.
@@ -107,22 +107,8 @@ Grupal online, cohortes de 4 a 6, 12 semanas.
 
 ---
 
-# LAS 3 PREGUNTAS PARA EL ONBOARDING
+# LA PREGUNTA PARA EL ONBOARDING
 
-**1 · ¿Cuatro pilares o tres?** Los tres hitos son secuenciales y están nombrados por resultado, como
+**¿Cuatro pilares o tres?** Los tres hitos son secuenciales y están nombrados por resultado, como
 pide el método. El ritmo es real —tiene material propio y cubre un hueco declarado— pero corre en
 paralelo, no es un cuarto mes. ¿Se presenta como pilar o como complemento?
-
-**2 · El precio.** Está decidido en USD 400 para la cohorte fundadora, por debajo del rango 600-900 del
-plan original. Sé que el propio material advierte contra la trampa de *"grupal igual a económico"*, y
-por eso todavía no se comunicó públicamente ningún número. ¿Dónde conviene pararse?
-
-**3 · Cuándo abrir la Capa 2.** La Capa 1 está terminada y el pregrabado se graba igual para dictarla.
-Una vez grabado, la Capa 2 —videos más comunidad, sin atención personalizada— existe casi sin trabajo
-extra. ¿Conviene abrirla antes de la primera cohorte, para tener una puerta más barata mientras se
-llena el grupo, o después, para no competir contra el programa antes de tener testimonios?
-
-> La tercera es la que más me importa, y viene de una cuenta: el objetivo de facturación del programa
-> supone una oferta que escala, y la mía está diseñada deliberadamente para no escalar — cohortes
-> chicas, devolución personalizada. Ahí es donde el modelo de capas parece ser la respuesta, y quiero
-> chequear la secuencia antes de moverme.

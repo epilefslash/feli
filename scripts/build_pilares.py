@@ -22,7 +22,7 @@ S = []
 
 S.append(Paragraph("SOLO CON SABOR", MOBILE_H1))
 S.append(Paragraph(
-    "Programa grupal de improvisacion en rock y blues sobre la pentatonica menor. 12 semanas, "
+    "Programa grupal de improvisacion en rock sobre la pentatonica menor. 12 semanas, "
     "cohortes de 4 a 6 alumnos. Este documento es el bloque <b>Estructurar Programa de Alto Valor</b> "
     "de la hoja de ruta: estudiante ideal, transformacion, pilares, micro pasos y vehiculo.",
     MOBILE_BODY))
@@ -32,7 +32,7 @@ S.append(caja_oscura(
     '<font color="#f7d7d2" size="9">El contenido pedagogico de los 3 pilares esta terminado y '
     'auditado: 4 cuadernillos con partitura y tablatura reales, 59 ejercicios de numeracion corrida, '
     'mas un anexo de ritmo. Lo que falta es produccion y distribucion, no diseno del programa. '
-    'Las 3 preguntas abiertas estan al final.</font>', W))
+    'La pregunta abierta esta al final.</font>', W))
 S.append(Spacer(1, 10))
 
 with open("entregables/contenido/PILARES-Y-MICROPASOS.md", encoding="utf-8") as f:
