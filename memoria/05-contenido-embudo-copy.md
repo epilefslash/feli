@@ -436,6 +436,55 @@ llamada → venta", se puede pensar cada pieza de contenido por la temperatura a
 la ve — un reel de valor calienta un poco, un testimonio calienta mucho, un posteo de 2 pasos convierte
 tibio en un DM activo.
 
+**7 · El PRO TIP más importante para el día del lanzamiento (mód. 24, "Cómo conectar todo").**
+Textual: *"Si tu cuenta tiene seguidores que no son tu Estudiante Ideal, es recomendable empezar una
+cuenta nueva... porque de lo contrario las personas que van a ver tus publicaciones no van a ser
+potenciales alumnos y no tendría sentido. No es deseable que tus nuevos potenciales estudiantes
+ideales se pierdan entre seguidores vacíos."**
+
+> ⚠️ **Esto hay que chequearlo antes de abrir @felibayamenor.** Si esa cuenta ya existe con
+> seguidores de otra época (amigos, familia, seguidores random, no guitarristas interesados en el
+> método), Nico recomienda arrancar una cuenta 100% nueva en vez de reciclar esa. La razón: el
+> algoritmo de Instagram le muestra tu contenido primero a quien ya te sigue — si esos seguidores no
+> son el Estudiante Ideal, tus primeros posteos van a un público que no reacciona, y eso le enseña
+> mal al algoritmo desde el día 1. **Pregunta directa para Feli: @felibayamenor, ¿es una cuenta
+> vieja con seguidores previos, o la vas a crear de cero?** Si es vieja, conviene abrir otra limpia
+> antes de invertir el trabajo de la Guía de Lanzamiento.
+
+**8 · Cómo hacer crecer la cuenta con seguidores "baratos y de calidad" (mód. 24).** Enviar tráfico
+pago al Perfil Magnético durante 15 días (o 1 semana si la ansiedad aprieta) con un presupuesto chico
+diario (el material da el ejemplo de USD 5/día). Objetivo: llegar a **al menos 500 seguidores nuevos**
+que sean Estudiante Ideal real, y recién ahí empezar a vender la oferta de autoliquidación (memoria/08
+§30) o las clases si todavía no hay producto low-ticket armado. *"Recordá no ser uno más del montón y
+tomate un tiempo extra en conversar con tus clientes potenciales."* — el objetivo de esta etapa es
+financiar la publicidad: si se logra, se puede escalar la inversión (más gente entra al perfil → más
+conocen → más consultas → más ventas de la oferta de autoliquidación).
+
+**9 · Anuncios ganadores (mód. "Cómo encontrar anuncios ganadores"):** mostrar primero los anuncios a
+gente que ya interactuó con la marca (más barato validar ahí que con tráfico frío puro). Un anuncio
+"ganador" se reconoce por CPC bajo + % de conversión alto — el material da ejemplos numéricos
+comparando un anuncio con buena conversión contra uno de conversión baja para calibrar qué mirar en
+las métricas. Si el CPC no baja probando variantes distintas, revisar el perfil/bio antes que el
+anuncio — puede ser que el perfil no esté convirtiendo, no el anuncio. Truco de creativo: reforzar la
+autoridad directamente en la pieza del anuncio (texto superpuesto tipo "Autoridad del perfil ✓"), no
+solo en el perfil de destino.
+
+**10 · Historias con CTA — dos formatos concretos (mód. 22):**
+- **Con encuesta:** *"Estoy buscando a X docentes de música que quieren desbloquear facturaciones de
+  $2.000 USD extras en los próximos 3 meses"* + sticker de encuesta Sí/No. El algoritmo interpreta
+  las interacciones con encuestas como señal de contenido bueno y lo muestra a más gente.
+- **Con palabra clave:** overlay de texto pidiendo comentar/DM una palabra puntual (mismo mecanismo
+  que ya usamos con PENTA/SOLO), mostrado como historia en vez de posteo de feed.
+- **Regla de dosis:** si solo se suben historias de este tipo, cansa. Hay que mezclarlas con historias
+  de otro contenido que aporte valor — mismo principio que ya tenemos para no encadenar Formato C.
+
+**11 · CTA Directa — la estructura de 6 componentes (mód. 22), para cuando se apunte al 3% listo:**
+Deseo (resultado específico) → Audiencia (a quién le hablás) → Encroach (cupo limitado) → Método (tu
+vehículo) → Tiempo (plazo del resultado) → Llamada a la acción explícita. Ejemplo del material:
+*"Estoy buscando a 4 docentes de música que quieren desbloquear facturaciones de $2.000 USD extras en
+los próximos 3 meses. Si es tu caso, dejá esto abajo 👇"*. **Usar con moderación** — el material lo
+dice explícito: abusar de este tipo de posteo baja el nivel de interacción general.
+
 ### Lo que se aplicó ya (sección 11, arriba)
 Bio con línea de validación agregada · checklist de foto de perfil · destacada FORMACIÓN sumada a las
 3 que había (ahora son 4: MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO).
