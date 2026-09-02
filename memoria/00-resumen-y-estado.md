@@ -66,8 +66,15 @@ no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
 → 3º #12 REEL FIJADO (sec. 26) → 4º #11 TU HISTORIA (sec. 25) + vendedor "Como que desaparece" (sec. 23),
 mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver por qué abajo).
 
-> 📄 **PARA EL ONBOARDING (jue 3/9, 10:30):** `Pilares-y-Micropasos-Solo-con-Sabor.pdf` (3 pág).
-> Es el bloque *"Estructurar Programa de Alto Valor"* de la Hoja de Ruta ya resuelto — traduce los
+> 🔴 **URGENCIA REAL (2/9): 30 días desde el Onboarding para pagar USD 440 a Nico, plata que Feli
+> hoy no tiene.** No es la ansiedad habitual — es un plazo concreto. El plan de respuesta:
+> `entregables/venta/05-primera-venta-rapida.md` — vender el programa a 1-2 alumnos 1 a 1 actuales
+> (ya son tráfico "caliente", no hay que esperar a que Instagram madure) usando el sistema de venta
+> ya escrito (`entregables/venta/01` a `04`). Una sola venta a USD 600 cubre el pago con margen.
+> El @felibayamenor **todavía no existe** — se crea de cero, sin conflicto con el PRO TIP de
+> memoria/05 §35 sobre no reciclar una cuenta con seguidores viejos.
+
+> 📄 **PARA EL ONBOARDING (jue 3/9, 10:30):** `Pilares-y-Micropasos-Solo-con-Sabor.pdf` (3 pág).> Es el bloque *"Estructurar Programa de Alto Valor"* de la Hoja de Ruta ya resuelto — traduce los
 > 3 hitos + los 53 ejercicios al vocabulario de Nico (pilares / micro pasos / vehículo) **sin rehacer
 > nada**. Presenta **4 pilares**: los 3 hitos secuenciales + EL PULSO (ritmo) como transversal, para
 > salir del piso del rango 3-6. Cierra con las 3 preguntas abiertas: ¿4 pilares o 3? · el precio
