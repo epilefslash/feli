@@ -30,7 +30,7 @@ cámara/luz varias veces.
 
 **BLOQUE 3 — edición y copys (2-3 hs, puede ser la tarde)**
 7. Editar los 3 videos.
-8. Pegar el copy de cada uno — ya están escritos, están en `memoria/04` secciones 26, 24 y 35.
+8. Pegar el copy de cada uno — ya están escritos en el Paso 3 de esta guía, más abajo.
 
 **BLOQUE 4 — el perfil y las destacadas (1 hs, no necesita guitarra)**
 9. Confirmar usuario + activar cuenta profesional (Pasos 1.1 y 1.2).
@@ -150,19 +150,85 @@ necesidad de diseño complejo.
 Se suben los 3 juntos, el mismo día que abrís el perfil. Son los que ya tienen guion listo.
 
 ## 3.1 · REEL FIJADO — NO NEGOCIABLE
-30 seg, vos tocando, sin hablar. Es la carta de presentación — el primer video que ve
-cualquiera que entra por curiosidad. Guion completo en `memoria/04`, sección 26.
-**Nada de texto en pantalla, nada de CTA — solo mostrar que sabés tocar.**
+
+No es un guion hablado — es una partitura emocional, sin texto en pantalla y sin hablar. La
+estructura son 4 frases: PRESENTA → DESARROLLA → CLÍMAX → CIERRA.
+
+- **[0:00–0:06] PRESENTA** — plano cerrado en tus manos. Frase grave y simple, en caja 1 o
+  caja 5. Pocas notas, con espacio. No es enganchar con velocidad — es que desde el segundo 1
+  se escuche control e intención.
+- **[0:06–0:14] DESARROLLA** — plano más abierto (cara + manos). La misma idea, un escalón más
+  arriba (caja 2 o 3). Acá metés el primer bending con vibrato, sostenido.
+- **[0:14–0:24] CLÍMAX** — subís con un slide a caja 4, más fuerte, más densidad de notas,
+  durante 3-4 segundos como máximo — no más, si no cansa — y después bajás.
+- **[0:24–0:30] CIERRA** — bajás, aflojás, cerrás en la tónica con vibrato. Cara relajada,
+  media sonrisa, sin decir nada. Dejá 1 segundo de silencio antes de cortar.
+
+**No negociable:** cero texto en pantalla, ningún hook, ningún CTA — la única letra es tu @ en
+una esquina, chico y discreto. Sonido limpio (acá el audio importa más que en cualquier otro
+video). Backing especial para esto, no reciclado de otro video.
+
+**Copy del post:** 🎸 @felibayamenor *(casi no hace falta más)*
 
 ## 3.2 · "3 formas de romper las cajas de la penta" (#9) — NO NEGOCIABLE
-45-60 seg, hablado + tocás. Formato de autoridad y alcance, alimenta el lead magnet PENTA.
-Guion completo en `memoria/04`, sección 24.
+
+> ⚠️ **Ojo con el tiempo real:** ensayado a ritmo natural esto da cerca de **90 segundos**, casi
+> el doble de lo que parece a simple vista. **Si te pasás de 60 seg al ensayarlo, sacá la Forma
+> 2 (Diagonal)** y guardala para un carrusel — Horizontal y Legos son las que más se entienden
+> mirando, y "es mi favorita" no alcanza para justificar el tiempo extra.
+
+**[0:00–0:03] HOOK** — a cámara, arranca un solo tuyo de fondo (2-3 seg, que se escuche que sabés)
+> "Te voy a mostrar tres formas de romperle las cajas a la pentatónica.
+> La mayoría las aprende, pero nadie te enseña a salir de ellas."
+
+**[0:03–0:15] FORMA 1 · HORIZONTAL** — demostración, 4 seg
+> "Forma uno: horizontal. En vez de subir y bajar encerrado en una caja, conectá una posición
+> con la siguiente. Pensá el mástil para adelante y para atrás — no para arriba y abajo."
+
+**[0:15–0:27] FORMA 2 · DIAGONAL** *(la primera que sacrificás si el tiempo aprieta)*
+> "Forma dos: diagonal. Te traigo mi favorita. En vez de moverte derecho, conectá las octavas
+> en diagonal. Cubrís mucho más mástil sin perderte nunca."
+
+**[0:27–0:42] FORMA 3 · LEGOS** — demostración, después el solo extenso (10-12 seg recorriendo
+todo el mástil, con sabor)
+> "Forma tres: Legos. Cada caja es una piecita. Cuando las encastrás entre sí, el mástil deja
+> de ser cinco cajas separadas… y pasa a ser UN solo mapa."
+
+**[0:42–0:52] CIERRE + CTA**
+> "No necesitás aprender más pentatónicas. Necesitás más formas de navegar la que ya sabés.
+> ¿Cuál de las tres vas a probar primero? Contame abajo 👇
+> Y si querés el mapa de las cinco cajas conectadas, comentá PENTA y te lo mando gratis."
+
+**Labels sugeridos en pantalla durante las demos:** ✱ HORIZONTAL → adelante y atrás ·
+✱ DIAGONAL → octavas · ✱ LEGOS → un solo mapa.
 
 ## 3.3 · EPIFANÍA — "El día que dejé de ver cajas" — NO NEGOCIABLE
-20-28 seg, hablado a cámara, sin tocar. **Antes de filmar tenés que completar 4 datos reales
-tuyos** (dónde fue, qué estabas tocando, la frase textual del profesor, qué cambió). Guía
-completa para llenarlos en `memoria/04`, sección 35 — no los inventes, aproximá si hace falta
-pero que sea real.
+
+20-28 seg, hablado a cámara, sin tocar, sin backing. **Todavía tiene 4 blancos sin completar —
+ver la conversación del 2/9 para las preguntas que ayudan a recordar el momento real. No se
+filma hasta tenerlos.**
+
+**[0:00–0:05] EL ANTES** — tono bajo, como quien se acuerda de algo
+> "Yo tenía las cinco cajas de la pentatónica estudiadas. Las cinco. Me las sabía de memoria.
+> Y cuando improvisaba, no me movía de la primera."
+
+**[0:05–0:14] EL INSTANTE**
+> "Un día, en **[1 · DÓNDE / CON QUIÉN]**, estaba tocando **[2 · QUÉ ESTABAS TOCANDO]** y me
+> frena. Y me dice: **[3 · LA FRASE TEXTUAL]**"
+>
+> *(Un segundo entero de silencio después. Que quede sonando. No la expliques encima.)*
+
+**[0:14–0:22] LO QUE SE TE MOVIÓ**
+> "Y ahí se me cayó la ficha. Yo no tenía cinco cajas. Tenía un mástil, y me lo habían enseñado
+> partido en cinco pedazos que nunca nadie me dijo cómo unir. No me faltaban notas. Me faltaba
+> el mapa."
+
+**[0:22–0:28] EL DESPUÉS**
+> "A partir de ese día empecé a tocar distinto. **[4 · QUÉ CAMBIÓ CONCRETO]**.
+> Por eso hoy, cuando enseño, siempre empiezo por ahí."
+
+**Sin CTA.** Este es el único de todos tus videos que no pide nada — existe solo para que te
+entiendan. Como mucho, en el copy: *"¿Vos en qué caja vivís? Contame 👇"*
 
 > **Recordatorio del módulo 15 de InstaMúsico:** invertí más tiempo pensando el hook (los
 > primeros 3 segundos) de estos 3 videos que en el resto. Es la frase que decide si alguien
@@ -205,7 +271,7 @@ Imprimible o para tildar en el celular. El orden importa: de arriba hacia abajo.
 - [ ] Filmar "3 formas de romper las cajas"
 - [ ] Filmar Epifanía
 - [ ] Editar los 3
-- [ ] Escribir el copy de cada uno (están en `memoria/04`, secciones 26, 24 y 35)
+- [ ] Escribir el copy de cada uno (están completos en el Paso 3, arriba)
 
 **El día de abrir:**
 - [ ] Pasar el perfil de privado a público (si estaba privado)
