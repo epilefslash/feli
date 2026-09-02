@@ -11,6 +11,44 @@ va tildando.
 
 ---
 
+## ARRANCÁS MAÑANA — el orden exacto, bloque por bloque
+
+Esto es lo que hay que hacer, en este orden, para no perder tiempo saltando entre tareas. Cada
+bloque agrupa lo que se hace junto (mismo lugar, mismo setup) para no tener que armar y desarmar
+cámara/luz varias veces.
+
+**BLOQUE 1 — antes de tocar la guitarra (20 min, a la mesa)**
+1. Completar los 4 datos reales de la Epifanía (Paso 3.3 más abajo). Es pensar, no filmar —
+   hacelo antes de agarrar la viola para no perder tiempo de filmación pensando en cámara.
+2. Decidir qué va en el `[LINK]` de la bio (Paso 1.4). Con un link de WhatsApp alcanza para hoy.
+
+**BLOQUE 2 — filmación, todo junto (60-90 min, calentá 10 min antes)**
+3. Foto de perfil (Paso 1.3) — sacala primero, mismo lugar y luz que vas a usar para filmar.
+4. Reel Fijado (Paso 3.1) — el más simple, sin hablar, para arrancar entrando en calor.
+5. "3 formas de romper las cajas" (Paso 3.2).
+6. Epifanía (Paso 3.3) — con los datos ya resueltos en el Bloque 1.
+
+**BLOQUE 3 — edición y copys (2-3 hs, puede ser la tarde)**
+7. Editar los 3 videos.
+8. Pegar el copy de cada uno — ya están escritos, están en `memoria/04` secciones 26, 24 y 35.
+
+**BLOQUE 4 — el perfil y las destacadas (1 hs, no necesita guitarra)**
+9. Confirmar usuario + activar cuenta profesional (Pasos 1.1 y 1.2).
+10. Pegar la bio final (Paso 1.4).
+11. Armar las 11 historias de las destacadas MÉTODO + FORMACIÓN (Paso 2) — el texto de cada una
+    ya está escrito acá abajo, es fondo de color + texto, no hace falta diseño complejo.
+
+**BLOQUE 5 — publicar**
+12. Subir las 2 destacadas al perfil.
+13. Pasar el perfil a público (si estaba privado).
+14. Subir los 3 videos del Día 0.
+
+**Si el Bloque 2 (filmación) no rinde todo en una sola mañana, no pasa nada — repetilo al día
+siguiente y seguís desde ahí.** Lo que no conviene es abrir el perfil sin los 3 videos: mejor un
+día más de producción que un perfil público sin nada para mostrar.
+
+---
+
 ## PASO 0 · El estado real, hoy
 
 | Qué | Estado | Nivel |
