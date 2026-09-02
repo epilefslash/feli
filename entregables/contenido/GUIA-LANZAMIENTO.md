@@ -18,15 +18,15 @@ bloque agrupa lo que se hace junto (mismo lugar, mismo setup) para no tener que 
 cámara/luz varias veces.
 
 **BLOQUE 1 — antes de tocar la guitarra (20 min, a la mesa)**
-1. Completar los 4 datos reales de la Epifanía (Paso 3.3 más abajo). Es pensar, no filmar —
-   hacelo antes de agarrar la viola para no perder tiempo de filmación pensando en cámara.
+1. Ensayar el guion de la Epifanía en voz alta, 2-3 veces (Paso 3.3 más abajo) — ya está cerrado.
+   Cuidá el timing de la frase de "la ficha", que es el clímax del video.
 2. Decidir qué va en el `[LINK]` de la bio (Paso 1.4). Con un link de WhatsApp alcanza para hoy.
 
 **BLOQUE 2 — filmación, todo junto (60-90 min, calentá 10 min antes)**
 3. Foto de perfil (Paso 1.3) — sacala primero, mismo lugar y luz que vas a usar para filmar.
 4. Reel Fijado (Paso 3.1) — el más simple, sin hablar, para arrancar entrando en calor.
 5. "3 formas de romper las cajas" (Paso 3.2).
-6. Epifanía (Paso 3.3) — con los datos ya resueltos en el Bloque 1.
+6. Epifanía (Paso 3.3) — ya ensayada en el Bloque 1.
 
 **BLOQUE 3 — edición y copys (2-3 hs, puede ser la tarde)**
 7. Editar los 3 videos.
@@ -59,7 +59,7 @@ día más de producción que un perfil público sin nada para mostrar.
 | Cuenta profesional (Creador) | Falta activar | Bloquea |
 | Reel Fijado (#12) | Guion listo, falta filmar | Bloquea |
 | "3 formas de romper las cajas" (#9) | Guion listo, falta filmar | Bloquea |
-| Epifanía | Guion listo, faltan 4 datos tuyos + filmar | Bloquea |
+| Epifanía | Guion cerrado, falta filmar | Bloquea |
 | Destacada MÉTODO (7 historias) | Texto listo en esta guía, falta subir a Instagram | Bloquea |
 | Destacada FORMACIÓN (4 historias) | Texto listo en esta guía, falta subir a Instagram | Bloquea |
 | Destacada ALUMNOS | Necesita los 2 testimonios | Espera |
@@ -202,33 +202,39 @@ todo el mástil, con sabor)
 **Labels sugeridos en pantalla durante las demos:** ✱ HORIZONTAL → adelante y atrás ·
 ✱ DIAGONAL → octavas · ✱ LEGOS → un solo mapa.
 
-## 3.3 · EPIFANÍA — "El día que dejé de ver cajas" — NO NEGOCIABLE
+## 3.3 · EPIFANÍA — "El día que se me cayó la ficha" — NO NEGOCIABLE — CERRADO
 
-20-28 seg, hablado a cámara, sin tocar, sin backing. **Todavía tiene 4 blancos sin completar —
-ver la conversación del 2/9 para las preguntas que ayudan a recordar el momento real. No se
-filma hasta tenerlos.**
+~30-35 seg, hablado a cámara, sin tocar, sin backing. **Ya está cerrado — listo para filmar.**
+No fue un profesor con una frase mágica: fue un proceso a fines de la secundaria, y una frase
+real tuya que quedó como el clímax del video.
 
 **[0:00–0:05] EL ANTES** — tono bajo, como quien se acuerda de algo
 > "Yo tenía las cinco cajas de la pentatónica estudiadas. Las cinco. Me las sabía de memoria.
 > Y cuando improvisaba, no me movía de la primera."
 
-**[0:05–0:14] EL INSTANTE**
-> "Un día, en **[1 · DÓNDE / CON QUIÉN]**, estaba tocando **[2 · QUÉ ESTABAS TOCANDO]** y me
-> frena. Y me dice: **[3 · LA FRASE TEXTUAL]**"
+**[0:05–0:16] CÓMO LLEGÓ** — el proceso real, sin acelerar
+> "No fue una persona ni una clase puntual. Fue de a poco, terminando el secundario: sacando
+> temas de oído, mirando videos, con un profesor que me obligaba a improvisar — no me quedaba
+> otra. Y viendo que Slash y Jimmy Page no se quedaban pegados en una caja: se movían en
+> diagonal, conectaban todo el mástil."
 >
-> *(Un segundo entero de silencio después. Que quede sonando. No la expliques encima.)*
+> *(Medio segundo de silencio antes de lo que sigue — no hace falta que sea tan largo, esta
+> parte ya viene con carga narrativa.)*
 
-**[0:14–0:22] LO QUE SE TE MOVIÓ**
-> "Y ahí se me cayó la ficha. Yo no tenía cinco cajas. Tenía un mástil, y me lo habían enseñado
-> partido en cinco pedazos que nunca nadie me dijo cómo unir. No me faltaban notas. Me faltaba
-> el mapa."
+**[0:16–0:24] LA FICHA** — la frase real, como si te acordaras en el momento
+> "Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?
+> No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas."
 
-**[0:22–0:28] EL DESPUÉS**
-> "A partir de ese día empecé a tocar distinto. **[4 · QUÉ CAMBIÓ CONCRETO]**.
+**[0:24–0:32] EL DESPUÉS**
+> "Desde ahí empecé a moverme distinto: horizontal, diagonal, no solo de arriba a abajo.
 > Por eso hoy, cuando enseño, siempre empiezo por ahí."
 
 **Sin CTA.** Este es el único de todos tus videos que no pide nada — existe solo para que te
 entiendan. Como mucho, en el copy: *"¿Vos en qué caja vivís? Contame 👇"*
+
+**Un tip de grabación:** la frase de "la ficha" es el clímax — decila más lenta que el resto,
+con un pequeño silencio antes. Y podés nombrar a Slash y Page tranquilo — no es un dato técnico
+que haya que verificar, es tu propio recuerdo de mirarlos tocar de adolescente.
 
 > **Recordatorio del módulo 15 de InstaMúsico:** invertí más tiempo pensando el hook (los
 > primeros 3 segundos) de estos 3 videos que en el resto. Es la frase que decide si alguien
@@ -266,7 +272,7 @@ Imprimible o para tildar en el celular. El orden importa: de arriba hacia abajo.
 - [ ] Subir ambas destacadas al perfil
 
 **Los 3 videos del Día 0:**
-- [ ] Completar los 4 datos reales de la Epifanía
+- [ ] Ensayar en voz alta el guion de la Epifanía (ya cerrado)
 - [ ] Filmar Reel Fijado
 - [ ] Filmar "3 formas de romper las cajas"
 - [ ] Filmar Epifanía

@@ -577,24 +577,32 @@ fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en
 
 ---
 
-## 35) GUION EPIFANÍA — "El día que dejé de ver cajas" (categoría nueva, pedida por Nico)
+## 35) GUION EPIFANÍA — "El día que se me cayó la ficha" (categoría nueva, pedida por Nico) — CERRADO
 
 > **Por qué existe:** la Hoja de Ruta de Nico pide **1 posteo de Epifanía** entre los primeros 15, y
 > es una categoría que no existía en nuestro marco (teníamos A / B / C / P / V). No es lo mismo que
 > TU HISTORIA (#11): la Historia es el **arco completo** de 60 seg (11 años → facultad → estancamiento
-> → quiebre → hoy). La Epifanía es **un solo instante**, contado en cámara lenta.
-> **Duración:** 20-28 seg · **Formato:** hablado a cámara, sin backing (o clima casi inaudible).
+> → quiebre → hoy). La Epifanía es **un instante**, contado en cámara lenta.
+> **Duración real:** el guion original pedía 20-28 seg. Con el recuerdo real de Feli (2/9) esto se
+> estira a **~30-35 seg** — no es un problema, es más importante que sea honesto y completo que
+> cumplir un número. **Formato:** hablado a cámara, sin backing (o clima casi inaudible).
 > **Función:** instala LA TESIS DEL MÉTODO ("el mástil es un mapa, no cinco cajas") sin enseñar nada
-> y sin vender nada. El que la ve entiende de dónde sale todo el resto del perfil.
+> y sin vender nada.
 
-### La regla que hace que una epifanía funcione (y que casi nadie cumple)
-Una epifanía necesita **un detalle concreto y sensorial**: dónde estabas, qué estabas tocando, qué te
-dijo esa persona **textual**. Sin ese detalle es una moraleja, y una moraleja no se comparte. Con el
-detalle es un recuerdo, y un recuerdo el otro lo vive como propio.
+### ✅ Cerrado el 2/9, sobre el recuerdo real de Feli — no sobre un profesor con una frase
+El guion original pedía una escena de un solo profesor diciendo una frase textual. Feli lo intentó
+recordar y **no fue así**: no hay una sola persona ni una clase puntual. Fue un proceso, a fines de
+la secundaria — sacando temas de oído, mirando videos, con un profesor particular que lo obligaba a
+improvisar ("no te quedaba otra"), y viendo específicamente que Slash y Jimmy Page no se quedaban
+pegados en una caja, se movían en diagonal. Un día eso cristalizó en una frase suya, real, tal cual
+la dijo en esta conversación: ***"¿cómo no me di cuenta antes de que se podían unir?"*** — esa es la
+frase que sostiene el video, no una inventada.
 
-> ⚠️ **4 blancos a completar antes de grabar** (marcados `[...]`). No los inventes ni los saltees:
-> son exactamente lo que separa este video de un consejo genérico. Si no te acordás con precisión,
-> aproximá pero que sea REAL (el año, el barrio, la marca de la guitarra que tenías).
+> **La regla de fondo no cambió, solo la forma de cumplirla:** una epifanía necesita un detalle
+> concreto y real para no ser una moraleja genérica. Acá el detalle no es una escena de cine con un
+> profesor — es el proceso real (sacar de oído, ver a los grandes moverse, un profesor que empuja a
+> improvisar) más la frase textual del momento en que cristalizó. Eso sigue siendo específico y
+> sigue siendo cierto.
 
 ### Guion, palabra por palabra
 
@@ -602,22 +610,21 @@ detalle es un recuerdo, y un recuerdo el otro lo vive como propio.
 > "Yo tenía las cinco cajas de la pentatónica estudiadas. Las cinco. Me las sabía de memoria.
 > Y cuando improvisaba, no me movía de la primera."
 
-**[0:05–0:14] EL INSTANTE — acá van los detalles reales**
-> "Un día, en [ **1 · DÓNDE / CON QUIÉN** — 'una clase con un profesor en Rosario', el lugar real ],
-> estaba tocando [ **2 · QUÉ ESTABAS TOCANDO** — un blues, un lick, lo que fuera ] y me frena.
-> Y me dice: [ **3 · LA FRASE TEXTUAL** — lo más cerca posible de lo que dijo de verdad ]."
+**[0:05–0:16] CÓMO LLEGÓ — el proceso real, sin acelerar**
+> "No fue una persona ni una clase puntual. Fue de a poco, terminando el secundario: sacando temas
+> de oído, mirando videos, con un profesor que me obligaba a improvisar — no me quedaba otra.
+> Y viendo que Slash y Jimmy Page no se quedaban pegados en una caja: se movían en diagonal,
+> conectaban todo el mástil."
 
-*(Acá va la pausa más importante del video: **un segundo entero de silencio** después de la frase del
-profesor. Que quede sonando. No la expliques encima.)*
+*(Medio segundo de silencio acá — un respiro antes de la frase que sigue, no hace falta que sea tan
+largo como en la versión original porque esta parte ya viene con más carga narrativa.)*
 
-**[0:14–0:22] LO QUE SE TE MOVIÓ — la tesis, dicha como conclusión propia, no como enseñanza**
-> "Y ahí se me cayó la ficha. Yo no tenía cinco cajas. Tenía **un** mástil, y me lo habían enseñado
-> partido en cinco pedazos que nunca nadie me dijo cómo unir.
-> No me faltaban notas. Me faltaba el mapa."
+**[0:16–0:24] LA FICHA — la frase real, dicha como si te acordaras en el momento**
+> "Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?
+> No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas."
 
-**[0:22–0:28] EL DESPUÉS — corto, sin vender**
-> "A partir de ese día empecé a tocar distinto. [ **4 · QUÉ CAMBIÓ CONCRETO** — 'dejé de repetir los
-> mismos tres licks', 'empecé a moverme sin pensar', lo que te haya pasado de verdad ].
+**[0:24–0:32] EL DESPUÉS — corto, sin vender**
+> "Desde ahí empecé a moverme distinto: horizontal, diagonal, no solo de arriba a abajo.
 > Por eso hoy, cuando enseño, siempre empiezo por ahí."
 
 **CTA:** ninguno explícito. Este posteo **no pide nada** — y eso es a propósito. Es el único de los 15
@@ -625,24 +632,29 @@ que existe solo para que te entiendan. Como mucho, en el copy: *"¿Vos en qué c
 (pregunta de engagement, sin keyword).
 
 ### Guía de tono
-- **No lo actúes de emocionado.** La epifanía se cuenta bajo, casi como si te sorprendiera acordarte.
-  Si la contás con energía de reel, se convierte en una anécdota motivacional y pierde todo.
-- **La frase del profesor decila con otra voz** — un poco más lenta, marcando que estás citando.
-- **Cero música en el instante.** Si vas a poner algo, que entre recién en "por eso hoy, cuando enseño".
+- **No lo actúes de emocionado.** Se cuenta bajo, casi reconstruyendo el recuerdo en el momento —
+  de hecho podés apoyarte en que es así de verdad: no lo tenías tan ordenado hasta pensarlo ahora.
+- **La frase de "la ficha" es el clímax — decila más lenta que el resto,** con un pequeño silencio
+  antes. Ahí está todo el peso del video.
+- **Cero música hasta "por eso hoy, cuando enseño".**
 - Sin memes, sin zooms, sin efectos. Mismo criterio que la Historia: cualquier adorno le resta verdad.
+- **Podés nombrar a Slash y Page sin miedo** — no estás afirmando un dato técnico verificable (como
+  una transcripción), estás contando tu propia percepción de adolescente mirándolos tocar. Eso es
+  tuyo, no hace falta blindarlo con un fact-check.
 
 ### Copy del post
 > Me sabía las cinco cajas de la pentatónica. Las cinco.
 >
 > Y cuando improvisaba, no salía de la primera.
 >
-> Hasta que un día un profesor me frenó en medio de una frase y me dijo [ **la frase textual** ].
+> No fue una persona ni una clase puntual la que me lo destrabó. Fue de a poco, terminando el
+> secundario: sacando temas de oído, mirando videos, con un profesor que me obligaba a improvisar —
+> no me quedaba otra. Y viendo que Slash y Jimmy Page no se quedaban pegados en una caja: se movían
+> en diagonal, conectaban todo el mástil.
 >
-> Ahí entendí que el problema no era que me faltaran notas. Me sobraban notas.
-> Lo que me faltaba era el mapa: entender que eso no son cinco cajas separadas, es **un solo mástil**
-> y hay puentes entre una posición y la siguiente.
+> Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?
 >
-> Nadie me lo había dicho nunca así. Y me cambió la forma de tocar.
+> No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas.
 >
 > Por eso hoy, cuando enseño, siempre empiezo por ahí. No por más escalas. Por el mapa.
 >
