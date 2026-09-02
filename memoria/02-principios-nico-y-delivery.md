@@ -52,6 +52,20 @@ ticket en vez de clases sueltas · vender resultados no horas · un alumno extra
    descartás, los NUTRÍS con contenido hasta que estén listos. Consecuencia para Feli: cuando
    publique y no compren al toque, NO falló — está nutriendo al 97%. El Formato C hace las dos cosas
    (convierte al 3%, nutre al 97%). Mata la ansiedad de "publiqué y no vendí".
+   > **Ampliado (1/9, InstaMúsico mód. 22):** el 97% no es un bloque uniforme — se divide en 3 capas,
+   > según qué tan cerca está cada persona de comprar:
+   > | Capa | % | Qué le pasa |
+   > |---|---|---|
+   > | Listos | 3% | Van a comprar ya, con el estímulo correcto |
+   > | Buscando info | 17% | Están investigando activamente, comparando opciones |
+   > | Consciente del problema | 20% | Saben que tienen el problema, todavía no buscan solución |
+   > | No consciente | 60% | Ni siquiera identificaron el problema como problema |
+   >
+   > Sirve para calibrar el contenido: los posteos de valor y las creencias atacadas (Formato C)
+   > trabajan mejor con el 20-37% de arriba (consciente + buscando info) — le dan el "ajá" que los
+   > mueve a buscar. Los CTA directos (posteo de 2 pasos, vendedores) apuntan al 3%. El 60% de abajo
+   > no se convierte con ningún posteo — se convierte con tiempo y exposición repetida (por eso
+   > importa la constancia, no un posteo genial suelto).
 2. **Viralidad de nicho > viralidad general:** no querés 500k views de gente random, querés 5.000
    views de guitarristas intermedios frustrados. Un reel "chico" bien dirigido vale más que uno
    viral vacío. Valida hablarle al avatar y no diluir para gustarle a todos.
