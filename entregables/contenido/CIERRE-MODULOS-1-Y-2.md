@@ -61,7 +61,7 @@ depende de que otra persona te conteste, es 100% vos con la cabeza despejada.
 
 | # | Qué | Tiempo | De dónde sale |
 |---|---|---|---|
-| B1 | Análisis de competencia — buscar 5-10 cuentas de guitarra rock/blues con programas online | 20-30 min | Módulo 1 y 2 (pedido 2 veces) |
+| B1 | Análisis de competencia — buscar 5-10 cuentas de guitarra rock con programas online | 20-30 min | Módulo 1 y 2 (pedido 2 veces) |
 
 **Subtotal Categoría B: ~20-30 minutos.** Es el ítem que más veces pide el material de Nico en
 total — vale la pena no dejarlo para último momento.

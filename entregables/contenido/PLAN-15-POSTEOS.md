@@ -98,7 +98,7 @@ el invento se nota.
 
 **La pregunta:** ¿qué salía de la guitarra en el segundo exacto en que te frenó?
 
-- **Sirve:** "un blues en La, y me había quedado clavado arriba de todo en la caja 1", "un lick de
+- **Sirve:** "una base en La, y me había quedado clavado arriba de todo en la caja 1", "un lick de
   Page que había sacado esa semana"
 - **No sirve:** "estaba improvisando" (demasiado general — no genera imagen)
 - **Es el detalle que hace que un guitarrista se vea a sí mismo.** Cuanto más específico, más gente se
@@ -158,7 +158,7 @@ verdad. Subtítulos sí, siempre.
 > ¿Vos en qué caja vivís? Contame
 
 **Hashtags:** #guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock
-#bluesrock #guitarristas
+#guitarristas
 
 ---
 
@@ -208,7 +208,7 @@ diagramas de las 5 cajas. **No una placa de texto: el objeto tiene que verse.** 
 > Es gratis, no te pido el mail, no hay letra chica. Guardalo.
 
 **Hashtags:** #guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra
-#solodeguitarra #rock #bluesrock #guitarristas
+#solodeguitarra #rock #guitarristas
 
 ### Las 3 reglas de este posteo
 
@@ -260,7 +260,7 @@ Luz natural, sin producción. **Si tenés una foto vieja tuya tocando de chico, 
 >
 > ¿Cuánto hace que tocás? Contame abajo.
 
-**Hashtags:** #guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock #bluesrock
+**Hashtags:** #guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock
 #pentatonica
 
 ### StoryTelling 2 — "Por qué dejé de dar clases sueltas"
@@ -290,7 +290,7 @@ trabajo, no de show.
 >
 > No es más contenido. Es el mismo contenido, ordenado. Y esa diferencia es todo.
 
-**Hashtags:** #guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock #bluesrock
+**Hashtags:** #guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock
 
 **Ojo con el timing del ST2:** va en la semana 3, no antes. Necesita que el perfil ya haya demostrado
 que sabés tocar. Publicado temprano, suena a que hablás de pedagogía sin haber mostrado la mano.
@@ -372,7 +372,7 @@ primero que se aclara y hay que repetirlo una vez a mitad de la charla.
 >
 > (Y gracias **[Nombre]** por prestarte a esto.)
 
-**Hashtags:** #guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #bluesrock
+**Hashtags:** #guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock
 #solodeguitarra
 
 ---

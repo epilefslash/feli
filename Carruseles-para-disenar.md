@@ -4,7 +4,7 @@
 
 - **Formato:** 1080 × 1350 px (vertical 4:5, formato carrusel de Instagram).
 - **Cantidad:** 4 carruseles. Cada slide = una imagen.
-- **Marca:** cuenta de guitarra rock/blues para guitarristas intermedios. Usuario: **@felibayamenor**.
+- **Marca:** cuenta de guitarra rock para guitarristas intermedios. Usuario: **@felibayamenor**.
 - **Estética:** la define Feli (ya la tiene resuelta) — respetar su paleta y tipografías.
 - **Jerarquía de cada slide:** UNA idea por slide. Título grande y corto arriba, texto de apoyo chico abajo. Poco texto: el carrusel se lee en 3 segundos por slide.
 - **Slide 1 (portada):** el hook ocupa todo, tipografía enorme. Tiene que frenar el scroll. Agregar indicador de "deslizá →".

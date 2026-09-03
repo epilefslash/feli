@@ -82,7 +82,7 @@ Tiempo total: 60-75 min de filmación. Edición después, fuera del día de grab
 
 **[11:03 — Recordás el foco de la semana]**
 > **Vos:** "Esta semana laburamos ESPACIO. La consigna de hoy es una sola: quiero que dejen respirar
-> las notas. Menos es más. Voy a poner un blues lento en La y van pasando de a uno. Regla de oro:
+> las notas. Menos es más. Voy a poner un lento en La y van pasando de a uno. Regla de oro:
 > si en algún momento no sabés qué tocar… no toques. El silencio también es música. ¿Va? Dale Nacho,
 > arrancás vos que sos el que más corre." *(risas del grupo)*
 

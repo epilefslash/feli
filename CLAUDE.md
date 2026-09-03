@@ -1,7 +1,7 @@
 # Método FLOW — Solo con Sabor (contexto del proyecto)
 
 > Programa de guitarra de Nico Galliussi (mentor) aplicado por Feli (alumno/profesor que enseña con
-> este método). Objetivo: pasar de clases 1 a 1 a un programa grupal online — improvisación en rock/blues
+> este método). Objetivo: pasar de clases 1 a 1 a un programa grupal online — improvisación en rock
 > sobre pentatónica menor "con sabor", en 12 semanas (3 hitos + bonus post-programa).
 
 **Quién es quién:** Feli = el usuario de esta sesión, alumno de Nico y quien da el programa. Nico Galliussi

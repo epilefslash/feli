@@ -19,7 +19,7 @@ Trabaja de otra cosa, toca 2–4 hs por semana en casa.
 - Mira tutoriales sueltos de YouTube/IG y nunca cierra la idea
 - Tiene plata para invertir si ve resultado real
 
-**Deseo:** improvisar un solo de rock/blues que suene profesional y con sabor, no escolar.
+**Deseo:** improvisar un solo de rock que suene profesional y con sabor, no escolar.
 
 ---
 
@@ -82,7 +82,7 @@ Trabaja de otra cosa, toca 2–4 hs por semana en casa.
 > paralelo. Ver sección 28-BIS más abajo para el detalle y la secuencia de producción.
 
 ### Ficha de la oferta (one-pager)
-- **Nombre:** "Solo con Sabor" — Programa de improvisación en rock/blues.
+- **Nombre:** "Solo con Sabor" — Programa de improvisación en rock.
 - **Para quién:** guitarrista intermedio autodidacta (28-45) que sabe la pentatónica caja 1 y suena escolar.
 - **Promesa (Punto A → Punto B):** "En 90 días pasás de repetir siempre los mismos licks en la caja 1
   a improvisar solos de rock con sabor, moviéndote por las 5 cajas con bending, vibrato y espacio."

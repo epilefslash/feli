@@ -8,7 +8,7 @@
 
 ## 7) GUION VIDEO 5 — "La pentatónica menor NO es de principiantes"
 
-**Duración:** 35–45 seg · Backing: blues-rock en Mi · Tono: desafiante pero amistoso.
+**Duración:** 35–45 seg · Backing: rock en Mi · Tono: desafiante pero amistoso.
 
 | Tiempo | Texto en pantalla | Qué tocás |
 |---|---|---|
@@ -19,7 +19,7 @@
 | 0:32–0:38 | Lista secuencial (1 seg c/u): "🎸 Back in Black — Angus Young" / "🎸 Voodoo Child — Hendrix" / "🎸 Walk This Way — Joe Perry" / "🎸 Whole Lotta Love — Page" / "🎸 Parisienne Walkways — Gary Moore" → "Cinco escuelas. Una sola escala." | Tocás suave de cama |
 | 0:38–0:45 | "Comentá PENTA y te paso el mapa de las 5 cajas conectadas 👇" | Frame final, asentís |
 
-> **Lista actualizada a 5 escuelas distintas** (hard rock, psicodélico, rock americano, hard rock británico, blues-rock). El cierre "Cinco escuelas. Una sola escala." pega más que "Todos: pentatónica menor".
+> **Lista actualizada a 5 escuelas distintas** (hard rock, psicodélico, rock americano, hard rock británico, rock melódico). El cierre "Cinco escuelas. Una sola escala." pega más que "Todos: pentatónica menor".
 > **CTA con lead magnet:** comentan PENTA → les mandás el "Mapa de las 5 cajas" (YA ESTÁ HECHO: `Mapa-5-cajas-pentatonica.pdf`). Variar la palabra clave por reel (PENTA en #5, SABOR en #6).
 > *Nota fact-check: si querés 100% penta menor pura de Gary Moore usá "Parisienne Walkways" (Still Got the Blues mezcla con menor natural/armónico).*
 
@@ -71,7 +71,7 @@ doble parada tipo Hendrix o bending largo con vibrato. TUYO, improvisado.
 > Te muestro cómo en mi método. Comentá **SOLO** y te paso info 📩
 
 **Hashtags:**
-`#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #hardrock #bluesrock #guitarristas #angusyoung #hendrix #joeperry #jimmypage #garymoore #aprenderguitarra`
+`#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #hardrock #guitarristas #angusyoung #hendrix #joeperry #jimmypage #garymoore #aprenderguitarra`
 
 **Notas de edición (estilo que ya venís usando en el #4):**
 - Hook de texto en los primeros 1.5 seg.
@@ -154,7 +154,7 @@ solo como texto sobre la cama. Ganás 5 seg. Pero si te sobra labia, dejalos —
 > con dos equipos distintos (uno humilde, uno profesional). Suena bien las dos veces → el sabor está en
 > los dedos. Argumento más fuerte y más fácil de filmar.
 
-**Duración:** 35–40 seg · Backing: blues-rock en Mi o La · Tono: honesto, tranquilo.
+**Duración:** 35–40 seg · Backing: rock en Mi o La · Tono: honesto, tranquilo.
 **Equipo elegido (extremos):** SX 10" microfoneado con SM57 (humilde/analógico) vs plugin premium de
 Universal Audio (profesional/digital). Mismos dedos, misma frase.
 
@@ -196,7 +196,7 @@ la caja 1, cierre con vibrato en la tónica. Practicala 5 min antes. Tocás BIEN
 > Si querés trabajar tu sabor, escribime **SABOR** por DM 📩
 
 **Hashtags:**
-`#guitarra #guitarraelectrica #pentatonica #solodeguitarra #rock #bluesrock #guitarristas #angusyoung #aprenderguitarra #toneworship #guitartone #homestudio`
+`#guitarra #guitarraelectrica #pentatonica #solodeguitarra #rock #guitarristas #angusyoung #aprenderguitarra #toneworship #guitartone #homestudio`
 
 **⚠️ FACT-CHECK:** el argumento es "el dedo importa más que el equipo extra", NO "ellos no usaban
 pedales" (Hendrix usaba Fuzz Face, Octavia, Univibe, Wah).
@@ -325,7 +325,7 @@ LEÍDO — cualquier adorno lo diluye. 30-35 seg.
 > **Creencia atacada:** "mirar más tutoriales me va a hacer mejor" (creencias 5 y 9 combinadas).
 > Es EL dolor central del avatar (autodidacta de YouTube frustrado) y conecta directo con el copy
 > maestro de la sección 12. Formato C hablado, como el 5 y el 6.
-> **Duración:** 40-45 seg · **Backing:** blues en La · **Tono:** empático — vos FUISTE ese tipo.
+> **Duración:** 40-45 seg · **Backing:** rock en La · **Tono:** empático — vos FUISTE ese tipo.
 > **CTA keyword:** ROCK ("te mando 3 licks con sabor para practicar").
 > **Particularidad:** acá el "mal" NO es tocar mal — es una imagen: el scroll infinito de tutoriales.
 
@@ -364,7 +364,7 @@ acusado. Por eso arrancás con "yo era ese tipo" — te ponés adentro del probl
 esta creencia). Cambiar solo el CTA final: "Comentá **ROCK** y te mando 3 licks con el cómo 📩".
 
 **Hashtags:**
-`#guitarra #guitarraelectrica #aprenderguitarra #tutorialguitarra #solodeguitarra #rock #bluesrock #pentatonica #guitarristas #practicarguitarra`
+`#guitarra #guitarraelectrica #aprenderguitarra #tutorialguitarra #solodeguitarra #rock #pentatonica #guitarristas #practicarguitarra`
 
 **Nota de edición:** en el "mal" no hay guitarra sonando — meté un backing tenso bajito o silencio
 incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto vs guitarra viva.
@@ -489,7 +489,7 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 >
 > Si te sentís identificado, escribime SOLO 📩
 
-**Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #historiapersonal #rock #bluesrock #guitarristas`
+**Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #historiapersonal #rock #guitarristas`
 
 **Nota de edición:** subtítulos SIEMPRE (es el video que más se comparte a pantalla apagada).
 Sin efectos, sin memes, sin zooms bruscos — cualquier adorno visual le resta verdad a este video.
@@ -660,7 +660,7 @@ que existe solo para que te entiendan. Como mucho, en el copy: *"¿Vos en qué c
 >
 > ¿Vos en qué caja vivís? Contame 👇
 
-**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #bluesrock #guitarristas`
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
 ---
 
@@ -699,7 +699,7 @@ Luz natural, sin producción. Si tenés una foto vieja tuya tocando de chico, **
 >
 > ¿Cuánto hace que tocás? Contame abajo 👇
 
-**Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock #bluesrock #pentatonica`
+**Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock #pentatonica`
 
 ### StoryTelling 2 — "Por qué dejé de dar clases sueltas"
 **Función:** instala el modelo (programa con proceso, no clases por hora) **sin vender nada**. Cuando
@@ -725,7 +725,7 @@ antes de que exista el precio.
 >
 > No es más contenido. Es el mismo contenido, ordenado. Y esa diferencia es todo.
 
-**Hashtags:** `#guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock #bluesrock`
+**Hashtags:** `#guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock`
 
 > **Ojo con el timing del ST2:** va en la semana 3, no antes. Necesita que el perfil ya haya demostrado
 > que sabés tocar (autoridad), si no suena a que hablás de pedagogía sin haber mostrado la mano.
@@ -767,7 +767,7 @@ diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. 
 >
 > Es gratis, no te pido el mail, no hay letra chica. Guardalo 📌
 
-**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra #solodeguitarra #rock #bluesrock #guitarristas`
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
 ### Las 3 reglas de este posteo (marketing, no estética)
 1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy, el otro ya no necesita
@@ -841,6 +841,6 @@ respuesta"*. Es lo primero que se aclara y hay que repetirlo una vez a mitad de 
 >
 > (Y gracias [Nombre] por prestarte a esto 🙏)
 
-**Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #bluesrock #solodeguitarra`
+**Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
 
 ---

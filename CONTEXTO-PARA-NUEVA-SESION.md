@@ -14,7 +14,7 @@
 
 ## El proyecto en 3 líneas
 
-Método FLOW: programa grupal online de 12 semanas para guitarristas hobbistas (rock/blues), que pasan
+Método FLOW: programa grupal online de 12 semanas para guitarristas hobbistas (rock), que pasan
 de "sé la pentatónica caja 1 y sueno escolar" a "improviso un solo con sabor, moviéndome por las 5
 cajas". Nombre provisorio: **"Solo con Sabor"**. Se vende antes de tener el delivery en vivo armado del
 todo — la prioridad actual es contenido de Instagram + los 3 cuadernillos de ejercicios, que ya están

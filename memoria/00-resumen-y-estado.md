@@ -34,7 +34,7 @@
 
 - **Modelo de negocio:** método FLOW de Nico Galliussi — pasar de clases 1 a 1 a un
   programa grupal online de alto valor para guitarristas.
-- **Nicho elegido:** improvisación en rock/blues sobre **pentatónica menor con sabor**
+- **Nicho elegido:** improvisación en rock sobre **pentatónica menor con sabor**
   (la fusión mayor/menor queda como bonus avanzado del mes 3, NO como puerta de entrada).
 - **Referentes/estilo:** Angus Young, Jimmy Page, Slash, Hendrix, Gary Moore, Joe Perry,
   Clapton, B.B. King, SRV, Billy Gibbons. (Knopfler se sacó del panel el 25/8 — Feli no lo

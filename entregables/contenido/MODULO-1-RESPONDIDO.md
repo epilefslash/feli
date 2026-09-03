@@ -96,7 +96,7 @@ verificadas contra referentes reales (Angus, Page, Gary Moore). Sobra contenido,
 
 ## 10 · Sueño/deseo principal + secundarios — ✅ RESUELTO con dato real (actualizado 4/9)
 
-Tenés el deseo primario (`memoria/01`: *"improvisar un solo de rock/blues que suene profesional y
+Tenés el deseo primario (`memoria/01`: *"improvisar un solo de rock que suene profesional y
 con sabor"*). Los secundarios ya no son especulación — **Tom (35, el avatar real) lo dijo con sus
 propias palabras** en la encuesta: poder tocar con otros músicos sin sentirse perdido, entender lo
 que están tocando, poder opinar con criterio, aportar en la banda. Eso reemplaza la propuesta que
@@ -115,9 +115,9 @@ por primera vez es él el que arranca a improvisar en una junta en vez de quedar
 ## 12 · Competencia (5 referentes + 5 con cursos similares) — 🔴 NO EXISTE, es el gap real
 
 Esto no está en ningún lado de la memoria. **No lo puedo inventar** — necesita que vos (o alguien)
-busque cuentas de Instagram/YouTube de profesores de guitarra rock/blues con programas o cursos
+busque cuentas de Instagram/YouTube de profesores de guitarra rock con programas o cursos
 online, para tener con qué comparar precio, promesa y formato. Es tarea de campo, no de escritorio:
-20-30 min buscando "curso guitarra rock", "aprender pentatónica curso", "guitar lessons blues rock
+20-30 min buscando "curso guitarra rock", "aprender pentatónica curso", "guitar lessons rock
 course" y anotando 5-10 cuentas con su propuesta y precio si lo publican.
 
 ---
@@ -309,7 +309,7 @@ Top 5 de problemas y el Top 5 de deseos con la muestra completa.**
 
 - [x] **1 · Encuestar a 5-10 alumnos 1 a 1** — 3 de 4-5 respondieron el mismo día 4/9 (Pancho,
       Leo, Tom). En curso, no cerrado — falta Ángel y sumar alguno más si aparece la oportunidad.
-- [ ] **2 · Análisis de competencia** — 20-30 min buscando 5-10 cuentas de guitarra rock/blues con
+- [ ] **2 · Análisis de competencia** — 20-30 min buscando 5-10 cuentas de guitarra rock con
       programas online. Independiente de las encuestas, se puede hacer en paralelo.
 - [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
       nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.

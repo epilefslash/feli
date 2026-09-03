@@ -170,7 +170,7 @@ Acá SÍ es una pregunta de reapertura, pero sigue sin ser presión — la frase
 **Mensaje 3 — a los 8-10 días, SOLO si tampoco respondió:**
 > "Te dejo tranquilo con esto, no quiero ser pesado. Si en algún momento te copa retomarlo, acá estoy. Mientras tanto te sigo mandando cosas del método por Instagram que te pueden servir igual."
 
-**Cuándo se para: en el mensaje 3.** No hay mensaje 4. Si no respondió nada en tres intentos espaciados, forzar un cuarto mensaje deja de ser seguimiento y pasa a ser acoso comercial — y en un nicho tan chico (guitarristas de rock/blues hispanohablantes en Instagram) una mala experiencia de venta se comenta. A partir de ahí, esa persona pasa a nutrición pasiva pura: sigue viendo tus reels, y si en 2 meses vuelve sola por DM, genial — pero vos no volvés a escribirle directo.
+**Cuándo se para: en el mensaje 3.** No hay mensaje 4. Si no respondió nada en tres intentos espaciados, forzar un cuarto mensaje deja de ser seguimiento y pasa a ser acoso comercial — y en un nicho tan chico (guitarristas de rock hispanohablantes en Instagram) una mala experiencia de venta se comenta. A partir de ahí, esa persona pasa a nutrición pasiva pura: sigue viendo tus reels, y si en 2 meses vuelve sola por DM, genial — pero vos no volvés a escribirle directo.
 
 **La excepción:** si en algún momento él te contesta con una objeción real ("es que ahora no puedo por plata"), no sigas la secuencia de arriba — respondé esa objeción puntual y volvé a ofrecer, una sola vez más, con algo concreto (ej. "si te sirve, lo podés arrancar el mes que viene" o la opción de cuotas si no la había pedido). Pero eso ya es una conversación, no un mensaje de seguimiento — se sale del guion y se atiende como lo que es.
 

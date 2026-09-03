@@ -39,7 +39,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | 1 | Caja 1 A FONDO + dónde están las tónicas (la "casa") | Back in Black (Angus) — todo en una zona | Improvisar solo en caja 1, terminando frases en la tónica |
 | 2 | Caja 2 + la conexión 1↔2 (la nota compartida) | Whole Lotta Love (Page) | Frases que crucen de caja 1 a 2 y vuelvan |
 | 3 | Cajas 3 y 4 + conexión con las anteriores | Voodoo Child (Hendrix) | Subir de caja 1 a 4 en una sola frase larga |
-| 4 | Caja 5 + EL MÁSTIL COMPLETO (cierre del mapa) | Parisienne Walkways (Gary Moore) | Recorrer las 5 cajas sobre blues lento |
+| 4 | Caja 5 + EL MÁSTIL COMPLETO (cierre del mapa) | Parisienne Walkways (Gary Moore) | Recorrer las 5 cajas sobre un lento en La |
 | | **Entregable Mes 1:** video recorriendo las 5 cajas sin pausa | | |
 
 ### MES 2 — EL SABOR (semanas 5-8): que suene a música
