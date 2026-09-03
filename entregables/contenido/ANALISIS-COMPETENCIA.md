@@ -16,15 +16,31 @@ Campbell y varios más aparecen 2-3 veces con snippets distintos); acá quedan c
 filtrados a lo más relevante y verificable. Ningún precio o dato de esta tabla está inventado —
 donde no apareció en los resultados de búsqueda, dice "no encontrado".
 
-### 5 Referentes (creadores de contenido, con o sin programa formal)
+### 6 Referentes (creadores de contenido, con o sin programa formal)
+
+> La tabla original de la búsqueda automática traía 5. Feli agregó un sexto de memoria — lo
+> conoce del propio mercado, no salió de ninguna búsqueda — y resultó ser, por lejos, la cuenta
+> más grande de todas: **Guitarra Libre.**
 
 | Nombre | Plataforma | De qué habla | ¿Vende algo? | URL |
 |---|---|---|---|---|
+| **Guitarra Libre** (Martín Biemmi) | Instagram @guitarra.libre — **247K seguidores**, la cuenta más grande de todo este análisis, en español. También en TikTok y YouTube | Guitarrista de la banda "El Alba" y músico de sesión. Contenido de guitarra en general (no exclusivo de rock/pentatónica) — un ejemplo de post: "3 secretos para un gran solo, deconstruyendo a Pappo" | **Sí — Patreon, desde USD 3/mes**, con videos exclusivos, clases, mini-cursos, licks y tablaturas. No es un programa cerrado con cohorte: es contenido recurrente de bajo costo | https://www.instagram.com/guitarra.libre/ · https://www.patreon.com/guitarralibre |
 | Andy Kligman | Instagram @andy.kligman (habla español, base Argentina) | Clases de improvisación de guitarra ("Clases de impro. Mensajiá nomá" — texto literal en un reel) | Sí, pero sin precio público — capta 100% por DM, mismo mecanismo de embudo que el de Feli | https://www.instagram.com/andy.kligman/ |
 | Paul Davids | YouTube (3.6-3.67M subs) + Instagram (539K) + pauldavidsguitar.com | Educación de guitarra de alta producción; tiene una ruta específica "Break out of the pentatonic box" / modal soloing | Sí — 5 cursos pagos individuales, precio exacto no encontrado en los resultados | https://pauldavidsguitar.com/about/ |
 | Marty Music (Marty Schwartz) | YouTube (~3.8M subs) + martymusic.com | Lecciones de guitarra rock/pop en general, no exclusivo de improvisación | Sí — membresía USD 24,99/mes o USD 99/año (incluye livestreams + cursos) | https://www.martymusic.com/memberships |
 | Rick Beato | YouTube (canal masivo) + rickbeato.com | Comprensión musical profunda (teoría, oído, técnica), no rock-específico puro | Sí — cursos individuales USD 149-159 regular (bajan a ~USD 59 con descuento), bundles USD 446-617 rebajados a USD 89-99 | https://rickbeato.com/collections/educational-courses-programs |
 | Guitarraviva | YouTube (~4M subs) + guitarraviva.com | Guitarra en general, con contenido puntual sobre pentatónica ("la escala más importante del rock") | Sí — cursos de pago grabados por plan mensual/trimestral/anual, precio no encontrado | https://guitarraviva.com/tutoriales/la-escala-mas-importante-del-rock/ |
+
+> **Por qué Guitarra Libre importa más de lo que sugiere una fila en una tabla:** es el único
+> referente en español de todo el análisis con audiencia realmente masiva (247K — más que Andy
+> Kligman y que casi cualquier otro nombre en español que apareció). Y su modelo de negocio es
+> **exactamente la Oferta de Autoliquidación** que ya tenemos anotada en `memoria/08` §30: contenido
+> recurrente muy barato (USD 3/mes) en vez de un programa cerrado caro. No compite de frente contra
+> Solo con Sabor —no vende una transformación con cohorte y acompañamiento, vende volumen de
+> contenido a precio bajo— pero es la prueba más grande de que el mercado en español de guitarra
+> está ahí, activo, y paga. Vale la pena mirarlo con la lupa de "cómo construyó 247K", no solo como
+> competencia directa de precio.
+
 
 > **Hallazgo aparte, para tener en cuenta:** Andy Kligman es la misma cuenta que ya tenías anotada
 > como **inspiración de formato de Instagram** (copy largo + destacada "Método") en `memoria/05`

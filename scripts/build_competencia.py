@@ -15,7 +15,7 @@ from md_pdf import render_markdown, MOBILE_H1, MOBILE_BODY
 
 doc = documento("Analisis-de-Competencia.pdf",
                 "ANÁLISIS DE COMPETENCIA",
-                "5 referentes + 5 programas similares, con precio real donde se encontró",
+                "6 referentes + 5 programas similares, con precio real donde se encontró",
                 "Solo con Sabor · Módulo 1, pregunta 12",
                 "Analisis de competencia - Solo con Sabor")
 W = doc.width
@@ -28,12 +28,14 @@ S.append(Paragraph(
     "53 items crudos consolidados acá.", MOBILE_BODY))
 S.append(Spacer(1, 8))
 S.append(caja_oscura(
-    '<font color="white" size="10"><b>El hallazgo que mas importa</b></font><br/>'
+    '<font color="white" size="10"><b>Los 2 hallazgos que mas importan</b></font><br/>'
     '<font color="#f7d7d2" size="9">Andy Kligman -- la cuenta que ya tenias anotada como '
     'INSPIRACION de formato de Instagram -- aparecio en la busqueda como COMPETIDOR real: '
-    'mismo pais, mismo idioma, vende clases de improvisacion por DM. Y sobre precio: USD 600 '
-    'no tiene un comparable directo en el mercado -- cae entre los cursos grabados baratos y '
-    'la mentoria boutique carisima, sin nadie en el medio con tu mismo formato.</font>', W))
+    'mismo pais, mismo idioma, vende clases de improvisacion por DM. Y Guitarra Libre (agregado '
+    'por Feli), con 247K seguidores, es la cuenta en espanol mas grande de todo el analisis -- y '
+    'su modelo (Patreon a USD 3/mes) es la Oferta de Autoliquidacion que ya tenemos anotada, '
+    'funcionando en vivo. Sobre precio: USD 600 no tiene un comparable directo en el mercado -- '
+    'cae entre los cursos grabados baratos y la mentoria boutique carisima.</font>', W))
 S.append(PageBreak())
 
 with open("entregables/contenido/ANALISIS-COMPETENCIA.md", encoding="utf-8") as f:
