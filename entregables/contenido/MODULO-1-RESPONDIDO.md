@@ -94,15 +94,16 @@ verificadas contra referentes reales (Angus, Page, Gary Moore). Sobra contenido,
 
 ## 9 · Creencias limitantes — ✅ RESUELTO (mismo material que la 8)
 
-## 10 · Sueño/deseo principal + secundarios — 🟡 PARCIAL, y vale la pena pensarlo
+## 10 · Sueño/deseo principal + secundarios — ✅ RESUELTO con dato real (actualizado 4/9)
 
 Tenés el deseo primario (`memoria/01`: *"improvisar un solo de rock/blues que suene profesional y
-con sabor"*). **Lo que falta son los secundarios**, y acá hay que tener cuidado: los ejemplos de
-Nico ("vivir de la música", "salir del sistema") son para alguien que quiere profesionalizarse —
-**tu avatar es hobbista**, esos no aplican tal cual. Propuesta más ajustada a tu nicho real (para
-validar o corregir): *"que lo inviten a tocar con amigos y no quedarse mirando" · "grabar un cover o
-un solo propio y animarse a postearlo" · "improvisar en una junta sin la vergüenza de sonar
-repetitivo" · "sentir que el tiempo que le dedica a la guitarra por fin se nota."*
+con sabor"*). Los secundarios ya no son especulación — **Tom (35, el avatar real) lo dijo con sus
+propias palabras** en la encuesta: poder tocar con otros músicos sin sentirse perdido, entender lo
+que están tocando, poder opinar con criterio, aportar en la banda. Eso reemplaza la propuesta que
+había armado yo (*"que lo inviten a tocar con amigos y no quedarse mirando"* — muy cerca, pero
+ahora tenés la versión real en vez de la inferida). El resto de mi propuesta original (grabar un
+cover y animarse a postearlo, sentir que el tiempo dedicado por fin se nota) sigue siendo razonable
+como hipótesis — se puede confirmar con las próximas respuestas.
 
 ## 11 · Mejor caso de éxito imaginado, con detalle — 🟡 PARCIAL
 
@@ -244,21 +245,80 @@ inferencia si podés esperar a tener 3-4 respuestas reales primero.
 
 ---
 
+# ✅ RESPUESTAS REALES (llegaron el 4/9, mientras se armaba este documento)
+
+3 alumnos contestaron rápido: **Pancho (17)**, **Leo (15)** y **Tom (35)**. Falta Ángel (52),
+todavía sin responder.
+
+> ⚠️ **Aviso de edad, antes de leer nada:** Pancho y Leo están fuera del avatar de "Solo con
+> Sabor" (28-45 años). Sus respuestas son valiosas para vos como profesor en general, pero **no
+> se usan para construir el perfil de este programa** — para eso, la respuesta que pesa es la de
+> **Tom, que sí es el avatar exacto.**
+
+## Tom (35) — el avatar real, con sus propias palabras
+
+| Pregunta | Respuesta textual |
+|---|---|
+| Problema antes | "No sabía práctica nada. Sobre todo moverme sobre el mástil." |
+| Qué había probado | "Mirar videos de YouTube sin un orden." |
+| Duda | No dudó en aprender — sí en la inversión inicial de comprar el instrumento |
+| Mayor obstáculo | **"El tiempo."** |
+| Antes/después | "Antes no sabía nada de nada. Ahora sé las notas en la guitarra, armar acordes, algún solo o riff, y en las bandas donde toco batería sé aproximadamente qué están tocando los otros músicos y puedo opinar." |
+| Qué cambió | "Un poco más de prolijidad, pensamiento crítico y soltura a la hora de componer." |
+
+**Por qué esto es oro, no solo un dato lindo:**
+- *"Mirar videos de YouTube sin un orden"* — no es una inferencia nuestra, es la frase casi
+  textual del Copy Maestro (`memoria/05` §12) y el guion del Video 7 (`memoria/04` §21), dicha
+  por un alumno real sin que se la sugiriéramos.
+- El obstáculo que nombró es **el tiempo** — confirma la creencia #5 (`memoria/03` §6, "tengo que
+  estudiar 4 horas por día") como algo que de verdad le pasa a la gente, no solo una hipótesis.
+- **El deseo real, con sus palabras:** poder tocar con otros músicos, entender lo que tocan,
+  opinar con criterio. Esto **confirma con datos reales** lo que en la pregunta 10 de este
+  documento yo te había dejado como propuesta especulativa (*"que lo inviten a tocar con amigos
+  y no quedarse mirando"*) — ya no es mi propuesta, es lo que dijo un alumno real. Se actualiza
+  el deseo secundario de la pregunta 10 con esta base.
+
+## Pancho (17) y Leo (15) — otra edad, igual de útil para otra cosa
+
+| | Pancho (17) | Leo (15) |
+|---|---|---|
+| Problema antes | Intentaba solo y no podía | Poca motivación, no sabía qué estilo le gustaba |
+| Qué había probado | Tutoriales, antes de tomar clases | Otro profesor, sin resultado |
+| Duda | Ninguna | Ninguna |
+| Deseo | "Confiar para poder hacerlo" | Encontrar motivación |
+| Cambio | Fuerza y agilidad en los dedos | Entendió teoría/composición, mejoró técnica, encontró su objetivo con la música |
+
+**Para qué sirven, ya que no van al avatar de "Solo con Sabor":** son testimonios reales y
+honestos de tu trabajo como profesor — podrían servir en algún momento para otro público (si
+alguna vez pensás algo para adolescentes) o simplemente como prueba de que tu método funciona en
+más de un perfil. **No los descartes, solo no los mezcles con este programa puntual.**
+
+## Patrón que ya se repite, aunque sea temprano
+
+*"Mirar tutoriales/videos sin orden y no avanzar"* aparece en **2 de 3** (Tom y Pancho), con dos
+edades distintas. Con 3 respuestas es pronto para el Top 5 definitivo, pero es la segunda
+confirmación real (después de todo el trabajo de contenido ya hecho sobre esta misma creencia)
+de que es el problema correcto para seguir atacando.
+
+**Cuando conteste Ángel (o si sumás algún alumno más), volvemos a esta sección para cerrar el
+Top 5 de problemas y el Top 5 de deseos con la muestra completa.**
+
+---
+
 # CHECKLIST FINAL — todo lo que hay que hacer, en orden real
 
-- [ ] **1 · Encuestar a 5-10 alumnos 1 a 1** (actuales o pasados) — la actividad de mayor
-      apalancamiento, resuelve varios gaps a la vez. Usar las preguntas resumidas arriba.
+- [x] **1 · Encuestar a 5-10 alumnos 1 a 1** — 3 de 4-5 respondieron el mismo día 4/9 (Pancho,
+      Leo, Tom). En curso, no cerrado — falta Ángel y sumar alguno más si aparece la oportunidad.
 - [ ] **2 · Análisis de competencia** — 20-30 min buscando 5-10 cuentas de guitarra rock/blues con
       programas online. Independiente de las encuestas, se puede hacer en paralelo.
 - [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
       nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.
 - [ ] **4 · Con las encuestas ya en mano:** aplicar Problema Original/Real y Deseo Natural/Visceral,
-      armar el Top 5 de problemas y el Top 5 de deseos.
+      armar el Top 5 de problemas y el Top 5 de deseos — ya arrancado con Tom, falta cerrarlo.
 - [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original (la imagen que me
       pasaste no se leía con precisión).
-- [ ] **6 · Validar o corregir** las propuestas que dejé para deseos secundarios (pregunta 10) y
-      narrativa de éxito (pregunta 11) — se pueden reemplazar directo por lo que salga de las
-      encuestas del punto 1.
+- [ ] **6 · Validar o corregir** las propuestas que dejé para narrativa de éxito (pregunta 11) —
+      el deseo secundario de la pregunta 10 ya se actualizó con la respuesta real de Tom.
 
 ---
 
