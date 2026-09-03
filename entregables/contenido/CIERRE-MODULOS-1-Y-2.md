@@ -67,26 +67,24 @@ depende de que otra persona te conteste, es 100% vos con la cabeza despejada.
 de Instagram— es también tu competidor más parecido, y que USD 600 no tiene comparable directo de
 precio en el mercado (queda entre los cursos grabados baratos y la mentoría boutique carísima).
 
-## 📨 CATEGORÍA C — Trabajo de campo (depende de otros, arrancar YA, no el domingo)
+## 📨 CATEGORÍA C — Trabajo de campo (depende de otros) — ✅ CERRADA
 
-| # | Qué | Tu tiempo | Tiempo de espera |
-|---|---|---|---|
-| C1 | Encuestar/entrevistar a 5-10 alumnos 1 a 1 (actuales o pasados) — preguntas resumidas en `MODULO-1-RESPONDIDO.md` | 30-45 min armar y mandar | 2-3 días para que respondan |
+| # | Qué | Estado |
+|---|---|---|
+| C1 | ✅ Encuestar alumnos 1 a 1 — los 4 a los que se les mandó ya contestaron (Pancho, Leo, Tom, Ángel) el mismo día | Cerrada (4/9) |
 
-**⚠️ Esta es la única tarea con reloj propio, distinto al tuyo.** Si la mandás el domingo a la
-noche, no vas a tener respuestas para el lunes. **Mandala mañana viernes a la mañana**, y lo que
-vuelva para el domingo lo procesás; lo que no llegue, no bloquea nada — vas igual.
+**Salió mejor de lo esperado.** El plan original preveía 2-3 días de espera; los 4 contestaron el
+mismo día. No hace falta mandarla a nadie más para el lunes.
 
-## 🧩 CATEGORÍA D — Depende de tener las encuestas (Categoría C) primero
+## 🧩 CATEGORÍA D — Depende de tener las encuestas (Categoría C) — ✅ CERRADA
 
-| # | Qué | Tiempo | Condición |
-|---|---|---|---|
-| D1 | ✅ Etapa de Analizar — primera pasada HECHA (4/9) con las 3 respuestas que llegaron, cada ítem marcado como confirmado o hipótesis. Ver `MODULO-1-RESPONDIDO.md` | — | Se engorda cuando conteste Ángel, no bloquea |
+| # | Qué | Estado |
+|---|---|---|
+| D1 | ✅ Etapa de Analizar — Top 5 problemas + Top 5 deseos, con Tom y Ángel (los 2 avatares reales) confirmando varios ítems por partida doble. Ver `MODULO-1-RESPONDIDO.md` | Cerrada (4/9) |
 
-**Categoría D con primer avance real.** No hizo falta esperar al domingo — con 3 respuestas ya
-alcanzó para un Top 5/Top 5 honesto, marcado ítem por ítem si está confirmado con datos reales o
-sigue siendo hipótesis. Cuando conteste Ángel, se vuelve a esa tabla para engordarla, no para
-armarla de cero.
+**Con las 4 respuestas adentro, no quedó nada "en proceso":** varios ítems del Top 5 pasaron de
+hipótesis a confirmados por dos voces independientes, y salió un hallazgo lindo de yapa — Ángel
+describió el concepto de "espacio" del Hito 2 con sus propias palabras, sin haberlo cursado.
 
 ## 💬 CATEGORÍA E — Para llevar a la reunión, NO para resolver solo antes
 
@@ -102,43 +100,48 @@ pagando la mentoría.
 
 ---
 
-# EL PLAN DE "GOLAZO" — si te sentás en serio
+# EL PLAN DE "GOLAZO" — actualizado, ya casi no queda nada
 
-**Si juntás las categorías A + B + arrancar C, es un solo bloque de ~2 a 2.5 horas.** Cabe entero
-en la mañana del viernes. Después de eso, lo único que queda "vivo" es esperar las respuestas de
-las encuestas — no requiere que vos hagas nada más que revisar el celular de vez en cuando.
+**El golazo real terminó siendo más corto de lo calculado.** B (competencia), C (encuesta) y D
+(Top 5/Top 5) cerraron el mismo jueves — el plan original les daba hasta el domingo. Lo único que
+queda "vivo" es la Categoría A (~70-75 min de pensar solo), que nunca dependió de nadie más que
+de vos y no tiene apuro real: llegás sobrado igual.
 
-## Reparto sugerido en tu calendario real
+## Reparto sugerido en tu calendario real — actualizado (4/9, mismo jueves)
 
-**Jueves (hoy), lo que quede del día:** nada obligatorio. Si tenés 10 minutos, mandá la encuesta
-(C1) ya mismo — es lo único que se beneficia de arrancar cuanto antes, por el tiempo de espera.
+**Las categorías B, C y D cerraron el mismo jueves** — mucho antes de lo previsto (el plan
+original estimaba hasta el domingo). B: la competencia, hecha con investigación real. C: los 4
+alumnos contestaron la encuesta el mismo día. D: el Top 5/Top 5 ya está armado con esas 4
+respuestas. Lo único que queda es la Categoría A — que nunca dependió de nadie más que de vos.
 
-**Viernes a la mañana (el bloque grande, ahora ~1.5-2 hs con B1 ya resuelto):**
-1. ~~La competencia (B1)~~ — ✅ ya está hecha (4/9), ver `Analisis-de-Competencia.pdf`
-2. La encuesta (C1) ya está en curso, 3 de 4-5 respondieron el mismo día — falta Ángel
-3. Las 6 tareas de pensar (A1 a A6) — ~70 min, se pueden hacer todas seguidas con un café
+**Lo único pendiente, para cuando tengas un rato (no hace falta que sea mañana temprano):**
+1. Las 6 tareas de pensar (A1 a A6) — ~70 min, se pueden hacer todas seguidas con un café. Los
+   disparadores para cada una ya están en la conversación.
+2. Confirmar los 2 criterios de "nicho azul" contra la fuente original (5 min, es releer).
 
-**Con esto, el viernes a la mañana tenés TODO lo que depende solo de vos, resuelto.**
-
-**Sábado y domingo:** libres de verdad. Revisar si volvió alguna respuesta de la encuesta; si
-volvieron 3 o más, dedicarle 30-45 min a la Etapa de Analizar (D1) en algún momento del domingo.
-Si no volvieron, no hay nada que hacer — no es una tarea que se pueda forzar.
+**Con eso, llegás al lunes con todo cerrado — y con margen de sobra, no al límite.**
 
 **Lunes a la mañana, antes de las 12:30:** repasar las 3 preguntas de la Categoría E (10 min,
-solo para tenerlas frescas) y los documentos `MODULO-1-RESPONDIDO.md` / `MODULO-2-RESPONDIDO.md`
+solo para tenerlas frescas) — sumá una cuarta, que salió de la propia encuesta: si tiene sentido
+correr el techo de edad del avatar a 50-55 (por Ángel, 52). Y los documentos
+`MODULO-1-RESPONDIDO.md` / `MODULO-2-RESPONDIDO.md`
 completos si querés repasar el resto.
 
 ---
 
 # LA FRASE PARA EL LUNES
 
-Con las categorías A, B y C resueltas (aunque D quede parcial), llegás en condiciones reales de
-decir:
+Con las categorías B, C y D cerradas, y la A en curso (te queda a vos completarla estos días),
+llegás en condiciones reales de decir:
 
-> *"Nico, los Módulos 1 y 2 están resueltos. Hice la encuesta a mis alumnos, mapeé la
-> competencia, tengo mis valores como marca definidos, la estructura del programa está cerrada
-> con la justificación del orden escrita. Me quedan 3 preguntas puntuales para vos: el delivery
-> pregrabado-vs-vivo, la plataforma, y el precio."*
+> *"Nico, los Módulos 1 y 2 están resueltos. Encuesté a 4 alumnos y ya tengo un Top 5 de problemas
+> y de deseos con datos reales, no inventados — con un hallazgo lindo de yapa: uno de ellos
+> describió el concepto de 'espacio' del Hito 2 con sus propias palabras, sin haberlo cursado.
+> Mapeé la competencia — apareció Andy Kligman, que ya era mi referencia de formato, como
+> competidor directo. Tengo mis valores como marca definidos y la estructura del programa cerrada
+> con la justificación del orden escrita. Me quedan 4 preguntas puntuales para vos: el delivery
+> pregrabado-vs-vivo, la plataforma, el precio, y si vale la pena correr el techo de edad del
+> avatar a 50-55."*
 
-Eso no es "estamos bien encaminados" — es **cerrado**, con 3 decisiones específicas puestas
+Eso no es "estamos bien encaminados" — es **cerrado**, con 4 decisiones específicas puestas
 sobre la mesa para resolver juntos, que es exactamente para lo que sirve la reunión.

@@ -238,73 +238,87 @@ método", compra ser el tipo de guitarrista que ese método promete.
 - No hace falta inventar nada nuevo acá — la tarea del lunes es más bien **confirmar con Nico si el
   nombre y el mapa ya cumplen esta función**, o si conviene afilarlos más.
 
-## Top 5 problemas + Top 5 deseos — ✅ primera pasada (4/9), con las 3 respuestas que ya llegaron
+## Top 5 problemas + Top 5 deseos — ✅ actualizado (4/9) con Tom + Ángel, los 2 avatares reales
 
-> **Nivel de confianza, para ser honestos:** de las 3 respuestas, **solo Tom es el avatar real**
-> (28-45). Un Top 5 armado sobre n=1 no es un Top 5 estadístico — es una primera pasada real,
-> mejor que la inferencia pura de antes, pero todavía liviana. Cada ítem de abajo dice de dónde
-> sale y qué tan confirmado está. **Se vuelve a esta tabla cuando conteste Ángel** para engordar
-> la muestra.
+> **Nivel de confianza, actualizado:** ahora son **2 respuestas del avatar real** (Tom 35, Ángel
+> 52) en vez de 1 — no es una muestra grande, pero duplicarla cambia bastante qué se puede llamar
+> "confirmado" vs "hipótesis". Cada ítem dice de dónde sale.
 
 **Top 5 problemas:**
 
 | # | Problema | Confirmación |
 |---|---|---|
-| 1 | Mirar tutoriales/videos sueltos, sin un orden, sin avanzar | 🟢 **La más fuerte** — aparece en 2 de 3 respuestas (Tom Y Pancho), dos edades distintas, y coincide con todo el contenido ya filmado sobre esta creencia |
-| 2 | No saber moverse por el mástil / vivir encerrado en una caja | 🟢 Confirmado por Tom, textual ("sobre todo moverme sobre el mástil") — es el Problema Original de arriba, con evidencia real |
-| 3 | El tiempo como obstáculo real, no la falta de ganas | 🟢 Confirmado por Tom, textual ("el tiempo") — valida la creencia #5 (`memoria/03` §6) con un caso real, no solo teoría |
-| 4 | No poder aportar cuando toca con otros músicos, sentirse perdido en una banda | 🟡 Nuevo, sale de Tom — antes lo teníamos más como "deseo", ahora aparece también como el problema cotidiano que lo generaba |
-| 5 | Practicar solo sin saber si de verdad está mejorando | 🟡 Hipótesis de la sección de arriba (pregunta 7), todavía sin confirmar en esta ronda — pendiente de que alguien más lo mencione |
+| 1 | El tiempo como obstáculo/duda real, no la falta de ganas | 🟢🟢 **La más fuerte de todas — 2 de 2 avatares reales.** Tom: "el tiempo" como obstáculo. Ángel: "mis dudas pasan siempre por si voy a poder dedicarle tiempo". Valida la creencia #5 (`memoria/03` §6) con dos casos reales, no uno |
+| 2 | Tutoriales/clases sueltas sin método, hasta que algo (un acorde, una escala) frena todo | 🟢🟢 Confirmado por los 2 — Tom: "mirar videos sin un orden". Ángel: "seguí tutoriales... hasta que aparecía un acorde que no conocía y opacaba todo". Misma raíz, dos formas de contarla |
+| 3 | Saber teoría pero no poder ejecutarla con las manos | 🟢 Nuevo, de Ángel textual: "encontrarle la vuelta a la teoría y poder replicar los movimientos". Coincide con el principio #6 de Nico (`memoria/02` §4: "no necesitás saber más, necesitás ordenar lo que ya sabés") |
+| 4 | No saber moverse por el mástil / vivir encerrado en una caja | 🟢 Confirmado por Tom, textual ("sobre todo moverme sobre el mástil") — es el Problema Original de arriba, con evidencia real |
+| 5 | No poder aportar cuando toca con otros músicos, sentirse perdido en una banda | 🟡 Sigue siendo solo de Tom — Ángel no habla de tocar con otros, así que queda sin una segunda confirmación |
 
 **Top 5 deseos:**
 
 | # | Deseo | Confirmación |
 |---|---|---|
-| 1 | Tocar con otros músicos con soltura, entender qué están tocando, opinar con criterio | 🟢 Confirmado por Tom, textual — el deseo más fuerte de toda la muestra |
-| 2 | Más soltura y criterio propio a la hora de componer | 🟢 Confirmado por Tom, textual ("pensamiento crítico... a la hora de componer") |
-| 3 | Confiar en la propia capacidad, animarse | 🟡 Aparece en Pancho ("confiar para poder hacerlo") — otra edad, pero podría ser un deseo más transversal que el avatar específico. Anotar, no descartar |
-| 4 | Grabar un cover o solo propio y animarse a compartirlo | 🟡 Hipótesis previa, sin confirmar todavía en esta ronda |
-| 5 | Que el tiempo invertido en la guitarra por fin "se note" | 🟡 Hipótesis previa, sin confirmar todavía en esta ronda |
+| 1 | Confiar en la propia capacidad, creer que "realmente puede" | 🟢🟢 **Sube al primer puesto** — aparece en Pancho (17, "confiar para poder hacerlo") Y en Ángel (52, "hacen que uno crea que realmente puede"). Dos puntas de edad totalmente distintas diciendo lo mismo: es más transversal de lo que pensábamos, no un capricho de adolescente |
+| 2 | Tocar con calma, sabiendo qué hacer en cada momento, sin sentirse perdido | 🟢 Nuevo, de Ángel textual: "tranquilidad, disponibilidad de tiempo entre nota y nota porque sé lo que tengo que hacer" — **ver el hallazgo especial más abajo, esto ya es literal el concepto de "espacio" del Hito 2** |
+| 3 | Tocar con otros músicos con soltura, entender qué están tocando, opinar con criterio | 🟢 Confirmado por Tom, textual — fuerte, pero por ahora solo él lo dijo |
+| 4 | Más soltura y criterio propio a la hora de componer | 🟢 Confirmado por Tom, textual ("pensamiento crítico... a la hora de componer") |
+| 5 | Grabar un cover o solo propio y animarse a compartirlo | 🟡 Hipótesis previa, todavía sin confirmar por ningún alumno real |
 
-**Lo que esto significa para el lunes:** podés presentar el Top 5 de arriba con total tranquilidad
-— cada ítem dice honestamente si está confirmado con datos reales (🟢) o si sigue siendo hipótesis
-razonable (🟡). Es exactamente el tipo de rigor que un mentor real valora más que una lista prolija
-pero inventada.
+> **El hallazgo más lindo de toda la ronda.**
+> Ángel describió, **sin que nadie se lo sugiriera**, el concepto exacto de "espacio" que enseña
+> el Hito 2 (`memoria/06`, semana 7: *"el silencio como parte de la frase"*). Sus palabras:
+> *"tranquilidad, disponibilidad de tiempo entre nota y nota porque sé lo que tengo que hacer".*
+> Nunca tomó ese hito todavía (según lo que se sabe, está en las primeras clases) — es una
+> validación espontánea de que la idea central del método realmente se siente así desde adentro,
+> no es una etiqueta de marketing. Vale la pena citarlo casi textual en algún posteo futuro (con
+> su permiso) de StoryTelling o de Autoridad.
+
+**Lo que esto significa para el lunes:** con Tom y Ángel confirmando el mismo problema del tiempo
+y el mismo patrón de tutoriales sin método, y con Pancho y Ángel confirmando el mismo deseo de
+"creer que puede" en las dos puntas de edad, **ya no es un Top 5 sobre n=1** — sigue siendo una
+muestra chica, pero cada ítem 🟢🟢 tiene dos voces reales e independientes detrás, no una.
+
+> ⚠️ **Una nota sobre el rango de edad del avatar.** Ángel tiene 52 años — por fuera del rango
+> declarado (28-45, `memoria/01`). Psicográficamente encaja perfecto (adulto autodidacta,
+> frustrado con el aprendizaje fragmentado, valora el método y la calma) — solo se sale por edad.
+> Vale la pena llevarlo como pregunta al lunes: ¿tiene sentido correr el techo del rango a 50-55,
+> o Ángel es una excepción linda pero no representativa? No lo decido yo solo — es una decisión de
+> negocio, no de contenido.
 
 ---
 
 # ✅ RESPUESTAS REALES (llegaron el 4/9, mientras se armaba este documento)
 
-3 alumnos contestaron rápido: **Pancho (17)**, **Leo (15)** y **Tom (35)**. Falta Ángel (52),
-todavía sin responder.
+Los 4 alumnos a los que se les mandó la encuesta ya contestaron: **Pancho (17)**, **Leo (15)**,
+**Tom (35)** y **Ángel (52)**. Encuesta cerrada — no hace falta esperar a nadie más para el lunes.
 
 > ⚠️ **Aviso de edad, antes de leer nada:** Pancho y Leo están fuera del avatar de "Solo con
-> Sabor" (28-45 años). Sus respuestas son valiosas para vos como profesor en general, pero **no
-> se usan para construir el perfil de este programa** — para eso, la respuesta que pesa es la de
-> **Tom, que sí es el avatar exacto.**
+> Sabor" (28-45 años) por abajo. Ángel está por arriba (52 vs. techo de 45), pero psicográficamente
+> es un calce casi perfecto — ver la nota completa más arriba. Los datos que pesan para construir
+> el perfil de este programa son los de **Tom y Ángel**.
 
-## Tom (35) — el avatar real, con sus propias palabras
+## Tom (35) y Ángel (52) — los 2 avatares reales, con sus propias palabras
 
-| Pregunta | Respuesta textual |
-|---|---|
-| Problema antes | "No sabía práctica nada. Sobre todo moverme sobre el mástil." |
-| Qué había probado | "Mirar videos de YouTube sin un orden." |
-| Duda | No dudó en aprender — sí en la inversión inicial de comprar el instrumento |
-| Mayor obstáculo | **"El tiempo."** |
-| Antes/después | "Antes no sabía nada de nada. Ahora sé las notas en la guitarra, armar acordes, algún solo o riff, y en las bandas donde toco batería sé aproximadamente qué están tocando los otros músicos y puedo opinar." |
-| Qué cambió | "Un poco más de prolijidad, pensamiento crítico y soltura a la hora de componer." |
+| Pregunta | Tom (35) | Ángel (52) |
+|---|---|---|
+| Problema antes | "No sabía práctica nada. Sobre todo moverme sobre el mástil." | "Fui un eterno principiante, arrancaba y frenaba... me costaba cambiar de posición. Escalas y otras cosas no tenía ni idea." |
+| Qué había probado | "Mirar videos de YouTube sin un orden." | "Tomé clases, probé solo, seguí tutoriales... hasta que aparecía un acorde que no conocía y opacaba todo." |
+| Duda | No dudó en aprender — sí en la inversión inicial de comprar el instrumento | "Si voy a poder dedicarle tiempo... siempre es poco el tiempo disponible" |
+| Mayor obstáculo | **"El tiempo."** | "Encontrarle la vuelta a la teoría y poder replicar los movimientos" |
+| Antes/después | "Ahora sé las notas, armar acordes, algún solo o riff, y en las bandas donde toco batería sé qué están tocando los otros músicos y puedo opinar." | "Escucharme tocando me llena de ganas de mejorar... la aplicación de todos los conocimientos hace que uno crea que realmente puede." |
+| Qué cambió | "Un poco más de prolijidad, pensamiento crítico y soltura a la hora de componer." | "Tranquilidad, disponibilidad de tiempo entre nota y nota porque sé lo que tengo que hacer... las manos fueron logrando agilidad." |
 
 **Por qué esto es oro, no solo un dato lindo:**
-- *"Mirar videos de YouTube sin un orden"* — no es una inferencia nuestra, es la frase casi
-  textual del Copy Maestro (`memoria/05` §12) y el guion del Video 7 (`memoria/04` §21), dicha
-  por un alumno real sin que se la sugiriéramos.
-- El obstáculo que nombró es **el tiempo** — confirma la creencia #5 (`memoria/03` §6, "tengo que
-  estudiar 4 horas por día") como algo que de verdad le pasa a la gente, no solo una hipótesis.
-- **El deseo real, con sus palabras:** poder tocar con otros músicos, entender lo que tocan,
-  opinar con criterio. Esto **confirma con datos reales** lo que en la pregunta 10 de este
-  documento yo te había dejado como propuesta especulativa (*"que lo inviten a tocar con amigos
-  y no quedarse mirando"*) — ya no es mi propuesta, es lo que dijo un alumno real. Se actualiza
-  el deseo secundario de la pregunta 10 con esta base.
+- *"Mirar videos de YouTube sin un orden"* (Tom) y *"seguí tutoriales... hasta que aparecía un
+  acorde que opacaba todo"* (Ángel) — no son inferencias nuestras, son casi textuales del Copy
+  Maestro (`memoria/05` §12) y el guion del Video 7 (`memoria/04` §21), dichas por dos alumnos
+  reales sin que se las sugiriéramos.
+- **El tiempo** aparece en los dos — como obstáculo en Tom, como duda en Ángel — confirmando la
+  creencia #5 (`memoria/03` §6) con dos casos reales.
+- **El deseo de Tom** (tocar con otros, opinar con criterio) confirma lo que antes era mi propuesta
+  especulativa para la pregunta 10.
+- **El deseo de Ángel** (tranquilidad, tiempo entre nota y nota) es, literalmente, el concepto de
+  "espacio" del Hito 2 — dicho con sus propias palabras, sin haberlo cursado todavía.
 
 ## Pancho (17) y Leo (15) — otra edad, igual de útil para otra cosa
 
@@ -321,34 +335,33 @@ honestos de tu trabajo como profesor — podrían servir en algún momento para 
 alguna vez pensás algo para adolescentes) o simplemente como prueba de que tu método funciona en
 más de un perfil. **No los descartes, solo no los mezcles con este programa puntual.**
 
-## Patrón que ya se repite, aunque sea temprano
+## Los 2 patrones que ya cruzan toda la muestra, edades incluidas
 
-*"Mirar tutoriales/videos sin orden y no avanzar"* aparece en **2 de 3** (Tom y Pancho), con dos
-edades distintas. Con 3 respuestas es pronto para el Top 5 definitivo, pero es la segunda
-confirmación real (después de todo el trabajo de contenido ya hecho sobre esta misma creencia)
-de que es el problema correcto para seguir atacando.
-
-**Cuando conteste Ángel (o si sumás algún alumno más), volvemos a esta sección para cerrar el
-Top 5 de problemas y el Top 5 de deseos con la muestra completa.** El primer Top 5/Top 5 con lo
-que hay hasta ahora ya está armado más abajo, en la sección "Etapa de Analizar".
+1. **El tiempo/método fragmentado** — en las 4 respuestas aparece alguna versión de "probé solo o
+   con tutoriales, sin orden" (Pancho, Tom, Ángel) o "me falta tiempo" (Tom, Ángel). Es el problema
+   más transversal de toda la encuesta, dentro y fuera del avatar.
+2. **Creer/confiar en la propia capacidad** — Pancho (17) y Ángel (52) usan casi la misma frase
+   ("confiar para poder hacerlo" / "crea que realmente puede") en las dos puntas de edad de toda
+   la muestra. No es un dato del avatar puntual — es algo que probablemente cruza cualquier
+   guitarrista autodidacta frustrado, sea cual sea su edad.
 
 ---
 
 # CHECKLIST FINAL — todo lo que hay que hacer, en orden real
 
-- [x] **1 · Encuestar a 5-10 alumnos 1 a 1** — 3 de 4-5 respondieron el mismo día 4/9 (Pancho,
-      Leo, Tom). En curso, no cerrado — falta Ángel y sumar alguno más si aparece la oportunidad.
-- [ ] **2 · Análisis de competencia** — 20-30 min buscando 5-10 cuentas de guitarra rock con
-      programas online. Independiente de las encuestas, se puede hacer en paralelo.
+- [x] **1 · Encuestar alumnos 1 a 1** — CERRADA (4/9). Los 4 a los que se les mandó ya contestaron:
+      Pancho, Leo, Tom, Ángel. No hace falta esperar a nadie más.
+- [x] **2 · Análisis de competencia** — HECHO (4/9), ver `Analisis-de-Competencia.pdf` — 6
+      referentes + 5 programas, con Andy Kligman y Guitarra Libre como hallazgos principales.
 - [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
       nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.
-- [x] **4 · Top 5 problemas + Top 5 deseos** — primera pasada hecha (4/9) con las 3 respuestas que
-      llegaron, cada ítem marcado 🟢 confirmado o 🟡 hipótesis. Se vuelve a engordar cuando conteste
-      Ángel — no bloquea el lunes.
+- [x] **4 · Top 5 problemas + Top 5 deseos** — actualizado (4/9) con Tom + Ángel, los 2 avatares
+      reales. Varios ítems pasaron de hipótesis a confirmados por 2 voces independientes.
 - [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original (la imagen que me
       pasaste no se leía con precisión).
-- [ ] **6 · Validar o corregir** las propuestas que dejé para narrativa de éxito (pregunta 11) —
-      el deseo secundario de la pregunta 10 ya se actualizó con la respuesta real de Tom.
+- [x] **6 · Narrativa de éxito y deseo secundario (preguntas 10 y 11)** — actualizados con datos
+      reales de Tom y Ángel. Quedó además la pregunta nueva sobre el techo de edad del avatar
+      (52 años de Ángel, fuera del rango 28-45) para llevar al lunes.
 
 ---
 
