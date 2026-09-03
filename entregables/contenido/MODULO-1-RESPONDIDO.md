@@ -1,15 +1,17 @@
 ## Para qué sirve este documento
 
-El lunes 12:30 vas a revisar el Módulo 1 con Nico: las 4 variables del negocio, la Guía de las
-12 Preguntas del Estudiante Ideal, y cómo investigar el nicho. Vos ya sospechás que "estamos muy
-bien" — este documento lo verifica pregunta por pregunta, y separa dos cosas: lo que **ya está
-resuelto** (con la fuente exacta), y lo que **falta de verdad** (4 puntos, ninguno musical, todos
-resolubles antes del lunes si te sentás una hora).
+El lunes 12:30 vas a revisar el Módulo 1 con Nico: las 4 variables del negocio, las 4 partes del
+Autoanálisis, la Guía de las 12 Preguntas del Estudiante Ideal, y las etapas de Estudio de Campo y
+Analizar. Vos ya sospechás que "estamos muy bien" — este documento lo verifica pieza por pieza, y
+separa dos cosas: lo que **ya está resuelto** (con la fuente exacta), y lo que **falta de verdad**
+(trabajo de campo, no contenido — el checklist completo está al final).
 
-**Veredicto corto: tenías razón.** De las 12 preguntas + las 4 variables del negocio, **9 de 12
-preguntas ya tienen respuesta real** en tu memoria del proyecto — construida en otro orden y con
-otro nombre, pero el contenido es el mismo que pide Nico. Los 4 gaps son reales y valen la pena
-cerrarlos, pero ninguno te obliga a rehacer nada de lo que ya armaste.
+**Veredicto corto: tenías razón, con un matiz.** De las 12 preguntas + las 4 variables + las 4
+partes del autoanálisis, **la gran mayoría ya tiene respuesta real** en tu memoria del proyecto —
+construida en otro orden y con otro nombre, pero el contenido es el mismo que pide Nico. El matiz:
+apareció un gap grande que no habíamos visto — **nunca le hicimos una encuesta real a un solo
+alumno tuyo.** Todo lo que tenemos es tu propio autoanálisis, nunca pasó por la validación de campo
+que Nico pide como obligatoria. No es un problema de contenido, es que a esa etapa nunca llegamos.
 
 ---
 
@@ -119,14 +121,157 @@ course" y anotando 5-10 cuentas con su propuesta y precio si lo publican.
 
 ---
 
-# LOS 4 GAPS REALES, EN ORDEN DE PRIORIDAD PARA EL LUNES
+# LAS 4 PARTES DEL AUTOANÁLISIS (según el texto que pasaste hoy)
 
-| # | Qué falta | Cuánto tarda | Quién lo resuelve |
-|---|---|---|---|
-| 1 | **Competencia** (pregunta 12) — 0% hecho | 20-30 min de búsqueda | Vos, antes del lunes si podés |
-| 2 | **Persona real como ancla** (pregunta 1) | 5 min, pensarlo | Vos |
-| 3 | **Deseos secundarios de hobbista** (pregunta 10) | Ya tenés la propuesta arriba, solo validar | Vos, leyendo lo que armé |
-| 4 | **Narrativa de éxito expandida** (pregunta 11) | Ya tenés la semilla arriba, solo desarrollar con Nico si hace falta | Vos + Nico, se puede hacer en la reunión |
+Nico divide la Etapa de Autoanálisis en 4 partes. Cruzada contra todo lo anterior:
 
-**Todo lo demás (9 de las 12 preguntas + las 4 variables) ya está escrito y verificado contra tu
-memoria real — no hay que crear nada, solo mostrarlo en el orden que Nico pide.**
+| Parte | Qué pide | Estado |
+|---|---|---|
+| **1 · Análisis del negocio** (Objetivos, Estudiante Ideal, Competencia) | Estudiante Ideal ✅ resuelto · Objetivos 🟡 dispersos, no en un solo lugar · Competencia 🔴 gap ya identificado | Parcial |
+| **2 · Análisis Interno / Marca Personal** (filosofía, valores, tu historia, origen de la marca) | 🔴 **Gap nuevo, real** — ver abajo | Falta |
+| **3 · Problemas** (limitaciones y dolor del Estudiante Ideal) | ✅ Resuelto (`memoria/01`, `memoria/03`) | Cerrado |
+| **4 · Soluciones** (lo que enseñás y cómo) | ✅ Resuelto — los 3 hitos completos, 53 ejercicios | Cerrado |
+
+## El gap nuevo: Parte 2 — filosofía, valores, origen de la marca
+
+Esto es genuinamente nuevo, y conecta con algo que ya habíamos anotado sin cerrar: en `memoria/05`
+§35 identificamos que te falta un tipo de contenido — "compartir tus valores" — y quedó pendiente
+sin resolver. Es la misma pregunta que ahora pide Nico desde otro ángulo.
+
+**Tu historia** (memoria/04 §25) ya está — es el "por qué hacés lo que hacés" en formato narrativo.
+**Lo que falta es más corto y más directo:** 2-3 frases de qué creés vos, como profesor, que no
+necesariamente todo el mundo comparte. No es la historia (el arco), es la convicción (la postura).
+
+**Ejemplos para inspirarte, no para copiar** (tenés que sentirlos tuyos):
+- *"No creo en juntar más licks. Creo en entender dos o tres bien y que se te escapen solos."*
+- *"No creo en las escalas raras. Creo en exprimir la que ya sabés hasta el fondo."*
+- *"Creo que un guitarrista aprende más mirándose las manos que mirando tutoriales."*
+
+**No lo puedo escribir yo por vos** — es lo único de todo este documento que es genuinamente tuyo y
+no se puede derivar de la memoria. Pensalo antes del lunes, aunque sea en una frase suelta.
+
+---
+
+# ETAPA DE ESTUDIO DE CAMPO — el gap más grande de los dos documentos nuevos
+
+**El dato clave, textual de Nico:** *"Las personas que ya han trabajado o estén trabajando con
+nosotros son la mejor fuente de información... se debe hacer sí o sí encuestas/entrevistas a
+estos."* Vos tenés alumnos 1 a 1 hoy. **Nunca les hicimos una sola encuesta formal.** Todo lo que
+tenemos en `memoria/01` es tu propio autoanálisis (Etapa 1) — nunca pasó por la validación de
+Etapa 2. No es un problema del contenido, es que a la Etapa 2 completa todavía no se llegó.
+
+## Por qué esto es el ítem de mayor apalancamiento de todo el documento
+
+Encuestar a 5-10 de tus alumnos actuales o pasados **resuelve varios gaps al mismo tiempo**, no uno
+solo:
+- La **pregunta 1** (persona real) — vas a tener 5-10 personas reales, con nombre, no un perfil inventado.
+- La **pregunta 10** (deseos) y la **pregunta 11** (narrativa de éxito) — en vez de la propuesta que
+  armé yo (razonable, pero inferida), vas a tener respuestas textuales de gente real.
+- Alimenta directo la **Etapa de Analizar** (ver más abajo): sin encuestas, no hay de dónde sacar el
+  Top 5 de problemas ni el Top 5 de deseos.
+
+**Es la única actividad de esta lista que, si solo hacés una, más te conviene hacer.**
+
+## Cómo hacerlo (resumen de la plantilla de Nico, adaptada a lo que ya tenés)
+
+Nico da una encuesta de 17 preguntas para alumnos actuales/pasados. No hace falta mandar las 17 —
+elegí las que más te sirven a vos ahora:
+
+- ¿Qué problemas/frustraciones tenías con la guitarra antes de las clases conmigo?
+- ¿Qué habías probado antes que no te funcionó?
+- ¿Qué te hizo dudar antes de empezar (si dudaste)?
+- ¿Cuál era tu mayor obstáculo para lograr lo que buscabas?
+- ¿Cómo fue tu antes y después?
+- ¿Qué cambió en tu forma de tocar?
+- Edad (rango) · ¿A qué te dedicás? · ¿En qué país vivís?
+
+> Fijate: **son casi las mismas 5 preguntas** de la guía de entrevista para testimonios que ya
+> tenés armada (`memoria/04` §38) — con 2-3 preguntas demográficas de más. Si le mandás esto a los
+> mismos alumnos que ibas a entrevistar para el testimonio, **matás dos pájaros de un tiro**: te
+> sirve de investigación de mercado Y de base para el video testimonio.
+
+**Cómo mandarla:** WhatsApp, un audio, o una videollamada corta — lo que ya tenés de confianza con
+ellos. Nico aclara que **entrevistar rinde más que encuesta escrita**, si tenés el tiempo.
+
+**Sobre el método "Resellching" que menciona Nico** (investigar y de paso ofrecer algo a cambio):
+existe en el material, pero **no te lo recomiendo activar todavía con tus alumnos actuales** — es
+la misma zona donde la semana pasada ya nos equivocamos una vez (asumir qué le podés ofrecer a esa
+gente sin conocer bien su situación). Por ahora, la encuesta es solo para escuchar, no para vender
+nada a cambio. Si después de leer las respuestas ves una oportunidad real, la evaluamos con más
+información en mano, no antes.
+
+---
+
+# ETAPA DE ANALIZAR — depende de tener las encuestas primero
+
+Una vez que tengas las respuestas (aunque sean de 3-4 alumnos, no hace falta esperar a 10), Nico
+pide aplicar 2 marcos nuevos que no teníamos:
+
+## Problema Original vs Problemas Reales
+
+**Problema original** = la causa de fondo, intangible. **Problemas reales** = los síntomas
+concretos y cotidianos que le recuerdan a la persona que tiene el problema.
+
+**Aplicado a lo que ya sabemos de tu avatar** (a confirmar/afinar con las encuestas):
+
+| | |
+|---|---|
+| **Problema original** | Nunca aprendió a ver el mástil como un mapa conectado — vive encerrado en la caja 1 |
+| **Problemas reales** (síntomas cotidianos) | Graba un cover y al escucharse se desilusiona · en una junta con amigos evita ofrecerse a improvisar · repite siempre los mismos 3-4 licks sin importar la canción · mira un solo de sus ídolos y siente que jamás va a sonar así · practica solo, sin saber si está mejorando de verdad |
+
+> Esto es casi textual la propuesta que ya te había hecho para la pregunta 7 (frustraciones
+> diarias) — Nico lo confirma como un marco propio con nombre. No es contenido nuevo, es la manera
+> correcta de nombrarlo el lunes.
+
+## Deseo Natural vs Deseo Visceral
+
+**Deseo natural** = lo que la persona conscientemente quiere (ej.: "mejorar mis solos"). **Deseo
+visceral** = la identidad/estatus que vos construís alrededor de eso — la gente no compra "un
+método", compra ser el tipo de guitarrista que ese método promete.
+
+**Un hallazgo bueno: ya tenés piezas de esto sin haberlo nombrado así.**
+- El **nombre "Solo con Sabor"** ya es un intento de deseo visceral — no vende "mejorar", vende
+  "tener sabor" (un adjetivo, una identidad).
+- El lead magnet **"El Mapa de las 5 cajas conectadas"** es un objeto concreto y deseable — la
+  gente no quiere "info sobre pentatónica", quiere ESE mapa puntual.
+- No hace falta inventar nada nuevo acá — la tarea del lunes es más bien **confirmar con Nico si el
+  nombre y el mapa ya cumplen esta función**, o si conviene afilarlos más.
+
+## Top 5 problemas + Top 5 deseos
+
+Es el resumen final de todo lo anterior, y **depende de las encuestas** — no lo completes con
+inferencia si podés esperar a tener 3-4 respuestas reales primero.
+
+---
+
+# CHECKLIST FINAL — todo lo que hay que hacer, en orden real
+
+- [ ] **1 · Encuestar a 5-10 alumnos 1 a 1** (actuales o pasados) — la actividad de mayor
+      apalancamiento, resuelve varios gaps a la vez. Usar las preguntas resumidas arriba.
+- [ ] **2 · Análisis de competencia** — 20-30 min buscando 5-10 cuentas de guitarra rock/blues con
+      programas online. Independiente de las encuestas, se puede hacer en paralelo.
+- [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
+      nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.
+- [ ] **4 · Con las encuestas ya en mano:** aplicar Problema Original/Real y Deseo Natural/Visceral,
+      armar el Top 5 de problemas y el Top 5 de deseos.
+- [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original (la imagen que me
+      pasaste no se leía con precisión).
+- [ ] **6 · Validar o corregir** las propuestas que dejé para deseos secundarios (pregunta 10) y
+      narrativa de éxito (pregunta 11) — se pueden reemplazar directo por lo que salga de las
+      encuestas del punto 1.
+
+---
+
+# EN TOTAL: ¿ESTAMOS FIRMES PARA IR CON M1 Y M2?
+
+**Módulo 1: sí, con margen.** De 4 partes del autoanálisis + 12 preguntas + 3 etapas de
+investigación, **lo único que falta es trabajo de campo (encuestas, competencia) e introspección
+corta (valores)** — cero contenido nuevo que inventar, cero rediseño de lo que ya armaste. Con el
+checklist de arriba resuelto (2-3 horas repartidas, no un día entero), llegás al lunes con el
+Módulo 1 más cerrado de lo que la mayoría de la gente de este programa probablemente llega.
+
+**Módulo 2: todavía no lo puedo evaluar.** No compartiste ningún material de Módulo 2 en esta
+conversación — solo mencionaste que te lo habilitaron. En cuanto tengas los documentos, se los paso
+por el mismo cruce que hice acá con el Módulo 1, para que sepas exactamente qué de lo que ya
+armamos lo cubre y qué es genuinamente nuevo.
+
