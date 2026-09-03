@@ -50,12 +50,12 @@ pendiente.**
 | A1 | Confirmar los 2 criterios de "nicho azul" contra la fuente original | 5 min | Módulo 1 |
 | A2 | Pensar la Parte 2 del autoanálisis: 2-3 frases de tu filosofía/valores como profesor | 15-20 min | Módulo 1 |
 | A3 | Escribir la justificación del orden de los 4 pilares (base ya redactada, solo ajustar) | 10 min | Módulo 2 |
-| A4 | Pensar un extra/sorpresa para el programa (no urgente, 3 ideas ya sugeridas) | 10-15 min | Módulo 2 |
+| A4 | ✅ Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos" (caja un tono arriba + pincelada de jazz) | — | Módulo 2 |
 | A5 | Validar o corregir mis propuestas de deseos secundarios (pregunta 10) y narrativa de éxito (pregunta 11) | 10-15 min | Módulo 1 |
-| A6 | Pensar tu propia postura sobre la tensión pregrabado-vs-vivo, antes de preguntarle a Nico | 10 min | Módulo 2 |
+| A6 | ✅ Postura pregrabado-vs-vivo — RESUELTA (4/9): las dos ideas se reconcilian, ver `MODULO-2-RESPONDIDO.md` | — | Módulo 2 |
 
-**Subtotal Categoría A: ~65-75 minutos.** Es la que más rinde por minuto invertido — nada de esto
-depende de que otra persona te conteste, es 100% vos con la cabeza despejada.
+**Categoría A, avanzando con café en mano.** 2 de 6 resueltas en una sola charla corta — quedan
+A1, A2, A3 y A5, ninguna urgente.
 
 ## 🔍 CATEGORÍA B — Trabajo de escritorio (investigar, sin depender de otros)
 

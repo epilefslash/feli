@@ -46,6 +46,28 @@ no más.
 alcanzan como guion de clase en vivo para la primera cohorte, o conviene tener algo pregrabado
 igual desde el día 1?"* Es una decisión que él puede cerrar en un minuto y te ahorra semanas.
 
+## ✅ Respuesta de Feli (4/9) — y una reconciliación, no una contradicción
+
+**Panza tranquila con dar la clase en vivo** — sin miedo, confirmado. Pero la preferencia real es
+otra: *"me gustaba más la idea de ir empezando a grabar las clases para cuanto antes tenerlo todo
+resuelto"*. Con margen para hacer lo que diga Nico, y con una intuición propia: *"quizás podría
+hacer ambas."*
+
+**Esa intuición es la respuesta correcta, no un compromiso a medias:**
+1. **Dar la clase en vivo desde el día 1** (lo que sugiere Nico) — ya confirmado que sale cómodo.
+2. **Grabar esas clases en vivo** — esto no es nuevo, ya estaba escrito como regla (`memoria/02`
+   §28-BIS, dentro de "Cómo dar tu primera clase grupal": *"Grabá SIEMPRE la clase — esas
+   grabaciones son tu futuro videocurso"*).
+3. **Pulir esas grabaciones en el pregrabado definitivo DESPUÉS**, con lo que aprendiste de la
+   primera cohorte — el mismo `memoria/02` §28-BIS ya advertía no usar la grabación cruda tal cual
+   como contenido final (tiene ruido, expone la imagen de un alumno real sin pensarlo como
+   producto). Grabar y pulir después no es lo mismo que publicar la grabación sin editar.
+
+**No hay que elegir entre lo que sugiere Nico y las ganas de Feli de ir grabando ya** — son el
+mismo camino, en el orden correcto. Lo único que cambia respecto a lo que se tenía pensado antes:
+no hace falta producir un pregrabado planeado y prolijo ANTES de la primera cohorte — alcanza con
+grabar lo que de todos modos ya se iba a grabar (la clase en vivo).
+
 ---
 
 # LA PLANTILLA "DIAGRAMANDO TU PROGRAMA DE ALTO VALOR"
@@ -113,15 +135,20 @@ El documento lista los elementos que generan "deseo incontrolable" y sostienen p
 | **b) Comunidad** | Grupo donde interactúan entre sí | ✅ Grupo reducido, "fin del estudiar solo" |
 | **c) Plan de acción** | Pasos claros, sin adivinar | ✅ Los 3 hitos, camino ordenado |
 | **d) Recursos que aceleran** | Material ya hecho, no hay que crearlo de cero | ✅ Backing tracks propios, cuadernillos completos |
-| **e) Extras / sorpresas** | Bonus inesperados | 🔴 No tenemos ninguno pensado |
+| **e) Extras / sorpresas** | Bonus inesperados | ✅ **Resuelto (4/9)** — ver abajo |
 | **f) Simplicidad** | Que la oferta no suene complicada | ✅ Ya es un principio de diseño del programa (`memoria/02` §4) |
 
-**5 de 6 ya están.** El único que falta es el más chico y el más divertido de resolver: **un extra
-sorpresa**, algo que el alumno no espera y que no cuesta mucho armar. Ideas rápidas, para elegir
-o descartar: acceso a una sesión grupal extra de "pedime lo que quieras tocar y lo desarmamos
-juntos" al final del programa · un PDF con 5 licks bonus que no están en los cuadernillos · una
-playlist curada de referencias por hito. No hace falta resolverlo ahora — es la pieza que menos
-urge de todo este documento.
+**Los 6 elementos ya están.** El extra/sorpresa salió de Feli en 5 minutos con un café: **"2
+Trucos Secretos"** — dos jeites propios que hoy no están en ningún cuadernillo:
+1. **Mover la caja pentatónica un tono arriba** sobre la misma base — cambia el color, "otro audio
+   increíble".
+2. **La pincelada de jazz sobre rock:** repetir una frase, subirla medio tono, volver a bajarla.
+
+**Formato propuesto:** un mini-bonus corto (video o PDF de una página), entregado como sorpresa
+—no anunciado de entrada en el "qué incluye"— en algún punto del programa. Candidato natural:
+**justo después del Hito 2**, cuando el alumno ya tiene bending y vibrato resueltos y estos dos
+jeites le suenan alcanzables, no mágicos. A confirmar con Feli si ese es el momento o prefiere
+otro.
 
 **Sobre diferenciación (mismo documento):** dice que diferenciarse no siempre es información
 nueva, puede ser el VEHÍCULO. Esto valida algo que ya hacíamos sin nombrarlo: no inventamos
@@ -164,10 +191,12 @@ punto 12). No es nuevo, pero es la segunda vez que el material lo pide — sube 
 
 # CHECKLIST FINAL DEL MÓDULO 2
 
-- [ ] **1 · Llevar la pregunta de la tensión al lunes** — ¿alcanza con los cuadernillos como guion
-      de clase en vivo, o conviene pregrabar igual antes de la primera cohorte? (sección de arriba)
+- [x] **1 · Postura sobre la tensión pregrabado/vivo — RESUELTA (4/9).** Panza tranquila con dar
+      en vivo, más las ganas de ir grabando: se reconcilian sin conflicto, ver la sección de
+      arriba. Igual se lleva la pregunta al lunes, ahora con postura propia ya pensada.
 - [ ] **2 · Escribir la justificación del orden de los pilares** — 10 minutos, base ya escrita arriba
-- [ ] **3 · Pensar un extra/sorpresa** para el programa — el único elemento de valor que falta, no urgente
+- [x] **3 · Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos"** (mover la caja un tono arriba +
+      la pincelada de jazz). Falta solo confirmar en qué momento del programa se entrega.
 - [ ] **4 · Reforzar la validación de autoridad en la bio** (facultad + años enseñando) — ya estaba
       identificado, este módulo confirma que es el lever de mayor impacto de toda la oferta
 - [ ] **5 · Llevar la cita de Robbins al lunes** cuando se hable de precio, como contrapeso a la
