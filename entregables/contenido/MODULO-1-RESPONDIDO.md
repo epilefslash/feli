@@ -238,10 +238,38 @@ método", compra ser el tipo de guitarrista que ese método promete.
 - No hace falta inventar nada nuevo acá — la tarea del lunes es más bien **confirmar con Nico si el
   nombre y el mapa ya cumplen esta función**, o si conviene afilarlos más.
 
-## Top 5 problemas + Top 5 deseos
+## Top 5 problemas + Top 5 deseos — ✅ primera pasada (4/9), con las 3 respuestas que ya llegaron
 
-Es el resumen final de todo lo anterior, y **depende de las encuestas** — no lo completes con
-inferencia si podés esperar a tener 3-4 respuestas reales primero.
+> **Nivel de confianza, para ser honestos:** de las 3 respuestas, **solo Tom es el avatar real**
+> (28-45). Un Top 5 armado sobre n=1 no es un Top 5 estadístico — es una primera pasada real,
+> mejor que la inferencia pura de antes, pero todavía liviana. Cada ítem de abajo dice de dónde
+> sale y qué tan confirmado está. **Se vuelve a esta tabla cuando conteste Ángel** para engordar
+> la muestra.
+
+**Top 5 problemas:**
+
+| # | Problema | Confirmación |
+|---|---|---|
+| 1 | Mirar tutoriales/videos sueltos, sin un orden, sin avanzar | 🟢 **La más fuerte** — aparece en 2 de 3 respuestas (Tom Y Pancho), dos edades distintas, y coincide con todo el contenido ya filmado sobre esta creencia |
+| 2 | No saber moverse por el mástil / vivir encerrado en una caja | 🟢 Confirmado por Tom, textual ("sobre todo moverme sobre el mástil") — es el Problema Original de arriba, con evidencia real |
+| 3 | El tiempo como obstáculo real, no la falta de ganas | 🟢 Confirmado por Tom, textual ("el tiempo") — valida la creencia #5 (`memoria/03` §6) con un caso real, no solo teoría |
+| 4 | No poder aportar cuando toca con otros músicos, sentirse perdido en una banda | 🟡 Nuevo, sale de Tom — antes lo teníamos más como "deseo", ahora aparece también como el problema cotidiano que lo generaba |
+| 5 | Practicar solo sin saber si de verdad está mejorando | 🟡 Hipótesis de la sección de arriba (pregunta 7), todavía sin confirmar en esta ronda — pendiente de que alguien más lo mencione |
+
+**Top 5 deseos:**
+
+| # | Deseo | Confirmación |
+|---|---|---|
+| 1 | Tocar con otros músicos con soltura, entender qué están tocando, opinar con criterio | 🟢 Confirmado por Tom, textual — el deseo más fuerte de toda la muestra |
+| 2 | Más soltura y criterio propio a la hora de componer | 🟢 Confirmado por Tom, textual ("pensamiento crítico... a la hora de componer") |
+| 3 | Confiar en la propia capacidad, animarse | 🟡 Aparece en Pancho ("confiar para poder hacerlo") — otra edad, pero podría ser un deseo más transversal que el avatar específico. Anotar, no descartar |
+| 4 | Grabar un cover o solo propio y animarse a compartirlo | 🟡 Hipótesis previa, sin confirmar todavía en esta ronda |
+| 5 | Que el tiempo invertido en la guitarra por fin "se note" | 🟡 Hipótesis previa, sin confirmar todavía en esta ronda |
+
+**Lo que esto significa para el lunes:** podés presentar el Top 5 de arriba con total tranquilidad
+— cada ítem dice honestamente si está confirmado con datos reales (🟢) o si sigue siendo hipótesis
+razonable (🟡). Es exactamente el tipo de rigor que un mentor real valora más que una lista prolija
+pero inventada.
 
 ---
 
@@ -301,7 +329,8 @@ confirmación real (después de todo el trabajo de contenido ya hecho sobre esta
 de que es el problema correcto para seguir atacando.
 
 **Cuando conteste Ángel (o si sumás algún alumno más), volvemos a esta sección para cerrar el
-Top 5 de problemas y el Top 5 de deseos con la muestra completa.**
+Top 5 de problemas y el Top 5 de deseos con la muestra completa.** El primer Top 5/Top 5 con lo
+que hay hasta ahora ya está armado más abajo, en la sección "Etapa de Analizar".
 
 ---
 
@@ -313,8 +342,9 @@ Top 5 de problemas y el Top 5 de deseos con la muestra completa.**
       programas online. Independiente de las encuestas, se puede hacer en paralelo.
 - [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
       nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.
-- [ ] **4 · Con las encuestas ya en mano:** aplicar Problema Original/Real y Deseo Natural/Visceral,
-      armar el Top 5 de problemas y el Top 5 de deseos — ya arrancado con Tom, falta cerrarlo.
+- [x] **4 · Top 5 problemas + Top 5 deseos** — primera pasada hecha (4/9) con las 3 respuestas que
+      llegaron, cada ítem marcado 🟢 confirmado o 🟡 hipótesis. Se vuelve a engordar cuando conteste
+      Ángel — no bloquea el lunes.
 - [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original (la imagen que me
       pasaste no se leía con precisión).
 - [ ] **6 · Validar o corregir** las propuestas que dejé para narrativa de éxito (pregunta 11) —

@@ -81,10 +81,12 @@ vuelva para el domingo lo procesás; lo que no llegue, no bloquea nada — vas i
 
 | # | Qué | Tiempo | Condición |
 |---|---|---|---|
-| D1 | Etapa de Analizar completa: Problema Original/Real, Deseo Natural/Visceral, Top 5 problemas + Top 5 deseos | 30-45 min | Necesita al menos 3-4 respuestas de C1 |
+| D1 | ✅ Etapa de Analizar — primera pasada HECHA (4/9) con las 3 respuestas que llegaron, cada ítem marcado como confirmado o hipótesis. Ver `MODULO-1-RESPONDIDO.md` | — | Se engorda cuando conteste Ángel, no bloquea |
 
-**Si el domingo a la noche no volvieron suficientes respuestas, no pasa nada** — vas al lunes con
-esto "en proceso, ya activado" en vez de "cerrado". Es una posición perfectamente presentable.
+**Categoría D con primer avance real.** No hizo falta esperar al domingo — con 3 respuestas ya
+alcanzó para un Top 5/Top 5 honesto, marcado ítem por ítem si está confirmado con datos reales o
+sigue siendo hipótesis. Cuando conteste Ángel, se vuelve a esa tabla para engordarla, no para
+armarla de cero.
 
 ## 💬 CATEGORÍA E — Para llevar a la reunión, NO para resolver solo antes
 
