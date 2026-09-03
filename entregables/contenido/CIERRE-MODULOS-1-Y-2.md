@@ -61,10 +61,11 @@ depende de que otra persona te conteste, es 100% vos con la cabeza despejada.
 
 | # | Qué | Tiempo | De dónde sale |
 |---|---|---|---|
-| B1 | Análisis de competencia — buscar 5-10 cuentas de guitarra rock con programas online | 20-30 min | Módulo 1 y 2 (pedido 2 veces) |
+| B1 | ✅ Análisis de competencia — HECHO (4/9), ver `Analisis-de-Competencia.pdf` | — | Módulo 1 y 2 (pedido 2 veces) |
 
-**Subtotal Categoría B: ~20-30 minutos.** Es el ítem que más veces pide el material de Nico en
-total — vale la pena no dejarlo para último momento.
+**Categoría B cerrada.** Salió el hallazgo de que Andy Kligman —tu propia inspiración de formato
+de Instagram— es también tu competidor más parecido, y que USD 600 no tiene comparable directo de
+precio en el mercado (queda entre los cursos grabados baratos y la mentoría boutique carísima).
 
 ## 📨 CATEGORÍA C — Trabajo de campo (depende de otros, arrancar YA, no el domingo)
 
@@ -110,10 +111,10 @@ las encuestas — no requiere que vos hagas nada más que revisar el celular de 
 **Jueves (hoy), lo que quede del día:** nada obligatorio. Si tenés 10 minutos, mandá la encuesta
 (C1) ya mismo — es lo único que se beneficia de arrancar cuanto antes, por el tiempo de espera.
 
-**Viernes a la mañana (el bloque grande, ~2-2.5 hs):**
-1. Si no la mandaste ayer: armar y mandar la encuesta (C1) — 30-45 min
-2. Las 6 tareas de pensar (A1 a A6) — ~70 min, se pueden hacer todas seguidas con un café
-3. La competencia (B1) — 20-30 min
+**Viernes a la mañana (el bloque grande, ahora ~1.5-2 hs con B1 ya resuelto):**
+1. ~~La competencia (B1)~~ — ✅ ya está hecha (4/9), ver `Analisis-de-Competencia.pdf`
+2. La encuesta (C1) ya está en curso, 3 de 4-5 respondieron el mismo día — falta Ángel
+3. Las 6 tareas de pensar (A1 a A6) — ~70 min, se pueden hacer todas seguidas con un café
 
 **Con esto, el viernes a la mañana tenés TODO lo que depende solo de vos, resuelto.**
 
