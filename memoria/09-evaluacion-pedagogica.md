@@ -55,4 +55,28 @@ completo (`MapaCompleto`, reusado del Hito 1) y una consigna de práctica libre 
 en cajas 3/4/5 y repetir el vibrato medido del ej. 27 en las cinco. Convierte el "sorpresa, el solo se
 mueve" en algo anunciado y practicado antes de llegar al entregable.
 
+**QUINTA RONDA (9/9) — Feli: "el solo final del Hito 1 NO pasa por la caja 5".** Objeción sobre el
+**ej. 16**, el entregable del propio Hito 1 (el "Mes 1: video recorriendo las 5 cajas sin pausa" de
+`memoria/01` §3). Verificado decodificando nota por nota contra la fuente: **tenía razón.** El
+ejercicio tocaba los trastes 5,7,8,9,10,12,13,14,15 — nunca 2 ni 3, los únicos exclusivos de la
+caja 5 (`auditar_cajas.py --tabla`). Su único "contacto" con la caja 5 era el traste 5, compartido
+con la caja 1 — la misma ambigüedad estructural que ya se había corregido en el Hito 3 (ver
+`memoria/10` §30, tercera ronda: ej. 50, 51, 53), pero que nunca se aplicó acá porque esa ronda
+solo auditó el Hito 3.
+
+**El arreglo (mismo mecanismo ya validado, mismas dos notas):** el compás final pasó de un whole
+note en la tónica (`a'1\1`, traste 5) a dos notas — primero el traste 3 (SOL, exclusivo de caja 5)
+y recién después la tónica del traste 5, con el label "cerrás en casa" movido a la nota que
+realmente resuelve. Mismo gesto que ej. 50/53: bajar a la caja 5 real antes de cerrar en casa.
+
+**Resultado:** `exclusivas` pasa de `[4]` a `[4, 5]` — ahora hay evidencia real, no ambigua, de la
+caja 5. Hito 1 completo: 47,1% → 47,2% fuera de la ventana 5-8 (cambio despreciable, un solo
+ejercicio tocado). Verificado: escala OK y barcheck de compases OK en las 73 partituras
+(`auditar_cajas.py --compases`). El resto del Hito 1 no se tocó.
+
+> **La lección se repite, van tres veces:** un ejercicio puede decir "cajas: [1,2,3,4,5]" en el
+> reporte crudo y no probar nada de la caja 5 si el único contacto es un traste compartido. La
+> columna `exclusivas` es la que dice la verdad — y hay que mirarla ejercicio por ejercicio, no
+> solo confiar en que una ronda anterior ya "arregló las cajas" en general.
+
 ---

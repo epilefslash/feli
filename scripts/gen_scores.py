@@ -198,7 +198,7 @@ EJ["e16"] = r"""
   g''8\1 e''\1 d''\2 c''\2 a'4\3 g'4\3 |
   e'8\3 d'\4 c'\4 a\5 g4\5 e4\5 |
   a,8\6 c\6 d\5 e\5 g\4 a\4 c'\3 d'\3 |
-  a'1\1 ^\markup{\bold "cerrás en casa"} |
+  g'4\1 a'2.\1 ^\markup{\bold "cerrás en casa"} |
 """
 
 
