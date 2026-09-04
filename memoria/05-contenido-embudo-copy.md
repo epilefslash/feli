@@ -12,7 +12,7 @@
 **A — AUTORIDAD / VALOR (alcance, gente nueva):**
 - ✅ #1 recursos para tu penta (toca, sin hablar)
 - ✅ #2 5 acordes para funkear
-- 🎬 "3 formas de romper las cajas" (próximo — Formato A + alimenta PENTA)
+- ✅ "3 formas de romper las cajas" (#9) — filmado (9/9), falta editar
 - 🎬 REEL FIJADO: vos soleando lindo 30 seg (la carta de presentación del perfil)
 
 **C — CREENCIAS ATACADAS (conversión, el motor):**
@@ -57,20 +57,29 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 ```
 > Regla de oro: NO se vende en DM. El DM solo agenda la llamada. La venta se cierra por voz.
 
-**Bio de Instagram (modelo — actualizado 1/9 con el formato oficial de InstaMúsico, módulo "Optimización
-de Biografía"):**
+**Bio de Instagram (modelo — actualizada 9/9 con la promesa final):**
 
 > Nico usa su propia bio de ejemplo: **Título** (rol/nicho) → **Promesa** con emoji → **Validación /
-> prueba social** con emoji → **CTA** con emoji → link. Nuestra versión anterior tenía promesa y CTA
-> pero le faltaba la línea de validación — el por qué creerte. Corregido:
+> prueba social** con emoji → **CTA** con emoji → link.
 
 ```
 🎸 Profesor de guitarra rock
-Te ayudo a pasar de la caja 1 a improvisar con sabor en 12 semanas
+Ayudo a guitarristas de rock a salir de la caja 1 y tocar solos con sabor en 90 días
 📖 Formado en la facultad de música de Rosario · años enseñando 1 a 1
 👇 Comentá SOLO y arrancamos
 [link]
 ```
+
+> **Por qué esta versión (9/9, sobre la propuesta de Feli):** dos cambios respecto a la que había
+> antes ("te ayudo a pasar de la caja 1 a improvisar con sabor en 12 semanas"). (1) **"Ayudo a
+> guitarristas de rock a..."** en vez de "te ayudo a" — calca literal el molde de Nico ("ayudo a X
+> a lograr Y") y es la MISMA frase que ya habíamos validado en `MODULO-2-RESPONDIDO.md` contra la
+> Plantilla de Programa de Alto Valor — no es una frase nueva, es una que ya pasó ese filtro.
+> (2) **"Salir de la caja 1 y tocar solos con sabor"** en vez de "pasar de la caja 1 a improvisar" —
+> más activo, y usa la misma imagen de "la caja 1 como cárcel" que ya es el corazón del guion
+> vendedor "Como que desaparece" (`memoria/04` §23). (3) **"90 días"** en vez de "12 semanas" —
+> mismo plazo, pero es el que ya usa la promesa Punto A → Punto B (`memoria/01` §19: *"en 90 días
+> pasás de..."*) — la bio y el copy de venta ahora dicen el número igual en todos lados.
 
 **Checklist de foto de perfil (nuevo, del mismo módulo):**
 - Solo vos en la foto — nada de familia, amigos, mascotas
@@ -255,7 +264,7 @@ primero aunque se publique último.**
 |---|---|---|---|
 | **DÍA 0 — se suben los 3 juntos** ||||
 | 1 | **REEL FIJADO** (#12) — 30 seg tocando, sin hablar | Autoridad | 🎬 guion listo (sec. 26) |
-| 2 | **"3 formas de romper las cajas"** (#9) | Valor · Reel | 🎬 guion listo (sec. 24) |
+| 2 | **"3 formas de romper las cajas"** (#9) | Valor · Reel | ✅ filmado (9/9), falta editar |
 | 3 | **EPIFANÍA** — "El día que dejé de ver cajas" | Epifanía | ✍️ **guion nuevo (sec. 35)** |
 | **SEMANA 1** ||||
 | 4 | **Carrusel 1** — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | 🎨 escrito, falta diseño |
@@ -300,13 +309,14 @@ vendedores entran recién acá**, igual que decía la sección 9.
 | Qué | Cuánto cuesta | Prioridad |
 |---|---|---|
 | **2 testimonios** — coordinar, grabar, editar | Depende de otro ⇒ **empezar ya** | 🔴 1 |
-| **Filmar #9 + Fijado #12** | 1 mañana, guiones listos | 🔴 2 |
-| **Grabar la Epifanía** | 20 min · **antes hay que completar los 4 blancos reales** | 🔴 3 |
-| **2 fotos** para los StoryTelling | 30 min con luz natural y el celu | 🟡 4 |
-| **Diseñar 3 carruseles** | Están escritos, es solo Canva | 🟡 5 |
-| **Pieza del posteo de 2 pasos** | Mockup del PDF + 2 slides | 🟡 6 |
-| **PORTADAS de los reels** | ⚠️ nunca se trabajó — define cómo se ve la grilla | 🟡 7 |
-| Terminar la edición del #8 | 3 cortes ya identificados | 🟢 8 |
+| ~~Filmar #9~~ | ✅ **filmado (9/9)**, falta editar | — |
+| **Grabar Fijado #12 + Epifanía** | Sábado 13/9, guiones cerrados, sin blancos | 🔴 2 |
+| **2 fotos** para los StoryTelling | 30 min con luz natural y el celu | 🟡 3 |
+| **Diseñar 3 carruseles** | Están escritos, es solo Canva | 🟡 4 |
+| **Pieza del posteo de 2 pasos** | Mockup del PDF + 2 slides | 🟡 5 |
+| **PORTADAS de los reels** | ⚠️ nunca se trabajó — define cómo se ve la grilla | 🟡 6 |
+| Terminar la edición del #8 | 3 cortes ya identificados | 🟢 7 |
+| Editar #9 ("3 formas de romper cajas") | Ya filmado, falta el corte | 🟢 7 |
 
 > **Lo importante de esta tabla: no hay que filmar más Formato C.** De lo que falta, nada es un reel de
 > creencia atacada — son testimonios, fotos, diseño y una epifanía. El músculo que hay que usar ahora

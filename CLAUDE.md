@@ -110,3 +110,9 @@ Traducido a qué hacer, **sin esperar que Feli lo pida de nuevo** — alcanza co
 - Balance de ejercicios por hito: 16 (Hito 1) · 18 (Hito 2) · 19 (Hito 3) · 6 (Bonus), numeración
   corrida 1 a 59. Si se agrega o saca contenido, mantener la numeración corrida y actualizar
   `memoria/09-evaluacion-pedagogica.md` con el motivo.
+- **Todo lo que Feli suba de Nico Galliussi (o de su equipo) es la biblia del proyecto.** Se le hace
+  caso tal cual, no se lo cuestiona ni se lo pesa contra un criterio propio — el trabajo acá es
+  cruzarlo contra lo que ya está armado y activarlo, no evaluarlo. Si algo de Nico entra en tensión
+  con una decisión previa del proyecto, se documenta la tensión y se resuelve a favor de Nico (o se
+  lleva como pregunta a la mentoría si hace falta que él la desempate), nunca se descarta su material
+  por preferencia propia.

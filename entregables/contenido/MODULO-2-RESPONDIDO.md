@@ -205,10 +205,12 @@ punto 12). No es nuevo, pero es la segunda vez que el material lo pide — sube 
       sección de arriba (y con una corrección real: cómo funciona El Pulso en dos tiempos, no en uno)
 - [x] **3 · Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos"** (mover la caja un tono arriba +
       la pincelada de jazz). Falta solo confirmar en qué momento del programa se entrega.
-- [ ] **4 · Reforzar la validación de autoridad en la bio** (facultad + años enseñando) — ya estaba
-      identificado, este módulo confirma que es el lever de mayor impacto de toda la oferta
+- [x] **4 · Reforzar la validación de autoridad en la bio** — YA ESTABA HECHO (1/9, antes de que
+      existiera este documento): `memoria/05` §11 ya tiene la línea "Formado en la facultad de
+      música de Rosario · años enseñando 1 a 1". Este módulo solo confirma que es el lever de
+      mayor impacto de toda la oferta — nada que agregar.
 - [ ] **5 · Llevar la cita de Robbins al lunes** cuando se hable de precio, como contrapeso a la
-      ansiedad de cobrar de más
+      ansiedad de cobrar de más — esto no se "resuelve" antes, es un recordatorio para el momento
 
 > **Nota:** el material que compartiste no está completo (vos mismo lo dijiste). Si aparecen más
 > documentos del Módulo 2 después, se los cruzo de la misma forma.

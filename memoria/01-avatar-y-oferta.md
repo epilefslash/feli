@@ -8,9 +8,38 @@
 
 ## 1) AVATAR (cliente potencial)
 
-Guitarrista hobbista, 28–45 años, mayormente hombre, 2–6 años tocando, autodidacta.
-Sabe acordes abiertos, power chords, la pentatónica menor caja 1 y poco más.
-Trabaja de otra cosa, toca 2–4 hs por semana en casa.
+Guitarrista hobbista, 28–57 años (techo de edad ampliado, ver nota abajo), mayormente hombre,
+2–6 años tocando, autodidacta. Sabe acordes abiertos, power chords, la pentatónica menor caja 1 y
+poco más. Trabaja de otra cosa, toca 2–4 hs por semana en casa.
+
+> ⚠️ **Techo de edad ampliado de 45 a 57 (9/9) — análisis, para confirmar con Nico el lunes
+> (Categoría E, pregunta E4).** Feli propuso subir el techo y pidió el análisis; esto es lo que
+> dice la evidencia, no una decisión ya tomada en soledad:
+> - **Los datos reales ya lo venían empujando.** De los 4 avatares reales que contestaron la
+>   encuesta (`entregables/contenido/MODULO-1-RESPONDIDO.md`), **2 de 4 — Ángel y Verónica, los
+>   dos de 52** — ya estaban fuera del techo de 45, y son un calce psicográfico casi perfecto (el
+>   mismo problema, el mismo deseo, en sus propias palabras). No es una excepción aislada: es la
+>   mitad de la muestra real.
+> - **El panel de referentes (`memoria/03` §10) apunta a una generación más grande, no más chica.**
+>   Los discos que ancla el copy son de 1968 a 1990 (*Voodoo Child* 1968, *Whole Lotta Love* 1969,
+>   *Back in Black* 1980, *Sweet Child O' Mine* 1987, *Still Got the Blues* 1990). Alguien que tenía
+>   15-20 años cuando esos discos eran nuevos nació entre 1948 y 1975 — **hoy tiene entre 51 y 78
+>   años**. El techo de 45 años dejaba afuera a la generación que vivió esta música como propia, y
+>   solo alcanzaba a quien la descubrió después (por los padres, el cine, la cultura de guitarra) —
+>   una relación distinta con el material, no imposible, pero menos directa.
+> - **El límite de abajo (28) sigue sin tocarse** — no hay evidencia que lo cuestione, y el material
+>   de InstaMúsico (`memoria/05` §35) advierte no diluir el nicho para "gustarle a todos": la edad
+>   no es la variable que hace el trabajo de nichear, lo hace el perfil psicográfico (autodidacta
+>   trabado en la caja 1, quiere sonar a sus ídolos) — eso se sostiene igual de fuerte a los 30 que
+>   a los 55.
+> - **Por qué 57 y no más arriba:** es el número que ya proponía Feli, cae justo adentro del rango
+>   real de la música de referencia (nacido ~1969, tenía ~20 cuando salió *Still Got the Blues*), y
+>   no fuerza el avatar hacia un segmento con supuestos distintos (jubilación, otra relación con la
+>   tecnología) que no tenemos evidencia de que aplique — las 6 sesiones semanales por Zoom + grupo
+>   de WhatsApp asumen cierta soltura digital que 57 no pone en duda.
+> - **Recomendación: subir el techo a 57.** Los datos lo sostienen. Queda para confirmar con Nico el
+>   lunes (no se cambia en la comunicación pública todavía) — es la misma pregunta E4 que ya estaba
+>   anotada, ahora con el número y el argumento completo en vez de un rango vago "50-55".
 
 **Dolor real (lo que toca el copy):**
 - "Siempre suelto las mismas frases en la pentatónica y suenan aburridas"

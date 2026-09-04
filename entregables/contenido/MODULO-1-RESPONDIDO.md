@@ -358,13 +358,15 @@ distintas) confirmando el mismo deseo de "animarse", **este Top 5 ya no es una h
 apoyo — es un patrón real, replicado, con datos textuales para citar uno por uno si Nico pregunta
 de dónde salió cada ítem.**
 
-> ⚠️ **Una nota sobre el rango de edad del avatar.** Ángel (52) y Verónica (52) están por fuera
-> del rango declarado (28-45, `memoria/01`) — y son 2 de los 4 avatares reales que respondieron.
-> Psicográficamente encajan perfecto (adultos autodidactas, frustrados con el aprendizaje
-> fragmentado, valoran el método y la calma) — solo se salen por edad. Con la mitad de la muestra
-> real por fuera del rango declarado, esto deja de ser una curiosidad y pasa a ser una pregunta de
-> peso para el lunes: ¿tiene sentido correr el techo del rango a 50-55? No lo decido yo solo — es
-> una decisión de negocio, no de contenido.
+> ⚠️ **Una nota sobre el rango de edad del avatar — actualizada (9/9) con el análisis completo.**
+> Ángel (52) y Verónica (52) están por fuera del rango declarado (28-45, `memoria/01`) — y son 2 de
+> los 4 avatares reales que respondieron. Psicográficamente encajan perfecto (adultos autodidactas,
+> frustrados con el aprendizaje fragmentado, valoran el método y la calma) — solo se salen por
+> edad. Sumado a esto: el panel de referentes (`memoria/03` §10) usa discos de 1968 a 1990, cuya
+> generación "de origen" tiene hoy entre 51 y 78 años — el techo de 45 dejaba afuera a quien vivió
+> esta música como propia. **El análisis completo, con la recomendación de subir el techo a 57,
+> está en `memoria/01` §1** — queda como pregunta E4 para confirmar con Nico el lunes, no se
+> cambia en la comunicación pública todavía.
 
 > **Nota de proceso, no de avatar: la encuesta misma puede mejorar.** Simón marcó explícito que la
 > pregunta 1 ("¿qué problemas o frustraciones tenías...?") le sonó agresiva y le costó

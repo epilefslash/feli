@@ -385,7 +385,7 @@ primero que se aclara y hay que repetirlo una vez a mitad de la charla.
 |---|---|---|---|
 | **DÍA 0 — se suben los 3 juntos** ||||
 | 1 | REEL FIJADO (#12) — 30 seg tocando, sin hablar | Autoridad | Guion listo (sec. 26) |
-| 2 | "3 formas de romper las cajas" (#9) | Valor · Reel | Guion listo (sec. 24) |
+| 2 | "3 formas de romper las cajas" (#9) | Valor · Reel | ✅ Filmado (9/9), falta editar |
 | 3 | **EPIFANÍA** — "El día que dejé de ver cajas" | Epifanía | **Guion nuevo — este documento** |
 | **SEMANA 1** ||||
 | 4 | Carrusel 1 — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | Escrito, falta diseño |

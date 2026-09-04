@@ -22,26 +22,27 @@ cámara/luz varias veces.
    Cuidá el timing de la frase de "la ficha", que es el clímax del video.
 2. Decidir qué va en el `[LINK]` de la bio (Paso 1.4). Con un link de WhatsApp alcanza para hoy.
 
-**BLOQUE 2 — filmación, todo junto (60-90 min, calentá 10 min antes)**
+**BLOQUE 2 — filmación (30-50 min, calentá 10 min antes).** ✅ "3 formas de romper las cajas"
+(Paso 3.2) ya está filmado (9/9) — solo faltan estos dos:
 3. Foto de perfil (Paso 1.3) — sacala primero, mismo lugar y luz que vas a usar para filmar.
 4. Reel Fijado (Paso 3.1) — el más simple, sin hablar, para arrancar entrando en calor.
-5. "3 formas de romper las cajas" (Paso 3.2).
-6. Epifanía (Paso 3.3) — ya ensayada en el Bloque 1.
+5. Epifanía (Paso 3.3) — ya ensayada en el Bloque 1.
 
 **BLOQUE 3 — edición y copys (2-3 hs, puede ser la tarde)**
-7. Editar los 3 videos.
-8. Pegar el copy de cada uno — ya están escritos en el Paso 3 de esta guía, más abajo.
+6. Editar los 3 videos (Fijado + Epifanía recién filmados, más "3 formas de romper cajas" que
+   sigue pendiente de editar desde antes).
+7. Pegar el copy de cada uno — ya están escritos en el Paso 3 de esta guía, más abajo.
 
 **BLOQUE 4 — el perfil y las destacadas (1 hs, no necesita guitarra)**
-9. Confirmar usuario + activar cuenta profesional (Pasos 1.1 y 1.2).
-10. Pegar la bio final (Paso 1.4).
-11. Armar las 11 historias de las destacadas MÉTODO + FORMACIÓN (Paso 2) — el texto de cada una
+8. Confirmar usuario + activar cuenta profesional (Pasos 1.1 y 1.2).
+9. Pegar la bio final (Paso 1.4).
+10. Armar las 11 historias de las destacadas MÉTODO + FORMACIÓN (Paso 2) — el texto de cada una
     ya está escrito acá abajo, es fondo de color + texto, no hace falta diseño complejo.
 
 **BLOQUE 5 — publicar**
-12. Subir las 2 destacadas al perfil.
-13. Pasar el perfil a público (si estaba privado).
-14. Subir los 3 videos del Día 0.
+11. Subir las 2 destacadas al perfil.
+12. Pasar el perfil a público (si estaba privado).
+13. Subir los 3 videos del Día 0.
 
 **Si el Bloque 2 (filmación) no rinde todo en una sola mañana, no pasa nada — repetilo al día
 siguiente y seguís desde ahí.** Lo que no conviene es abrir el perfil sin los 3 videos: mejor un
@@ -57,9 +58,9 @@ día más de producción que un perfil público sin nada para mostrar.
 | Foto de perfil | Falta sacarla | Bloquea |
 | Nombre de usuario | `felibayamenor` — confirmar que sea el @ exacto | Bloquea |
 | Cuenta profesional (Creador) | Falta activar | Bloquea |
-| Reel Fijado (#12) | Guion listo, falta filmar | Bloquea |
-| "3 formas de romper las cajas" (#9) | Guion listo, falta filmar | Bloquea |
-| Epifanía | Guion cerrado, falta filmar | Bloquea |
+| Reel Fijado (#12) | Guion listo, falta filmar (sábado 13/9) | Bloquea |
+| "3 formas de romper las cajas" (#9) | ✅ Filmado (9/9), falta editar | Bloquea |
+| Epifanía | Guion cerrado, falta filmar (sábado 13/9) | Bloquea |
 | Destacada MÉTODO (7 historias) | Texto listo en esta guía, falta subir a Instagram | Bloquea |
 | Destacada FORMACIÓN (4 historias) | Texto listo en esta guía, falta subir a Instagram | Bloquea |
 | Destacada ALUMNOS | Necesita los 2 testimonios | Espera |
@@ -96,7 +97,7 @@ Texto final, listo para copiar:
 
 ```
 🎸 Profesor de guitarra rock
-Te ayudo a pasar de la caja 1 a improvisar con sabor en 12 semanas
+Ayudo a guitarristas de rock a salir de la caja 1 y tocar solos con sabor en 90 días
 📖 Formado en la facultad de música de Rosario · años enseñando 1 a 1
 👇 Comentá SOLO y arrancamos
 [LINK]
@@ -170,7 +171,7 @@ video). Backing especial para esto, no reciclado de otro video.
 
 **Copy del post:** 🎸 @felibayamenor *(casi no hace falta más)*
 
-## 3.2 · "3 formas de romper las cajas de la penta" (#9) — NO NEGOCIABLE
+## 3.2 · "3 formas de romper las cajas de la penta" (#9) — ✅ FILMADO (9/9), falta editar
 
 > ⚠️ **Ojo con el tiempo real:** ensayado a ritmo natural esto da cerca de **90 segundos**, casi
 > el doble de lo que parece a simple vista. **Si te pasás de 60 seg al ensayarlo, sacá la Forma
@@ -272,10 +273,10 @@ Imprimible o para tildar en el celular. El orden importa: de arriba hacia abajo.
 - [ ] Subir ambas destacadas al perfil
 
 **Los 3 videos del Día 0:**
+- [x] Filmar "3 formas de romper las cajas" — ✅ hecho (9/9)
 - [ ] Ensayar en voz alta el guion de la Epifanía (ya cerrado)
-- [ ] Filmar Reel Fijado
-- [ ] Filmar "3 formas de romper las cajas"
-- [ ] Filmar Epifanía
+- [ ] Filmar Reel Fijado (sábado 13/9)
+- [ ] Filmar Epifanía (sábado 13/9)
 - [ ] Editar los 3
 - [ ] Escribir el copy de cada uno (están completos en el Paso 3, arriba)
 

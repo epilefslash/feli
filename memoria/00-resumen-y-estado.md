@@ -55,16 +55,21 @@
 | 6 | "Tus solos no aburren por las notas, aburren porque no respiran" (espacio) | C | ✅ Filmado |
 | 7 | "¿Esperás que un equipo arregle tu solo?" (plugin vs ampli barato — el sabor está en los dedos) | C | 🟡 6.5 — falta grabar las guitarras (guion, setup y remera listos) |
 | 8 | "No tengo oído" (cantá primero, tocá después — Paul Gilbert/GIT) | C + conexión | ✅ Filmado · en edición (ver notas de corte abajo) |
+| 9 | "3 formas de romper las cajas de la penta" (horizontal/diagonal/legos) | A-plus | ✅ Filmado (9/9) · falta editar |
 
 **Notas de edición del #8:** (1) cortar la línea del ritmo ("vas a profundizar el tema del ritmo") — está
 fuera de tema, el video es de oído/melodía. (2) Reforzar el CTA con texto grande fijo: "Comentá SOLO 👇 y
 te paso la rutina gratis" (el audio del CTA quedó ambiguo). (3) El label del paso 3 tiene que decir "slide",
 no "slice". Lead magnet asociado: `Ejercicio-Destapar-el-Oido.pdf` (ya hecho).
 
-**Próximos a filmar (orden actualizado 24/8 — por setup físico, ver el bloque de abajo para el detalle):**
-1º terminar #7 (guitarras) → 2º #9 "3 formas de romper las cajas" (Formato A, alcance + alimenta PENTA)
-→ 3º #12 REEL FIJADO (sec. 26) → 4º #11 TU HISTORIA (sec. 25) + vendedor "Como que desaparece" (sec. 23),
-mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver por qué abajo).
+**Próximos a filmar (actualizado 9/9 — #9 ya está filmado, solo falta editarlo):**
+Sábado (13/9): **EPIFANÍA** (sec. 35, guion cerrado) + **REEL FIJADO** #12 (sec. 26, sin hablar) —
+completan el Día 0 de publicación (memoria/05 §34, los 3 primeros posteos que suben juntos: Fijado
++ #9 + Epifanía). Si hay tiempo en el mismo día: vendedor **"Como que desaparece"** (sec. 23, versión
+corta, 30-35 seg) — no es urgente para el Día 0 pero no hace mal adelantarlo. Sigue pendiente #7
+(equipo — falta grabar las guitarras) y #11 TU HISTORIA, ninguno de los dos es parte de los primeros
+15 posteos (quedan para la semana 5 en adelante, memoria/05 §34). CÓMO ES UNA CLASE no se filma
+(ver por qué abajo).
 
 > 🔴 **URGENCIA REAL (2/9): 30 días desde el Onboarding para pagar USD 440 a Nico, plata que Feli
 > hoy no tiene — sigue SIN RESOLVER.** No es la ansiedad habitual, es un plazo concreto. Se probó
@@ -94,12 +99,13 @@ mismo setup, se filman juntos. CÓMO ES UNA CLASE ya no está en esta lista (ver
 > secciones 35 a 38. **Reemplaza a la sección 9 como plan operativo** (sus 2 reglas de fondo siguen
 > vigentes: no encadenar creencias · los vendedores van después de la autoridad).
 
-> **Guiones YA ESCRITOS, sin filmar (actualizado 24/8 — la versión anterior de esta lista estaba
-> desactualizada en 3 puntos y se corrigió):**
+> **Guiones YA ESCRITOS, sin filmar (actualizado 9/9 — "3 formas romper cajas" salió de esta lista,
+> ya está filmado):**
 > #7 equipo (sec. 8) — ⚠️ **sólo faltan las guitarras**, no el video entero; la tabla de arriba es
-> la que manda · "3 formas romper cajas" (sec. 24) · TU HISTORIA (sec. 25) — ⚠️ **ya NO tiene blancos**:
-> los 6 datos reales de Feli están cargados en el guion, se filma tal cual está · REEL FIJADO (sec. 26,
-> no es hablado — es una partitura emocional de 30 seg) · vendedor "Como que desaparece" (sec. 23).
+> la que manda · TU HISTORIA (sec. 25) — ⚠️ **ya NO tiene blancos**: los 6 datos reales de Feli
+> están cargados en el guion, se filma tal cual está · REEL FIJADO (sec. 26, no es hablado — es una
+> partitura emocional de 30 seg) · EPIFANÍA (sec. 35, guion cerrado sobre el recuerdo real de Feli)
+> · vendedor "Como que desaparece" (sec. 23).
 >
 > ❌ **CÓMO ES UNA CLASE salió de esta lista:** la sección 27 lo dio de baja como video público
 > (regala en abierto lo que la llamada de venta necesita vender). Seguía listado acá por error.

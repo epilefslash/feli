@@ -88,7 +88,7 @@ entre ejecutar y hacer música de verdad.
 
 ## 💬 CATEGORÍA E — Para llevar a la reunión, NO para resolver solo antes
 
-Estas 3 son decisiones que **Nico tiene que participar en cerrar** — no te conviene decidirlas
+Estas 4 son decisiones que **Nico tiene que participar en cerrar** — no te conviene decidirlas
 en soledad y presentarlas como hechas, porque son justo el tipo de cosas para las que estás
 pagando la mentoría.
 
@@ -97,6 +97,7 @@ pagando la mentoría.
 | E1 | ¿Los cuadernillos ya escritos alcanzan como guion de clase en vivo para la primera cohorte, o conviene pregrabar igual desde el día 1? | Es la tensión de delivery — Nico la puede cerrar en un minuto con su experiencia real de otros alumnos del programa |
 | E2 | ¿Dónde vive la Zona Virtual — Hotmart, u otra plataforma que Nico recomiende? | Él define la plataforma (`memoria/05` §34), no es una decisión técnica tuya |
 | E3 | El precio: ¿400 (piso privado actual) o 600 (recomendado por el propio material de Nico)? Llevá la cita de Robbins sobre "skin in the game" como munición | Es la última decisión abierta de la oferta, y mejor cerrarla con quien tiene el criterio de mercado |
+| E4 | ¿Subir el techo de edad del avatar de 45 a 57? La data lo sostiene: 2 de 4 avatares reales (Ángel y Verónica) ya tienen 52 y calzan perfecto, y el panel de referentes (discos de 1968-1990) apunta a gente nacida entre 1948 y 1975 — hoy entre 51 y 78. Detalle completo en `memoria/01` §1 | Cambia el copy público (bio, reels, avisos) — mejor confirmarlo antes de comunicarlo, no después |
 
 ---
 
@@ -137,7 +138,8 @@ Con las categorías A, B, C y D las 4 cerradas, llegás en condiciones reales de
 > propias palabras, y la estructura del programa cerrada con la justificación del orden escrita,
 > incluido cómo funciona El Pulso en paralelo a los otros tres pilares. Me quedan 4 preguntas
 > puntuales para vos: el delivery pregrabado-vs-vivo, la plataforma, el precio, y si vale la pena
-> correr el techo de edad del avatar a 50-55."*
+> correr el techo de edad del avatar a 57 — dos de los cuatro avatares reales ya tienen 52 y el
+> panel de referentes apunta justo a esa generación."*
 
 Eso no es "estamos bien encaminados" — es **cerrado**, con 4 decisiones específicas puestas
 sobre la mesa para resolver juntos, que es exactamente para lo que sirve la reunión.
