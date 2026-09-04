@@ -48,7 +48,7 @@ pendiente.**
 | # | Qué | Tiempo | De dónde sale |
 |---|---|---|---|
 | A1 | 🟡 Confirmar los 2 criterios de "nicho azul" contra la fuente original — sigue sin poder cerrarse desde acá (necesita el texto exacto, la imagen no se leía); dejé una lectura provisoria marcada como no verificada en `MODULO-1-RESPONDIDO.md` para que la contrastes en 2 min | 2 min | Módulo 1 |
-| A2 | ✅ Filosofía como profesor — RESUELTA (4/9): elegiste y reescribiste tus 4 frases finales sobre las candidatas, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
+| A2 | ✅ Filosofía como profesor — RESUELTA (4/9): elegiste y reescribiste tus 5 frases finales sobre las candidatas, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
 | A3 | ✅ Justificación del orden de los 4 pilares — RESUELTA (4/9), texto cerrado en `MODULO-2-RESPONDIDO.md` (con una corrección real: El Pulso funciona en 2 tiempos, no en uno) | — | Módulo 2 |
 | A4 | ✅ Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos" (caja un tono arriba + pincelada de jazz) | — | Módulo 2 |
 | A5 | ✅ Deseos secundarios (pregunta 10) y narrativa de éxito (pregunta 11) — RESUELTA (4/9) con las 4 voces reales, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |

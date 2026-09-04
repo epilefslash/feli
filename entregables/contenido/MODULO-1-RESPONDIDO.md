@@ -195,7 +195,8 @@ no genérico de "profesor de guitarra", sino sacado de patrones tuyos que ya apa
 vez en esta conversación, en decisiones concretas, no en frases que dijiste para una bio. Elegí,
 mezclá o descartá — la idea es que edites, no que arranques de una hoja en blanco:
 
-**A2 — CERRADO (Feli eligió y ajustó las 4, 4/9).** Estas ya no son candidatas: son tu filosofía,
+**A2 — CERRADO (Feli eligió y ajustó las 4, 4/9; sumó la 5ª el mismo día).** Estas ya no son
+candidatas: son tu filosofía,
 en tus palabras:
 
 1. **Sobre el orden vs. la cantidad:** *"No te faltan más escalas. Te falta saber usar la que ya
@@ -205,12 +206,10 @@ en tus palabras:
    con 3 licks que con 30 sin sentido."*
 4. **Sobre cómo corregís:** *"No corrijo para que suene perfecto. Corrijo para que se anime a
    zapar con amigos, o para que cree sus propias ideas y le guste lo que toca."*
-
-> Nota sobre la #2: quedó más acotada que mi candidata original ("no enseño nada que no pueda
-> sostener mirando a los ojos") — la tuya habla de ceñirte a lo acordado con el alumno, más que de
-> no citar autoridad que no dominás. Es tu filosofía, no la mía: si releyéndola ahora sentís que le
-> falta el matiz de "no invento lo que no puedo sostener", decímelo y la sumamos como una quinta,
-> sin tocar esta.
+5. **Sobre no inventar lo que no podés sostener** (sumada el 4/9, a pedido tuyo — el matiz que le
+   faltaba a la #2: no citar autoridad ni dato musical que no dominás de verdad, la misma regla
+   que ya seguís al sacar a Knopfler del panel de referentes o al corregir un número inventado en
+   tus propios PDF): *"No invento lo que no puedo sostener."*
 
 ---
 
@@ -457,7 +456,7 @@ más de un perfil. **No los descartes, solo no los mezcles con este programa pun
       Pancho, Leo, Tom, Ángel, Verónica, Simón. Muestra completa, no hace falta esperar a nadie más.
 - [x] **2 · Análisis de competencia** — HECHO (4/9), ver `Analisis-de-Competencia.pdf` — 6
       referentes + 5 programas, con Andy Kligman y Guitarra Libre como hallazgos principales.
-- [x] **3 · Elegir/ajustar tu filosofía como profesor** — CERRADO (4/9). Tus 4 frases finales,
+- [x] **3 · Elegir/ajustar tu filosofía como profesor** — CERRADO (4/9). Tus 5 frases finales,
       elegidas y reescritas por vos sobre las candidatas, ver la sección "El gap nuevo: Parte 2"
       más arriba.
 - [x] **4 · Top 5 problemas + Top 5 deseos** — actualizado (4/9) con los 4 avatares reales (Tom,
