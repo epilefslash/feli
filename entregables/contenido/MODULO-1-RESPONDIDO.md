@@ -174,11 +174,12 @@ Nico divide la Etapa de Autoanálisis en 4 partes. Cruzada contra todo lo anteri
 | **3 · Problemas** (limitaciones y dolor del Estudiante Ideal) | ✅ Resuelto (`memoria/01`, `memoria/03`) | Cerrado |
 | **4 · Soluciones** (lo que enseñás y cómo) | ✅ Resuelto — los 3 hitos completos, 53 ejercicios | Cerrado |
 
-## El gap nuevo: Parte 2 — filosofía, valores, origen de la marca
+## El gap nuevo: Parte 2 — filosofía, valores, origen de la marca — ✅ RESUELTO (4/9)
 
 Esto es genuinamente nuevo, y conecta con algo que ya habíamos anotado sin cerrar: en `memoria/05`
 §35 identificamos que te falta un tipo de contenido — "compartir tus valores" — y quedó pendiente
-sin resolver. Es la misma pregunta que ahora pide Nico desde otro ángulo.
+sin resolver. Es la misma pregunta que ahora pide Nico desde otro ángulo. **Ya tenés tus 4 frases,
+elegidas y ajustadas por vos — ver el bloque más abajo.**
 
 **Tu historia** (memoria/04 §25) ya está — es el "por qué hacés lo que hacés" en formato narrativo.
 **Lo que falta es más corto y más directo:** 2-3 frases de qué creés vos, como profesor, que no
@@ -194,22 +195,22 @@ no genérico de "profesor de guitarra", sino sacado de patrones tuyos que ya apa
 vez en esta conversación, en decisiones concretas, no en frases que dijiste para una bio. Elegí,
 mezclá o descartá — la idea es que edites, no que arranques de una hoja en blanco:
 
-1. **Sobre el orden vs. la cantidad** (tu creencia limitante #1, tu propia historia de "sabía un
-   montón de teoría y sonaba igual", el motivo por el que 20 min ordenados le ganan a 4 hs de
-   scroll): *"No creo que te falte información. Creo que te sobra, y te falta orden."*
-2. **Sobre no inflar lo que enseñás** (sacaste a Knopfler del panel de referentes porque no lo
-   tenés escuchado a fondo, corregís tus propios PDF cuando encontrás un número inventado, nunca
-   afirmás un dato musical que no podés verificar): *"No enseño nada que no pueda sostener mirando
-   a los ojos. Si no lo domino de verdad, no lo uso de autoridad."*
-3. **Sobre el sabor por encima de la técnica pura** (el eje entero de "El Sabor" y de la creencia
-   #2 — una nota con vibrato vale por 20 atropelladas): *"La técnica sin sabor no enamora a nadie.
-   Prefiero un alumno con 3 licks que suenan a él, que uno con 30 que suenan a ejercicio."*
-4. **Sobre cómo corregís** (la simulación de la sección 18 de `memoria/07`: a Diego no lo aplaudís
-   por tocar perfecto, lo aplaudís por animarse a salir de la caja): *"No corrijo para que suene
-   perfecto. Corrijo para que se anime a la próxima nota."*
+**A2 — CERRADO (Feli eligió y ajustó las 4, 4/9).** Estas ya no son candidatas: son tu filosofía,
+en tus palabras:
 
-> Si ninguna te cierra tal cual, decime qué te resuena y qué no de las cuatro — con eso afino la
-> quinta en vez de que tengas que partir de cero vos.
+1. **Sobre el orden vs. la cantidad:** *"No te faltan más escalas. Te falta saber usar la que ya
+   tenés."*
+2. **Sobre no enseñar de más:** *"No enseño nada que no tenga que ver con lo acordado."*
+3. **Sobre el sabor por encima de la técnica pura:** *"Prefiero un alumno que sepa transmitir más
+   con 3 licks que con 30 sin sentido."*
+4. **Sobre cómo corregís:** *"No corrijo para que suene perfecto. Corrijo para que se anime a
+   zapar con amigos, o para que cree sus propias ideas y le guste lo que toca."*
+
+> Nota sobre la #2: quedó más acotada que mi candidata original ("no enseño nada que no pueda
+> sostener mirando a los ojos") — la tuya habla de ceñirte a lo acordado con el alumno, más que de
+> no citar autoridad que no dominás. Es tu filosofía, no la mía: si releyéndola ahora sentís que le
+> falta el matiz de "no invento lo que no puedo sostener", decímelo y la sumamos como una quinta,
+> sin tocar esta.
 
 ---
 
@@ -456,9 +457,9 @@ más de un perfil. **No los descartes, solo no los mezcles con este programa pun
       Pancho, Leo, Tom, Ángel, Verónica, Simón. Muestra completa, no hace falta esperar a nadie más.
 - [x] **2 · Análisis de competencia** — HECHO (4/9), ver `Analisis-de-Competencia.pdf` — 6
       referentes + 5 programas, con Andy Kligman y Guitarra Libre como hallazgos principales.
-- [ ] **3 · Elegir/ajustar tu filosofía como profesor** (2-3 frases) — ya no es hoja en blanco: hay
-      **4 candidatas armadas** con patrones tuyos reales, esperando que elijas/edites (ver la
-      sección "El gap nuevo: Parte 2" más arriba). 5 minutos de lectura + elegir, no de escribir.
+- [x] **3 · Elegir/ajustar tu filosofía como profesor** — CERRADO (4/9). Tus 4 frases finales,
+      elegidas y reescritas por vos sobre las candidatas, ver la sección "El gap nuevo: Parte 2"
+      más arriba.
 - [x] **4 · Top 5 problemas + Top 5 deseos** — actualizado (4/9) con los 4 avatares reales (Tom,
       Ángel, Verónica, Simón). El tiempo quedó confirmado 4/4, y aparecieron 2 patrones nuevos
       (animarse/confiar y ejecutar vs. hacer música de verdad) con 3 voces cada uno.
