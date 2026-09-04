@@ -119,3 +119,49 @@ corta, 30-35 seg) — no es urgente para el Día 0 pero no hace mal adelantarlo.
 > Ver sección 9 para el ORDEN DE PUBLICACIÓN (distinto del orden de filmación).
 
 ---
+
+## 0-BIS) LA HOJA DE RUTA REAL DE NICO — el cronograma completo, semana por semana (9/9)
+
+> Feli mandó los 2 archivos reales de Nico: `02_Hoja_de_Ruta.xlsx` (el "Plan de Acción", hoja
+> `"Plan de Acción (no cambiar)"`, checklist completo semana por semana) y
+> `03_Tracker_de_Resultados.xlsx` (planilla de KPIs diarios, vacía, para llenar desde la Semana 5).
+> **Es la biblia real, no una reconstrucción** — confirma y completa lo que ya teníamos armado a
+> partir de fragmentos sueltos del material de Nico.
+
+**Fecha de arranque real registrada en el Excel:** Día de Inicio Real 1/9, Día de Inicio Ajustada
+7/9. Al 9/9, el propio Excel calcula que Feli está ejecutando la Semana 1 cuando "debería estar"
+en la Semana 0 — va adelantado, no atrasado.
+
+**Los 7 módulos, con su nombre real (M0 a M6) y en qué semana caen:**
+
+| Semana(s) | Módulo | Nombre real | Qué cubre |
+|---|---|---|---|
+| Onboarding | M0 / M0V | Bienvenida · Mindset de Alto Valor | Firmar acuerdo, agendar onboarding, mindset reset 1 |
+| 1 | M1V | **Identificar Estudiante Ideal** | Variables del negocio, nichos, autoanálisis, Estudiante Ideal — es nuestro "Módulo 1" |
+| 2 | M2V | **Estructurar Programa de Alto Valor** | Vehículo, cómo cobrar más, Plantilla de Programa de Alto Valor — es nuestro "Módulo 2" |
+| 3-4 | M3V | **Perfil Magnético** | Mindset reset 2, crear perfil IG nuevo, optimizar bio, Meta Ads setup, guionar contenido (4 reels + 3 carruseles + 1 epifanía + 2 storytelling + testimonios + posteo de 2 pasos = **los 15 primeros posteos**, exacto lo que ya armamos en `memoria/05` §34), grabar/editar/subir, historias destacadas |
+| 5 | M4V | **Tráfico** | Lanzar campaña de anuncios (visitas al perfil), empezar a completar el Tracker de Resultados |
+| 5 (solapa) | M5V | **Ventas (parte 1)** | Calendario de Agendas (Calendly, NO Builderall), Carta de Ventas (plantilla Canva), Zona de Estudiantes en Hotmart |
+| 6-12 | M6V | **Ventas (parte 2)** | Continuidad de contenido, agendar reuniones, Flow de conversación por DMs, 10 sesiones de venta (grabadas con Fathom), campaña de mensajes, check-in semana 9, repaso de métricas, profesionalizar ventas (VSL pre-asesoría, nutrición pre-llamada) |
+
+**Confirma exactamente los nombres que Feli especuló:** Módulo 3 = Perfil Magnético, Módulo 4 =
+Tráfico, Módulo 5 = Ventas (parte 1), Módulo 6 = Ventas (parte 2). Acertó los 4.
+
+**Lo más importante para hoy:** el Módulo 3 (Perfil Magnético, semanas 3-4) es big — pero la parte
+de contenido (guiones, carruseles, epifanía, storytelling, testimonios, posteo de 2 pasos) **ya
+está resuelta** en este repo (`memoria/05` §34-38, `memoria/04` secciones 23-38). Lo que queda de
+M3V es ejecución: filmar, editar, subir, y armar las historias destacadas — que es justo el plan
+de `Guia-de-Lanzamiento-felibayamenor.pdf`.
+
+**Del Tracker de Resultados — los números objetivo para cuando arranque M4V (Semana 5), quedan
+anotados para no tener que redescubrirlos:**
+- Costo por seguidor buscado: **< USD 0,30**
+- Campaña Visitas al Perfil: chats iniciados **≥ 15/día** promedio · % que agenda **≥ 2%** · % de
+  cierre **> 25%**
+- Campaña de Mensajes (DMs): **≥ 10 mensajes/día** · costo por mensaje abierto **< USD 1** (promedio
+  ~USD 0,50) · % que agenda **≥ 4%** · % de cierre **> 25%**
+
+> Todavía no es momento de usar el Tracker (arranca en la Semana 5, con M4V) — queda documentado
+> acá para cuando llegue, y para no perder los números objetivo entre tanto archivo.
+
+---
