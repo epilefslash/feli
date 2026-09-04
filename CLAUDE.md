@@ -59,8 +59,10 @@ corresponda en vez de releer todo.
   tiene los estilos y diagramas compartidos (incluye `MapaCompleto`, `MapaBlueNotes`, `Diagrama`).
 - **Auditoría de cajas:** `scripts/auditar_cajas.py` — decodifica cada nota de cada partitura a su
   traste real y reporta qué % de cada hito sale de la ventana de la caja 1 (trastes 5-8). Correrlo de
-  nuevo cada vez que se toque una partitura. Referencia sana: Hito 1 ~47% · Hito 2 ~21% · Hito 3 ~47% ·
-  Bonus ~73% — si el Hito 3 baja de ~30%, algo se volvió a concentrar en la caja 1 sin querer.
+  nuevo cada vez que se toque una partitura. Referencia sana (verificada 9/9): Hito 1 ~47% · Hito 2
+  ~32% · Hito 3 ~59% · Bonus ~74% — si el Hito 3 baja de ~30%, algo se volvió a concentrar en la caja
+  1 sin querer. (Los números de Hito 2 y 3 subieron bastante respecto a versiones viejas de esta
+  nota — reflejan varias rondas de correcciones reales, no un error de medición.)
   Con `--tabla` imprime qué traste de cada cuerda es qué nota y de qué caja. **Si hay que escribir
   esa tabla en un briefing para otra sesión, correr el comando y pegar la salida — nunca de memoria**
   (ya pasó: se listó el traste 7 de la 6ª cuerda como nota válida y ahí hay un SI, fuera de escala).

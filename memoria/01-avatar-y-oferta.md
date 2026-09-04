@@ -112,7 +112,7 @@ poco más. Trabaja de otra cosa, toca 2–4 hs por semana en casa.
 
 ### Ficha de la oferta (one-pager)
 - **Nombre:** "Solo con Sabor" — Programa de improvisación en rock.
-- **Para quién:** guitarrista intermedio autodidacta (28-45) que sabe la pentatónica caja 1 y suena escolar.
+- **Para quién:** guitarrista intermedio autodidacta (28-57, ver nota de §1) que sabe la pentatónica caja 1 y suena escolar.
 - **Promesa (Punto A → Punto B):** "En 90 días pasás de repetir siempre los mismos licks en la caja 1
   a improvisar solos de rock con sabor, moviéndote por las 5 cajas con bending, vibrato y espacio."
 - **Formato:** grupal online, 4-6 alumnos por cohorte. Contenido pregrabado + 1-2 sesiones en vivo por
