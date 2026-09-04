@@ -219,14 +219,13 @@ punto 12). No es nuevo, pero es la segunda vez que el material lo pide — sube 
 
 # EN TOTAL: MÓDULO 1 + MÓDULO 2
 
-**Módulo 1:** firme, con el checklist de campo pendiente (encuestas, competencia, valores propios)
-— ver `MODULO-1-RESPONDIDO.md`.
+**Módulo 1:** cerrado — Categorías A a D completas (checklist 6/6), ver `MODULO-1-RESPONDIDO.md`.
 
 **Módulo 2:** firme también, y con una sorpresa buena — **el trabajo que falta es menor al que
 pensabas**, porque la tensión de arriba, si Nico confirma que los cuadernillos alcanzan como guion
 en vivo, te saca de encima toda la grabación del pregrabado hasta después de la primera cohorte.
 
-**Lo único que atraviesa los dos módulos y vale la pena resolver primero:** el análisis de
+**Lo único que atraviesa los dos módulos y ya está resuelto, no pendiente:** el análisis de
 competencia. Aparece pedido en el Módulo 1 (pregunta 12) y otra vez en el Módulo 2
-(Estructuración) — es el ítem que más veces se repite en todo el material de Nico, y es el único
-que sigue en cero.
+(Estructuración) — era el ítem que más veces se repetía en todo el material de Nico, y **se cerró
+el 4/9** (`Analisis-de-Competencia.pdf`, 6 referentes + 5 programas similares).
