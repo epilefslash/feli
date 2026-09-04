@@ -47,16 +47,14 @@ pendiente.**
 
 | # | Qué | Tiempo | De dónde sale |
 |---|---|---|---|
-| A1 | 🟡 Confirmar los 2 criterios de "nicho azul" contra la fuente original — sigue sin poder cerrarse desde acá (necesita el texto exacto, la imagen no se leía); dejé una lectura provisoria marcada como no verificada en `MODULO-1-RESPONDIDO.md` para que la contrastes en 2 min | 2 min | Módulo 1 |
+| A1 | ✅ Confirmar los 2 criterios de "nicho azul" — RESUELTA (4/9) con la fuente real: nicho específico + transformación específica. "Solo con Sabor" cumple los dos, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
 | A2 | ✅ Filosofía como profesor — RESUELTA (4/9): elegiste y reescribiste tus 5 frases finales sobre las candidatas, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
 | A3 | ✅ Justificación del orden de los 4 pilares — RESUELTA (4/9), texto cerrado en `MODULO-2-RESPONDIDO.md` (con una corrección real: El Pulso funciona en 2 tiempos, no en uno) | — | Módulo 2 |
 | A4 | ✅ Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos" (caja un tono arriba + pincelada de jazz) | — | Módulo 2 |
 | A5 | ✅ Deseos secundarios (pregunta 10) y narrativa de éxito (pregunta 11) — RESUELTA (4/9) con las 4 voces reales, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
 | A6 | ✅ Postura pregrabado-vs-vivo — RESUELTA (4/9): las dos ideas se reconcilian, ver `MODULO-2-RESPONDIDO.md` | — | Módulo 2 |
 
-**Categoría A, prácticamente cerrada.** 5 de 6 resueltas del todo. Solo queda **A1**, y no es un
-"pensar" — es confirmar un texto contra la fuente original (2 min), lo único de todo el documento
-que de verdad depende de un dato que solo vos tenés.
+**Categoría A: CERRADA. 6 de 6.** No queda un solo ítem de pensar-solo sin resolver.
 
 ## 🔍 CATEGORÍA B — Trabajo de escritorio (investigar, sin depender de otros)
 
@@ -102,50 +100,44 @@ pagando la mentoría.
 
 ---
 
-# EL PLAN DE "GOLAZO" — actualizado, queda un solo cabo suelto
+# EL PLAN DE "GOLAZO" — CERRADO. No queda un solo ítem de las categorías A a D.
 
-**El golazo real terminó siendo más corto de lo calculado.** B (competencia), C (encuesta), D
-(Top 5/Top 5) y ahora A2, A3, A4, A5 y A6 ya están cerrados. De la Categoría A original solo queda
-**A1**, y llega liviano — 2 minutos, no una tarea en blanco.
+**El golazo se terminó jugando entero.** B (competencia), C (encuesta), D (Top 5/Top 5) y ahora las
+6 de la Categoría A (A1 a A6) están cerradas. Lo único que queda para el lunes es la Categoría E —
+y esas 4 no se resuelven solo, son justo lo que la reunión existe para cerrar.
 
-## Reparto sugerido en tu calendario real — actualizado (4/9, noche)
+## Cómo se cerró (4/9, para el registro)
 
 **Las categorías B, C y D cerraron el jueves**, mucho antes de lo previsto (el plan original
-estimaba hasta el domingo). Y de la Categoría A, ya son 5 de 6 ítems resueltos (A2, A3, A4, A5,
-A6) — la filosofía (A2) la cerraste vos mismo, eligiendo y reescribiendo tus 4 frases sobre las
-candidatas.
+estimaba hasta el domingo). La Categoría A se fue cerrando en la misma sesión, en tres tandas:
+A4 y A6 primero (extra/sorpresa y postura pregrabado-vs-vivo), después A3 y A5 (justificación del
+orden de pilares, y deseos/narrativa de éxito con las 4 voces reales), y por último A2 y A1 — la
+filosofía como profesor (elegiste y reescribiste tus 5 frases) y los 2 criterios de "nicho azul"
+(con la fuente real que mandaste: nicho específico + transformación específica, y "Solo con Sabor"
+cumple los dos con margen).
 
-**Lo único pendiente, para cuando tengas un rato (no hace falta que sea mañana temprano):**
-1. **A1 — confirmar los 2 criterios de "nicho azul"** (2 min): es releer la fuente original y
-   pegar el texto exacto — no lo puedo inventar sin arriesgarme a citarle a Nico algo que él nunca
-   dijo. Dejé una lectura provisoria, marcada como no verificada, para contrastar más rápido.
-
-**Con ese único ítem, llegás al lunes con la Categoría A entera cerrada — y con margen de sobra,
-no al límite.**
-
-**Lunes a la mañana, antes de las 12:30:** repasar las 3 preguntas de la Categoría E (10 min,
-solo para tenerlas frescas) — sumá una cuarta, que salió de la propia encuesta: si tiene sentido
-correr el techo de edad del avatar a 50-55 (por Ángel y Verónica, los dos en 52). Y los documentos
-`MODULO-1-RESPONDIDO.md` / `MODULO-2-RESPONDIDO.md`
+**Lunes a la mañana, antes de las 12:30:** repasar las 4 preguntas de la Categoría E (10 min, solo
+para tenerlas frescas). Y los documentos `MODULO-1-RESPONDIDO.md` / `MODULO-2-RESPONDIDO.md`
 completos si querés repasar el resto.
 
 ---
 
 # LA FRASE PARA EL LUNES
 
-Con las categorías B, C y D cerradas, y la A a 2 minutos de estarlo del todo, llegás en
-condiciones reales de decir:
+Con las categorías A, B, C y D las 4 cerradas, llegás en condiciones reales de decir:
 
 > *"Nico, los Módulos 1 y 2 están resueltos. Encuesté a 6 alumnos — 4 dentro del avatar real — y
 > ya tengo un Top 5 de problemas y de deseos con datos reales, no inventados: el tiempo salió
 > unánime en los 4, y apareció un hallazgo lindo de yapa — dos de ellos describieron, cada uno con
 > sus propias palabras y sin que se lo preguntara así, el concepto de 'espacio' del Hito 2 y la
 > diferencia entre ejecutar y hacer música de verdad. Mapeé la competencia — apareció Andy
-> Kligman, que ya era mi referencia de formato, como competidor directo. Tengo mis valores como
-> profesor definidos con mis propias palabras, y la estructura del programa cerrada con la
-> justificación del orden escrita, incluido cómo funciona El Pulso en paralelo a los otros tres
-> pilares. Me quedan 4 preguntas puntuales para vos: el delivery pregrabado-vs-vivo, la
-> plataforma, el precio, y si vale la pena correr el techo de edad del avatar a 50-55."*
+> Kligman, que ya era mi referencia de formato, como competidor directo. Confirmé que 'Solo con
+> Sabor' es un nicho azul de verdad: nicho específico, transformación específica, y nadie más
+> ataca ese cruce con esta especificidad. Tengo mis valores como profesor definidos con mis
+> propias palabras, y la estructura del programa cerrada con la justificación del orden escrita,
+> incluido cómo funciona El Pulso en paralelo a los otros tres pilares. Me quedan 4 preguntas
+> puntuales para vos: el delivery pregrabado-vs-vivo, la plataforma, el precio, y si vale la pena
+> correr el techo de edad del avatar a 50-55."*
 
 Eso no es "estamos bien encaminados" — es **cerrado**, con 4 decisiones específicas puestas
 sobre la mesa para resolver juntos, que es exactamente para lo que sirve la reunión.

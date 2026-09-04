@@ -27,21 +27,33 @@ que Nico pide como obligatoria. No es un problema de contenido, es que a esa eta
 **Sobre Océano Azul:** ya lo validamos contra el material de InstaMúsico (memoria/05 §35) — nichear
 en vez de competir en el mercado general de guitarra. Coincide con lo que vimos hoy en el Módulo 1.
 
-**Sobre los 2 criterios puntuales (A1 del checklist) — sigue sin poder confirmarse desde acá, y
-esto es honesto, no pereza:** la página del Módulo 1 los lista, pero la imagen que me pasaste no se
-leía con precisión suficiente para citarlos textual. No los invento — sería peor que dejarlo en
-blanco, porque sonaría a que Nico dijo algo que en realidad puse yo. **Lo que sí puedo hacer
-mientras tanto es una lectura general** (framework "océano azul" estándar, no tu fuente puntual):
-los dos ejes más comunes en esta clase de material son (1) ¿hay pocos o ningún otro creador
-atacando exactamente este cruce — nicho + avatar + promesa — con este nivel de especificidad? y
-(2) ¿el dolor es lo bastante concreto como para que el avatar lo reconozca solo, sin que se lo
-tengas que explicar? Contra el `Analisis-de-Competencia.pdf` ya armado: nadie ataca "rock +
-pentatónica menor + con sabor" con esta especificidad — los 5 programas similares son generalistas
-(Pickup Music, Simple Guitar) o de otro género (jazz, blues puro de Tom Hess). Si esos son los 2
-criterios reales, los cumplís con margen. **Pero repito: esto es mi lectura del framework general,
-no una cita de tu material.** Antes de decirlo frente a Nico así, pegame acá el texto exacto de los
-2 criterios (una foto más clara, o transcribilos vos) y lo confirmo en 2 minutos — sigue siendo lo
-único de este documento que de verdad depende de un dato que solo vos tenés.
+**A1 — CERRADO (4/9), con la fuente real.** Mandaste la captura legible y **no son 2 criterios
+sueltos — son las 2 variables de la misma frase de promesa**, la que ya usamos en todos lados
+("ayudo a X a lograr Y"). El material lo explica con la metáfora del océano: peces = potenciales
+alumnos, pescadores = profesores compitiendo por ellos. Cuando el **nicho** (a quién le hablás) Y
+la **transformación** (qué le prometés) son las dos genéricas a la vez, el océano se llena de
+pescadores y se pone rojo — mucha competencia peleando por la misma agua. El ejemplo que usa el
+propio material es un profesor de guitarra: *"enseño a personas a tocar la guitarra"* — "personas"
+(nicho) es muy general, y "tocar la guitarra" (transformación) es muy general también. Los 2
+criterios son, literalmente:
+
+1. **¿El nicho es específico, o es "cualquiera"?**
+2. **¿La transformación es específica, o es "mejorar/aprender" en general?**
+
+**Contra "Solo con Sabor":**
+- **Nicho:** NO es "personas que quieren aprender guitarra" — es guitarrista hobbista autodidacta,
+  28-45, que ya sabe acordes/power chords/la caja 1 de la pentatónica menor y suena escolar
+  (`memoria/01` §1). Específico, con margen.
+- **Transformación:** NO es "tocar mejor" — es "improvisar solos de rock con sabor, moviéndote por
+  las 5 cajas con bending, vibrato y espacio" (`memoria/01` §2, Punto A → Punto B). Específico, con
+  margen.
+
+**Los dos criterios se cumplen — el océano de "Solo con Sabor" es azul, no rojo.** Y de yapa, esto
+conecta directo con `Analisis-de-Competencia.pdf`: ahí ya habíamos encontrado que nadie ataca "rock
++ pentatónica menor + con sabor" con esta especificidad — los 5 programas similares son
+generalistas (Pickup Music, Simple Guitar) o de otro género (jazz, blues puro de Tom Hess). Dos
+formas distintas de medir lo mismo (la fuente de Nico por definición, la competencia por evidencia
+de mercado) llegan al mismo resultado.
 
 ---
 
@@ -462,10 +474,9 @@ más de un perfil. **No los descartes, solo no los mezcles con este programa pun
 - [x] **4 · Top 5 problemas + Top 5 deseos** — actualizado (4/9) con los 4 avatares reales (Tom,
       Ángel, Verónica, Simón). El tiempo quedó confirmado 4/4, y aparecieron 2 patrones nuevos
       (animarse/confiar y ejecutar vs. hacer música de verdad) con 3 voces cada uno.
-- [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original — sigue siendo el
-      único ítem de todo el documento que depende de un dato que solo vos tenés (la imagen no se
-      leía con precisión). Dejé una lectura provisoria basada en el framework general, marcada
-      explícitamente como no verificada, para que la contrastes en 2 minutos en vez de partir de cero.
+- [x] **5 · Confirmar los 2 criterios de "nicho azul"** — CERRADO (4/9) con la fuente real
+      (nicho específico + transformación específica). "Solo con Sabor" cumple los dos, ver la
+      sección "Océano Azul" más arriba.
 - [x] **6 · Narrativa de éxito y deseo secundario (preguntas 10 y 11)** — reescritas (4/9) con las
       4 voces reales (Tom, Ángel, Verónica, Simón): pregunta 10 suma el deseo físico de Simón
       (aliviar la tensión postural) y pregunta 11 ya tiene la narrativa completa que pedía Nico,
