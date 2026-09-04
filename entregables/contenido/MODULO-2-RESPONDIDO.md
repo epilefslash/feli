@@ -82,18 +82,25 @@ Es exactamente el mismo ejercicio que ya resolvimos para el Onboarding — el do
 | Pilares (3-6) | 4 pilares: El Mapa, El Sabor, El Vocabulario, El Pulso | ✅ Resuelto |
 | Micro-pasos por pilar (3-5) | 4 micro-pasos por pilar, ya escritos | ✅ Resuelto |
 | ¿Qué incluye el programa? (Vehículo) | Ya detallado — pregrabado, vivo, WhatsApp, cuadernillos, backings | ✅ Resuelto |
-| **Justificación del orden entre pilares** | 🔴 No está escrito en ningún lado como texto aparte | Falta, chico |
+| **Justificación del orden entre pilares** | ✅ Resuelto (4/9) — texto cerrado abajo | Cerrado |
 
-**El único ítem nuevo:** la plantilla pide un párrafo explícito de **por qué los pilares van en ese
-orden**. Lo tenemos implícito (mapa antes que sabor porque hace falta ubicarse antes de poder
-expresarse; sabor antes que vocabulario porque un lick sin sabor es un ejercicio) pero nunca lo
-escribimos como texto aparte. Es 10 minutos, y te dejo la base:
+**Ítem cerrado (A3 del checklist general).** La plantilla pide un párrafo explícito de **por qué
+los pilares van en ese orden**. Lo teníamos implícito (mapa antes que sabor porque hace falta
+ubicarse antes de poder expresarse; sabor antes que vocabulario porque un lick sin sabor es un
+ejercicio) pero nunca escrito como texto aparte. El borrador original decía que El Pulso "corre en
+paralelo desde el mes 2 porque necesita que ya existan licks" — **eso contradice cómo está armado
+de verdad** (`memoria/10` §31): el Pulso se enseña en 2 tiempos, Pozzoli en paralelo al mes 2 para
+*leer* ritmo (sin necesitar licks todavía) y el Anexo A-J en paralelo al mes 3 para *aplicarlo*
+sobre los licks que recién ahí existen. Corregido:
 
 > *"El Mapa va primero porque sin saber moverte por el mástil, cualquier técnica que aprendas queda
 > encerrada en una caja. El Sabor va segundo porque expresar algo requiere primero tener dónde
 > pararte. El Vocabulario va último porque un lick prestado sin mapa ni sabor es una foto copiada,
-> no un lenguaje propio. El Pulso corre en paralelo desde el mes 2 porque necesita que ya existan
-> licks para poder moverlos en el tiempo."*
+> no un lenguaje propio. El Pulso no va en serie con los otros tres: corre en paralelo, en dos
+> tiempos. Arranca junto con El Sabor enseñando a LEER el ritmo — todavía no hay licks que mover,
+> así que el trabajo es de oído y de cuerpo. Se profundiza junto con El Vocabulario enseñando a
+> APLICARLO, porque recién ahí el alumno tiene un banco de licks propios para desplazar, sincopar
+> o anticipar."*
 
 ---
 
@@ -194,7 +201,8 @@ punto 12). No es nuevo, pero es la segunda vez que el material lo pide — sube 
 - [x] **1 · Postura sobre la tensión pregrabado/vivo — RESUELTA (4/9).** Panza tranquila con dar
       en vivo, más las ganas de ir grabando: se reconcilian sin conflicto, ver la sección de
       arriba. Igual se lleva la pregunta al lunes, ahora con postura propia ya pensada.
-- [ ] **2 · Escribir la justificación del orden de los pilares** — 10 minutos, base ya escrita arriba
+- [x] **2 · Escribir la justificación del orden de los pilares** — CERRADO (4/9), texto final en la
+      sección de arriba (y con una corrección real: cómo funciona El Pulso en dos tiempos, no en uno)
 - [x] **3 · Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos"** (mover la caja un tono arriba +
       la pincelada de jazz). Falta solo confirmar en qué momento del programa se entrega.
 - [ ] **4 · Reforzar la validación de autoridad en la bio** (facultad + años enseñando) — ya estaba

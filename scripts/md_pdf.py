@@ -64,7 +64,7 @@ def merge_continuations(raw_lines):
         # Un heading, un separador, una fila de tabla o una cita nunca reciben la linea de
         # abajo como continuacion, tengan o no una linea en blanco que los separe del texto
         # que sigue -- si no, "## Titulo\nprosa sin blanco" se fusiona en el titulo entero.
-        if s.startswith('#') or s.startswith('>'):
+        if re.match(r'^#{1,4}\s', s) or s.startswith('>'):
             return True
         if s.startswith('|') and s.endswith('|'):
             return True

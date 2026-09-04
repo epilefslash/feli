@@ -47,15 +47,16 @@ pendiente.**
 
 | # | Qué | Tiempo | De dónde sale |
 |---|---|---|---|
-| A1 | Confirmar los 2 criterios de "nicho azul" contra la fuente original | 5 min | Módulo 1 |
-| A2 | Pensar la Parte 2 del autoanálisis: 2-3 frases de tu filosofía/valores como profesor | 15-20 min | Módulo 1 |
-| A3 | Escribir la justificación del orden de los 4 pilares (base ya redactada, solo ajustar) | 10 min | Módulo 2 |
+| A1 | 🟡 Confirmar los 2 criterios de "nicho azul" contra la fuente original — sigue sin poder cerrarse desde acá (necesita el texto exacto, la imagen no se leía); dejé una lectura provisoria marcada como no verificada en `MODULO-1-RESPONDIDO.md` para que la contrastes en 2 min | 2 min | Módulo 1 |
+| A2 | 🟡 Elegir/ajustar tu filosofía como profesor — ya no es hoja en blanco: hay **4 candidatas armadas** con patrones tuyos reales (no genéricas), en `MODULO-1-RESPONDIDO.md`, esperando que elijas o las edites | 5 min | Módulo 1 |
+| A3 | ✅ Justificación del orden de los 4 pilares — RESUELTA (4/9), texto cerrado en `MODULO-2-RESPONDIDO.md` (con una corrección real: El Pulso funciona en 2 tiempos, no en uno) | — | Módulo 2 |
 | A4 | ✅ Extra/sorpresa — RESUELTO (4/9): "2 Trucos Secretos" (caja un tono arriba + pincelada de jazz) | — | Módulo 2 |
-| A5 | Validar o corregir mis propuestas de deseos secundarios (pregunta 10) y narrativa de éxito (pregunta 11) | 10-15 min | Módulo 1 |
+| A5 | ✅ Deseos secundarios (pregunta 10) y narrativa de éxito (pregunta 11) — RESUELTA (4/9) con las 4 voces reales, ver `MODULO-1-RESPONDIDO.md` | — | Módulo 1 |
 | A6 | ✅ Postura pregrabado-vs-vivo — RESUELTA (4/9): las dos ideas se reconcilian, ver `MODULO-2-RESPONDIDO.md` | — | Módulo 2 |
 
-**Categoría A, avanzando con café en mano.** 2 de 6 resueltas en una sola charla corta — quedan
-A1, A2, A3 y A5, ninguna urgente.
+**Categoría A, avanzando con café en mano.** 4 de 6 resueltas del todo. Quedan A1 y A2, y las dos
+llegaron con el trabajo pesado ya hecho — A1 solo necesita que confirmes un texto contra la fuente
+(2 min), A2 solo necesita que elijas entre 4 candidatas ya escritas (5 min). Ninguna urgente.
 
 ## 🔍 CATEGORÍA B — Trabajo de escritorio (investigar, sin depender de otros)
 
@@ -71,20 +72,21 @@ precio en el mercado (queda entre los cursos grabados baratos y la mentoría bou
 
 | # | Qué | Estado |
 |---|---|---|
-| C1 | ✅ Encuestar alumnos 1 a 1 — los 4 a los que se les mandó ya contestaron (Pancho, Leo, Tom, Ángel) el mismo día | Cerrada (4/9) |
+| C1 | ✅ Encuestar alumnos 1 a 1 — los 6 a los que se les mandó ya contestaron (Pancho, Leo, Tom, Ángel, Verónica, Simón) — muestra completa | Cerrada (4/9) |
 
-**Salió mejor de lo esperado.** El plan original preveía 2-3 días de espera; los 4 contestaron el
+**Salió mejor de lo esperado.** El plan original preveía 2-3 días de espera; los 6 contestaron el
 mismo día. No hace falta mandarla a nadie más para el lunes.
 
 ## 🧩 CATEGORÍA D — Depende de tener las encuestas (Categoría C) — ✅ CERRADA
 
 | # | Qué | Estado |
 |---|---|---|
-| D1 | ✅ Etapa de Analizar — Top 5 problemas + Top 5 deseos, con Tom y Ángel (los 2 avatares reales) confirmando varios ítems por partida doble. Ver `MODULO-1-RESPONDIDO.md` | Cerrada (4/9) |
+| D1 | ✅ Etapa de Analizar — Top 5 problemas + Top 5 deseos, con Tom, Ángel, Verónica y Simón (los 4 avatares reales) confirmando varios ítems por 2 y hasta 3 voces independientes. Ver `MODULO-1-RESPONDIDO.md` | Cerrada (4/9) |
 
-**Con las 4 respuestas adentro, no quedó nada "en proceso":** varios ítems del Top 5 pasaron de
-hipótesis a confirmados por dos voces independientes, y salió un hallazgo lindo de yapa — Ángel
-describió el concepto de "espacio" del Hito 2 con sus propias palabras, sin haberlo cursado.
+**Con las 4 respuestas del avatar adentro, no quedó nada "en proceso":** el tiempo quedó confirmado
+4 de 4 sin excepción, y salieron dos hallazgos de yapa — Ángel describió el concepto de "espacio"
+del Hito 2 con sus propias palabras sin haberlo cursado, y Verónica nombró sin ayuda la diferencia
+entre ejecutar y hacer música de verdad.
 
 ## 💬 CATEGORÍA E — Para llevar a la reunión, NO para resolver solo antes
 
@@ -100,30 +102,33 @@ pagando la mentoría.
 
 ---
 
-# EL PLAN DE "GOLAZO" — actualizado, ya casi no queda nada
+# EL PLAN DE "GOLAZO" — actualizado, queda un cabo suelto real y uno de 5 minutos
 
-**El golazo real terminó siendo más corto de lo calculado.** B (competencia), C (encuesta) y D
-(Top 5/Top 5) cerraron el mismo jueves — el plan original les daba hasta el domingo. Lo único que
-queda "vivo" es la Categoría A (~70-75 min de pensar solo), que nunca dependió de nadie más que
-de vos y no tiene apuro real: llegás sobrado igual.
+**El golazo real terminó siendo más corto de lo calculado.** B (competencia), C (encuesta), D
+(Top 5/Top 5) y ahora A3, A4, A5 y A6 ya están cerrados. De la Categoría A original solo quedan
+**A1 y A2** — y los dos llegan con el trabajo pesado ya hecho, no como tareas en blanco.
 
-## Reparto sugerido en tu calendario real — actualizado (4/9, mismo jueves)
+## Reparto sugerido en tu calendario real — actualizado (4/9, tarde)
 
-**Las categorías B, C y D cerraron el mismo jueves** — mucho antes de lo previsto (el plan
-original estimaba hasta el domingo). B: la competencia, hecha con investigación real. C: los 4
-alumnos contestaron la encuesta el mismo día. D: el Top 5/Top 5 ya está armado con esas 4
-respuestas. Lo único que queda es la Categoría A — que nunca dependió de nadie más que de vos.
+**Las categorías B, C y D cerraron el jueves**, mucho antes de lo previsto (el plan original
+estimaba hasta el domingo). Y de la Categoría A, 4 de 6 ítems (A3, A4, A5, A6) ya están resueltos
+sin que tuvieras que sentarte a escribir nada — quedaron armados sobre datos reales o sobre
+patrones tuyos ya presentes en la conversación.
 
 **Lo único pendiente, para cuando tengas un rato (no hace falta que sea mañana temprano):**
-1. Las 6 tareas de pensar (A1 a A6) — ~70 min, se pueden hacer todas seguidas con un café. Los
-   disparadores para cada una ya están en la conversación.
-2. Confirmar los 2 criterios de "nicho azul" contra la fuente original (5 min, es releer).
+1. **A2 — elegir/ajustar tu filosofía como profesor** (5 min): hay 4 candidatas ya escritas en
+   `MODULO-1-RESPONDIDO.md`, con el patrón real del que salió cada una. Elegí, mezclá, o decime
+   qué no te cierra de las cuatro y afino una quinta.
+2. **A1 — confirmar los 2 criterios de "nicho azul"** (2 min): es releer la fuente original y
+   pegar el texto exacto — no lo puedo inventar sin arriesgarme a citarle a Nico algo que él nunca
+   dijo. Dejé una lectura provisoria, marcada como no verificada, para contrastar más rápido.
 
-**Con eso, llegás al lunes con todo cerrado — y con margen de sobra, no al límite.**
+**Con esos dos, llegás al lunes con la Categoría A entera cerrada — y con margen de sobra, no al
+límite.**
 
 **Lunes a la mañana, antes de las 12:30:** repasar las 3 preguntas de la Categoría E (10 min,
 solo para tenerlas frescas) — sumá una cuarta, que salió de la propia encuesta: si tiene sentido
-correr el techo de edad del avatar a 50-55 (por Ángel, 52). Y los documentos
+correr el techo de edad del avatar a 50-55 (por Ángel y Verónica, los dos en 52). Y los documentos
 `MODULO-1-RESPONDIDO.md` / `MODULO-2-RESPONDIDO.md`
 completos si querés repasar el resto.
 
@@ -131,15 +136,17 @@ completos si querés repasar el resto.
 
 # LA FRASE PARA EL LUNES
 
-Con las categorías B, C y D cerradas, y la A en curso (te queda a vos completarla estos días),
-llegás en condiciones reales de decir:
+Con las categorías B, C y D cerradas, y la A a un 5+2 minutos de estarlo del todo, llegás en
+condiciones reales de decir:
 
-> *"Nico, los Módulos 1 y 2 están resueltos. Encuesté a 4 alumnos y ya tengo un Top 5 de problemas
-> y de deseos con datos reales, no inventados — con un hallazgo lindo de yapa: uno de ellos
-> describió el concepto de 'espacio' del Hito 2 con sus propias palabras, sin haberlo cursado.
-> Mapeé la competencia — apareció Andy Kligman, que ya era mi referencia de formato, como
-> competidor directo. Tengo mis valores como marca definidos y la estructura del programa cerrada
-> con la justificación del orden escrita. Me quedan 4 preguntas puntuales para vos: el delivery
+> *"Nico, los Módulos 1 y 2 están resueltos. Encuesté a 6 alumnos — 4 dentro del avatar real — y
+> ya tengo un Top 5 de problemas y de deseos con datos reales, no inventados: el tiempo salió
+> unánime en los 4, y apareció un hallazgo lindo de yapa — dos de ellos describieron, cada uno con
+> sus propias palabras y sin que se lo preguntara así, el concepto de 'espacio' del Hito 2 y la
+> diferencia entre ejecutar y hacer música de verdad. Mapeé la competencia — apareció Andy
+> Kligman, que ya era mi referencia de formato, como competidor directo. Tengo la estructura del
+> programa cerrada con la justificación del orden escrita, incluido cómo funciona El Pulso en
+> paralelo a los otros tres pilares. Me quedan 4 preguntas puntuales para vos: el delivery
 > pregrabado-vs-vivo, la plataforma, el precio, y si vale la pena correr el techo de edad del
 > avatar a 50-55."*
 

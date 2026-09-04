@@ -26,10 +26,22 @@ que Nico pide como obligatoria. No es un problema de contenido, es que a esa eta
 
 **Sobre Océano Azul:** ya lo validamos contra el material de InstaMúsico (memoria/05 §35) — nichear
 en vez de competir en el mercado general de guitarra. Coincide con lo que vimos hoy en el Módulo 1.
-**Ojo:** la página del Módulo 1 lista 2 criterios puntuales para saber si tu nicho es "azul" — no
-los pude leer con precisión suficiente del documento que me pasaste (la imagen venía chica). Antes
-del lunes, releelos vos directo de la fuente y confirmá que los cumplimos — con lo que sí pude leer,
-todo apunta a que sí, pero prefiero que lo confirmes vos contra el original antes de darlo por hecho.
+
+**Sobre los 2 criterios puntuales (A1 del checklist) — sigue sin poder confirmarse desde acá, y
+esto es honesto, no pereza:** la página del Módulo 1 los lista, pero la imagen que me pasaste no se
+leía con precisión suficiente para citarlos textual. No los invento — sería peor que dejarlo en
+blanco, porque sonaría a que Nico dijo algo que en realidad puse yo. **Lo que sí puedo hacer
+mientras tanto es una lectura general** (framework "océano azul" estándar, no tu fuente puntual):
+los dos ejes más comunes en esta clase de material son (1) ¿hay pocos o ningún otro creador
+atacando exactamente este cruce — nicho + avatar + promesa — con este nivel de especificidad? y
+(2) ¿el dolor es lo bastante concreto como para que el avatar lo reconozca solo, sin que se lo
+tengas que explicar? Contra el `Analisis-de-Competencia.pdf` ya armado: nadie ataca "rock +
+pentatónica menor + con sabor" con esta especificidad — los 5 programas similares son generalistas
+(Pickup Music, Simple Guitar) o de otro género (jazz, blues puro de Tom Hess). Si esos son los 2
+criterios reales, los cumplís con margen. **Pero repito: esto es mi lectura del framework general,
+no una cita de tu material.** Antes de decirlo frente a Nico así, pegame acá el texto exacto de los
+2 criterios (una foto más clara, o transcribilos vos) y lo confirmo en 2 minutos — sigue siendo lo
+único de este documento que de verdad depende de un dato que solo vos tenés.
 
 ---
 
@@ -97,20 +109,49 @@ verificadas contra referentes reales (Angus, Page, Gary Moore). Sobra contenido,
 ## 10 · Sueño/deseo principal + secundarios — ✅ RESUELTO con dato real (actualizado 4/9)
 
 Tenés el deseo primario (`memoria/01`: *"improvisar un solo de rock que suene profesional y
-con sabor"*). Los secundarios ya no son especulación — **Tom (35, el avatar real) lo dijo con sus
-propias palabras** en la encuesta: poder tocar con otros músicos sin sentirse perdido, entender lo
-que están tocando, poder opinar con criterio, aportar en la banda. Eso reemplaza la propuesta que
-había armado yo (*"que lo inviten a tocar con amigos y no quedarse mirando"* — muy cerca, pero
-ahora tenés la versión real en vez de la inferida). El resto de mi propuesta original (grabar un
-cover y animarse a postearlo, sentir que el tiempo dedicado por fin se nota) sigue siendo razonable
-como hipótesis — se puede confirmar con las próximas respuestas.
+con sabor"*). Los secundarios ya no son especulación — son 4 voces reales, y se acomodan en 2
+familias distintas:
 
-## 11 · Mejor caso de éxito imaginado, con detalle — 🟡 PARCIAL
+- **Tocar con otros, sin sentirse perdido.** Tom lo dice explícito (opinar con criterio, aportar
+  en su banda). Verónica lo confirma desde otro ángulo: sintió que "hacía música" recién cuando la
+  primera clase sumó batería y eléctrica — el deseo no es solo tocar bien solo, es sonar bien
+  *adentro de un grupo*.
+- **Que el cuerpo también acompañe.** Esto es nuevo, de Simón, y nadie más lo nombró: no solo
+  quiere tocar mejor, quiere *relajar la tensión postural* de sostener la guitarra. Es un deseo
+  secundario físico, no solo musical — vale la pena tenerlo anotado por si en algún momento suma
+  peso (una respuesta más lo confirmaría como patrón, no como caso único).
 
-Tenés el entregable objetivo (el solo de 1 min grabado, `memoria/01`) pero no la narrativa de vida
-completa que pide Nico. Semilla para expandir el lunes: *un alumno que llega sonando "a ejercicio",
-y a las 12 semanas graba su solo, lo comparte con el grupo de amigos con los que toca hace años, y
-por primera vez es él el que arranca a improvisar en una junta en vez de quedarse acompañando.*
+Eso reemplaza la propuesta que había armado yo (*"que lo inviten a tocar con amigos y no quedarse
+mirando"* — muy cerca, pero ahora tenés la versión real en vez de la inferida). El resto de mi
+propuesta original (grabar un cover y animarse a postearlo, sentir que el tiempo dedicado por fin
+se nota) sigue siendo razonable como hipótesis complementaria, sin confirmación directa todavía.
+
+## 11 · Mejor caso de éxito imaginado, con detalle — ✅ RESUELTO (narrativa compuesta, 4/9)
+
+Tenés el entregable objetivo (el solo de 1 min grabado, `memoria/01`). Lo que faltaba era la
+narrativa de vida completa — y con las 4 respuestas reales ya no hace falta inventarla: se arma
+sola, tejiendo lo que dijo cada uno. **Es una narrativa COMPUESTA, construida con las 4 voces
+reales de la encuesta — no es la cita textual de una sola persona.** Para eso (una historia en la
+voz de un solo alumno, filmada) está la guía de testimonio en video, `memoria/04` §38, todavía sin
+grabar.
+
+> Llega alguien que lleva años "sabiendo cosas" pero sin sentir que hace música: memorizó acordes
+> canción por canción, sin que nada quedara después (Verónica) · mira tutoriales cortos que le dan
+> partes sueltas, nunca un cómo (Simón) · entiende la teoría pero no logra que las manos la
+> repliquen (Ángel). El obstáculo real nunca fue el talento — fue el tiempo, dicho por los cuatro
+> sin una sola excepción, y por debajo del tiempo, la falta de animarse (Pancho, Ángel y Verónica
+> lo dicen casi con las mismas palabras, en las dos puntas de edad de toda la muestra).
+>
+> Doce semanas después, esa misma persona graba su solo de un minuto. No suena a ejercicio: suena
+> a que decidió algo en cada frase — por primera vez no memorizó una canción entera nota por nota,
+> construyó la propia. La primera vez que se escucha, siente lo que Verónica describió sin que se
+> lo preguntáramos así: *"ahora siento que toco música, y no una canción de acordes que ni sé cómo
+> son."* Y cuando se junta a tocar con otros — la banda de Tom, el trío con batería de Verónica —
+> no se queda mirando: entra, aporta, y por una vez hasta el cuerpo acompaña, sin la tensión que
+> describía Simón al sostener la guitarra.
+>
+> Ese es el Punto B real, no el inventado: no es "sonar como Slash". Es dejar de ejecutar y
+> empezar a sentir que lo que suena es de uno.
 
 ## 12 · Competencia (5 referentes + 5 con cursos similares) — 🔴 NO EXISTE, es el gap real
 
@@ -148,8 +189,27 @@ necesariamente todo el mundo comparte. No es la historia (el arco), es la convic
 - *"No creo en las escalas raras. Creo en exprimir la que ya sabés hasta el fondo."*
 - *"Creo que un guitarrista aprende más mirándose las manos que mirando tutoriales."*
 
-**No lo puedo escribir yo por vos** — es lo único de todo este documento que es genuinamente tuyo y
-no se puede derivar de la memoria. Pensalo antes del lunes, aunque sea en una frase suelta.
+**No lo puedo escribir yo por vos, pero sí te puedo dar un arranque más cerca de tu voz real** —
+no genérico de "profesor de guitarra", sino sacado de patrones tuyos que ya aparecieron una y otra
+vez en esta conversación, en decisiones concretas, no en frases que dijiste para una bio. Elegí,
+mezclá o descartá — la idea es que edites, no que arranques de una hoja en blanco:
+
+1. **Sobre el orden vs. la cantidad** (tu creencia limitante #1, tu propia historia de "sabía un
+   montón de teoría y sonaba igual", el motivo por el que 20 min ordenados le ganan a 4 hs de
+   scroll): *"No creo que te falte información. Creo que te sobra, y te falta orden."*
+2. **Sobre no inflar lo que enseñás** (sacaste a Knopfler del panel de referentes porque no lo
+   tenés escuchado a fondo, corregís tus propios PDF cuando encontrás un número inventado, nunca
+   afirmás un dato musical que no podés verificar): *"No enseño nada que no pueda sostener mirando
+   a los ojos. Si no lo domino de verdad, no lo uso de autoridad."*
+3. **Sobre el sabor por encima de la técnica pura** (el eje entero de "El Sabor" y de la creencia
+   #2 — una nota con vibrato vale por 20 atropelladas): *"La técnica sin sabor no enamora a nadie.
+   Prefiero un alumno con 3 licks que suenan a él, que uno con 30 que suenan a ejercicio."*
+4. **Sobre cómo corregís** (la simulación de la sección 18 de `memoria/07`: a Diego no lo aplaudís
+   por tocar perfecto, lo aplaudís por animarse a salir de la caja): *"No corrijo para que suene
+   perfecto. Corrijo para que se anime a la próxima nota."*
+
+> Si ninguna te cierra tal cual, decime qué te resuena y qué no de las cuatro — con eso afino la
+> quinta en vez de que tengas que partir de cero vos.
 
 ---
 
@@ -396,16 +456,22 @@ más de un perfil. **No los descartes, solo no los mezcles con este programa pun
       Pancho, Leo, Tom, Ángel, Verónica, Simón. Muestra completa, no hace falta esperar a nadie más.
 - [x] **2 · Análisis de competencia** — HECHO (4/9), ver `Analisis-de-Competencia.pdf` — 6
       referentes + 5 programas, con Andy Kligman y Guitarra Libre como hallazgos principales.
-- [ ] **3 · Pensar la Parte 2 del autoanálisis** (filosofía/valores, 2-3 frases) — no depende de
-      nada, es introspección pura. Conecta con el hueco de StoryTelling "valores" ya anotado.
+- [ ] **3 · Elegir/ajustar tu filosofía como profesor** (2-3 frases) — ya no es hoja en blanco: hay
+      **4 candidatas armadas** con patrones tuyos reales, esperando que elijas/edites (ver la
+      sección "El gap nuevo: Parte 2" más arriba). 5 minutos de lectura + elegir, no de escribir.
 - [x] **4 · Top 5 problemas + Top 5 deseos** — actualizado (4/9) con los 4 avatares reales (Tom,
       Ángel, Verónica, Simón). El tiempo quedó confirmado 4/4, y aparecieron 2 patrones nuevos
       (animarse/confiar y ejecutar vs. hacer música de verdad) con 3 voces cada uno.
-- [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original (la imagen que me
-      pasaste no se leía con precisión).
-- [x] **6 · Narrativa de éxito y deseo secundario (preguntas 10 y 11)** — actualizados con datos
-      reales de Tom y Ángel. Quedó además la pregunta nueva sobre el techo de edad del avatar
-      (52 años de Ángel, fuera del rango 28-45) para llevar al lunes.
+- [ ] **5 · Confirmar los 2 criterios de "nicho azul"** contra la fuente original — sigue siendo el
+      único ítem de todo el documento que depende de un dato que solo vos tenés (la imagen no se
+      leía con precisión). Dejé una lectura provisoria basada en el framework general, marcada
+      explícitamente como no verificada, para que la contrastes en 2 minutos en vez de partir de cero.
+- [x] **6 · Narrativa de éxito y deseo secundario (preguntas 10 y 11)** — reescritas (4/9) con las
+      4 voces reales (Tom, Ángel, Verónica, Simón): pregunta 10 suma el deseo físico de Simón
+      (aliviar la tensión postural) y pregunta 11 ya tiene la narrativa completa que pedía Nico,
+      compuesta con las 4 respuestas — antes solo tenía la semilla de una frase. Quedó además la
+      pregunta nueva sobre el techo de edad del avatar (52 años de Ángel y Verónica, fuera del
+      rango 28-45) para llevar al lunes.
 
 ---
 
