@@ -713,21 +713,18 @@ S.append(tabla([
 S.append(Paragraph("LO QUE ESTE PROGRAMA NO TE DIO (y lo digo de frente)", H2))
 S.append(Paragraph(
     "Doce semanas alcanzan para el mapa, el sabor y el vocabulario. No alcanzan para todo, y preferimos "
-    "que lo sepas por acá antes de que lo descubras tocando con gente. Faltan dos cosas, a propósito:", BODY))
+    "que lo sepas por acá antes de que lo descubras tocando con gente. Falta una cosa, a propósito "
+    "(el <b>cuándo</b> del ritmo lo cubrimos aparte, en paralelo — si todavía no hiciste esos anexos, "
+    "no es un hueco tuyo, es la próxima pieza que te falta):", BODY))
 S.append(tabla([
-    [Paragraph("<b>EL RITMO</b>", CELLB),
-     Paragraph("Trabajamos <b>qué</b> notas tocás y <b>cómo</b> las tocás, pero casi no trabajamos "
-               "<b>cuándo</b> entran respecto del pulso. Buena parte de lo que hace que un lick suene a "
-               "Page es dónde cae, no qué notas tiene. Subdivisión, shuffle contra recto, entrar a "
-               "contratiempo: eso es un módulo aparte.", CELL)],
     [Paragraph("<b>LOS CAMBIOS DE ACORDE</b>", CELLB),
      Paragraph("Los tres hitos improvisan sobre un vamp fijo en La menor. Eso es a propósito: aísla la "
                "variable para que puedas concentrarte en el mástil y en el sabor. Pero un blues de 12 "
                "compases se mueve, y ahí hay que saber qué hacer cuando el acorde cambia debajo tuyo.", CELL)],
 ], [4.2 * cm, W - 4.2 * cm]))
 S.append(Paragraph(
-    "Nada de esto invalida lo que hiciste: son el escalón siguiente, no un agujero. Si al tocar con gente "
-    "sentís que \"algo no encaja\" aunque las notas estén bien, casi seguro es una de estas dos.", SMALL))
+    "Nada de esto invalida lo que hiciste: es el escalón siguiente, no un agujero. Si al tocar con gente "
+    "sentís que \"algo no encaja\" aunque las notas estén bien, casi seguro es esto.", SMALL))
 
 S.append(Spacer(1, 8))
 S.append(caja_oscura(
