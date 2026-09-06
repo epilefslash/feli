@@ -108,7 +108,7 @@ sobre los licks que recién ahí existen. Corregido:
 
 ```
 Valor = (Resultado Deseado × Probabilidad de Éxito Percibida)
-        ─────────────────────────────────────────────────────
+        -------------------------------------------------------
               (Tiempo de Espera × Esfuerzo y Sacrificio)
 ```
 

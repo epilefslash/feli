@@ -211,7 +211,7 @@ decisión que él puede cerrar en un minuto.
 
 ```
 Valor = (Resultado Deseado × Probabilidad de Éxito Percibida)
-        ─────────────────────────────────────────────────────
+        -------------------------------------------------------
               (Tiempo de Espera × Esfuerzo y Sacrificio)
 ```
 
