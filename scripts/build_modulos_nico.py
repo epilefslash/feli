@@ -23,7 +23,7 @@ S = []
 
 S.append(Paragraph("MÓDULOS 1 Y 2 — MI RESPUESTA", MOBILE_H1))
 S.append(Paragraph(
-    "Todo lo que piden los Módulos 1 y 2, contestado punto por punto, en primera persona.",
+    "Todo lo que piden los Módulos 1 y 2, contestado punto por punto.",
     MOBILE_BODY))
 S.append(Spacer(1, 8))
 S.append(caja_oscura(
