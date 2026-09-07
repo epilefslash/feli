@@ -1,10 +1,9 @@
 # MÓDULO 1 Y MÓDULO 2 — MI RESPUESTA, PUNTO POR PUNTO
 
 Nico, esto es lo que me llevé de los Módulos 1 y 2. Fui contestando cada cosa que pediste, en el
-mismo orden en que la pediste. Donde ya tengo la respuesta cerrada, la escribo directo — no doy
-vueltas. Donde todavía me falta algo (sobre todo trabajo de campo), lo digo tal cual: prefiero
-mostrarte el hueco real a maquillarlo. Al final dejé las 5 cosas que quiero charlar con vos antes
-de decidirlas solo, porque son justo el tipo de pregunta para la que sirve tenerte a vos.
+mismo orden en que la pediste. Donde ya tengo la respuesta cerrada, la escribo directo. Donde
+todavía me falta algo — sobre todo trabajo de campo — te muestro el hueco real, sin maquillarlo. Al
+final dejé las 5 cosas que quiero charlar con vos antes de decidirlas solo.
 
 ---
 
