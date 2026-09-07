@@ -3,7 +3,7 @@
 Nico, esto es lo que me llevé de los Módulos 1 y 2. Fui contestando cada cosa que pediste, en el
 mismo orden en que la pediste. Donde ya tengo la respuesta cerrada, la escribo directo — no doy
 vueltas. Donde todavía me falta algo (sobre todo trabajo de campo), lo digo tal cual: prefiero
-mostrarte el hueco real a maquillarlo. Al final dejé las 4 cosas que quiero charlar con vos antes
+mostrarte el hueco real a maquillarlo. Al final dejé las 5 cosas que quiero charlar con vos antes
 de decidirlas solo, porque son justo el tipo de pregunta para la que sirve tenerte a vos.
 
 ---
@@ -44,8 +44,10 @@ este perfil — no los voy a nombrar acá, pero los tengo presentes cada vez que
 hay un piso — caja 1 y acordes básicos ya resueltos.
 
 **3 · Problemas que resuelve.** Suelta siempre las mismas frases · sabe las cajas pero no las
-conecta · quiere sonar como sus referentes (Angus, Page, Hendrix, Gary Moore) y no sabe qué le
-falta · mira tutoriales sueltos de YouTube/IG y nunca cierra la idea.
+conecta · quiere sonar como sus referentes de hard rock (Angus, Page, Hendrix, Gary Moore — y ahora
+sumo a Michael Schenker, Ritchie Blackmore y Zakk Wylde, que terminan de afinar el nicho a "hard
+rock internacional" que cerramos hoy con vos) y no sabe qué le falta · mira tutoriales sueltos de
+YouTube/IG y nunca cierra la idea.
 
 **4 · El error más grande, más los secundarios.** El principal: creer que mirar más tutoriales lo
 va a hacer mejor. A mí también me pasó, así que lo conozco de adentro. Los secundarios: creer que
@@ -66,7 +68,7 @@ que le encanta y siente que nunca va a sonar así · junta amigos a tocar y evit
 improvisar.
 
 **8 y 9 · Mitos y creencias limitantes.** Tengo 9 mapeadas y verificadas contra referentes reales
-(Angus, Page, Gary Moore, Hendrix): que hace falta tocar rápido para sonar bien, que la pentatónica
+(Angus, Page, Gary Moore, Hendrix, Schenker, Blackmore, Wylde): que hace falta tocar rápido para sonar bien, que la pentatónica
 es de principiantes, que hace falta mejor equipo, que hay que estudiar 4 horas por día, que mirar
 más tutoriales ayuda, entre otras. Vos pedías 3-5 — me sobró material, así que dejé las mejores.
 
@@ -192,7 +194,7 @@ es una etiqueta de marketing que le inventé yo.
 | Punto A / Punto B del alumno | Ya escrito, palabra por palabra (ver Módulo 1). |
 | Pilares (3-6) | 4 pilares: El Mapa, El Sabor, El Vocabulario, El Pulso. |
 | Micro-pasos por pilar (3-5) | 4 micro-pasos por pilar, ya escritos. |
-| ¿Qué incluye el programa? (Vehículo) | Clase en vivo semanal, WhatsApp de seguimiento, cuadernillos completos, backing tracks propios. |
+| ¿Qué incluye el programa? (Vehículo) | Clase en vivo semanal, WhatsApp de seguimiento, cuadernillos completos, backing tracks propios, y los archivos de Guitar Pro de cada ejercicio (instalador para Windows y Mac) para que puedan escuchar cómo suena antes de tocarlo. |
 
 **Por qué van en ese orden:** El Mapa va primero porque sin saber moverte por el mástil, cualquier
 técnica que aprendas queda encerrada en una caja. El Sabor va segundo porque expresar algo requiere
@@ -214,7 +216,7 @@ Valor = (Resultado Deseado × Probabilidad de Éxito Percibida)
 | Variable | Cómo estoy |
 |---|---|
 | Resultado deseado | Fuerte — "de la caja 1 a improvisar con sabor" es concreto y deseable. |
-| Probabilidad de éxito percibida | Acá está mi mayor margen, y me di cuenta al escribir esto: tengo un activo que hoy uso poco — mi formación en la facultad de música de Rosario y mis años de clases 1 a 1. |
+| Probabilidad de éxito percibida | Acá está mi mayor margen, y me di cuenta al escribir esto: tengo un activo que hoy uso poco — mi formación en la facultad de música de Rosario, mis años de clases 1 a 1, y sumo también todas las bandas en las que toqué y las que tengo hoy, mis proyectos personales, las zapadas con amigos músicos y las colaboraciones en temas. No lo tenía puesto en palabras hasta ahora, pero es prueba real, no solo formación. |
 | Tiempo de espera | 12 semanas, competitivo. |
 | Esfuerzo y sacrificio | Backing tracks provistos + cuadernillos con el camino armado ya reducen el esfuerzo del alumno. |
 
@@ -222,10 +224,10 @@ Valor = (Resultado Deseado × Probabilidad de Éxito Percibida)
 
 | Elemento | Mi programa |
 |---|---|
-| Acompañamiento | Encuentros en vivo + devolución personalizada + WhatsApp. |
+| Acompañamiento | Encuentros en vivo (grupos de 2 a 10 alumnos, ~2 horas cada encuentro) + devolución personalizada + WhatsApp. |
 | Comunidad | Grupo reducido — se acabó el "estudiar solo y frustrarse". |
 | Plan de acción | Los 3 hitos, camino ordenado, sin adivinar qué sigue. |
-| Recursos que aceleran | Backing tracks propios + cuadernillos completos, ya hechos. |
+| Recursos que aceleran | Backing tracks propios + cuadernillos completos + los archivos de Guitar Pro de cada ejercicio (instalador Windows y Mac), para escuchar cómo suena antes de intentarlo — ya hechos. |
 | Extras / sorpresas | "2 Trucos Secretos": mover la caja pentatónica un tono arriba (cambia el color) + la pincelada de jazz (repetir una frase, subirla medio tono, bajarla). Los pensé como sorpresa, sin anunciarlos en el "qué incluye" — mi candidato es entregarlos justo después del Hito 2. |
 | Simplicidad | Ya es un principio de diseño del programa: no invento técnica nueva, empaqueto lo que ya existe en un método ordenado. |
 
@@ -256,7 +258,13 @@ tranquilidad ver que no me había desviado.
 3. **El precio: ¿mi piso actual, o el número más alto que tu propio material recomienda?** Tengo
    presente que cobrar más no perjudica al alumno, lo compromete — pero quiero decidirlo con vos, no
    solo con la cabeza.
-4. **¿Tiene sentido subir el techo de edad de mi avatar de 45 a 57?** Dos de mis cuatro alumnos
-   encuestados dentro del rango real tienen 52 años y calzan perfecto con el perfil — y mis
-   referentes musicales (discos de entre 1968 y 1990) son de la generación que hoy tiene entre 51 y
-   78 años. El piso de 28 no lo toco.
+4. **¿Tiene sentido subir el techo de edad de mi avatar?** Lo tenía pensado en 57, pero ahora dudo
+   si no conviene directamente 60 — y de paso, si tiene sentido bajar el piso de 28 a 23, para no
+   dejar afuera a los veinteañeros. Para el techo tengo evidencia real: dos de mis cuatro alumnos
+   encuestados dentro del rango tienen 52 años y calzan perfecto con el perfil, y mis referentes
+   musicales (discos de entre 1968 y 1990) son de la generación que hoy tiene entre 51 y 78 años.
+   Para bajar el piso a 23-27 todavía no tengo ningún dato real — te lo traigo como pregunta
+   abierta, no como propuesta armada.
+5. **¿El avatar "guitarrista de rock" es el mismo que el "hobbista autodidacta" que venimos
+   trabajando, o son dos avatares distintos y me convendría dirigirme a los dos por separado?**
+   Esto me quedó dando vueltas después de la charla de hoy y todavía no lo tengo resuelto.

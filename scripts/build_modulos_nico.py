@@ -29,7 +29,7 @@ S.append(Spacer(1, 8))
 S.append(caja_oscura(
     '<font color="white" size="10"><b>Cómo leer esto</b></font><br/>'
     '<font color="#f7d7d2" size="9">Es mi tarea contestada, no una auditoria -- donde ya tengo '
-    'la respuesta la escribo directo, y donde me falta algo lo digo tal cual. Las 4 preguntas '
+    'la respuesta la escribo directo, y donde me falta algo lo digo tal cual. Las 5 preguntas '
     'que quiero resolver con vos, no solo, quedan al final.</font>', W))
 S.append(PageBreak())
 
