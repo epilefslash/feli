@@ -57,29 +57,35 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 ```
 > Regla de oro: NO se vende en DM. El DM solo agenda la llamada. La venta se cierra por voz.
 
-**Bio de Instagram (modelo — actualizada 9/9 con la promesa final):**
+**Bio de Instagram (modelo — actualizada 7/9, tras la charla con Nico donde se cerró el nicho a
+"hard rock internacional" y la transformación a "dominar la improvisación"):**
 
 > Nico usa su propia bio de ejemplo: **Título** (rol/nicho) → **Promesa** con emoji → **Validación /
 > prueba social** con emoji → **CTA** con emoji → link.
 
 ```
-🎸 Profesor de guitarra rock
-Ayudo a guitarristas de rock a salir de la caja 1 y tocar solos con sabor en 90 días
-📖 Formado en la facultad de música de Rosario · años enseñando 1 a 1
+🎸 Dominá la improvisación de hard rock con mi método Solo con Sabor
+📖 Formado en la facultad de música de Rosario · +9 años enseñando
 👇 Comentá SOLO y arrancamos
 [link]
 ```
 
-> **Por qué esta versión (9/9, sobre la propuesta de Feli):** dos cambios respecto a la que había
-> antes ("te ayudo a pasar de la caja 1 a improvisar con sabor en 12 semanas"). (1) **"Ayudo a
-> guitarristas de rock a..."** en vez de "te ayudo a" — calca literal el molde de Nico ("ayudo a X
-> a lograr Y") y es la MISMA frase que ya habíamos validado en `MODULO-2-RESPONDIDO.md` contra la
-> Plantilla de Programa de Alto Valor — no es una frase nueva, es una que ya pasó ese filtro.
-> (2) **"Salir de la caja 1 y tocar solos con sabor"** en vez de "pasar de la caja 1 a improvisar" —
-> más activo, y usa la misma imagen de "la caja 1 como cárcel" que ya es el corazón del guion
-> vendedor "Como que desaparece" (`memoria/04` §23). (3) **"90 días"** en vez de "12 semanas" —
-> mismo plazo, pero es el que ya usa la promesa Punto A → Punto B (`memoria/01` §19: *"en 90 días
-> pasás de..."*) — la bio y el copy de venta ahora dicen el número igual en todos lados.
+> **Por qué esta versión (7/9, sobre 6 bios reales de gente que trabajó con Nico que Feli compartió
+> — Andy Kligman, Guitarra Libre, Sergio Assat, Juan Arias, Guido Briscioli, Shimo Santoro):** dos
+> cambios respecto a la anterior ("Ayudo a guitarristas de rock a salir de la caja 1..."). (1) **Se
+> nombra el método ("Solo con Sabor") en la propia línea de promesa** — la bio vieja no lo mencionaba
+> en ningún lado, y 3 de los 6 referentes (Sergio, Guido, Shimo) nombran su método propio en la bio.
+> (2) **Cambia de "ayudo a X a Y" a imperativo directo ("Dominá la improvisación...")** — sigue
+> siendo un molde válido de Nico (Andy Kligman lo usa así), pero el imperativo es el que más se repite
+> entre los 6 ejemplos, y "Dominá la improvisación" es casi literal lo que dicen Guido y Shimo en sus
+> propias bios — señal de que la frase ya está validada en la red de Nico, no es una apuesta nueva.
+> (3) **La validación suma un número real:** "+9 años enseñando" — antes decía "años enseñando 1 a 1"
+> sin cifra; los 6 ejemplos casi todos tienen un número (+100 alumnos, +9 años, 20 años, +8 años).
+> (4) **"Hard rock" reemplaza a "rock" a secas** — consistente con el nicho cerrado con Nico el 7/9
+> (`memoria/00`, charla del 7/9). "90 días" y "salir de la caja 1" se sacaron de la bio para que
+> entre el nombre del método sin que la línea se haga demasiado larga — la promesa de 90 días y la
+> imagen de la caja 1 siguen vigentes en el resto del copy (Punto A→B, guion vendedor), solo no
+> están en esta línea puntual.
 
 **Checklist de foto de perfil (nuevo, del mismo módulo):**
 - Solo vos en la foto — nada de familia, amigos, mascotas
