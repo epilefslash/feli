@@ -71,9 +71,23 @@
 | **Billy Gibbons** (ZZ Top) | Tone monstruoso con setup simple, groove | "No es el equipo" |
 | **B.B. King** | El rey de UNA nota bien tocada | "Tocar rápido" / "Más licks" |
 | **Stevie Ray Vaughan** | Penta menor con sabor crudo, gigante del bending | "Penta básica" |
+| **Michael Schenker** (UFO / Scorpions) | Hard rock melódico, penta menor exprimida al máximo, sustain y fraseo cantado | "Penta básica" (el que mejor calza con "hard rock" en sentido estricto) |
+| **Ritchie Blackmore** (Deep Purple / Rainbow) | Riffs fundacionales del hard rock, penta menor cruda con ataque agresivo | "Penta básica" / "No es el equipo" |
+| **Zakk Wylde** (Ozzy / Black Label Society) | Penta menor con pinch harmonics y bendings grandes, sabor bien reconocible aun siendo pesado | "Penta básica" / "Tocar rápido" |
 
 > Mark Knopfler salió del panel (25/8, pedido de Feli): no es un artista que tenga escuchado a
 > fondo, y citar autoridad que no se puede sostener con naturalidad contradice la regla del
 > proyecto de no inventar/forzar datos que no se dominan.
+>
+> **Kirk Hammett (Metallica) se evaluó y NO entra (7/9, pedido de Feli).** Dos motivos: (1) Feli
+> no lo tiene escuchado con la confianza necesaria para citarlo con naturalidad — misma regla que
+> sacó a Knopfler; (2) Metallica es thrash metal, más lejos del "hard rock internacional" que
+> incluso Hendrix. Si en algún momento Feli lo escucha más a fondo, se puede reevaluar — no está
+> descartado para siempre, solo no entra hoy.
+>
+> **Michael Schenker, Ritchie Blackmore y Zakk Wylde sí entran (7/9)** — Feli confirmó que los
+> tiene escuchados de verdad. Encajan directo con el ajuste de nicho a "hard rock internacional"
+> (memoria/00, charla con Nico del 7/9): Schenker es probablemente el más puro del panel entero en
+> sentido de género, Blackmore es fundacional, y Wylde conecta hard rock con un público más joven.
 
 ---
