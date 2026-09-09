@@ -284,10 +284,23 @@ no compuesto en ningún lado todavía — sin tocar la numeración interna de ca
 improvisando, con exactamente tres frases que entren antes del tiempo fuerte) — se reencuadra en
 el texto como "el entregable del Pilar 4 completo", no solo del anexo.
 
-**Estado: diseño cerrado, ejecución pendiente.** El paso siguiente es que Feli le adjunte los 2
-PDF (`Anexo-Ritmo-y-Construccion-de-Frases.pdf`, que está en el repo, y el de Pozzoli, que vive
-solo en su compu) a Claude Design junto con este prompt. El Pozzoli no se puede tocar desde acá
-porque no está en el repo.
+> ✅ **CERRADO (9/9).** Feli le pasó el prompt a Design (adaptado: la Parte 1 se armó desde cero
+> reinterpretando Pozzoli en formato del programa — 5 semanas, "las 12 células", el árbol propio —
+> en vez de solo insertar el PDF de Pozzoli tal cual; la Parte 2 es el Anexo A-I real, respetado
+> letra por letra) y subió `EL_PULSO.pdf` (43 páginas). **Verificado página por página contra la
+> fuente:** la introducción unificada y el puente de transición están textuales donde tenían que
+> ir; ninguna de las dos partes perdió su numeración interna (Parte 1 sus semanas 1-5, Parte 2 sus
+> letras A-I, sin J); las tablaturas de los ejercicios A, B, D, E, F coinciden nota por nota contra
+> `build_ritmo.py` — sin el patrón de "texto dice una cosa, tablatura dice otra" que es la firma
+> del bug de Design en otras rondas. Único punto sin verificar al 100% por mi parte: el ej. G
+> (compás 3, patrón 3+3+2) — quedó pendiente que Feli lo confirme a ojo, es el más denso
+> visualmente del documento.
+>
+> **Nota para memoria futura:** la Parte 1 de `EL_PULSO.pdf` NO es un PDF de Pozzoli insertado sin
+> cambios — Design la reescribió en el mismo lenguaje pedagógico que el resto del programa (células
+> con nombre tipo "PEZ"/"PA-TO", semanas con objetivo, checklist). Si se necesita el documento de
+> Pozzoli original para comparar, sigue siendo el PDF que vive solo en la compu de Feli — no en el
+> repo, y ahora tampoco es idéntico a la Parte 1 de El Pulso.
 
 ## NOTA APARTE: los pilares no tienen que durar exactamente 4 semanas cada uno
 
