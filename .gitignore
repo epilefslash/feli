@@ -5,3 +5,7 @@ scripts/partituras/*.pdf
 # Python
 __pycache__/
 *.pyc
+
+# Infraestructura local de Claude Code (worktrees de agentes en background, etc.)
+# -- nunca es contenido del proyecto, se genera y se limpia sola.
+.claude/
