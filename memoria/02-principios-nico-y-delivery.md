@@ -186,18 +186,27 @@ más preciso que el que se pensaba, y no se pisa con el ej. 43 del Hito 3 (color
 ejercicio es sobre elegir UNA nota de color según el tipo de vamp general, una sola vez — el Pilar 5
 es sobre reaccionar EN TIEMPO REAL, mientras el acorde cambia debajo, dentro de una progresión.
 
-**PILAR 5 — EL VUELO: "Soltándote en vivo"** *(nombre propuesto, sin confirmar con Nico)*
+> ⚠️ **SEGUNDA CORRECCIÓN (9/9, misma sesión de vuelta): el diseño de abajo se simplificó.** Feli
+> objetó que el 5.1/5.2 (reconocer el acorde + targeting notes) sonaba a **contenido nuevo**, no a
+> integración — y tenía razón: Nico definió el Pilar 5 como el lugar **donde se implementa todo lo
+> visto**, no donde se enseña algo más. El targeting de acordes se sacó del pilar y queda anotado
+> como hueco declarado para más adelante (segunda camada / Módulo 2), no como parte de este
+> programa.
 
-| Micro-paso | Qué domina el alumno |
+**PILAR 5 — EL VUELO: "Soltándote en vivo"** *(nombre en la línea de lo que dijo Nico — "el vuelo,
+donde se implementa todo lo visto" — sin confirmar la palabra exacta)*
+
+**No enseña nada nuevo.** Es la prueba de que el mapa, el sabor, el vocabulario y el pulso ya son un
+solo idioma, no piezas sueltas — el examen final del programa, en vivo.
+
+| Micro-paso | Qué DEMUESTRA el alumno (no aprende, ya lo sabe) |
 |---|---|
-| 5.1 | Reconoce de oído en qué acorde de la progresión está parado en cada momento |
-| 5.2 | Sabe qué nota de la pentatónica —la misma escala de siempre, con intención— pega más fuerte contra cada acorde de una progresión menor (i-VI-VII) |
-| 5.3 | Aplica la arquitectura de 4 frases (ya aprendida en el Hito 3) reaccionando al cambio de acorde en tiempo real, no ignorándolo |
-| 5.4 | Entra y sale de una improvisación grupal en vivo: cede protagonismo, lo retoma — la dinámica real de tocar con otros |
+| 5.1 | Se mueve libremente por las 5 cajas sin pensar en la posición (Pilar 1) |
+| 5.2 | El sabor aparece solo — bending, vibrato, espacio, sin planearlo (Pilar 2) |
+| 5.3 | Mete licks propios sin anunciarlos, mezclados en la improvisación, con el pulso adentro (Pilares 3 y 4) |
+| 5.4 | Toca con otros músicos en vivo: entra, sale, cede protagonismo, lo retoma |
 
-**Entregable:** el mismo solo final de 1 minuto de siempre, sobre el backing real que ya usa el
-programa — con un criterio nuevo agregado: que la frase reaccione al cambio de acorde, no solo
-recorra cajas.
+**Entregable:** el solo final de 1 minuto grabado — la prueba final del programa completo.
 
 **Por qué 5.4 no es un capricho:** 2 de los 4 alumnos reales encuestados (Tom y Verónica, ver
 `MODULO-1-RESPONDIDO.md`) nombraron, sin que se les preguntara así, el deseo de **tocar con otros
@@ -207,11 +216,20 @@ llenar un pilar — es un deseo real, medido.
 **Qué ya existe (reusa, no se recompone):** la arquitectura de 4 frases (Hito 3, ej. 49-53), el
 "antes del solo" del Hito 2 (práctica libre en las 5 cajas), y la mecánica de improvisación grupal
 ya descripta en la simulación de `memoria/07` §18 (los alumnos tocando "encadenados como una
-banda").
+banda"). Con esto alcanza — no hace falta contenido nuevo para cerrar el Pilar 5.
 
-**Qué es contenido nuevo a producir (no bloquea cerrar el documento con Nico, mismo criterio que el
-pregrabado: se graba/compone cuando toque):** los ejercicios de targeting sobre la progresión
-i-VI-VII (nuevo, con el mismo cuidado de siempre — LilyPond, auditoría de escala) y la consigna
-específica de clase para la dinámica de tocar con otros en la sesión de Improvisación semanal.
+**Hueco declarado, fuera de este programa (no confundir con el Pilar 5):** el targeting de
+acordes — qué nota de la pentatónica pega más fuerte contra cada acorde de la progresión — sigue
+sin enseñarse en ningún lado. Es candidato real para una segunda camada o un Módulo 2, no para
+este programa de 12 semanas.
+
+## NOTA APARTE: los pilares no tienen que durar exactamente 4 semanas cada uno
+
+Nico le dijo esto a Feli en la misma sesión: la duración de cada pilar es flexible, no hace falta
+que el Hito 1 sea literalmente 4 semanas. **Todavía no se tocó el calendario de 12 semanas**
+(`Programa-12-Semanas-Con-Ritmo.pdf`) con este dato — queda anotado para cuando Feli decida si
+quiere recortar o alargar algún pilar. Con 5 pilares ahora (antes eran 3-4), repartir 12 semanas
+en partes iguales tampoco cierra matemáticamente — es una razón más para no asumir 4 semanas fijas
+por pilar sin volver a mirar el calendario completo.
 
 ---
