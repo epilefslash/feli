@@ -284,23 +284,31 @@ primero aunque se publique último.**
 | **DÍA 0 — se suben los 3 juntos** ||||
 | 1 | **REEL FIJADO** (#12) — 30 seg tocando, sin hablar | Autoridad | 🎬 guion listo (sec. 26) |
 | 2 | **"3 formas de romper las cajas"** (#9) | Valor · Reel | ✅ filmado (9/9), falta editar |
-| 3 | **EPIFANÍA** — "El día que dejé de ver cajas" | Epifanía | ✍️ **guion nuevo (sec. 35)** |
+| 3 | **EPIFANÍA** — "El día que dejé de ver cajas" | Epifanía | ✅ **listo** (9/9, Feli confirma) |
 | **SEMANA 1** ||||
 | 4 | **Carrusel 1** — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 5 | **#4** — "¿Cuántas escalas necesitás?" | Valor · Reel | ✅ filmado + editado |
-| 6 | **StoryTelling 1** (foto) — "Toco desde los 11 y sonaba igual" | StoryTelling | ✍️ **copy nuevo (sec. 36)** |
+| 6 | **StoryTelling 1** (foto) — "Toco desde los 11 y sonaba igual" | StoryTelling | 🟡 copy listo, foto sin elegir (ver nota abajo) |
 | **SEMANA 2** ||||
-| 7 | **#1** — Recursos para tu pentatónica (toca, no habla) | Autoridad | ✅ filmado |
+| 7 | **#1** — Recursos para tu pentatónica (toca, no habla) | Autoridad | ✅ **subido** (9/9, Feli confirma) |
 | 8 | **Carrusel 2** — "Los 4 ingredientes del sabor" | Valor · Carrusel | 🎨 escrito, falta diseño |
-| 9 | **#6** — "Tus solos no respiran" (espacio) | Valor · Reel | ✅ filmado |
+| 9 | **#6** — "Tus solos no respiran" (espacio) | Valor · Reel | ✅ **terminado** (9/9, Feli confirma) |
 | **SEMANA 3** ||||
-| 10 | **POSTEO DE 2 PASOS** (imagen) — el mapa gratis, keyword PENTA | 2 pasos | ✍️ **pieza nueva (sec. 37)** |
+| 10 | **POSTEO DE 2 PASOS** (imagen) — el mapa gratis, keyword PENTA | 2 pasos | ✍️ guion y copy listos, falta el mockup del PDF |
 | 11 | **#8** — "No tengo oído" | Valor · Reel | 🟡 en edición (3 cortes pendientes) |
-| 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | ✍️ **copy nuevo (sec. 36)** |
+| 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | 🟡 copy listo, foto sin elegir |
 | **SEMANA 4** ||||
-| 13 | **TESTIMONIO 1** — alumno 1 a 1 | Testimonio | 🎥 **a grabar (sec. 38)** |
+| 13 | **TESTIMONIO 1** — alumno 1 a 1 (candidatos: Ángel, Verónica o Simón) | Testimonio | 🔴 a agendar y grabar — arrancar ya |
 | 14 | **Carrusel 4** — "Anatomía de un solo que emociona" | Valor · Carrusel | 🎨 escrito, falta diseño |
-| 15 | **TESTIMONIO 2** — alumno 1 a 1 | Testimonio | 🎥 **a grabar (sec. 38)** |
+| 15 | **TESTIMONIO 2** — alumno 1 a 1 (candidatos: Ángel, Verónica o Simón) | Testimonio | 🔴 a agendar y grabar — arrancar ya |
+
+> **Nota sobre las 2 fotos de StoryTelling (9/9):** Feli propone una idea — él tocando la guitarra
+> en algún lugar/situación puntual ("con wafles", sin confirmar todavía qué es exactamente) y contar
+> cómo la música lo llevó a lugares inimaginables y le dio historias y calidad de vida. Encaja bien
+> como ángulo — no es el mismo que los 2 copys ya escritos (StoryTelling 1 es "toco desde los 11...",
+> StoryTelling 2 es "por qué dejé clases sueltas") — podría ser un ángulo nuevo a sumar más adelante,
+> o el criterio para elegir LA FOTO (no el texto) de uno de los dos ya escritos. Sin resolver, hay
+> que aclararlo con Feli antes de asumir cuál es cuál.
 
 **Las 4 decisiones de orden que importan (y por qué):**
 1. **El Fijado va primero y anclado.** Es lo que ve cualquiera que entre. Antes de convencer a nadie de

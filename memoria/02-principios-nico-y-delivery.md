@@ -148,6 +148,30 @@ atacada → framework → CTA keyword) — el molde funciona a todo nivel.
   (las 4 sesiones semanales, devolución personalizada, entregable filmado por pilar) · **Comunidad**
   (WhatsApp) · **Formato** (grupal, máx. 6 alumnos).
 
+> ⚠️ **TENSIÓN SIN RESOLVER (9/9) — Feli se dio cuenta y hay que llevarla a Nico, no inventarle una
+> respuesta.** Este §28-TER dice que las 4 sesiones "superan" al modelo Sergio (§28-BIS, 1-2 vivos +
+> pregrabado). Pero esa nota **nunca registró CÓMO se concilia eso con el problema de escalabilidad**
+> que había hecho elegir el modelo Sergio en primer lugar (4 sesiones × varias camadas en paralelo =
+> mismo techo de horas que dar clases 1 a 1). No hay evidencia de que Nico haya explicado esa parte —
+> puede ser un hueco real en lo que se registró, no necesariamente en lo que Nico dijo.
+>
+> **Interpretación razonada (NO confirmada, no citar como si fuera de Nico):** las 4 sesiones serían
+> el modelo **transitorio**, con la primera camada real — y esas sesiones no se usan tal cual como
+> pregrabado (eso ya estaba descartado en §28-BIS, tiene ruido de la persona real). Se graba aparte,
+> con los cuadernillos como guion. Una vez armado ese pregrabado, se baja al modelo Sergio (1-2 vivos)
+> para las camadas siguientes.
+>
+> **Lo único seguro, que no depende de resolver esto:** grabar el contenido pregrabado usando los
+> cuadernillos como guion **se puede arrancar ya, sin esperar tener un alumno online** — nunca
+> dependió de las 4 sesiones ni de tener grupo. Es la tarea que no hay que frenar mientras se espera
+> la respuesta de Nico.
+>
+> **2 preguntas concretas para la próxima mentoría (llevarlas juntas):**
+> 1. *"¿Las 4 sesiones semanales son el modelo definitivo, o son para producir el pregrabado con la
+>    primera camada y después bajo a 1-2 vivos como el caso Sergio?"*
+> 2. *"El día de Improvisación cae sábado en el borrador — Feli no puede/no quiere dar clase los
+>    sábados. ¿Se puede mover a otro día?"* — restricción real de Feli, no negociable por su parte.
+
 ## 28-QUATER) 5 PILARES, NO 3 NI 4 — NICO HABILITÓ EL QUINTO Y RENOMBRÓ LOS PRIMEROS 3
 
 Misma sesión. Cierra la pregunta abierta que venía dando vueltas ("¿4 pilares o 3?", ver
