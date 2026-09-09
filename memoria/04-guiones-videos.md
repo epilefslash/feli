@@ -801,26 +801,49 @@ cómo improviso". Si contesta suelto, en la edición no se entiende nada y el ma
 Decíselo así, textual: *"contestame como si yo no estuviera, metiendo la pregunta adentro de la
 respuesta"*. Es lo primero que se aclara y hay que repetirlo una vez a mitad de la charla.
 
-### Las 5 preguntas (en este orden, y no son negociables)
+> ⚠️ **Ojo con la palabra "programa" (dato del M3 real de la Hoja de Ruta, verificado contra el
+> material que Nico manda para esta etapa).** Ninguno de los 2 alumnos que vas a entrevistar pasó
+> formalmente por "Solo con Sabor" — son tus alumnos 1 a 1. Si en la entrevista decís "tu experiencia
+> en el programa", estás afirmando algo que no pasó. La instrucción de Nico es reformular a
+> **"trabajar juntos"** — se lo aclarás vos al alumno antes de grabar, para que él tampoco use la
+> palabra "programa" en su respuesta.
+
+### Las 7 preguntas (en este orden, y no son negociables)
+
+> **Ampliado (verificado contra el M3 real):** la guía original tenía 5 preguntas — cubrían el Punto
+> A, las alternativas probadas, el clic, el Punto B y la recomendación. El material real de Nico pide
+> una estructura de 6 bloques (Intro, Estado inicial, Proceso de compra, Transformación,
+> Recomendación, CTA) y detectó 2 huecos reales: faltaba una **intro** (quién es, para que el que
+> mira se ubique) y faltaba el **proceso de decisión** (qué lo hizo animarse a empezar, no solo el
+> problema y el resultado). Se agregan como preguntas 1 y 3, sin tocar el orden ni el contenido de
+> las 5 que ya funcionaban.
 
 | # | Pregunta | Qué está sacando |
 |---|---|---|
-| 1 | "¿Cómo tocabas antes de empezar conmigo? Contame lo que te pasaba cuando improvisabas." | **El Punto A**, en las palabras de él. Es lo que hace que el que mira se vea reflejado. |
-| 2 | "¿Qué habías probado antes que no te terminó de funcionar?" | Elimina las alternativas (YouTube, cursos, otros profes) sin que vos las critiques. |
-| 3 | "¿Hubo algún momento donde te hizo clic algo?" | El giro. Si nombra un concepto tuyo (el mapa, los puentes, el espacio), es oro puro. |
-| 4 | "¿Qué podés hacer hoy con la guitarra que antes no podías?" | **El Punto B**, concreto y demostrable. Ojo: buscá que diga una capacidad, no un elogio. |
-| 5 | "¿A quién le recomendarías esto?" | **Auto-selecciona tu avatar.** Va a describir a alguien igual a él — y el que mira se anota solo. |
+| **1** | **"Contame quién sos: tu nombre, y hace cuánto tocás la guitarra."** | **Nuevo.** La intro — quién habla, para que el que mira se ubique antes de escuchar el resto. |
+| 2 | "¿Cómo tocabas antes de empezar conmigo? Contame lo que te pasaba cuando improvisabas." | **El Punto A**, en las palabras de él. Es lo que hace que el que mira se vea reflejado. |
+| **3** | **"¿Qué te hizo animarte a empezar? ¿Tuviste alguna duda antes de decidirte?"** | **Nuevo.** El proceso de decisión — por qué te eligió a vos, qué miedo tuvo. Es lo que más se parece a la duda que tiene el que está mirando el video ahora mismo. |
+| 4 | "¿Qué habías probado antes que no te terminó de funcionar?" | Elimina las alternativas (YouTube, cursos, otros profes) sin que vos las critiques. |
+| 5 | "¿Hubo algún momento donde te hizo clic algo?" | El giro. Si nombra un concepto tuyo (el mapa, los puentes, el espacio), es oro puro. |
+| 6 | "¿Qué podés hacer hoy con la guitarra que antes no podías?" | **El Punto B**, concreto y demostrable. Ojo: buscá que diga una capacidad, no un elogio. |
+| 7 | "¿A quién le recomendarías esto?" | **Auto-selecciona tu avatar.** Va a describir a alguien igual a él — y el que mira se anota solo. |
 
-**Y al final, la toma que vale más que las 5 respuestas:**
+**Y al final, la toma que vale más que todas las respuestas:**
 > "Bueno, tocame algo. Lo que quieras, improvisá 20 segundos."
 
 ### Cómo se edita (60 seg)
+
+> El corte corto sigue enfocado en las mismas 4 respuestas de siempre — las 3 preguntas nuevas
+> (intro, proceso de decisión, recomendación) no entran acá por tiempo, pero quedan grabadas como
+> material extra para el testimonio completo de 5-15 min si en algún momento lo necesitás entero
+> (o para un segundo corte más largo).
+
 | Tramo | Qué va |
 |---|---|
-| 0:00–0:08 | Arranca con **la frase más cruda de la respuesta 1** (el dolor). Sin intro, sin presentación. |
-| 0:08–0:20 | Respuesta 2 (lo que probó y no funcionó) |
-| 0:20–0:35 | Respuesta 3 (el clic) — acá va el concepto tuyo si lo nombró |
-| 0:35–0:45 | Respuesta 4 (lo que puede hacer hoy) |
+| 0:00–0:08 | Arranca con **la frase más cruda de la respuesta 2** (el dolor, el Punto A). Sin intro, sin presentación. |
+| 0:08–0:20 | Respuesta 4 (lo que probó y no funcionó) |
+| 0:20–0:35 | Respuesta 5 (el clic) — acá va el concepto tuyo si lo nombró |
+| 0:35–0:45 | Respuesta 6 (lo que puede hacer hoy) |
 | 0:45–1:00 | **Él tocando.** Sin voz encima. Esto es el cierre y la prueba. |
 
 - **Subtítulos obligatorios** y nombre en placa chica (nombre de pila + hace cuánto toca).
@@ -842,5 +865,17 @@ respuesta"*. Es lo primero que se aclara y hay que repetirlo una vez a mitad de 
 > (Y gracias [Nombre] por prestarte a esto 🙏)
 
 **Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
+
+### Testimonio parcial (formato nuevo, para cuando arranque la primera camada)
+
+> No es para los 2 testimonios de los primeros 15 posteos (esos son la entrevista completa de
+> arriba) — es para más adelante, cuando un alumno de "Solo con Sabor" complete un pilar (por
+> ejemplo, termine El Mapa y grabe su video de las 5 cajas). Ahí sí corresponde decir "programa" —
+> es un alumno real del programa grupal.
+
+Video corto de 1 a 3 minutos, buena iluminación, guion de 3 pasos:
+1. **Presentación:** nombre, país, *"vengo trabajando con Feli en su programa Solo con Sabor"*.
+2. **Compartir 1 a 3 logros** concretos de ese pilar (no un elogio genérico — una capacidad).
+3. **Qué le diría a alguien con dudas de empezar.**
 
 ---

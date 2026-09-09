@@ -94,15 +94,28 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 - Nombre de usuario simple: sin guiones bajos, sin números, fácil de recordar y escribir
   (`felibayamenor` ya cumple — confirmar que sea el @ exacto y sin variantes)
 
-**3 destacadas (highlights) — ampliado a 4, con la lista oficial de InstaMúsico:**
+**3 destacadas (highlights) — ampliado a 5, con la lista oficial de InstaMúsico + el M3 real:**
 
-> La lista oficial de Nico es: Testimonios · Prensa · Formación · Quién sos · Tu servicio/programa
-> (máximo 5, si son más la gente tiene que scrollear). Contra nuestras 3 anteriores (MÉTODO · ALUMNOS ·
-> YO TOCO), sumamos **FORMACIÓN** — es donde vive el dato de la facultad de Rosario, que hoy solo
-> aparece en el guion de la Historia (memoria/04 §25) y no tiene un lugar permanente en el perfil.
-> "Prensa" queda afuera por ahora — no hay cobertura de prensa todavía, se agrega cuando exista.
+> La lista genérica de Nico (InstaMúsico) es: Testimonios · Prensa · Formación · Quién sos · Tu
+> servicio/programa (máximo 5, si son más la gente tiene que scrollear). Contra nuestras 3
+> anteriores (MÉTODO · ALUMNOS · YO TOCO), sumamos **FORMACIÓN** — es donde vive el dato de la
+> facultad de Rosario, que hoy solo aparece en el guion de la Historia (memoria/04 §25) y no tiene
+> un lugar permanente en el perfil. "Prensa" queda afuera por ahora — no hay cobertura de prensa
+> todavía, se agrega cuando exista.
+>
+> **Actualizado — el M3 real de la Hoja de Ruta (verificado, no InstaMúsico genérico) especifica
+> solo 3 categorías de destacadas, con nombre propio: Método, Alumnos y Testimonios.** Dos de las
+> tres ya las teníamos (Método, Alumnos). **Faltaba Testimonios como destacada separada** — hoy los
+> testimonios vivían mezclados dentro de la idea de "Alumnos". Se agrega como quinta destacada. No
+> hay contradicción real con la lista de InstaMúsico (Formación y Yo Toco no están prohibidas, solo
+> no aparecen en la lista mínima del M3) — sumamos, no sacamos, y seguimos dentro del máximo de 5.
 
-**MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO.**
+**MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO · TESTIMONIOS.**
+
+**Destacada TESTIMONIOS (nueva, regla del M3: "más = mejor", siempre sumar):** cada testimonio
+completo que grabes (memoria/04 §38) o testimonio parcial (cuando un alumno de la camada complete
+un pilar) va acá, sin límite — reduce el riesgo percibido de comprar. Arranca vacía hasta que
+existan los primeros 2 testimonios; no bloquea el lanzamiento del perfil.
 
 **Destacada MÉTODO (serie de 7 historias, inspirada en Andy Kligman):**
 1. PROMESA — "Te enseño a improvisar solos de rock como Page, Slash y Hendrix dominando la penta menor."
@@ -502,7 +515,108 @@ los próximos 3 meses. Si es tu caso, dejá esto abajo 👇"*. **Usar con modera
 dice explícito: abusar de este tipo de posteo baja el nivel de interacción general.
 
 ### Lo que se aplicó ya (sección 11, arriba)
-Bio con línea de validación agregada · checklist de foto de perfil · destacada FORMACIÓN sumada a las
-3 que había (ahora son 4: MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO).
+Bio con línea de validación agregada · checklist de foto de perfil · destacadas FORMACIÓN y
+TESTIMONIOS sumadas a las 3 que había (ahora son 5: MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO ·
+TESTIMONIOS).
+
+---
+
+## 36) EL MÓDULO 3 REAL (Estrategia de Contenido, Método Flow Music) — cruzado contra lo que ya está armado (9/9)
+
+> Feli pasó el resumen completo del M3 de la Hoja de Ruta (capturas reales de Nico, procesadas por
+> otra sesión — no InstaMúsico genérico, es el material específico de esta etapa). **Se le hace caso
+> tal cual, es la biblia** — el trabajo acá es cruzarlo contra lo que ya está armado, no evaluarlo.
+> **Veredicto general: la estructura que ya teníamos (memoria/05 §34, los 15 posteos) coincide
+> exacto con lo que pide el M3 real** — 7 de Valor (3 carruseles + 4 reels) + 1 Epifanía + 2
+> StoryTelling + 2 de Autoridad + 1 de 2 pasos + 2 Testimonios = 15, verificado ítem por ítem contra
+> la tabla real de §34. No hay que rehacer la estructura. Los hallazgos reales están abajo.
+
+### Lo que ya estaba resuelto, confirmado sin cambios
+- **Filosofía de fondo** (contenido gratuito = problema y por qué, no el cómo paso a paso) — ya
+  aplicada, es la misma regla 97/3 de `memoria/02` §17.
+- **15 publicaciones antes de mandar tráfico** — ya lo teníamos (memoria/05 §35 punto 5), el M3 lo
+  confirma con el mismo criterio ("lo que entra en un pantallazo desde el celular").
+- **Cómo generar demanda sin regalar la solución** — mismo principio que memoria/02 §17.
+- **Dos objetivos del contenido (fortalecer la relación + generar demanda)** — coincide con el
+  embudo ya armado (memoria/05 §11).
+
+### Caso nuevo que vale la pena anotar: Zakk Jones
+Guitarrista de jazz, 7.000 seguidores, lanzó un workshop de 11 días y facturó +USD 2.000 vendiendo
+60+ tickets a USD 37. **No hace falta audiencia gigante — hace falta la gente correcta prestando
+atención.** Conecta directo con la **Oferta de Autoliquidación** ya documentada en `memoria/08`
+§30 — es la misma lógica (producto barato, decisión rápida) con un número real de referencia.
+
+### Hallazgo real #1 — la guía de testimonios tenía 2 huecos, ya corregidos
+La estructura completa que pide el M3 es de 6 bloques: Intro, Estado inicial, Proceso de compra,
+Transformación, Recomendación, CTA. La guía que ya teníamos (`memoria/04` §38, "las 5 preguntas")
+cubría 4 de los 6 — faltaba la **intro** (quién es) y el **proceso de decisión** (qué lo hizo
+animarse, qué duda tuvo). Se agregaron como preguntas 1 y 3, sin tocar el resto — ahora son 7
+preguntas. Corregido directamente en `memoria/04` §38.
+
+**Y una instrucción operativa nueva, también aplicada ahí:** si el alumno entrevistado no pasó
+formalmente por el programa grupal (que es el caso de los dos que vas a grabar — son tus alumnos 1
+a 1), no se dice "tu experiencia en el programa" — se reformula a **"trabajar juntos"**. Se lo
+avisás al alumno antes de grabar.
+
+**Formato nuevo que suma el M3, para más adelante:** el **testimonio parcial** (1-3 min, cuando un
+alumno de la camada real complete un pilar) — ahí sí corresponde decir "programa", porque es
+verdad. Guion de 3 pasos, documentado en `memoria/04` §38.
+
+### Hallazgo real #2 — faltaba la destacada TESTIMONIOS
+Ya corregido arriba, sección 11: el M3 especifica 3 categorías de destacadas por nombre (Método,
+Alumnos, Testimonios) — teníamos 2 de las 3 separadas, ahora son las 5.
+
+### Lo que sigue pendiente, sin resolver todavía (no bloquea nada)
+- **Portadas de reels** — el M3 confirma que importan ("efecto marca multidimensional": que se
+  distinga de un vistazo qué tipo de posteo es). Sigue siendo el pendiente real que ya estaba
+  anotado en `memoria/00` — nunca se trabajó.
+- **Distribución de contenido 60/40** — el M3 la menciona ("para cuidar el efecto marca
+  multidimensional") pero el resumen que llegó no trae el detalle de qué es el 60 y qué es el 40.
+  Si hace falta el número exacto, hay que volver a mirar el material original (probablemente en el
+  documento "Formatos de Contenido", 6 páginas, que la sesión que procesó las capturas marcó como
+  "no releída página por página").
+- **Frecuencia de publicación, actualizada:** el M3 da un rango más preciso que el que teníamos
+  (memoria/05 §9 decía "2-3 reels/semana" en general) — ahora es **mínimo 2 posteos formales + 3
+  días de historias por semana, ideal 5 formales + 7 de historias**. Ejemplo del propio material:
+  posteos formales martes y jueves, historias lunes/miércoles/viernes. Aplica después de los
+  primeros 15, no para el Día 0.
+
+### Bancos nuevos, para cuando se agote el stock de los 15 (continuidad y reciclado)
+No hace falta usarlos ahora — quedan anotados para cuando haga falta variar el contenido después
+del lanzamiento:
+
+- **19 categorías de disparadores de ideas** (con preguntas + guiones "completar el blanco" cada
+  una): frases propias, estilo de vida personal, procesos de alumnos, sesiones/clases, testimonios,
+  memes, entrevistas, hitos/números, backstage de producción, citas/recomendaciones,
+  procedimientos/método paso a paso, mitos/creencias limitantes, antes y después, prensa,
+  reflexiones, encuestas, preguntas y respuestas, historias personales, cómo llevás el negocio.
+- **38 fórmulas de gancho, reciclables** — la idea de fondo: la misma objeción de fondo ("falta de
+  tiempo para practicar", por ejemplo) se puede envolver en decenas de ganchos distintos sin que se
+  note la repetición, porque entran seguidores nuevos todo el tiempo. Conecta directo con la regla
+  del hook que ya teníamos anotada (memoria/05 §35 punto 4: "el hook se piensa aparte, no se
+  improvisa al filmar") — esto le da el banco concreto para hacerlo. **No tengo la lista completa
+  de las 38** — la sesión que procesó las capturas solo pasó ejemplos sueltos (4-5 fórmulas). Si
+  hace falta la lista entera, pedírsela de nuevo a esa sesión o volver a mirar el documento fuente.
+
+### Herramienta de producción nueva: el flujo de 3 pasos para carruseles/epifanía/reels
+1. **Generar insights con ChatGPT:** pegarle el diagrama de pilares y micropasos del programa
+   (tenemos `Pilares-y-Micropasos-Solo-con-Sabor.pdf` listo para esto) y pedir insights prácticos y
+   contraintuitivos, separados en Aplicables/Tangibles (→ reels) y Abstractos/Conceptuales (→
+   carruseles y epifanía).
+2. **Sumar visión personal** (para que no suene fabricado): anécdota, experiencia de un alumno,
+   metáfora, u opinión profesional propia.
+3. **Guionar según el formato** — cada formato (carrusel, epifanía, reel didáctico, autoridad, 2
+   pasos, storytelling) tiene su propia estructura de placas/bloques, documentada en el material
+   original. Útil sobre todo para terminar de diseñar los 3 carruseles que ya están escritos
+   (memoria/05 §22) pero sin diagramar, y para producir contenido de continuidad más adelante.
+
+### Herramienta de producción nueva: Tabla de Frustraciones/Deseos/Miedos/Creencias
+Prompt de ChatGPT con un ejemplo aplicado completo (pianistas de jazz intermedios) como plantilla
+de calidad esperada. **Buena parte de esto ya lo tenemos resuelto con datos reales**, no
+hipotéticos: `MODULO-1-RESPONDIDO.md` ya tiene el Top 5 de problemas y el Top 5 de deseos, sacados
+de 4 avatares reales encuestados. Si en algún momento se quiere completar específicamente la
+columna de **miedos** y **creencias limitantes** en el mismo formato de tabla, correr el prompt
+usando esos datos reales en vez de inventar — sería lo próximo a hacer con esta herramienta, no
+está hecho todavía.
 
 ---
