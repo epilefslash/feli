@@ -790,7 +790,9 @@ diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. 
 > **Arrancalo primero, aunque se publique último.**
 
 ### Formato de producción
-- Videollamada grabada (Zoom/Meet) o presencial con el celular. 10-15 min de charla → editás a 40-60 seg.
+- Videollamada grabada (**Zoom** — graba gratis y sin el límite de 40 min en llamadas 1 a 1; **Meet
+  solo graba si tenés cuenta de Google Workspace paga**, no con un Gmail personal gratuito) o
+  presencial con el celular. 10-15 min de charla → editás a 40-60 seg.
 - **Pedile que tenga la guitarra al lado.** El testimonio cierra con él tocando 15-20 seg. Eso es la
   prueba: no lo que dice, lo que suena.
 - Avisale de qué se trata **antes**, sin mandarle las preguntas. Si las prepara, contesta en publicidad.
