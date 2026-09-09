@@ -218,6 +218,12 @@ llenar un pilar — es un deseo real, medido.
 ya descripta en la simulación de `memoria/07` §18 (los alumnos tocando "encadenados como una
 banda"). Con esto alcanza — no hace falta contenido nuevo para cerrar el Pilar 5.
 
+> ✅ **HECHO (9/9): `Guia-El-Vuelo-Pilar5.pdf`** (`scripts/build_el_vuelo.py`, 2 páginas). No es un
+> cuadernillo de ejercicios — es la síntesis: qué va a pasar y qué va a lograr el alumno, el
+> checklist de autoevaluación, la consigna de la sesión en vivo de tocar con otro, y el brief del
+> examen final (reusa el gate del ej. 53 del Hito 3, sin partitura nueva). Lista para pasar por
+> Design, misma familia visual que los otros 4 documentos.
+
 **Hueco declarado, fuera de este programa (no confundir con el Pilar 5):** el targeting de
 acordes — qué nota de la pentatónica pega más fuerte contra cada acorde de la progresión — sigue
 sin enseñarse en ningún lado. Es candidato real para una segunda camada o un Módulo 2, no para
