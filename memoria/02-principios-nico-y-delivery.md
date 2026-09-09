@@ -124,3 +124,51 @@ atacada → framework → CTA keyword) — el molde funciona a todo nivel.
 > El pregrabado es para cuando ya haya gente en camino a comprar, no antes.
 
 ---
+
+## 28-TER) NICO PIDIÓ VOLVER A 4 SESIONES SEMANALES — SUPERA AL §28-BIS
+
+> **Viene directo de la sesión de Nico sobre el programa de valor — se aplica tal cual, es la biblia
+> del proyecto.** El §28-BIS (modelo Sergio Assat, 1-2 vivos + pregrabado) queda documentado como
+> historia de por qué se llegó a esa decisión, pero **ya no es el delivery vigente.** Nico pidió
+> volver al esquema de **4 encuentros en vivo por semana**, uno por tema, retomando el borrador
+> original que vivía en `memoria/01` §3 y `memoria/06` §16/§20:
+
+| Día | Sesión | Qué pasa |
+|---|---|---|
+| Lunes | Teoría / Q&A | Presenta el concepto de la semana, resuelve dudas |
+| Martes | Técnica | Practican el ejercicio, corrección en vivo |
+| Jueves | Repertorio | Analizan juntos el solo de referencia de esa semana |
+| Sábado | Improvisación | Cada uno toca, devolución personalizada |
+
+**Otras 2 correcciones de la misma sesión:**
+- **"Cohorte" queda afuera del vocabulario del programa — se dice "grupal".** Corregir en cualquier
+  documento nuevo; los viejos no hace falta reescribirlos retroactivamente salvo que se reimpriman.
+- **El vehículo se organiza por zona de trabajo**, no como lista plana: **Zona virtual** (pregrabado,
+  cuadernillos, backings, solos de referencia, grabaciones de los vivos) · **Encuentros en vivo**
+  (las 4 sesiones semanales, devolución personalizada, entregable filmado por pilar) · **Comunidad**
+  (WhatsApp) · **Formato** (grupal, máx. 6 alumnos).
+
+## 28-QUATER) 5 PILARES, NO 3 NI 4 — NICO HABILITÓ EL QUINTO Y RENOMBRÓ LOS PRIMEROS 3
+
+Misma sesión. Cierra la pregunta abierta que venía dando vueltas ("¿4 pilares o 3?", ver
+`Pilares-y-Micropasos-Solo-con-Sabor.pdf`): **son 5.** El ritmo deja de ser transversal y pasa a ser
+un pilar propio, y se habilita un pilar de cierre que integra todo en improvisación real.
+
+| # | Nombre (de Nico) | Qué logra el alumno |
+|---|---|---|
+| 1 | EL MAPA — *Visualizando el mástil* | Deja de ver 5 cajas sueltas, ve un solo mapa |
+| 2 | EL SABOR — *Que suene a música* | Bending, vibrato, espacio: pasa de ejecutar a sonar |
+| 3 | EL VOCABULARIO — *Adueñándote de los licks* | Roba, transforma y hace propio lo de los grandes |
+| 4 | EL PULSO — *Sintiendo el tiempo* (propuesto, sin confirmar) | El ritmo, dónde cae cada nota respecto del pulso |
+| 5 | *(sin nombre cerrado — propuesto "EL VUELO", "Soltándote en vivo")* | Todo lo anterior aplicado junto, improvisando de verdad |
+
+**Los nombres del 1 al 3 son textuales de Nico.** El 4 y el 5 los dejó "a inventar" — quedan como
+propuesta, no cerrados. Antes de imprimir cualquier material final, confirmar esos dos nombres con
+Feli.
+
+**Pendiente real que esto abre:** los 4 cuadernillos existentes (El Mapa, El Sabor, El Vocabulario +
+el Anexo de Ritmo) ya cubren el contenido de los pilares 1 a 4 — lo que falta es el **Pilar 5**, que
+no tiene material propio todavía. Es contenido nuevo a diseñar (probablemente la sesión de
+Improvisación de las 4 semanales, más un entregable de cierre), no solo una etiqueta.
+
+---

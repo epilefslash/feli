@@ -23,12 +23,32 @@
 > (a Feli no lo convence del todo; no bloquea nada, se decide más adelante).
 > **Prioridad declarada por Feli:** 1º tener 15 videos + algunos carruseles, 2º entender la estructura de las
 > clases (ver secciones 16 y 20). "Cohorte" = camada: el grupo de 4-6 que arranca y termina junto.
+> ⚠️ Nico pidió (sesión de programa de valor, ver `memoria/02` §28-TER) que en el vocabulario **de
+> cara al programa/al alumno** no se diga "cohorte", se diga "grupal". Entre nosotros seguimos
+> usando "camada" para hablar de qué grupo es cuál.
 > **Decisión aún abierta:** fecha de arranque de la 1ª camada.
 > **Estado emocional de Feli (importante para el asistente):** entusiasta pero ansioso. Tiende a sentir que
 > tiene que tener TODO armado antes de vender. Rol del asistente: separar DECISIONES (ya tomadas) de
 > ENTREGABLES (se construyen sobre la marcha), y no dejar que la ansiedad frene la producción de contenido.
 
 ---
+
+> 🔴 **LO MÁS RECIENTE (sesión del programa de valor con Nico) — cambia la arquitectura del delivery,
+> leer antes que nada más.** Detalle completo en `memoria/02` §28-TER y §28-QUATER. Resumen:
+> 1. **Vuelve el modelo de 4 encuentros en vivo por semana** (Lunes Teoría, Martes Técnica, Jueves
+>    Repertorio, Sábado Improvisación) — **supera** al modelo "1-2 vivos + pregrabado" (Sergio Assat,
+>    `memoria/02` §28-BIS), que queda como historia, no como delivery vigente.
+> 2. **Son 5 pilares, no 3 ni 4** — el ritmo pasa de transversal a pilar propio (4), y se habilita un
+>    pilar de cierre (5) que integra todo en improvisación real. Nombres 1-3 son textuales de Nico
+>    ("Visualizando el mástil", "Que suene a música", "Adueñándote de los licks"); 4 y 5 quedaron a
+>    inventar — propuestos ("Sintiendo el tiempo" / "El Vuelo"), sin confirmar todavía.
+> 3. **"Cohorte" queda afuera del vocabulario del programa** — se dice "grupal".
+> 4. **El vehículo se organiza por zona** (Virtual / Encuentros en vivo / Comunidad / Formato), no
+>    como lista plana.
+> 5. Feli avanza ahora al **Módulo 3 de la Hoja de Ruta** (Perfil Magnético, ver `memoria/00` §0-BIS).
+>
+> **Pendiente real que esto abre:** el Pilar 5 no tiene material propio todavía (los 4 cuadernillos
+> existentes cubren los pilares 1 a 4) — es contenido nuevo a diseñar, no solo una etiqueta.
 
 ## 0) ESTADO ACTUAL DEL PROYECTO
 
