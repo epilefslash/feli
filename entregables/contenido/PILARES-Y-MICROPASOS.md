@@ -95,16 +95,26 @@ Grupal online, cohortes de 4 a 6, 12 semanas.
 | Contenido pregrabado del método completo, ejercicio por ejercicio | Guionado en los cuadernillos, falta grabar |
 | 1-2 encuentros en vivo por semana: dudas, corrección, repertorio, improvisación | Estructura definida |
 | Grupo de WhatsApp con seguimiento entre sesiones | Definido |
-| **4 cuadernillos de ejercicios** con partitura real y tablatura — 61 páginas, 59 ejercicios | **Terminados y auditados** |
-| **Anexo de ritmo** — 13 páginas, ejercicios A a J | **Terminado** |
 | Carpeta de backing tracks propios, uno por semana | Hecha |
 | Banco fijo de 4 solos de referencia, uno por pilar | Elegido |
 | Grabaciones de todos los encuentros, se las queda el alumno | Por definir plataforma |
 | Un entregable filmado por pilar: la prueba de avance | Definido |
 
-**El contenido pedagógico tiene una primera versión terminada y auditada.** Falta producción
-(grabar el pregrabado) y distribución (plataforma) — y sigue abierto a que el equipo aporte o
-ajuste el diseño del programa, esto no es la versión final.
+**Los materiales escritos son 5 documentos — no 4.** Cada hito tiene su cuadernillo de ejercicios,
+y los Hitos 2 y 3 tienen además su propio módulo de ritmo aparte (no comparten uno solo):
+
+| Documento | Va con | Páginas | Dónde vive |
+|---|---|---|---|
+| Cuadernillo Hito 1 — El Mapa | Mes 1 | 12 | Repo, auditado |
+| Cuadernillo Hito 2 — El Sabor | Mes 2 | 16 | Repo, auditado |
+| Módulo de ritmo — Pozzoli | Mes 2, en paralelo | 19 | Solo en la compu de Feli |
+| Cuadernillo Hito 3 — El Vocabulario | Mes 3 | 29 | Repo, auditado |
+| Anexo de ritmo A a J | Mes 3, en paralelo | 13 | Repo, auditado |
+
+**El contenido pedagógico tiene una primera versión terminada y auditada** (4 de los 5 documentos
+están en el repo; el de Pozzoli falta subirlo). Falta producción (grabar el pregrabado) y
+distribución (plataforma) — y sigue abierto a que el equipo aporte o ajuste el diseño del
+programa, esto no es la versión final.
 
 ---
 

@@ -34,8 +34,15 @@ mes, va montado sobre los licks que ya tenés.
 
 Grupal online · cohortes de 4-6 · 12 semanas · 1-2 vivos/semana + pregrabado + grupo de WhatsApp.
 
-**Ya terminado:** 4 cuadernillos (61 páginas, 59 ejercicios) + anexo de ritmo, auditados. Backings
-propios. 4 solos de referencia elegidos.
+**Ya terminado — 5 documentos en total:**
+- Cuadernillo Hito 1, El Mapa (12 pág.)
+- Cuadernillo Hito 2, El Sabor (16 pág.) + su módulo de ritmo, Pozzoli (19 pág.)
+- Cuadernillo Hito 3, El Vocabulario (29 pág.) + su anexo de ritmo, A a J (13 pág.)
+
+Más: backings propios y 4 solos de referencia elegidos.
+
+**Ojo:** el módulo de ritmo del Hito 2 (Pozzoli) vive solo en tu compu, no está en el repo — los
+otros 4 documentos sí están auditados en el repo.
 
 **Falta:** grabar el pregrabado, elegir plataforma.
 

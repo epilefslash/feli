@@ -1084,3 +1084,37 @@ se sacó la técnica que no correspondía todavía.
 > Para saber si una técnica se usa de verdad hay que mirar adentro del bloque `musica={...}`, no
 > el archivo entero — el mismo error que ya se documentó antes con la validación de escala y el
 > contador de compases (sección 34): un validador que no mira lo que dice mirar.
+
+## 36) SON 5 DOCUMENTOS DE EJERCICIOS, NO 4 — Y EL DE POZZOLI NUNCA SE SUBIÓ AL REPO
+
+Feli corrigió `Pilares-y-Micropasos-Solo-con-Sabor.pdf` (documento para Nico): decía "4 cuadernillos
++ un anexo de ritmo" como si el anexo fuera un extra único, cuando en realidad **Hito 2 e Hito 3
+tienen cada uno su propio módulo de ritmo, separados** (la decisión ya estaba documentada en la
+sección 31 de esta misma memoria — quedó bien anotada ahí, pero mal resumida en el documento para
+Nico). Verificado con `pdfinfo` sobre los archivos reales del repo, no de memoria:
+
+| Documento | Va con | Páginas (verificadas) | Dónde vive |
+|---|---|---|---|
+| Cuadernillo Hito 1 — El Mapa | Mes 1 | 12 | Repo, auditado |
+| Cuadernillo Hito 2 — El Sabor | Mes 2 | 16 | Repo, auditado |
+| Módulo de ritmo — Pozzoli | Mes 2, en paralelo | 19 (según sección 31) | **Solo en la compu de Feli — nunca se subió al repo** |
+| Cuadernillo Hito 3 — El Vocabulario | Mes 3 | **29** | Repo, auditado |
+| Anexo de ritmo A a J | Mes 3, en paralelo | 13 | Repo, auditado |
+
+**Dato nuevo que salió de esta verificación:** el Hito 3 mide hoy **29 páginas**, no las 25 que
+venían repitiéndose en `memoria/00`, `memoria/06` y `memoria/10` desde la decimoquinta ronda de la
+sección 33. El salto de 25 a 29 es consistente con la decimosexta ronda (bonus obsoleto, su
+contenido de cierre — ej. 54-58 + las 3 puertas de "explorá" — se reescribió DENTRO del propio
+Hito 3 en vez de vivir aparte) — no se investigó más a fondo porque no era lo que Feli preguntó,
+pero si una sesión futura cita el número de páginas del Hito 3, usar 29 y correr `pdfinfo` de
+nuevo antes de repetirlo, no asumir que sigue igual.
+
+**Corregido en 3 lugares** (los 3 repetían el mismo "4 cuadernillos"): la tabla del vehículo en
+`entregables/contenido/PILARES-Y-MICROPASOS.md`, la caja de estado en `scripts/build_pilares.py`,
+y el resumen de una hoja en `entregables/contenido/PILARES-VERSION-SENCILLA.md` (documento nuevo,
+pensado para tener a mano en la llamada con Nico — no reemplaza al completo, solo lo resume).
+
+**Pendiente real que salió de acá, no solo de redacción:** el módulo de Pozzoli existe y está
+citado en varios documentos como parte del programa, pero **no está en el repo** — si se pierde el
+archivo en la compu de Feli, se pierde sin backup. Candidato a subir al repo en una sesión futura,
+si Feli lo pide.
