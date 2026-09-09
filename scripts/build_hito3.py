@@ -717,10 +717,12 @@ S.append(Paragraph(
     "(el <b>cuándo</b> del ritmo lo cubrimos aparte, en paralelo — si todavía no hiciste esos anexos, "
     "no es un hueco tuyo, es la próxima pieza que te falta):", BODY))
 S.append(tabla([
-    [Paragraph("<b>LOS CAMBIOS DE ACORDE</b>", CELLB),
-     Paragraph("Los tres hitos improvisan sobre un vamp fijo en La menor. Eso es a propósito: aísla la "
-               "variable para que puedas concentrarte en el mástil y en el sabor. Pero un blues de 12 "
-               "compases se mueve, y ahí hay que saber qué hacer cuando el acorde cambia debajo tuyo.", CELL)],
+    [Paragraph("<b>REACCIONAR AL CAMBIO DE ACORDE</b>", CELLB),
+     Paragraph("Los backing de las 12 semanas SÍ cambian de acorde (un vamp menor tipo i-VI-VII) — nunca "
+               "tocaste sobre un solo acorde quieto. Lo que no te enseñamos todavía es a reaccionar "
+               "A PROPÓSITO cuando el acorde cambia debajo tuyo: qué nota de la pentatónica pega más "
+               "fuerte contra cada acorde de la progresión. Hasta ahora tocaste de oído, y te sirvió. "
+               "El escalón siguiente es hacerlo con intención.", CELL)],
 ], [4.2 * cm, W - 4.2 * cm]))
 S.append(Paragraph(
     "Nada de esto invalida lo que hiciste: es el escalón siguiente, no un agujero. Si al tocar con gente "

@@ -205,17 +205,21 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > *Script de auditoría: decodifica pitch+cuerda de LilyPond a traste y reporta % fuera de la ventana 5-8.
 > Vale la pena volver a correrlo si se toca cualquier partitura.*
 
-> ⚠️ **HUECOS CONOCIDOS — MÓDULO 2 (futuro, no parchear ahora).** El programa entrena melodía, expresión y
-> arquitectura, pero deja dos cosas afuera a propósito, y el alumno las va a chocar cuando toque con gente:
-> - **RITMO.** Casi no aparece (solo el "a contratiempo" del ej. 44). Falta subdivisión, shuffle vs recto,
->   y dónde cae la nota respecto del pulso. Para blues-rock es central: buena parte de lo que hace que un
->   lick suene a Page es *cuándo* entra, no qué notas tiene.
-> - **CAMBIOS DE ACORDE.** Los 3 hitos improvisan sobre un vamp estático en La menor. El alumno nunca ve
->   qué pasa cuando el acorde se mueve (un blues de 12 compases, por ejemplo).
->
-> Ninguno de los dos se tapa con un parche dentro de las 12 semanas: son el contenido natural de un
-> **Módulo 2** (o de la segunda cohorte). Saberlo sirve para dos cosas: no prometer de más en el copy, y
-> tener ya pensado qué venderle al alumno que termina.
+> ⚠️ **HUECOS — actualizado (sesión de programa de valor con Nico, ver `memoria/02` §28-QUATER).**
+> Este bloque decía dos huecos "para un Módulo 2 futuro". Los dos quedaron desactualizados y se
+> corrigen acá:
+> - **RITMO ya no es un hueco.** Se cerró con el Anexo de Ritmo A-J (`memoria/10` §32) y el módulo
+>   de Pozzoli — ambos van en paralelo a los hitos correspondientes.
+> - **"CAMBIOS DE ACORDE" era un error de redacción, no un hueco real.** ⚠️ Corregido (Feli, 9/9):
+>   **nunca hubo un vamp estático.** Los backing tracks de las 12 semanas SÍ cambian de acorde
+>   —cada semana tiene el suyo, un vamp menor tipo i-VI-VII, con BPM propio— y el alumno improvisa
+>   sobre eso desde la semana 1. El texto viejo (acá y en `build_hito3.py`) afirmaba lo contrario;
+>   ya está corregido en la fuente. El hueco real, más chico y más preciso: **el alumno nunca
+>   recibió instrucción consciente de qué nota de la pentatónica pega más fuerte contra cada
+>   acorde de la progresión** — improvisa de oído, y le sirve, pero nunca se le enseñó el mecanismo
+>   a propósito (targeting notes). Eso, más la dinámica de tocar con otros músicos en vivo (deseo
+>   real confirmado por 2 de 4 alumnos encuestados, ver `MODULO-1-RESPONDIDO.md`), es el contenido
+>   candidato para el **Pilar 5** nuevo (`memoria/02` §28-QUATER) — ver esa sección para el diseño.
 
 ### Prácticas de enseñanza online que suma el material nuevo de Nico (testimonios Rafa/Federico/Muratore)
 - **Backing tracks siempre a mano** (Jamzone o similares): el alumno aplica en contexto musical real, no en el vacío. Armate una carpeta con 1 backing por semana ANTES de arrancar (12 backings = 1 tarde de trabajo).

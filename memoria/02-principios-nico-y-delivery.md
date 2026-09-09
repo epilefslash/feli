@@ -168,7 +168,50 @@ Feli.
 
 **Pendiente real que esto abre:** los 4 cuadernillos existentes (El Mapa, El Sabor, El Vocabulario +
 el Anexo de Ritmo) ya cubren el contenido de los pilares 1 a 4 — lo que falta es el **Pilar 5**, que
-no tiene material propio todavía. Es contenido nuevo a diseñar (probablemente la sesión de
-Improvisación de las 4 semanales, más un entregable de cierre), no solo una etiqueta.
+no tiene material propio todavía. Es contenido nuevo a diseñar, no solo una etiqueta.
+
+## 28-QUINQUIES) DISEÑO DEL PILAR 5 — corregido después de verificar con Feli (9/9)
+
+> **Primer borrador de esta sección tenía un error real, corregido acá mismo.** Se armó pensando
+> que los 3 hitos improvisaban sobre "un vamp fijo en La menor" — dato que salía de una frase del
+> propio `build_hito3.py`. Feli lo corrigió: **nunca hubo eso.** Los backing tracks de las 12
+> semanas siempre tuvieron 3 a 5 acordes, uno distinto por semana, con su propio BPM. El texto
+> viejo (en `build_hito3.py` y en `memoria/06`) ya está corregido en la fuente.
+
+**El hueco real, una vez corregido el dato:** no es "el alumno nunca improvisó sobre acordes que
+cambian" (lo hace desde la semana 1). Es que **nunca recibió instrucción consciente de qué nota de
+la pentatónica pega más fuerte contra cada acorde de la progresión** — improvisa de oído, y le
+sirve, pero nunca se le enseñó el mecanismo a propósito (targeting notes). Es un hueco más chico y
+más preciso que el que se pensaba, y no se pisa con el ej. 43 del Hito 3 (color de cada grado): ese
+ejercicio es sobre elegir UNA nota de color según el tipo de vamp general, una sola vez — el Pilar 5
+es sobre reaccionar EN TIEMPO REAL, mientras el acorde cambia debajo, dentro de una progresión.
+
+**PILAR 5 — EL VUELO: "Soltándote en vivo"** *(nombre propuesto, sin confirmar con Nico)*
+
+| Micro-paso | Qué domina el alumno |
+|---|---|
+| 5.1 | Reconoce de oído en qué acorde de la progresión está parado en cada momento |
+| 5.2 | Sabe qué nota de la pentatónica —la misma escala de siempre, con intención— pega más fuerte contra cada acorde de una progresión menor (i-VI-VII) |
+| 5.3 | Aplica la arquitectura de 4 frases (ya aprendida en el Hito 3) reaccionando al cambio de acorde en tiempo real, no ignorándolo |
+| 5.4 | Entra y sale de una improvisación grupal en vivo: cede protagonismo, lo retoma — la dinámica real de tocar con otros |
+
+**Entregable:** el mismo solo final de 1 minuto de siempre, sobre el backing real que ya usa el
+programa — con un criterio nuevo agregado: que la frase reaccione al cambio de acorde, no solo
+recorra cajas.
+
+**Por qué 5.4 no es un capricho:** 2 de los 4 alumnos reales encuestados (Tom y Verónica, ver
+`MODULO-1-RESPONDIDO.md`) nombraron, sin que se les preguntara así, el deseo de **tocar con otros
+con soltura** como algo que el programa todavía no les da del todo. No es una idea inventada para
+llenar un pilar — es un deseo real, medido.
+
+**Qué ya existe (reusa, no se recompone):** la arquitectura de 4 frases (Hito 3, ej. 49-53), el
+"antes del solo" del Hito 2 (práctica libre en las 5 cajas), y la mecánica de improvisación grupal
+ya descripta en la simulación de `memoria/07` §18 (los alumnos tocando "encadenados como una
+banda").
+
+**Qué es contenido nuevo a producir (no bloquea cerrar el documento con Nico, mismo criterio que el
+pregrabado: se graba/compone cuando toque):** los ejercicios de targeting sobre la progresión
+i-VI-VII (nuevo, con el mismo cuidado de siempre — LilyPond, auditoría de escala) y la consigna
+específica de clase para la dinámica de tocar con otros en la sesión de Improvisación semanal.
 
 ---
