@@ -1,0 +1,46 @@
+## La frase
+
+Ayudo a guitarristas de rock trabados en la caja 1 a improvisar solos propios con sabor por todo el
+mástil, en 12 semanas, con el método Solo con Sabor: el mapa, el sabor y el vocabulario.
+
+## Avatar
+
+28-57 años, autodidacta, sabe caja 1, suena escolar. *"Sé las cajas pero no sé conectarlas."*
+
+## Punto A → B
+
+Repite siempre los mismos licks en caja 1 → Improvisa moviéndose por las 5 cajas con bending,
+vibrato y espacio. **Prueba:** solo propio de 1 min, grabado, que pise mínimo 3 cajas.
+
+---
+
+# LOS 4 PILARES
+
+**1 · EL MAPA** (mes 1) — Salir de la caja 1, conectar las 5 cajas.
+→ Video recorriendo todo el mástil.
+
+**2 · EL SABOR** (mes 2) — Bending, vibrato, espacio. Que suene a música, no a escala.
+→ Solo + antes/después.
+
+**3 · EL VOCABULARIO** (mes 3) — Escuela británica + americana, licks propios.
+→ Solo final de 1 min.
+
+**4 · EL PULSO** (transversal, meses 2-3) — Ritmo: síncopa, el push, repetición. No es un cuarto
+mes, va montado sobre los licks que ya tenés.
+
+---
+
+# EL VEHÍCULO
+
+Grupal online · cohortes de 4-6 · 12 semanas · 1-2 vivos/semana + pregrabado + grupo de WhatsApp.
+
+**Ya terminado:** 4 cuadernillos (61 páginas, 59 ejercicios) + anexo de ritmo, auditados. Backings
+propios. 4 solos de referencia elegidos.
+
+**Falta:** grabar el pregrabado, elegir plataforma.
+
+---
+
+# LA PREGUNTA PARA NICO
+
+¿4 pilares o 3? El ritmo es real pero corre en paralelo — ¿pilar o complemento?
