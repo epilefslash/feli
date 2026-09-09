@@ -208,7 +208,7 @@ Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 > ⚠️ **HUECOS — actualizado (sesión de programa de valor con Nico, ver `memoria/02` §28-QUATER).**
 > Este bloque decía dos huecos "para un Módulo 2 futuro". Los dos quedaron desactualizados y se
 > corrigen acá:
-> - **RITMO ya no es un hueco.** Se cerró con el Anexo de Ritmo A-J (`memoria/10` §32) y el módulo
+> - **RITMO ya no es un hueco.** Se cerró con el Anexo de Ritmo A-I (`memoria/10` §32) y el módulo
 >   de Pozzoli — ambos van en paralelo a los hitos correspondientes.
 > - **"CAMBIOS DE ACORDE" era un error de redacción, no un hueco real.** ⚠️ Corregido (Feli, 9/9):
 >   **nunca hubo un vamp estático.** Los backing tracks de las 12 semanas SÍ cambian de acorde

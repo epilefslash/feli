@@ -5,12 +5,12 @@ miran desde 4 costados — los tres primeros van al **pregrabado** (se graban un
 todas las cohortes), el último (Improvisación) va siempre **en vivo**, es la sesión donde corregís en
 el momento.
 
-El **ritmo corre transversal**, en paralelo al mes 2 (Pozzoli) y al mes 3 (Anexo A-J) — no es un
+El **ritmo corre transversal**, en paralelo al mes 2 (Pozzoli) y al mes 3 (Anexo A-I) — no es un
 quinto ángulo de cada semana, es un módulo aparte que el alumno estudia por su cuenta esa misma
 semana, mucho más corto (10-15 min).
 
 > ⚠️ **La columna de ritmo es una propuesta mía, no algo ya decidido.** La memoria del proyecto solo
-> confirma que Pozzoli va con el mes 2 y el Anexo A-J con el mes 3 — nunca se fijó semana por semana.
+> confirma que Pozzoli va con el mes 2 y el Anexo A-I con el mes 3 — nunca se fijó semana por semana.
 > Repartí los ejercicios en orden de complejidad creciente, alineados lo mejor posible con el tema
 > del pilar principal esa semana. Revisala antes de darla por buena.
 
@@ -46,12 +46,12 @@ semana, mucho más corto (10-15 min).
 
 # MES 3 — EL VOCABULARIO (semanas 9 a 12)
 
-| Sem. | Tema (Teoría + Técnica, pregrabado) | Ejercicios del cuadernillo | Repertorio (pregrabado) | Improvisación (vivo) | Ritmo transversal (Anexo A-J — propuesta) |
+| Sem. | Tema (Teoría + Técnica, pregrabado) | Ejercicios del cuadernillo | Repertorio (pregrabado) | Improvisación (vivo) | Ritmo transversal (Anexo A-I — propuesta) |
 |---|---|---|---|---|---|
 | 9 | Robarle a los grandes I: escuela británica (Page/Angus/Clapton) | Ej. 35 a 42 aprox. | *Heartbreaker* (Page) | Meter 2 licks robados en una impro sin que suenen pegados | Ej. A: el árbol de las figuras + las 3 velocidades |
 | 10 | Robarle a los grandes II: escuela americana (Hendrix/Slash/Gary Moore) | Ej. 43 a 46 aprox. | *Red House* (Hendrix) | Variar un lick robado (ritmo, remate, caja) hasta hacerlo propio | Ej. B a D: swing, el número y el "y" |
 | 11 | Armar TU solo: estructura (apertura, desarrollo, clímax, cierre) | Ej. 47 a 51 aprox. | *November Rain* (Slash) ⚠️ *(mismo solo que la semana 6 — resolver cuál se queda)* | Impro con arco: arrancar abajo, clímax arriba, cierre en tónica | Ej. E a G: síncopa, el push, el puntillo |
-| 12 | El solo final — cada uno graba el suyo + devolución | Ej. 52 a 53 | La clase es de ellos | Cada alumno toca su solo, devolución del grupo y tuya | Ej. H a J: reto de construcción + llamada y respuesta |
+| 12 | El solo final — cada uno graba el suyo + devolución | Ej. 52 a 53 | La clase es de ellos | Cada alumno toca su solo, devolución del grupo y tuya | Ej. H a I: reto de construcción + llamada y respuesta |
 
 **Entregable del programa:** el solo propio de 1 minuto grabado — su trofeo, tu testimonio.
 

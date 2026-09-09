@@ -274,7 +274,7 @@ S.append(tabla([
     [Paragraph("↳ Anexo — Ritmo y Construcción de Frases", CELLB),
      Paragraph("En paralelo al Hito 3. Enseña a APLICAR el ritmo (el árbol de las figuras, tresillo y "
                "swing, síncopa, el push, frases largas con cita real). Sí está en este repo.", CELL),
-     Paragraph("A-J", CELL), Paragraph("13", CELL)],
+     Paragraph("A-I", CELL), Paragraph("13", CELL)],
     [Paragraph("Bonus post-programa", CELLB),
      Paragraph("6 licks más, fuera de las cajas 1 y 2 (cajas 3, 4, 5 y mástil completo). No es parte "
                "de las 12 semanas.", CELL),

@@ -31,7 +31,7 @@ S.append(caja_oscura(
     '<font color="white" size="10"><b>Estado</b></font><br/>'
     '<font color="#f7d7d2" size="9">El contenido pedagogico tiene una primera version terminada y '
     'auditada: son 5 documentos en total -- un cuadernillo por hito (Mapa, Sabor, Vocabulario) mas '
-    'un modulo de ritmo aparte para el Hito 2 (Pozzoli) y otro para el Hito 3 (Anexo A-J). El de '
+    'un modulo de ritmo aparte para el Hito 2 (Pozzoli) y otro para el Hito 3 (Anexo A-I). El de '
     'Pozzoli vive solo en la compu de Feli, los otros 4 estan en el repo y auditados. Falta '
     'produccion y distribucion, y sigue abierto a que el equipo aporte o ajuste el diseno. La '
     'pregunta abierta esta al final.</font>', W))

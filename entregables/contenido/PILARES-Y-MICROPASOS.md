@@ -72,7 +72,7 @@ Tres secuenciales (un mes cada uno) más uno transversal que corre en paralelo d
 
 ## Pilar 4 · EL PULSO — ritmo (transversal, meses 2 y 3)
 
-*Ejercicios con letra, A a J, para no tocar la numeración corrida 1-53*
+*Ejercicios con letra, A a I, para no tocar la numeración corrida 1-53*
 
 | Micro paso | Qué domina el alumno |
 |---|---|
@@ -109,7 +109,7 @@ y los Hitos 2 y 3 tienen además su propio módulo de ritmo aparte (no comparten
 | Cuadernillo Hito 2 — El Sabor | Mes 2 | 16 | Repo, auditado |
 | Módulo de ritmo — Pozzoli | Mes 2, en paralelo | 19 | Solo en la compu de Feli |
 | Cuadernillo Hito 3 — El Vocabulario | Mes 3 | 29 | Repo, auditado |
-| Anexo de ritmo A a J | Mes 3, en paralelo | 13 | Repo, auditado |
+| Anexo de ritmo A a I | Mes 3, en paralelo | 13 | Repo, auditado |
 
 **El contenido pedagógico tiene una primera versión terminada y auditada** (4 de los 5 documentos
 están en el repo; el de Pozzoli falta subirlo). Falta producción (grabar el pregrabado) y

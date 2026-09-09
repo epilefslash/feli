@@ -37,7 +37,7 @@ Grupal online · cohortes de 4-6 · 12 semanas · 1-2 vivos/semana + pregrabado 
 **Ya terminado — 5 documentos en total:**
 - Cuadernillo Hito 1, El Mapa (12 pág.)
 - Cuadernillo Hito 2, El Sabor (16 pág.) + su módulo de ritmo, Pozzoli (19 pág.)
-- Cuadernillo Hito 3, El Vocabulario (29 pág.) + su anexo de ritmo, A a J (13 pág.)
+- Cuadernillo Hito 3, El Vocabulario (29 pág.) + su anexo de ritmo, A a I (13 pág.)
 
 Más: backings propios y 4 solos de referencia elegidos.
 

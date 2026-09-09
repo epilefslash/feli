@@ -90,7 +90,7 @@ ubicarse antes de poder expresarse; sabor antes que vocabulario porque un lick s
 ejercicio) pero nunca escrito como texto aparte. El borrador original decía que El Pulso "corre en
 paralelo desde el mes 2 porque necesita que ya existan licks" — **eso contradice cómo está armado
 de verdad** (`memoria/10` §31): el Pulso se enseña en 2 tiempos, Pozzoli en paralelo al mes 2 para
-*leer* ritmo (sin necesitar licks todavía) y el Anexo A-J en paralelo al mes 3 para *aplicarlo*
+*leer* ritmo (sin necesitar licks todavía) y el Anexo A-I en paralelo al mes 3 para *aplicarlo*
 sobre los licks que recién ahí existen. Corregido:
 
 > *"El Mapa va primero porque sin saber moverte por el mástil, cualquier técnica que aprendas queda

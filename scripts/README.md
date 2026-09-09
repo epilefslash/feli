@@ -39,7 +39,7 @@ Tres cosas que hay que saber antes de tocar esto:
    (pasa en el ej. 30 y dos veces en el ej. 34). El Hito 1 no lleva ninguna: los ligados se enseñan
    recién en el ej. 17.
 
-| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a J — no tocan la numeración 1-59) |
+| `gen_scores_ritmo.py` | Partituras del **anexo de ritmo** (ejercicios A a I — no tocan la numeración 1-59) |
 | `auditar_cajas.py` | Audita en qué cajas vive cada ejercicio + valida que todo caiga en la escala |
 | `build_hito1.py` | Arma `Cuadernillo-Hito1-El-Mapa-EJERCICIOS.pdf` |
 | `build_hito2.py` | Arma `Cuadernillo-Hito2-El-Sabor-EJERCICIOS.pdf` |

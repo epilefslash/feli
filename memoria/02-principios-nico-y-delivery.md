@@ -229,6 +229,66 @@ acordes — qué nota de la pentatónica pega más fuerte contra cada acorde de 
 sin enseñarse en ningún lado. Es candidato real para una segunda camada o un Módulo 2, no para
 este programa de 12 semanas.
 
+## 28-SEXIES) PILAR 4 (EL PULSO) — SE UNIFICAN LOS 2 DOCUMENTOS DE RITMO EN UNO SOLO (9/9)
+
+> ⚠️ **Corrección de dato al mismo tiempo: no existe ejercicio J.** Varios documentos (CLAUDE.md,
+> memoria/10 §32, memoria/06, los PDFs de Pilares) decían "Anexo A a J" — verificado contra
+> `build_ritmo.py`, el anexo llega hasta **I**, no hay J. Corregido en los 14 lugares donde
+> aparecía, y los 5 PDFs que dependían de esos textos (`Programa-12-Semanas-Con-Ritmo.pdf`,
+> `Pilares-y-Micropasos-Solo-con-Sabor.pdf`, `Pilares-Version-Sencilla.pdf`,
+> `Pilares-y-Micropasos-Para-Nico.pdf`, `Resumen-Ejecutivo-para-Nico.pdf`) se regeneraron.
+
+Feli preguntó si convenía sacar el ritmo de estar "escondido" adentro de los Hitos 2 y 3 y armar
+un Pilar 4 propio. Se decidió que **NO conviene mover el contenido de lugar en el calendario**
+(Pozzoli sigue en paralelo al mes 2, el Anexo A-I sigue en paralelo al mes 3) porque hay una
+dependencia pedagógica real entre ambos: Pozzoli enseña a **LEER** ritmo (fundamentos, sin
+depender de nada más) y el Anexo A-I enseña a **APLICARLO** (su operación central es "agarrá un
+lick que ya sabés y movelo" — necesita que el alumno YA tenga licks propios, que recién aparecen
+desde la semana 9). Compactar los dos en un bloque separado rompería esa dependencia.
+
+**Lo que sí se resolvió: unificarlos bajo un solo documento/pilar con identidad propia**, en vez
+de dos anexos sueltos sin conexión visible entre sí. Feli va a pedirle a Claude Design que una los
+dos PDF en uno solo llamado **"EL PULSO"**, agregando dos textos de "pegamento" (contenido nuevo,
+no compuesto en ningún lado todavía — sin tocar la numeración interna de cada parte):
+
+**1) Introducción unificada — va al principio, antes de la Parte 1 (Pozzoli):**
+> EL PULSO — CÓMO SE ESTUDIA ESTE PILAR
+>
+> Este es el único pilar del programa que no se cursa de corrido: viene en dos partes, y cada una
+> corre pegada a otro pilar.
+>
+> Parte 1 — LEER (semanas 5 a 8, en paralelo con El Sabor): las figuras, el pulso, cómo se cuenta.
+> Fundamentos, sin tocar una nota nueva.
+>
+> Parte 2 — APLICAR (semanas 9 a 12, en paralelo con El Vocabulario): agarrar un lick que ya tenés
+> y moverlo — comprimirlo, sincoparlo, anticiparlo. Necesita que ya tengas licks propios, por eso
+> va después.
+>
+> No es un error de organización que este cuadernillo esté "partido" — es la misma lógica de todo
+> el programa: primero fijo (leer, sin variable de posición ni de material), después variado
+> (aplicar, sobre lo que ya construiste). Leelo entero si querés ahora, pero estudiá cada parte
+> cuando el calendario te lo indique.
+
+**2) Puente de transición — va entre el final de Pozzoli y el arranque del Anexo A-I:**
+> YA SABÉS LEER EL PULSO. AHORA VAMOS A USARLO.
+>
+> En la Parte 1 aprendiste a contar, a distinguir las figuras, a sentir dónde cae cada una dentro
+> del compás — sin tocar una nota nueva, sin pensar en licks. Esa parte te dio el oído.
+>
+> Esta parte es distinta: acá agarrás un lick que YA es tuyo —de los que venís robando en El
+> Vocabulario— y le hacés algo. Lo comprimís, lo sincopás, lo anticipás. No hay ejercicios nuevos
+> para memorizar: hay una sola herramienta aplicada una y otra vez a material que ya tocás de
+> memoria.
+
+**3) El entregable no se reinventa:** el Anexo A-I ya termina con uno propio (1 minuto
+improvisando, con exactamente tres frases que entren antes del tiempo fuerte) — se reencuadra en
+el texto como "el entregable del Pilar 4 completo", no solo del anexo.
+
+**Estado: diseño cerrado, ejecución pendiente.** El paso siguiente es que Feli le adjunte los 2
+PDF (`Anexo-Ritmo-y-Construccion-de-Frases.pdf`, que está en el repo, y el de Pozzoli, que vive
+solo en su compu) a Claude Design junto con este prompt. El Pozzoli no se puede tocar desde acá
+porque no está en el repo.
+
 ## NOTA APARTE: los pilares no tienen que durar exactamente 4 semanas cada uno
 
 Nico le dijo esto a Feli en la misma sesión: la duración de cada pilar es flexible, no hace falta

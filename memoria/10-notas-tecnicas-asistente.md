@@ -337,7 +337,7 @@ semicorcheas beameadas junto a corcheas. **Queda abierto** — se resuelve conta
 > **El anexo vive 98% en la caja 1 y es a propósito** — aislar la variable rítmica, mismo criterio que
 > mantiene juntas las 3 versiones de los ej. 44 y 45. Está escrito en el docstring **y en el PDF** para
 > que una auditoría externa no lo "arregle". Única excepción: el ej. I, donde mudarse de caja *es* el
-> contenido. **Anexo: 4 → 11 páginas, A-G → A-J. La numeración 1-59 no se tocó.**
+> contenido. **Anexo: 4 → 11 páginas, A-G → A-I. La numeración 1-59 no se tocó.**
 
 ### SEXTA RONDA (5/8/2026) — notación estándar de guitarra en los 4 cuadernillos
 
@@ -1099,7 +1099,7 @@ Nico). Verificado con `pdfinfo` sobre los archivos reales del repo, no de memori
 | Cuadernillo Hito 2 — El Sabor | Mes 2 | 16 | Repo, auditado |
 | Módulo de ritmo — Pozzoli | Mes 2, en paralelo | 19 (según sección 31) | **Solo en la compu de Feli — nunca se subió al repo** |
 | Cuadernillo Hito 3 — El Vocabulario | Mes 3 | **29** | Repo, auditado |
-| Anexo de ritmo A a J | Mes 3, en paralelo | 13 | Repo, auditado |
+| Anexo de ritmo A a I | Mes 3, en paralelo | 13 | Repo, auditado |
 
 **Dato nuevo que salió de esta verificación:** el Hito 3 mide hoy **29 páginas**, no las 25 que
 venían repitiéndose en `memoria/00`, `memoria/06` y `memoria/10` desde la decimoquinta ronda de la
