@@ -89,5 +89,11 @@
 > tiene escuchados de verdad. Encajan directo con el ajuste de nicho a "hard rock internacional"
 > (memoria/00, charla con Nico del 7/9): Schenker es probablemente el más puro del panel entero en
 > sentido de género, Blackmore es fundacional, y Wylde conecta hard rock con un público más joven.
+>
+> ⚠️ **Corrección (10/9, instrucción directa de Nico): la bio y el nicho público vuelven a decir
+> "rock" a secas, no "hard rock".** Esto NO saca a Schenker, Blackmore ni Wylde del panel — siguen
+> siendo referentes válidos y reales de rock, y el motivo por el que entraron (Feli los tiene
+> escuchados de verdad) sigue siendo cierto. Lo único que cambió es la palabra que va en la bio y en
+> el copy público — ver memoria/05 §11.
 
 ---

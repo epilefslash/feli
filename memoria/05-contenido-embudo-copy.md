@@ -57,14 +57,14 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 ```
 > Regla de oro: NO se vende en DM. El DM solo agenda la llamada. La venta se cierra por voz.
 
-**Bio de Instagram (modelo — actualizada 7/9, tras la charla con Nico donde se cerró el nicho a
-"hard rock internacional" y la transformación a "dominar la improvisación"):**
+**Bio de Instagram (modelo — actualizada 10/9: Nico pidió sacar "hard rock" y dejar "rock" a secas,
+corrigiendo el ajuste de nicho del 7/9):**
 
 > Nico usa su propia bio de ejemplo: **Título** (rol/nicho) → **Promesa** con emoji → **Validación /
 > prueba social** con emoji → **CTA** con emoji → link.
 
 ```
-🎸 Dominá la improvisación de hard rock con mi método Solo con Sabor
+🎸 Dominá la improvisación de rock con mi método Solo con Sabor
 📖 Formado en la facultad de música de Rosario · +9 años enseñando
 👇 Comentá SOLO y arrancamos
 [link]
@@ -81,11 +81,17 @@ Contenido orgánico IG (reels Formato C) → Perfil magnético (bio + reel fijad
 > propias bios — señal de que la frase ya está validada en la red de Nico, no es una apuesta nueva.
 > (3) **La validación suma un número real:** "+9 años enseñando" — antes decía "años enseñando 1 a 1"
 > sin cifra; los 6 ejemplos casi todos tienen un número (+100 alumnos, +9 años, 20 años, +8 años).
-> (4) **"Hard rock" reemplaza a "rock" a secas** — consistente con el nicho cerrado con Nico el 7/9
-> (`memoria/00`, charla del 7/9). "90 días" y "salir de la caja 1" se sacaron de la bio para que
-> entre el nombre del método sin que la línea se haga demasiado larga — la promesa de 90 días y la
-> imagen de la caja 1 siguen vigentes en el resto del copy (Punto A→B, guion vendedor), solo no
-> están en esta línea puntual.
+> "90 días" y "salir de la caja 1" se sacaron de la bio para que entre el nombre del método sin que
+> la línea se haga demasiado larga — la promesa de 90 días y la imagen de la caja 1 siguen vigentes
+> en el resto del copy (Punto A→B, guion vendedor), solo no están en esta línea puntual.
+>
+> ⚠️ **Corrección (10/9, instrucción directa de Nico): sacar "hard rock", dejar "rock".** El 7/9 se
+> había ajustado la bio a "hard rock" para reflejar el nicho cerrado esa sesión — Nico volvió sobre
+> esa decisión y pidió dejarlo en "rock" a secas. Se aplica tal cual, sin cuestionarlo. Los
+> referentes del panel (memoria/03 §10) que se sumaron específicamente por el ajuste a "hard rock
+> internacional" — Schenker, Blackmore, Zakk Wylde — **no se sacan**: siguen siendo referentes
+> válidos de rock en general, lo único que cambió es la palabra en la bio, no el panel completo. Ver
+> la nota corregida en memoria/03 §10.
 
 **Checklist de foto de perfil (nuevo, del mismo módulo):**
 - Solo vos en la foto — nada de familia, amigos, mascotas

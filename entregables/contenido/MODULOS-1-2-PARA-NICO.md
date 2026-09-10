@@ -43,10 +43,14 @@ este perfil — no los voy a nombrar acá, pero los tengo presentes cada vez que
 hay un piso — caja 1 y acordes básicos ya resueltos.
 
 **3 · Problemas que resuelve.** Suelta siempre las mismas frases · sabe las cajas pero no las
-conecta · quiere sonar como sus referentes de hard rock (Angus, Page, Hendrix, Gary Moore — y ahora
-sumo a Michael Schenker, Ritchie Blackmore y Zakk Wylde, que terminan de afinar el nicho a "hard
-rock internacional" que cerramos hoy con vos) y no sabe qué le falta · mira tutoriales sueltos de
-YouTube/IG y nunca cierra la idea.
+conecta · quiere sonar como sus referentes de rock (Angus, Page, Hendrix, Gary Moore — y ahora
+sumo a Michael Schenker, Ritchie Blackmore y Zakk Wylde) y no sabe qué le falta · mira tutoriales
+sueltos de YouTube/IG y nunca cierra la idea.
+
+> *(Nota, no parte del documento entregado en su momento: este párrafo decía "hard rock" / "hard
+> rock internacional" — Nico corrigió el 10/9 que el nicho público sea "rock" a secas, sin sacar a
+> los 3 referentes que se sumaron con ese ajuste. Corregido acá para que el archivo no quede
+> desactualizado.)*
 
 **4 · El error más grande, más los secundarios.** El principal: creer que mirar más tutoriales lo
 va a hacer mejor. A mí también me pasó, así que lo conozco de adentro. Los secundarios: creer que
