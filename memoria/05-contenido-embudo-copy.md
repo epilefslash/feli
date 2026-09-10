@@ -578,16 +578,60 @@ Alumnos, Testimonios) — teníamos 2 de las 3 separadas, ahora son las 5.
 - **Portadas de reels** — el M3 confirma que importan ("efecto marca multidimensional": que se
   distinga de un vistazo qué tipo de posteo es). Sigue siendo el pendiente real que ya estaba
   anotado en `memoria/00` — nunca se trabajó.
-- **Distribución de contenido 60/40** — el M3 la menciona ("para cuidar el efecto marca
-  multidimensional") pero el resumen que llegó no trae el detalle de qué es el 60 y qué es el 40.
-  Si hace falta el número exacto, hay que volver a mirar el material original (probablemente en el
-  documento "Formatos de Contenido", 6 páginas, que la sesión que procesó las capturas marcó como
-  "no releída página por página").
 - **Frecuencia de publicación, actualizada:** el M3 da un rango más preciso que el que teníamos
   (memoria/05 §9 decía "2-3 reels/semana" en general) — ahora es **mínimo 2 posteos formales + 3
   días de historias por semana, ideal 5 formales + 7 de historias**. Ejemplo del propio material:
   posteos formales martes y jueves, historias lunes/miércoles/viernes. Aplica después de los
   primeros 15, no para el Día 0.
+
+### ✅ Distribución 60/40, ahora completa (10/9, documento "Plantillas de Contenido M3" consolidado)
+
+Ya no es un pendiente — el documento consolidado trae el detalle completo:
+
+- **60% Posteos de Valor** (Reels, Carruseles, Epifanía) — de eso, **70% Micro Pasos** (atados a un
+  pilar: qué y para qué) y **30% creencias limitantes/miedos/frustraciones**.
+- **40% Reciclado** — cambiando SIEMPRE al menos uno de: gancho, ángulo o formato. Nunca repetir
+  los 3 iguales.
+
+### ✅ Auditoría estructural de los 15 contra las plantillas exactas de Nico (10/9)
+
+Se cruzó cada uno de los 15 contra la estructura obligatoria de su formato correspondiente. **4
+hallazgos reales, ninguno bloqueante:**
+
+1. **Reel Didáctico** (plantilla: Gancho → Promesa de valor → Insight/desarrollo → Resumen → Tip
+   accionable → Cierre) — nuestros reels de valor (#9, #4, #6, #8) no tienen una "promesa de valor"
+   ni un "tip accionable" como bloques separados del hook/cierre. No compromete el video ya filmado,
+   pero es el ajuste a aplicar si se reedita alguno o se filma contenido nuevo de este tipo.
+2. **Carrusel Didáctico** (pide una Placa 2 explícita de "Replanteo + Promesa" entre el gancho y el
+   desarrollo) — los 3 carruseles (memoria/05 §22) van directo de hook a desarrollo, sin ese
+   escalón. Fácil de sumar al diseñarlos en Canva: una placa corta de transición.
+3. **Post de Epifanía** (la plantilla pide cerrar con CTA) — la nuestra no tiene CTA, **y eso ya
+   estaba documentado como decisión a propósito** (memoria/04 §35: "es el único de los 15 que
+   existe solo para que te entiendan"). No es un error, es una excepción consciente.
+4. **StoryTelling** (pide un gancho "de máxima tensión, como una película") — los 2 nuestros
+   (memoria/04 §36) arrancan con un dato neutro ("Empecé a tocar a los once años" / "Durante mucho
+   tiempo di clases sueltas"), no con tensión. No bloquea publicar tal como están, pero si se
+   retocan, la primera línea es el lugar indicado.
+
+**Confirmado sin cambios:** Posteo de Autoridad (Fijado + #1), Posteo de 2 Pasos, y los Testimonios
+(formato A de la plantilla) — los tres cumplen la estructura tal cual está.
+
+**Dato lateral que confirma el banco de creencias, sin nada que producir:** las 2 frases "semilla"
+de ejemplo que trae la plantilla de Nico ("Memorizar todas las escalas no sirve si buscás
+improvisar" · "Para mejorar tu tempo no necesitás acelerar el metrónomo, necesitás hacerlo más
+lento") son básicamente las mismas creencias #1 y #7 de `memoria/03` §6, ya atacadas en el stock.
+
+### Herramientas nuevas del documento consolidado, para más adelante
+
+- **"Celebrar Casos de Éxito"** — mensaje corto de WhatsApp/DM para pedirle a un alumno actual (no
+  necesariamente Ángel/Verónica/Simón, cualquiera) que cuente un logro chico ("¿hay algo en puntual
+  que consideres una victoria?"), y publicar la respuesta como captura de pantalla. Sirve como
+  contenido de prueba social liviano mientras se consiguen los 2 testimonios completos — no los
+  reemplaza, los complementa.
+- **Testimonio Copy Script** — estructura de copy con emojis separadores para el post que acompaña
+  un testimonio (agradecimiento → resultado logrado → aspecto clave de la transformación → qué
+  falta por delante → CTA). El copy que ya tenemos en memoria/04 §38 cumple la esencia; esta es la
+  versión con emojis, útil para variar el formato visual entre testimonio y testimonio.
 
 ### Bancos nuevos, para cuando se agote el stock de los 15 (continuidad y reciclado)
 No hace falta usarlos ahora — quedan anotados para cuando haga falta variar el contenido después
