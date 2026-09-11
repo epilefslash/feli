@@ -38,8 +38,8 @@ de que los 4 pilares anteriores ya son un solo idioma.
 
 Grupal online · cohortes de 4-6 · 12 semanas. Los 5 elementos de Nico: 1· 4 sesiones semanales
 grupales (Lun/Mar/Jue/Sáb) · 2· Plan de Acción (tarea + rutina + entregable) · 3· Zona virtual
-(pregrabado + backings + solos de referencia) · 4· Soporte 1-1 (🔴 sin definir) · 5· Soporte
-comunidad (grupo de WhatsApp).
+(pregrabado + backings + solos de referencia) · 4· Soporte 1-1 (DM directo a Feli por WhatsApp,
+aparte del grupo) · 5· Soporte comunidad (grupo de WhatsApp).
 
 **Ya terminado — 5 documentos en total:**
 - Cuadernillo Hito 1, El Mapa (12 pág.)

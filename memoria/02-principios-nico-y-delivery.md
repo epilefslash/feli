@@ -417,10 +417,40 @@ hace rato por las 4 sesiones semanales que Nico confirmó (§28-TER).
 1. **El elemento 1 se adapta de "individual" a "grupal"** — no es un error, es la decisión de
    negocio de todo el proyecto (memoria/02 §4: por qué no vender clases sueltas). Se documenta así
    para que quede explícito que es una decisión, no un descuido frente a la plantilla de Nico.
-2. **Apareció un hueco real: el elemento 4 (soporte 1-1) no tiene canal propio.** Hoy solo existe
-   el soporte de grupo (el WhatsApp comunitario, elemento 5) — nunca se definió un canal separado
-   para consultas individuales. Candidato simple, sin inventar herramienta nueva: DM directo a
-   Feli por WhatsApp, aparte del grupo. Queda como pendiente a definir, no resuelto todavía.
+2. ✅ **CERRADO (11/9): el elemento 4 (soporte 1-1) se define como DM directo a Feli por
+   WhatsApp, aparte del grupo.** No hace falta ninguna herramienta nueva — el mismo WhatsApp que
+   ya se usa para la comunidad (elemento 5) sirve para esto, distinguiendo el canal 1-1 (consulta
+   puntual de un alumno a Feli) del canal de grupo (comunidad, elemento 5). Se anuncia así en el
+   onboarding: "para consultas puntuales, escribime a mí directo; para compartir con el grupo, al
+   canal común."
+
+### ¿Por qué Nico dice "individuales" en el elemento 1? ¿Puede mutar de individual a grupal?
+
+Feli preguntó por qué el material de Nico nombra el elemento 1 como "sesiones semanales
+**individuales**" — buena pregunta, porque no es un detalle menor. El texto exacto del Módulo 2
+dice: *"en el caso de no tener un curso ya grabado de apoyo, al principio vas a necesitar más de
+este elemento para poder transmitir el valor... y en la medida que vayas creando recursos (videos,
+PDFs, etc.) vas a necesitar menos tiempo 1-1 con las personas."*
+
+Dos cosas para separar, porque se pueden confundir:
+1. **"Individual" ahí es el default genérico de Nico** para el tipo de negocio de coaching/mentoría
+   que él más usa (incluido su propio acuerdo con Feli, que es 1 a 1) — no es una instrucción
+   específica para el programa de Feli. La instrucción específica para Feli's programa **ya la dio
+   Nico en la mentoría real**: grupal desde el arranque, grupos de 4-6 (`memoria/02` §28-QUATER).
+   Eso manda por encima del default genérico de la plantilla.
+2. **Lo que sí es real y aplica** no es un cambio de individual→grupal, es la curva de "más tiempo
+   en vivo ahora, menos después" — y esto **confirma, con la propia lógica de Nico, la tensión que
+   ya estaba anotada sin resolver en §28-TER**: las 4 sesiones semanales (mucho tiempo en vivo)
+   tendrían sentido como modelo **mientras no existe el pregrabado** — y una vez que el pregrabado
+   esté grabado, bajar a menos encuentros en vivo (el modelo Sergio, §28-BIS), **sin dejar de ser
+   grupal en ningún momento**. No es "empezar individual y pasar a grupal" — es "empezar con más
+   horas de vivo por alumno y bajar esas horas cuando el contenido pregrabado hace parte del
+   trabajo", siempre en grupo.
+
+**Esto no queda confirmado como palabra textual de Nico para nuestro caso** — sigue siendo la
+misma interpretación razonada de §28-TER, ahora con un respaldo más fuerte (la lógica genérica de
+Nico apunta en la misma dirección). Las 2 preguntas para la próxima mentoría de §28-TER siguen
+siendo las que hay que hacer para cerrarlo del todo.
 
 > ✅ Los 3 PDFs de Pilares y Micropasos regenerados con la tabla nueva.
 

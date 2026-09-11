@@ -110,7 +110,7 @@ de negocio). Programa grupal online, grupos de 4 a 6, 12 semanas.
 | 1 · Sesiones semanales grupales | Las 4 sesiones semanales: Lunes Teoría/Q&A, Martes Técnica, Jueves Repertorio, Sábado Improvisación | Confirmado |
 | 2 · Plan de Acción | Tarea semanal + rutina diaria de práctica + entregable filmado de cada pilar | Definido |
 | 3 · Zona virtual de estudiantes | Cuadernillos + carpeta de backings propios (uno por semana) + banco fijo de 4 solos de referencia + grabaciones de los encuentros | Guionado; falta grabar el pregrabado y definir plataforma |
-| 4 · Soporte 1-1 (Discord/Telegram/WhatsApp) | Sin canal propio todavía | 🔴 Falta definir |
+| 4 · Soporte 1-1 (Discord/Telegram/WhatsApp) | DM directo a Feli por WhatsApp, aparte del grupo | Definido |
 | 5 · Soporte comunidad (Discord/Telegram/WhatsApp) | Grupo de WhatsApp con seguimiento entre sesiones | Definido |
 
 **Los materiales escritos son 5 documentos.** Cada hito tiene su cuadernillo de ejercicios, y los

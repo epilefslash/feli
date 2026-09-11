@@ -116,7 +116,7 @@ no vender clases sueltas). Programa grupal online, grupos de 4 a 6, 12 semanas.
 | 1 · Sesiones semanales (Nico: "individuales" → nosotros: **grupales**) | Las 4 sesiones semanales: Lunes Teoría/Q&A, Martes Técnica, Jueves Repertorio, Sábado Improvisación | Confirmado por Nico (memoria/02 §28-TER) |
 | 2 · Plan de Acción | Tarea semanal + rutina diaria de práctica + entregable filmado de cada pilar | Definido, en cada cuadernillo |
 | 3 · Zona virtual de estudiantes | Cuadernillos + carpeta de backings propios (uno por semana) + banco fijo de 4 solos de referencia + grabaciones de los encuentros | Guionado; falta grabar el pregrabado y definir plataforma |
-| 4 · Soporte 1-1 (Discord/Telegram/WhatsApp 24/7) | ⚠️ **Sin canal propio todavía** — hoy solo existe el soporte de grupo (elemento 5) | 🔴 Falta definir — candidato simple: DM directo a Feli por WhatsApp, aparte del grupo |
+| 4 · Soporte 1-1 (Discord/Telegram/WhatsApp 24/7) | DM directo a Feli por WhatsApp, aparte del grupo — para consultas puntuales entre encuentros | ✅ Definido |
 | 5 · Soporte comunidad (Discord/Telegram/WhatsApp) | Grupo de WhatsApp con seguimiento entre sesiones | Definido |
 
 **Los materiales escritos son 5 documentos — no 4.** Cada hito tiene su cuadernillo de ejercicios,
