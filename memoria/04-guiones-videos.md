@@ -263,9 +263,21 @@ medio."** Mantiene la fuerza sin dejar flanco.
 ---
 
 ### Menú de CTAs (rotarlos para no repetir "Comentá SOLO")
+
+> ⚠️ **Regla nueva (11/9, pedido de Feli, para todo guion de acá en adelante): el CTA se arma
+> alrededor de la dolencia/deseo del alumno, no de "cómo trabajo yo".** "Comentá SABOR y te cuento
+> cómo lo trabajo" pone el foco en el método (en vos). "Si te interesa improvisar en rock con esa
+> libertad, escribime SABOR" pone el foco en lo que el alumno quiere — es lo que lo hace escribir.
+> **#6 ya está filmado con la frase vieja — no se retoca** (regrabar por una frase no vale la pena).
+> La regla se aplica a partir de ahora: el Vendedor y la Historia, que todavía no se filmaron, ya
+> están corregidos más abajo (secciones 23 y 25).
+
 - **Lead magnet (regalo):** "Comentá PENTA y te paso el mapa de las 5 cajas (gratis)" — usado en #5.
 - **Más contenido:** "Comentá ROCK y te mando 3 licks con sabor para practicar".
-- **Curiosidad/método:** "Comentá SABOR y te cuento cómo lo trabajo" — usado en #6.
+- **Curiosidad/método (versión vieja, ya filmada en #6, no repetir):** "Comentá SABOR y te cuento
+  cómo lo trabajo".
+- **Curiosidad/método (versión nueva, usar de acá en adelante):** "Si te interesa improvisar en
+  rock con esa libertad, comentá SABOR".
 - **Pregunta (alcance, sin keyword):** "¿En qué caja vivís? 1, 2, 3, 4 o 5? Contame".
 - **Guardado:** "Guardá esto para la próxima vez que pienses en comprar un pedal 📌".
 - **Estrategia:** variar la palabra clave por reel (PENTA, SABOR, ROCK…) para saber de qué video viene cada DM.
@@ -296,13 +308,13 @@ medio."** Mantiene la fuerza sin dejar flanco.
 > todo lo que ya estudiaste y lo convierta en tu forma de tocar. Que cuando improvises, salga solo.
 > Con sabor. Sin pensarlo.
 >
-> Si querés trabajar en serio, en un proceso paso a paso, para improvisar solos de rock con la
-> libertad que buscás, mandame **SABOR** y te cuento cómo trabajamos.
+> Si te interesa improvisar solos de rock con la libertad que buscás, en un proceso paso a paso,
+> mandame **SABOR**.
 
 **VERSIÓN CORTA (story / pie de reel):**
 > Guardás licks que después nunca aparecen cuando improvisás. El problema no es cuánto estudiás —
-> es que nada lo conecta. No necesitás más material: necesitás un sistema. Mandame **SABOR** y te
-> cuento cómo trabajamos.
+> es que nada lo conecta. Si te interesa improvisar así, sin que se te desarme todo, mandame
+> **SABOR**.
 
 > ⚠️ **Para filmar el REEL, usar esta VERSIÓN CORTA** (33 palabras ≈ 13 seg habladas + silencios
 > para que respire — sí entra en los 30-35 seg declarados abajo). La VERSIÓN PRINCIPAL de arriba
@@ -465,7 +477,7 @@ incómodo con el sonido del scroll (clicks). El contraste acá es scroll muerto 
 **[0:50–0:60] CIERRE — por qué enseño esto ahora, a cámara, tranquilo**
 > "Por eso armé este método así, empezando siempre por el mapa completo del mástil — es lo que a mí
 > me cambió la cabeza, y quiero ahorrarte los años que me llevó a mí entenderlo.
-> Si estás en el mismo lugar donde yo estaba, escribime SOLO y te cuento cómo trabajamos."
+> Si estás en el mismo lugar donde yo estaba y te interesa improvisar con esa libertad, escribime SOLO."
 
 **Guía de tono:**
 - Ensayalo contándoselo a una persona real (pareja, amigo guitarrista) antes de prender la cámara.

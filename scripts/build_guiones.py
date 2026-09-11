@@ -164,7 +164,7 @@ S.append(linea_tiempo([
     ("0:50–0:60", "A cámara, tranquilo, casi charlando.",
      "\"Por eso armé este método así, empezando siempre por el mapa completo del mástil — es lo que "
      "a mí me cambió la cabeza, y quiero ahorrarte los años que me llevó a mí entenderlo. Si estás en "
-     "el mismo lugar donde yo estaba, escribime SOLO y te cuento cómo trabajamos.\""),
+     "el mismo lugar donde yo estaba y te interesa improvisar con esa libertad, escribime SOLO.\""),
 ], colw=[2.0 * cm, W * 0.30, W - 2.0 * cm - W * 0.30]))
 
 S.append(Spacer(1, 6))
@@ -285,8 +285,8 @@ S.append(linea_tiempo([
      "convierta eso que estudiás en TU forma de tocar — que cuando improvises, salga solo, con "
      "sabor, sin pensarlo.\""),
     ("0:30–0:35", "A cámara, cierre tranquilo, sin apuro.",
-     "\"Si querés trabajar en serio, en un proceso paso a paso, para improvisar solos de rock con "
-     "la libertad que buscás, mandame SABOR y te cuento cómo trabajamos.\""),
+     "\"Si te interesa improvisar solos de rock con la libertad que buscás, en un proceso paso a "
+     "paso, mandame SABOR.\""),
 ], colw=[2.0 * cm, W * 0.32, W - 2.0 * cm - W * 0.32]))
 
 S.append(Spacer(1, 6))
@@ -307,8 +307,8 @@ S.append(tabla([
 S.append(Paragraph("VERSIÓN CORTA (para story o pie de otro reel)", H3))
 S.append(Paragraph(
     "<i>\"Guardás licks que después nunca aparecen cuando improvisás. El problema no es cuánto "
-    "estudiás — es que nada lo conecta. No necesitás más material: necesitás un sistema. Mandame "
-    "SABOR y te cuento cómo trabajamos.\"</i>", BODY))
+    "estudiás — es que nada lo conecta. Si te interesa improvisar así, sin que se te desarme "
+    "todo, mandame SABOR.\"</i>", BODY))
 
 S.append(Paragraph("NOTA DE EDICIÓN", H3))
 S.append(Paragraph(
