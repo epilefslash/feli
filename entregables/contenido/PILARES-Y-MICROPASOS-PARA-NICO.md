@@ -102,17 +102,16 @@ así que necesita que el alumno ya tenga licks. Los primeros aparecen en la sema
 
 # EL VEHÍCULO
 
-Grupal online, cohortes de 4 a 6, 12 semanas.
+Ordenado en los 5 elementos (adaptando el primero de "individual" a **grupal**, nuestra decisión
+de negocio). Programa grupal online, grupos de 4 a 6, 12 semanas.
 
-| Elemento | Estado |
-|---|---|
-| Contenido pregrabado del método completo, ejercicio por ejercicio | Guionado en los cuadernillos, falta grabar |
-| 1-2 encuentros en vivo por semana: dudas, corrección, repertorio, improvisación | Estructura definida |
-| Grupo de WhatsApp con seguimiento entre sesiones | Definido |
-| Carpeta de backing tracks propios, uno por semana | Hecha |
-| Banco fijo de 4 solos de referencia, uno por pilar | Elegido |
-| Grabaciones de todos los encuentros, se las queda el alumno | Por definir plataforma |
-| Un entregable filmado por pilar: la prueba de avance | Definido |
+| Elemento | Cómo es en Solo con Sabor | Estado |
+|---|---|---|
+| 1 · Sesiones semanales grupales | Las 4 sesiones semanales: Lunes Teoría/Q&A, Martes Técnica, Jueves Repertorio, Sábado Improvisación | Confirmado |
+| 2 · Plan de Acción | Tarea semanal + rutina diaria de práctica + entregable filmado de cada pilar | Definido |
+| 3 · Zona virtual de estudiantes | Cuadernillos + carpeta de backings propios (uno por semana) + banco fijo de 4 solos de referencia + grabaciones de los encuentros | Guionado; falta grabar el pregrabado y definir plataforma |
+| 4 · Soporte 1-1 (Discord/Telegram/WhatsApp) | Sin canal propio todavía | 🔴 Falta definir |
+| 5 · Soporte comunidad (Discord/Telegram/WhatsApp) | Grupo de WhatsApp con seguimiento entre sesiones | Definido |
 
 **Los materiales escritos son 5 documentos.** Cada hito tiene su cuadernillo de ejercicios, y los
 Hitos 2 y 3 tienen además su propio módulo de ritmo aparte (no comparten uno solo):

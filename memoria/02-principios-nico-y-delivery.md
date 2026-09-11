@@ -401,3 +401,59 @@ igual que el resto del documento.
 > **3 páginas** (verificado con `pdfinfo`). Sigue sin tablatura nueva.
 
 ---
+
+## 41) EL VEHÍCULO REORDENADO A LOS 5 ELEMENTOS DE NICO + ¿FALTA UN PILAR DE ARMONÍA? (11/9)
+
+### El vehículo, ahora con la nomenclatura exacta de Nico
+
+Módulo 2 nombra el vehículo en 5 elementos fijos: 1) Sesiones semanales individuales · 2) Plan de
+Acción · 3) Zona virtual de estudiantes · 4) Soporte 1-1 (Discord/Telegram/WhatsApp 24/7) · 5)
+Soporte comunidad (Discord/Telegram/WhatsApp). Los 3 documentos de Pilares y Micropasos tenían el
+vehículo en una lista suelta, sin esos nombres, y encima **desactualizada**: seguía diciendo "1-2
+encuentros en vivo por semana", que es el modelo Sergio Assat (`memoria/02` §28-BIS) — superado
+hace rato por las 4 sesiones semanales que Nico confirmó (§28-TER).
+
+**Reordenado a los 5 elementos** en los 3 documentos, con dos correcciones reales:
+1. **El elemento 1 se adapta de "individual" a "grupal"** — no es un error, es la decisión de
+   negocio de todo el proyecto (memoria/02 §4: por qué no vender clases sueltas). Se documenta así
+   para que quede explícito que es una decisión, no un descuido frente a la plantilla de Nico.
+2. **Apareció un hueco real: el elemento 4 (soporte 1-1) no tiene canal propio.** Hoy solo existe
+   el soporte de grupo (el WhatsApp comunitario, elemento 5) — nunca se definió un canal separado
+   para consultas individuales. Candidato simple, sin inventar herramienta nueva: DM directo a
+   Feli por WhatsApp, aparte del grupo. Queda como pendiente a definir, no resuelto todavía.
+
+> ✅ Los 3 PDFs de Pilares y Micropasos regenerados con la tabla nueva.
+
+### ¿Preocupa no tener un pilar de Armonía? — No, y esto es por qué
+
+Módulo 2 trae un ejemplo genérico de Nico para armar pilares de "un programa para alumnos
+intermedios de guitarra orientado a la improvisación en estilo Rock-Blues", con 5 pilares:
+Armonía/Teoría → Técnica → Transcripción → Repertorio del género → Improvisación. Feli preguntó si
+había que preocuparse por no tener un pilar de Armonía propio — pregunta válida, la misma tensión
+que ya había aparecido pensando El Vuelo (el hueco de "targeting notes", §28-QUINQUIES).
+
+**Respuesta razonada, no solo tranquilizadora:**
+1. **Ese ejemplo es una plantilla genérica de Nico para cualquier alumno guitarrista, no una
+   instrucción para nuestro programa específico.** El propio documento lo dice ("para un programa
+   de fusión/jazz serían estándares de ese género") — es una herramienta de ChatGPT para armar
+   pilares desde cero, no una revisión de lo que ya tenemos. Nuestros 5 pilares reales (El Mapa,
+   El Sabor, El Vocabulario, El Pulso, El Vuelo) salen de una mentoría específica con Nico
+   (`memoria/02` §28-QUATER) — esos son los que mandan, no el ejemplo genérico.
+2. **El nicho es angosto a propósito** (pentatónica menor con sabor, rock — Océano Azul,
+   `memoria/00`), y un pilar entero de "Armonía/Teoría" ensancharía la promesa hacia un curso
+   general de guitarra — lo contrario de la estrategia de nicho que sostiene todo el proyecto.
+3. **La armonía real que el alumno necesita ya está, aplicada donde corresponde, no como bloque
+   teórico separado:** el ej. 43 del Hito 3 ("el color de cada grado") es exactamente función
+   armónica de la pentatónica sobre la tónica — enseñada en el momento en que se puede usar, no
+   antes. Coincide con el principio de Nico de "no necesitás saber más, necesitás ordenar lo que ya
+   sabés" (`memoria/02` §4).
+4. **El hueco real y específico (targeting notes — qué nota pega más fuerte contra cada acorde de
+   la progresión) ya está identificado y declarado**, no ignorado — archivado a propósito para una
+   segunda camada o Módulo 2 futuro (`memoria/02` §28-QUINQUIES). Eso es lo más parecido a
+   "armonía aplicada" que le falta al programa, y tiene nombre y lugar asignado.
+
+**Conclusión: no hay que agregar un pilar de Armonía.** Sería una respuesta genérica a una
+plantilla genérica, no una respuesta al hueco real (que ya está identificado y archivado a
+propósito, no descuidado).
+
+---
