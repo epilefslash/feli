@@ -104,11 +104,17 @@ corta, 30-35 seg) — no es urgente para el Día 0 pero no hace mal adelantarlo.
 15 posteos (quedan para la semana 5 en adelante, memoria/05 §34). CÓMO ES UNA CLASE no se filma
 (ver por qué abajo).
 
-> 🔴 **URGENCIA REAL (2/9): 30 días desde el Onboarding para pagar USD 440 a Nico, plata que Feli
-> hoy no tiene — sigue SIN RESOLVER.** No es la ansiedad habitual, es un plazo concreto. Se probó
-> una idea (venderle el programa a alumnos 1 a 1 actuales) y **Feli la marcó como equivocada**: sus
-> alumnos pagan 75.000 pesos por las clases (muy por debajo de USD 600) y algunos le deben plata —
-> ofrecerles el programa grupal no es una salida real. Detalle del error, para no repetirlo, en
+> 🔴 **URGENCIA REAL (2/9, monto corregido el 11/9 contra el contrato real): 30 días desde el
+> Onboarding para pagar a Nico, plata que Feli hoy no tiene — sigue SIN RESOLVER.** No es la
+> ansiedad habitual, es un plazo concreto. **Monto exacto, verificado contra el "Acuerdo de
+> Coaching Personal" firmado (Módulo 1, 1/9/2026): USD 422, no los USD 440 que decía esta nota
+> antes** — es el segundo de 3 pagos en cuotas (1 pago de USD 900 al arrancar + 3 pagos de USD 422
+> cada 30 días, 10 días de gracia). Como el Onboarding fue el 1/9, este pago vence ~30 días después
+> (principios de octubre), no de inmediato — el plazo es un poco menos ajustado de lo que sonaba,
+> pero el problema de fondo (conseguir esa plata) sigue sin resolver. Se probó una idea (venderle
+> el programa a alumnos 1 a 1 actuales) y **Feli la marcó como equivocada**: sus alumnos pagan
+> 75.000 pesos por las clases (muy por debajo de USD 600) y algunos le deben plata — ofrecerles el
+> programa grupal no es una salida real. Detalle del error, para no repetirlo, en
 > `entregables/venta/05-primera-venta-rapida.md`. **No hay plan de reemplazo todavía** — evitar
 > inventar uno nuevo sin verificarlo primero con Feli. El @felibayamenor **todavía no existe** —
 > se crea de cero, sin conflicto con el PRO TIP de memoria/05 §35 sobre no reciclar una cuenta con

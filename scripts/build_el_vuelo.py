@@ -152,6 +152,12 @@ S.append(Paragraph(
 S.append(Paragraph(
     "No es una escala nueva. Es la misma escala, mirada con otro final. Es el paso más barato de todo "
     "este documento — probalo antes que cualquier otra cosa.", SMALL))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "Cómo probarlo: improvisá una frase cualquiera en tu caja 1 de siempre, pero en vez de cerrarla "
+    "en el La de siempre (traste 5 de la 6ª cuerda), cerrala en un Do — el más cómodo dentro de la "
+    "misma caja es el traste 8 de esa misma cuerda. Vas a escuchar cómo cambia el clima sin haber "
+    "cambiado una sola nota de lo que tocás.", SMALL))
 
 S.append(Paragraph("PASO 2 — MOVER LA FORMA, NO INVENTAR UNA", H2))
 S.append(Paragraph(
