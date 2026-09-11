@@ -197,47 +197,76 @@ El riser termina justo cuando empieza la acción.
 
 > **Concepto:** el reel convierte (emoción + prueba en vivo); el carrusel se GUARDA y se comparte
 > (referencia útil). No requiere info nueva: todo sale de lo que ya está en este documento.
-> **Regla de estructura:** slide 1 = hook grande (una frase) · slides 2-6 = un concepto por slide,
-> poco texto · última slide = CTA + recordatorio de guardar ("Guardalo 📌").
 > **Frecuencia sugerida:** 1 carrusel por semana entre los reels. Feli ya tiene la estética definida.
+
+> ⚠️ **Regla de estructura actualizada (11/9, feedback directo de Nico sobre el contenido — ver
+> `memoria/05` §39).** Antes: slide 1 = hook · slides 2-6 = desarrollo · última = CTA. Ahora, dos
+> agregados:
+> 1. **Slide 2 = el mismo hook, reformulado con otras palabras** (una "Placa 2" de
+>    replanteo/promesa, antes de arrancar el desarrollo). Motivo real, no estético: Instagram a
+>    veces muestra la slide 2 como portada del carrusel en vez de la 1 — si el hook vive solo ahí,
+>    ese carrusel pierde el gancho entero. (Esto confirma y le da el mecanismo al hallazgo #2 que
+>    ya estaba anotado en `memoria/05` §36 sobre la plantilla de Carrusel Didáctico de Nico.)
+> 2. **Esa misma slide 2 nombra el nicho explícitamente** ("guitarrista de rock") en los carruseles
+>    cuyo contenido podría leerse como dirigido a cualquier instrumento — el ejemplo que dio Nico:
+>    "5 mentiras que te tienen trabado" le serviría igual a un pianista o un bajista si no se dice
+>    para quién es.
+>
+> Los 4 carruseles de abajo ya están reescritos con la slide 2 nueva (por eso ahora tienen 8-9
+> slides en vez de 7-8) — última slide siempre CTA + "Guardalo 📌".
 
 ### Carrusel 1 — "5 guitarristas legendarios. 1 sola escala." (gemelo del video 5)
 1. **Hook:** "Estos 5 monstruos usaron la MISMA escala toda su carrera."
-2. Angus Young — Back in Black. Pentatónica menor.
-3. Jimi Hendrix — Voodoo Child. Pentatónica menor.
-4. Joe Perry — Walk This Way. Pentatónica menor.
-5. Jimmy Page — Whole Lotta Love. Pentatónica menor.
-6. Gary Moore — Parisienne Walkways. Pentatónica menor.
-7. "Cinco escuelas. Una escala. No te falta una escala nueva: te falta exprimir ésta."
-8. **CTA:** "Comentá PENTA y te paso el mapa de las 5 cajas gratis. Guardalo 📌"
+2. **Placa 2:** "Si sos guitarrista de rock y sentís que ya le sacaste todo a la pentatónica menor…
+   esperá a ver esto."
+3. Angus Young — Back in Black. Pentatónica menor.
+4. Jimi Hendrix — Voodoo Child. Pentatónica menor.
+5. Joe Perry — Walk This Way. Pentatónica menor.
+6. Jimmy Page — Whole Lotta Love. Pentatónica menor.
+7. Gary Moore — Parisienne Walkways. Pentatónica menor.
+8. "Cinco escuelas. Una escala. No te falta una escala nueva: te falta exprimir ésta."
+9. **CTA:** "Comentá PENTA y te paso el mapa de las 5 cajas gratis. Guardalo 📌"
 
 ### Carrusel 2 — "Los 4 ingredientes del sabor" (el método sin regalarlo entero)
 1. **Hook:** "Tu solo no suena 'escolar' por falta de notas. Le faltan estos 4 ingredientes."
-2. EL BENDING — no es adorno: es CANTAR con la cuerda. Con destino, afinado.
-3. EL VIBRATO — tu firma. Es lo primero que delata si sos amateur o pro.
-4. EL ESPACIO — el silencio es parte de la frase. B.B. King vivía de esto.
-5. LA DINÁMICA — no todo al mismo volumen: susurrar, hablar, gritar.
-6. "Las notas son el 20%. Estos 4 son el 80%. Y casi nadie los practica."
-7. **CTA:** "¿Cuál te falta más? Contame abajo 👇 Guardalo para tu próxima práctica 📌"
+2. **Placa 2:** "Guitarrista de rock: a tu solo no le falta técnica. Le falta esto — y no es más
+   escalas."
+3. EL BENDING — no es adorno: es CANTAR con la cuerda. Con destino, afinado.
+4. EL VIBRATO — tu firma. Es lo primero que delata si sos amateur o pro.
+5. EL ESPACIO — el silencio es parte de la frase. B.B. King vivía de esto.
+6. LA DINÁMICA — no todo al mismo volumen: susurrar, hablar, gritar.
+7. "Las notas son el 20%. Estos 4 son el 80%. Y casi nadie los practica."
+8. **CTA:** "¿Cuál te falta más? Contame abajo 👇 Guardalo para tu próxima práctica 📌"
 
 ### Carrusel 3 — "5 mentiras que te tienen trabado" (resumen de las creencias)
 1. **Hook:** "5 mentiras que te tienen tocando igual que hace 2 años."
-2. "Necesito más escalas" → FALSO. Page hizo una carrera con una.
-3. "Necesito mejor equipo" → FALSO. El sabor está en los dedos.
-4. "Tengo que tocar rápido" → FALSO. Gilmour te hace llorar lento.
-5. "Necesito estudiar 4 horas" → FALSO. 20 min con orden le ganan.
-6. "Me faltan licks" → FALSO. Te falta espacio, bending y vibrato.
-7. "Lo que sí necesitás: un mapa, un orden y sabor. En ese orden."
-8. **CTA:** "Comentá SOLO y te cuento cómo lo trabajo. Guardalo 📌"
+2. **Placa 2:** "Si tocás guitarra de rock y sentís que no avanzás hace tiempo, una de estas 5 es
+   la razón."
+3. "Necesito más escalas" → FALSO. Page hizo una carrera con una.
+4. "Necesito mejor equipo" → FALSO. El sabor está en los dedos.
+5. "Tengo que tocar rápido" → FALSO. Gilmour te hace llorar lento.
+6. "Necesito estudiar 4 horas" → FALSO. 20 min con orden le ganan.
+7. "Me faltan licks" → FALSO. Te falta espacio, bending y vibrato.
+8. "Lo que sí necesitás: un mapa, un orden y sabor. En ese orden."
+9. **CTA:** "Comentá SOLO y te cuento cómo lo trabajo. Guardalo 📌"
+
+> 💡 **Idea de Nico, no aplicada todavía (opcional, no bloquea nada):** cada una de las 5 mentiras
+> podría ser su propio reel o carrusel individual, en vez de las 5 juntas acá — más contenido, mismo
+> material de base. Es una forma de "estirar" este carrusel en 5 piezas de continuidad para la
+> semana 5 en adelante (`memoria/05` §34), no una corrección al que ya está escrito. Queda como
+> opción para cuando Feli decida si quiere producir las 5 piezas sueltas — el carrusel de acá arriba
+> sigue siendo válido tal cual está mientras tanto.
 
 ### Carrusel 4 — "Anatomía de un solo que emociona" (gemelo del solo "bien" del video 5)
 1. **Hook:** "Por qué el solo de un pro te emociona y el tuyo no. Anatomía en 5 slides."
-2. ARRANCA con una frase — pregunta y respuesta. No con una escala.
-3. RESPIRA — notas largas, espacio. La tensión se construye esperando.
-4. SUBE con intención — cada bending llega a una nota real, no 'más o menos'.
-5. CORRE al final — la velocidad emociona SOLO si se hizo esperar.
-6. CIERRA en casa — la tónica. El oído descansa, la frase 'resuelve'.
-7. **CTA:** "Esto se aprende en orden. Comentá PENTA por el mapa gratis. Guardalo 📌"
+2. **Placa 2:** "Guitarrista de rock: esto es lo que separa un solo que emociona de uno que se
+   olvida apenas termina."
+3. ARRANCA con una frase — pregunta y respuesta. No con una escala.
+4. RESPIRA — notas largas, espacio. La tensión se construye esperando.
+5. SUBE con intención — cada bending llega a una nota real, no 'más o menos'.
+6. CORRE al final — la velocidad emociona SOLO si se hizo esperar.
+7. CIERRA en casa — la tónica. El oído descansa, la frase 'resuelve'.
+8. **CTA:** "Esto se aprende en orden. Comentá PENTA por el mapa gratis. Guardalo 📌"
 
 > **Orden de publicación sugerido:** cada carrusel sale la semana del reel gemelo (Carrusel 1 con el
 > video 5, Carrusel 2 en semana de video de sabor, etc.). Refuerzan el mismo mensaje en dos formatos.
@@ -676,5 +705,108 @@ de 4 avatares reales encuestados. Si en algún momento se quiere completar espec
 columna de **miedos** y **creencias limitantes** en el mismo formato de tabla, correr el prompt
 usando esos datos reales en vez de inventar — sería lo próximo a hacer con esta herramienta, no
 está hecho todavía.
+
+---
+
+## 39) FEEDBACK REAL DE NICO SOBRE EL CONTENIDO YA PRODUCIDO (11/9, devolución de la clase)
+
+> Nico revisó el contenido real (reels + guiones) en la mentoría y dio devolución directa — **es la
+> biblia del proyecto, se aplica tal cual.** Feli todavía no tiene el replay completo con la
+> transcripción de la clase (lo va a subir cuando lo tenga) — esto es lo que compartió de memoria
+> propia apenas salió de la sesión. Lo de abajo es lo verificado y accionable hasta acá; **se amplía
+> cuando llegue el resto — no dar esta ronda por cerrada.**
+
+### ✅ Carpeta "AL 100" — 4 reels aprobados sin cambios
+Nico los puso en una carpeta separada, etiquetada **"contenido de valor"**, y dijo textual "buen
+trabajo": no tocar nada de estos 4, quedan cerrados tal cual están.
+- #3 — "¿Hay que tocar rápido para sonar rockero?" (creencia 2)
+- #4 — "¿Cuántas escalas necesitás para sonar a rock?" (creencia 1)
+- #5 — "¿La pentatónica menor es de principiantes?" (creencia 3)
+- #6 — "Tus solos no respiran" / "no necesitan más notas" (creencia 6, espacio)
+
+> Los 4 son exactamente los 4 Formato C más fuertes del stock — confirma que el molde de 5
+> movimientos (`memoria/03` §5) funciona tal cual está diseñado. No hace falta iterar el molde.
+
+### 🟡 Vendedor "Como que desaparece" → reclasificado como pieza de Campaña de Mensajes (DMs)
+Nico lo categorizó como material para la **Campaña de Mensajes** (el ads de DMs del Tracker,
+`memoria/00` §0-BIS y `memoria/05` §35 punto 11): "está bien, puede mejorar". No es una crítica al
+guion — es decirle DÓNDE vive: no es contenido orgánico de la secuencia de los 15, es creativo de
+anuncio para cuando arranque esa campaña (M4V/M6V). Afina lo que ya decía `memoria/04` §23
+(vendedor = conversión pura, para el 3% listo, se publica después de tener autoridad): ni siquiera
+hace falta esperar a publicarlo orgánico primero — su lugar natural es directamente el ad.
+
+### 🔴 Epifanía — "no es una epifanía del todo", pendiente el documento real de Nico
+Sin más detalle todavía. Feli no recuerda el motivo exacto y va a subir el guion/documento que Nico
+usó como referencia para comparar contra el nuestro (`memoria/04` §35) antes de tocar nada. **No
+inventar la corrección sin ese documento** — puede ser un tema de estructura (falta el detalle
+concreto que hace a una epifanía una epifanía, y no una moraleja) o puede ser otra cosa. Lo único
+confirmado por ahora: **como está, no entra** entre los 15 — hay que reemplazarla o corregirla, pero
+todavía no se sabe cuál de las dos.
+
+### 🔴 Reel Fijado — ¿tendría que ser el posteo de 2 pasos, reformulado como "entrenamiento gratuito"?
+Nico sugirió que el Fijado (el que queda anclado arriba del perfil) debería ser el de 2 pasos —
+pineado, y presentado como un **"entrenamiento gratuito"**, en vez de la pieza muda de 30 seg
+tocando que tenemos diseñada (`memoria/04` §26). Cambiaría bastante el rol del Fijado: de "prueba
+de que sabés tocar" (autoridad pura, sin pedir nada) a "la puerta de entrada que canjea el lead
+magnet" (captación). **Feli mismo dijo que lo tiene que chequear** — no está confirmado al 100%, así
+que el plan actual (`memoria/04` §26 + `memoria/05` §34, ítem 1 del Día 0) sigue vigente hasta que
+lo confirme. Si se confirma: falta pensar qué es exactamente el "entrenamiento gratuito" (¿el PDF
+del mapa de las 5 cajas alcanza, o hace falta un mini-video/clase corta?) — no asumir todavía cuál.
+
+### ✅ Regla nueva aplicada: nombrar el nicho explícitamente
+Nico: mínimo decir "guitarrista" o "Guitarrista de Rock" en el contenido — "guitarrista de rock"
+probablemente rinde mejor ("garpa mejor"). Motivo, con el mismo ejemplo que usó para los carruseles
+(ver abajo): contenido genérico como "5 mentiras que te tienen trabado" podría leerse como dirigido
+a un pianista, un bajista o un tecladista si nunca se nombra el instrumento/nicho. **Ya aplicado** en
+los 4 carruseles (`memoria/05` §22) — pendiente revisar el resto del stock sin producir todavía
+(StoryTelling, 2 pasos) la próxima vez que se retoquen antes de fotografiar/diseñar.
+
+### ✅ Video #2 ("5 acordes de la pentatónica para funkear tus solos") — le faltaba contexto
+Nico: suma, pero no tanto ("medio que suma pero no tanto") — y el problema de fondo, a diferencia de
+los 4 "al 100", es que Feli **enseñó y tocó, pero no le dijo al alumno qué problema le soluciona**.
+Es Formato A (demostración pura): no tiene el movimiento de "creencia atacada" que sí tienen los
+otros, y por eso necesita la contextualización en otro lado — el copy. No requiere regrabar.
+
+> Draft de copy contextualizado para el posteo — **ajustalo a lo que realmente se ve en el video, no
+> tengo el metraje, esto es un punto de partida, no una transcripción de lo filmado:**
+>
+> 🎸 Pensás la pentatónica menor como una escala para solear. Y te quedás ahí.
+>
+> Pero la misma caja que usás para tus licks también te arma **acordes** — dobles cuerdas,
+> intervalos que podés tocar con ritmo, con groove, con funk. No es una escala más: es una caja de
+> herramientas que todavía no abriste entera.
+>
+> Estos son 5 acordes que salen de la pentatónica que ya sabés. Mismo mapa, otro uso.
+>
+> Comentá SOLO y te cuento cómo se conecta esto con el resto del método 📩
+
+> **Orden de publicación:** Feli lo va a subir primero. Esto **reordena** el plan vigente de
+> `memoria/05` §34 (Día 0 = Fijado + #9 + Epifanía) — queda sin confirmar si #2 reemplaza a uno de
+> esos tres o se suma como un cuarto posteo del Día 0. Anotado como pendiente, no asumido.
+
+### ✅ Reglas nuevas de carrusel — aplicadas ya en `memoria/05` §22
+1. **El hook va en la slide 1, y se repite reformulado en la slide 2.** Motivo real, no estético:
+   Instagram a veces muestra la slide 2 como portada del carrusel en vez de la 1 (le pasa a Feli
+   mismo con cuentas que sigue) — si el hook vive solo en la 1, ese carrusel pierde el gancho.
+   **Esto confirma y le da el mecanismo al hallazgo #2 que ya estaba anotado en `memoria/05` §36**
+   ("Carrusel Didáctico pide una Placa 2 de Replanteo + Promesa entre el gancho y el desarrollo") —
+   era un hueco estructural detectado auditando el PDF de plantillas de Nico, y ahora Nico lo
+   confirmó en vivo con el motivo real detrás.
+2. **Mencionar el nicho explícitamente** en esa misma slide 2, sobre todo en los carruseles cuyo
+   contenido podría aplicar a cualquier instrumento (el ejemplo que dio Nico: "5 mentiras que te
+   tienen trabado" le serviría igual a un pianista o un bajista si no se nombra "guitarrista de
+   rock").
+
+**Los 4 carruseles ya están reescritos con la slide 2 nueva** — texto completo actualizado en
+`memoria/05` §22.
+
+### 💡 Idea de Nico, no aplicada todavía (opcional)
+Cada "mentira" del Carrusel 3 podría ser su propio reel o carrusel individual, en vez de las 5
+juntas en 7-8 slides. Detalle y decisión pendiente, documentado directo en `memoria/05` §22 junto
+al carrusel — no se dividió, queda como opción de continuidad para más adelante.
+
+### Pendiente real
+Feli va a mandar el resto de la devolución cuando tenga el replay completo de la clase (transcripto
+con una app). **Esta sección se amplía en la próxima ronda, no se considera cerrada.**
 
 ---

@@ -336,3 +336,39 @@ en partes iguales tampoco cierra matemáticamente — es una razón más para no
 por pilar sin volver a mirar el calendario completo.
 
 ---
+
+## 40) EL PROGRAMA NUNCA SALE DE LA MENOR — hueco real, cerrado liviano en El Vuelo (11/9)
+
+> Feli, saliendo de la devolución de contenido de Nico (ver `memoria/05` §39): **"mi método NO SALE
+> DE LA MENOR — estaría bueno tirarle una puntita para que sepa cómo moverse de tonalidad... que
+> haya un proceso simple o micro pasos para eso, que practique al final."** Es un hallazgo propio
+> de Feli, no una instrucción textual de Nico — pero real y verificable contra la fuente: los 3
+> hitos, El Pulso y El Vuelo — el programa **entero** — está anclado en La menor. Ningún ejercicio,
+> backing ni cita real transporta al alumno a otra tonalidad en ningún momento de las 12 semanas.
+
+**Por qué el programa está diseñado así, y por qué esa decisión no se toca:** aprender una técnica
+nueva y cambiar de tonalidad al mismo tiempo es aprender dos cosas a la vez — el mismo principio
+que ya sostiene el resto del programa (aislar la variable nueva antes de variarla, ver rondas de
+`memoria/10` §32-§33). Mover el programa entero a varias tonalidades sería contenido nuevo real,
+fuera de alcance para este ciclo de 12 semanas — no es lo que Feli está pidiendo.
+
+**Lo que Feli pide es más chico: un puntero, no un módulo.** "Una puntita", "al final", "un proceso
+simple" — no pide enseñar a transportar el programa completo, pide que el alumno termine sabiendo
+que **puede** hacerlo, con una idea concreta de cómo arrancar solo.
+
+**Dónde va, y por qué ahí:** NO adentro de los 4 micro-pasos de El Vuelo (5.1-5.4) — esos son
+demostración de lo ya aprendido, cero contenido nuevo, por la misma razón que ya se sacó de ahí el
+targeting de acordes (§28-QUINQUIES arriba, segunda corrección). Va como cierre **después** del
+examen, mismo lugar y mismo tono que "Y después de esto, explorá" al final de El Vocabulario
+(`memoria/10` §33, decimosexta ronda): optativo, no evaluado, una puerta entreabierta en vez de
+una clase.
+
+> ✅ **HECHO (11/9).** Agregado a `Guia-El-Vuelo-Pilar5.pdf` (`scripts/build_el_vuelo.py`), después
+> del examen y de la caja de cierre: la idea de que la caja 1 es una FORMA movible (no "La menor"
+> en sí), un proceso de 3 pasos (encontrar la tónica de la nueva tonalidad en la 6ª cuerda · plantar
+> la caja 1 entera ahí · tocar ahí, de oído, un lick que ya sea propio) y la sugerencia de arrancar
+> por Mi menor (cuerdas al aire a favor, muy pisada en rock). Sin tablatura nueva — es texto y una
+> referencia de trastes en la 6ª cuerda, no ejercicios — así que no hace falta transcripción ni
+> auditoría de cajas. Verificado con `pdfinfo`: el documento sigue en 2 páginas.
+
+---

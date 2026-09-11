@@ -50,6 +50,19 @@
 > **Pendiente real que esto abre:** el Pilar 5 no tiene material propio todavía (los 4 cuadernillos
 > existentes cubren los pilares 1 a 4) — es contenido nuevo a diseñar, no solo una etiqueta.
 
+> 🔴 **MÁS RECIENTE TODAVÍA (11/9) — Nico dio devolución real sobre el contenido ya filmado.**
+> Detalle completo en `memoria/05` §39 (el review pieza por pieza) y `memoria/02` §40 (el hueco de
+> tonalidad que encontró Feli en la misma conversación). Resumen de una línea: 4 reels aprobados
+> "al 100" sin tocar (#3, #4, #5, #6) · el vendedor "Como que desaparece" se reclasifica como
+> creativo de Campaña de Mensajes, no posteo orgánico · Epifanía y Fijado tienen preguntas abiertas
+> (esperando un documento de Nico y una confirmación de Feli, respectivamente — no resolver solo)
+> · regla nueva de nicho explícito ("guitarrista de rock") y regla nueva de carrusel (hook en
+> slide 1 Y 2, reformulado) ya aplicadas en `memoria/05` §22 · Video #2 tiene copy nuevo
+> contextualizado, a confirmar el orden de publicación · se agregó un cierre optativo a
+> `Guia-El-Vuelo-Pilar5.pdf` sobre cómo moverse de tonalidad (el programa entero es en La menor, a
+> propósito, pero el alumno se va con un puntero de cómo transportarlo). **Falta la devolución
+> completa** — Feli va a subir el replay transcripto de la clase. No dar esta ronda por cerrada.
+
 ## 0) ESTADO ACTUAL DEL PROYECTO
 
 - **Modelo de negocio:** método FLOW de Nico Galliussi — pasar de clases 1 a 1 a un

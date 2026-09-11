@@ -128,5 +128,39 @@ S.append(caja_oscura(
     '"está muy bueno". Este solo es la prueba de que dejaste de repetir lo mismo de siempre — y '
     'ese es el punto de partida de todo lo que sigue. · %s</font>' % IG, W))
 
+# ============================================================ 6. UNA COSA MÁS (optativo, no se evalúa)
+S.append(Spacer(1, 14))
+S.append(Paragraph("UNA COSA MÁS: TODO ESTO LO HICISTE EN UNA SOLA TONALIDAD", H2))
+S.append(Paragraph(
+    "Los tres hitos, El Pulso, El Vuelo — el programa entero lo recorriste en La menor. Es a propósito: "
+    "aprender una técnica nueva y cambiar de tonalidad al mismo tiempo es aprender dos cosas a la vez, y "
+    "por eso el programa nunca te lo pidió.", BODY))
+S.append(Paragraph(
+    "Pero antes de dar el mástil por cerrado, esto vale tres minutos: la caja 1 que tenés en la mano no "
+    "es \"La menor\" — es una <b>forma</b>. Movés el punto de partida y tenés la misma forma, con los "
+    "mismos dedos, en otra tonalidad.", BODY))
+S.append(tabla([
+    [Paragraph("<b>1</b>", CELLB), Paragraph(
+        "Encontrá la tónica de la nueva tonalidad en la 6ª cuerda. Referencia rápida: Mi = al aire "
+        "(o traste 12) · Sol = traste 3 · La = traste 5 (tu casa de siempre) · Si = traste 7 · "
+        "Re = traste 10.", CELL)],
+    [Paragraph("<b>2</b>", CELLB), Paragraph(
+        "Plantá ahí la caja 1 entera — las mismas distancias entre dedos, el mismo dibujo. Se mueve "
+        "en bloque.", CELL)],
+    [Paragraph("<b>3</b>", CELLB), Paragraph(
+        "Elegí UN lick que ya sea tuyo (de El Vocabulario) y tocalo ahí, de oído. No hay tablatura "
+        "nueva que leer — es la misma que ya sabés, parada en otro lugar.", CELL)],
+], [0.8 * cm, W - 0.8 * cm]))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "Probá primero en Mi menor: tiene cuerdas al aire a favor y es una de las tonalidades más pisadas "
+    "del rock, así que lo que toques ahí se va a sentir familiar más rápido que en cualquier otra.", SMALL))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "No hace falta que te salga perfecto, y no hace falta que sea hoy. No es un ejercicio del programa "
+    "ni se evalúa en el solo final — es la misma lógica de \"Y después de esto, explorá\" con la que "
+    "cierra El Vocabulario, aplicada a moverte de tonalidad en vez de a otro recurso. Es la puerta que "
+    "dejás entreabierta.", SMALL))
+
 doc.build(S)
 print("OK Guia-El-Vuelo-Pilar5.pdf")
