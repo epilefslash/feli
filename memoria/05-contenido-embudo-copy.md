@@ -735,13 +735,19 @@ anuncio para cuando arranque esa campaña (M4V/M6V). Afina lo que ya decía `mem
 (vendedor = conversión pura, para el 3% listo, se publica después de tener autoridad): ni siquiera
 hace falta esperar a publicarlo orgánico primero — su lugar natural es directamente el ad.
 
-### 🔴 Epifanía — "no es una epifanía del todo", pendiente el documento real de Nico
-Sin más detalle todavía. Feli no recuerda el motivo exacto y va a subir el guion/documento que Nico
-usó como referencia para comparar contra el nuestro (`memoria/04` §35) antes de tocar nada. **No
-inventar la corrección sin ese documento** — puede ser un tema de estructura (falta el detalle
-concreto que hace a una epifanía una epifanía, y no una moraleja) o puede ser otra cosa. Lo único
-confirmado por ahora: **como está, no entra** entre los 15 — hay que reemplazarla o corregirla, pero
-todavía no se sabe cuál de las dos.
+### ✅ Epifanía — "no es una epifanía del todo", RESUELTO (Feli subió el documento real de Nico)
+Feli subió `MODULO_3_COMPLETO_Todos_los_PDF_unidos.pdf` (76 páginas) con la hoja real "Posteos de
+Epifanía". Se confirmó el motivo exacto: nuestra versión (`memoria/04` §35) es un guion corto,
+hablado, sin CTA, sin atacar ninguna creencia puntual — eso, en el marco de Nico, es la categoría
+**StoryTelling / momentos vulnerables** (mód. 12 InstaMúsico, punto 2 más abajo), no Epifanía. Su
+Epifanía real es un **post de copy largo** (formato "Reel B-Roll + Copy": el video es de fondo, casi
+mudo) con estructura fija de 8 partes — ataca una creencia falsa del nicho, la prueba con tu
+historia, y **cierra con CTA** (justo lo que nuestra versión sacaba a propósito).
+
+**Reescrito con la estructura real, misma historia verificada de Feli, ver `memoria/04` §35-BIS**
+para el texto completo. La versión vieja queda como candidata para StoryTelling (no se pierde,
+cambia de categoría). Pendiente solo la confirmación de Feli sobre si graba las dos piezas o
+prioriza la nueva.
 
 ### 🔴 Reel Fijado — ¿tendría que ser el posteo de 2 pasos, reformulado como "entrenamiento gratuito"?
 Nico sugirió que el Fijado (el que queda anclado arriba del perfil) debería ser el de 2 pasos —

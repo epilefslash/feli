@@ -577,17 +577,26 @@ fondo; "Como que desaparece" si preferís un video a cámara, sin tocar, todo en
 
 ---
 
-## 35) GUION EPIFANÍA — "El día que se me cayó la ficha" (categoría nueva, pedida por Nico) — CERRADO
+## 35) GUION EPIFANÍA — "El día que se me cayó la ficha" — RECLASIFICADO (11/9), ver la versión real más abajo
 
-> **Por qué existe:** la Hoja de Ruta de Nico pide **1 posteo de Epifanía** entre los primeros 15, y
-> es una categoría que no existía en nuestro marco (teníamos A / B / C / P / V). No es lo mismo que
-> TU HISTORIA (#11): la Historia es el **arco completo** de 60 seg (11 años → facultad → estancamiento
-> → quiebre → hoy). La Epifanía es **un instante**, contado en cámara lenta.
-> **Duración real:** el guion original pedía 20-28 seg. Con el recuerdo real de Feli (2/9) esto se
-> estira a **~30-35 seg** — no es un problema, es más importante que sea honesto y completo que
-> cumplir un número. **Formato:** hablado a cámara, sin backing (o clima casi inaudible).
-> **Función:** instala LA TESIS DEL MÉTODO ("el mástil es un mapa, no cinco cajas") sin enseñar nada
-> y sin vender nada.
+> 🔴 **Actualización (11/9): esta sección quedó desactualizada. Nico dijo en la devolución de contenido
+> que "no es una epifanía del todo" — Feli subió el documento real de Nico
+> (`MODULO_3_COMPLETO_Todos_los_PDF_unidos.pdf`, hoja "Posteos de Epifanía") y se verificó por qué: el
+> molde de abajo (personal, un instante, sin CTA) responde a OTRA categoría del marco de Nico
+> (StoryTelling — "momentos vulnerables", mód. 12 de InstaMúsico, `memoria/05` §35 punto 2), no a
+> "Epifanía". El molde real de Epifanía es un post-ensayo persuasivo de estructura fija (ataca una
+> creencia falsa del nicho, la prueba con tu historia, revela la solución, cierra con CTA) — mucho
+> más parecido a nuestro propio Formato C (`memoria/03` §5) llevado a copy largo. **La versión nueva,
+> correcta, está en la sección 35-BIS.** Esta sección se deja como referencia — el guion de abajo
+> sigue siendo un buen candidato para StoryTelling 3 ("momentos vulnerables"), no para el posteo de
+> Epifanía de los primeros 15.
+
+> **Por qué existía:** la Hoja de Ruta de Nico pide **1 posteo de Epifanía** entre los primeros 15, y
+> es una categoría que no existía en nuestro marco (teníamos A / B / C / P / V). Se pensó como
+> distinta de TU HISTORIA (#11, el arco completo de 60 seg) — un instante, contado en cámara lenta.
+> **Formato pensado:** hablado a cámara, sin backing. **Función buscada:** instalar la tesis del
+> método sin enseñar nada y sin vender nada — ese último punto es justo el que contradice el molde
+> real de Nico, que sí pide CTA.
 
 ### ✅ Cerrado el 2/9, sobre el recuerdo real de Feli — no sobre un profesor con una frase
 El guion original pedía una escena de un solo profesor diciendo una frase textual. Feli lo intentó
@@ -661,6 +670,89 @@ que existe solo para que te entiendan. Como mucho, en el copy: *"¿Vos en qué c
 > ¿Vos en qué caja vivís? Contame 👇
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
+
+---
+
+## 35-BIS) EPIFANÍA REAL, SEGÚN LA PLANTILLA DE NICO (verificado contra su documento, 11/9)
+
+> **Fuente:** `MODULO_3_COMPLETO_Todos_los_PDF_unidos.pdf`, hoja "Posteos de Epifanía" — texto
+> propio de Nico, no una interpretación. Reemplaza a la sección 35 como el posteo de Epifanía real
+> de los primeros 15.
+
+### Qué es, según Nico (y por qué es distinto a lo que armamos antes)
+Un **post de copy largo** (formato "Reel B-Roll + Copy Epifanía": el video/foto es de fondo, casi
+mudo — la sustancia está en el texto), estructurado como un ensayo persuasivo de 8 partes que ataca
+una **creencia falsa común del nicho**, la prueba con tu historia real, y **cierra con CTA** — la
+promesa de la bio + un llamado a la acción específico. Nada de esto estaba en nuestra versión vieja
+(que era corta, hablada, sin CTA, sin atacar ninguna creencia puntual).
+
+**La estructura exacta (textual del documento de Nico):**
+1. **Gancho** — controversial ("todo el mundo dice X, pero la verdad es Y") / observación ("estoy
+   viendo mucho X") / pregunta ("¿estás harto de...?").
+2. **Resaltar la creencia más común** — "esto es lo que piensa la mayoría..."
+3. **Defender tu posición** — "estoy a punto de mostrarte por qué esto no funciona, y qué hacer."
+4. **Probarlo** — tu historia real (o de un alumno/tercero), con argumentos lógicos y emocionales.
+5. **Consecuencias** de seguir creyendo esa creencia — el daño real que causa.
+6. **Revelar la solución** — qué hiciste vos para resolverlo, y cómo cambió tu forma de tocar/vivir.
+7. **Conclusión/lección** — resumen de beneficios + una tarea de acción concreta, para hoy mismo.
+8. **Cierre** — promesa de valor de la bio + CTA específico.
+
+Máximo 3 oraciones por sección. Foto o video de autoría propia (no genérico), amigable y real.
+
+### La creencia que ataca (nuestra Epifanía, reescrita)
+La creencia falsa del nicho, en nuestro caso, es exactamente la que ya veníamos usando en el guion
+viejo: **"si aprendés las 5 cajas de la pentatónica, una por una, ya sabés improvisar por todo el
+mástil."** Es falsa porque aprenderlas por separado no enseña a moverse ENTRE ellas — y es la razón
+real por la que Feli se quedó años estancado en la caja 1 a pesar de saberlas las cinco. El material
+real (la historia de sacar de oído, el profesor que lo obligaba a improvisar, ver a Slash y Page
+moverse en diagonal, la frase "¿cómo no me di cuenta antes de que se podían unir?") se conserva
+intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con estructura de 8 partes.
+
+### El copy, según la plantilla real
+
+> 🎸 Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la
+> primera.
+>
+> La mayoría de los guitarristas cree que alcanza con dominar cada caja por separado — que si te
+> sabés las cinco, ya está, ya podés improvisar por todo el mástil.
+>
+> ⚠️ El problema con esto es que aprender las cajas una por una nunca te enseña a moverte ENTRE
+> ellas. Podés sabértelas de memoria las cinco y seguir atrapado en una sola. A mí me pasó.
+>
+> Durante mi formación, tenía las cinco cajas estudiadas. Las cinco. Y cuando improvisaba, no me
+> movía de la primera. No fue una persona ni una clase puntual la que me lo destrabó — fue de a
+> poco, terminando el secundario: sacando temas de oído, mirando videos, con un profesor que me
+> obligaba a improvisar, no me quedaba otra. Y viendo que Slash y Jimmy Page no se quedaban pegados
+> en una caja: se movían en diagonal, conectaban todo el mástil. Y un día se me cayó la ficha:
+> ¿cómo no me di cuenta antes de que se podían unir?
+>
+> 😔 Si seguís creyendo que las cajas van una por una, te va a pasar lo que me pasó a mí: años
+> sabiendo mucho y sonando siempre igual. Con las cinco cajas en la cabeza y una sola en las manos.
+>
+> ✅ No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas. Desde ese día
+> empecé a moverme distinto: horizontal, diagonal, no solo de arriba a abajo. Por eso hoy, cuando
+> enseño, siempre empiezo por ahí — no por más escalas, por el mapa completo del mástil.
+>
+> 👉 Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, agarrá tu caja de siempre y
+> buscá la nota que comparte con la caja de al lado. Ese es el primer puente.
+>
+> Te enseño a improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja,
+> como un solo mapa. Si te sentís identificado, escribime SOLO 📩
+
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
+
+### Producción (esto SÍ cambia respecto al plan viejo)
+Al ser "Reel B-Roll + Copy", **no hace falta un guion hablado a cámara** — el video/foto es de
+fondo. Sirve directo el material que ya existe o es fácil de conseguir: vos tocando la caja 1,
+después moviéndote en diagonal por el mástil (mudo, o con un clima muy bajo), pensativo entre toma
+y toma. Más simple de filmar que la versión vieja, porque el peso está en el texto, no en la
+actuación a cámara.
+
+> ⚠️ **Pendiente de confirmar con Feli antes de dar esto por cerrado:** esta reescritura usa la
+> misma historia real ya verificada (sección 35), solo cambia la estructura y agrega el CTA que
+> antes se sacó a propósito. Si Feli prefiere mantener la versión corta hablada como parte del
+> stock (reclasificada a StoryTelling, ver nota arriba) y grabar esta nueva además, no en vez de,
+> ambas caben en el plan — son categorías distintas del marco de Nico.
 
 ---
 
