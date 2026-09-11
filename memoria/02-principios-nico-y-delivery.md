@@ -337,7 +337,7 @@ por pilar sin volver a mirar el calendario completo.
 
 ---
 
-## 40) EL PROGRAMA NUNCA SALE DE LA MENOR — hueco real, cerrado liviano en El Vuelo (11/9)
+## 40) EL PROGRAMA NUNCA SALE DE LA MENOR — hueco real, cerrado liviano en El Vuelo (11/9, ampliado el mismo día)
 
 > Feli, saliendo de la devolución de contenido de Nico (ver `memoria/05` §39): **"mi método NO SALE
 > DE LA MENOR — estaría bueno tirarle una puntita para que sepa cómo moverse de tonalidad... que
@@ -363,12 +363,41 @@ examen, mismo lugar y mismo tono que "Y después de esto, explorá" al final de 
 (`memoria/10` §33, decimosexta ronda): optativo, no evaluado, una puerta entreabierta en vez de
 una clase.
 
-> ✅ **HECHO (11/9).** Agregado a `Guia-El-Vuelo-Pilar5.pdf` (`scripts/build_el_vuelo.py`), después
-> del examen y de la caja de cierre: la idea de que la caja 1 es una FORMA movible (no "La menor"
-> en sí), un proceso de 3 pasos (encontrar la tónica de la nueva tonalidad en la 6ª cuerda · plantar
-> la caja 1 entera ahí · tocar ahí, de oído, un lick que ya sea propio) y la sugerencia de arrancar
-> por Mi menor (cuerdas al aire a favor, muy pisada en rock). Sin tablatura nueva — es texto y una
-> referencia de trastes en la 6ª cuerda, no ejercicios — así que no hace falta transcripción ni
-> auditoría de cajas. Verificado con `pdfinfo`: el documento sigue en 2 páginas.
+> ✅ **HECHO (11/9), primera versión.** Agregado a `Guia-El-Vuelo-Pilar5.pdf`, después del examen: la
+> idea de que la caja 1 es una FORMA movible, un proceso de 3 pasos y la sugerencia de Mi menor.
+
+### AMPLIACIÓN (misma tarde, pedido explícito de Feli: "investigá bien, trabajo de campo")
+
+Feli pidió un tratamiento más completo, no solo la puntita mínima — con dos ideas propias, ambas
+correctas y verificadas contra teoría musical estándar (no hace falta un script para esto, es
+relación de intervalos y afinación estándar, no una transcripción):
+
+1. **Relativas mayor/menor — la misma caja ya es dos escalas.** La pentatónica menor de La
+   (La-Do-Re-Mi-Sol) y la pentatónica mayor de Do (Do-Re-Mi-Sol-La) son las mismas cinco notas —
+   Do es la relativa mayor de La menor. No hace falta mover un dedo: **cambiar dónde resuelve la
+   frase** (en La vs. en Do) ya cambia el color de menor a mayor sobre la misma forma. Es el paso
+   más barato posible — cero desplazamiento físico — y va primero.
+2. **Tonalidades cercanas antes que lejanas, y "cercana" definido por distancia física en el
+   mástil, no por círculo de quintas.** La propuesta de Feli fue Sol menor y Si menor — verificado:
+   son exactamente las dos tonalidades a **2 trastes** de La (tónica en la 6ª cuerda: Sol = traste
+   3, Si = traste 7, La = traste 5), el salto físico más chico disponible con una tonalidad de uso
+   normal en rock. Se mantiene además Mi menor (al aire) como alternativa "más cómoda" — no es la
+   más cercana en trastes, pero tiene cuerdas sueltas a favor y es la tonalidad menor más común de
+   todo el rock, así que se ofrecen las dos rutas en vez de una sola.
+
+**Dónde queda, después de pensarlo con la tensión que el propio Feli señaló** ("Nico dijo que El
+Vuelo es sobre todo poner en práctica lo aprendido... pero dado ese encuentro estaría bueno poder
+cubrirlo"): la decisión que tomé, con el "tomá vos la decisión" que dio Feli, fue **no** meterlo
+adentro del examen ni de los 4 micro-pasos evaluados (mismo motivo que el targeting de acordes,
+arriba) — pero **sí** dejar una línea optativa en la consigna de LA SESIÓN EN VIVO ("si el grupo lo
+pide o sobra tiempo, repetir la consigna en Sol menor o Si menor"), justo porque es un encuentro en
+vivo y el pedido de Feli reconocía ese lugar como el natural para que surja. Sigue sin ser
+obligatorio ni evaluado — es una opción que el profesor puede ofrecer si el momento se presta,
+igual que el resto del documento.
+
+> ✅ **HECHO (11/9), versión ampliada.** `Guia-El-Vuelo-Pilar5.pdf` regenerado: la sección de cierre
+> ahora tiene 2 pasos (relativas primero, mover la forma después) con la tabla de trastes
+> actualizada, y la sesión en vivo suma la línea optativa de Sol/Si menor. Documento pasó de 2 a
+> **3 páginas** (verificado con `pdfinfo`). Sigue sin tablatura nueva.
 
 ---

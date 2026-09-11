@@ -100,6 +100,11 @@ S.append(Spacer(1, 4))
 S.append(Paragraph(
     "No hay una forma correcta de hacerlo. Lo único que se evalúa es si escuchaste, no si tocaste "
     "bien.", SMALL))
+S.append(Spacer(1, 4))
+S.append(Paragraph(
+    "<i>Optativo, solo si el grupo lo pide o sobra tiempo:</i> repetir la misma consigna una vuelta "
+    "en Sol menor o Si menor. No es parte de la consigna evaluada — es una forma de estirar, en vivo, "
+    "la idea de \"Cambiar de tonalidad\" del cierre de este documento, si el momento se presta.", SMALL))
 
 # ============================================================ 5. EL EXAMEN
 S.append(Paragraph("EL EXAMEN: TU SOLO FINAL", H2))
@@ -130,20 +135,36 @@ S.append(caja_oscura(
 
 # ============================================================ 6. UNA COSA MÁS (optativo, no se evalúa)
 S.append(Spacer(1, 14))
-S.append(Paragraph("UNA COSA MÁS: TODO ESTO LO HICISTE EN UNA SOLA TONALIDAD", H2))
+S.append(Paragraph("UNA COSA MÁS: CAMBIAR DE TONALIDAD", H2))
 S.append(Paragraph(
     "Los tres hitos, El Pulso, El Vuelo — el programa entero lo recorriste en La menor. Es a propósito: "
     "aprender una técnica nueva y cambiar de tonalidad al mismo tiempo es aprender dos cosas a la vez, y "
-    "por eso el programa nunca te lo pidió.", BODY))
+    "por eso el programa nunca te lo pidió. Pero si llegaste hasta acá con el mapa bien puesto, esto no "
+    "es tan difícil como suena — son dos pasos, y el primero ni siquiera mueve la mano.", BODY))
+
+S.append(Paragraph("PASO 1 — LA MISMA CAJA YA ES DOS ESCALAS", H2))
 S.append(Paragraph(
-    "Pero antes de dar el mástil por cerrado, esto vale tres minutos: la caja 1 que tenés en la mano no "
-    "es \"La menor\" — es una <b>forma</b>. Movés el punto de partida y tenés la misma forma, con los "
-    "mismos dedos, en otra tonalidad.", BODY))
+    "La pentatónica menor de La (La · Do · Re · Mi · Sol) y la pentatónica mayor de Do (Do · Re · Mi · "
+    "Sol · La) son las mismas cinco notas. Exactamente las mismas. Lo único que cambia es dónde "
+    "resolvés: si tus frases terminan en La, suena a menor — el peso que ya conocés. Si esas mismas "
+    "frases, en la misma caja 1, sin mover un dedo, terminan en Do, suena mayor: más abierta, más "
+    "resuelta.", BODY))
+S.append(Paragraph(
+    "No es una escala nueva. Es la misma escala, mirada con otro final. Es el paso más barato de todo "
+    "este documento — probalo antes que cualquier otra cosa.", SMALL))
+
+S.append(Paragraph("PASO 2 — MOVER LA FORMA, NO INVENTAR UNA", H2))
+S.append(Paragraph(
+    "Para cambiar de tonalidad de verdad (no solo de final, sino de lugar en el mástil), lo que se "
+    "mueve es la FORMA completa — mismos dedos, mismas distancias, otro punto de partida. Conviene "
+    "arrancar por las tonalidades más cerca de La, no por las lejanas: un salto chico todavía se "
+    "siente como la misma forma corrida un poco; uno grande empieza a sentirse como una escala "
+    "distinta, y ahí se pierde el punto de todo esto.", BODY))
 S.append(tabla([
     [Paragraph("<b>1</b>", CELLB), Paragraph(
-        "Encontrá la tónica de la nueva tonalidad en la 6ª cuerda. Referencia rápida: Mi = al aire "
-        "(o traste 12) · Sol = traste 3 · La = traste 5 (tu casa de siempre) · Si = traste 7 · "
-        "Re = traste 10.", CELL)],
+        "Encontrá la tónica de la nueva tonalidad en la 6ª cuerda. Las dos más cerca de tu casa (La, "
+        "traste 5) son Sol menor (2 trastes abajo, traste 3) y Si menor (2 trastes arriba, traste 7) "
+        "— un salto chico, la mano lo reconoce enseguida como el mismo gesto.", CELL)],
     [Paragraph("<b>2</b>", CELLB), Paragraph(
         "Plantá ahí la caja 1 entera — las mismas distancias entre dedos, el mismo dibujo. Se mueve "
         "en bloque.", CELL)],
@@ -153,14 +174,15 @@ S.append(tabla([
 ], [0.8 * cm, W - 0.8 * cm]))
 S.append(Spacer(1, 4))
 S.append(Paragraph(
-    "Probá primero en Mi menor: tiene cuerdas al aire a favor y es una de las tonalidades más pisadas "
-    "del rock, así que lo que toques ahí se va a sentir familiar más rápido que en cualquier otra.", SMALL))
+    "Si preferís la opción más cómoda para arrancar en vez de la más cercana: Mi menor (al aire, "
+    "traste 0) tiene las cuerdas sueltas a favor y es, de lejos, la tonalidad menor más pisada de "
+    "todo el rock — lo que toques ahí va a sonar familiar más rápido que en cualquier otro lado.", SMALL))
 S.append(Spacer(1, 4))
 S.append(Paragraph(
-    "No hace falta que te salga perfecto, y no hace falta que sea hoy. No es un ejercicio del programa "
-    "ni se evalúa en el solo final — es la misma lógica de \"Y después de esto, explorá\" con la que "
-    "cierra El Vocabulario, aplicada a moverte de tonalidad en vez de a otro recurso. Es la puerta que "
-    "dejás entreabierta.", SMALL))
+    "No hace falta que te salga perfecto, y no hace falta que sea hoy. Ninguno de los dos pasos es un "
+    "ejercicio del programa ni se evalúa en el solo final — es la misma lógica de \"Y después de esto, "
+    "explorá\" con la que cierra El Vocabulario, aplicada a moverte de tonalidad en vez de a otro "
+    "recurso. Es la puerta que dejás entreabierta.", SMALL))
 
 doc.build(S)
 print("OK Guia-El-Vuelo-Pilar5.pdf")
