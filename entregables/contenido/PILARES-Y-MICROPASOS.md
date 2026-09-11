@@ -9,7 +9,7 @@
 
 ## Estudiante ideal
 
-Guitarrista hobbista, 28-45 años, mayormente hombre, 2-6 años tocando, autodidacta. Sabe acordes
+Guitarrista hobbista, 28-57 años, mayormente hombre, 2-6 años tocando, autodidacta. Sabe acordes
 abiertos, power chords y la caja 1 de la pentatónica menor. Trabaja de otra cosa y toca 2-4 hs por
 semana en casa. Tiene plata para invertir si ve resultado real.
 
@@ -27,9 +27,11 @@ solos"*.
 
 ---
 
-# LOS 4 PILARES
+# LOS 5 PILARES
 
-Tres secuenciales (un mes cada uno) más uno transversal que corre en paralelo desde el mes 2.
+Tres secuenciales (un mes cada uno), uno transversal que corre en paralelo desde el mes 2 (El
+Pulso), y uno de cierre que integra los cuatro en vivo (El Vuelo) — confirmado por Nico en la
+sesión de programa de valor, son 5, no 3 ni 4.
 
 ## Pilar 1 · EL MAPA — salir de la caja 1
 
@@ -84,6 +86,23 @@ Tres secuenciales (un mes cada uno) más uno transversal que corre en paralelo d
 **Por qué es transversal y no un cuarto mes:** su operación es *agarrá un lick que ya sabés y movelo*,
 así que necesita que el alumno ya tenga licks. Los primeros aparecen en la semana 6.
 
+## Pilar 5 · EL VUELO — soltarte en vivo
+
+*Cierre del programa · sin ejercicios nuevos · el examen final*
+
+| Micro paso | Qué demuestra el alumno (no aprende, ya lo sabe) |
+|---|---|
+| 5.1 | Se mueve libremente por las 5 cajas sin pensar en la posición |
+| 5.2 | El sabor aparece solo — bending, vibrato, espacio, sin planearlo |
+| 5.3 | Mete licks propios sin anunciarlos, con el pulso adentro |
+| 5.4 | Toca con otro músico en vivo: entra, sale, cede protagonismo, lo retoma |
+
+**Entregable:** el mismo solo final de 1 minuto — el examen de los 5 pilares juntos, no uno nuevo.
+
+**Por qué no tiene ejercicios propios:** es la prueba de que los 4 pilares anteriores ya son un
+solo idioma, no piezas sueltas. Reusa la arquitectura del Pilar 3 (ej. 49-53) y suma, después del
+examen, un cierre optativo (no evaluado) sobre cómo transportar el mapa a otra tonalidad.
+
 ---
 
 # EL VEHÍCULO
@@ -118,8 +137,8 @@ programa, esto no es la versión final.
 
 ---
 
-# LA PREGUNTA PARA EL ONBOARDING
+# RESUELTO EN LA MENTORÍA: SON 5 PILARES
 
-**¿Cuatro pilares o tres?** Los tres hitos son secuenciales y están nombrados por resultado, como
-pide el método. El ritmo es real —tiene material propio y cubre un hueco declarado— pero corre en
-paralelo, no es un cuarto mes. ¿Se presenta como pilar o como complemento?
+Esta sección preguntaba "¿4 pilares o 3?". Ya se la llevamos a Nico y la respuesta quedó cerrada:
+son 5 — los 3 hitos secuenciales, El Pulso transversal, y El Vuelo como cierre que integra todo en
+vivo. Tabla actualizada arriba.

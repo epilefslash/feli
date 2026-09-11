@@ -23,8 +23,8 @@ S = []
 S.append(Paragraph("SOLO CON SABOR", MOBILE_H1))
 S.append(Paragraph(
     "Programa grupal de improvisacion en rock sobre la pentatonica menor. 12 semanas, "
-    "cohortes de 4 a 6 alumnos. Este documento es el bloque <b>Estructurar Programa de Alto Valor</b> "
-    "de la hoja de ruta: estudiante ideal, transformacion, pilares, micro pasos y vehiculo.",
+    "grupos de 4 a 6 alumnos. Este documento es el bloque <b>Estructurar Programa de Alto Valor</b> "
+    "de la hoja de ruta: estudiante ideal, transformacion, los 5 pilares, micro pasos y vehiculo.",
     MOBILE_BODY))
 S.append(Spacer(1, 8))
 S.append(caja_oscura(

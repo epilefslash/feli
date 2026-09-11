@@ -14,7 +14,7 @@ vibrato y espacio. **Prueba:** solo propio de 1 min, grabado, que pise mínimo 3
 
 ---
 
-# LOS 4 PILARES
+# LOS 5 PILARES
 
 **1 · EL MAPA** (mes 1) — Salir de la caja 1, conectar las 5 cajas.
 → Video recorriendo todo el mástil.
@@ -27,6 +27,10 @@ vibrato y espacio. **Prueba:** solo propio de 1 min, grabado, que pise mínimo 3
 
 **4 · EL PULSO** (transversal, meses 2-3) — Ritmo: síncopa, el push, repetición. No es un cuarto
 mes, va montado sobre los licks que ya tenés.
+
+**5 · EL VUELO** (cierre) — Sin ejercicios nuevos: tocar con otro en vivo + el examen final. Prueba
+de que los 4 pilares anteriores ya son un solo idioma.
+→ El mismo solo final de 1 min, ahora como examen de todo el programa.
 
 ---
 
@@ -45,9 +49,3 @@ Más: backings propios y 4 solos de referencia elegidos.
 otros 4 documentos sí están auditados en el repo.
 
 **Falta:** grabar el pregrabado, elegir plataforma.
-
----
-
-# LA PREGUNTA PARA NICO
-
-¿4 pilares o 3? El ritmo es real pero corre en paralelo — ¿pilar o complemento?
