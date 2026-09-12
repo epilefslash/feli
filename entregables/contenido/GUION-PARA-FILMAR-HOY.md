@@ -27,24 +27,40 @@ reel, invertí el tiempo que haga falta.
 
 ---
 
-# 2) EPIFANÍA — B-roll + copy, sin líneas para memorizar
+# 2) EPIFANÍA — B-roll + narración en off (corregido 12/9, ver `memoria/04` §35-BIS)
 
-## Qué filmar (no hay que actuar nada, es de fondo)
+> ⚠️ Corrección: "B-roll" no es sinónimo de mudo — significa que no hablás mirando a cámara con
+> sincronía de labios. SÍ lleva voz: una narración grabada aparte, superpuesta sobre las imágenes.
 
-1. **Manos en caja 1**, tocando algo simple y repetitivo — 8-10 seg. Representa el "atascado".
-2. **Vos, pensativo**, mirando el mástil o la guitarra, sin tocar — 3-5 seg. El momento de la
+## Qué filmar (el B-roll, sin actuar nada)
+
+1. **Manos en caja 1**, tocando algo simple y repetitivo — 6 seg. Representa el "atascado".
+2. **Vos, pensativo**, mirando el mástil o la guitarra, sin tocar — 6 seg. El momento de la
    reflexión.
-3. **Manos moviéndose en diagonal** por el mástil, de caja en caja — 10-12 seg. El "después".
-4. *(Opcional)* Vos a cámara, media sonrisa, sin hablar — para el cierre.
+3. **Manos moviéndose en diagonal** por el mástil, de caja en caja — 22 seg. El "después".
+4. Vos a cámara, media sonrisa, sin hablar (la voz sigue en off) — 18 seg, para el cierre.
 
-Clima muy bajo de fondo, o directamente mudo. Sobre el plano 1 o 2 podés poner como texto grande
-superpuesto la frase del gancho — el mismo recurso que usa el ejemplo real de Nico ("Estudiar
-técnica es una pérdida de tiempo" sobre el video). Opciones para vos:
+## La narración (grabala aparte, no hace falta sincronizar labios)
+
+| Tiempo | Decís (voz en off) | Se ve |
+|---|---|---|
+| 0:00–0:06 | "Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la primera." | Manos en caja 1 |
+| 0:06–0:12 | "La mayoría cree que alcanza con dominar cada caja por separado — que si te sabés las cinco, ya podés improvisar por todo el mástil." | Sigue caja 1 / corte a vos pensativo |
+| 0:12–0:18 | "El problema es que aprender las cajas una por una nunca te enseña a moverte ENTRE ellas. A mí me pasó." | Vos pensativo |
+| 0:18–0:32 | "No fue una persona ni una clase puntual — fue de a poco, terminando el secundario, viendo que Slash y Jimmy Page no se quedaban pegados en una caja: se movían en diagonal, conectaban todo el mástil. Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?" | Manos empezando a moverse en diagonal |
+| 0:32–0:40 | "Si seguís creyendo que las cajas van una por una, te va a pasar lo que me pasó a mí: años sabiendo mucho y sonando siempre igual." | Sigue el movimiento en diagonal |
+| 0:40–0:50 | "No me faltaban notas. Me faltaba verlo como un solo mapa. Desde ese día empecé a moverme distinto — horizontal, diagonal, no solo de arriba a abajo." | Manos con más soltura por el mástil |
+| 0:50–0:58 | "Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, buscá la nota que comparte tu caja con la de al lado. Ese es el primer puente." | Corte a cámara, media sonrisa |
+| 0:58–1:08 | "Te enseño a improvisar solos de rock dominando la pentatónica de verdad — no caja por caja, como un solo mapa. Si te sentís identificado, escribime SOLO." | Seguís a cámara, cierre |
+
+**Cómo grabarlo:** filmás el B-roll sin hablar, y aparte grabás la narración leyendo el texto de
+arriba (podés repetirla las veces que necesites hasta que salga natural) — en la edición la ponés
+encima. Opcional: la última línea la podés decir de verdad a cámara, para más conexión personal.
+
+Sobre el plano 1 o 2 podés poner además un texto grande superpuesto con el gancho — el mismo
+recurso que usa el ejemplo real de Nico. Opciones:
 - **"¿Cómo no me di cuenta antes de que se podían unir?"**
 - **"Te sabías las 5 cajas. Y no te movías de la primera."**
-
-No hace falta que quede perfecto ni ensayado — es más fácil de filmar que la versión vieja, porque
-no hay que actuar un guion, solo capturar el gesto real.
 
 ## El copy completo — esto es lo que realmente convence, no el video
 

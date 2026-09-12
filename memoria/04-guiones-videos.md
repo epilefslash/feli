@@ -753,12 +753,25 @@ intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con e
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
-### Producción (esto SÍ cambia respecto al plan viejo)
-Al ser "Reel B-Roll + Copy", **no hace falta un guion hablado a cámara** — el video/foto es de
-fondo. Sirve directo el material que ya existe o es fácil de conseguir: vos tocando la caja 1,
-después moviéndote en diagonal por el mástil (mudo, o con un clima muy bajo), pensativo entre toma
-y toma. Más simple de filmar que la versión vieja, porque el peso está en el texto, no en la
-actuación a cámara.
+### Producción — CORREGIDO (12/9): sí lleva voz, en off sobre el B-roll
+
+> ⚠️ **Error de esta sesión, corregido el 12/9.** Acá decía "no hace falta un guion hablado, el
+> video/foto es de fondo, mudo o con clima muy bajo" — interpretando "B-Roll" como sinónimo de
+> silencioso. Es un error: **"B-roll" quiere decir que no hablás mirando a cámara con sincronía de
+> labios** (no es un talking-head), **no que el video no lleva audio de voz.** Feli subió un
+> documento nuevo de Nico (`epifania_guion.pdf`) con un **"Script del Ejemplo para analizar"** —
+> escrito para leerse/narrarse en voz, no para quedar mudo — y recordó que en la devolución de la
+> clase Nico dijo textual que había que hablar. Las dos señales coinciden: el formato real es
+> **voz en off narrando el copy completo (o una versión acortada), sobre las imágenes del B-roll.**
+
+**Cómo se filma, en la práctica:** el B-roll (manos en caja 1 → vos pensativo → manos en diagonal →
+cierre a cámara sin hablar) se filma igual que estaba planeado. La narración se graba APARTE, como
+pista de audio — no hace falta sincronizar labios con la cámara en casi ningún tramo, así que se
+puede grabar la voz cuantas veces haga falta hasta que salga natural, y superponerla en la edición.
+El copy de arriba (el texto completo de 8 partes) es la base de esa narración — se puede leer casi
+textual o acortar un poco para que entre más cómodo hablado (ver la versión con timing y B-roll en
+`memoria/05` §45). El mismo texto sigue siendo, además, el copy escrito del post — hace doble
+trabajo: se escucha Y se lee.
 
 > ⚠️ **Pendiente de confirmar con Feli antes de dar esto por cerrado:** esta reescritura usa la
 > misma historia real ya verificada (sección 35), solo cambia la estructura y agrega el CTA que

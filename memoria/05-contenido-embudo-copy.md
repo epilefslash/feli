@@ -1052,3 +1052,37 @@ si querés ajustarla antes de publicar:
   requiere filmar nada. La B (mini-video de 45-60 seg, guion con timeline) es una mejora opcional
   para más adelante — mismo contenido que la A, con el mapa en cámara — pensada para la destacada
   MÉTODO o una respuesta guardada de Instagram. No bloquea nada de hoy.
+
+---
+
+## 45) EPIFANÍA — CORREGIDO (12/9): lleva voz en off, no es muda
+
+> Error propio de esta sesión, corregido con evidencia nueva. Se había dicho dos veces que la
+> Epifanía ("Reel B-Roll + Copy") era muda o con clima muy bajo — interpretando "B-roll" como
+> sinónimo de silencioso. **Es un error: B-roll significa que no hablás mirando a cámara con
+> sincronía de labios, no que no lleva audio de voz.** Feli subió un documento nuevo de Nico
+> (`epifania_guion.pdf`) que trae un **"Script del Ejemplo para analizar"** — escrito para
+> narrarse, no para quedar mudo — y recordó que Nico lo dijo textual en la devolución de la clase.
+> Corregido en `memoria/04` §35-BIS (sección Producción) y en `entregables/contenido/GUION-PARA-
+> FILMAR-HOY.md` (ya regenerado en PDF).
+
+**El formato real: voz en off narrando (una versión del) el copy, sobre las imágenes del B-roll.**
+No hace falta sincronizar labios — se graba la narración aparte, se prueba las veces que haga
+falta, y se superpone en la edición. El mismo texto sigue siendo, además, el copy escrito del
+post — se escucha Y se lee, doble refuerzo.
+
+**Guion narrado con timing y B-roll (~68 seg), ya escrito y listo para usar hoy:**
+
+| Tiempo | Narración (voz en off) | Se ve |
+|---|---|---|
+| 0:00–0:06 | "Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la primera." | Manos en caja 1 |
+| 0:06–0:12 | "La mayoría cree que alcanza con dominar cada caja por separado — que si te sabés las cinco, ya podés improvisar por todo el mástil." | Sigue caja 1 / corte a vos pensativo |
+| 0:12–0:18 | "El problema es que aprender las cajas una por una nunca te enseña a moverte ENTRE ellas. A mí me pasó." | Vos pensativo |
+| 0:18–0:32 | "No fue una persona ni una clase puntual — fue de a poco, terminando el secundario, viendo que Slash y Jimmy Page no se quedaban pegados en una caja: se movían en diagonal, conectaban todo el mástil. Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?" | Manos empezando a moverse en diagonal |
+| 0:32–0:40 | "Si seguís creyendo que las cajas van una por una, te va a pasar lo que me pasó a mí: años sabiendo mucho y sonando siempre igual." | Sigue el movimiento en diagonal |
+| 0:40–0:50 | "No me faltaban notas. Me faltaba verlo como un solo mapa. Desde ese día empecé a moverme distinto — horizontal, diagonal, no solo de arriba a abajo." | Manos con más soltura por el mástil |
+| 0:50–0:58 | "Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, buscá la nota que comparte tu caja con la de al lado. Ese es el primer puente." | Corte a cámara, media sonrisa |
+| 0:58–1:08 | "Te enseño a improvisar solos de rock dominando la pentatónica de verdad — no caja por caja, como un solo mapa. Si te sentís identificado, escribime SOLO." | Seguís a cámara, cierre |
+
+Opcional: decir de verdad la última línea a cámara (en vez de voz en off) suma conexión personal,
+no es obligatorio.
