@@ -811,8 +811,113 @@ Cada "mentira" del Carrusel 3 podría ser su propio reel o carrusel individual, 
 juntas en 7-8 slides. Detalle y decisión pendiente, documentado directo en `memoria/05` §22 junto
 al carrusel — no se dividió, queda como opción de continuidad para más adelante.
 
-### Pendiente real
-Feli va a mandar el resto de la devolución cuando tenga el replay completo de la clase (transcripto
-con una app). **Esta sección se amplía en la próxima ronda, no se considera cerrada.**
+### ✅ Pendiente real — RESUELTO (12/9): llegó la devolución completa
+Feli subió la transcripción real de la sesión grupal de mentoría (Gemini Notes, 10/9, 2h16 de
+llamada). **Es una sesión grupal — comparte el llamado con otros alumnos de Nico** (Samuel Vicente,
+Micaela Tivelli, Federico Reschini, Tripulangel, Mariano Fredes y otros), cada uno con su propio
+negocio. Todo el detalle real de Feli está en `memoria/05` §42 — esta sección queda cerrada.
+
+---
+
+## 42) LA DEVOLUCIÓN COMPLETA DE LA SESIÓN GRUPAL CON NICO (10/9, transcripta 12/9)
+
+> **Fuente:** transcripción real de la mentoría grupal ("Sesiones flow" = Nico). Es la sesión que
+> se venía esperando desde `memoria/05` §39. Filtrado a lo que es específicamente de Felipe Bayá —
+> el resto de la llamada es feedback a otros alumnos de Nico (otros nichos: canto, indie pop,
+> percusión), no aplica a este proyecto y no se transcribe acá.
+
+### ✅ Confirmado — lo que ya hicimos hoy estaba bien encaminado
+- **"Hard rock" fuera de la bio:** *"Se acordó omitir menciones explícitas al género hard rock en
+  la biografía, permitiendo que el estilo de ejecución musical defina el posicionamiento del
+  nicho."* — exactamente la corrección que ya aplicamos. Bonus: ahora sabemos el POR QUÉ real, no
+  solo el qué — tu propio estilo de tocar ya filtra al público correcto, no hace falta la palabra.
+- **CTA enfocado en el objetivo del alumno, no en "cómo trabajo yo":** *"el llamado a la acción se
+  enfoque en el objetivo del usuario (aprender a improvisar) en lugar de vender directamente un
+  programa."* — es literal la regla que aplicamos ayer a la Historia y al Vendedor.
+- **Carruseles — Placa 2 + nicho repetido:** *"cada elemento debe incluir claramente el nicho,
+  asegurando que si un usuario ve la segunda placa, el gancho y el objetivo sigan siendo
+  evidentes... dado que Instagram a veces salta la primera imagen."* — es exactamente la regla que
+  ya reescribimos en los 4 carruseles, con la misma razón (IG salta la primera imagen) que ya te
+  había explicado.
+- **Vendedor → campaña de mensajes:** confirma que un video centrado en la frustración de no poder
+  improvisar es *"potencial para una campaña de mensajes directos"*, no un posteo de valor — mismo
+  criterio que ya aplicamos al reclasificar "Como que desaparece".
+
+### 🆕 Hallazgos nuevos, con acción concreta
+
+**1 · El lead magnet necesita un "entrenamiento", no solo el archivo.** Esto responde directo a lo
+que había quedado pendiente sobre el Fijado/2 pasos: *"más allá de entregar el archivo, el creador
+debe incluir un entrenamiento donde explique el problema que resuelve el recurso, cómo utilizarlo
+y por qué es útil en situaciones reales de improvisación."* Traducido al mapa de las 5 cajas: no
+alcanza con mandar el PDF — hace falta un mini-entrenamiento (puede ser un video corto o una
+historia destacada) que explique: (a) qué problema resuelve (quedarte pegado en una caja), (b) cómo
+usarlo (los puentes entre cajas), (c) por qué sirve en una impro real. Esto no resuelve del todo si
+el Fijado tiene que ser el "entrenamiento gratuito" — pero sí dice **qué contenido** tendría que
+tener ese entrenamiento si Nico confirma el cambio.
+
+**2 · Video #2 (5 acordes) — la crítica real, con más detalle del que teníamos.** *"Se desaconsejó
+el uso de videos que solo listan acordes sin contexto o conexión con la experiencia personal del
+músico, ya que pierden el valor agregado que proporciona la perspectiva del experto."* Confirma lo
+que ya sabíamos (le faltaba contexto) y agrega el motivo exacto: falta tu perspectiva personal, no
+solo el "para qué sirve". El copy nuevo que ya escribimos (`memoria/05` §39) ayuda, pero si en
+algún momento se reedita el video, meterle tu voz explicando (no solo mostrando) sumaría más que
+el copy solo.
+
+**3 · Etiquetas en pantalla mientras tocás.** *"Se discutió la importancia de poner etiquetas
+(nombres de acordes) mientras el músico toca para mejorar la experiencia visual."* Aplica sobre
+todo a videos con acordes (como el #2) — nombrar en pantalla lo que estás tocando en el momento,
+no solo al final.
+
+**4 · Placas finales de los posteos — a corregir (acción asignada a Feli, textual del documento):**
+*"Ajustar contenido: Corregir las placas finales de los posteos, asegurar la inclusión del nicho en
+todos los ganchos y modificar el diseño visual de los posteos de 2 pasos para que contrasten."* Son
+3 cosas en una:
+- Las placas finales (última slide/cierre) de los posteos necesitan revisión — no se detalla
+  exactamente qué está mal, solo que hay que corregirlas. Sin más contexto, no se puede saber si
+  esto ya está resuelto con la Placa 2 nueva o si es otra cosa — **pendiente de que Nico aclare
+  más, o de que Feli revise sus posteos actuales contra este comentario.**
+- **El nicho tiene que estar en TODOS los ganchos**, no solo en los carruseles — ya lo habíamos
+  aplicado a los 4 carruseles; falta pasarlo por el resto del stock sin producir todavía
+  (StoryTelling, 2 pasos, Video #2) antes de fotografiar/diseñar. Ya estaba anotado como pendiente
+  en `memoria/05` §39, esto lo confirma con más fuerza (Nico lo pidió expreso, no es una inferencia
+  nuestra).
+- El diseño visual del posteo de 2 pasos tiene que **contrastar** con el resto del feed — es una
+  instrucción de diseño (Canva), no de copy. Anotado para cuando se arme esa pieza.
+
+**5 · Experimentar con IA usando grabaciones de voz.** *"Utilizar herramientas de inteligencia
+artificial para generar guiones a partir de grabaciones de voz del propio creador... permite
+organizar las ideas de manera lógica y atractiva mientras se preserva la voz y el estilo auténtico,
+evitando que el contenido suene robótico."* Técnica de producción para el futuro: grabar una nota
+de voz contando la idea tal cual te sale, y de ahí armar el guion — en vez de escribir el guion
+desde cero. Vale la pena probarlo para el contenido de continuidad (semana 5 en adelante).
+
+### ⚠️ Tonalidad — "requiere más debate", no está cerrado del lado de Nico
+
+Esta es la más importante para el trabajo de ayer. El documento marca explícitamente esta sección
+como pendiente, no acordada:
+
+> **Requiere más debate: "Revisión de la estructura tonal del programa"** — *"Se debatió la
+> estructura pedagógica del programa enfocada exclusivamente en la menor frente a la necesidad de
+> incorporar el manejo de otras tonalidades, quedando pendiente la revisión de los materiales."*
+
+Y en los "Próximos pasos" hay una tarea asignada a Feli, textual:
+
+> *"[Felipe Bayá] Revisar material pedagógico: Ampliar el material educativo sobre las 5 cajas
+> conectadas para que los estudiantes comprendan cómo aplicarlo en múltiples tonalidades en lugar
+> de solo La menor."*
+
+**Cómo se cruza esto con lo que hicimos ayer (`memoria/02` §40):** el mismo documento, en la
+sección de detalles, da el criterio de fondo: *"aunque iniciar en una tonalidad es pedagógicamente
+sólido, el material debe proporcionar las herramientas para que el estudiante pueda transferir ese
+conocimiento a otras tonalidades más adelante."* Esto **valida la decisión de no cambiar el
+programa entero** (seguir en La menor, aislar la variable) — coincide con el principio de Nico que
+ya usábamos. Pero la palabra "ampliar" en la tarea asignada sugiere que el cierre optativo de 2
+pasos que agregamos a `Guia-El-Vuelo-Pilar5.pdf` puede ser un buen primer paso, **no
+necesariamente el cierre completo de este pedido** — "ampliar el material educativo sobre las 5
+cajas conectadas" suena a algo que podría vivir también en el Hito 1 (El Mapa, donde están
+literalmente "las 5 cajas conectadas"), no solo como posdata en El Vuelo.
+
+**No se expande el material todavía sin que Feli lo confirme** — es una decisión real de alcance
+(cuánto y dónde), no algo para asumir solo. Queda como el pendiente más importante de esta ronda.
 
 ---
