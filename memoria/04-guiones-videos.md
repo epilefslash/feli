@@ -846,25 +846,40 @@ antes de que exista el precio.
 > de gente que llegó al perfil seis meses después.
 > **Lead magnet:** `Mapa-5-cajas-pentatonica.pdf` (ya está hecho) · **Keyword:** PENTA.
 
-### La pieza (imagen única, o carrusel de 2 slides)
-**Slide 1 — lo que se ve:** un mockup del PDF del mapa. Que se vea que es un material real, con los
-diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. Arriba, una sola frase:
+### ✅ ES EL PINEADO (12/9) — confirmado y armado completo, ver `memoria/05` §43 y §44
+Nico lo dijo en la mentoría y lo confirma el propio diagrama del M3 ("Pin el más solicitado arriba a
+la izquierda del feed", en el bloque de 2 pasos): **este es el posteo que va anclado arriba del
+perfil**, no el reel mudo de 30 seg (`memoria/04` §26, que sigue publicándose pero como Autoridad
+regular). Por ser ahora el ancla del perfil — lo primero que ve cualquier visitante — se justificó
+invertir más en la pieza: pasa de 2 slides a 3, y el copy suma el framing "entrenamiento" que pidió
+Nico explícitamente ("presentado como un entrenamiento gratuito"), sin romper la regla 1 de abajo.
 
-> **"El mapa de las 5 cajas conectadas"**
-> *Gratis. Comentá PENTA.*
+### La pieza (carrusel de 3 slides — pineado)
+**Slide 1 — la tapa:** un mockup del PDF del mapa. Que se vea que es un material real, con los
+diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**.
 
-**Slide 2 (opcional) — los dos pasos, gráficos y enormes:**
+> **"TU PRIMER ENTRENAMIENTO — GRATIS"**
+> *El mapa de las 5 cajas conectadas*
+
+**Slide 2 — el problema, sin enseñar la solución (previews, no enseña):**
+> Vas a entender **por qué** te quedás siempre en la caja 1 — y cuál es el primer paso para salir.
+
+**Slide 3 — los 2 pasos, gráficos y enormes:**
 > **1 ·** Comentá **PENTA** acá abajo
-> **2 ·** Te lo mando por privado. Listo.
+> **2 ·** Te lo mando por privado — con la explicación de cómo usarlo
+
+> **Si preferís ir más rápido:** la versión de 1 imagen o 2 slides que ya teníamos sigue siendo
+> válida (tapa + los 2 pasos, sin la slide 2 nueva) — la de 3 es la recomendada ahora que es el
+> pineado, no una obligación si el tiempo aprieta.
 
 ### Copy del post
-> 🎸 **El mapa de las 5 cajas conectadas — gratis.**
+> 🎸 **Tu primer entrenamiento gratis: el mapa de las 5 cajas conectadas.**
 >
 > Si sabés la caja 1 de la pentatónica menor y no salís de ahí, el problema no es que te falte
 > estudiar más. Es que nadie te mostró **dónde se tocan** una caja con la otra.
 >
-> Armé un PDF de una página con eso: las 5 cajas, dónde está la tónica en cada una, y los puntos
-> exactos donde una se conecta con la siguiente. Es lo primero que le doy a cualquier alumno mío.
+> Armé un PDF de una página con eso — y te lo mando con la explicación de cómo usarlo, no solo el
+> archivo pelado. Es lo primero que le doy a cualquier alumno mío.
 >
 > **Paso 1:** comentá **PENTA** acá abajo.
 > **Paso 2:** te lo mando por privado.
@@ -873,33 +888,44 @@ diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. 
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
-### ✅ AHORA ES EL PINEADO (12/9) — confirmado, ver `memoria/05` §43
-Nico lo dijo en la mentoría y lo confirma el propio diagrama del M3 ("Pin el más solicitado arriba a
-la izquierda del feed", en el bloque de 2 pasos): **este es el posteo que va anclado arriba del
-perfil**, no el reel mudo de 30 seg (`memoria/04` §26, que sigue publicándose pero como Autoridad
-regular). El copy de arriba **no cambia** — sigue valiendo la regla 1 de abajo (no enseñar nada en
-el posteo). Lo que sí se agrega es el guion de "entrenamiento" para cuando mandás el PDF (ver abajo).
-
 ### El "entrenamiento" que pide Nico — va en el DM, no en el posteo
 El feedback de la mentoría (`memoria/05` §42) dice que el lead magnet necesita más que el archivo:
 hay que explicar el problema que resuelve, cómo usarlo, y por qué sirve en una impro real. Esto
 **parece contradecir la regla 1 de abajo** ("no enseñes nada en el posteo") — pero no, si se ubica en
-el lugar correcto: no va en el copy público, va en el mensaje privado que mandás junto con el PDF.
-Ahí sí corresponde explicar, porque ya es una conversación 1 a 1 con alguien que mostró interés real.
+el lugar correcto: no va en el copy público, va en el mensaje privado que mandás junto con el PDF, o
+en la slide 2 nueva (que insinúa el problema sin resolverlo). Ahí sí corresponde explicar, porque ya
+es una conversación 1 a 1 con alguien que mostró interés real.
 
-**Guion para el DM (texto o nota de voz, 20-30 seg):**
+**Versión A — DM o nota de voz (20-30 seg, LISTA PARA HOY, no requiere filmar nada):**
 > "¡Acá tenés el mapa! Antes de que lo mires: no hace falta que aprendas las 5 cajas de nuevo, seguro
 > ya te sabés varias. Lo que este mapa te muestra es DÓNDE se tocan entre sí. Elegí dos cajas que ya
 > sepas, buscá el punto donde comparten una nota, y la próxima vez que improvises, en vez de cortar
 > la frase ahí y volver a arrancar en la misma caja, seguila del otro lado. Con eso solo, ya empezás
 > a salir de la caja 1. Cualquier duda, escribime."
 
-No requiere filmar nada — es texto para copiar/pegar o leer en una nota de voz. Se manda siempre que
-alguien comente PENTA y reciba el PDF, no es un evento único.
+Se manda siempre que alguien comente PENTA y reciba el PDF — no es un evento único, es texto fijo
+para copiar/pegar (o la misma nota de voz reciclada).
+
+**Versión B — mini-video de 45-60 seg (OPCIONAL, para más adelante, NO bloquea hoy):**
+Si en algún momento querés subir la apuesta del "entrenamiento" (por ejemplo como historia destacada
+nueva, o reemplazando la nota de voz por algo más pulido), este es el guion — mismo contenido que la
+Versión A, pero mostrando el mapa en cámara mientras hablás:
+
+| Tiempo | Qué decís | Qué mostrás |
+|---|---|---|
+| 0:00-0:08 | "Te mandé el mapa de las 5 cajas. Antes de que lo mires, un consejo." | A cámara, con el PDF o la guitarra a mano |
+| 0:08-0:20 | "No hace falta que aprendas las 5 cajas de nuevo — seguro ya te sabés varias. Lo que este mapa te muestra es DÓNDE se tocan entre sí." | Mostrás el PDF, señalás con el dedo dos cajas vecinas |
+| 0:20-0:40 | "Elegí dos cajas que ya sepas, buscá el punto donde comparten una nota — y la próxima vez que improvises, en vez de cortar la frase ahí, seguila del otro lado." | Tocás en la guitarra el ejemplo: cruzás de una caja a la otra por la nota compartida |
+| 0:40-0:55 | "Con eso solo, ya empezás a salir de la caja 1. Cualquier duda, escribime." | A cámara, cierre |
+
+No es un video que se publica en el feed — es material de destacada (podría vivir en la destacada
+MÉTODO, como paso 1) o para automatizar el envío del entrenamiento (respuesta guardada en Instagram).
+Queda documentado para cuando haya tiempo de filmarlo, no es parte del trabajo de hoy.
 
 ### Las 3 reglas de este posteo (marketing, no estética)
-1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy, el otro ya no necesita
-   pedir el PDF. El valor tiene que estar **del otro lado del comentario**.
+1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy o en las slides, el otro
+   ya no necesita pedir el PDF. El valor tiene que estar **del otro lado del comentario** — la slide
+   2 nueva insinúa el problema, no la solución; eso no rompe la regla.
 2. **Bajá la fricción explícitamente.** "No te pido el mail, no hay letra chica" existe porque tu
    avatar ya se quemó con veinte embudos. Decirlo convierte.
 3. **Repetible.** Este posteo se vuelve a publicar cada 4-6 semanas con otra pieza gráfica. Es el

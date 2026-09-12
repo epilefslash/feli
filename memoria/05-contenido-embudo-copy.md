@@ -1014,3 +1014,22 @@ si querés ajustarla antes de publicar:
   cambios ni hallazgos nuevos.
 
 ---
+
+## 44) EL PINEADO ARMADO COMPLETO — 3 slides + copy + los 2 entrenamientos (12/9)
+
+> A pedido de Feli ("armemos el pineado ya, armemos ese entrenamiento"), se terminó de armar la
+> pieza completa — texto listo para pasar a Canva, sin dejar nada a medio hacer. Detalle completo,
+> con los 2 guiones de entrenamiento (DM para hoy + video opcional para después), en `memoria/04`
+> §37 (reescrito entero). Resumen de lo que cambió:
+
+- **La pieza pasó de 2 a 3 slides:** se agregó una slide 2 intermedia ("vas a entender por qué te
+  quedás en la caja 1") que insinúa el problema sin resolverlo — refuerza el framing de
+  "entrenamiento" que pidió Nico sin romper la regla de no enseñar en el posteo público. La versión
+  vieja de 2 slides sigue siendo válida si el tiempo aprieta — no es obligatorio armar la de 3 hoy.
+- **El copy suma el framing textual de Nico:** el hook pasa de "El mapa... gratis" a **"Tu primer
+  entrenamiento gratis: el mapa de las 5 cajas conectadas"** — la frase que Nico usó literal en la
+  mentoría, ahora aplicada.
+- **El entrenamiento tiene 2 versiones:** la A (DM/nota de voz, 20-30 seg) es la que se usa HOY, no
+  requiere filmar nada. La B (mini-video de 45-60 seg, guion con timeline) es una mejora opcional
+  para más adelante — mismo contenido que la A, con el mapa en cámara — pensada para la destacada
+  MÉTODO o una respuesta guardada de Instagram. No bloquea nada de hoy.
