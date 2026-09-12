@@ -26,9 +26,11 @@ S.append(Spacer(1, 8))
 S.append(caja_oscura(
     '<font color="white" size="10"><b>Antes de usar esto para grabar</b></font><br/>'
     '<font color="#f7d7d2" size="9">La columna de ritmo es una PROPUESTA, no algo ya decidido -- '
-    'nunca se fijo semana por semana en el proyecto. Y hay 2 cosas pendientes de resolver antes de '
-    'grabar todo (el solo de la semana 5, y el choque de November Rain entre semana 6 y 11) -- estan '
-    'al final del documento, no las pases por alto.</font>', W))
+    'nunca se fijo semana por semana en el proyecto. El Mes 3 se reordeno (11/9): las escuelas '
+    'britanica/americana se agrupan por lo que SON, no por el numero de ejercicio, porque rondas '
+    'de correccion posteriores esparcieron las citas reales mas adelante en la numeracion. Queda '
+    'UNA sola cosa pendiente de resolver antes de grabar todo (el solo de la semana 5) -- esta al '
+    'final del documento, no la pases por alto.</font>', W))
 S.append(PageBreak())
 
 with open("entregables/contenido/Programa-12-Semanas-Con-Ritmo.md", encoding="utf-8") as f:
