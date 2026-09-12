@@ -213,7 +213,16 @@ El riser termina justo cuando empieza la acción.
 >    para quién es.
 >
 > Los 4 carruseles de abajo ya están reescritos con la slide 2 nueva (por eso ahora tienen 8-9
-> slides en vez de 7-8) — última slide siempre CTA + "Guardalo 📌".
+> slides en vez de 7-8).
+>
+> ✅ **Corrección 12/9 (Feli, cruzando contra el replay grabado de la clase de Nico):** la ÚLTIMA
+> slide de cada carrusel de Valor no es un CTA suelto — es la **"Placa Final"**, y la plantilla real
+> de Nico (`memoria/04` §37 no, es el mismo prompt de Carruseles Didácticos) dice textual: *"Solo
+> escribir: [Promesa general de la bio]. [CTA específico del post]."* Dos líneas, no una — primero
+> una promesa corta tipo insight (ligada al tema puntual del carrusel, SIN nombrar "método" ni
+> plazos), después el CTA. Los 4 de abajo ya están corregidos con las 2 líneas — y de paso el CTA
+> de Carrusel 3 se actualizó a la regla del 11/9 (foco en lo que el alumno quiere, no en "cómo
+> trabajo yo"), que se había escapado de esa corrección la primera vez.
 
 ### Carrusel 1 — "5 guitarristas legendarios. 1 sola escala." (gemelo del video 5)
 1. **Hook:** "Estos 5 monstruos usaron la MISMA escala toda su carrera."
@@ -224,8 +233,9 @@ El riser termina justo cuando empieza la acción.
 5. Joe Perry — Walk This Way. Pentatónica menor.
 6. Jimmy Page — Whole Lotta Love. Pentatónica menor.
 7. Gary Moore — Parisienne Walkways. Pentatónica menor.
-8. "Cinco escuelas. Una escala. No te falta una escala nueva: te falta exprimir ésta."
-9. **CTA:** "Comentá PENTA y te paso el mapa de las 5 cajas gratis. Guardalo 📌"
+8. **Resumen:** "Cinco escuelas. Una escala. No te falta una escala nueva: te falta exprimir ésta."
+9. **Placa Final:** "Dominá la pentatónica que ya tenés, con sabor de verdad. · Comentá PENTA y te
+   paso el mapa de las 5 cajas gratis 👇"
 
 ### Carrusel 2 — "Los 4 ingredientes del sabor" (el método sin regalarlo entero)
 1. **Hook:** "Tu solo no suena 'escolar' por falta de notas. Le faltan estos 4 ingredientes."
@@ -235,8 +245,9 @@ El riser termina justo cuando empieza la acción.
 4. EL VIBRATO — tu firma. Es lo primero que delata si sos amateur o pro.
 5. EL ESPACIO — el silencio es parte de la frase. B.B. King vivía de esto.
 6. LA DINÁMICA — no todo al mismo volumen: susurrar, hablar, gritar.
-7. "Las notas son el 20%. Estos 4 son el 80%. Y casi nadie los practica."
-8. **CTA:** "¿Cuál te falta más? Contame abajo 👇 Guardalo para tu próxima práctica 📌"
+7. **Resumen:** "Las notas son el 20%. Estos 4 son el 80%. Y casi nadie los practica."
+8. **Placa Final:** "No te faltan escalas. Te falta sabor. Y eso se entrena. · Si estás buscando
+   improvisar con esa libertad, comentá SABOR 👇"
 
 ### Carrusel 3 — "5 mentiras que te tienen trabado" (resumen de las creencias)
 1. **Hook:** "5 mentiras que te tienen tocando igual que hace 2 años."
@@ -247,8 +258,9 @@ El riser termina justo cuando empieza la acción.
 5. "Tengo que tocar rápido" → FALSO. Gilmour te hace llorar lento.
 6. "Necesito estudiar 4 horas" → FALSO. 20 min con orden le ganan.
 7. "Me faltan licks" → FALSO. Te falta espacio, bending y vibrato.
-8. "Lo que sí necesitás: un mapa, un orden y sabor. En ese orden."
-9. **CTA:** "Comentá SOLO y te cuento cómo lo trabajo. Guardalo 📌"
+8. **Resumen:** "Lo que sí necesitás: un mapa, un orden y sabor. En ese orden."
+9. **Placa Final:** "No te falta más información. Te falta un mapa, un orden y sabor. · Si querés
+   dejar de sonar igual que hace 2 años, comentá SOLO 👇"
 
 > 💡 **Idea de Nico, no aplicada todavía (opcional, no bloquea nada):** cada una de las 5 mentiras
 > podría ser su propio reel o carrusel individual, en vez de las 5 juntas acá — más contenido, mismo
@@ -266,7 +278,8 @@ El riser termina justo cuando empieza la acción.
 5. SUBE con intención — cada bending llega a una nota real, no 'más o menos'.
 6. CORRE al final — la velocidad emociona SOLO si se hizo esperar.
 7. CIERRA en casa — la tónica. El oído descansa, la frase 'resuelve'.
-8. **CTA:** "Esto se aprende en orden. Comentá PENTA por el mapa gratis. Guardalo 📌"
+8. **Placa Final:** "Un solo que emociona no es suerte. Es una estructura — y se aprende. · Si
+   querés aprender a construir el tuyo, comentá PENTA y te paso el mapa gratis 👇"
 
 > **Orden de publicación sugerido:** cada carrusel sale la semana del reel gemelo (Carrusel 1 con el
 > video 5, Carrusel 2 en semana de video de sabor, etc.). Refuerzan el mismo mensaje en dos formatos.
