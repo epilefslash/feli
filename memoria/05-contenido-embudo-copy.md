@@ -316,16 +316,16 @@ primero aunque se publique último.**
 
 | # | Posteo | Categoría Nico | Estado |
 |---|---|---|---|
-| **DÍA 0 — se suben los 3 juntos** ||||
-| 1 | **REEL FIJADO** (#12) — 30 seg tocando, sin hablar | Autoridad | 🎬 guion listo (sec. 26) |
-| 2 | **"3 formas de romper las cajas"** (#9) | Valor · Reel | ✅ filmado (9/9), falta editar |
-| 3 | **EPIFANÍA** — "El día que dejé de ver cajas" | Epifanía | ✅ **listo** (9/9, Feli confirma) |
+| **DÍA 0 — se suben los 3 juntos (reordenado 12/9, ver §43)** ||||
+| 1 | **PINEADO: posteo de 2 PASOS** (mapa de las 5 cajas, PENTA) | 2 pasos | ✅ pieza y copy listos (`memoria/04` §37) |
+| 2 | **#1 — Recursos para tu pentatónica** (toca, no habla) | Autoridad | ✅ filmado y editado, listo para publicar |
+| 3 | **EPIFANÍA** — formato real de Nico (B-roll + copy) | Epifanía | 🎬 se filma hoy, copy listo (`memoria/04` §35-BIS) |
 | **SEMANA 1** ||||
 | 4 | **Carrusel 1** — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 5 | **#4** — "¿Cuántas escalas necesitás?" | Valor · Reel | ✅ filmado + editado |
 | 6 | **StoryTelling 1** (foto) — "Toco desde los 11 y sonaba igual" | StoryTelling | 🟡 copy listo, foto sin elegir (ver nota abajo) |
 | **SEMANA 2** ||||
-| 7 | **#1** — Recursos para tu pentatónica (toca, no habla) | Autoridad | ✅ **subido** (9/9, Feli confirma) |
+| 7 | **REEL FIJADO viejo** (#12) — 30 seg tocando, sin hablar, sin CTA | Autoridad | 🎬 guion listo (`memoria/04` §26) — pasa acá desde el Día 0, ver §43 |
 | 8 | **Carrusel 2** — "Los 4 ingredientes del sabor" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 9 | **#6** — "Tus solos no respiran" (espacio) | Valor · Reel | ✅ **terminado** (9/9, Feli confirma) |
 | **SEMANA 3** ||||
@@ -348,13 +348,17 @@ primero aunque se publique último.**
 > - **Wafles queda para la destacada YO TOCO** (hoy vacía, ver sección 11) — es el lugar exacto para
 >   mostrar que Feli toca en banda de verdad, no solo enseña. No se pierde el ángulo, solo se reubica.
 
-**Las 4 decisiones de orden que importan (y por qué):**
-1. **El Fijado va primero y anclado.** Es lo que ve cualquiera que entre. Antes de convencer a nadie de
-   nada, hay que probar la mano.
+**Las 4 decisiones de orden que importan (y por qué) — puntos 1 y 3 corregidos el 12/9, ver §43:**
+1. ~~El Fijado (reel mudo) va primero y anclado.~~ **CORREGIDO: lo que va pineado es el posteo de 2
+   pasos**, no el reel mudo — confirmado con Nico (§43). El reel mudo (#12) sigue publicándose, pero
+   ya no anclado: pasa a autoridad regular en la semana 2 (ver tabla arriba).
 2. **La Epifanía va el día 0, no más tarde.** Es la que explica de dónde sale todo el resto del perfil.
    Puesta al final, el visitante ya se formó una idea sin ella.
-3. **El posteo de 2 pasos va recién en la semana 3.** Pedir un canje antes de haber demostrado autoridad
-   convierte peor. Nueve posteos de valor lo preceden.
+3. ~~El posteo de 2 pasos va recién en la semana 3.~~ **CORREGIDO: va el Día 0, pineado.** La lógica
+   original (pedir un canje antes de demostrar autoridad convierte peor) seguía siendo válida para un
+   posteo de 2 pasos SUELTO en el feed — pero el pineado es distinto: es la puerta de entrada fija del
+   perfil, no un posteo más en la secuencia. Ese rol se lo gana por ser el más "solicitado" según el
+   propio material de Nico (§43), no por su posición cronológica en los 15.
 4. **Los testimonios cierran.** Máximo peso de prueba social justo cuando el perfil ya tiene volumen —
    y es lo que empalma con el arranque de la venta activa.
 
@@ -752,15 +756,14 @@ para el texto completo. La versión vieja queda como candidata para StoryTelling
 cambia de categoría). Pendiente solo la confirmación de Feli sobre si graba las dos piezas o
 prioriza la nueva.
 
-### 🔴 Reel Fijado — ¿tendría que ser el posteo de 2 pasos, reformulado como "entrenamiento gratuito"?
-Nico sugirió que el Fijado (el que queda anclado arriba del perfil) debería ser el de 2 pasos —
-pineado, y presentado como un **"entrenamiento gratuito"**, en vez de la pieza muda de 30 seg
-tocando que tenemos diseñada (`memoria/04` §26). Cambiaría bastante el rol del Fijado: de "prueba
-de que sabés tocar" (autoridad pura, sin pedir nada) a "la puerta de entrada que canjea el lead
-magnet" (captación). **Feli mismo dijo que lo tiene que chequear** — no está confirmado al 100%, así
-que el plan actual (`memoria/04` §26 + `memoria/05` §34, ítem 1 del Día 0) sigue vigente hasta que
-lo confirme. Si se confirma: falta pensar qué es exactamente el "entrenamiento gratuito" (¿el PDF
-del mapa de las 5 cajas alcanza, o hace falta un mini-video/clase corta?) — no asumir todavía cuál.
+### ✅ Reel Fijado — RESUELTO (12/9): SÍ es el posteo de 2 pasos, pineado
+Nico sugirió que el Fijado debería ser el de 2 pasos, pineado, presentado como **"entrenamiento
+gratuito"**. Quedó sin confirmar al 100%. **Se confirma acá con una segunda evidencia independiente:**
+el diagrama "Reciclado y Distribución de Tipos de Contenido" (M3 real, Parte 1) dice textual, en el
+bloque del 40% (Storytelling/Testimonios/2 pasos/Autoridad): *"Pin el más solicitado arriba a la
+izquierda del feed."* Dos señales apuntando al mismo lugar (el comentario en vivo de Nico + el
+material escrito) es suficiente para dejar de tratarlo como abierto. Detalle completo de la decisión
+y qué pasa con el Fijado viejo (#12, la pieza muda de 30 seg) en `memoria/05` §43.
 
 ### ✅ Regla nueva aplicada: nombrar el nicho explícitamente
 Nico: mínimo decir "guitarrista" o "Guitarrista de Rock" en el contenido — "guitarrista de rock"
@@ -922,5 +925,92 @@ literalmente "las 5 cajas conectadas"), no solo como posdata en El Vuelo.
 
 **No se expande el material todavía sin que Feli lo confirme** — es una decisión real de alcance
 (cuánto y dónde), no algo para asumir solo. Queda como el pendiente más importante de esta ronda.
+
+---
+
+## 43) FIJADO = 2 PASOS PINEADO — decisión cerrada (12/9), y el reacomodo del Día 0
+
+> Feli subió 5 documentos más del material real de Nico (M3): Disparadores (ya lo teníamos, sin
+> cambios), Testimonios Copy Script, la guía de entrevista de testimonios completa ("Celebrando
+> Casos de Éxito"), y — los dos que importan acá — el **Post de Epifanía completo** (el prompt entero,
+> no solo el resumen que teníamos) y los **Carruseles Didácticos** (ya alineados, sin cambios). El
+> hallazgo real de esta ronda está en dos lugares: el diagrama de reciclado que ya se había leído en
+> la Parte 1 (11/9), y la resolución de la pregunta abierta del Fijado.
+
+### La decisión: el pineado es el posteo de 2 pasos, no el reel mudo
+
+Ya había una señal (el comentario en vivo de Nico, `memoria/05` §39: el Fijado debería ser el de 2
+pasos, "entrenamiento gratuito"). Hoy apareció la segunda, independiente, en el propio diagrama de
+Nico ("Reciclado y Distribución de Tipos de Contenido", M3 Parte 1): en el bloque del 40%
+(Storytelling / Testimonios / 2 pasos / Autoridad) dice textual — **"Pin el más solicitado arriba a
+la izquierda del feed."** Dos fuentes independientes apuntando al mismo lugar alcanza para dejar de
+tratarlo como abierto. **Se confirma: el posteo de 2 pasos (el mapa de las 5 cajas, PENTA) es el que
+va pineado**, no el reel mudo de 30 seg (`memoria/04` §26).
+
+**Qué pasa con cada pieza (nada se pierde, se reacomoda):**
+- **2 pasos** → pasa a ser el pineado del Día 0 (antes iba en la semana 3).
+- **Reel mudo (#12, "Fijado" viejo)** → sigue publicándose, pero como Autoridad regular, no anclado.
+  Ocupa el lugar que dejó libre #1 en la semana 2 (ver tabla, sección 34).
+- **#1 (Recursos para tu pentatónica)** → sube al Día 0, en el lugar que ocupaba #9. Motivo doble:
+  Feli lo prefiere y no consume tiempo de edición hoy (ya está filmado y editado).
+
+  > ⚠️ **Corrección de un dato viejo:** esta tabla decía "✅ subido (9/9, Feli confirma)" para el #1.
+  > Eso no pudo haber sido "subido a @felibayamenor" — la cuenta **nunca existió hasta hoy** (Feli lo
+  > confirmó el 12/9: "aún nunca la creé"). Probablemente esa nota venía de otro contexto (una prueba,
+  > una carpeta, otra cuenta) y quedó mal etiquetada. Corregido en la tabla: el estado real es
+  > **filmado y editado, listo para publicar hoy** — no publicado todavía en ningún lado.
+- **#9 ("3 formas de romper las cajas")** → sale del Día 0. Feli lo sigue editando ahora igual (no se
+  pierde el trabajo) — vuelve al stock disponible para semana 1-2, sin una fecha fija asignada todavía.
+  No hace falta resolver su semana exacta hoy — las 2 reglas de fondo (`memoria/05` §9: no encadenar
+  creencias · vendedores después de autoridad) siguen siendo la guía cuando se acomode.
+
+### La corrección del posteo de 2 pasos: el "entrenamiento", sin romper su propia regla
+
+El hallazgo de la sesión con Nico (`memoria/05` §42, punto 1) decía: el lead magnet necesita un
+entrenamiento — no alcanza con mandar el PDF, hay que explicar el problema que resuelve, cómo usarlo,
+y por qué sirve en una impro real. **Pero el propio guion del posteo (`memoria/04` §37) tiene una
+regla que dice lo contrario en apariencia: "No enseñes nada en el posteo — si explicás las
+conexiones en el copy, el otro ya no necesita pedir el PDF."**
+
+Las dos reglas no chocan si se ubican en lugares distintos: el "entrenamiento" no tiene por qué vivir
+**en el copy del posteo** (eso rompería la regla de captación pura) — vive en **el mensaje que
+acompaña al PDF cuando se lo mandás por privado**. Ahí sí corresponde explicar problema/cómo/por qué,
+porque ya es una conversación 1 a 1 con alguien que mostró interés real, no un posteo público.
+
+**Se agregó un guion corto de DM/nota de voz** para mandar junto con el PDF — ver `memoria/04` §37
+para el texto completo. No requiere filmar nada, es un mensaje de texto o una nota de voz de 20-30
+segundos, listo para usar hoy mismo si alguien comenta PENTA.
+
+### El guion de Epifanía, verificado contra el prompt COMPLETO de Nico (no solo el resumen)
+
+Hasta hoy solo teníamos el resumen del prompt de Epifanía (via el documento de 76 páginas). El
+documento nuevo trae el prompt completo, con la estructura de 8 partes textual y 3 ejemplos reales
+aplicados. **Verificado punto por punto contra el guion ya escrito (`memoria/04` §35-BIS): las 8
+partes están, en el orden correcto** (gancho → creencia común → defender posición → probarlo →
+consecuencias → revela la solución → conclusión/tarea → cierre con promesa+CTA). Es una confirmación
+más fuerte que la de ayer — no solo el formato general, la estructura exacta.
+
+**Única desviación real, menor:** la regla dice "máximo 3 oraciones por sección" — dos de las 8
+secciones del guion ya escrito (Probarlo, Revela la solución) tienen algunas oraciones de más. No es
+un error de estructura, es de extensión — no bloquea filmar el B-roll hoy (el video es de fondo, el
+texto se ajusta en el copy antes de publicar, no antes de filmar). Versión recortada de "Probarlo"
+si querés ajustarla antes de publicar:
+
+> "No fue una persona ni una clase puntual — fue de a poco, terminando el secundario, viendo que
+> Slash y Jimmy Page no se quedaban pegados en una caja: se movían en diagonal, conectaban todo el
+> mástil. Y un día se me cayó la ficha: ¿cómo no me di cuenta antes de que se podían unir?"
+
+### Lo que trajeron los otros 3 documentos (sin acción para hoy)
+
+- **Testimonios Copy Script:** confirma exacto lo que ya teníamos en `memoria/05` §36 (estructura de
+  copy con emojis separadores para el post que acompaña un testimonio). Sin cambios.
+- **Celebrando Casos de Éxito (guía de entrevista completa):** trae una estructura MÁS detallada que
+  las 7 preguntas que ya tenemos en `memoria/04` §38 (separa "proceso de compra" en 4 sub-preguntas
+  en vez de 1, agrega "qué te sorprendió" y "dónde crees que estarías si no hubieras empezado").
+  **No es urgente hoy** — Testimonio 1 ya está grabado con la guía vieja, Testimonio 2 se espera
+  mañana. Si hay tiempo de sobra antes de grabar el Testimonio 2, se puede sumar alguna de las
+  preguntas nuevas; si no, la guía vieja ya cumple lo esencial. Queda anotado, no aplicado todavía.
+- **Disparadores:** el mismo documento que ya se había leído completo en la Parte 1 (11/9). Sin
+  cambios ni hallazgos nuevos.
 
 ---

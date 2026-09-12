@@ -873,6 +873,30 @@ diagramas de las 5 cajas. No una placa de texto: **el objeto tiene que verse**. 
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
+### ✅ AHORA ES EL PINEADO (12/9) — confirmado, ver `memoria/05` §43
+Nico lo dijo en la mentoría y lo confirma el propio diagrama del M3 ("Pin el más solicitado arriba a
+la izquierda del feed", en el bloque de 2 pasos): **este es el posteo que va anclado arriba del
+perfil**, no el reel mudo de 30 seg (`memoria/04` §26, que sigue publicándose pero como Autoridad
+regular). El copy de arriba **no cambia** — sigue valiendo la regla 1 de abajo (no enseñar nada en
+el posteo). Lo que sí se agrega es el guion de "entrenamiento" para cuando mandás el PDF (ver abajo).
+
+### El "entrenamiento" que pide Nico — va en el DM, no en el posteo
+El feedback de la mentoría (`memoria/05` §42) dice que el lead magnet necesita más que el archivo:
+hay que explicar el problema que resuelve, cómo usarlo, y por qué sirve en una impro real. Esto
+**parece contradecir la regla 1 de abajo** ("no enseñes nada en el posteo") — pero no, si se ubica en
+el lugar correcto: no va en el copy público, va en el mensaje privado que mandás junto con el PDF.
+Ahí sí corresponde explicar, porque ya es una conversación 1 a 1 con alguien que mostró interés real.
+
+**Guion para el DM (texto o nota de voz, 20-30 seg):**
+> "¡Acá tenés el mapa! Antes de que lo mires: no hace falta que aprendas las 5 cajas de nuevo, seguro
+> ya te sabés varias. Lo que este mapa te muestra es DÓNDE se tocan entre sí. Elegí dos cajas que ya
+> sepas, buscá el punto donde comparten una nota, y la próxima vez que improvises, en vez de cortar
+> la frase ahí y volver a arrancar en la misma caja, seguila del otro lado. Con eso solo, ya empezás
+> a salir de la caja 1. Cualquier duda, escribime."
+
+No requiere filmar nada — es texto para copiar/pegar o leer en una nota de voz. Se manda siempre que
+alguien comente PENTA y reciba el PDF, no es un evento único.
+
 ### Las 3 reglas de este posteo (marketing, no estética)
 1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy, el otro ya no necesita
    pedir el PDF. El valor tiene que estar **del otro lado del comentario**.
