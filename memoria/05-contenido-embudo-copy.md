@@ -337,13 +337,16 @@ primero aunque se publique último.**
 | 14 | **Carrusel 4** — "Anatomía de un solo que emociona" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 15 | **TESTIMONIO 2** — alumno 1 a 1 | Testimonio | 🟡 agendado — Feli espera tenerlo grabado el 13/9 |
 
-> **Nota sobre las 2 fotos de StoryTelling (9/9):** Feli propone una idea — él tocando la guitarra
-> en algún lugar/situación puntual ("con wafles", sin confirmar todavía qué es exactamente) y contar
-> cómo la música lo llevó a lugares inimaginables y le dio historias y calidad de vida. Encaja bien
-> como ángulo — no es el mismo que los 2 copys ya escritos (StoryTelling 1 es "toco desde los 11...",
-> StoryTelling 2 es "por qué dejé clases sueltas") — podría ser un ángulo nuevo a sumar más adelante,
-> o el criterio para elegir LA FOTO (no el texto) de uno de los dos ya escritos. Sin resolver, hay
-> que aclararlo con Feli antes de asumir cuál es cuál.
+> ✅ **RESUELTO (12/9).** "Wafles" es el nombre de la banda de Feli, no un lugar ni una situación —
+> quedó confirmado al preguntarle directo. Con ese dato, la asignación de fotos:
+> - **StoryTelling 1** ("Toco desde los 11 años... y sonaba igual"): foto de Feli de chico/adolescente
+>   tocando, si existe — el brief original ya decía "vale doble" y el ángulo encaja textual.
+> - **StoryTelling 2** ("Por qué dejé las clases sueltas"): **NO va una foto de Wafles acá** — el copy
+>   es sobre método y orden pedagógico, una foto de banda no acompaña esa idea. Va una foto de Feli en
+>   modo profesor (con un alumno, el cuadernillo, el mástil anotado) — lo que ya pedía el brief original
+>   ("algo que se vea de trabajo, no de show").
+> - **Wafles queda para la destacada YO TOCO** (hoy vacía, ver sección 11) — es el lugar exacto para
+>   mostrar que Feli toca en banda de verdad, no solo enseña. No se pierde el ángulo, solo se reubica.
 
 **Las 4 decisiones de orden que importan (y por qué):**
 1. **El Fijado va primero y anclado.** Es lo que ve cualquiera que entre. Antes de convencer a nadie de
