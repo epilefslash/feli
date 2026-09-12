@@ -1086,3 +1086,31 @@ post — se escucha Y se lee, doble refuerzo.
 
 Opcional: decir de verdad la última línea a cámara (en vez de voz en off) suma conexión personal,
 no es obligatorio.
+
+---
+
+## 46) EL PDF DEL ENTRENAMIENTO SE AMPLÍA — CERRADO (12/9)
+
+> A pedido de Feli, se sumó contenido real al `Mapa-5-cajas-pentatonica.pdf` para que el
+> entrenamiento no sea solo "mirá el diagrama" — sin convertirlo en un cuadernillo largo (sigue
+> siendo consumible en menos de 10 minutos, la regla del formato 2 pasos).
+
+**Lo que se agrega, ya verificado, no inventado:**
+1. **Ejemplo concreto del "puente"** entre Caja 1 y Caja 2 — verificado corriendo
+   `scripts/auditar_cajas.py --tabla` (no de memoria): en la 5ª cuerda, el traste 7 (MI) es
+   exclusivo de ninguna caja en particular pero pertenece a la vez a la Caja 1 y a la Caja 2 —
+   ahí es donde se cruza. La regla #2 del PDF ya decía "aprendé la nota que comparten" sin decir
+   cuál; ahora tiene el dato real.
+2. **Rutina de práctica de 5 minutos** — texto procedimental, sin partitura nueva.
+3. **Checklist de autoevaluación** — 3 casilleros.
+4. **Las canciones reales de "La regla de oro"**, no solo los nombres de los guitarristas (Back
+   in Black, Voodoo Child, Walk This Way, Whole Lotta Love, Parisienne Walkways — ya verificadas
+   en otras partes del proyecto, `memoria/04` §7).
+
+**Pendiente, sin resolver:** si Feli tiene un backing track en La menor ya armado, se puede sumar
+un link/QR para practicar el puente sobre música real — sería el salto de valor más grande de
+todos. Quedó preguntado, sin respuesta todavía — no bloquea el cierre del PDF.
+
+**Prompt consolidado para Design** (restyling + estas 4 mejoras + la corrección del CTA viejo)
+ya entregado a Feli en el chat — el mismo que resuelve el "estilo nada que ver" que señaló y la
+corrección del CTA viejo ("te muestro cómo trabajo") a la regla del 11/9.
