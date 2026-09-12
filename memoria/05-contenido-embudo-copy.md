@@ -333,9 +333,9 @@ primero aunque se publique último.**
 | 11 | **#8** — "No tengo oído" | Valor · Reel | 🟡 en edición (3 cortes pendientes) |
 | 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | 🟡 copy listo, foto sin elegir |
 | **SEMANA 4** ||||
-| 13 | **TESTIMONIO 1** — alumno 1 a 1 (candidatos: Ángel, Verónica o Simón) | Testimonio | 🔴 a agendar y grabar — arrancar ya |
+| 13 | **TESTIMONIO 1** — alumno 1 a 1 | Testimonio | 🟡 **grabado (12/9, Feli confirma)** — falta editar (ver corte de 60 seg, `memoria/04` §38) |
 | 14 | **Carrusel 4** — "Anatomía de un solo que emociona" | Valor · Carrusel | 🎨 escrito, falta diseño |
-| 15 | **TESTIMONIO 2** — alumno 1 a 1 (candidatos: Ángel, Verónica o Simón) | Testimonio | 🔴 a agendar y grabar — arrancar ya |
+| 15 | **TESTIMONIO 2** — alumno 1 a 1 | Testimonio | 🟡 agendado — Feli espera tenerlo grabado el 13/9 |
 
 > **Nota sobre las 2 fotos de StoryTelling (9/9):** Feli propone una idea — él tocando la guitarra
 > en algún lugar/situación puntual ("con wafles", sin confirmar todavía qué es exactamente) y contar
