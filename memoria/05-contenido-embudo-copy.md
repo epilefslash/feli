@@ -790,11 +790,17 @@ otros, y por eso necesita la contextualización en otro lado — el copy. No req
 >
 > Estos son 5 acordes que salen de la pentatónica que ya sabés. Mismo mapa, otro uso.
 >
-> Comentá SOLO y te cuento cómo se conecta esto con el resto del método 📩
+> Si querés sacarle todo el jugo a la pentatónica que ya tenés, comentá SOLO 📩
 
-> **Orden de publicación:** Feli lo va a subir primero. Esto **reordena** el plan vigente de
-> `memoria/05` §34 (Día 0 = Fijado + #9 + Epifanía) — queda sin confirmar si #2 reemplaza a uno de
-> esos tres o se suma como un cuarto posteo del Día 0. Anotado como pendiente, no asumido.
+> ✅ **CTA corregido (12/9)** para aplicar la regla del 11/9 (`memoria/04`, "Menú de CTAs" — el foco
+> va en la dolencia/deseo del alumno, no en "cómo trabajo yo"). Decía *"te cuento cómo se conecta
+> esto con el resto del método"* (foco en el método); ahora dice *"sacarle todo el jugo a la
+> pentatónica que ya tenés"* (foco en lo que el alumno quiere).
+>
+> ✅ **Orden de publicación — RESUELTO (12/9):** el Día 0 quedó cerrado como 2 pasos (pineado) + #1
+> + Epifanía (`memoria/05` §43/§44) — el #2 no entró en esa terna. Queda en stock con este copy ya
+> listo, para cuando le toque su lugar en el calendario (semana 5 en adelante, junto al resto del
+> stock sin producir — ver `memoria/05` §34).
 
 ### ✅ Reglas nuevas de carrusel — aplicadas ya en `memoria/05` §22
 1. **El hook va en la slide 1, y se repite reformulado en la slide 2.** Motivo real, no estético:
