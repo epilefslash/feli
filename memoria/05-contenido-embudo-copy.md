@@ -123,14 +123,35 @@ completo que grabes (memoria/04 §38) o testimonio parcial (cuando un alumno de 
 un pilar) va acá, sin límite — reduce el riesgo percibido de comprar. Arranca vacía hasta que
 existan los primeros 2 testimonios; no bloquea el lanzamiento del perfil.
 
-**Destacada MÉTODO (serie de 7 historias, inspirada en Andy Kligman):**
-1. PROMESA — "Te enseño a improvisar solos de rock como Page, Slash y Hendrix dominando la penta menor."
-2. PASO 1 — EL MAPA (las 5 cajas conectadas)
-3. PASO 2 — EL SABOR (bending y vibrato)
-4. PASO 3 — EL ESPACIO (tocar menos para decir más)
-5. PASO 4 — EL VOCABULARIO (licks de los grandes)
-6. RESULTADO (en 90 días grabás tu propio solo)
-7. CTA (comentá SOLO por DM)
+**Destacada MÉTODO (serie de 8 historias, guion hablado completo — 14/9, actualizada a los 5
+pilares reales de Nico en vez de los 4 pasos del borrador viejo inspirado en Andy Kligman):**
+
+> Guion palabra por palabra, listo para filmar de corrido y separar en 8 clips. PDF:
+> `Destacada-Metodo-Guion.pdf` (`scripts/build_destacada_metodo.py`).
+
+1. **PORTADA/GANCHO** — "Te voy a contar, en menos de 2 minutos, exactamente cómo te llevo de
+   tocar siempre lo mismo... a improvisar un solo que es tuyo. Mirá las siguientes historias."
+2. **QUIÉN SOS** — "Soy Feli. Armé un método de 5 pasos para guitarristas de rock que saben la
+   pentatónica menor... pero suenan siempre igual. Se llama Solo con Sabor. Así funciona:"
+3. **PILAR 1, EL MAPA** — "La mayoría se sabe las 5 cajas... por separado. Yo te enseño a verlas
+   como UN solo mástil. Ahí dejás de estar preso en la caja 1."
+4. **PILAR 2, EL SABOR** — "Ya sabés las notas. Ahora aprendés a que suenen a música: bending que
+   llega afinado, vibrato que es tuyo, y el silencio — que también es parte de la frase."
+5. **PILAR 3, EL VOCABULARIO** — "Te enseño a robarle frases a Page, a Slash, a Hendrix — y a
+   transformarlas hasta que suenen tuyas. No copiás: te apropiás."
+6. **PILAR 4, EL PULSO** — "De nada sirve tocar las notas justas si entran en el momento
+   equivocado. Acá aprendés dónde cae cada nota respecto del tiempo — el ritmo que nadie te
+   enseñó."
+7. **PILAR 5, EL VUELO** — "Ahí no aprendés nada nuevo — ahí SOLTÁS todo lo anterior, en vivo,
+   improvisando de verdad. Con otros músicos. Sin pensar."
+8. **RESULTADO + CTA** — "Al final de esto grabás TU propio solo de un minuto. Ese es tu antes y
+   después. Si estás en el mismo lugar donde yo estaba — sabés la caja 1 y sonás siempre igual —
+   escribime SOLO y te cuento cómo arrancamos."
+
+**3 notas de producción:** (1) no hace falta el mismo take perfecto para las 8, si te trabás en
+una la volvés a grabar sola — no es plano secuencia; (2) las historias 1 y 8 (gancho y cierre)
+son las que más pesan, si vas a ensayar algo que sea esas dos; (3) convive con la destacada
+FORMACIÓN — no repetir ahí el dato de la facultad, ya tiene su lugar propio.
 
 **Destacada FORMACIÓN (nueva, 3-4 historias):** el paso por la facultad de música de Rosario, los años
 enseñando 1 a 1, y por qué eso te hace confiable como guía — no como vendedor. Guion base: el mismo
