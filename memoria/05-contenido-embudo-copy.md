@@ -1174,43 +1174,52 @@ sin cortar (0:22-0:40) → "hoy puedo improvisar, con mucho miedo" + "cada vez m
 (0:22-0:38) → el logro del solo + "no hay edad, es ganas y disciplina" (0:38-0:55) → él tocando
 (cierre).
 
-### Los copys del post — ya escritos (14/9), listos para publicar hoy
+### Los copys del post — VERSIÓN FINAL (14/9), sobre referencias reales de Nico
+
+> ✅ Feli pasó 3 ejemplos reales de copy de testimonios de Nico con sus propios alumnos. El de
+> "@juancho85_" (un alumno de guitarra de Nico) es el molde que mejor encaja: calidez personal
+> ("se ganó mi corazón, ya un amigo") + un logro concreto y emocional + CTA sobre lo que el lector
+> SIENTE, no sobre el programa. Se reescribieron los dos testimonios con ese tono, sin inventarles
+> frases — todo lo que dicen Ángel y Vero entre comillas es textual de la transcripción.
+>
+> El tercer ejemplo (@carlos_decastro) es un formato distinto — un pitch del programa con estructura
+> ❌ problemas comunes / ✅ qué resuelve, usando un alumno como excusa de apertura, no un testimonio
+> narrativo. **No se usó para estos dos** (no refleja lo que dijeron ellos específicamente) — queda
+> como formato disponible para más adelante, cuando haya más testimonios acumulados, o como
+> creativo para la campaña de mensajes.
 
 **Ángel:**
-> Ángel tiene 54 años. Antes de empezar a trabajar juntos, tenía la guitarra en la mano hacía
-> tiempo — pero nunca la terminó de ejecutar. Cinco acordes mayores, sin cejilla, y no mucho más
-> que eso.
+> Ángel es uno de mis alumnos — tiene 54 años, y hace tiempo la guitarra le daba vueltas en la
+> cabeza sin que la terminara de ejecutar. Cinco acordes mayores, sin cejilla, y ahí se quedaba.
 >
-> Con otro profesor había sentido que el problema era él — que algo se le hacía imposible, y eso
-> lo dejaba sin poder ni intentar arrancar.
+> Con otro profesor había sentido que el problema era él — que algo ahí se le hacía imposible, y
+> eso lo frenaba antes de siquiera intentarlo.
 >
-> Lo que cambió fue meterle constancia y disciplina, un paso a la vez, hasta el día que sintió que
-> algo sonaba parecido a lo que tenía en el oído.
->
-> Hoy su logro es mantener un solo completo que antes le parecía inalcanzable. En sus palabras:
-> "para esto no hay edad, no hay nada — es ganas, ganas y disciplina."
+> Con constancia y disciplina, un paso a la vez, hoy sostiene un solo completo que hace poco le
+> parecía sinceramente inalcanzable. En sus propias palabras: "para esto no hay edad, no hay nada
+> — es ganas, ganas y disciplina." 🎸🙌🏻
 >
 > Escuchá cómo suena hoy 👆
 >
-> (Y gracias Ángel por prestarte a esto 🙏)
+> Si sentís que la edad o el tiempo te están frenando para animarte a tocar de verdad, escribime
+> **SOLO** 💪🏻
 
 **Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
 
 **Verónica:**
-> Verónica tiene 53 años y es psicóloga. Cuando empezamos a trabajar juntos, me dijo esto: "Nunca
-> voy a improvisar — esa era la creencia que yo tenía."
+> Verónica es psicóloga, tiene 53 años, y cuando empezamos me dijo algo que no me olvido: "Nunca
+> voy a improvisar — esa era la creencia que yo tenía." Sentía que hacía falta "tener oído" para
+> improvisar, y que ella no lo tenía.
 >
-> Le pasaba lo que le pasa a muchos: sentía que hacía falta "tener oído" para poder improvisar — y
-> que ella no lo tenía.
+> En su primera clase con guitarra eléctrica, con una batería de fondo, sintió por primera vez que
+> podía hacer música con otro. Ese fue el clic.
 >
-> Lo que cambió no fue aprender más acordes. Fue la primera clase con guitarra eléctrica, con una
-> batería de fondo — ahí sintió por primera vez que podía hacer música con otro.
->
-> Hoy dice: "puedo improvisar. Con mucho miedo, lo digo con mucho miedo — pero puedo."
+> Hoy dice: "puedo improvisar. Con mucho miedo, lo digo con mucho miedo — pero puedo." 🥹🎸
 >
 > Escuchá cómo suena hoy 👆
 >
-> (Y gracias Vero por prestarte a esto 🙏)
+> Si sentís que "no tenés oído" o que improvisar no es para vos, escribime **SOLO** — capaz te
+> sorprendés como ella.
 
 **Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
 
