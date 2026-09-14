@@ -793,28 +793,35 @@ trabajo: se escucha Y se lee.
 
 ### StoryTelling 1 — "Toco desde los 11 años. Y durante años sonaba igual."
 **Función:** máxima identificación. El avatar se tiene que ver a sí mismo en el segundo párrafo.
-**Foto:** vos con la guitarra, en tu espacio real (la pieza, el estudio, donde practicás de verdad).
-Luz natural, sin producción. Si tenés una foto vieja tuya tocando de chico, **usala** — vale doble.
+**Foto:** confirmado — Feli tiene una foto real de su banda de chiquito. Mejor todavía que una foto
+solo (el brief ya decía "vale doble"; con banda pega más fuerte).
 
-> Empecé a tocar la guitarra a los once años.
+> ✅ **Ajustado (14/9), a pedido de Feli — más gancho en el arranque.** El StoryTelling pide "gancho
+> de máxima tensión, como una película" (hallazgo real de `memoria/05` §36: el original arrancaba
+> con un dato neutro, "Empecé a tocar a los once años"). Se sube la tensión del primer párrafo y se
+> afilan un par de giros en el medio — mismo largo, mismo tono, misma historia real.
+
+> Tengo la guitarra en las manos desde los once años. Y durante años, eso no se notaba en nada de lo
+> que tocaba.
 >
-> Aprendí de todas las formas que se puede aprender: tablaturas de internet, videos, profesores
-> particulares. Después estudié en la facultad de música en Rosario. No me recibí, pero aprendí
-> muchísimo ahí.
+> Aprendí de todas las formas que existen: tablaturas de internet, videos, profesores particulares.
+> Después até estudié en la facultad de música, acá en Rosario. No me recibí — pero aprendí
+> muchísimo.
 >
-> Y te voy a ser honesto: con todo eso encima, durante años seguí tocando las mismas frases.
+> Y sin embargo, con todo eso encima, seguía tocando las mismas frases de siempre.
 >
-> Sabía teoría. Sabía las escalas. Sabía nombrar lo que estaba pasando. Y cuando agarraba la viola
-> para improvisar, salía siempre lo mismo.
+> Sabía teoría. Sabía las escalas. Sabía nombrar cada cosa que estaba pasando arriba del mástil. Y
+> cuando agarraba la viola para improvisar, salía exactamente lo mismo que el día anterior.
 >
-> Ese es el punto que casi nadie cuenta: se puede saber mucho y sonar igual. No son la misma cosa.
+> Ese es el punto que casi nadie cuenta en voz alta: se puede saber muchísimo y sonar igual. No son
+> la misma cosa. Ni se corrigen de la misma forma.
 >
-> Si te está pasando eso — que estudiás, que mirás, que guardás, y al improvisar seguís sonando como
-> hace dos años — no es falta de talento y no es falta de información.
+> Si te está pasando eso — que estudiás, mirás, guardás, y al improvisar seguís sonando como hace
+> dos años — no es que te falte talento. Y no es que te falte información.
 >
 > Es otra cosa. Y tiene arreglo.
 >
-> ¿Cuánto hace que tocás? Contame abajo 👇
+> ¿Cuánto hace que tocás vos? Contame abajo 👇
 
 **Hashtags:** `#guitarra #guitarraelectrica #aprenderguitarra #guitarristas #rock #pentatonica`
 
@@ -822,25 +829,31 @@ Luz natural, sin producción. Si tenés una foto vieja tuya tocando de chico, **
 **Función:** instala el modelo (programa con proceso, no clases por hora) **sin vender nada**. Cuando
 más adelante aparezca la oferta, ya está pre-explicada. Este posteo hace que el precio tenga sentido
 antes de que exista el precio.
-**Foto:** vos enseñando, o el cuaderno/cuadernillo/mástil anotado. Algo que se vea "de trabajo", no de show.
+**Foto:** vos enseñando, o el cuaderno/cuadernillo/mástil anotado. Algo que se vea "de trabajo", no
+de show. **NO va la foto de Wafles acá** — la banda no acompaña una idea de método/orden pedagógico
+(ver `memoria/05` §34). Sigue pendiente de foto hasta que Feli tenga una de modo profesor.
+
+> ✅ **Ajustado (14/9), mismo pedido que el ST1** — más tensión en el arranque, mismo largo y tono.
 
 > Durante mucho tiempo di clases sueltas. Una hora, un tema, chau, nos vemos la semana que viene.
 >
-> Y funcionaba… más o menos.
+> Y funcionaba. O al menos, así lo parecía.
 >
-> Porque pasaba siempre lo mismo: el alumno venía, se llevaba algo bueno, lo practicaba una semana,
-> y a la clase siguiente arrancábamos otra cosa. Un tema arriba del otro. Mucho contenido, poco camino.
+> Porque pasaba siempre lo mismo: el alumno venía, se llevaba algo bueno, lo practicaba esa semana,
+> y a la clase siguiente arrancábamos con otra cosa completamente distinta. Un tema arriba del otro.
+> Mucho contenido. Poco camino.
 >
-> Un día lo vi claro: yo le estaba dando **piezas**, y él necesitaba un **orden**.
+> Hasta que un día lo vi clarísimo: yo le estaba dando **piezas**, y él necesitaba un **orden**.
 >
-> Nadie mejora porque le tiren más información. Mejora cuando alguien le dice qué va primero, qué va
-> después, y por qué. Cuando lo que estudia hoy prepara lo que va a estudiar en tres semanas.
+> Porque nadie mejora solo por recibir más información. Mejora cuando alguien le dice qué va
+> primero, qué va después, y por qué. Cuando lo que estudia hoy prepara exactamente lo que va a
+> necesitar estudiar en tres semanas.
 >
-> Por eso dejé de vender clases y armé un proceso: primero el mapa del mástil, después el sabor
-> (bending, vibrato, espacio), y recién al final el vocabulario propio. En ese orden, porque en otro
-> orden no funciona.
+> Por eso dejé de vender clases sueltas y armé un proceso completo: primero el mapa del mástil,
+> después el sabor — bending, vibrato, espacio — y recién al final, el vocabulario propio. En ese
+> orden. Porque en cualquier otro orden, simplemente no funciona.
 >
-> No es más contenido. Es el mismo contenido, ordenado. Y esa diferencia es todo.
+> No es más contenido. Es el mismo contenido — pero ordenado. Y esa diferencia lo cambia todo.
 
 **Hashtags:** `#guitarra #aprenderguitarra #profesordeguitarra #guitarristas #metodo #rock`
 
