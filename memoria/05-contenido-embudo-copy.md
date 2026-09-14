@@ -329,26 +329,32 @@ primero aunque se publique último.**
 
 | # | Posteo | Categoría Nico | Estado |
 |---|---|---|---|
-| **DÍA 0 — se suben los 3 juntos (reordenado 12/9, ver §43)** ||||
+| **DÍA 0 — se suben los 3 juntos (reordenado 14/9, decisión de Feli)** ||||
 | 1 | **PINEADO: posteo de 2 PASOS** (mapa de las 5 cajas, PENTA) | 2 pasos | ✅ pieza y copy listos (`memoria/04` §37) |
-| 2 | **#1 — Recursos para tu pentatónica** (toca, no habla) | Autoridad | ✅ filmado y editado, listo para publicar |
-| 3 | **EPIFANÍA** — formato real de Nico (B-roll + copy) | Epifanía | 🎬 se filma hoy, copy listo (`memoria/04` §35-BIS) |
+| 2 | **TESTIMONIO — Ángel (54)** | Testimonio | 🟡 grabado (14/9) — copy listo `memoria/05` §47, falta editar el video |
+| 3 | **TESTIMONIO — Verónica (53)** | Testimonio | 🟡 grabado (12/9) — copy listo `memoria/05` §47, falta editar el video |
 | **SEMANA 1** ||||
 | 4 | **Carrusel 1** — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 5 | **#4** — "¿Cuántas escalas necesitás?" | Valor · Reel | ✅ filmado + editado |
-| 6 | **StoryTelling 1** (foto) — "Toco desde los 11 y sonaba igual" | StoryTelling | 🟡 copy listo, foto sin elegir (ver nota abajo) |
+| 6 | **StoryTelling 1** (foto) — "Toco desde los 11 y sonaba igual" | StoryTelling | ✅ copy listo, foto lista (band de chiquito) |
 | **SEMANA 2** ||||
-| 7 | **REEL FIJADO viejo** (#12) — 30 seg tocando, sin hablar, sin CTA | Autoridad | 🎬 guion listo (`memoria/04` §26) — pasa acá desde el Día 0, ver §43 |
+| 7 | **REEL FIJADO viejo** (#12) — 30 seg tocando, sin hablar, sin CTA | Autoridad | 🎬 guion listo (`memoria/04` §26) |
 | 8 | **Carrusel 2** — "Los 4 ingredientes del sabor" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 9 | **#6** — "Tus solos no respiran" (espacio) | Valor · Reel | ✅ **terminado** (9/9, Feli confirma) |
 | **SEMANA 3** ||||
-| 10 | **POSTEO DE 2 PASOS** (imagen) — el mapa gratis, keyword PENTA | 2 pasos | ✍️ guion y copy listos, falta el mockup del PDF |
+| 10 | **POSTEO DE 2 PASOS** (imagen) — reciclado, el mapa gratis, keyword PENTA | 2 pasos | ✍️ guion y copy listos |
 | 11 | **#8** — "No tengo oído" | Valor · Reel | 🟡 en edición (3 cortes pendientes) |
-| 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | 🟡 copy listo, foto sin elegir |
+| 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | 🟡 copy listo, foto sin elegir (NO Wafles, ver §34) |
 | **SEMANA 4** ||||
-| 13 | **TESTIMONIO 1** — alumno 1 a 1 (Verónica, 53) | Testimonio | 🟡 **grabado (12/9, Feli confirma)** — falta editar, quotes elegidas en `memoria/05` §47 |
+| 13 | **#1 — Recursos para tu pentatónica** (toca, no habla) | Autoridad | ✅ filmado y editado, listo para publicar |
 | 14 | **Carrusel 4** — "Anatomía de un solo que emociona" | Valor · Carrusel | 🎨 escrito, falta diseño |
-| 15 | **TESTIMONIO 2** — alumno 1 a 1 (Ángel, 54) | Testimonio | 🟡 **grabado (14/9, Feli confirma)** — falta editar, quotes elegidas en `memoria/05` §47 |
+| 15 | **EPIFANÍA** — formato real de Nico (B-roll + copy) | Epifanía | 🎬 guion narrado listo (`memoria/04` §35-BIS, `memoria/05` §45) |
+
+> ✅ **Reorden 14/9, decisión de Feli:** el Día 0 pasa a ser Pineado + los 2 Testimonios (adelantados
+> desde la semana 4), y #1 + Epifanía se corren a la semana 4 en su lugar. Esto invierte la lógica
+> original (§34, punto 4: "los testimonios cierran, máximo peso de prueba social cuando el perfil ya
+> tiene volumen") — se aplica igual porque es una decisión explícita de Feli, no un descuido. Nada se
+> pierde, todo el contenido de los 15 sigue estando, solo cambia el orden de publicación.
 
 > ✅ **RESUELTO (12/9).** "Wafles" es el nombre de la banda de Feli, no un lugar ni una situación —
 > quedó confirmado al preguntarle directo. Con ese dato, la asignación de fotos:
@@ -1167,6 +1173,46 @@ sin cortar (0:22-0:40) → "hoy puedo improvisar, con mucho miedo" + "cada vez m
 **Corte de 60 seg propuesto:** Punto A (0:00-0:10) → lo que no funcionó (0:10-0:22) → el clic
 (0:22-0:38) → el logro del solo + "no hay edad, es ganas y disciplina" (0:38-0:55) → él tocando
 (cierre).
+
+### Los copys del post — ya escritos (14/9), listos para publicar hoy
+
+**Ángel:**
+> Ángel tiene 54 años. Antes de empezar a trabajar juntos, tenía la guitarra en la mano hacía
+> tiempo — pero nunca la terminó de ejecutar. Cinco acordes mayores, sin cejilla, y no mucho más
+> que eso.
+>
+> Con otro profesor había sentido que el problema era él — que algo se le hacía imposible, y eso
+> lo dejaba sin poder ni intentar arrancar.
+>
+> Lo que cambió fue meterle constancia y disciplina, un paso a la vez, hasta el día que sintió que
+> algo sonaba parecido a lo que tenía en el oído.
+>
+> Hoy su logro es mantener un solo completo que antes le parecía inalcanzable. En sus palabras:
+> "para esto no hay edad, no hay nada — es ganas, ganas y disciplina."
+>
+> Escuchá cómo suena hoy 👆
+>
+> (Y gracias Ángel por prestarte a esto 🙏)
+
+**Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
+
+**Verónica:**
+> Verónica tiene 53 años y es psicóloga. Cuando empezamos a trabajar juntos, me dijo esto: "Nunca
+> voy a improvisar — esa era la creencia que yo tenía."
+>
+> Le pasaba lo que le pasa a muchos: sentía que hacía falta "tener oído" para poder improvisar — y
+> que ella no lo tenía.
+>
+> Lo que cambió no fue aprender más acordes. Fue la primera clase con guitarra eléctrica, con una
+> batería de fondo — ahí sintió por primera vez que podía hacer música con otro.
+>
+> Hoy dice: "puedo improvisar. Con mucho miedo, lo digo con mucho miedo — pero puedo."
+>
+> Escuchá cómo suena hoy 👆
+>
+> (Y gracias Vero por prestarte a esto 🙏)
+
+**Hashtags:** `#guitarra #aprenderguitarra #guitarristas #testimonio #alumnos #rock #solodeguitarra`
 
 ### Pendiente
 - ☐ Permiso por escrito de los dos para usar el video (regla del proyecto, siempre).
