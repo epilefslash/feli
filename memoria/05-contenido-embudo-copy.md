@@ -346,9 +346,9 @@ primero aunque se publique último.**
 | 11 | **#8** — "No tengo oído" | Valor · Reel | 🟡 en edición (3 cortes pendientes) |
 | 12 | **StoryTelling 2** (foto) — "Por qué dejé las clases sueltas" | StoryTelling | 🟡 copy listo, foto sin elegir |
 | **SEMANA 4** ||||
-| 13 | **TESTIMONIO 1** — alumno 1 a 1 | Testimonio | 🟡 **grabado (12/9, Feli confirma)** — falta editar (ver corte de 60 seg, `memoria/04` §38) |
+| 13 | **TESTIMONIO 1** — alumno 1 a 1 (Verónica, 53) | Testimonio | 🟡 **grabado (12/9, Feli confirma)** — falta editar, quotes elegidas en `memoria/05` §47 |
 | 14 | **Carrusel 4** — "Anatomía de un solo que emociona" | Valor · Carrusel | 🎨 escrito, falta diseño |
-| 15 | **TESTIMONIO 2** — alumno 1 a 1 | Testimonio | 🟡 agendado — Feli espera tenerlo grabado el 13/9 |
+| 15 | **TESTIMONIO 2** — alumno 1 a 1 (Ángel, 54) | Testimonio | 🟡 **grabado (14/9, Feli confirma)** — falta editar, quotes elegidas en `memoria/05` §47 |
 
 > ✅ **RESUELTO (12/9).** "Wafles" es el nombre de la banda de Feli, no un lugar ni una situación —
 > quedó confirmado al preguntarle directo. Con ese dato, la asignación de fotos:
@@ -1114,3 +1114,61 @@ todos. Quedó preguntado, sin respuesta todavía — no bloquea el cierre del PD
 **Prompt consolidado para Design** (restyling + estas 4 mejoras + la corrección del CTA viejo)
 ya entregado a Feli en el chat — el mismo que resuelve el "estilo nada que ver" que señaló y la
 corrección del CTA viejo ("te muestro cómo trabajo") a la regla del 11/9.
+
+---
+
+## 47) LOS 2 TESTIMONIOS — transcripciones procesadas, mejores citas elegidas (14/9)
+
+> Feli subió la transcripción completa de una sesión de grabación que resultó tener a LOS DOS
+> entrevistados: **Verónica (53, psicóloga, Rosario)** y **Ángel (54)** — los mismos 2 avatares
+> reales de `MODULO-1-RESPONDIDO.md`, no desconocidos. Esto cierra los Testimonio 1 y 2 de los 15
+> primeros posteos — los dos están grabados, falta editar.
+
+> ⚠️ **Hallazgo de proceso:** ninguno de los dos contestó metiendo la pregunta adentro de la
+> respuesta (la instrucción técnica de `memoria/04` §38) — las respuestas quedan un poco sueltas
+> para cortar tal cual. Se resuelve en edición con un subtítulo de la pregunta antes de cada corte,
+> o la voz de Feli preguntando por encima. Recordar reforzar esa instrucción antes del próximo
+> testimonio que se grabe.
+
+### Verónica — citas elegidas por categoría
+- **Punto A:** "Nunca voy a improvisar — esa era la creencia que yo tenía." / "Siento que alguien
+  tiene que tener cierto oído para poder improvisar... y yo no lo tengo."
+- **Lo que no funcionó:** "Tocaba mecánicamente, no entendiendo la música... puedo tocar una
+  canción mecánicamente — esa es la palabra: me mecanizo."
+- **El clic (la mejor cita de las dos):** "Fue la primera clase. Me diste la guitarra eléctrica,
+  me explicaste las quintas... agarramos una canción y me acompañaste con batería, y me sentí como
+  que yo podía tocar con alguien en un grupo, podía hacer música con otro. Eso fue clave, me marcó
+  mucho."
+- **Punto B:** "Hoy puedo improvisar. Con mucho miedo, lo digo con mucho miedo... puedo tocar algo
+  y sentir que eso es mío." / "Cada vez estoy más relajada. Cada vez algo de mí se puede expresar
+  más en la guitarra."
+- **Recomendación:** adolescentes buscando identidad + adultos mayores ("la música los pone en el
+  lugar de músicos, no en el de 'adulto mayor'").
+
+**Corte de 60 seg propuesto:** Punto A (0:00-0:10) → lo mecánico (0:10-0:22) → el clic completo,
+sin cortar (0:22-0:40) → "hoy puedo improvisar, con mucho miedo" + "cada vez más relajada"
+(0:40-0:55) → ella tocando (cierre).
+
+### Ángel — citas elegidas por categoría
+- **Punto A:** "No había improvisación. Se llevaba un cancionero de otra época... tenía cinco
+  acordes mayores conocidos, sin cejilla, y no mucho más que eso."
+- **Lo que no funcionó (con otro profesor):** "El problema era yo... en la segunda clase me
+  ofrecí, [pensé que] esto era imposible. Y evidentemente eso hace que todo se torne inalcanzable,
+  y vos no puedas ni intentar arrancar."
+- **El clic:** "Haciendo pequeñas cosas que nunca pensé que iba a poder hacer... una vez que ves
+  que tirás diez, doce, quince notas juntas y que suenan parecido a lo que tenías en el oído,
+  decís: 'es muy difícil, pero se puede.'"
+- **Punto B (la mejor cita de los dos):** "Mi logro mayor es poder mantener, digitar algo como el
+  solo que hicimos la vez pasada — que para mí era sinceramente inalcanzable. Un solo que tiene
+  gusto, que tiene dinámica... para esto no hay edad, no hay nada — es ganas, ganas y disciplina."
+- **Recomendación:** "Nunca hay límite... primero, que se puede; segundo, que el momento es
+  siempre; tercero, que hay métodos, hay gente que te puede ayudar."
+
+**Corte de 60 seg propuesto:** Punto A (0:00-0:10) → lo que no funcionó (0:10-0:22) → el clic
+(0:22-0:38) → el logro del solo + "no hay edad, es ganas y disciplina" (0:38-0:55) → él tocando
+(cierre).
+
+### Pendiente
+- ☐ Permiso por escrito de los dos para usar el video (regla del proyecto, siempre).
+- ☐ Editar ambos cortes.
+- ✅ Cero elogios directos a Feli en ninguno de los dos — nada que cortar por esa regla.
