@@ -64,9 +64,11 @@ recurso que usa el ejemplo real de Nico. Opciones:
 
 ## El copy completo — esto es lo que realmente convence, no el video
 
-Estructura de 8 partes (gancho, creencia común, defender posición, probarlo con tu historia,
-consecuencias, revelar solución, conclusión + tarea, cierre con CTA) — la misma estructura que
-usa Nico en su plantilla real de Epifanía.
+Estructura real de 7 partes de contenido + 1 nota de producción, tal cual la plantilla oficial de
+Nico ("Guiones de Reels tipo B-Roll + Copy Epifanía"): 1) gancho, 2) creencia común, 3) defender
+posición, 4) probarlo con tu historia, 5) consecuencias, 6) revelar solución, 7) conclusión +
+tarea + CTA (todo en el mismo bloque de cierre) — y el ítem 8 no es texto: es la nota de que la
+foto/video tiene que ser de tu propia autoría, no genérica.
 
 > 🎸 Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la
 > primera.
@@ -93,9 +95,8 @@ usa Nico en su plantilla real de Epifanía.
 > cuando enseño, siempre empiezo por ahí — no por más escalas, por el mapa completo del mástil.
 >
 > 👉 Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, agarrá tu caja de siempre y
-> buscá la nota que comparte con la caja de al lado. Ese es el primer puente.
->
-> Te enseño a improvisar solos de rock dominando la pentatónica menor de verdad — no caja por
-> caja, como un solo mapa. Si te sentís identificado, escribime SOLO 📩
+> buscá la nota que comparte con la caja de al lado. Ese es el primer puente. Te enseño a
+> improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja, como un
+> solo mapa. Si te sentís identificado, escribime SOLO 📩
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`

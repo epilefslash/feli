@@ -706,10 +706,19 @@ promesa de la bio + un llamado a la acción específico. Nada de esto estaba en 
 4. **Probarlo** — tu historia real (o de un alumno/tercero), con argumentos lógicos y emocionales.
 5. **Consecuencias** de seguir creyendo esa creencia — el daño real que causa.
 6. **Revelar la solución** — qué hiciste vos para resolverlo, y cómo cambió tu forma de tocar/vivir.
-7. **Conclusión/lección** — resumen de beneficios + una tarea de acción concreta, para hoy mismo.
-8. **Cierre** — promesa de valor de la bio + CTA específico.
+7. **Conclusión/lección** — resumen de beneficios + resumen de lo que deben hacer + una tarea de
+   acción concreta, para hoy mismo. **El CTA y la promesa de valor van ACÁ ADENTRO**, como cierre
+   del mismo bloque — no son un ítem aparte.
+8. **Foto/Video (opcional)** — no es texto del copy, es una nota de producción: que la imagen sea
+   de tu propia autoría, no genérica, amigable y real.
 
-Máximo 3 oraciones por sección. Foto o video de autoría propia (no genérico), amigable y real.
+> ✅ **Corregido (15/9):** esta memoria tenía mal el ítem 8 — decía "Cierre: promesa+CTA" como si
+> fuera un bloque de texto separado. Feli pegó la plantilla real completa y el ítem 8 es una nota
+> de producción sobre la foto/video, no un párrafo más. El CTA/promesa vive dentro del ítem 7. El
+> copy de abajo ya estaba bien resuelto en la práctica (el CTA cierra el post) — solo estaba mal
+> descripta la estructura acá.
+
+Máximo 3 oraciones por sección.
 
 ### La creencia que ataca (nuestra Epifanía, reescrita)
 La creencia falsa del nicho, en nuestro caso, es exactamente la que ya veníamos usando en el guion
@@ -746,10 +755,9 @@ intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con e
 > enseño, siempre empiezo por ahí — no por más escalas, por el mapa completo del mástil.
 >
 > 👉 Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, agarrá tu caja de siempre y
-> buscá la nota que comparte con la caja de al lado. Ese es el primer puente.
->
-> Te enseño a improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja,
-> como un solo mapa. Si te sentís identificado, escribime SOLO 📩
+> buscá la nota que comparte con la caja de al lado. Ese es el primer puente. Te enseño a
+> improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja, como un
+> solo mapa. Si te sentís identificado, escribime SOLO 📩
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
