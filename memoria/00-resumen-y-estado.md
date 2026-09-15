@@ -16,7 +16,11 @@
 > miedos de Feli sobre el delivery y las clases online, (d) sumamos el caso Sergio + regla 97/3, y (e)
 > escribimos la SIMULACIÓN del "después" (sección 18).
 > **Quién soy:** Feli (NO confundir con Nico — Nico Galliussi es el mentor del método, yo soy el alumno que lo aplica).
-> **IG elegido:** felibayamenor (probable @felibayamenor, sin tilde ni mayúscula — confirmar el exacto).
+> **IG elegido:** @feli.baya.menor — ✅ **confirmado (15/9)**, con puntos, no "felibayamenor" pegado como se
+> venía asumiendo en varios documentos viejos del repo (ese handle simple estaba libre en teoría, pero el
+> real que Feli creó es `instagram.com/feli.baya.menor`). Corregir mentalmente cualquier referencia vieja
+> a "@felibayamenor" contra este dato — los PDFs ya entregados con el handle viejo no se reimprimen salvo
+> que haga falta.
 > **Decisiones tomadas (última sesión):** precio fundadores USD 400 (por debajo del rango 600-900 del plan
 > original — revisar con Nico, probablemente empuje para arriba) · las keywords de CTA ROTAN por reel (PENTA,
 > CHIMI, ROCK… — no es una palabra fija) · garantía: se define con Nico · "Solo con Sabor" = nombre PROVISORIO

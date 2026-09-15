@@ -351,9 +351,9 @@ primero aunque se publique último.**
 | # | Posteo | Categoría Nico | Estado |
 |---|---|---|---|
 | **DÍA 0 — se suben los 3 juntos (reordenado 14/9, decisión de Feli)** ||||
-| 1 | **PINEADO: posteo de 2 PASOS** (mapa de las 5 cajas, PENTA) | 2 pasos | ✅ pieza y copy listos (`memoria/04` §37) |
-| 2 | **TESTIMONIO — Ángel (54)** | Testimonio | 🟡 grabado (14/9) — copy listo `memoria/05` §47, falta editar el video |
-| 3 | **TESTIMONIO — Verónica (53)** | Testimonio | 🟡 grabado (12/9) — copy listo `memoria/05` §47, falta editar el video |
+| 1 | **PINEADO: posteo de 2 PASOS** (mapa de las 5 cajas, PENTA) | 2 pasos | ✅ **publicado (15/9)** — confirmar que haya quedado pineado |
+| 2 | **TESTIMONIO — Ángel (54)** | Testimonio | ✅ **publicado (15/9)** |
+| 3 | **TESTIMONIO — Verónica (53)** | Testimonio | 🟡 **en edición hoy (15/9)** — copy listo `memoria/05` §47, falta terminar el corte y publicar |
 | **SEMANA 1** ||||
 | 4 | **Carrusel 1** — "5 guitarristas legendarios, 1 sola escala" | Valor · Carrusel | 🎨 escrito, falta diseño |
 | 5 | **#4** — "¿Cuántas escalas necesitás?" | Valor · Reel | ✅ filmado + editado |
@@ -1246,5 +1246,36 @@ sin cortar (0:22-0:40) → "hoy puedo improvisar, con mucho miedo" + "cada vez m
 
 ### Pendiente
 - ☐ Permiso por escrito de los dos para usar el video (regla del proyecto, siempre).
-- ☐ Editar ambos cortes.
+- ✅ **Testimonio Ángel — publicado (15/9).**
+- 🟡 Testimonio Verónica — en edición (15/9), falta terminar y publicar.
 - ✅ Cero elogios directos a Feli en ninguno de los dos — nada que cortar por esa regla.
+
+---
+
+## 48) EL PERFIL YA ESTÁ VIVO — @feli.baya.menor (15/9)
+
+> ✅ **El handle real, confirmado:** `instagram.com/feli.baya.menor` — con puntos, no
+> "felibayamenor" pegado como asumían varios documentos viejos del repo. Corregido en `memoria/00`.
+
+**Estado real al 15/9, verificado por Feli:**
+- ✅ Cuenta creada y con contenido real arriba — **ya no es un perfil vacío.**
+- ✅ **Publicado:** el posteo de 2 pasos (el pineado, mapa de las 5 cajas) + el testimonio de Ángel.
+  Pendiente confirmar si el de 2 pasos quedó efectivamente **pineado** arriba del perfil (`memoria/05`
+  §43 — es la pieza que tiene que estar anclada, no solo publicada).
+- 🟡 **En edición:** el testimonio de Verónica — no publicado todavía.
+- 🟡 **Automatización de DM para PENTA:** Feli está esperando que Meta le habilite Facebook para armar
+  la automatización de palabras clave (mandar el link de Drive automático). Hasta que eso esté, se
+  sigue contestando a mano (ver el copy de DM ya armado más arriba, sección del entrenamiento).
+
+**Checklist de filmación/edición que Feli se armó para el 15/9 (fuera del Día 0, ya en marcha):**
+1. Filmar Epifanía (guion narrado en `memoria/04` §35-BIS / `memoria/05` §45).
+2. Filmar la destacada MÉTODO (guion de 12 historias dinámicas, hablados extendidos — pendiente de
+   confirmación final para guardar en memoria, ver conversación del 14-15/9).
+3. Editar el testimonio de Verónica.
+4. Editar "3 formas de romper las cajas" (#9).
+
+**Feedback sobre el orden de este checklist:** los 2 primeros (Epifanía + destacada Método) piden
+estar filmando — mismo setup de cámara, distintos ángulos/lugares. Conviene agruparlos en el mismo
+bloque de filmación (como ya se hizo con los videos #5/#6, `memoria/07` §14) en vez de intercalarlos
+con edición, que es otro tipo de trabajo. Los 2 últimos (editar Vero + editar #9) son trabajo de
+escritorio — se pueden hacer en cualquier momento, no necesitan luz ni setup.
