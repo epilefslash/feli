@@ -157,11 +157,86 @@ FORMACIÓN — no repetir ahí el dato de la facultad, ya tiene su lugar propio.
 enseñando 1 a 1, y por qué eso te hace confiable como guía — no como vendedor. Guion base: el mismo
 bloque de "el Punto A" del guion de la Historia (memoria/04 §25), recortado a formato historia.
 
-**Estructura de la llamada de descubrimiento (20 min):**
+**Estructura de la llamada de descubrimiento (20 min) — versión original:**
 1. (5 min) Diagnóstico: ¿hace cuánto tocás? ¿qué te frustra? ¿qué intentaste?
 2. (5 min) Objetivo: ¿dónde querés estar en 3 meses?
 3. (5 min) Presentación del programa: Punto A → B + cómo tu método lo cubre.
 4. (5 min) Cierre: precio + condiciones + arranca esta semana.
+
+> ⚠️ Esta versión queda reemplazada por la de abajo (§11-BIS), que aplica el marco de venta
+> consultiva investigado el 15/9 — mismo esqueleto de 4 tramos, con las preguntas concretas.
+
+---
+
+## 11-BIS) VENTA CONSULTIVA — el marco completo para la llamada (15/9)
+
+> Investigado a pedido de Feli, que está escuchando ahora las clases de Ventas de Nico (M5V/M6V,
+> `memoria/00` §0-BIS) sin tener los módulos habilitados todavía. **La idea central, dicha por
+> Feli:** no se convence, se siembra con preguntas — el cliente tiene que decir el problema y el
+> valor de resolverlo con SU propia voz, no escucharlo de la tuya. Nadie discute lo que dice de
+> sí mismo.
+
+### El marco SPIN (Neil Rackham) — 4 tipos de pregunta, en este orden
+
+| Tipo | Para qué sirve | Preguntas para tu avatar |
+|---|---|---|
+| **S — Situación** | Contexto neutro, calienta la charla | "¿Hace cuánto tocás?" · "¿Cómo aprendiste — solo, con profesor, tutoriales?" · "¿Cuánto le dedicás hoy por semana?" |
+| **P — Problema** | Ahí aparece el dolor real | "¿Qué te pasa cuando agarrás la guitarra para improvisar?" · "¿Sentís que siempre volvés a las mismas frases?" · "¿Qué intentaste ya para mejorar eso?" |
+| **I — Implicación** | La más importante — agranda el problema, pero lo agranda ÉL, no vos | "¿Hace cuánto te pasa esto?" · "¿Qué se siente estar en una junta y no poder soltarte a improvisar?" · "Si seguís así 6 meses más, ¿dónde te ves?" · "¿Qué dejaste de hacer por esto?" |
+| **N — Necesidad-beneficio** | El cliente arma tu propio pitch sin que vos lo digas | "Si pudieras improvisar con esa libertad, ¿qué cambiaría para vos?" · "¿Qué significaría grabar tu propio solo en 90 días?" |
+
+**4 herramientas de fondo, no negociables:**
+1. **Preguntas abiertas, nunca cerradas** — evitar todo lo que se conteste con sí/no.
+2. **Silencio estratégico** — después de una pregunta fuerte, callarse 6-8 seg. Lo que dice
+   después del silencio suele ser lo más real.
+3. **Regla 70/30** — el cliente habla el 70% del tiempo. Si terminás hablando más vos, la
+   perdiste, aunque cierres la venta.
+4. **Cero pitch hasta que él mismo puso el problema en palabras.**
+
+### Estructura de 20 min, actualizada con SPIN
+
+| Tramo | Qué se hace |
+|---|---|
+| Diagnóstico (5 min) | Situación + Problema |
+| Objetivo (5 min) | Implicación + Necesidad-beneficio — recién acá se pregunta por el futuro, después de que ya nombró el dolor |
+| Presentación (5 min) | Se apoya textual en lo que ÉL dijo: "Vos me dijiste que querés X — mi método hace exactamente eso." **Regla de los 5 min: no se explica el módulo, se explica la transformación** — el pilar por pilar no puede llevar más de una frase cada uno: *"El Mapa (conectás las 5 cajas), El Sabor (que suene a música), El Vocabulario (te adueñás de licks de los grandes), El Pulso (el ritmo que nadie te enseñó), El Vuelo (lo soltás todo, en vivo). Pero lo que importa no son los pasos: en 90 días grabás VOS un solo que hoy no podés tocar."* Cerrar siempre en la transformación, no en el temario. |
+| Cierre (5 min) | Precio + condiciones — llega sobre terreno ya convencido por él mismo |
+
+### La técnica del "no venta" — Negative Reverse Selling (Sandler Sales System)
+
+Creada por David Sandler en 1967. Le das vuelta al guion: en vez de empujar, sugerís que quizás
+el programa no es para él ahora. Te sienta en la silla del consultor — la presión pasa a ser de
+él, que tiene que convencerte a VOS de que está listo.
+
+**Guion base, adaptado:**
+> "Che, por cómo me lo contás, no sé si estás 100% listo para meterte en esto ahora. A veces
+> pasa, y está perfecto. ¿Es justo asumir que ese es tu caso?"
+
+**Cuándo usarla (no es para toda llamada):** cuando el prospecto da señales mezcladas — dice que
+le interesa pero suena dudoso, evasivo, o "déjame pensarlo" sin convicción; cuando la charla se
+estanca sin objeciones concretas. **NUNCA con alguien claramente entusiasmado** — sonaría
+artificial. Alto premio, alto riesgo: puede hacer que se enoje o se cierre — se usa una vez, con
+tacto, no insistiendo.
+
+### Los 3 libros de la clase de Nico
+
+- **"La respuesta está en las preguntas" — Allan Pease.** Ex vendedor de seguros, hoy referente
+  mundial en lenguaje corporal y ventas. Idea central: la gente confía más en las conclusiones a
+  las que llega sola que en las que le dice el vendedor — el sistema entero son preguntas que la
+  guían a su propia respuesta. Mismo principio que el "sembrar, no convencer" de arriba.
+- **"Rompe la barrera del No" — Chris Voss** (*Never Split the Difference*, ex negociador de
+  rehenes del FBI). Tesis: la negociación es emocional, no racional. Herramientas usables en la
+  llamada: **espejo** (repetir las últimas 2-3 palabras del cliente para que siga hablando),
+  **etiquetado emocional** ("Parece que esto te frustra bastante"), **preguntas calibradas** (con
+  "cómo"/"qué": *"¿Qué es lo que hace que esto sea difícil para vos?"*), y **el poder del "No"**
+  — dejar que diga que no a algo chico primero lo hace sentir en control y abre la conversación
+  real.
+- **El tercero, "la regla de oro" — sin confirmar autor exacto.** Candidato más fuerte: **la
+  Regla de Platino de Tony Alessandra** — en vez de "tratá a los demás como VOS querés" (Regla de
+  Oro clásica), propone **"tratá a cada uno como ELLOS quieren ser tratados"**: adaptar el estilo
+  de venta a la personalidad de cada prospecto, no usar el mismo libreto con todos. Alternativa:
+  *"La Regla de Oro de los Negocios"* de Grant Cardone. **Pendiente que Feli confirme cuál es**
+  antes de tratar esto como cerrado.
 
 ---
 

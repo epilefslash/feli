@@ -197,6 +197,14 @@ Tráfico, Módulo 5 = Ventas (parte 1), Módulo 6 = Ventas (parte 2). Acertó lo
 > habilitados en la plataforma, pero puede entrar a escuchar las clases igual — está haciendo eso
 > ahora. Cuando salga contenido nuevo de esas clases (terminología, estructura de llamada, manejo
 > de objeciones), se suma acá y se cruza contra lo que ya está armado en `memoria/05` §11.
+>
+> **El marco completo de venta consultiva, investigado e integrado a la llamada — ver `memoria/05`
+> §11-BIS** (reemplaza la estructura vieja de 4 pasos): SPIN Selling (Situación → Problema →
+> Implicación → Necesidad-beneficio), la técnica del "no venta" (Negative Reverse Selling, Sandler
+> Sales System) y cuándo usarla, la regla de explicar los pilares en ≤5 min ("no compra la
+> explicación del módulo, compra la transformación"), y los conceptos de los 3 libros que Feli trajo
+> de la clase de ventas (Allan Pease, Chris Voss, y el candidato más fuerte para el tercero —
+> pendiente de confirmar el autor exacto).
 
 **Lo más importante para hoy:** el Módulo 3 (Perfil Magnético, semanas 3-4) es big — pero la parte
 de contenido (guiones, carruseles, epifanía, storytelling, testimonios, posteo de 2 pasos) **ya
