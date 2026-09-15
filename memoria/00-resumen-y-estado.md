@@ -190,6 +190,14 @@ en la Semana 0 — va adelantado, no atrasado.
 **Confirma exactamente los nombres que Feli especuló:** Módulo 3 = Perfil Magnético, Módulo 4 =
 Tráfico, Módulo 5 = Ventas (parte 1), Módulo 6 = Ventas (parte 2). Acertó los 4.
 
+> ✅ **Nombre del método de venta (15/9): "venta consultiva".** Es el enfoque que enseña Nico en los
+> módulos de Ventas (M5V/M6V) — la llamada de descubrimiento de `memoria/05` §11 (diagnóstico →
+> objetivo → presentación del programa → cierre) es la aplicación concreta de esa venta consultiva,
+> no una venta de "pitch" directo. **Estado real:** Feli todavía no tiene los módulos de Ventas
+> habilitados en la plataforma, pero puede entrar a escuchar las clases igual — está haciendo eso
+> ahora. Cuando salga contenido nuevo de esas clases (terminología, estructura de llamada, manejo
+> de objeciones), se suma acá y se cruza contra lo que ya está armado en `memoria/05` §11.
+
 **Lo más importante para hoy:** el Módulo 3 (Perfil Magnético, semanas 3-4) es big — pero la parte
 de contenido (guiones, carruseles, epifanía, storytelling, testimonios, posteo de 2 pasos) **ya
 está resuelta** en este repo (`memoria/05` §34-38, `memoria/04` secciones 23-38). Lo que queda de
