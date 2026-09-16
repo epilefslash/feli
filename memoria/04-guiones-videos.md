@@ -707,16 +707,21 @@ promesa de la bio + un llamado a la acción específico. Nada de esto estaba en 
 5. **Consecuencias** de seguir creyendo esa creencia — el daño real que causa.
 6. **Revelar la solución** — qué hiciste vos para resolverlo, y cómo cambió tu forma de tocar/vivir.
 7. **Conclusión/lección** — resumen de beneficios + resumen de lo que deben hacer + una tarea de
-   acción concreta, para hoy mismo. **El CTA y la promesa de valor van ACÁ ADENTRO**, como cierre
-   del mismo bloque — no son un ítem aparte.
-8. **Foto/Video (opcional)** — no es texto del copy, es una nota de producción: que la imagen sea
-   de tu propia autoría, no genérica, amigable y real.
+   acción concreta, para hoy mismo.
+8. **Cierre** — **bloque propio y separado**: "Escribí solo: [tu promesa de valor de transformación,
+   sacada de la bio, SIN incluir 'con mi método' ni ninguna referencia a tiempo/plazo] + [el CTA
+   específico]."
 
-> ✅ **Corregido (15/9):** esta memoria tenía mal el ítem 8 — decía "Cierre: promesa+CTA" como si
-> fuera un bloque de texto separado. Feli pegó la plantilla real completa y el ítem 8 es una nota
-> de producción sobre la foto/video, no un párrafo más. El CTA/promesa vive dentro del ítem 7. El
-> copy de abajo ya estaba bien resuelto en la práctica (el CTA cierra el post) — solo estaba mal
-> descripta la estructura acá.
+> ✅ **RE-corregido (16/9).** Ayer (15/9) había corregido esto al revés, fusionando el ítem 7 y el
+> 8 en un solo párrafo, basado en OTRO documento de Nico más corto ("Plantilla - Guiones de Reels
+> tipo B-Roll + Copy Epifanía") que listaba el ítem 8 como "Foto/Video". Hoy Feli compartió el
+> **INSTRUCTIVO completo** ("para armar IDEAS y GUIONES de Reels B-Roll + Copy Epifanía"), con el
+> prompt real y 3 ejemplos aplicados enteros — y ahí la estructura de 8 partes SÍ tiene el Cierre
+> como bloque propio, separado de la Conclusión/lección, con una instrucción explícita: el cierre
+> es la promesa de la bio **recortada** (sin "con mi método", sin plazo) + el CTA. Este documento
+> es más completo y más específico que el anterior — se toma como el que manda. El copy de abajo
+> ya está reescrito con las 2 partes separadas y con emojis, siguiendo el estilo real de los 3
+> ejemplos que compartió Nico.
 
 Máximo 3 oraciones por sección.
 
@@ -729,13 +734,17 @@ real (la historia de sacar de oído, el profesor que lo obligaba a improvisar, v
 moverse en diagonal, la frase "¿cómo no me di cuenta antes de que se podían unir?") se conserva
 intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con estructura de 8 partes.
 
-### El copy, según la plantilla real
+### El copy, VERSIÓN FINAL con emojis (16/9)
 
-> 🎸 Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la
-> primera.
+> **Nota sobre el gancho:** el ítem 1 (video) pide "dejalo escrito tal como lo vas a copiar en el
+> copy del post" — el video ya tiene su hook fijado ("Te sabías las 5 cajas. Y no te movías de la
+> primera.", `memoria/04` §35-BIS "Producción"). Por eso el copy arranca con esa misma frase,
+> textual, y no con la versión anterior ("Te aprendiste las 5 cajas...").
+
+> 🎸 Te sabías las 5 cajas. Y no te movías de la primera.
 >
-> La mayoría de los guitarristas cree que alcanza con dominar cada caja por separado — que si te
-> sabés las cinco, ya está, ya podés improvisar por todo el mástil.
+> 🤔 La mayoría de los guitarristas de rock cree que alcanza con dominar cada caja por separado —
+> que si te sabés las cinco, ya está, ya podés improvisar por todo el mástil.
 >
 > ⚠️ El problema con esto es que aprender las cajas una por una nunca te enseña a moverte ENTRE
 > ellas. Podés sabértelas de memoria las cinco y seguir atrapado en una sola. A mí me pasó.
@@ -750,14 +759,14 @@ intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con e
 > 😔 Si seguís creyendo que las cajas van una por una, te va a pasar lo que me pasó a mí: años
 > sabiendo mucho y sonando siempre igual. Con las cinco cajas en la cabeza y una sola en las manos.
 >
-> ✅ No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas. Desde ese día
+> 💡 No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas. Desde ese día
 > empecé a moverme distinto: horizontal, diagonal, no solo de arriba a abajo. Por eso hoy, cuando
 > enseño, siempre empiezo por ahí — no por más escalas, por el mapa completo del mástil.
 >
 > 👉 Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, agarrá tu caja de siempre y
-> buscá la nota que comparte con la caja de al lado. Ese es el primer puente. Te enseño a
-> improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja, como un
-> solo mapa. Si te sentís identificado, escribime SOLO 📩
+> buscá la nota que comparte con la caja de al lado. Ese es el primer puente.
+>
+> ✅ Dominá la improvisación de rock. Si te sentís identificado, escribime SOLO 📩
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
 

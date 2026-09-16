@@ -1106,18 +1106,19 @@ segundos, listo para usar hoy mismo si alguien comenta PENTA.
 
 Hasta hoy solo teníamos el resumen del prompt de Epifanía (via el documento de 76 páginas). El
 documento nuevo trae el prompt completo, con la estructura de 8 partes textual y 3 ejemplos reales
-aplicados. **Verificado punto por punto contra el guion ya escrito (`memoria/04` §35-BIS): las 7
-partes de contenido están, en el orden correcto** (gancho → creencia común → defender posición →
-probarlo → consecuencias → revela la solución → conclusión/tarea/CTA, todo en un mismo bloque de
-cierre). Es una confirmación más fuerte que la de ayer — no solo el formato general, la estructura
+aplicados. **Verificado punto por punto contra el guion ya escrito (`memoria/04` §35-BIS): las 8
+partes están, en el orden correcto** (gancho → creencia común → defender posición → probarlo →
+consecuencias → revela la solución → conclusión/tarea → cierre con promesa+CTA, como bloque
+propio). Es una confirmación más fuerte que la de ayer — no solo el formato general, la estructura
 exacta.
 
-> ✅ **Corrección 15/9:** esta sección decía que el ítem 8 era "cierre con promesa+CTA", como bloque
-> aparte del 7. Feli pegó la plantilla oficial completa ("Plantilla - Guiones de Reels tipo B-Roll +
-> Copy Epifanía") y el ítem 8 real es **"Foto/Video (opcional)"** — una nota de producción sobre que
-> la imagen sea de autoría propia, no un párrafo de copy. El CTA vive adentro del ítem 7
-> ("Conclusión/lección"). Corregido acá y en `memoria/04` §35-BIS — el copy en sí no cambió de
-> contenido, solo se fusionaron en un mismo párrafo los dos bloques que antes estaban separados.
+> ✅ **RE-corregido (16/9), esta vez con el documento más completo.** El 15/9 había dicho que el
+> ítem 8 era "Foto/Video" (nota de producción), citando otro documento más corto de Nico. Hoy Feli
+> compartió el **INSTRUCTIVO completo** ("para armar IDEAS y GUIONES de Reels B-Roll + Copy
+> Epifanía", con el prompt real y 3 ejemplos aplicados enteros) — y ahí el ítem 8 SÍ es un bloque
+> de texto propio, el "Cierre": la promesa de valor de la bio (**sin** "con mi método", **sin**
+> referencia a plazo) + el CTA específico, separado del ítem 7. Detalle completo y el copy final
+> con emojis en `memoria/04` §35-BIS.
 
 **Única desviación real, menor:** la regla dice "máximo 3 oraciones por sección" — dos de las 8
 secciones del guion ya escrito (Probarlo, Revela la solución) tienen algunas oraciones de más. No es

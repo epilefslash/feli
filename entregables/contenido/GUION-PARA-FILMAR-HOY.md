@@ -85,17 +85,16 @@ encima. Opcional: la última línea la podés decir de verdad a cámara, para m�
 
 ## El copy completo — esto es lo que realmente convence, no el video
 
-Estructura real de 7 partes de contenido + 1 nota de producción, tal cual la plantilla oficial de
-Nico ("Guiones de Reels tipo B-Roll + Copy Epifanía"): 1) gancho, 2) creencia común, 3) defender
-posición, 4) probarlo con tu historia, 5) consecuencias, 6) revelar solución, 7) conclusión +
-tarea + CTA (todo en el mismo bloque de cierre) — y el ítem 8 no es texto: es la nota de que la
-foto/video tiene que ser de tu propia autoría, no genérica.
+Estructura real de 8 partes, según el INSTRUCTIVO completo de Nico ("para armar IDEAS y GUIONES de
+Reels B-Roll + Copy Epifanía", con el prompt real y 3 ejemplos aplicados): 1) gancho, 2) creencia
+común, 3) defender posición, 4) probarlo con tu historia, 5) consecuencias, 6) revelar solución,
+7) conclusión + tarea de acción, 8) cierre — bloque aparte: la promesa de la bio (sin "con mi
+método", sin plazo) + el CTA específico. Máximo 3 oraciones por sección.
 
-> 🎸 Te aprendiste las 5 cajas de la pentatónica menor. Las cinco. Y seguís sin moverte de la
-> primera.
+> 🎸 Te sabías las 5 cajas. Y no te movías de la primera.
 >
-> La mayoría de los guitarristas cree que alcanza con dominar cada caja por separado — que si te
-> sabés las cinco, ya está, ya podés improvisar por todo el mástil.
+> 🤔 La mayoría de los guitarristas de rock cree que alcanza con dominar cada caja por separado —
+> que si te sabés las cinco, ya está, ya podés improvisar por todo el mástil.
 >
 > ⚠️ El problema con esto es que aprender las cajas una por una nunca te enseña a moverte ENTRE
 > ellas. Podés sabértelas de memoria las cinco y seguir atrapado en una sola. A mí me pasó.
@@ -111,13 +110,14 @@ foto/video tiene que ser de tu propia autoría, no genérica.
 > sabiendo mucho y sonando siempre igual. Con las cinco cajas en la cabeza y una sola en las
 > manos.
 >
-> ✅ No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas. Desde ese
+> 💡 No me faltaban notas. Me faltaba verlo como un solo mapa, no como cajas sueltas. Desde ese
 > día empecé a moverme distinto: horizontal, diagonal, no solo de arriba a abajo. Por eso hoy,
 > cuando enseño, siempre empiezo por ahí — no por más escalas, por el mapa completo del mástil.
 >
 > 👉 Si sabés dos cajas o las cinco y seguís sin moverte: hoy mismo, agarrá tu caja de siempre y
-> buscá la nota que comparte con la caja de al lado. Ese es el primer puente. Te enseño a
-> improvisar solos de rock dominando la pentatónica menor de verdad — no caja por caja, como un
-> solo mapa. Si te sentís identificado, escribime SOLO 📩
+> buscá la nota que comparte con la caja de al lado. Ese es el primer puente.
+>
+> ✅ Dominá la improvisación de rock. Si te sentís identificado, escribime SOLO 📩
+
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
