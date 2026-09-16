@@ -180,15 +180,18 @@ un pilar propio, y se habilita un pilar de cierre que integra todo en improvisac
 
 | # | Nombre (de Nico) | Qué logra el alumno |
 |---|---|---|
-| 1 | EL MAPA — *Visualizando el mástil* | Deja de ver 5 cajas sueltas, ve un solo mapa |
-| 2 | EL SABOR — *Que suene a música* | Bending, vibrato, espacio: pasa de ejecutar a sonar |
-| 3 | EL VOCABULARIO — *Adueñándote de los licks* | Roba, transforma y hace propio lo de los grandes |
-| 4 | EL PULSO — *Sintiendo el tiempo* (propuesto, sin confirmar) | El ritmo, dónde cae cada nota respecto del pulso |
-| 5 | *(sin nombre cerrado — propuesto "EL VUELO", "Soltándote en vivo")* | Todo lo anterior aplicado junto, improvisando de verdad |
+| 1 | EL MAPA — *dominar el mástil* | Deja de ver 5 cajas sueltas, ve un solo mapa |
+| 2 | EL SABOR — *bending, vibrato, expresión* | Bending, vibrato, espacio: pasa de ejecutar a sonar |
+| 3 | EL VOCABULARIO — *licks propios, estilo* | Roba, transforma y hace propio lo de los grandes |
+| 4 | EL PULSO — *ritmo y tiempo* | El ritmo, dónde cae cada nota respecto del pulso |
+| 5 | EL VUELO — *improvisando y soltándote en vivo* | Todo lo anterior aplicado junto, improvisando de verdad |
 
-**Los nombres del 1 al 3 son textuales de Nico.** El 4 y el 5 los dejó "a inventar" — quedan como
-propuesta, no cerrados. Antes de imprimir cualquier material final, confirmar esos dos nombres con
-Feli.
+> ✅ **CERRADO (16/9).** Nico corrigió las 5 descripciones cortas directo sobre el diagrama del
+> Programa de Alto Valor (el mismo lugar de donde salían los nombres originales) — **ya no son
+> propuestas, es la entrega final.** Reemplaza la versión anterior de esta tabla (que tenía "El
+> Pulso" y "El Vuelo" como propuestas sin confirmar, con distintas descripciones: "Sintiendo el
+> tiempo" / "Soltándote en vivo" solo). Las descripciones van **en minúscula**, tal como Nico las
+> escribió — no son subtítulos con mayúscula inicial como los 3 primeros venían antes.
 
 **Pendiente real que esto abre:** los 4 cuadernillos existentes (El Mapa, El Sabor, El Vocabulario +
 el Anexo de Ritmo) ya cubren el contenido de los pilares 1 a 4 — lo que falta es el **Pilar 5**, que
@@ -217,8 +220,8 @@ es sobre reaccionar EN TIEMPO REAL, mientras el acorde cambia debajo, dentro de 
 > como hueco declarado para más adelante (segunda camada / Módulo 2), no como parte de este
 > programa.
 
-**PILAR 5 — EL VUELO: "Soltándote en vivo"** *(nombre en la línea de lo que dijo Nico — "el vuelo,
-donde se implementa todo lo visto" — sin confirmar la palabra exacta)*
+**PILAR 5 — EL VUELO: "improvisando y soltándote en vivo"** *(✅ confirmado 16/9, descripción final
+de Nico sobre el diagrama del Programa de Alto Valor — ver §28-QUATER arriba)*
 
 **No enseña nada nuevo.** Es la prueba de que el mapa, el sabor, el vocabulario y el pulso ya son un
 solo idioma, no piezas sueltas — el examen final del programa, en vivo.

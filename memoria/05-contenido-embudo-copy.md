@@ -1393,12 +1393,11 @@ escritorio — se pueden hacer en cualquier momento, no necesitan luz ni setup.
 > pineado se publicaron el **LUNES** (15/9), no "hoy". Martes y miércoles **no se publicó nada**. La
 > frase de abajo ("Plan del día: Testimonio Ángel + StoryTelling 1") quedó vieja — se corrige acá.
 
-**Plan del día (hoy, jueves 16/9):** el próximo posteo del feed es **#4** ("¿Cuántas escalas
-necesitás para sonar a rock?") — ya está **filmado Y editado**, cero trabajo extra, es la opción de
-menor fricción disponible hoy. StoryTelling 1 sigue en stock para más adelante (copy y foto ya
-listos, no hay apuro). Las historias de la destacada MÉTODO son otra cosa en paralelo (Instagram
-Stories, no cuentan como uno de los 15 posteos del feed) — se pueden subir cualquier día, no compiten
-con el calendario.
+**Plan del día (hoy, jueves 16/9) — ajustado por Feli:** sube uno de los reels de la carpeta
+**"AL 100"** de Nico (#3, #4, #5 o #6 — los 4 aprobados sin cambios, `memoria/05` §39), cualquiera
+de los cuatro sirve. **Mañana (viernes 17/9): StoryTelling 1** (copy y foto ya listos). Las
+historias de la destacada MÉTODO son otra cosa en paralelo (Instagram Stories, no cuentan como uno
+de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con el calendario.
 
 **Los 3 niveles de prueba social que Feli va a ir mezclando, de más a menos pesado:**
 1. Video-entrevista completa (Ángel, Vero — ya los tiene).
