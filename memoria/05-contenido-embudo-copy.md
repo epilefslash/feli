@@ -1514,3 +1514,288 @@ desliza a lo que enseña el método ("exprimir la escala"), y el problema que no
 cerebral ("que te falta información") en vez del que el alumno siente tocando. La versión final va
 100% a su deseo y su dolencia. **La regla completa, con la fórmula y el test de 3 segundos, quedó
 reforzada en `memoria/04`, "Menú de CTAs".**
+
+---
+
+## 53) M3 PARTES 1 y 2 COMPLETAS — leídas íntegras (16/9), y los 38 ganchos por fin
+
+> **Fuente:** `MODULO_3_-_PARTE_1_de_2.pdf` (39 pág) y `MODULO_3_-_PARTE_2_de_2.pdf` (37 pág),
+> subidos por Feli. **76 páginas leídas enteras, no un resumen de otra sesión** — es la primera vez
+> que este material se lee de primera mano en este repo. Buena parte confirma lo que ya estaba
+> anotado; lo que sigue es solo lo nuevo o lo que corrige un hueco declarado.
+
+### ✅ CERRADO: la lista completa de los 38 ganchos
+
+`memoria/05` §36 decía textual: *"**No tengo la lista completa de las 38** — la sesión que procesó
+las capturas solo pasó ejemplos sueltos (4-5 fórmulas)."* **Ya no es cierto — acá están los 38.**
+(Ojo: el documento original numera dos veces el #36, así que la lista real llega a 38 ítems con
+numeración hasta 37. No es un error de transcripción, está así en la fuente.)
+
+| # | Fórmula |
+|---|---|
+| 1 | Cómo [RESULTADO] en [PLAZO] sin [COSAS QUE ODIÁS HACER] |
+| 2 | Cómo [VISIÓN DEL PARAÍSO] |
+| 3 | Por qué [RESULTADO NO DESEADO] |
+| 4 | La manera más rápida de [DESPEDIRTE DEL RESULTADO NO DESEADO] |
+| 5 | Las [N] lecciones que [GRUPO] aprenden demasiado tarde en [ACTIVIDAD] |
+| 6 | Cómo resolver [OBJECIÓN] incluso si sos [OBJECIÓN, OBJECIÓN] |
+| 7 | ¿Por qué [VEHÍCULO] ahora? |
+| 8 | Cómo triplicar [RESULTADO] usando este truco |
+| 9 | Cómo [RESULTADO] sin [RECURSOS] |
+| 10 | El secreto sorprendente para [RESULTADO] |
+| 11 | ¿Alguna vez te preguntaste por qué…? |
+| 12 | Si odiás… |
+| 13 | [X] VS [Y] |
+| 14 | Si querés tener el mejor… |
+| 15 | ¿Te gustaría saber qué sucede si…? |
+| 16 | Cómo dejar de [X] en [N] sencillos pasos |
+| 17 | ¿Querés [X]? Entonces nunca hagas [Y] |
+| 18 | [N] razones por las que nunca debés [X] |
+| 19 | [N] trucos psicológicos para [X] |
+| 20 | Los [N] errores más cometidos por [NICHO] al [X] |
+| 21 | [N] cosas que hacés mal con [X] y probablemente no lo sabías |
+| 22 | [N] trucos para ser [X] al instante |
+| 23 | [N] signos de que sos / vas a ser [X] |
+| 24 | [N] señales de que vas a / no vas a [RESULTADO] |
+| 25 | Mirá esto si no podés [X] |
+| 26 | Si aprendés esto vas a ser [X] |
+| 27 | Este sencillo hábito te va a hacer increíblemente [X] |
+| 28 | Este video te va a mostrar la realidad de por qué [X] |
+| 29 | [N] secretos que [GRUPO] no quiere que sepas |
+| 30 | Truco de [X] que seguramente no conocías |
+| 31 | Top [N] libros sobre [X] |
+| 32 | Hack secreto para [RESULTADO] |
+| 33 | No hagas [ACCIÓN] sin saber esto primero |
+| 34 | Me gustaría que alguien me hubiera dicho antes que… |
+| 35 | Esta es la única forma en la que deberías estar [X] |
+| 36a | Si alguna vez [XYZ], probablemente te hayas preguntado… |
+| 36b | No se puede alcanzar [RESULTADO] si todavía estás [MAL HÁBITO] |
+| 37 | Qué tan distinta se vería tu vida si de verdad lograras [RESULTADO] |
+| 38 | ¿Querés aprender a [ACCIÓN/RESULTADO] sin [DOLOR]? |
+
+**Y el consejo de Nico que va con la lista:** buscar referentes de **cualquier industria** en
+Instagram, ver qué ganchos usan, y adaptar la estructura al tema propio. La lista no es un techo.
+
+### 🔑 EL HALLAZGO MÁS IMPORTANTE: la máquina de reciclado (gancho × ángulo)
+
+Esto es lo que responde de fondo a "¿cómo no me quedo sin contenido?". Nico lo explica con un
+ejemplo que es **literalmente de un profesor de guitarra**, así que se aplica sin traducir nada:
+
+1. **Se parte de UNA objeción o creencia** (su ejemplo: "no tengo tiempo para practicar").
+2. **Esa objeción se envuelve en varios ganchos distintos** (los 38 de arriba). El desarrollo del
+   contenido es casi el mismo — lo que cambia es la puerta de entrada.
+3. **Cada gancho se puede contar desde 3 ángulos distintos**, y acá está el multiplicador real:
+   - ¿Qué método o estrategia usás para resolver esa objeción?
+   - Una historia personal tuya donde estuviste en esa situación.
+   - Una historia de un alumno que tenía esa objeción y la superó.
+
+**La frase textual de Nico que justifica todo el sistema:** *"hay que ser repetitivo con el mensaje
+de fondo, pero con distintas formas de abordar el tema / problema y cambiando los ganchos estás
+refrescando el contenido constantemente."* Y el motivo por el que nadie lo nota: entra gente nueva
+todo el tiempo y **la mayoría no ve todo tu contenido**.
+
+**Traducido a nuestro inventario:** tenemos **9 creencias limitantes** ya documentadas
+(`memoria/03` §6) + los micro-pasos de los 5 pilares. Cruzados con 38 ganchos y 3 ángulos, el
+banco de ideas **no se agota** — el cuello de botella nunca van a ser las ideas, va a ser el tiempo
+de producción. Eso es exactamente el problema que resuelve el sistema de la §54.
+
+### 📋 El banco de ideas con ESTADO — la herramienta de organización que no teníamos
+
+La última página del M3 Parte 2 muestra la planilla de trabajo real de Nico. No es una lista de
+ideas suelta: es una tabla con **estado por pieza**.
+
+| Columna | Qué va |
+|---|---|
+| Ideas | El insight / la frase semilla (ej: *"Memorizar todas las escalas no sirve si buscás improvisar"*) |
+| Referencia | Link a un posteo de referencia (de otro, o propio) |
+| Formato | Reel · Carrusel · StoryTelling · Epifanía/B-Roll · Testimonio · 2 pasos · Autoridad |
+| **ESTADO** | **Guión Armado · Utilizada** (y, lógicamente, el estado vacío = solo idea) |
+| Scripts | Link a la plantilla de guion de ese formato |
+
+**Por qué importa:** es lo que evita producir dos veces lo mismo y lo que hace visible cuánto stock
+real hay. Feli no tiene nada así hoy — las ideas viven desparramadas en esta memoria. Se propone
+armarlo como parte del sistema de la §54.
+
+**Las 7 plantillas de guion que Nico nombra, una por formato** (nombres textuales, viven en su
+Drive): *MFM - Plantilla Guiones Reels · Carruseles · StoryTelling · Epifanía · Testimonios ·
+Post de 2 Pasos · Posts de Autoridad*.
+
+### ⏱️ Los timings exactos del Reel Didáctico (más precisos que lo que teníamos)
+
+`memoria/05` §36 ya anotaba la estructura, pero sin duraciones. El documento las da:
+
+| Bloque | Duración | Dónde |
+|---|---|---|
+| Gancho | 5-7 seg | a cámara |
+| Promesa de valor del reel | 5 seg | a cámara |
+| Insight + desarrollo + tangibilización | **50-60 seg** | alterna hablar / mostrar ejemplo |
+| Resumen (frase de autoridad) | 10 seg | a cámara |
+| Tip accionable | 5-10 seg | a cámara |
+| Cierre (promesa de bio + CTA) | 5-10 seg | a cámara |
+
+**Duración máxima total: 1:30.** Regla de contraste obligatoria: *ejemplo sin el recurso → ejemplo
+con el recurso* (y si no se puede tocar, una metáfora que muestre la misma diferencia). El guion
+tiene que **marcar explícitamente** cuándo se habla a cámara y cuándo se muestra el ejemplo.
+
+> ⚠️ Esto es más largo que nuestros reels actuales (35-45 seg). No significa que los nuestros estén
+> mal — el Formato C nuestro (`memoria/03` §5) es otro molde y Nico aprobó 4 al 100 tal cual están.
+> Aplica al **Reel Didáctico** cuando se produzca uno de ese tipo, no como corrección retroactiva.
+
+### Los 4 ángulos para "sumar tu visión personal" (con nombre propio)
+
+`memoria/05` §36 lo tenía como "paso 2: sumar visión personal" sin desglosar. Los 4 formatos son:
+**Anecdótica** (lo que me pasó a mí) · **Experiencia de alumnos** · **Metáfora o comparación
+creativa** · **Opinión profesional** (desde tu autoridad). Nico marca este paso como *"lo que hace
+que el contenido no suene fabricado sino auténtico y único"* — es el antídoto contra el copy que
+suena a ChatGPT, y es la misma crítica que le hizo al Video #2 (`memoria/05` §42 punto 2).
+
+### La guía de entrevista de testimonios, ahora en su versión completa
+
+Ya estaba anotada como pendiente en `memoria/05` §43 ("trae una estructura MÁS detallada... no
+aplicado todavía"). Acá está el texto real, para cuando se grabe el próximo testimonio:
+
+- **Paso previo, SIN grabar:** validar la transformación de entrada — *"para confirmar, estabas en
+  [ESTADO INICIAL] y pasaste a [ESTADO FINAL], ¿no?"* — y recién ahí presentar las preguntas.
+- **Proceso de compra, que nosotros teníamos como 1 sola pregunta, son 4:** ¿Qué buscabas cuando me
+  elegiste? · ¿Por qué elegiste esta opción y no otras? · ¿Qué miedos te evitaban ingresar? · ¿Qué
+  hizo que superaras ese miedo y dieras el paso?
+- **Transformación suma 3 preguntas que no teníamos:** ¿Qué aspectos te **sorprendieron**? (cosas
+  que no estaban en el material de ventas) · ¿Cómo te sentís ahora como músico? · **¿Dónde creés que
+  estarías si no hubiéramos empezado a trabajar juntos?**
+- **Duración ideal de la entrevista: 5 a 15 minutos.** Se hace completa aunque después se use un
+  recorte.
+- **Confirma la instrucción de la palabra "programa"** que ya teníamos (`memoria/04` §38): si el
+  alumno no pasó por el programa formal, se reformula a "trabajar conmigo" y queda liberado a la
+  interpretación de quien escuche.
+
+### Lo que se confirmó sin cambios (no hay nada que corregir)
+
+Los 19 disparadores de ideas con sus guiones-plantilla · el prompt de Frustraciones/Deseos/Miedos/
+Creencias con su ejemplo de pianistas de jazz · la estructura de placas del Carrusel Didáctico
+(incluido el ejemplo real completo de 10 placas) · **la estructura de 8 partes de la Epifanía con
+el Cierre como bloque propio** — esto último re-confirma por tercera vez la corrección del 16/9
+(`memoria/04` §35-BIS), ahora con el documento de origen a la vista · el Testimonio Copy Script ·
+el script del testimonio parcial.
+
+---
+
+## 54) EL SISTEMA DE PRODUCCIÓN POR LOTES — cómo no colgarla cuando termine la mentoría (16/9)
+
+> **Pedido textual de Feli:** *"ayudame para que después de los 3 meses de cursado con Nico no
+> colgarla… no ir pieza por pieza en un solo día, sino un día de guiones, otro de preproducción,
+> otro de producción, otro de edición."*
+
+> ⚠️ **Declaración de origen, para no atribuirle a Nico algo que no dijo.** La **cadencia** (cuántos
+> posteos e historias por semana) y la **máquina de ideas** (gancho × ángulo, §53) SÍ son de Nico,
+> textuales. **El reparto por días y el colchón de stock son diseño propio de esta sesión** —
+> responden al pedido de Feli y a su realidad concreta (filma y edita él mismo, da clases 1 a 1, va
+> a tener 5 clases del programa Lun-Jue 18-19hs, toca en banda). Si en algún momento Nico propone
+> otra rutina, la suya manda.
+
+### El principio: agrupar por TIPO DE TRABAJO, no por pieza
+
+Producir un reel de punta a punta en un día es la forma más cara de trabajar, porque obliga a
+cambiar 5 veces de cabeza y a montar el setup de cámara para una sola pieza. Cada etapa usa un
+músculo y un setup distinto:
+
+| Etapa | Qué necesita | Costo de montarlo |
+|---|---|---|
+| **1 · Ideas** | Nada. Un archivo. | Cero |
+| **2 · Guiones** | Escritorio, cabeza fresca | Cero |
+| **3 · Preproducción** | Guitarra, ensayar los licks, elegir backing/plano/ropa/locación | Bajo |
+| **4 · Producción** | Luz + cámara + audio + guitarra + estar presentable | **El más caro de todos** |
+| **5 · Edición** | CapCut, escritorio, paciencia | Medio, pero repetitivo |
+| **6 · Publicación** | El celular, 5 minutos | Cero |
+
+> 🔴 **La regla de oro que sale de esa tabla: nunca montes el setup de cámara para una sola pieza.**
+> Si prendés la luz y la cámara, filmás **mínimo 3**. Ya lo hiciste una vez y funcionó — los videos
+> #5 y #6 se filmaron el mismo día (`memoria/07` §14).
+
+### El ciclo de 2 semanas (4-6 piezas por ciclo = 2-3 posteos por semana)
+
+**Semana A — se crea:**
+
+| Día | Bloque | Qué hacés |
+|---|---|---|
+| Lunes AM | **GUIONES** (2-3 hs) | Sacás 5-6 ideas del banco y las guionás con los prompts de Nico (§53). Nada de filmar, nada de editar. |
+| Miércoles AM | **PREPRODUCCIÓN** (1 hs) | Ensayás los licks de cada guion, preparás los backings, definís plano/ropa/locación de cada pieza. Es el día barato que hace que el día de producción no se vaya a la mierda. |
+| Jueves AM | **PRODUCCIÓN** (2-3 hs) | Montás el setup UNA vez y filmás las 3 piezas de video de corrido. Si hay fotos (StoryTelling), se sacan el mismo día. |
+
+**Semana B — se termina y se descansa:**
+
+| Día | Bloque | Qué hacés |
+|---|---|---|
+| Lunes AM | **EDICIÓN lote 1** | CapCut, 2 piezas. |
+| Miércoles AM | **EDICIÓN lote 2** | CapCut, el resto + los carruseles en Canva (esos no se filman). |
+| Viernes | **COLCHÓN** | Día de gracia: se usa solo si algo se atrasó. Si no se atrasó nada, no se trabaja. |
+
+**El mix realista por ciclo** — y esto es lo que lo hace liviano: no son 6 reels.
+
+- **3 videos** (se filman todos el mismo jueves).
+- **2 carruseles** (Canva puro, cero filmación — ya tenés 4 escritos, `memoria/05` §22).
+- **1 foto/StoryTelling** (10 minutos con luz natural, el mismo día de producción).
+
+### 🛡️ El colchón: la regla que evita que se caiga todo
+
+**Nunca publiques lo que filmaste esta semana.** Publicás siempre de lo que YA está editado del
+ciclo anterior. Eso te da 2 semanas de aire permanentes.
+
+**Por qué esto es lo que de verdad evita colgarla:** cuando te agarra una semana de mierda — te
+enfermás, se te llena la agenda de alumnos, se te rompe algo — el feed **no se entera**, porque
+publica de stock. Sin colchón, una semana mala corta la racha; y cortar la racha una vez es lo que
+después se convierte en "hace un mes que no subo nada".
+
+**Punto de arranque real, a tu favor:** hoy ya tenés colchón de sobra — 8 reels filmados (varios
+editados), 4 carruseles escritos, 2 testimonios grabados, la Epifanía filmada. El primer ciclo casi
+no necesita producción: es sentarte a editar y a diseñar en Canva.
+
+### Cuándo postear
+
+| Qué | Cuándo | Origen |
+|---|---|---|
+| Posteos formales | **Martes y jueves** (y sábado si vas a 3/semana) | Ejemplo textual de Nico (M3) |
+| Historias | **Lunes, miércoles y viernes** | Ejemplo textual de Nico (M3) |
+| Horario | **20-22 hs Argentina** | Nuestro (`memoria/05` §9), no de Nico |
+
+**La cadencia que pide Nico:** mínimo **2 posteos formales + 3 días de historias** por semana;
+ideal **5 posteos + 7 días de historias**. El ciclo de arriba te deja en 2-3 posteos — o sea
+cumpliendo el mínimo con margen, sin prometerte un ritmo que no vas a sostener.
+
+> ⚠️ **Un choque de agenda a tener en cuenta:** el miércoles tenés clase de El Pulso hasta las 20hs
+> (`memoria/06` §51). Las historias del miércoles van después de esa hora, no antes.
+
+### El día de carga del banco — 1 vez por mes, 1 hora
+
+Esto es lo que hace que el sistema no se seque nunca. Una vez al mes:
+
+1. Corrés el prompt de insights de Nico (§53) pegándole `Pilares-y-Micropasos-Solo-con-Sabor.pdf`.
+2. Te devuelve insights separados en **Aplicables/Tangibles** (→ reels) y **Abstractos/Conceptuales**
+   (→ carruseles y epifanía).
+3. Cargás 15-20 ideas nuevas en el banco, con su formato y su estado.
+
+Y cuando el banco parezca vacío, **no hace falta inventar nada nuevo**: agarrás una creencia que ya
+usaste, le ponés otro de los 38 ganchos y otro de los 3 ángulos, y es una pieza distinta. Esa es la
+máquina de la §53 — el límite nunca van a ser las ideas.
+
+### El banco de ideas — armarlo (pendiente concreto)
+
+Hoy las ideas viven desparramadas en esta memoria. Hay que pasarlas a una planilla con la estructura
+de Nico (§53): **Idea · Referencia · Formato · ESTADO · Guion**. Con 3 estados: `idea` →
+`guion armado` → `publicada`. Google Sheets alcanza.
+
+**Lo que hay para cargar de entrada, sin inventar nada:** las 9 creencias limitantes (`memoria/03`
+§6), los 4 carruseles escritos (§22), el stock de reels sin publicar, los guiones ya escritos sin
+filmar (`memoria/04`), y las ideas de continuidad ya anotadas (las 5 mentiras del Carrusel 3 como
+piezas sueltas, el 4º tipo de StoryTelling "compartir tus valores", el backstage de creación).
+
+### Qué hacer cuando termine la mentoría (la respuesta corta a la pregunta de Feli)
+
+Cuando dejes de tener la estructura de Nico encima, lo único que tiene que sobrevivir es esto:
+
+1. **Los días fijos.** Lunes guiones, miércoles preproducción, jueves producción — en el calendario,
+   como una clase más. No "cuando pueda".
+2. **El colchón de 2 semanas.** Si se achica a menos de 1 semana de stock, es la señal de alarma:
+   ese mes se prioriza producir por encima de cualquier otra cosa.
+3. **La hora mensual del banco.** Es la más fácil de saltearse y la que más caro sale.
+4. **El mínimo innegociable: 2 posteos por semana.** Por debajo de eso el algoritmo te enfría el
+   perfil y el trabajo de los 3 meses se empieza a perder.
