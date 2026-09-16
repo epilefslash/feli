@@ -1438,3 +1438,79 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
 el clip en vivo — el de más energía — para el momento de mayor impacto, en vez de quemarlo primero.
 Cierra con una línea que conecta con el método sin CTA agresivo, coherente con que esta destacada es
 de identidad, no de conversión (misma lógica que Epifanía: plantar la idea, no vender en el momento).
+
+---
+
+## 52) LOS COPYS DE LOS REELS "AL 100" — hueco encontrado y el del #4 escrito (16/9)
+
+> **Hallazgo, buscando el copy del #4 para publicarlo:** de los 4 reels que Nico aprobó sin cambios
+> (`memoria/05` §39, carpeta "contenido de valor"), **3 no tienen copy escrito en ningún lado** —
+> solo figuran como "✅ filmado + editado". Los copys que sí existen en `memoria/04` son los del #5
+> (§7), el de equipo (§8), tutoriales (§21), Historia (§25), Fijado (§26), Epifanía (§35-BIS),
+> StoryTelling (§36) y 2 pasos (§37).
+
+| Reel | Copy |
+|---|---|
+| #3 — "¿Hay que tocar rápido para sonar rockero?" | ❌ **falta escribir** |
+| #4 — "¿Cuántas escalas necesitás para sonar a rock?" | ✅ escrito acá abajo (16/9) |
+| #5 — "¿La pentatónica es de principiantes?" | ✅ ya existía (`memoria/04` §7) |
+| #6 — "Tus solos no respiran" (espacio) | ❌ **falta escribir** |
+
+**#6 es el más urgente de los dos que faltan:** está agendado para la semana 2 del plan
+(`memoria/05` §34). El #3 está en el stock de la semana 5 en adelante, hay tiempo.
+
+### El copy del #4 — VERSIÓN FINAL (16/9)
+
+> 🎸 ¿Cuántas escalas necesitás para sonar a rock? Muchas menos de las que pensás.
+>
+> 🤔 Si sos guitarrista de rock y sentís que tus solos suenan escolares, la conclusión a la que llega
+> casi todo el mundo es la misma: "me deben faltar escalas". Y ahí arranca la lista — modos griegos,
+> menor armónica, disminuida, alterada.
+>
+> ⚠️ El problema es que no funciona. Podés sumar cinco escalas nuevas este mes y seguir sonando
+> exactamente igual, porque a la que ya tenés en la mano no le sacaste ni la mitad del jugo.
+>
+> A mí me pasó, y no fue por falta de estudio: pasé por tablaturas de internet, videos, profesores
+> particulares, y hasta por la facultad de música acá en Rosario. Sabía nombrar cada cosa que estaba
+> pasando arriba del mástil. Y cuando agarraba la viola para improvisar, salía lo mismo que el día
+> anterior.
+>
+> 💡 Ahí entendí que saber más notas no es lo mismo que saber qué hacer con las que ya tenés. Lo que
+> cambia un solo de verdad no es una escala nueva: es moverte por las 5 cajas en vez de vivir en una
+> sola, que el bending llegue afinado, que el vibrato sea tuyo, que la frase respire.
+>
+> Nada de eso aparece en una escala nueva. Todo eso se le saca a la pentatónica que ya sabés.
+>
+> 👉 Si estás buscando improvisar con libertad por todo el mástil, sin repetir siempre las mismas
+> frases, comentá **PENTA** y te paso el mapa de las 5 cajas conectadas, gratis.
+
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #guitarristas #aprenderguitarra #improvisacion`
+
+### Las 3 decisiones de este copy (para replicar en los que faltan)
+
+1. **Keyword PENTA, no una nueva.** El tema empalma directo con el lead magnet que ya existe
+   (`Mapa-5-cajas-pentatonica.pdf`) y con el DM de entrenamiento ya escrito (`memoria/04` §37) — y
+   cuando Meta habilite la automatización que Feli está esperando (`memoria/05` §48), este reel ya
+   alimenta ese flujo. **El costo, declarado:** se pierde atribución (no se sabe si el DM vino del
+   pineado o del reel). Si en algún momento importa más medir que unificar, cambiar a ROCK.
+2. **NO se usó la lista de los 5 guitarristas** (Angus · Hendrix · Joe Perry · Page · Gary Moore).
+   Es tentadora para esta creencia, pero es el corazón del #5 y del Carrusel 1 — quemarla acá haría
+   que los otros dos suenen repetidos cuando salgan. Las creencias #1 ("más escalas") y #3 ("la
+   penta es de principiantes") son primas hermanas y se apoyan en el mismo panel: hay que darle a
+   cada una un ángulo propio.
+3. **Lleva la historia personal de la facultad**, a propósito. Es la crítica exacta que Nico le hizo
+   al #2 (`memoria/05` §42 punto 2: faltaba la perspectiva personal, no solo el "para qué sirve"), y
+   para esta creencia puntual es el argumento más fuerte que tiene: *estudié formalmente y aun así
+   sonaba igual*.
+
+> ⚠️ **Escrito sin ver el metraje.** Si el video dice algo puntual que el copy contradice, ajustarlo
+> — mismo criterio que se usó con el copy del #2 (`memoria/05` §39).
+
+### El CTA pasó por la regla del mantra, y la primera versión no la cumplía
+
+Primera versión: *"Si querés dejar de sentir que te falta información y empezar a exprimir la escala
+que ya tenés…"*. Feli la marcó (16/9) y tenía razón — falla por dos lados: la segunda mitad se
+desliza a lo que enseña el método ("exprimir la escala"), y el problema que nombra es abstracto/
+cerebral ("que te falta información") en vez del que el alumno siente tocando. La versión final va
+100% a su deseo y su dolencia. **La regla completa, con la fórmula y el test de 3 segundos, quedó
+reforzada en `memoria/04`, "Menú de CTAs".**

@@ -264,13 +264,34 @@ medio."** Mantiene la fuerza sin dejar flanco.
 
 ### Menú de CTAs (rotarlos para no repetir "Comentá SOLO")
 
-> ⚠️ **Regla nueva (11/9, pedido de Feli, para todo guion de acá en adelante): el CTA se arma
-> alrededor de la dolencia/deseo del alumno, no de "cómo trabajo yo".** "Comentá SABOR y te cuento
-> cómo lo trabajo" pone el foco en el método (en vos). "Si te interesa improvisar en rock con esa
-> libertad, escribime SABOR" pone el foco en lo que el alumno quiere — es lo que lo hace escribir.
+> 🔴 **REGLA PERMANENTE DEL CTA — el mantra (11/9, reforzado el 16/9 a pedido explícito de Feli).**
+> **El CTA se arma alrededor de la dolencia o el deseo del alumno, nunca alrededor de lo que yo
+> vendo.** No es "mi curso te soluciona eso" — es "si estás buscando salir de esto, escribime".
+> Vos no aparecés en el CTA: aparece él, y vos sos la puerta.
+>
+> **La fórmula:** `Si [querés / estás buscando / aspirás a] + [su deseo o su dolencia, en sus
+> palabras] + comentá [KEYWORD]`.
+>
+> **El test de 3 segundos, antes de dar un CTA por bueno:** leelo y fijate si aparece *mi método*,
+> *mi curso*, *cómo trabajo yo*, *te enseño*, *Solo con Sabor*. Si aparece cualquiera de esos, el
+> foco está en vos — reescribilo. También falla si el "problema" que nombrás es abstracto o
+> cerebral ("dejar de sentir que te falta información") en vez del que él siente de verdad al tocar
+> ("repetir siempre las mismas frases", "no salir de la caja 1", "que suene escolar").
+>
+> | ❌ Foco en mí | ✅ Foco en él |
+> |---|---|
+> | "Comentá SABOR y te cuento cómo lo trabajo" | "Si te interesa improvisar en rock con esa libertad, comentá SABOR" |
+> | "Te muestro cómo en mi método" | "Si querés dejar de sonar igual que hace 2 años, comentá SOLO" |
+> | "Comentá PENTA y te explico mi sistema de cajas" | "Si estás buscando improvisar con libertad por todo el mástil, sin repetir siempre las mismas frases, comentá PENTA" |
+>
+> **Dónde aplica: en TODO** — reels, carruseles (placa final), storytelling, epifanía, posteo de 2
+> pasos, bio, DM y carta de ventas. No es una regla de reels.
+>
+> **Confirmado por Nico** en la devolución del 10/9 (`memoria/05` §42): *"el llamado a la acción se
+> enfoca en el objetivo del usuario (aprender a improvisar) en lugar de vender directamente un
+> programa."*
+>
 > **#6 ya está filmado con la frase vieja — no se retoca** (regrabar por una frase no vale la pena).
-> La regla se aplica a partir de ahora: el Vendedor y la Historia, que todavía no se filmaron, ya
-> están corregidos más abajo (secciones 23 y 25).
 
 - **Lead magnet (regalo):** "Comentá PENTA y te paso el mapa de las 5 cajas (gratis)" — usado en #5.
 - **Más contenido:** "Comentá ROCK y te mando 3 licks con sabor para practicar".
