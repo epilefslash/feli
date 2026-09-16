@@ -2,8 +2,9 @@
 
 **Fijado:** guion sin cambios, primera vez que lo filmás.
 
-**Epifanía:** formato nuevo (12/9), armado sobre el documento real de Nico que subiste hoy (el
-M3, hoja "Posteos de Epifanía"). Ya no es un guion hablado a cámara — es B-roll + copy largo.
+**Epifanía:** versión simple (16/9) — video real de Feli improvisando con la banda (ya lo tiene),
+13-20 seg, + hook en texto + flecha "Lee la descripción". No hace falta filmar nada nuevo para
+esto, solo editar 2 textos sobre el video que ya existe.
 
 ---
 
@@ -27,10 +28,35 @@ reel, invertí el tiempo que haga falta.
 
 ---
 
-# 2) EPIFANÍA — B-roll + narración en off (corregido 12/9, ver `memoria/04` §35-BIS)
+# 2) EPIFANÍA — VERSIÓN SIMPLE (16/9, Nico), ver `memoria/04` §35-BIS
+
+> ⚠️ Nico dio una clase nueva con la versión simple para el caso de Feli: **ya no hace falta**
+> filmar el B-roll de manos en el mástil. Se usa el video real que Feli ya tiene — él improvisando
+> con la banda, 13-20 segundos.
+
+## Qué se necesita (ya lo tenés)
+
+- El video de vos improvisando con la banda — rockeando, con onda, se puede tirar al piso. **13 a
+  15 segundos, máximo 20.**
+- Audio real del video (no hace falta narración en off para esta versión).
+
+## Los 2 textos superpuestos (todo el trabajo de edición)
+
+| Tiempo | Texto en pantalla |
+|---|---|
+| 0:00–0:06 | El hook, grande: **"Te sabías las 5 cajas. Y no te movías de la primera."** |
+| 0:06–fin | Flecha ⬇️ + **"Lee la descripción"** 👇 |
+
+Eso es todo — no hay que editar audio ni sincronizar narración. El copy (abajo) hace el resto del
+trabajo, en la descripción del posteo.
+
+---
+
+## VERSIÓN ANTERIOR (histórica, ya no es la vigente) — B-roll + narración en off
 
 > ⚠️ Corrección: "B-roll" no es sinónimo de mudo — significa que no hablás mirando a cámara con
-> sincronía de labios. SÍ lleva voz: una narración grabada aparte, superpuesta sobre las imágenes.
+> sincronía de labios. Esta versión SÍ llevaba voz: una narración grabada aparte, superpuesta
+> sobre las imágenes. Se deja documentada por si en algún momento se retoma.
 
 ## Qué filmar (el B-roll, sin actuar nada)
 
@@ -56,11 +82,6 @@ reel, invertí el tiempo que haga falta.
 **Cómo grabarlo:** filmás el B-roll sin hablar, y aparte grabás la narración leyendo el texto de
 arriba (podés repetirla las veces que necesites hasta que salga natural) — en la edición la ponés
 encima. Opcional: la última línea la podés decir de verdad a cámara, para más conexión personal.
-
-Sobre el plano 1 o 2 podés poner además un texto grande superpuesto con el gancho — el mismo
-recurso que usa el ejemplo real de Nico. Opciones:
-- **"¿Cómo no me di cuenta antes de que se podían unir?"**
-- **"Te sabías las 5 cajas. Y no te movías de la primera."**
 
 ## El copy completo — esto es lo que realmente convence, no el video
 

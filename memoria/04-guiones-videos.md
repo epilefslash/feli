@@ -761,7 +761,45 @@ intacto — solo cambia el ENVOLTORIO: de guion hablado corto a copy largo con e
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #aprenderguitarra #solodeguitarra #rock #guitarristas`
 
-### Producción — CORREGIDO (12/9): sí lleva voz, en off sobre el B-roll
+### Producción — SIMPLIFICADO (16/9): Nico dio la versión simple, específica para el caso de Feli
+
+> Feli está viendo una clase grabada de Nico sobre el posteo de Epifanía y el video B-roll —
+> distinta de la devolución que ya teníamos. Nico dice **mantenerlo simple**: en el caso de Feli,
+> un video de él **improvisando con la banda, rockeando** (se tira al piso, hay onda real) — **13 a
+> 15 segundos, máximo 20**. Reglas de producción, textuales: **hook en texto apenas arranca el
+> video** + una **flechita apuntando hacia abajo** con el texto **"Lee la descripción"**. El copy
+> se recicla tal cual — no hace falta reescribirlo.
+>
+> **Feli ya tiene el video** (footage real de una improvisación con la banda) — no hace falta
+> filmar B-roll nuevo de manos en el mástil para esto. **Este plan reemplaza al de abajo** (manos
+> en caja 1 → pensativo → diagonal → cierre a cámara), que queda documentado como referencia
+> histórica, no como el plan vigente.
+>
+> ⚠️ **Sobre el audio, sin confirmar:** esta clase no mencionó narración en off — las reglas que
+> dio Nico son de texto en pantalla (hook + flecha + "lee la descripción"), lo que sugiere que el
+> audio real de la banda tocando queda de fondo, sin voz narrando el copy encima. Si en la clase
+> Nico dijo algo puntual sobre esto, avisame y lo corrijo — mientras tanto el plan asume audio real
+> del video, sin narración agregada.
+
+**El hook, para el texto que aparece apenas arranca el video:**
+> **"Te sabías las 5 cajas. Y no te movías de la primera."**
+
+Es literal la primera línea del copy (ver arriba) — quien ve el hook en el video y después abre la
+descripción encuentra la misma frase repetida. Refuerza en vez de generar disonancia entre lo que
+lee y lo que vio.
+
+**Timeline de la pieza (13-20 seg):**
+
+| Tiempo | Qué se ve |
+|---|---|
+| 0:00–0:06 | Arranca el clip de la banda improvisando. Texto grande superpuesto: el hook de arriba. |
+| 0:06–fin | Sigue el clip (rockeando, tirándose al piso). Aparece la flecha ⬇️ + "Lee la descripción 👇". |
+
+**Copy:** el mismo de arriba, sin cambios — se recicla completo.
+
+---
+
+### Plan anterior (histórico, ya NO es el vigente) — B-roll de manos en el mástil + voz en off
 
 > ⚠️ **Error de esta sesión, corregido el 12/9.** Acá decía "no hace falta un guion hablado, el
 > video/foto es de fondo, mudo o con clima muy bajo" — interpretando "B-Roll" como sinónimo de

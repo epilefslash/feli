@@ -1167,6 +1167,13 @@ si querés ajustarla antes de publicar:
 
 ## 45) EPIFANÍA — CORREGIDO (12/9): lleva voz en off, no es muda
 
+> ⚠️ **SUPERADO (16/9) — ver `memoria/04` §35-BIS, sección "Producción — SIMPLIFICADO".** Nico le
+> dio a Feli, en una clase grabada nueva, una versión mucho más simple y específica para su caso:
+> video real de Feli improvisando con la banda (13-20 seg, ya filmado) + hook en texto al arranque
+> + flecha "Lee la descripción" — sin la secuencia de B-roll de manos en el mástil ni,
+> aparentemente, narración en off. Esta sección queda como referencia histórica de la versión
+> anterior, ya no es el plan vigente.
+
 > Error propio de esta sesión, corregido con evidencia nueva. Se había dicho dos veces que la
 > Epifanía ("Reel B-Roll + Copy") era muda o con clima muy bajo — interpretando "B-roll" como
 > sinónimo de silencioso. **Es un error: B-roll significa que no hablás mirando a cámara con
