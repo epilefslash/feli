@@ -1370,3 +1370,40 @@ estar filmando — mismo setup de cámara, distintos ángulos/lugares. Conviene 
 bloque de filmación (como ya se hizo con los videos #5/#6, `memoria/07` §14) en vez de intercalarlos
 con edición, que es otro tipo de trabajo. Los 2 últimos (editar Vero + editar #9) son trabajo de
 escritorio — se pueden hacer en cualquier momento, no necesitan luz ni setup.
+
+---
+
+## 49) ESTADO AL 16/9 — Epifanía filmada, avance del día
+
+> ✅ **Epifanía — FILMADA.** Se cierra el ítem 1 del checklist de `memoria/05` §48.
+> 🟡 **Destacada MÉTODO — footage filmado por Feli** (dijo haberlo grabado para partir en historias),
+> pero el archivo **no llegó adjunto** en el chat — pendiente que lo reenvíe para revisar.
+
+**Confirmaciones nuevas de Nico (clase que Feli sigue viendo):**
+- **"Mínimo 3, máximo 5 destacadas"** — confirma lo que ya teníamos (`memoria/05` §11, regla de
+  InstaMúsico). Las 5 planificadas (MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO · TESTIMONIOS) están
+  justo en el techo permitido — no hace falta sacar ninguna.
+- **"Los testimonios parciales generan confianza más rápido"** — confirma y refuerza la herramienta
+  **"Celebrar Casos de Éxito"** que ya estaba documentada sin usar (`memoria/05` §36): mensaje corto
+  de WhatsApp a cualquier alumno actual pidiendo un logro puntual, se publica la respuesta como
+  captura. Mucho más liviano que coordinar una videollamada — Feli puede generar varios de estos en
+  un día, mientras junta los testimonios de video-entrevista completa que le faltan.
+
+**Plan del día (16/9):** Testimonio Ángel (ya listo) + **StoryTelling 1** como segunda publicación
+del feed — es la única pieza sin producción pendiente (copy y foto ya listos). Las historias de la
+destacada MÉTODO son otra cosa en paralelo (Instagram Stories, no cuentan como uno de los 15
+posteos del feed) — se pueden subir cualquier día, no compiten con el calendario.
+
+**Los 3 niveles de prueba social que Feli va a ir mezclando, de más a menos pesado:**
+1. Video-entrevista completa (Ángel, Vero — ya los tiene).
+2. Testimonio parcial en video (`memoria/04` §38, para la primera camada real del programa).
+3. Captura de WhatsApp (Celebrar Casos de Éxito) — el más rápido de generar.
+
+**Checklist consolidado de lo que falta (repetido acá para no perderlo entre secciones):**
+- ☐ Foto para StoryTelling 2 (modo profesor — NO Wafles).
+- ☐ Un par más de testimonios/parciales.
+- ☐ Diseñar los 3 carruseles en Canva.
+- ☐ Portadas de los reels (baja prioridad, según Feli).
+- ☐ Terminar de editar y publicar el testimonio de Verónica.
+- ☐ #7 equipo — falta grabar las guitarras.
+- ☐ Editar #9 ("3 formas de romper las cajas").

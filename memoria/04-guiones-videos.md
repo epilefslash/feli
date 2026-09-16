@@ -856,25 +856,28 @@ solo (el brief ya decía "vale doble"; con banda pega más fuerte).
 > con un dato neutro, "Empecé a tocar a los once años"). Se sube la tensión del primer párrafo y se
 > afilan un par de giros en el medio — mismo largo, mismo tono, misma historia real.
 
-> Tengo la guitarra en las manos desde los once años. Y durante años, eso no se notaba en nada de lo
-> que tocaba.
+> ✅ **Con emojis (16/9), a pedido de Feli** — mismo texto, se suman 4 emojis en los puntos de giro
+> (apertura, dolor, insight, resolución), mismo criterio que ya usamos en la Epifanía.
+
+> 🎸 Tengo la guitarra en las manos desde los once años. Y durante años, eso no se notaba en nada de
+> lo que tocaba.
 >
 > Aprendí de todas las formas que existen: tablaturas de internet, videos, profesores particulares.
 > Después até estudié en la facultad de música, acá en Rosario. No me recibí — pero aprendí
 > muchísimo.
 >
-> Y sin embargo, con todo eso encima, seguía tocando las mismas frases de siempre.
+> Y sin embargo, con todo eso encima, seguía tocando las mismas frases de siempre. 😔
 >
 > Sabía teoría. Sabía las escalas. Sabía nombrar cada cosa que estaba pasando arriba del mástil. Y
 > cuando agarraba la viola para improvisar, salía exactamente lo mismo que el día anterior.
 >
-> Ese es el punto que casi nadie cuenta en voz alta: se puede saber muchísimo y sonar igual. No son
-> la misma cosa. Ni se corrigen de la misma forma.
+> 💡 Ese es el punto que casi nadie cuenta en voz alta: se puede saber muchísimo y sonar igual. No
+> son la misma cosa. Ni se corrigen de la misma forma.
 >
 > Si te está pasando eso — que estudiás, mirás, guardás, y al improvisar seguís sonando como hace
 > dos años — no es que te falte talento. Y no es que te falte información.
 >
-> Es otra cosa. Y tiene arreglo.
+> ✅ Es otra cosa. Y tiene arreglo.
 >
 > ¿Cuánto hace que tocás vos? Contame abajo 👇
 
