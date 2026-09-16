@@ -19,7 +19,7 @@ from reportlab.platypus import (BaseDocTemplate, PageTemplate, Frame, Paragraph,
 AQUI = os.path.dirname(os.path.abspath(__file__))
 PARTITURAS = os.path.join(AQUI, "partituras")
 RAIZ = os.path.dirname(AQUI)
-IG = "@felibayamenor"
+IG = "@feli.baya.menor"  # handle real, confirmado 15/9 (memoria/00) -- con puntos, no pegado
 
 # Fuente auxiliar solo para simbolos que Helvetica no tiene (casilla, flecha, negra)
 for _ruta in ("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",

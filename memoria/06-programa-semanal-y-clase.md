@@ -451,4 +451,29 @@ atrás, no una mejora. **Dentro de cada clase de 1 hora**, la mecánica de siemp
 bienvenida → tema del día → ronda de práctica → aplicación grupal → cierre) ya mezcla explicación,
 técnica y aplicación en la misma sesión — no hace falta separarlo en días distintos.
 
+### ✅ HECHO (16/9): la Hoja de Ruta para el alumno, ya armada en PDF
+
+`Hoja-de-Ruta-Solo-con-Sabor.pdf` (`scripts/build_hoja_de_ruta.py`, 2 páginas) — a diferencia del
+borrador de arriba (que era "solo para Feli"), este documento **sí está escrito para el alumno**:
+tono en segunda persona, sin vocabulario de negocio/Nico, listo para entregar en el onboarding.
+Contenido: bienvenida + promesa, las 3 partes del vehículo (Zona virtual / Encuentros en vivo /
+Comunidad) en lenguaje de beneficio, los 5 pilares con su descripción final y entregable, la tabla
+de horario confirmada, la regla de los 10 minutos y las consultas asincrónicas explicadas para el
+alumno (sin citar a Nico ni el motivo interno de retención — eso queda en esta memoria), y el
+canal de WhatsApp/Discord con el aviso honesto de seguimiento. Incluye el `MapaCompleto` (mismo
+asset ya usado en otros cuadernillos) como primer apoyo visual de El Mapa.
+
+**Aclaración honesta sobre el tiempo:** el documento le dice al alumno "el ritmo típico ronda los 3
+meses, pero cada pilar dura lo que tiene que durar" — sostiene la promesa pública de 90 días
+(`memoria/01` §2) sin convertir el modelo flexible en una fecha rígida que después no se cumple.
+
+**De paso, se corrigió un bug de origen:** `cuadernillo_comun.py` tenía el handle viejo
+(`@felibayamenor`, pegado) hardcodeado como default en la cabecera de TODOS los documentos — el
+handle real, confirmado el 15/9, es `@feli.baya.menor` (con puntos). Corregido en la fuente
+compartida: cualquier PDF nuevo que se genere de acá en más ya sale con el handle correcto. Los
+PDFs viejos ya entregados no se reimprimen por esto solo (regla general, `memoria/00`).
+
+**Pendiente, no bloqueante:** los horarios de "18 a 19hs" están escritos literal — si en algún
+momento se ofrece el programa a alumnos fuera de Argentina, aclarar el huso horario explícitamente.
+
 ---
