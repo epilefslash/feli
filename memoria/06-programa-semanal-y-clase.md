@@ -325,7 +325,7 @@ que sí está listo para avanzar.
 
 5 encuentros de 1 hora, uno por pilar. Como son 4 días y 5 clases, un día lleva doble turno.
 
-**Propuesta de asignación (a confirmar con Feli, no cerrada):**
+**✅ CONFIRMADO (16/9, Feli):**
 
 | Día | Horario | Pilar |
 |---|---|---|
@@ -338,8 +338,7 @@ que sí está listo para avanzar.
 **Por qué Miércoles es el día doble:** es el único par con una dependencia de contenido real y ya
 documentada (`memoria/02` §28-SEXIES): la Parte 2 de El Pulso ("agarrá un lick que ya tenés y
 movelo") necesita que el alumno ya tenga licks propios, que es lo que da El Vocabulario. Ponerlos el
-mismo día, uno después del otro, respeta esa dependencia en vez de romperla. Es una propuesta, no
-una instrucción de Nico — Feli puede reacomodar los días libremente.
+mismo día, uno después del otro, respeta esa dependencia en vez de romperla.
 
 ### Cómo avanza un alumno individual (el orden lógico personal no cambia)
 
@@ -367,16 +366,89 @@ es un eje distinto (cuánto vivo en total, no cómo se reparte en la semana).
 ### ⚠️ Esto es un borrador interno — no es la Hoja de Ruta que se le entrega al alumno
 
 Feli pidió esto "solo para yo verla" — es material de trabajo para pensar la estructura, no algo
-para mostrarle a un alumno real todavía. Antes de convertirlo en un documento presentable (PDF,
-Design) falta: confirmar la asignación día↔pilar de la tabla de arriba, y decidir cómo se comunica
-"a qué clase te conectás vos esta semana" sin que suene caótico (candidato simple: un mensaje de
-WhatsApp semanal — ya existe la costumbre, ver sección 20 — diciéndole a cada alumno cuál de las 5
-le toca).
+para mostrarle a un alumno real todavía.
 
 > **Pendiente real que este modelo deja más visible:** con 5 clases semanales en vez de 4, y cada una
 > de 1 hora, son **5 horas de vivo por semana por camada** (antes eran 4). Sigue siendo el mismo tipo
 > de tensión de escalabilidad que ya estaba anotada sin resolver en `memoria/02` §28-TER — este
 > cambio no la agrava ni la resuelve, solo no hay que perderla de vista cuando se piense una segunda
 > camada en paralelo.
+
+### La mecánica de la sesión en vivo — 3 reglas de Nico (16/9, biblia del proyecto)
+
+Feli trajo esto de una clase de Nico, aplica tal cual:
+
+1. **Regla de los 10 minutos.** Te conectás a la hora que corresponde. Si a los 10 minutos no se
+   conectó nadie, te desconectás — no te quedás esperando solo en la sala.
+2. **Consultas asincrónicas.** El alumno que no puede conectarse a un horario puede dejar su
+   consulta/pregunta de antemano (por el canal de Discord/WhatsApp) — se responde igual, en la
+   próxima sesión en vivo de ese pilar. Nadie se queda sin resolver su duda solo por no llegar al
+   horario en vivo.
+3. **El canal (Discord/WhatsApp) es, ante todo, una herramienta de SEGUIMIENTO — no solo de aviso.**
+   Sirve para (a) avisar qué sesión toca hoy y a qué hora ("hoy 19hs, El Pulso"), y (b) — esto es lo
+   importante — **detectar activamente al alumno que dejó de conectarse.** El riesgo real que
+   describió Nico: si un alumno no se conecta a ninguna sesión y pasan los días sin que nadie lo
+   note ni lo contacte, ese alumno no le va a sacar rendimiento al programa y va a concluir "esto no
+   me sirve" — sin que el problema haya sido el método, sino la falta de seguimiento. Consecuencia
+   práctica: no alcanza con postear el aviso de horario y esperar — hay que revisar quién NO se
+   conectó y escribirle aparte. Esto es una versión más concreta y accionable de lo que ya decía
+   `memoria/06` §16 ("un mensaje semanal... evita la deserción") y le da el motivo exacto detrás.
+
+### Cómo arrancar sin tener el pregrabado armado todavía (pregunta de Feli, 16/9)
+
+**La pregunta:** si Feli consigue su primer alumno antes de haber grabado el contenido pregrabado
+completo de los 5 pilares, ¿cómo arranca? ¿Qué se va a encontrar ese alumno en la Zona Virtual?
+
+**Lo que ya estaba decidido y sigue en pie** (`memoria/02` §28-TER): grabar el pregrabado usando los
+cuadernillos como guion **se puede arrancar YA, sin esperar tener un alumno online** — nunca dependió
+de tener grupo. Es la tarea de fondo que conviene ir adelantando en paralelo, no algo que se resuelve
+recién cuando aparezca el primer alumno.
+
+**Pero en la práctica, si el primer alumno llega antes:** la propia lógica de este modelo (§51, arriba)
+ya resuelve el problema solo. Un alumno recién llegado **solo necesita El Mapa** — es el único pilar
+sin prerrequisitos. Las otras 4 clases (Sabor, Vocabulario, Pulso, Vuelo) no hacen falta que existan
+todavía como pregrabado ni que se dicten en vivo desde el día 1, porque **no hay nadie listo para
+ellas** — se activan orgánicamente a medida que ese alumno (u otros que se sumen) llegan a ese punto.
+Así que la "clase 1" real es, literalmente, la sesión de los Lunes de El Mapa, en vivo, usando el
+cuadernillo de El Mapa como guion — el mismo que ya está escrito y auditado.
+
+**El punto que merece una aclaración, no una confirmación automática:** Feli propuso que el contenido
+de la Zona Virtual "van siendo las clases grabadas y los recortes" — es decir, ir armando el
+pregrabado a partir de grabar las clases en vivo reales y cortarlas en clips. Esto **no es lo mismo**
+que lo que ya estaba decidido en `memoria/02` §28-BIS, y esa decisión vieja sigue siendo válida: grabar
+la clase en vivo con un alumno real y subirla tal cual como si fuera el pregrabado definitivo **no
+sirve** — tiene ruido (dudas puntuales de esa persona, ritmo ajustado a un caso específico) y expone
+la imagen/voz de un alumno real sin que él lo haya pensado como producto. La salida que concilia las
+dos cosas: **sí conviene grabar siempre la clase** (ya es la práctica general, `memoria/06` §16 — sirve
+de archivo para quien faltó ese día), y de ahí se pueden **rescatar recortes limpios** — el tramo donde
+Feli explica el concepto en general, sin la corrección puntual a esa persona ni su imagen — como
+semilla para la Zona Virtual. Pero esos recortes necesitan una pasada de edición/curaduría antes de
+subir, no se suben crudos. No es una contradicción con la idea de Feli — es el mismo camino, con el
+paso de curaduría que ya estaba anotado y que conviene no saltear.
+
+### El nombre de las clases: ¿hace falta sumar "Técnica"/"Repertorio" como Nico? (16/9)
+
+Feli preguntó si convenía sumarle a cada pilar una segunda etiqueta al estilo de las 4 sesiones
+genéricas de Nico (Teoría, Técnica, Repertorio, Improvisación) — pero notó él mismo el problema:
+"Técnica" en nuestro programa ya significa específicamente El Sabor (bending, vibrato). Usarla de
+nuevo como etiqueta genérica de otra clase generaría choque de vocabulario.
+
+**No hace falta agregar esa capa — los 5 pilares ya cumplen esa función, mejor.** Los 4 ángulos
+genéricos de Nico no desaparecen, están adentro de los nombres de los pilares, uno a uno:
+
+| Ángulo genérico de Nico | Dónde ya vive en nuestros pilares |
+|---|---|
+| Teoría | EL MAPA (orientación, entender el mástil antes de tocar) |
+| Técnica | EL SABOR (bending, vibrato, espacio — literal) |
+| Repertorio | EL VOCABULARIO (robarle licks a los grandes) |
+| Improvisación | EL VUELO (soltarse en vivo) |
+| *(sin equivalente genérico)* | EL PULSO (ritmo — el pilar que Nico habilitó de más) |
+
+Los nombres de pilar ya son más específicos y más de marca que "Técnica"/"Repertorio" — encajan con
+la misma lógica por la que el programa dice "grupal" en vez de "cohorte" (`memoria/02` §28-TER):
+vocabulario propio en vez de plantilla genérica. Sumarle una etiqueta genérica encima sería un paso
+atrás, no una mejora. **Dentro de cada clase de 1 hora**, la mecánica de siempre (`memoria/06` §16:
+bienvenida → tema del día → ronda de práctica → aplicación grupal → cierre) ya mezcla explicación,
+técnica y aplicación en la misma sesión — no hace falta separarlo en días distintos.
 
 ---
