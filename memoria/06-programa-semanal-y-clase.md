@@ -21,6 +21,13 @@
 > consignas) sigue sirviendo tal cual; el CUÁNTAS VECES POR SEMANA hay que reagruparlo en 1-2 encuentros
 > antes de usarlo para explicarle "cómo es una clase" a un alumno real o prepararte una llamada de venta.
 
+> ⚠️⚠️ **SUPERADO OTRA VEZ (16/9) — el calendario "Mes 1/2/3, semana 1 a 12" de las tablas de abajo ya
+> no es el modelo de calendario vigente.** Ver §51 al final de este archivo: los 5 pilares corren en
+> PARALELO durante las 12 semanas (una clase semanal fija por pilar, Lunes a Jueves), no en bloques
+> secuenciales de 4 semanas cada uno. El QUÉ de cada tabla (temas, solos de referencia, consignas) sigue
+> siendo el contenido real de cada pilar — lo que ya no aplica es leer "semana 3" como una fecha fija del
+> calendario grupal: cada alumno llega a esos contenidos a su propio ritmo.
+
 ### La lógica fija de la semana (se repite las 12 semanas)
 Cada semana tiene UN tema. Las 4 sesiones miran ese mismo tema desde 4 ángulos:
 | Día | Sesión | Ángulo del tema semanal |
@@ -292,5 +299,84 @@ que lo hacés una vez.
 > **Miedo vs realidad:** el miedo dice "no sé dar clases online". La realidad es "sé dar clases y sé
 > usar Zoom" — y eso ES dar clases online. El único músculo nuevo (manejar el grupo) se entrena en
 > vivo, y para eso está la primera cohorte a precio de fundador.
+
+---
+
+## 51) NUEVO MODELO DE DELIVERY: 5 CLASES SEMANALES EN PARALELO, UNA POR PILAR (16/9)
+
+> **Decisión de Feli, hoy.** Reemplaza el horario/calendario de la sección 20 (Mes 1/2/3 secuencial,
+> 4 semanas por hito) y el esquema de días de `memoria/02` §28-TER (Lunes Teoría / Martes Técnica /
+> Jueves Repertorio / Sábado Improvisación). **Lo que NO cambia:** el contenido y la numeración
+> interna de los cuadernillos (1-59) — sigue exactamente igual. Lo que cambia es CÓMO se organiza el
+> calendario de encuentros en vivo alrededor de ese contenido.
+
+### La idea de fondo
+
+Nico ya había dicho (`memoria/02`, nota al pie de §28-SEXIES) que **los pilares no tienen que durar
+un tiempo fijo** — no usó la palabra "crónico" tal cual, pero esa es la idea que Feli rescata hoy:
+un pilar no es un bloque de calendario ("semana 1 a 4 = Mapa"), es un tema con su propio ritmo. Feli
+lleva esa idea un paso más allá: en vez de que el GRUPO entero avance sincronizado hito por hito, **cada
+pilar tiene su propia clase semanal fija, y el alumno se conecta a la que le corresponde según dónde
+esté él, no según qué semana del calendario es.** Un alumno que todavía no vio/completó una parte de
+un hito simplemente no se conecta a la clase de ESE pilar esa semana — se conecta a la del pilar en el
+que sí está listo para avanzar.
+
+### El horario (Lunes a Jueves, 18-19hs — ya decidido por Feli)
+
+5 encuentros de 1 hora, uno por pilar. Como son 4 días y 5 clases, un día lleva doble turno.
+
+**Propuesta de asignación (a confirmar con Feli, no cerrada):**
+
+| Día | Horario | Pilar |
+|---|---|---|
+| Lunes | 18-19hs | EL MAPA |
+| Martes | 18-19hs | EL SABOR |
+| Miércoles | 18-19hs | EL VOCABULARIO |
+| Miércoles | 19-20hs | EL PULSO |
+| Jueves | 18-19hs | EL VUELO |
+
+**Por qué Miércoles es el día doble:** es el único par con una dependencia de contenido real y ya
+documentada (`memoria/02` §28-SEXIES): la Parte 2 de El Pulso ("agarrá un lick que ya tenés y
+movelo") necesita que el alumno ya tenga licks propios, que es lo que da El Vocabulario. Ponerlos el
+mismo día, uno después del otro, respeta esa dependencia en vez de romperla. Es una propuesta, no
+una instrucción de Nico — Feli puede reacomodar los días libremente.
+
+### Cómo avanza un alumno individual (el orden lógico personal no cambia)
+
+Que las 5 clases corran en paralelo en el calendario **no** significa que un alumno las curse en
+cualquier orden. Las dependencias pedagógicas siguen intactas:
+
+`EL MAPA → EL SABOR → EL VOCABULARIO → EL PULSO (parte 2 necesita Vocabulario) → EL VUELO (necesita los 4 anteriores)`
+
+Lo que cambia es que, en un grupo de 4-6 con ritmos distintos, **en una semana cualquiera puede haber
+alumnos en pilares distintos** — por eso las 5 clases existen todas, todas las semanas, en vez de
+"esta semana solo se dicta Mapa". El pregrabado (Zona Virtual, cuadernillos) es lo que sostiene el
+avance de cada alumno entre una clase y la siguiente — sin eso, este modelo no funciona, porque el
+alumno tiene que poder progresar por su cuenta y llegar "listo" a la clase en vivo que le toca.
+
+### Lo que esto resuelve, de yapa
+
+La pregunta 2 que quedó abierta en `memoria/02` §28-TER ("el día de Improvisación cae sábado — Feli
+no puede/no quiere dar clase los sábados, ¿se puede mover?") **queda resuelta sola**: en este modelo
+no hay sábado, el horario es Lunes a Jueves. No hace falta llevarle esa pregunta a Nico.
+
+**Lo que NO resuelve:** la pregunta 1 de esa misma sección (si el modelo de mucho vivo es transitorio
+mientras no hay pregrabado, y después se baja a menos encuentros como el caso Sergio) sigue abierta —
+es un eje distinto (cuánto vivo en total, no cómo se reparte en la semana).
+
+### ⚠️ Esto es un borrador interno — no es la Hoja de Ruta que se le entrega al alumno
+
+Feli pidió esto "solo para yo verla" — es material de trabajo para pensar la estructura, no algo
+para mostrarle a un alumno real todavía. Antes de convertirlo en un documento presentable (PDF,
+Design) falta: confirmar la asignación día↔pilar de la tabla de arriba, y decidir cómo se comunica
+"a qué clase te conectás vos esta semana" sin que suene caótico (candidato simple: un mensaje de
+WhatsApp semanal — ya existe la costumbre, ver sección 20 — diciéndole a cada alumno cuál de las 5
+le toca).
+
+> **Pendiente real que este modelo deja más visible:** con 5 clases semanales en vez de 4, y cada una
+> de 1 hora, son **5 horas de vivo por semana por camada** (antes eran 4). Sigue siendo el mismo tipo
+> de tensión de escalabilidad que ya estaba anotada sin resolver en `memoria/02` §28-TER — este
+> cambio no la agrava ni la resuelve, solo no hay que perderla de vista cuando se piense una segunda
+> camada en paralelo.
 
 ---
