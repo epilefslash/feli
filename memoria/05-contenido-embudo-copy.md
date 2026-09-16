@@ -1389,10 +1389,16 @@ escritorio — se pueden hacer en cualquier momento, no necesitan luz ni setup.
   captura. Mucho más liviano que coordinar una videollamada — Feli puede generar varios de estos en
   un día, mientras junta los testimonios de video-entrevista completa que le faltan.
 
-**Plan del día (16/9):** Testimonio Ángel (ya listo) + **StoryTelling 1** como segunda publicación
-del feed — es la única pieza sin producción pendiente (copy y foto ya listos). Las historias de la
-destacada MÉTODO son otra cosa en paralelo (Instagram Stories, no cuentan como uno de los 15
-posteos del feed) — se pueden subir cualquier día, no compiten con el calendario.
+> ⚠️ **Corrección de timeline (16/9, aclarado por Feli):** el Testimonio Ángel + el posteo de 2 pasos
+> pineado se publicaron el **LUNES** (15/9), no "hoy". Martes y miércoles **no se publicó nada**. La
+> frase de abajo ("Plan del día: Testimonio Ángel + StoryTelling 1") quedó vieja — se corrige acá.
+
+**Plan del día (hoy, jueves 16/9):** el próximo posteo del feed es **#4** ("¿Cuántas escalas
+necesitás para sonar a rock?") — ya está **filmado Y editado**, cero trabajo extra, es la opción de
+menor fricción disponible hoy. StoryTelling 1 sigue en stock para más adelante (copy y foto ya
+listos, no hay apuro). Las historias de la destacada MÉTODO son otra cosa en paralelo (Instagram
+Stories, no cuentan como uno de los 15 posteos del feed) — se pueden subir cualquier día, no compiten
+con el calendario.
 
 **Los 3 niveles de prueba social que Feli va a ir mezclando, de más a menos pesado:**
 1. Video-entrevista completa (Ángel, Vero — ya los tiene).
@@ -1407,3 +1413,29 @@ posteos del feed) — se pueden subir cualquier día, no compiten con el calenda
 - ☐ Terminar de editar y publicar el testimonio de Verónica.
 - ☐ #7 equipo — falta grabar las guitarras.
 - ☐ Editar #9 ("3 formas de romper las cajas").
+
+---
+
+## 50) DESTACADA "YO TOCO" — guion con el material real de Feli (16/9)
+
+> Destacada vacía hasta hoy (ver §11, es una de las 5 planificadas: MÉTODO · FORMACIÓN · ALUMNOS ·
+> YO TOCO · TESTIMONIOS). Su función: mostrar que Feli toca en banda de verdad, no solo enseña — el
+> lugar exacto donde iba la foto de "Wafles" que se sacó de StoryTelling 2 (§34, resuelto 12/9).
+> Material real disponible, confirmado por Feli (16/9): clips de **ensayo** con la banda + un clip
+> **en vivo**.
+
+**4 historias, en este orden (y por qué ese orden):**
+
+1. **Arranque — un clip de ensayo:**
+   > Texto: "Además de enseñar, toco en banda 🎸"
+2. **Otro clip de ensayo** (si hay más de uno), con poco o nada de texto:
+   > Texto opcional, chico: "Ensayando" — o nada, que hable la imagen.
+3. **El clip EN VIVO — acá, no al principio.** Es el más fuerte, el clímax de la secuencia:
+   > Texto: "Nada se compara a tocar en vivo 🔥"
+4. **Cierre — conexión suave con el método, sin vender:**
+   > Texto: "Esto es lo que quiero que vos también sientas con tu guitarra 🎸"
+
+**Por qué el orden importa:** arranca con lo más "de laburo" (ensayo, auténtico, sin pulir) y guarda
+el clip en vivo — el de más energía — para el momento de mayor impacto, en vez de quemarlo primero.
+Cierra con una línea que conecta con el método sin CTA agresivo, coherente con que esta destacada es
+de identidad, no de conversión (misma lógica que Epifanía: plantar la idea, no vender en el momento).
