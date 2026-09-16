@@ -325,20 +325,28 @@ que sí está listo para avanzar.
 
 5 encuentros de 1 hora, uno por pilar. Como son 4 días y 5 clases, un día lleva doble turno.
 
-**✅ CONFIRMADO (16/9, Feli):**
+**✅ CONFIRMADO, versión final (16/9, Feli — reacomodado con Cowork sobre la propuesta inicial):**
 
 | Día | Horario | Pilar |
 |---|---|---|
-| Lunes | 18-19hs | EL MAPA |
-| Martes | 18-19hs | EL SABOR |
-| Miércoles | 18-19hs | EL VOCABULARIO |
-| Miércoles | 19-20hs | EL PULSO |
+| Lunes | 18-19hs | EL VOCABULARIO |
+| Martes | 18-19hs | EL PULSO |
+| Miércoles | 18-19hs | EL MAPA |
+| Miércoles | 19-20hs | EL SABOR |
 | Jueves | 18-19hs | EL VUELO |
 
-**Por qué Miércoles es el día doble:** es el único par con una dependencia de contenido real y ya
-documentada (`memoria/02` §28-SEXIES): la Parte 2 de El Pulso ("agarrá un lick que ya tenés y
-movelo") necesita que el alumno ya tenga licks propios, que es lo que da El Vocabulario. Ponerlos el
-mismo día, uno después del otro, respeta esa dependencia en vez de romperla.
+> Reemplaza la primera propuesta de esta sección (que ponía Mapa lunes, Sabor martes, y el par
+> doble en Vocabulario+Pulso el miércoles). El cambio se verificó contra la única dependencia real
+> de contenido documentada (`memoria/02` §28-SEXIES): la Parte 2 de El Pulso necesita que el alumno
+> ya tenga licks de El Vocabulario. **Se sigue cumpliendo** — Vocabulario (lunes) sigue yendo antes
+> que Pulso (martes), solo que en días consecutivos en vez de en el mismo día. El resto de los
+> pilares no tiene una dependencia de "mismo día": cada clase es independiente semana a semana, el
+> alumno va a la que le corresponde según dónde esté (ver más abajo) — el orden de los días es libre
+> mientras esa única dependencia se respete.
+>
+> **Ahora el día doble es Miércoles con Mapa + Sabor** (en vez de Vocabulario + Pulso) — son los dos
+> primeros pilares del camino de un alumno nuevo, también una pareja con lógica propia (el orden
+> personal sigue siendo Mapa→Sabor→Vocabulario→Pulso→Vuelo, ver abajo).
 
 ### Cómo avanza un alumno individual (el orden lógico personal no cambia)
 

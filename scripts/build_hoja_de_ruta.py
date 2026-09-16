@@ -5,8 +5,8 @@ pilares, el horario semanal en vivo, y como funciona una clase.
 
 Fuente de las decisiones que resume (memoria/02 SS28-QUATER, SS51 de memoria/06):
 - Los 5 pilares corren en PARALELO durante todo el programa (no en bloques de 4 semanas).
-- Horario confirmado: Lunes El Mapa, Martes El Sabor, Miercoles El Vocabulario + El Pulso,
-  Jueves El Vuelo, 18-19hs (Argentina).
+- Horario confirmado (version final, 16/9): Lunes El Vocabulario, Martes El Pulso, Miercoles El
+  Mapa + El Sabor, Jueves El Vuelo, 18-19hs (Argentina).
 - La regla de los 10 minutos, las consultas asincronicas y el canal de seguimiento son de Nico.
 
 Misma familia visual que los demas documentos (cuadernillo_comun.py).
@@ -111,10 +111,10 @@ S.append(Paragraph(
     "5 clases de 1 hora, Lunes a Jueves, 18 a 19hs (horario Argentina) — una por pilar:", BODY))
 S.append(tabla([
     [Paragraph("<b>Día</b>", CELLB), Paragraph("<b>Horario</b>", CELLB), Paragraph("<b>Pilar</b>", CELLB)],
-    [Paragraph("Lunes", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL MAPA", CELL)],
-    [Paragraph("Martes", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL SABOR", CELL)],
-    [Paragraph("Miércoles", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL VOCABULARIO", CELL)],
-    [Paragraph("Miércoles", CELL), Paragraph("19 a 20hs", CELL), Paragraph("EL PULSO", CELL)],
+    [Paragraph("Lunes", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL VOCABULARIO", CELL)],
+    [Paragraph("Martes", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL PULSO", CELL)],
+    [Paragraph("Miércoles", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL MAPA", CELL)],
+    [Paragraph("Miércoles", CELL), Paragraph("19 a 20hs", CELL), Paragraph("EL SABOR", CELL)],
     [Paragraph("Jueves", CELL), Paragraph("18 a 19hs", CELL), Paragraph("EL VUELO", CELL)],
 ], [4 * cm, 3.5 * cm, W - 7.5 * cm]))
 S.append(Spacer(1, 4))
