@@ -1953,3 +1953,41 @@ Contra la bio documentada y decidida con Nico (`memoria/05` §11):
 
 **Preguntado a Feli (18/9): ¿fue un cambio a propósito o quedó de una versión vieja?** Sin
 respuesta todavía — no se corrige unilateralmente hasta confirmar.
+
+---
+
+## 57) BIO CORREGIDA + 5 LEADS REALES SIN CONTESTAR (18/9)
+
+> Conector de Composio se reconectó y se completó el chequeo pendiente de `memoria/05` §56.
+
+### Bio: corregida por Feli, confirmada vía API
+> 🎸Dominá la improvisación de rock con mi método Solo con Sabor.
+> 📖 Músico y docente • +9 años enseñando
+> 👇🏼comenta "Solo" y arrancamos
+
+Ya nombra el nicho ("de rock") y la keyword coincide con SOLO. **Diferencia que queda, menor:** la
+línea de validación sigue siendo el genérico "Músico y docente" en vez de "Formado en la facultad
+de música de Rosario" (`memoria/05` §11) — pierde el dato verificable, pero Feli no la marcó como
+error, puede ser simplificación a propósito. No se toca sin que él lo pida.
+
+### 🔴 5 comentarios con keyword, sin contestar (leads reales)
+
+**Reel #4** (CTA "Solo"):
+- **pato_ok61** — "solo" — 17/9 18:13 (1 día)
+- **carolozaa** — "Solooo!" — 16/9 20:44 (2 días)
+- **radb1308** — "Solo" — 16/9 20:11 (2 días)
+
+**Posteo de 2 pasos** (CTA "Penta"):
+- **donchapusong** — "Penta" — 14/9 17:35 (**4 días**)
+- **okita_rj** — "Penta! ❤️🙌" — 14/9 17:28 (**4 días**)
+
+El comentario de @nachosantilli ("a la Penta la meto donde yo quiero 🤘🏽", 16/9) es joda, no un
+lead — Feli ya le contestó con una risa, cerrado.
+
+**Acción pendiente para Feli:** mandar a los 2 de "Penta" el DM ya escrito (`memoria/04` §37,
+versión A) con el mapa de las 5 cajas — llevan 4 días esperando, es plata sobre la mesa según la
+regla 97/3 (`memoria/02` §17). Los 3 de "Solo" necesitan el flujo de DM que corresponda a esa
+keyword (info del programa / encaminar a la llamada).
+
+**Automatización de DM:** sigue sin habilitarse (Meta, `memoria/05` §48) — esto se sigue
+contestando a mano por ahora.
