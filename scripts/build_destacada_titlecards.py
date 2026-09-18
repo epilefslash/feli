@@ -16,12 +16,15 @@ Dos reglas de composicion que se aprendieron del intento fallido:
    media placa vacia abajo, que es justo lo que se veia mal.
 2. El tamano de cada linea de titulo se autoajusta para no tocar nunca los margenes.
 
-Salida: scratchpad/titlecards/destacada-N-*.pdf + .png (1080x1920 px a 72 dpi).
+Salida: entregables/destacadas/destacada-N-*.pdf + .png (1080x1920 px a 72 dpi). El PNG es
+lo que Feli sube a Instagram; el PDF queda como fuente vectorial por si hay que reimprimir.
 
 Uso:
     python3 scripts/build_destacada_titlecards.py
 """
 import os
+import shutil
+import subprocess
 
 from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
@@ -46,7 +49,7 @@ SAFE_TOP = 1620.0
 SAFE_BOT = 340.0
 
 SALIDA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                      "scratchpad", "titlecards")
+                      "entregables", "destacadas")
 
 
 # ---------------------------------------------------------------- bloques
@@ -144,7 +147,17 @@ def placa(nombre, bloques):
 
     c.showPage()
     c.save()
+    _png(ruta)
     print("OK", nombre)
+
+
+def _png(ruta_pdf):
+    """Rasteriza a 72 dpi -> 1080x1920 px exactos, que es lo que se sube a Instagram."""
+    if not shutil.which("pdftoppm"):
+        print("   (sin pdftoppm: queda solo el PDF)")
+        return
+    subprocess.run(["pdftoppm", "-png", "-r", "72", "-singlefile",
+                    ruta_pdf, ruta_pdf[:-4]], check=True)
 
 
 def eyebrow(t):

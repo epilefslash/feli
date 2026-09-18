@@ -1898,9 +1898,10 @@ script para que no se pierdan:** (1) el bloque de contenido se **centra** en la 
 Stories, no se ancla arriba — anclarlo arriba es lo que dejaba media placa vacía; (2) el cuerpo
 de cada línea de título se **autoajusta** para no tocar nunca los márgenes.
 
-Se regenera con `python3 scripts/build_destacada_titlecards.py` y se rasteriza con
-`pdftoppm -png -r 72 -singlefile`. Si hay que cambiar un texto, se toca el script y salen las 6
-de nuevo iguales entre sí — no hay que volver a pedirle nada a ninguna IA de imagen.
+Se regenera con `python3 scripts/build_destacada_titlecards.py`, que deja las 6 en
+`entregables/destacadas/` — el PNG (1080×1920, el que se sube a Instagram) y el PDF vectorial de
+respaldo. Si hay que cambiar un texto, se toca el script y salen las 6 de nuevo iguales entre sí:
+no hay que volver a pedirle nada a ninguna IA de imagen.
 
 > **Regla general que confirma esto, ya vigente en `memoria/10` §30:** a Design se le pide
 > maquetación, nunca que dibuje una tablatura o un diagrama de mástil. Si una pieza necesita un
