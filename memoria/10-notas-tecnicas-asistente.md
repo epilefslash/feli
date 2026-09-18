@@ -1156,3 +1156,63 @@ traste), que es además la caja que menos aparece en el programa. Por eso pasó 
 > a mano, cruzarlo contra el cálculo antes de confiar en él.
 
 **Arreglado** en `scripts/cuadernillo_comun.py`, con la nota del porqué al lado.
+
+## 38) LOS GUIONES DEL PREGRABADO DEL HITO 1, REESCRITOS ENTEROS (18/9)
+
+Feli pidió el PDF con todos los guiones del Hito 1 para **empezar a filmar las clases pregrabadas
+los fines de semana**. Ya existía `Guiones-Pregrabado-Hito1-El-Mapa.pdf` (del 16/9) — antes de
+armar nada se leyó, y tenía dos problemas reales.
+
+### 🔴 El problema grave: el guion enseñaba técnica del Hito 2
+
+El guion del **ejercicio 4** se llamaba *"Tu primer lick con sabor"* y decía textual: *"Mostrás el
+bending de un tono en la 3ª cuerda traste 7... Mostrás el vibrato final."*
+
+Eso **ya no existe en el cuadernillo**. Se sacó en la ronda de la sección 35 de este mismo archivo
+(el Hito 1 tenía bending y vibrato metidos adentro del "Mapa", y se quitaron de los ej. 4, 8, 11 y
+16). El ej. 4 hoy se llama **"Una frase, no una escala"** y lo que cambia es el **ritmo**, no la
+mano.
+
+**Por qué importa más de lo que parece:** si Feli filmaba con ese guion, grababa una clase que
+**contradice el cuadernillo que el alumno tiene enfrente** — y encima le pedía una técnica que el
+programa todavía no le enseñó, que es la forma más rápida de que un alumno se sienta torpe y
+abandone. Y una vez filmado, corregirlo cuesta regrabar, no editar un texto.
+
+> **La regla que sale de acá, y vale para cualquier material derivado:** cuando se corrige un
+> cuadernillo, hay que buscar **qué otros documentos citan ese ejercicio**. El cuadernillo es la
+> fuente, pero los guiones, los checklists y las tablas semanales son copias que no se enteran
+> solas. Es el mismo patrón de la decimotercera ronda (el checklist que certificaba la versión
+> vieja del hito), esta vez en otro documento.
+
+### El segundo problema: 3 videos desparejos
+
+Repartía los 16 ejercicios en **4 / 8 / 4**. El video del medio se comía media semana 2 y toda la 3.
+
+**Ahora son 4 videos, uno por semana del cuadernillo, 4 ejercicios cada uno.** El alumno mira el
+video de la semana en la que está: el video y el papel dicen lo mismo, en el mismo orden.
+
+| Video | Cubre | Dura |
+|---|---|---|
+| 1 · Tu casa: la caja 1 | Semana 1 · ej. 1-4 | ~12 min |
+| 2 · El primer puente | Semana 2 · ej. 5-8 | ~14 min |
+| 3 · La zona aguda y la diagonal | Semana 3 · ej. 9-12 | ~16 min |
+| 4 · Se cierra el círculo | Semana 4 · ej. 13-16 | ~16 min |
+
+### Qué tiene cada guion (`scripts/build_guiones_pregrabado_h1.py`, 14 páginas)
+
+Por ejercicio: **la partitura embebida** (para no tener que abrir el cuadernillo mientras filma),
+**qué muestra en pantalla**, **qué dice palabra por palabra**, y **el error que tiene que nombrar**
+— ese último sale de las bajadas reales del cuadernillo ("si una nota suena apagada, pará", "ojo con
+la 3ª cuerda: acá los trastes son 7 y 9", "si sentís que tenés que hacer fuerza, estás poniendo el
+dedo demasiado atrás") y es lo que convierte una demostración en una clase.
+
+Cierra con un **checklist de grabación** de 3 bloques (antes / durante / después) y una nota:
+**si solo hay un fin de semana, se graba el video 1** — es el único que un alumno nuevo necesita
+para arrancar, porque El Mapa es el único pilar sin prerrequisitos (`memoria/06` §51).
+
+**Todo el contenido sale de `build_hito1.py` y los datos de trastes de `auditar_cajas.py`.** Nada
+se escribió de memoria.
+
+**Detalle técnico:** el helper `banner()` de `cuadernillo_comun.py` tiene la palabra "SEMANA"
+hardcodeada y lo usan los 5 cuadernillos — no se tocó. Este documento define su propio
+`banner_video()`, porque acá el lector es Feli filmando, no el alumno practicando.
