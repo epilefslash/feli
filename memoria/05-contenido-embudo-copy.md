@@ -1404,14 +1404,34 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
 2. Testimonio parcial en video (`memoria/04` §38, para la primera camada real del programa).
 3. Captura de WhatsApp (Celebrar Casos de Éxito) — el más rápido de generar.
 
-**Checklist consolidado de lo que falta (repetido acá para no perderlo entre secciones):**
+**Checklist consolidado de lo que falta — reorganizado por tipo de trabajo (18/9, a pedido de Feli:
+"no quiero sumar más cosas de filmar si todavía tengo que editar"):**
+
+**🎬 Editar (ya filmado, solo falta cortar):**
+- ☐ Testimonio de Verónica — terminar el corte y publicar.
+- ☐ #9 "3 formas de romper las cajas" — ya filmado, falta el corte completo.
+- ☐ #8 "No tengo oído" — 3 cortes puntuales: sacar la línea del ritmo (fuera de tema), reforzar
+  el CTA con texto grande fijo, corregir el label "slice" → "slide".
+
+**✍️ Copy (sin filmar ni editar):**
+- ☐ Copy del #6 ("Tus solos no respiran") — el más urgente, agendado semana 2 del plan.
+- ☐ Copy del #3 ("¿Hay que tocar rápido?") — sin apuro, stock semana 5+.
+
+**🎨 Diseño (Canva, cero filmación):**
+- ☐ Diseñar los 3 carruseles en Canva (ya escritos, `memoria/05` §22).
+- ☐ Portadas de los reels (baja prioridad, según Feli).
+- ☐ 6 title cards de la destacada MÉTODO — recortes/diagramas de los cuadernillos con el nombre
+  de cada pilar (ver `memoria/05` §55).
+
+**🎥 Filmar (lo que queda, para cuando termine la edición):**
+- ☐ #7 equipo — falta grabar las guitarras (guion y setup ya listos).
+- ☐ Historia 12 de la destacada MÉTODO (cierre + CTA) — la única hablada que falta de esa pieza.
 - ☐ Foto para StoryTelling 2 (modo profesor — NO Wafles).
 - ☐ Un par más de testimonios/parciales.
-- ☐ Diseñar los 3 carruseles en Canva.
-- ☐ Portadas de los reels (baja prioridad, según Feli).
-- ☐ Terminar de editar y publicar el testimonio de Verónica.
-- ☐ #7 equipo — falta grabar las guitarras.
-- ☐ Editar #9 ("3 formas de romper las cajas").
+
+**📤 Listo para publicar (no requiere producción):**
+- ☐ StoryTelling 1 — copy y foto listos.
+- ☐ Un reel de la carpeta "AL 100" (#3, #4, #5 o #6) — confirmar si ya se subió desde el 16/9.
 
 ---
 
@@ -1799,3 +1819,47 @@ Cuando dejes de tener la estructura de Nico encima, lo único que tiene que sobr
 3. **La hora mensual del banco.** Es la más fácil de saltearse y la que más caro sale.
 4. **El mínimo innegociable: 2 posteos por semana.** Por debajo de eso el algoritmo te enfría el
    perfil y el trabajo de los 3 meses se empieza a perder.
+
+---
+
+## 55) DESTACADA MÉTODO — versión de 12 historias "dinámica", sin filmar B-roll (18/9)
+
+> **Contexto:** `memoria/05` §48 dejó anotado un pendiente que nunca se cerró: *"guion de 12
+> historias dinámicas, hablados extendidos — pendiente de confirmación final para guardar en
+> memoria, ver conversación del 14-15/9"*. Esa conversación se cortó y el contenido real nunca se
+> guardó — se perdió. Esta sección lo cierra de nuevo, esta vez persistido.
+
+**Estado real (18/9):** Feli tiene filmadas y editadas con subtítulos **las 5 historias habladas de
+los pilares** (la 3, 5, 7, 9, 11 de la tabla de abajo). **No tiene B-roll filmado** (ni el de manos
+en diagonal, ni ningún otro) — cualquier plan que dependiera de B-roll nuevo queda descartado.
+
+### La solución: imágenes fijas en vez de B-roll, para las 6 historias que faltan
+
+La idea de "dinámico" de Nico (imagen, imagen, video explicativo — no todo hablado a cámara) se
+resuelve sin filmar nada nuevo, usando **recortes de los cuadernillos que ya existen** como
+title cards antes de cada pilar hablado:
+
+| # | Historia | Qué es | Filmar |
+|---|---|---|---|
+| 1 | Gancho | Imagen — el mástil completo con las 5 cajas (`MapaCompleto`), texto del gancho encima | ❌ No |
+| 2 | Título Pilar 1 | Imagen — diagrama de El Mapa (Cuadernillo Hito 1), "PILAR 1 · EL MAPA" | ❌ No |
+| 3 | Pilar 1 hablado | — | ✅ Ya está |
+| 4 | Título Pilar 2 | Imagen — diagrama de bendings (Cuadernillo Hito 2), "PILAR 2 · EL SABOR" | ❌ No |
+| 5 | Pilar 2 hablado | — | ✅ Ya está |
+| 6 | Título Pilar 3 | Imagen — tabla de las 2 escuelas (Cuadernillo Hito 3), "PILAR 3 · EL VOCABULARIO" | ❌ No |
+| 7 | Pilar 3 hablado | — | ✅ Ya está |
+| 8 | Título Pilar 4 | Imagen — el árbol de figuras (`EL_PULSO.pdf`), "PILAR 4 · EL PULSO" | ❌ No |
+| 9 | Pilar 4 hablado | — | ✅ Ya está |
+| 10 | Título Pilar 5 | Imagen — recorte de `Guia-El-Vuelo-Pilar5.pdf`, "PILAR 5 · EL VUELO" | ❌ No |
+| 11 | Pilar 5 hablado | — | ✅ Ya está |
+| 12 | Cierre + CTA | Hablado a cámara — la única historia nueva que requiere filmar (conexión personal para el CTA) | 🎬 Sí |
+
+**Resultado: de las 12, 11 ya están resueltas (5 filmadas + 6 son solo diseño). Se filma una sola.**
+
+**Las imágenes no hace falta sacarlas por captura de pantalla del PDF** (pierde calidad) — los
+diagramas (`MapaCompleto`, `ArbolFiguras`, `Diagrama`, etc.) son componentes reusables en
+`cuadernillo_comun.py` y se pueden exportar como PNG limpios directamente. Pendiente: generarlos
+si Feli lo pide.
+
+**Lo que reemplaza:** el plan viejo (§48, nunca ejecutado) asumía B-roll de manos en el mástil
+específico para esta pieza — descartado, no existe y no hace falta filmarlo.
