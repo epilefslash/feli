@@ -1906,3 +1906,50 @@ para correr:
 
 **Lo que reemplaza:** el plan viejo (§48, nunca ejecutado) asumía B-roll de manos en el mástil
 específico para esta pieza — descartado, no existe y no hace falta filmarlo.
+
+---
+
+## 56) ANÁLISIS REAL DE @feli.baya.menor VÍA API (18/9) — primer chequeo con datos en vivo
+
+> **Fuente:** conector de Composio (Instagram Graph API) ya autorizado en esta sesión sobre la
+> cuenta real `feli.baya.menor` (ID `28718706867762501`). Primera vez que se consulta el estado
+> real de la cuenta en vivo, en vez de que Feli lo reporte de memoria. El conector se desconectó a
+> mitad de sesión — quedó pendiente leer los comentarios de los 2 posteos con actividad (ver abajo).
+
+### Snapshot (18/9)
+- **Seguidores:** 34 · **Siguiendo:** 23 · **Posteos totales:** 3 (coincide exacto con lo ya
+  documentado: 2 pasos + Testimonio Ángel + #4).
+- **Reel #4** ("¿Cuántas escalas necesitás?", 16/9): 50 likes, 3 comentarios. 50 likes con 34
+  seguidores sugiere alcance real más allá de la red propia — señal temprana buena.
+- **Testimonio Ángel** (14/9): 6 likes, 0 comentarios.
+- **Posteo de 2 pasos** (pineado, 14/9): 13 likes, **4 comentarios** — este posteo existe
+  específicamente para juntar comentarios "PENTA".
+
+> ⚠️ **PENDIENTE URGENTE, sin resolver por corte de conexión:** no se llegó a leer el contenido de
+> los 7 comentarios (3 + 4) para confirmar si hay leads reales de PENTA/SOLO esperando el DM manual
+> (la automatización de Meta sigue sin habilitarse, `memoria/05` §48 — se contesta a mano). Primera
+> tarea apenas el conector de Composio vuelva a estar disponible.
+
+### 🔴 Hallazgo real: la bio publicada NO es la aprobada
+
+Verificado texto exacto de la bio en vivo:
+
+> 🎸Dominá la improvisación con mi método Solo con Sabor.
+> 📖 Músico y docente • +9 años enseñando
+> 📩 mándame la palabra "Sabor" para comenzar
+
+Contra la bio documentada y decidida con Nico (`memoria/05` §11):
+
+> 🎸 Dominá la improvisación de rock con mi método Solo con Sabor
+> 📖 Formado en la facultad de música de Rosario · +9 años enseñando
+> 👇 Comentá SOLO y arrancamos
+
+**3 diferencias, ninguna trivial:**
+1. **Falta "de rock"** — no nombra el nicho, justo lo que Nico pidió explícitamente que estuviera.
+2. **Se perdió el dato verificable** ("facultad de música de Rosario") por el genérico "Músico y
+   docente" — pierde la validación concreta que sostiene el "+9 años".
+3. **Keyword del CTA es "Sabor", no "SOLO"** — puede ser intencional (es una keyword válida del
+   menú de CTAs, `memoria/04`), pero contradice la decisión documentada como cerrada.
+
+**Preguntado a Feli (18/9): ¿fue un cambio a propósito o quedó de una versión vieja?** Sin
+respuesta todavía — no se corrige unilateralmente hasta confirmar.
