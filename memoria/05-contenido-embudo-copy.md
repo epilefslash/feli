@@ -1436,7 +1436,8 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
 **Checklist consolidado de lo que falta — reorganizado por tipo de trabajo (18/9, a pedido de Feli:
 "no quiero sumar más cosas de filmar si todavía tengo que editar"):**
 
-**🎬 Editar (ya filmado, solo falta cortar):**
+**🎬 Editar (ya filmado, solo falta cortar) — son exactamente los 3 que Feli dijo el 18/9
+que va a editar en los próximos días:**
 - ☐ Testimonio de Verónica — terminar el corte y publicar.
 - ☐ #9 "3 formas de romper las cajas" — ya filmado, falta el corte completo.
 - ☐ #8 "No tengo oído" — 3 cortes puntuales: sacar la línea del ritmo (fuera de tema), reforzar
@@ -1464,8 +1465,10 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
 - ☐ Un par más de testimonios/parciales **en video** (las capturas ya las tiene, ver abajo).
 
 **📤 Listo para publicar (no requiere producción):**
-- ☐ StoryTelling 1 — copy y foto listos.
-- ☐ Las 6 placas de la destacada MÉTODO.
+- 🟡 **StoryTelling 1 — se publica HOY (18/9)**, confirmado por Feli. Copy y foto ya estaban listos.
+- ✅ **Las 12 historias de la destacada MÉTODO — PUBLICADAS (18/9).** Feli las subió todas.
+- ✅ **Portadas de destacadas: 2 ya aplicadas (18/9).** Las otras 3 se ponen cuando esas
+  destacadas tengan contenido.
 - ☐ **Las capturas de testimonios parciales → destacada TESTIMONIOS**, que sigue vacía (§11).
   Feli confirmó el 18/9 que ya las tiene. Es el nivel más liviano de prueba social
   (`memoria/05` §49) y el único que no depende de la agenda de nadie — se puede subir hoy mismo.
