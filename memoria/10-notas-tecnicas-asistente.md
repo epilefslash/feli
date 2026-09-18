@@ -1118,3 +1118,41 @@ pensado para tener a mano en la llamada con Nico — no reemplaza al completo, s
 citado en varios documentos como parte del programa, pero **no está en el repo** — si se pierde el
 archivo en la compu de Feli, se pierde sin backup. Candidato a subir al repo en una sesión futura,
 si Feli lo pide.
+
+## 37) FALTABA UNA TÓNICA EN `TONICAS` — la 3ª cuerda, traste 2 (18/9)
+
+Apareció comparando el diagrama del mapa que genera el repo contra el **cuadernillo real que
+entrega Feli** (el que sale de Design), en la ronda de las placas de la destacada MÉTODO. En el
+cuadernillo entregado, el traste 2 de la 3ª cuerda está marcado como **tónica** (punto naranja con
+"A"). En el repo salía como punto común.
+
+**Tenía razón el cuadernillo.** La 3ª cuerda al aire es SOL; dos trastes más arriba es LA. O sea
+que esa cuerda tiene **dos** tónicas dentro de los primeros 17 trastes — el 2 y el 14 — y
+`TONICAS` solo listaba el 14. Verificado con la aritmética del propio repo:
+
+| Cuerda | Tónicas reales (trastes 1-17) | Lo que decía `TONICAS` |
+|---|---|---|
+| 1 (Mi agudo) | 5, 17 | 5, 17 ✅ |
+| 2 (Si) | 10 | 10 ✅ |
+| **3 (Sol)** | **2, 14** | **14** ❌ |
+| 4 (Re) | 7 | 7 ✅ |
+| 5 (La) | 12 | 12 ✅ |
+| 6 (Mi grave) | 5, 17 | 5, 17 ✅ |
+
+**Lo más incómodo del hallazgo: el repo ya sabía la respuesta y no se la preguntaba a sí mismo.**
+`grado(3, 2)` devuelve `"1"` (tónica) desde siempre — o sea que había dos fuentes de verdad sobre
+lo mismo, una calculada y otra escrita a mano, y nadie las cruzó. Es el mismo patrón de la sección
+34 (un dato que se da por bueno sin ponerlo a prueba), esta vez en los datos y no en un validador.
+
+**Qué afectaba, y qué no.** Solo el COLOR de un punto en los diagramas — `Diagrama`, `MapaCompleto`
+y `MapaBlueNotes` pintan las tónicas con `TONICAS`. La nota siempre estuvo bien puesta (viene de
+`PENTA`), así que **ninguna partitura, ningún ejercicio y ningún número de la auditoría cambian**:
+verificado corriendo `auditar_cajas.py` después del arreglo — escala OK y los mismos porcentajes.
+En la práctica el punto que se veía mal es el de la **caja 5** (su rango es 2-5 e incluye ese
+traste), que es además la caja que menos aparece en el programa. Por eso pasó desapercibido.
+
+> **Regla que sale de acá:** cuando un dato del repo se pueda DERIVAR (como las tónicas, que salen
+> de la afinación al aire), no escribirlo a mano al lado del que lo calcula. Y si ya está escrito
+> a mano, cruzarlo contra el cálculo antes de confiar en él.
+
+**Arreglado** en `scripts/cuadernillo_comun.py`, con la nota del porqué al lado.

@@ -3,13 +3,23 @@
 
 POR QUE EXISTE ESTE SCRIPT (memoria/05 SS55): el plan original era pedirle las 6 imagenes a
 Claude Design con un prompt de texto. Se probo (18/9) y salio mal: una IA de imagen no puede
-redibujar con precision "las 5 cajas de la pentatonica" a partir de una descripcion -- invento
-un mastil incorrecto y mal compuesto. Feli lo rechazo ("nada que ver").
+redibujar con precision un diagrama de mastil a partir de una descripcion -- invento uno
+incorrecto y mal compuesto. Feli lo rechazo ("nada que ver").
 
-La solucion: no se describe el diagrama, se DIBUJA con los mismos componentes que ya generan
-los cuadernillos reales y aprobados (MapaCompleto, DiagramaFlechas, ArbolFiguras,
-TablaturaEnBlanco de cuadernillo_comun.py). Cero improvisacion: el mastil que sale aca es
-nota por nota el mismo que el del PDF que el alumno ya tiene en la mano.
+La solucion: no se describe el grafico, se DIBUJA, con los datos ya verificados del repo
+(PENTA/TONICAS/CAJAS, auditados por auditar_cajas.py) y en el estilo visual del cuadernillo
+REAL que Feli entrega -- ver `destacada_graficos.py` para por que ese estilo y no el de
+`cuadernillo_comun.py`.
+
+Cada placa lleva el grafico insignia de su pilar, sacado del cuadernillo correspondiente:
+
+    1 Gancho          mapa de las 5 cajas          Hito 1, "El mapa completo"
+    2 EL MAPA         cajas 1 y 2 solapadas        Hito 1 -- donde se tocan entre si
+    3 EL SABOR        los 3 bendings de 1 tono     Hito 2, "Bending - cantar con la cuerda"
+    4 EL VOCABULARIO  las dos escuelas             Hito 3, "Las dos escuelas"
+    5 EL PULSO        las celulas con su palabra   El Pulso, "Las 12 celulas del modulo"
+    6 EL VUELO        los 4 micro-pasos            memoria/02 SS28-QUINQUIES (sin grafico
+                                                   propio en la fuente -- ver nota abajo)
 
 Dos reglas de composicion que se aprendieron del intento fallido:
 1. El bloque de contenido se CENTRA en la zona segura, no se ancla arriba -- si no queda
@@ -30,23 +40,25 @@ from reportlab.lib import colors
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfgen import canvas as canvaslib
 
-from cuadernillo_comun import (RED, IG, MapaCompleto, DiagramaFlechas,
-                               ArbolFiguras, TablaturaEnBlanco)
+import destacada_graficos as G
 
 W, H = 1080.0, 1920.0
 MARGEN = 96.0                    # margen lateral minimo del texto
 
-# Paleta de la placa -- fondo calido casi negro, igual que el posteo de 2 pasos ya publicado.
+# Fondo oscuro calido (el mismo del posteo de 2 pasos ya publicado) + tarjeta blanca adentro,
+# donde el grafico se ve igual que en el cuadernillo impreso.
 BG = colors.HexColor("#16120f")
-CARD = colors.HexColor("#fdf6f5")
+CARD = colors.white
 TXT = colors.white
 SUB = colors.HexColor("#c9bdb5")
 FOOT = colors.HexColor("#6e625b")
 
 # Zona segura de Instagram Stories: arriba se come ~250px (usuario, X) y abajo ~280px
-# (barra de responder). Todo el contenido vive entre estas dos lineas.
+# (barra de responder).
 SAFE_TOP = 1620.0
 SAFE_BOT = 340.0
+
+IG = "@feli.baya.menor"
 
 SALIDA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                       "entregables", "destacadas")
@@ -54,7 +66,7 @@ SALIDA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))
 
 # ---------------------------------------------------------------- bloques
 class Texto(object):
-    """Lineas de texto centradas. El size baja solo si alguna linea no entra a lo ancho."""
+    """Lineas de texto centradas. El cuerpo baja solo si alguna linea no entra a lo ancho."""
 
     def __init__(self, lineas, font, size, leading, color, gap=0):
         self.lineas, self.font, self.color, self.gap = lineas, font, color, gap
@@ -64,7 +76,6 @@ class Texto(object):
             while size > 10 and pdfmetrics.stringWidth(l, font, size) > ancho_max:
                 size -= 1
         self.size = size
-        # si el texto tuvo que achicarse, el interlineado se achica en la misma proporcion
         self.leading = leading * size / float(original)
         self.height = self.leading * len(lineas) + gap
 
@@ -79,7 +90,7 @@ class Texto(object):
 
 
 class Vinetas(object):
-    """Lista con vinetas rojas, alineada a la izquierda pero centrada como bloque."""
+    """Lista con vinetas naranjas, alineada a la izquierda pero centrada como bloque."""
 
     def __init__(self, lineas, size=40, leading=92, gap=0):
         self.lineas, self.size, self.leading, self.gap = lineas, size, leading, gap
@@ -90,7 +101,7 @@ class Vinetas(object):
         x = (W - (self.ancho + 46)) / 2
         yy = y - self.size
         for l in self.lineas:
-            c.setFillColor(RED)
+            c.setFillColor(G.NARANJA)
             c.circle(x + 9, yy + self.size * 0.33, 9, fill=1, stroke=0)
             c.setFillColor(TXT)
             c.setFont("Helvetica", self.size)
@@ -100,28 +111,38 @@ class Vinetas(object):
 
 
 class Tarjeta(object):
-    """Un Flowable del cuadernillo adentro de una tarjeta blanca redondeada.
+    """Tarjeta blanca redondeada con un grafico del cuadernillo adentro.
 
-    El flowable se instancia a su tamano natural de impresion (donde sus fuentes de 6.5pt
-    tienen sentido) y se escala entero -- asi los numeros de traste crecen con el dibujo en
-    vez de quedar ilegibles.
+    `dibujar(c, x, y_base, w)` recibe el ancho util y la linea de base que le corresponde;
+    `alto` y `base` los declara cada grafico porque cada uno cuelga cosas distintas por
+    debajo (numeros de traste, leyenda) y por encima (corchetes de caja).
     """
 
-    def __init__(self, flow, ancho, escala, pad=44, gap=0):
-        self.flow, self.ancho, self.escala, self.pad, self.gap = flow, ancho, escala, pad, gap
-        self.cw = ancho * escala + 2 * pad
-        self.ch = flow.height * escala + 2 * pad
+    def __init__(self, dibujar, alto, base, pad=48, gap=0, titulo=None, pie=None):
+        self.dibujar, self.pad, self.gap = dibujar, pad, gap
+        self.titulo, self.pie = titulo, pie
+        self.interno = alto + (44 if titulo else 0) + (40 if pie else 0)
+        self.base = base + (40 if pie else 0)
+        self.cw = W - 2 * 44
+        self.ch = self.interno + 2 * pad
         self.height = self.ch + gap
 
     def draw(self, c, y):
         x = (W - self.cw) / 2
         c.setFillColor(CARD)
-        c.roundRect(x, y - self.ch, self.cw, self.ch, 28, fill=1, stroke=0)
-        c.saveState()
-        c.translate(x + self.pad, y - self.ch + self.pad)
-        c.scale(self.escala, self.escala)
-        self.flow.drawOn(c, 0, 0)
-        c.restoreState()
+        c.roundRect(x, y - self.ch, self.cw, self.ch, 30, fill=1, stroke=0)
+        xi, wi = x + self.pad, self.cw - 2 * self.pad
+
+        if self.titulo:
+            c.setFillColor(G.NARANJA)
+            c.setFont("Helvetica-Bold", 23)
+            c.drawString(xi, y - self.pad - 23, self.titulo)
+        if self.pie:
+            c.setFillColor(G.NARANJA)
+            c.setFont("Helvetica-Bold", 20)
+            c.drawString(xi, y - self.ch + self.pad, self.pie)
+
+        self.dibujar(c, xi, y - self.ch + self.pad + self.base, wi)
         return y - self.height
 
 
@@ -132,12 +153,11 @@ def placa(nombre, bloques):
 
     c.setFillColor(BG)
     c.rect(0, 0, W, H, fill=1, stroke=0)
-    c.setFillColor(RED)
+    c.setFillColor(G.NARANJA)
     c.rect(0, H - 14, W, 14, fill=1, stroke=0)
 
     total = sum(b.height for b in bloques)
-    y = SAFE_BOT + (SAFE_TOP - SAFE_BOT + total) / 2
-    y = min(y, SAFE_TOP)
+    y = min(SAFE_BOT + (SAFE_TOP - SAFE_BOT + total) / 2, SAFE_TOP)
     for b in bloques:
         y = b.draw(c, y)
 
@@ -161,7 +181,7 @@ def _png(ruta_pdf):
 
 
 def eyebrow(t):
-    return Texto([t], "Helvetica-Bold", 30, 30, RED, gap=46)
+    return Texto([t], "Helvetica-Bold", 30, 30, G.NARANJA, gap=46)
 
 
 def titulo(lineas):
@@ -181,57 +201,72 @@ def pie(lineas, gap=0):
     return Texto(lineas, "Helvetica-Bold", 38, 54, SUB, gap=gap)
 
 
+# ---------------------------------------------------------------- las 6 placas
 def main():
     os.makedirs(SALIDA, exist_ok=True)
 
-    # 1 -- GANCHO. El mastil completo con las 5 cajas: el mismo asset del lead magnet.
+    mapa = lambda c, x, y, w: G.mapa_completo(c, x, y, w, hs=40)
+    puentes = G.notas_compartidas(1, 2)
+    puente = lambda c, x, y, w: G.mapa_completo(c, x, y, w, hs=40, f0=4, f1=11,
+                                                cajas=(1, 2), leyenda=False,
+                                                anillos=puentes)
+    bend = lambda c, x, y, w: G.bendings(c, x, y, w, hs=40)
+
+    # 1 -- GANCHO. El mastil entero: el mismo grafico del lead magnet y del Hito 1.
     placa("destacada-1-gancho.pdf", [
         eyebrow("// EL MÉTODO, EN 2 MINUTOS"),
         titulo(["Cómo paso de tocar", "siempre lo mismo…", "a un solo que es tuyo."]),
-        Tarjeta(MapaCompleto(440, hs=17), 440, 1.95, gap=60),
+        Tarjeta(mapa, 470, 125, gap=58),
         pie(["Mirá las siguientes historias"]),
     ])
 
-    # 2 -- PILAR 1. Mismo mapa: es literalmente el contenido del pilar.
+    # 2 -- PILAR 1. Las cajas 1 y 2 solapadas: el contenido real del pilar no son las cajas,
+    #      son los puentes -- donde una se toca con la siguiente.
     placa("destacada-2-pilar1-mapa.pdf", [
         eyebrow("// PILAR 1"),
         titulo_pilar("EL MAPA"),
         bajada("dominar el mástil"),
-        Tarjeta(MapaCompleto(440, hs=17), 440, 1.95, gap=56),
+        Tarjeta(puente, 386, 45, gap=54,
+                titulo="DONDE LA CAJA 1 SE TOCA CON LA 2",
+                pie="Las marcadas son de las dos cajas. Ahí se cruza."),
         pie(["5 cajas sueltas pasan a ser", "un solo mástil."]),
     ])
 
-    # 3 -- PILAR 2. El bending del ejercicio 21 del Hito 2, tal cual: 3a cuerda, 7 -> 9.
+    # 3 -- PILAR 2. Los 3 bendings de un tono del Hito 2, tal cual el cuadernillo.
     placa("destacada-3-pilar2-sabor.pdf", [
         eyebrow("// PILAR 2"),
         titulo_pilar("EL SABOR"),
         bajada("bending, vibrato, expresión"),
-        Tarjeta(DiagramaFlechas(1, [(3, 7, 9, "")], 420, hs=19,
-                                titulo="BENDING DE 1 TONO  ·  3ª CUERDA, TRASTE 7 AL 9",
-                                rango=(4, 10)), 420, 2.05, gap=56),
+        Tarjeta(bend, 368, 125, gap=54,
+                titulo="BENDING — CANTAR CON LA CUERDA",
+                pie="3ª cuerda, traste 7: el más usado del rock."),
         pie(["Ya sabés las notas.", "Acá aprendés a que suenen a música."]),
     ])
 
-    # 4 -- PILAR 3. El banco de licks del Hito 3: no se coleccionan notas, se anota el mecanismo.
+    # 4 -- PILAR 3. La tabla de las dos escuelas: la idea central del Hito 3.
     placa("destacada-4-pilar3-vocabulario.pdf", [
         eyebrow("// PILAR 3"),
         titulo_pilar("EL VOCABULARIO"),
         bajada("licks propios, estilo"),
-        Tarjeta(TablaturaEnBlanco(440, sistemas=2, compases=4), 440, 1.95, gap=56),
+        Tarjeta(lambda c, x, y, w: G.dos_escuelas(c, x, y + 270, w), 270, 0, gap=54,
+                titulo="LAS DOS ESCUELAS DEL ROCK",
+                pie="Una por semana. En el solo final usás las dos."),
         pie(["No copiás a Page y a Slash.", "Te apropiás de lo que hacen."]),
     ])
 
-    # 5 -- PILAR 4. El arbol de figuras del Pulso, sin cambiar un trazo.
+    # 5 -- PILAR 4. Las celulas con su palabra: se dicen antes de tocarse.
     placa("destacada-5-pilar4-pulso.pdf", [
         eyebrow("// PILAR 4"),
         titulo_pilar("EL PULSO"),
         bajada("ritmo y tiempo"),
-        Tarjeta(ArbolFiguras(430), 430, 1.8, gap=52),
+        Tarjeta(lambda c, x, y, w: G.celulas(c, x, y + 330, w), 330, 0, gap=54,
+                titulo="UN PULSO, VARIAS FORMAS DE PARTIRLO",
+                pie="Si podés decirla, ya la podés tocar."),
         pie(["Las notas justas en el momento", "equivocado no suenan."]),
     ])
 
-    # 6 -- PILAR 5. Sin diagrama a proposito: El Vuelo no ensena nada nuevo, integra.
-    #      La lista son los 4 micro-pasos reales (memoria/02 SS28-QUINQUIES).
+    # 6 -- PILAR 5. Sin grafico propio a proposito: el pilar no ensena nada nuevo, integra.
+    #      Los 4 micro-pasos son los reales (memoria/02 SS28-QUINQUIES).
     placa("destacada-6-pilar5-vuelo.pdf", [
         eyebrow("// PILAR 5"),
         titulo_pilar("EL VUELO"),

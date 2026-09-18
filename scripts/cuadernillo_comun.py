@@ -62,7 +62,11 @@ PENTA = {
     5: [0, 3, 5, 7, 10, 12, 15, 17],
     6: [0, 3, 5, 8, 10, 12, 15, 17],
 }
-TONICAS = {1: [5, 17], 2: [10], 3: [14], 4: [7], 5: [12], 6: [5, 17]}
+# Ojo: la 3a cuerda (Sol) tiene DOS tonicas en los primeros 17 trastes, el 2 y el 14 --
+# el traste 2 faltaba y hacia que la caja 5 dibujara ahi un punto comun en vez de una
+# tonica. Detectado el 18/9 comparando contra el cuadernillo entregado, que lo tiene bien.
+# Verificable con grado(3, 2), que ya devolvia "1".
+TONICAS = {1: [5, 17], 2: [10], 3: [2, 14], 4: [7], 5: [12], 6: [5, 17]}
 CUERDAS = ["Mi", "La", "Re", "Sol", "Si", "Mi"]      # de la 6a (abajo) a la 1a (arriba)
 
 CAJAS = {

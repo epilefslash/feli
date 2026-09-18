@@ -1877,21 +1877,41 @@ reproduce una tablatura/diagrama técnico a partir de un texto — lo redibuja, 
 mete errores musicales reales. Pedirle "las 5 cajas de la pentatónica" en prosa es pedirle
 exactamente lo que ya sabemos que hace mal.
 
-**La solución, aplicada: no se describe el diagrama, se dibuja.** Script nuevo,
-`scripts/build_destacada_titlecards.py`, que arma las 6 placas (1080×1920 px exactos) usando los
-**mismos componentes que generan los cuadernillos reales y aprobados** — `MapaCompleto`,
-`DiagramaFlechas`, `ArbolFiguras` y `TablaturaEnBlanco` de `cuadernillo_comun.py`. El mástil que
-sale en la historia es, nota por nota, el mismo que el del PDF que el alumno tiene en la mano.
-Cero improvisación.
+**La solución, aplicada: no se describe el gráfico, se dibuja.** Script nuevo,
+`scripts/build_destacada_titlecards.py`, que arma las 6 placas (1080×1920 px exactos) con los
+datos ya verificados del repo. El mástil que sale en la historia es, nota por nota, el mismo
+que el del PDF que el alumno tiene en la mano. Cero improvisación.
 
-| # | Placa | Diagrama, y de dónde sale |
+> ⚠️ **Primera versión rechazada también, y por un motivo válido (18/9).** La primera tanda usaba
+> los diagramas de `cuadernillo_comun.py` tal cual. Feli la marcó: *"el diagrama de El Mapa no es
+> el del cuadernillo, es uno que hiciste vos. El del cuadernillo es un poco más amable a la
+> vista."* Y es cierto: los diagramas del repo tienen fondo de madera, puntos chicos y tipografía
+> de 6.5pt — están hechos para una página A4 impresa, no para una pantalla de celular. El
+> cuadernillo que Feli entrega de verdad usa otro estilo: fondo blanco, puntos gordos, todos los
+> trastes numerados (los que no tienen nota, en gris claro), leyenda al pie.
+
+### La versión final: el estilo del cuadernillo real, con los datos del repo
+
+Módulo nuevo, `scripts/destacada_graficos.py`, que dibuja en el estilo del entregable. **Se separa
+en dos lo que antes venía junto:** los DATOS salen de `cuadernillo_comun.py` (PENTA, TONICAS,
+CAJAS — auditados por `auditar_cajas.py`), el DIBUJO es nuevo. Paleta muestreada del cuadernillo
+real, no inventada: naranja **#e4572e** (más naranja que el #c0392b del repo), tinta #191512, gris
+#8a8886.
+
+Cada placa lleva **el gráfico insignia de su pilar**, sacado del cuadernillo correspondiente:
+
+| # | Placa | Gráfico, y de qué página del cuadernillo sale |
 |---|---|---|
-| 1 | Gancho | `MapaCompleto` — el mismo asset del lead magnet |
-| 2 | PILAR 1 · EL MAPA | `MapaCompleto` |
-| 3 | PILAR 2 · EL SABOR | `DiagramaFlechas` — el bending del **ej. 21** del Hito 2 (3ª cuerda, 7→9) |
-| 4 | PILAR 3 · EL VOCABULARIO | `TablaturaEnBlanco` — el banco de licks del Hito 3 ("¿qué le robo?") |
-| 5 | PILAR 4 · EL PULSO | `ArbolFiguras` — el árbol de figuras de El Pulso |
-| 6 | PILAR 5 · EL VUELO | Sin diagrama a propósito: el pilar no enseña nada nuevo. Van los 4 micro-pasos reales (`memoria/02` §28-QUINQUIES) |
+| 1 | Gancho | El mástil entero con las 5 cajas — el mismo del lead magnet y del Hito 1 |
+| 2 | PILAR 1 · EL MAPA | Cajas 1 y 2 solapadas, **con las notas compartidas marcadas con un anillo**. El contenido real del pilar no son las cajas, son los puentes |
+| 3 | PILAR 2 · EL SABOR | Los 3 bendings de un tono del Hito 2, pág. "Bending — cantar con la cuerda" (1ª 8→10, 2ª 8→10, 3ª 7→9) |
+| 4 | PILAR 3 · EL VOCABULARIO | La tabla "Las dos escuelas" (Hito 3, pág. 3): BRITÁNICA vs AMERICANA |
+| 5 | PILAR 4 · EL PULSO | "Las 12 células del módulo" (El Pulso, pág. 4) — las figuras con su palabra: PEZ · PA-TO · CHO-CO-LA-TE |
+| 6 | PILAR 5 · EL VUELO | **Sin gráfico propio, y es el único**: ese pilar no tiene diagrama en la fuente porque no enseña nada nuevo. Van los 4 micro-pasos reales (`memoria/02` §28-QUINQUIES) |
+
+> 🔴 **De paso apareció un error de datos real en el repo** — a `TONICAS` le faltaba una tónica (la
+> 3ª cuerda, traste 2). Se detectó justamente comparando contra el cuadernillo entregado, que lo
+> tenía bien. Detalle completo y la regla que sale de ahí en `memoria/10` §37.
 
 **Las 2 reglas de composición que salieron del intento fallido, escritas en el docstring del
 script para que no se pierdan:** (1) el bloque de contenido se **centra** en la zona segura de
