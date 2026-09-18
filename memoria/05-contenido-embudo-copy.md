@@ -1999,8 +1999,47 @@ específico para esta pieza — descartado, no existe y no hace falta filmarlo.
 - ✅ **Placa 7 (plan B del cierre)** — generada el 18/9 por si hay que cerrar la destacada
   antes de poder filmar la 12. **No la reemplaza como plan A:** el CTA es el único momento
   de la pieza donde se pide algo, y ahí la cara pesa más que el texto.
+- ✅ **Las 7 en video** (`entregables/destacadas/animadas/*.mp4`, 5 seg cada una) — ver §55-BIS.
 
 O sea que de las 12, falta una sola de filmar — y esa una ya tiene reemplazo provisorio.
+
+---
+
+## 55-BIS) LAS PLACAS, ANIMADAS POR CÓDIGO (18/9)
+
+> **Pregunta de Feli:** *"¿cuál IA existe gratis para animar esas historias... alguna gratis que
+> sirva? si es muy volasero no."* La respuesta corta que se le dio primero: **no hace falta
+> ninguna IA — CapCut, que ya usa, hace zoom lento y animación de texto gratis.** Después pidió
+> la versión por código, y es la que quedó.
+
+### Por qué NO se usa una IA de imagen-a-video para estas placas
+
+Las herramientas tipo Runway/Pika/Luma/Kling generan el movimiento **alucinando píxeles cuadro a
+cuadro**. Un diagrama de mástil —puntos alineados en una grilla, números de traste— es exactamente
+lo que peor les sale: deformarían el mástil igual que Claude Design lo redibujó mal (§55 arriba y
+`memoria/10` §30). **Es el mismo modo de falla, en otro formato.**
+
+Por código no hay ese riesgo: cada cuadro se DIBUJA con los datos verificados del repo, así que el
+traste 7 sigue siendo el traste 7 en los 125 cuadros.
+
+### Qué hace la animación — `scripts/build_destacada_animaciones.py`
+
+7 videos de **5 segundos, 1080×1920, H.264, sin audio**. Dos movimientos, los dos sobrios a
+propósito (esto acompaña al texto, no compite):
+
+1. **Zoom lento** (Ken Burns) en las 7: 100% → 106%. Se rasteriza a 1,5x y se recorta hacia
+   adentro, así que **el zoom no pixela** — siempre hay más resolución de la que se muestra.
+2. **Las cajas encendiéndose**, solo en las 2 placas de mástil. El mástil arranca todo en gris y
+   cada caja se prende por turno; al final se prende el mástil entero. Es la tesis del Pilar 1
+   contada en 5 segundos: **5 cajas sueltas → un solo mapa**. En la placa 2 el orden es caja 1 →
+   caja 2 → los anillos de los puentes.
+
+**Las definiciones de las placas no se duplicaron:** `build_destacada_titlecards.py` expone
+`tarjetas()` y el animador las reusa. Si se cambia un texto, la versión fija y la animada cambian
+juntas — si se hubieran copiado, se iban separando con cada edición.
+
+> **Nota de dependencia:** el animador necesita `ffmpeg` (`apt-get install -y ffmpeg`) y Pillow.
+> Las placas fijas no — ésas salen solo con reportlab + pdftoppm.
 
 ---
 

@@ -104,8 +104,14 @@ def notas_compartidas(caja_a, caja_b):
     return {(cu, t) for cu in na for t in na[cu] if t in nb.get(cu, [])}
 
 
+def notas_de(cajas):
+    """Todas las (cuerda, traste) que pertenecen a alguna de esas cajas."""
+    return {(cu, t) for caja in cajas
+            for cu, ts in CAJAS[caja]["notas"].items() for t in ts}
+
+
 def mapa_completo(c, x, y, w, hs=34, f0=1, f1=17, cajas=(5, 1, 2, 3, 4), leyenda=True,
-                  anillos=()):
+                  anillos=(), encendidas=None):
     """El mastil entero con las 5 cajas marcadas -- el grafico insignia del Hito 1.
 
     Replica el del cuadernillo entregado: sin cuerdas al aire, trastes 1 a 17 numerados,
@@ -118,6 +124,10 @@ def mapa_completo(c, x, y, w, hs=34, f0=1, f1=17, cajas=(5, 1, 2, 3, 4), leyenda
     if f0 == 1:
         _cejuela(c, x, y, hs)
 
+    # `encendidas` = None significa "todas" (la placa fija). El animador pasa el subconjunto
+    # que ya se prendio, y el resto del mastil queda en gris claro.
+    prendidas = None if encendidas is None else notas_de(encendidas)
+
     r = hs * 0.33
     for cuerda, trastes in PENTA.items():
         yy = y + (6 - cuerda) * hs
@@ -125,6 +135,9 @@ def mapa_completo(c, x, y, w, hs=34, f0=1, f1=17, cajas=(5, 1, 2, 3, 4), leyenda
             if not (f0 <= t <= f1):
                 continue
             cx = x + (t - f0 + 0.5) * fw
+            if prendidas is not None and (cuerda, t) not in prendidas:
+                _punto(c, cx, yy, r, NOTA_APAGADA)
+                continue
             if (cuerda, t) in anillos:
                 c.setStrokeColor(NARANJA)
                 c.setLineWidth(4)

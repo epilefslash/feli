@@ -178,9 +178,13 @@ class Tarjeta(object):
         return y - self.height
 
 
-def placa(nombre, bloques):
-    """Centra verticalmente la pila de bloques en la zona segura y la dibuja."""
-    ruta = os.path.join(SALIDA, nombre)
+def placa(nombre, bloques, ruta=None, png=True):
+    """Centra verticalmente la pila de bloques en la zona segura y la dibuja.
+
+    `ruta` y `png=False` los usa el animador (`build_destacada_animaciones.py`), que necesita
+    escribir estados intermedios en otro lado y rasterizarlos el mismo a mas resolucion.
+    """
+    ruta = ruta or os.path.join(SALIDA, nombre)
     c = canvaslib.Canvas(ruta, pagesize=(W, H))
 
     c.setFillColor(BG)
@@ -199,8 +203,10 @@ def placa(nombre, bloques):
 
     c.showPage()
     c.save()
-    _png(ruta)
-    print("OK", nombre)
+    if png:
+        _png(ruta)
+        print("OK", nombre)
+    return ruta
 
 
 def _png(ruta_pdf):
@@ -234,8 +240,14 @@ def pie(lineas, gap=0):
 
 
 # ---------------------------------------------------------------- las 6 placas
-def main():
-    os.makedirs(SALIDA, exist_ok=True)
+def tarjetas():
+    """Las 7 placas, como (nombre, bloques).
+
+    Se expone aparte de main() porque `build_destacada_animaciones.py` arma los
+    videos con estas mismas definiciones -- si se duplicaran, la version fija y la
+    animada se irian separando con cada cambio de texto.
+    """
+    placas = []
 
     mapa = lambda c, x, y, w: G.mapa_completo(c, x, y, w, hs=40)
     puentes = G.notas_compartidas(1, 2)
@@ -245,16 +257,16 @@ def main():
     bend = lambda c, x, y, w: G.bendings(c, x, y, w, hs=40)
 
     # 1 -- GANCHO. El mastil entero: el mismo grafico del lead magnet y del Hito 1.
-    placa("destacada-1-gancho.pdf", [
+    placas.append(("destacada-1-gancho.pdf", [
         eyebrow("// EL MÉTODO, EN 2 MINUTOS"),
         titulo(["Cómo paso de tocar", "siempre lo mismo…", "a un solo que es tuyo."]),
         Tarjeta(mapa, 470, 125, gap=58),
         pie(["Mirá las siguientes historias"]),
-    ])
+    ]))
 
     # 2 -- PILAR 1. Las cajas 1 y 2 solapadas: el contenido real del pilar no son las cajas,
     #      son los puentes -- donde una se toca con la siguiente.
-    placa("destacada-2-pilar1-mapa.pdf", [
+    placas.append(("destacada-2-pilar1-mapa.pdf", [
         eyebrow("// PILAR 1"),
         titulo_pilar("EL MAPA"),
         bajada("dominar el mástil"),
@@ -262,10 +274,10 @@ def main():
                 titulo="DONDE LA CAJA 1 SE TOCA CON LA 2",
                 pie="Las marcadas son de las dos cajas. Ahí se cruza."),
         pie(["5 cajas sueltas pasan a ser", "un solo mástil."]),
-    ])
+    ]))
 
     # 3 -- PILAR 2. Los 3 bendings de un tono del Hito 2, tal cual el cuadernillo.
-    placa("destacada-3-pilar2-sabor.pdf", [
+    placas.append(("destacada-3-pilar2-sabor.pdf", [
         eyebrow("// PILAR 2"),
         titulo_pilar("EL SABOR"),
         bajada("bending, vibrato, expresión"),
@@ -273,10 +285,10 @@ def main():
                 titulo="BENDING — CANTAR CON LA CUERDA",
                 pie="3ª cuerda, traste 7: el más usado del rock."),
         pie(["Ya sabés las notas.", "Acá aprendés a que suenen a música."]),
-    ])
+    ]))
 
     # 4 -- PILAR 3. La tabla de las dos escuelas: la idea central del Hito 3.
-    placa("destacada-4-pilar3-vocabulario.pdf", [
+    placas.append(("destacada-4-pilar3-vocabulario.pdf", [
         eyebrow("// PILAR 3"),
         titulo_pilar("EL VOCABULARIO"),
         bajada("licks propios, estilo"),
@@ -284,10 +296,10 @@ def main():
                 titulo="LAS DOS ESCUELAS DEL ROCK",
                 pie="Una por semana. En el solo final usás las dos."),
         pie(["No copiás a Page y a Slash.", "Te apropiás de lo que hacen."]),
-    ])
+    ]))
 
     # 5 -- PILAR 4. Las celulas con su palabra: se dicen antes de tocarse.
-    placa("destacada-5-pilar4-pulso.pdf", [
+    placas.append(("destacada-5-pilar4-pulso.pdf", [
         eyebrow("// PILAR 4"),
         titulo_pilar("EL PULSO"),
         bajada("ritmo y tiempo"),
@@ -295,11 +307,11 @@ def main():
                 titulo="UN PULSO, VARIAS FORMAS DE PARTIRLO",
                 pie="Si podés decirla, ya la podés tocar."),
         pie(["Las notas justas en el momento", "equivocado no suenan."]),
-    ])
+    ]))
 
     # 6 -- PILAR 5. Sin grafico propio a proposito: el pilar no ensena nada nuevo, integra.
     #      Los 4 micro-pasos son los reales (memoria/02 SS28-QUINQUIES).
-    placa("destacada-6-pilar5-vuelo.pdf", [
+    placas.append(("destacada-6-pilar5-vuelo.pdf", [
         eyebrow("// PILAR 5"),
         titulo_pilar("EL VUELO"),
         bajada("improvisando y soltándote en vivo"),
@@ -308,20 +320,27 @@ def main():
                  "Tus licks entran sin anunciarse",
                  "Tocás con otros: entrás, salís, volvés"], gap=70),
         pie(["Acá no aprendés nada nuevo.", "Soltás todo lo anterior, en vivo."]),
-    ])
+    ]))
 
     # 7 -- CIERRE + CTA. PLAN B: la historia 12 se filma a camara (memoria/05 SS49). Esta
     #      placa existe solo por si hay que cerrar la destacada antes de poder filmarla.
     #      El CTA pasa la regla del mantra (memoria/04, "Menu de CTAs"): nombra la dolencia
     #      del alumno, no el metodo -- ni "mi programa" ni "te cuento como trabajo".
-    placa("destacada-7-cierre-cta.pdf", [
-        eyebrow("// Y AL FINAL DE TODO"),
+    placas.append(("destacada-7-cierre-cta.pdf", [
+        eyebrow("// LO QUE TE LLEVÁS"),
         titulo(["Grabás tu propio", "solo de 1 minuto."]),
         bajada("Ese es tu antes y después."),
-        Boton(["Si sabés la caja 1 y seguís sonando",
-               "igual que hace dos años,",
-               "escribime SOLO"], gap=0),
-    ])
+        pie(["Y no es el único: cada pilar", "cierra con un video tuyo."], gap=54),
+        Boton(["Si sabés la caja 1 y seguís", "sonando igual, escribime SOLO"], gap=0),
+    ]))
+
+    return placas
+
+
+def main():
+    os.makedirs(SALIDA, exist_ok=True)
+    for nombre, bloques in tarjetas():
+        placa(nombre, bloques)
 
 
 if __name__ == "__main__":
