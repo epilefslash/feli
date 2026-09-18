@@ -1865,11 +1865,51 @@ title cards antes de cada pilar hablado:
 diagramas (`MapaCompleto`, `ArbolFiguras`, `Diagrama`, etc.) son componentes reusables en
 `cuadernillo_comun.py` y se pueden exportar como PNG limpios directamente.
 
-### ✅ El prompt para Claude Design, entregado (18/9)
+### 🔴 EL PROMPT A CLAUDE DESIGN FALLÓ — las 6 placas se generan desde el repo (18/9)
 
-Feli decidió armar las 6 piezas con Claude Design (mismo flujo que ya usa para los cuadernillos
-finales, `memoria/10` §30) en vez de exportar los componentes de Python. Prompt entregado, listo
-para correr:
+Feli lo probó y lo rechazó: *"me hizo unas cosas feas. mirá cómo hizo el mapa. nada que ver."*
+Mostró el resultado al lado del diagrama real del pineado, y la diferencia es obvia — Design
+**redibujó** el mástil a partir de la descripción en palabras y le salió un diagrama inventado,
+con notas que no son, mal compuesto y con media placa vacía.
+
+**La causa es la misma que ya está documentada en `memoria/10` §30:** una IA de imagen no
+reproduce una tablatura/diagrama técnico a partir de un texto — lo redibuja, y al redibujarlo
+mete errores musicales reales. Pedirle "las 5 cajas de la pentatónica" en prosa es pedirle
+exactamente lo que ya sabemos que hace mal.
+
+**La solución, aplicada: no se describe el diagrama, se dibuja.** Script nuevo,
+`scripts/build_destacada_titlecards.py`, que arma las 6 placas (1080×1920 px exactos) usando los
+**mismos componentes que generan los cuadernillos reales y aprobados** — `MapaCompleto`,
+`DiagramaFlechas`, `ArbolFiguras` y `TablaturaEnBlanco` de `cuadernillo_comun.py`. El mástil que
+sale en la historia es, nota por nota, el mismo que el del PDF que el alumno tiene en la mano.
+Cero improvisación.
+
+| # | Placa | Diagrama, y de dónde sale |
+|---|---|---|
+| 1 | Gancho | `MapaCompleto` — el mismo asset del lead magnet |
+| 2 | PILAR 1 · EL MAPA | `MapaCompleto` |
+| 3 | PILAR 2 · EL SABOR | `DiagramaFlechas` — el bending del **ej. 21** del Hito 2 (3ª cuerda, 7→9) |
+| 4 | PILAR 3 · EL VOCABULARIO | `TablaturaEnBlanco` — el banco de licks del Hito 3 ("¿qué le robo?") |
+| 5 | PILAR 4 · EL PULSO | `ArbolFiguras` — el árbol de figuras de El Pulso |
+| 6 | PILAR 5 · EL VUELO | Sin diagrama a propósito: el pilar no enseña nada nuevo. Van los 4 micro-pasos reales (`memoria/02` §28-QUINQUIES) |
+
+**Las 2 reglas de composición que salieron del intento fallido, escritas en el docstring del
+script para que no se pierdan:** (1) el bloque de contenido se **centra** en la zona segura de
+Stories, no se ancla arriba — anclarlo arriba es lo que dejaba media placa vacía; (2) el cuerpo
+de cada línea de título se **autoajusta** para no tocar nunca los márgenes.
+
+Se regenera con `python3 scripts/build_destacada_titlecards.py` y se rasteriza con
+`pdftoppm -png -r 72 -singlefile`. Si hay que cambiar un texto, se toca el script y salen las 6
+de nuevo iguales entre sí — no hay que volver a pedirle nada a ninguna IA de imagen.
+
+> **Regla general que confirma esto, ya vigente en `memoria/10` §30:** a Design se le pide
+> maquetación, nunca que dibuje una tablatura o un diagrama de mástil. Si una pieza necesita un
+> diagrama, sale del repo como imagen y Design la inserta tal cual.
+
+### El prompt viejo para Claude Design (histórico — NO usar, es el que falló)
+
+Queda como referencia de qué se intentó y por qué no sirve. Pedía las 6 piezas describiendo cada
+diagrama en palabras:
 
 > Necesito 6 imágenes para historias de Instagram (formato 1080x1920, vertical), mismo estilo
 > visual que ya venimos usando en los cuadernillos de "Solo con Sabor" y el
@@ -1906,6 +1946,15 @@ para correr:
 
 **Lo que reemplaza:** el plan viejo (§48, nunca ejecutado) asumía B-roll de manos en el mástil
 específico para esta pieza — descartado, no existe y no hace falta filmarlo.
+
+### Estado de la destacada MÉTODO al cierre del 18/9
+
+- ✅ **Las 5 historias habladas de los pilares** (3, 5, 7, 9, 11) — filmadas y editadas con
+  subtítulos.
+- ✅ **Las 6 placas de título** (1, 2, 4, 6, 8, 10) — generadas desde el repo, entregadas.
+- ☐ **Historia 12 (cierre + CTA)** — la única que todavía hay que filmar a cámara.
+
+O sea que de las 12, faltan una sola de filmar.
 
 ---
 
