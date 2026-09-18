@@ -1424,19 +1424,36 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
   confirmar los otros 3. Pendiente confirmar si queda afuera a propósito o falta hacerlo.
 - ✅ **Portada del #4** ("¿Cuántas escalas necesitás?") — hecha con Gemini (18/9), primera portada
   del proyecto. El resto de los reels sigue sin portada (baja prioridad, según Feli).
-- ☐ 6 title cards de la destacada MÉTODO — prompt para Claude Design ya escrito y entregado a
-  Feli (18/9, ver `memoria/05` §55) — recortes/diagramas de los cuadernillos con el nombre de
-  cada pilar. Falta que Feli lo corra y confirme el resultado.
+- ✅ **6 placas de la destacada MÉTODO — HECHAS (18/9).** Generadas desde el repo
+  (`scripts/build_destacada_titlecards.py`), no con Claude Design — ver `memoria/05` §55 para por
+  qué falló ese camino y cómo se resolvió.
 
 **🎥 Filmar (lo que queda, para cuando termine la edición):**
 - ☐ #7 equipo — falta grabar las guitarras (guion y setup ya listos).
 - ☐ Historia 12 de la destacada MÉTODO (cierre + CTA) — la única hablada que falta de esa pieza.
 - ☐ Foto para StoryTelling 2 (modo profesor — NO Wafles).
-- ☐ Un par más de testimonios/parciales.
+- ☐ Un par más de testimonios/parciales **en video** (las capturas ya las tiene, ver abajo).
 
 **📤 Listo para publicar (no requiere producción):**
 - ☐ StoryTelling 1 — copy y foto listos.
+- ☐ Las 6 placas de la destacada MÉTODO.
+- ☐ **Las capturas de testimonios parciales → destacada TESTIMONIOS**, que sigue vacía (§11).
+  Feli confirmó el 18/9 que ya las tiene. Es el nivel más liviano de prueba social
+  (`memoria/05` §49) y el único que no depende de la agenda de nadie — se puede subir hoy mismo.
 - ☐ Un reel de la carpeta "AL 100" (#3, #4, #5 o #6) — confirmar si ya se subió desde el 16/9.
+
+> ⚠️ **No confundir Stories con feed.** Las destacadas (MÉTODO, TESTIMONIOS) son Instagram Stories
+> y **no cuentan como uno de los 15 posteos del feed** — se pueden subir el mismo día que un
+> posteo formal sin romper el calendario. Feli lo preguntó el 18/9; queda anotado porque es la
+> confusión natural cuando los dos salen el mismo día.
+
+> ✅ **Pregunta cerrada (18/9): la destacada MÉTODO NO necesita B-roll.** Ya estaba descartado en
+> §55 (el plan viejo asumía un B-roll de manos en el mástil que no existe), pero conviene dejarlo
+> dicho de frente porque Feli volvió a preguntarlo: de las 12 historias, 6 son placas (listas) y 5
+> están filmadas — **lo único que falta grabar es la historia 12**, el cierre con el CTA, a cámara,
+> 20-30 seg, sin backing y sin B-roll. Recomendación dada: filmarla en vez de resolverla con una
+> placa, porque es el único momento de la pieza donde se pide algo y ahí la cara pesa más que el
+> texto. La placa queda como plan B si hace falta cerrar la destacada antes de poder filmar.
 
 ---
 
