@@ -118,6 +118,35 @@ corrigiendo el ajuste de nicho del 7/9):**
 
 **MÉTODO · FORMACIÓN · ALUMNOS · YO TOCO · TESTIMONIOS.**
 
+### ✅ Las 5 portadas de las destacadas — HECHAS (18/9)
+
+> **Pedido de Feli:** sin portada propia, Instagram usa una captura de la primera historia de la
+> destacada, y recortada en círculo queda mal. Textual: *"ya que podemos elegir y crear las
+> portadas de los reel, no nos vamos a descuidar con las portadas de las destacadas."*
+
+`scripts/build_destacada_portadas.py` → `entregables/destacadas/portadas/portada-*.png`
+(1080×1920). Misma paleta que las placas y los cuadernillos: fondo #16120f, ícono #e4572e.
+
+| Destacada | Ícono | Por qué ése |
+|---|---|---|
+| MÉTODO | El mástil con la caja 1 marcada | Es el mapa, reducido a ícono — y la caja va con su **forma real** (los trastes de `CAJAS[1]`, escalonados), la silueta que el alumno reconoce del cuadernillo |
+| FORMACIÓN | Birrete | El paso por la facultad de música es el dato que sostiene esta destacada |
+| ALUMNOS | Dos siluetas | La destacada es de ellos, no de Feli |
+| YO TOCO | Una púa | El objeto más reconocible de un guitarrista, no se confunde con nada |
+| TESTIMONIOS | Comillas | Un testimonio es prestarle la voz a otro |
+
+**Las 3 decisiones que hacen que funcionen:**
+1. **Ícono solo, sin texto.** Instagram ya escribe el nombre debajo del círculo — meterlo adentro
+   es repetirlo, y a ese tamaño queda ilegible.
+2. **Todo el contenido en el centro.** Instagram recorta un **círculo del centro**, así que el
+   ícono entra en una circunferencia de 640 px sobre el lienzo de 1080×1920. Verificado
+   simulando el recorte antes de entregar, no a ojo sobre el rectángulo.
+3. **Dibujadas con primitivas**, no con una tipografía de íconos ni una imagen bajada — no
+   dependen de ninguna fuente instalada ni de ninguna licencia.
+
+**Cómo se ponen:** perfil → mantener apretada la destacada → *Editar destacada* → *Editar
+portada* → el ícono de la galería (no "elegir de las historias").
+
 **Destacada TESTIMONIOS (nueva, regla del M3: "más = mejor", siempre sumar):** cada testimonio
 completo que grabes (memoria/04 §38) o testimonio parcial (cuando un alumno de la camada complete
 un pilar) va acá, sin límite — reduce el riesgo percibido de comprar. Arranca vacía hasta que
