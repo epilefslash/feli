@@ -1417,11 +1417,16 @@ de los 15 posteos del feed) — se pueden subir cualquier día, no compiten con 
 - ☐ Copy del #6 ("Tus solos no respiran") — el más urgente, agendado semana 2 del plan.
 - ☐ Copy del #3 ("¿Hay que tocar rápido?") — sin apuro, stock semana 5+.
 
-**🎨 Diseño (Canva, cero filmación):**
-- ☐ Diseñar los 3 carruseles en Canva (ya escritos, `memoria/05` §22).
-- ☐ Portadas de los reels (baja prioridad, según Feli).
-- ☐ 6 title cards de la destacada MÉTODO — recortes/diagramas de los cuadernillos con el nombre
-  de cada pilar (ver `memoria/05` §55).
+**🎨 Diseño:**
+- ✅ **Carrusel 2** ("4 ingredientes del sabor"), **Carrusel 3** ("5 mentiras") y **Carrusel 4**
+  ("Anatomía de un solo") — hechos con Claude Design (18/9).
+- ⚠️ **Carrusel 1** ("5 guitarristas legendarios, 1 sola escala") — no mencionado por Feli al
+  confirmar los otros 3. Pendiente confirmar si queda afuera a propósito o falta hacerlo.
+- ✅ **Portada del #4** ("¿Cuántas escalas necesitás?") — hecha con Gemini (18/9), primera portada
+  del proyecto. El resto de los reels sigue sin portada (baja prioridad, según Feli).
+- ☐ 6 title cards de la destacada MÉTODO — prompt para Claude Design ya escrito y entregado a
+  Feli (18/9, ver `memoria/05` §55) — recortes/diagramas de los cuadernillos con el nombre de
+  cada pilar. Falta que Feli lo corra y confirme el resultado.
 
 **🎥 Filmar (lo que queda, para cuando termine la edición):**
 - ☐ #7 equipo — falta grabar las guitarras (guion y setup ya listos).
@@ -1858,8 +1863,46 @@ title cards antes de cada pilar hablado:
 
 **Las imágenes no hace falta sacarlas por captura de pantalla del PDF** (pierde calidad) — los
 diagramas (`MapaCompleto`, `ArbolFiguras`, `Diagrama`, etc.) son componentes reusables en
-`cuadernillo_comun.py` y se pueden exportar como PNG limpios directamente. Pendiente: generarlos
-si Feli lo pide.
+`cuadernillo_comun.py` y se pueden exportar como PNG limpios directamente.
+
+### ✅ El prompt para Claude Design, entregado (18/9)
+
+Feli decidió armar las 6 piezas con Claude Design (mismo flujo que ya usa para los cuadernillos
+finales, `memoria/10` §30) en vez de exportar los componentes de Python. Prompt entregado, listo
+para correr:
+
+> Necesito 6 imágenes para historias de Instagram (formato 1080x1920, vertical), mismo estilo
+> visual que ya venimos usando en los cuadernillos de "Solo con Sabor" y el
+> `Mapa-5-cajas-pentatonica.pdf` (rojo #c0392b como color de marca, fondo cálido/oscuro, tipografía
+> clara y grande, diagramas de mástil de guitarra con las cajas de la pentatónica). Son para la
+> destacada "MÉTODO" del perfil.
+>
+> **Imagen 1 — Gancho:** Diagrama del mástil completo de guitarra con las 5 cajas de la pentatónica
+> menor marcadas y numeradas (como en el mapa de las 5 cajas que ya tenemos). Texto grande
+> superpuesto: "CÓMO PASO DE TOCAR SIEMPRE LO MISMO... A UN SOLO QUE ES TUYO." Abajo, más chico:
+> "Mirá las siguientes historias 👇"
+>
+> **Imagen 2 — Título Pilar 1:** Mismo diagrama del mástil completo (o un zoom a la caja 1
+> conectándose con la 2). Texto: "PILAR 1 · EL MAPA" — subtítulo: "dominar el mástil"
+>
+> **Imagen 3 — Título Pilar 2:** Diagrama de un bending (flecha de una nota a otra en el
+> diapasón, estilo diagrama de flechas). Texto: "PILAR 2 · EL SABOR" — subtítulo: "bending,
+> vibrato, expresión"
+>
+> **Imagen 4 — Título Pilar 3:** Algo que sugiera "robar y transformar licks" — dos cajas de
+> guitarra conectadas, o un ícono de comillas/cita. Texto: "PILAR 3 · EL VOCABULARIO" — subtítulo:
+> "licks propios, estilo"
+>
+> **Imagen 5 — Título Pilar 4:** Un árbol simple de figuras rítmicas (redonda → blancas → negras →
+> corcheas), o una grilla de compás con los 8 tiempos. Texto: "PILAR 4 · EL PULSO" — subtítulo:
+> "ritmo y tiempo"
+>
+> **Imagen 6 — Título Pilar 5:** Algo que transmita "soltarse, en vivo" — quizás una silueta
+> tocando con movimiento, o el mástil completo con una flecha libre recorriéndolo entero, sin cajas
+> marcadas. Texto: "PILAR 5 · EL VUELO" — subtítulo: "improvisando y soltándote en vivo"
+>
+> Las 6 tienen que sentirse de la misma familia visual entre sí, con espacio arriba/abajo para que
+> el nombre de usuario y los controles de Instagram Stories no tapen el texto.
 
 **Lo que reemplaza:** el plan viejo (§48, nunca ejecutado) asumía B-roll de manos en el mástil
 específico para esta pieza — descartado, no existe y no hace falta filmarlo.
