@@ -1925,6 +1925,11 @@ Cada placa lleva **el gráfico insignia de su pilar**, sacado del cuadernillo co
 | 4 | PILAR 3 · EL VOCABULARIO | La tabla "Las dos escuelas" (Hito 3, pág. 3): BRITÁNICA vs AMERICANA |
 | 5 | PILAR 4 · EL PULSO | "Las 12 células del módulo" (El Pulso, pág. 4) — las figuras con su palabra: PEZ · PA-TO · CHO-CO-LA-TE |
 | 6 | PILAR 5 · EL VUELO | **Sin gráfico propio, y es el único**: ese pilar no tiene diagrama en la fuente porque no enseña nada nuevo. Van los 4 micro-pasos reales (`memoria/02` §28-QUINQUIES) |
+| 7 | CIERRE + CTA | **Plan B, generada el 18/9 a pedido de Feli** — la historia 12 se filma a cámara, pero si hay que cerrar la destacada antes, esta placa la reemplaza. Es la única con un bloque naranja lleno, a propósito: la única historia que pide algo |
+
+**El CTA de la placa 7 pasó el test de 3 segundos** (`memoria/04`, "Menú de CTAs"): *"Si sabés la
+caja 1 y seguís sonando igual que hace dos años, escribime SOLO"* — nombra la dolencia que él
+siente tocando, no el método. Keyword SOLO, la misma de la bio en vivo (`memoria/05` §57).
 
 > 🔴 **De paso apareció un error de datos real en el repo** — a `TONICAS` le faltaba una tónica (la
 > 3ª cuerda, traste 2). Se detectó justamente comparando contra el cuadernillo entregado, que lo
@@ -1991,8 +1996,11 @@ específico para esta pieza — descartado, no existe y no hace falta filmarlo.
   subtítulos.
 - ✅ **Las 6 placas de título** (1, 2, 4, 6, 8, 10) — generadas desde el repo, entregadas.
 - ☐ **Historia 12 (cierre + CTA)** — la única que todavía hay que filmar a cámara.
+- ✅ **Placa 7 (plan B del cierre)** — generada el 18/9 por si hay que cerrar la destacada
+  antes de poder filmar la 12. **No la reemplaza como plan A:** el CTA es el único momento
+  de la pieza donde se pide algo, y ahí la cara pesa más que el texto.
 
-O sea que de las 12, faltan una sola de filmar.
+O sea que de las 12, falta una sola de filmar — y esa una ya tiene reemplazo provisorio.
 
 ---
 

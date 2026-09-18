@@ -110,6 +110,38 @@ class Vinetas(object):
         return y - self.height
 
 
+class Boton(object):
+    """Bloque naranja lleno, con el CTA adentro.
+
+    Lo usa SOLO la placa de cierre, a proposito: es la unica historia de la destacada que
+    pide algo, y el bloque de color la separa del resto de un vistazo.
+    """
+
+    def __init__(self, lineas, size=40, leading=54, pad=40, gap=0):
+        self.lineas, self.size, self.leading, self.pad, self.gap = lineas, size, leading, pad, gap
+        ancho_max = W - 2 * 88
+        while size > 12 and max(pdfmetrics.stringWidth(l, "Helvetica-Bold", size)
+                                for l in lineas) > ancho_max:
+            size -= 1
+        self.size = size
+        self.leading = leading * size / float(self.size if self.size else 1)
+        self.ch = leading * len(lineas) + 2 * pad
+        self.height = self.ch + gap
+
+    def draw(self, c, y):
+        cw = W - 2 * 44
+        x = (W - cw) / 2
+        c.setFillColor(G.NARANJA)
+        c.roundRect(x, y - self.ch, cw, self.ch, 26, fill=1, stroke=0)
+        c.setFillColor(colors.white)
+        c.setFont("Helvetica-Bold", self.size)
+        yy = y - self.pad - self.size
+        for l in self.lineas:
+            c.drawCentredString(W / 2, yy, l)
+            yy -= self.leading
+        return y - self.height
+
+
 class Tarjeta(object):
     """Tarjeta blanca redondeada con un grafico del cuadernillo adentro.
 
@@ -276,6 +308,19 @@ def main():
                  "Tus licks entran sin anunciarse",
                  "Tocás con otros: entrás, salís, volvés"], gap=70),
         pie(["Acá no aprendés nada nuevo.", "Soltás todo lo anterior, en vivo."]),
+    ])
+
+    # 7 -- CIERRE + CTA. PLAN B: la historia 12 se filma a camara (memoria/05 SS49). Esta
+    #      placa existe solo por si hay que cerrar la destacada antes de poder filmarla.
+    #      El CTA pasa la regla del mantra (memoria/04, "Menu de CTAs"): nombra la dolencia
+    #      del alumno, no el metodo -- ni "mi programa" ni "te cuento como trabajo".
+    placa("destacada-7-cierre-cta.pdf", [
+        eyebrow("// Y AL FINAL DE TODO"),
+        titulo(["Grabás tu propio", "solo de 1 minuto."]),
+        bajada("Ese es tu antes y después."),
+        Boton(["Si sabés la caja 1 y seguís sonando",
+               "igual que hace dos años,",
+               "escribime SOLO"], gap=0),
     ])
 
 
