@@ -1027,6 +1027,26 @@ No es un video que se publica en el feed — es material de destacada (podría v
 MÉTODO, como paso 1) o para automatizar el envío del entrenamiento (respuesta guardada en Instagram).
 Queda documentado para cuando haya tiempo de filmarlo, no es parte del trabajo de hoy.
 
+### ✅ Versión A, FINAL con los 2 links (20/9) — la que se manda de verdad
+
+El texto de arriba (Versión A) era el guion base, sin links. Instagram DM/comentario tiene **límite
+de 500 caracteres**, y ahora hay que meter 2 links: el PDF real (vive en Drive, no adjunto directo)
+y la app del mástil (`aprende-el-mastil.netlify.app`, ver más abajo por qué va como yapa y no
+reemplaza al PDF). Versión recortada para entrar en el límite (479 caracteres), lista para
+copiar/pegar:
+
+> ¡Acá tenés el mapa! No hace falta aprender las 5 cajas de nuevo: te muestra DÓNDE se tocan entre
+> sí. Elegí dos que ya sepas, buscá la nota que comparten, y la próxima vez que improvises seguila
+> del otro lado en vez de cortar. Con eso salís de la caja 1.
+> https://drive.google.com/file/d/14LXstLuDyjzsJS542y0NheKsDZHK25fn/view?usp=drive_link
+>
+> Yapa: app gratis para practicarlo en tiempo real, te dice si le pegaste.
+> https://aprende-el-mastil.netlify.app/
+> Dudas, escribime.
+
+**Esta es la que se usa de acá en más** para cada comentario de PENTA — reemplaza a la Versión A
+sin links de arriba, que queda solo como referencia del contenido original.
+
 ### Las 3 reglas de este posteo (marketing, no estética)
 1. **No enseñes nada en el posteo.** Si explicás las conexiones en el copy o en las slides, el otro
    ya no necesita pedir el PDF. El valor tiene que estar **del otro lado del comentario** — la slide
