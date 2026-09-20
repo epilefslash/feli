@@ -1513,6 +1513,13 @@ el clip en vivo — el de más energía — para el momento de mayor impacto, en
 Cierra con una línea que conecta con el método sin CTA agresivo, coherente con que esta destacada es
 de identidad, no de conversión (misma lógica que Epifanía: plantar la idea, no vender en el momento).
 
+> ✅ **En carga (20/9):** Feli subió las historias 1-3 de las 4 (van 3 de 5, contando que la
+> numeración real terminó en 5 clips, no 4). Falta la última. Las otras dos destacadas que quedan
+> por armar: **ALUMNOS** (la última de las 5, según Feli) y **FORMACIÓN** (todavía sin pensar el
+> guion — pendiente, no arrancado). Con esto, de las 5 destacadas planificadas (§11: MÉTODO ·
+> FORMACIÓN · ALUMNOS · YO TOCO · TESTIMONIOS), MÉTODO y TESTIMONIOS ya están resueltas, YO TOCO
+> está en curso, y FORMACIÓN + ALUMNOS quedan como lo próximo.
+
 ---
 
 ## 52) LOS COPYS DE LOS REELS "AL 100" — hueco encontrado y el del #4 escrito (16/9)
