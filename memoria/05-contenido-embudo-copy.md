@@ -2207,3 +2207,38 @@ puede recorrer el pilar entero sin el programa, se regaló de más.
 
 ### Pendiente nuevo: perfiles de los mentores de ventas y setting
 Ver `memoria/11-mentores-ventas-setting.md` — esperando los transcripts de las clases.
+
+---
+
+## 59) CTA NUEVO PARA 2 REELS YA FILMADOS — #9 "3 formas de romper las cajas" y "Róbale el ritmo al Feliz Cumpleaños" (22/9)
+
+Los dos están filmados con el CTA viejo, que hablaba de Feli ("te cuento cómo trabajo"). Se
+cambia en edición, sin volver a filmar.
+
+**Cómo se hace en edición:** se corta entero el CTA hablado viejo, no se le pone nada encima (dos
+CTAs distintos sonando juntos confunden). En su lugar van **5-7 seg** de Feli tocando, sacados del
+mismo video, en blanco y negro y un poco más lentos, con la **voz en off nueva** y el **mismo texto
+grande en pantalla** (el 70% mira sin sonido). Es mejor que un cuadro congelado: la guitarra sigue
+sonando y no parece que el video se trabó.
+
+**Test de 3 segundos (`memoria/04`, Menú de CTAs):** la idea de Feli terminaba en *"escribime y te
+cuento cómo lo trabajamos"*. Esa última parte vuelve a poner el foco en él, así que el CTA termina
+en la palabra clave.
+
+### #9 — "3 formas de romper las cajas" · keyword PENTA
+- **Voz en off:** "Si querés moverte por todo el mástil con libertad, sin quedarte encerrado en la
+  caja 1, comentá PENTA y te paso el mapa de las cinco cajas conectadas."
+- **Texto en pantalla:** *¿Querés moverte por todo el mástil? Comentá PENTA 👇*
+- Se queda con PENTA porque el tema del video es justo el del mapa, y el DM ya está listo
+  (`memoria/04` §37).
+
+### "Róbale el ritmo al Feliz Cumpleaños" · keyword SOLO
+- **Voz en off:** "Si tus solos tienen las notas justas pero siempre suenan igual, si querés que
+  tus frases tengan groove de verdad, comentá SOLO."
+- **Texto en pantalla:** *¿Tus frases suenan siempre igual? Comentá SOLO 👇*
+- SOLO y no un regalo, porque no existe lead magnet de ritmo — no se promete lo que no hay (misma
+  regla que bloqueó "Dejá de mirar tutoriales", §34).
+
+> ⚠️ **El guion de "Róbale el ritmo al Feliz Cumpleaños" no está en el repo.** El resumen de la
+> sesión anterior decía que se había guardado, pero no aparece en ningún archivo. Hay que
+> reconstruirlo a partir del video ya filmado.
