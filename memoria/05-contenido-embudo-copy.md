@@ -2210,7 +2210,13 @@ Ver `memoria/11-mentores-ventas-setting.md` — esperando los transcripts de las
 
 ---
 
-## 59) CTA NUEVO PARA 2 REELS YA FILMADOS — #9 "3 formas de romper las cajas" y "Róbale el ritmo al Feliz Cumpleaños" (22/9)
+## 59) CTA NUEVO PARA 2 REELS YA FILMADOS — #9 "3 formas de romper las cajas" y #8 "No tengo oído" (22/9)
+
+> ⚠️ **Corrección de identificación (22/9):** "Róbale el ritmo al Feliz Cumpleaños" no es un reel
+> aparte — **es el video #8, "No tengo oído"** (`memoria/00`, tabla de videos). Ya estaba
+> documentado con otro resumen ("cantá primero, tocá después") — Feli ahora describió el mecanismo
+> real del bloque central: **Paul Gilbert agarrando el ritmo de una canción conocida (Feliz
+> Cumpleaños) y aplicándolo a un lick**, como ejercicio de oído.
 
 Los dos están filmados con el CTA viejo, que hablaba de Feli ("te cuento cómo trabajo"). Se
 cambia en edición, sin volver a filmar.
@@ -2232,13 +2238,24 @@ en la palabra clave.
 - Se queda con PENTA porque el tema del video es justo el del mapa, y el DM ya está listo
   (`memoria/04` §37).
 
-### "Róbale el ritmo al Feliz Cumpleaños" · keyword SOLO
-- **Voz en off:** "Si tus solos tienen las notas justas pero siempre suenan igual, si querés que
-  tus frases tengan groove de verdad, comentá SOLO."
-- **Texto en pantalla:** *¿Tus frases suenan siempre igual? Comentá SOLO 👇*
-- SOLO y no un regalo, porque no existe lead magnet de ritmo — no se promete lo que no hay (misma
-  regla que bloqueó "Dejá de mirar tutoriales", §34).
+### #8 — "No tengo oído" (bloque Paul Gilbert/Feliz Cumpleaños) · keyword SOLO
+- **Voz en off:** "Si sentís que las notas justas no te alcanzan y tus solos siguen sonando igual,
+  si querés desarrollar el oído de verdad, comentá SOLO."
+- **Texto en pantalla:** *¿Tus solos suenan siempre igual? Comentá SOLO 👇*
+- Se mantiene SOLO — coincide con el CTA que ya tenía el #8 y con su lead magnet
+  (`Ejercicio-Destapar-el-Oido.pdf`, `memoria/00`), no hace falta cambiarlo.
 
-> ⚠️ **El guion de "Róbale el ritmo al Feliz Cumpleaños" no está en el repo.** El resumen de la
-> sesión anterior decía que se había guardado, pero no aparece en ningún archivo. Hay que
-> reconstruirlo a partir del video ya filmado.
+### Qué pasa con las notas de corte viejas del #8 (`memoria/00`, líneas 97-100) — YA ACLARADO (22/9)
+Eran dos cosas distintas, y Feli lo confirmó al preguntarle:
+- **Se corta, como ya decía la nota vieja:** la línea genérica sobre "el tema del ritmo" ("vas a
+  profundizar el tema del ritmo") — desviaba del eje del video, que es oído/melodía.
+- **Se queda, es contenido central, no lo que la nota vieja pedía cortar:** el bloque de Gilbert/
+  Feliz Cumpleaños — es la técnica concreta que demuestra cómo entrenar el oído agarrando el ritmo
+  de algo conocido y aplicándolo. No es "el tema del ritmo" en abstracto, es un ejercicio de oído
+  con forma de ritmo.
+- Las otras 2 correcciones de esa nota (reforzar CTA con texto fijo, "slide" no "slice") siguen
+  vigentes sin cambios, y el CTA nuevo de esta sección las reemplaza/incluye.
+
+> ⚠️ **El guion completo del bloque Gilbert/Feliz Cumpleaños no está en el repo** — solo la
+> descripción de Feli en esta sesión. Si hace falta el guion palabra por palabra para replicarlo o
+> reeditarlo más adelante, reconstruirlo del video ya filmado.
