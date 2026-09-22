@@ -26,6 +26,7 @@ corresponda en vez de releer todo.
 @memoria/08-repertorio-solos.md
 @memoria/09-evaluacion-pedagogica.md
 @memoria/10-notas-tecnicas-asistente.md
+@memoria/11-mentores-ventas-setting.md
 
 | Archivo | Para qué sirve |
 |---|---|
@@ -40,6 +41,7 @@ corresponda en vez de releer todo.
 | `08-repertorio-solos.md` | Banco fijo de 4 solos de referencia + piezas de color opcionales. |
 | `09-evaluacion-pedagogica.md` | Auditoría del programa terminado y el ajuste de Hito 2 que salió de ahí. |
 | `10-notas-tecnicas-asistente.md` | Notas operativas de sesión a sesión (repo, quién es quién, qué métrica importa). |
+| `11-mentores-ventas-setting.md` | Perfiles de Lucho (ventas) y Ana (setting): cómo responden, según sus clases. |
 
 ## Dónde está cada cosa (fuera de memoria/)
 

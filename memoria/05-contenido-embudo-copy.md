@@ -2164,3 +2164,46 @@ keyword (info del programa / encaminar a la llamada).
 
 **Automatización de DM:** sigue sin habilitarse (Meta, `memoria/05` §48) — esto se sigue
 contestando a mano por ahora.
+
+---
+
+## 58) ESTADO AL 22/9 — arranca la semana 3 + plan de la destacada ALUMNOS + la regla del "cómo"
+
+### Estado real (reportado por Feli)
+- ✅ **Testimonio de Verónica — editado.** Se publica hoy (22/9).
+- ✅ **Epifanía — se publica hoy también** (filmada el 16/9, copy final en `memoria/04` §35-BIS).
+- Arranca la **semana 3** del plan de los 15 (§34). El calendario es guía, no cárcel: el orden real
+  ya se corrió respecto de la tabla (Vero iba en el Día 0, la Epifanía en la semana 4).
+
+### Destacada ALUMNOS — el método de Nico (clase vista el 22/9)
+Nico destaca esta destacada, junto con los testimonios, como de las más importantes. **El objetivo
+es que el visitante vea CARAS DISTINTAS recibiendo clase** — prueba visual de que Feli enseña a gente
+real, no solo que toca.
+
+**La mecánica, textual de lo que contó Feli:**
+- **4 historias distintas**, grabadas con cambio de ropa/peinado entre una y otra para que se lean
+  como momentos distintos.
+- Feli **en posición de docente**, explicando algo real. Preferencia de Feli (y la recomendada):
+  explicar contenido **del método** (ej. Pilar 1, las cajas y sus puentes) en vez de algo genérico
+  como un acorde — así la destacada también refuerza el método.
+- **Mezcla de formatos: 2 individuales + 2 grupales.** Nico sugiere que pueden ser amigos a los que
+  se les explica de verdad.
+- **Candidatos (sin cerrar):** grupal → Nacho, Poker y Eddie · individual → Simón (alumno real) y
+  quizás otro alumno actual.
+
+**Criterio de honestidad (mismo que `memoria/04` §38 con la palabra "programa"):** lo que se filma es
+una clase real, y eso se puede mostrar. Lo que no se hace es rotular a un amigo como "alumno del
+programa" — el texto en pantalla, si lo hay, habla de la clase ("explicando el mapa del mástil"), no
+de quién es la persona. Priorizar alumnos reales (Simón) donde se pueda.
+
+### La regla del "cómo" en Instagram (Nico, clase vista por Feli)
+**En general:** en Instagram se explica el **qué** y el **por qué**; el **cómo** queda para el
+programa, que es lo que se vende. **Pero "en general" no es "nunca":** un poquito de cómo, lo justo y
+necesario, puede y debe aparecer — sin dar toda la data. Es la misma lógica que ya aplicábamos en el
+posteo de 2 pasos (el entrenamiento vive en el DM, no en el copy público, `memoria/04` §37) y en el
+tip accionable de la Epifanía (una tarea concreta, no el sistema completo).
+**Test práctico:** si después de ver la pieza el alumno puede hacer UN primer paso, está bien; si
+puede recorrer el pilar entero sin el programa, se regaló de más.
+
+### Pendiente nuevo: perfiles de los mentores de ventas y setting
+Ver `memoria/11-mentores-ventas-setting.md` — esperando los transcripts de las clases.
