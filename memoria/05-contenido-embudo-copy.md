@@ -2277,10 +2277,14 @@ Eran dos cosas distintas, y Feli lo confirmó al preguntarle:
 > No hay keyword ni PDF de por medio — sería forzado pedir "comentá PENTA" a gente que no llegó ahí
 > buscando resolver ese problema.
 
-### El copy
+### El copy — VERSIÓN 2 (23/9): "10 años" corregido a "un par de años"
 
-> 🎸 ¿Sabías que se puede tocar la guitarra 10 años... y seguir sonando exactamente igual que el
-> primer año?
+> ⚠️ Feli marcó que "10 años" era una exageración — no le pasó así. Corregido a "un par de años",
+> que sí es real, y se ajustó "el primer año" a "el primer día" para que la comparación cierre con
+> el nuevo plazo. Feli confirmó que el resto (hook, largo, tono) está bien tal cual.
+
+> 🎸 ¿Sabías que se puede tocar la guitarra un par de años... y seguir sonando igual que el primer
+> día?
 >
 > A mí me pasó. Y hace poco arranqué un Instagram (@feli.baya.menor) para compartir lo que fui
 > aprendiendo — todo enfocado en guitarra eléctrica: pentatónica, improvisación, cómo moverte por
