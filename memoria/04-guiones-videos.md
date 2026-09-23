@@ -1179,29 +1179,56 @@ Video corto de 1 a 3 minutos, buena iluminación, guion de 3 pasos:
 > alcanza con listar recursos, hay que decir qué problema resuelve cada uno, o el video queda en
 > "vos tirando recursos" sin contexto). El copy de abajo hace ese trabajo.
 
-### El copy
+### El copy — VERSIÓN 2 (23/9, reemplaza a la primera)
 
-> 🎸 Le mostrás la caja 1 de la pentatónica menor a diez guitarristas y los diez hacen lo mismo:
-> suben, bajan, algún bending suelto. Y ahí se quedan — como si la escala no diera para más.
+> ⚠️ **La versión 1 no cumplía con Nico** (Feli preguntó y se revisó): listaba los recursos con una
+> frase cada uno pero (1) no tenía perspectiva personal — la crítica exacta de Nico al #2,
+> `memoria/05` §42 punto 2; (2) decía el QUÉ pero no el POR QUÉ de cada recurso (regla del "cómo",
+> `memoria/05` §58); (3) no tenía tip accionable (plantilla de Reel Didáctico, `memoria/05` §53); y
+> (4) mezclaba cromatismo con bending como si fueran lo mismo. La v2 corrige las cuatro.
 >
-> 🤔 La verdad es que la misma pentatónica que ya sabés tiene mucho más adentro. Acá te muestro 4
-> recursos que la mayoría nunca explora:
+> **Contexto del video (confirmado por Feli):** ~20 seg, Feli toca sobre una base sin hablar, y cuando
+> suena cada recurso aparece un cartel con su nombre. El copy es el único lugar donde se explica.
+
+> 🎸 20 segundos, 4 recursos, una sola escala: la pentatónica menor que ya sabés.
 >
-> 1️⃣ **Desplazamiento horizontal** — en vez de subir y bajar encerrado en una sola caja, la frase se
-> mueve POR el mástil. Es el primer paso para dejar de estar preso en la caja 1.
+> 🤔 Si sos guitarrista de rock y tus solos suenan siempre igual, casi nunca es porque te falten
+> notas. Es porque usás la escala de una sola manera: subir y bajar dentro de la caja 1.
 >
-> 2️⃣ **Bendings, vibrato y cromatismo** — la técnica que hace que una nota "cante" en vez de sonar
-> pisada. Es la diferencia entre tocar la escala y decir algo con ella.
+> A mí me pasó durante años, con todo lo que había estudiado encima. Lo que me destrabó no fue
+> aprender otra escala: fue usar la misma de otras formas. Estas 4 son las que más me cambiaron el
+> sonido:
 >
-> 3️⃣ **La tercera de picardía** — una nota que técnicamente está afuera de la pentatónica, y resuelve
-> la frase con una sorpresa que la escala pura no te da.
+> 1️⃣ **Desplazamiento horizontal**: la frase viaja por el mástil en vez de quedarse encerrada en una
+> caja.
+> → Qué te da: el mismo lick suena nuevo en otro registro, y dejás de chocar contra los bordes de la
+> caja 1.
 >
-> 4️⃣ **Acordes pentatónicos** — la misma caja que usás para solear también te arma acordes.
+> 2️⃣ **Pre-bendings, bendings, vibrato y cromatismo**: la nota deja de ser un punto y se vuelve una
+> voz. Llega estirándose, se sostiene, respira. El cromatismo es pasar por la nota que queda entre
+> medio de dos de la escala, de paso, sin quedarte ahí.
+> → Qué te da: pasás de tocar notas a decir algo con ellas.
 >
-> 💡 No te falta una escala nueva. Te falta explorar la que ya tenés.
+> 3️⃣ **La tercera de picardía**: una nota que la pentatónica menor no tiene (la tercera mayor), metida
+> justo al final de la frase.
+> → Qué te da: la frase resuelve con una luz que nadie espera. B.B. King vivía de ese color.
 >
-> 👉 Si querés aprender a moverte por todo el mástil sin quedarte encerrado en la caja 1, comentá
-> **PENTA** y te paso el mapa de las 5 cajas conectadas, gratis.
+> 4️⃣ **Acordes pentatónicos**: las mismas notas de la escala, tocadas juntas.
+> → Qué te da: podés rellenar entre frase y frase, y dejar de pensar el solo y el ritmo como dos
+> mundos separados.
+>
+> 💡 La escala es la misma en los 4. Lo que cambia es qué hacés con ella.
+>
+> 👉 Probá hoy uno solo: agarrá un lick que ya sepas y tocalo una caja más arriba, con las mismas
+> notas. Ese es el recurso 1.
+>
+> ✅ Si querés moverte por todo el mástil sin quedarte encerrado en la caja 1, comentá **PENTA** y te
+> paso el mapa de las 5 cajas conectadas, gratis.
+
+**Pendientes de confirmar con Feli:** (a) si tiene una anécdota propia sobre alguno de los recursos
+(p. ej. de quién aprendió la tercera de picardía) — sumaría perspectiva personal más específica;
+(b) que la "tercera de picardía" del video sea efectivamente la 3ª mayor (DO# en La menor). El dato
+de B.B. King se apoya en el "B.B. box" (bend a la 3ª mayor), `memoria/08` §28.
 
 **Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #guitarristas #aprenderguitarra`
 
