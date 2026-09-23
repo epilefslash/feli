@@ -1160,3 +1160,63 @@ Video corto de 1 a 3 minutos, buena iluminación, guion de 3 pasos:
 3. **Qué le diría a alguien con dudas de empezar.**
 
 ---
+
+## 39) COPY DEL VIDEO #1 — "Recursos para tu pentatónica menor" (23/9)
+
+> **El hueco:** Video #1 es Formato A (autoridad) — Feli toca 4 recursos en pantalla, sin hablar.
+> Por eso nunca tuvo guion palabra por palabra (no hacía falta, no hay diálogo) — pero el **copy del
+> post**, que es donde se explica lo que el video no dice, tampoco se había escrito nunca. Confirmado
+> contra `M3D-Rutina-de-Trabajo-Contenido.csv`, fila 16: *"Guion no quedó documentado palabra por
+> palabra (video ya terminado)"* — hueco real, no un olvido de esta memoria.
+>
+> **Los 4 recursos, en el orden que confirmó Feli (23/9):**
+> 1. Desplazamiento horizontal
+> 2. Bendings / vibrato / cromatismo
+> 3. Tercera de picardía (nota "afuera" de la escala)
+> 4. Acordes pentatónicos
+>
+> **Mismo criterio que se le aplicó al Video #2** (`memoria/05` §39/§42 — la crítica real de Nico: no
+> alcanza con listar recursos, hay que decir qué problema resuelve cada uno, o el video queda en
+> "vos tirando recursos" sin contexto). El copy de abajo hace ese trabajo.
+
+### El copy
+
+> 🎸 Le mostrás la caja 1 de la pentatónica menor a diez guitarristas y los diez hacen lo mismo:
+> suben, bajan, algún bending suelto. Y ahí se quedan — como si la escala no diera para más.
+>
+> 🤔 La verdad es que la misma pentatónica que ya sabés tiene mucho más adentro. Acá te muestro 4
+> recursos que la mayoría nunca explora:
+>
+> 1️⃣ **Desplazamiento horizontal** — en vez de subir y bajar encerrado en una sola caja, la frase se
+> mueve POR el mástil. Es el primer paso para dejar de estar preso en la caja 1.
+>
+> 2️⃣ **Bendings, vibrato y cromatismo** — la técnica que hace que una nota "cante" en vez de sonar
+> pisada. Es la diferencia entre tocar la escala y decir algo con ella.
+>
+> 3️⃣ **La tercera de picardía** — una nota que técnicamente está afuera de la pentatónica, y resuelve
+> la frase con una sorpresa que la escala pura no te da.
+>
+> 4️⃣ **Acordes pentatónicos** — la misma caja que usás para solear también te arma acordes.
+>
+> 💡 No te falta una escala nueva. Te falta explorar la que ya tenés.
+>
+> 👉 Si querés aprender a moverte por todo el mástil sin quedarte encerrado en la caja 1, comentá
+> **PENTA** y te paso el mapa de las 5 cajas conectadas, gratis.
+
+**Hashtags:** `#guitarra #guitarraelectrica #pentatonica #pentatonicamenor #solodeguitarra #rock #guitarristas #aprenderguitarra`
+
+### Las 2 decisiones de este copy
+
+1. **Keyword PENTA, no una nueva** — es una elección mía, sin confirmar con Feli. Empalma con el
+   recurso 1 (desplazamiento horizontal, literalmente "el puente entre cajas") y con el lead magnet
+   que ya existe (`Mapa-5-cajas-pentatonica.pdf`) — mismo criterio que ya se usó para el #4
+   (`memoria/05` §52). Si en algún momento importa más medir de qué video viene cada DM, cambiar a
+   otra keyword.
+2. **El CTA pasó el test de 3 segundos** (`memoria/04`, "Menú de CTAs"): no aparece "mi método", "te
+   enseño" ni "Solo con Sabor" — el foco es "moverte por todo el mástil sin quedarte encerrado en la
+   caja 1", que es la dolencia real del avatar, no una descripción de lo que Feli vende.
+
+> ⚠️ **Escrito sin ver el metraje** — mismo disclaimer que los copys del #2 y el #4: si el video dice
+> algo puntual que el copy contradice, ajustarlo antes de publicar.
+
+---
