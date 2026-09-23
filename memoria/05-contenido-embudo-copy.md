@@ -2259,3 +2259,51 @@ Eran dos cosas distintas, y Feli lo confirmó al preguntarle:
 > ⚠️ **El guion completo del bloque Gilbert/Feliz Cumpleaños no está en el repo** — solo la
 > descripción de Feli en esta sesión. Si hace falta el guion palabra por palabra para replicarlo o
 > reeditarlo más adelante, reconstruirlo del video ya filmado.
+
+---
+
+## 60) REPOST DESDE LA CUENTA PERSONAL — categoría nueva, cross-promoción hacia @feli.baya.menor (23/9)
+
+> **Qué es y por qué es distinta a los 15 posteos:** Feli va a subir el reel de la Epifanía también
+> en su **Instagram personal** (no @feli.baya.menor), con un copy propio que anuncie el proyecto y
+> mande gente a seguir la cuenta nueva. No es un posteo del plan de los 15 — es un canal de
+> distribución aparte, aprovechando que Feli en su cuenta personal "solo sube historias y no tienen
+> muchas visitas" (palabras de Feli) y un reel puede alcanzar más gente.
+>
+> **Por qué el CTA es distinto al resto del proyecto:** el mantra de `memoria/04` ("Menú de CTAs")
+> aplica a contenido dirigido al avatar (28-57, guitarrista frustrado en caja 1) con intercambio de
+> lead magnet por keyword. Acá la audiencia es la red personal de Feli (amigos, familia, conocidos —
+> mezcla de guitarristas y no guitarristas) y el objetivo es un solo paso: que sigan la cuenta nueva.
+> No hay keyword ni PDF de por medio — sería forzado pedir "comentá PENTA" a gente que no llegó ahí
+> buscando resolver ese problema.
+
+### El copy
+
+> 🎸 ¿Sabías que se puede tocar la guitarra 10 años... y seguir sonando exactamente igual que el
+> primer año?
+>
+> A mí me pasó. Y hace poco arranqué un Instagram (@feli.baya.menor) para compartir lo que fui
+> aprendiendo — todo enfocado en guitarra eléctrica: pentatónica, improvisación, cómo moverte por
+> todo el mástil sin quedarte siempre pegado al mismo lugar.
+>
+> Acá solo subo historias de vez en cuando y no llegan a nadie 😅 así que si tocás la guitarra,
+> tenés ganas de arrancar, o simplemente te copa el tema, date una vuelta por ahí. Hay contenido
+> real.
+>
+> 👉 @feli.baya.menor
+
+### Las 3 decisiones de este copy
+
+1. **El hook no es genérico — sale del propio insight de la Epifanía** ("las 5 cajas y no te movías
+   de la primera", `memoria/04` §35-BIS) para que el reel y el copy queden coherentes entre sí, sin
+   repetir la misma frase que ya dice el video.
+2. **La confesión ("solo subo historias y no tienen visitas") es textual de Feli** — le da
+   honestidad al posteo y explica de forma natural por qué está probando el formato reel ahora, sin
+   sonar a excusa forzada.
+3. **CTA liso, sin keyword ni promesa de regalo** — acá el objetivo es un follow, no un DM. Pedir
+   una keyword a la red personal sería copiar una mecánica pensada para el avatar específico, no
+   para conocidos.
+
+**Reusable:** esta misma estructura (hook sacado del contenido del reel + confesión personal +
+"seguime en @feli.baya.menor") sirve para repostear otros reels del stock desde la cuenta personal
+más adelante — no es exclusiva de la Epifanía.
