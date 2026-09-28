@@ -1,0 +1,262 @@
+[
+  {
+    "hallazgos": [
+      {
+        "titulo": "\"Van tres formas\" — resto de calco mexicano sin adaptar",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, sección 24 (Guion Video 8, \"3 formas de romper las cajas\"), líneas 379-380",
+        "cita_actual": "\"¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR de ellas. Así que van tres formas que funcionan de verdad.\"",
+        "problema": "El propio documento admite que este guion viene \"adaptado de un YouTuber mexicano\" y que ya se sacaron 'chavales'/'chingón'. Pero 'van tres formas' sigue siendo un calco sintáctico mexicano/latinoamericano (la construcción deíctica tipo 'ahí te van los datos'), no algo que un rioplatense diga de forma natural sin el 'ahí' que la sostiene. Se limpió el léxico obvio pero quedó la sintaxis de origen — exactamente lo que se pidió chequear \"con lupa\".",
+        "reescritura": "\"¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR de ellas. Así que te traigo tres formas que funcionan de verdad.\"",
+        "por_que_mejora": "\"Te traigo\" es una construcción genuinamente rioplatense con el mismo 'vos' directo que usa el resto del guion (conectá, cubrís, encastrás), y saca el único resto sintáctico de origen extranjero que sobrevivió a la adaptación."
+      },
+      {
+        "titulo": "El guion HISTORIA se habla más rápido de lo que su propia guía de tono permite",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, sección 25, bloque [0:06–0:22] EL PUNTO A, líneas 432-437",
+        "cita_actual": "\"Pasé por todo lo que puede pasar un guitarrista: aprendí con tablaturas de internet, con videos, tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. No me recibí, pero aprendí un montón ahí. Y aun así — con todo eso encima — durante años seguí tocando las mismas frases de siempre. Sabía un montón de teoría. Pero cuando improvisaba, sonaba siempre igual.\"",
+        "problema": "Son ~64 palabras para un bloque de 16 segundos (0:06 a 0:22) = ~240 palabras por minuto. Una conversación íntima y pausada — que es literalmente lo que pide la guía de tono de esta misma sección (\"el más importante de todo el stock: bajá un cambio, hablale a un amigo, no a una cámara\") — se habla a 130-160 ppm. A 240 ppm, Feli tiene que apurar una primera oración que además encadena 4 elementos (tablaturas, videos, profesores, facultad) sin respiro. El cierre [0:50–0:60] tiene el mismo problema: ~50 palabras en 10 seg = 300 ppm.",
+        "reescritura": "\"Pasé por todo lo que puede pasar un guitarrista. Tablaturas de internet. Videos. Profesores particulares. Hasta estudié en la facultad de música, acá en Rosario — no me recibí, pero aprendí muchísimo. [pausa] Y con todo eso encima, durante años seguí tocando las mismas frases de siempre.\"",
+        "por_que_mejora": "Frases cortas con pausa entre cada ítem es como se cuenta oralmente una lista propia (se respira entre 'tablaturas' y 'videos'), baja la velocidad real a 150-160 ppm sin sacar ningún dato, y es coherente con la instrucción de tono del propio guion."
+      },
+      {
+        "titulo": "El único tuteo peninsular de las ~560 líneas del archivo",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, sección 7 (Guion Video 5, tabla original), línea 15",
+        "cita_actual": "\"¿Crees que la pentatónica menor es de principiantes?\"",
+        "problema": "'Crees' (sin tilde) es la única forma de tuteo en todo el documento — el resto usa voseo consistente (tenés, sabés, comentá, escribime, y la propia versión hablada del mismo video 5 dice 'Te dijeron... Te mintieron', ya en voseo). Es texto de tabla ('texto en pantalla'), no la versión hablada que Feli graba, pero el documento la sigue conservando como referencia de hook/copy — y si se reusa tal cual como texto superpuesto, rompe la voz rioplatense que se sostiene en el resto del método.",
+        "reescritura": "\"¿Creés que la pentatónica menor es de principiantes?\"",
+        "por_que_mejora": "Con tilde en la 'é' (voseo real: vos creés) queda consistente con el resto del hook y con la versión hablada del mismo video, que ya usa voseo correcto."
+      },
+      {
+        "titulo": "Hook cerrado en el Video 6, contra el patrón abierto que el propio corpus ya probó mejor",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, sección 8, líneas 163 y 223 (tabla y versión hablada)",
+        "cita_actual": "\"¿Esperás que un mejor equipo te arregle el solo?\" (línea 163) / \"¿Estás esperando que un mejor equipo te arregle el solo?\" (línea 223)",
+        "problema": "Es una pregunta cerrada, contestable con un 'no' instantáneo ('no, yo no espero eso') justo en el primer segundo, el momento donde IG decide si sigue el scroll. Compará con el hook del guion 7 (líneas 326-327): '¿Cuántos tutoriales de guitarra miraste este mes? ¿Veinte? ¿Cincuenta? ¿Y tu improvisación mejoró algo? Sé honesto.' — ahí la pregunta pide una cifra o autoevaluación, no admite cierre con un monosílabo. El guion 6 depende de que el 'Yo lo creí durante años' de después rescate el enganche, en vez de que el hook mismo ya lo garantice.",
+        "reescritura": "\"¿Cuánto gastaste en equipo pensando que te iba a arreglar el solo? Yo perdí la cuenta.\"",
+        "por_que_mejora": "Convierte la pregunta cerrada en una que exige una cifra o un repaso interno, igual que el hook del video 7 (el más fuerte del corpus en este punto), y nadie puede cerrarla con un 'no' de un segundo."
+      },
+      {
+        "titulo": "Sintaxis escrita (tres subordinadas apiladas) justo en el guion que pide máxima cercanía",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, sección 23, líneas 294-295 (VERSIÓN PRINCIPAL de \"Como que desaparece\")",
+        "cita_actual": "\"Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema que convierta eso que estudiás en TU forma de tocar — que cuando improvises, salga solo, con sabor, sin pensarlo.\"",
+        "problema": "La última oración apila tres subordinadas ('que convierta...' → 'eso que estudiás' → 'que cuando improvises, salga solo') separadas por un guión largo — construcción de prosa escrita y editada, no de alguien hablando de memoria a cámara. Es justo el guion cuya propia nota de tono pide máxima cercanía ('el poder está en que el viewer se sienta LEÍDO — cualquier adorno lo diluye'), y una frase que exige releer para ubicar el referente de 'que cuando improvises' rompe esa cercanía.",
+        "reescritura": "\"Y mirá: no necesitás más licks. Tampoco estudiar más horas. Necesitás un sistema. Uno que agarre todo lo que ya estudiaste y lo convierta en tu forma de tocar. Que cuando improvises, salga solo. Con sabor. Sin pensarlo.\"",
+        "por_que_mejora": "Cada subordinada pasa a ser su propia oración corta — así se arma una idea en el momento al hablar (frase, pausa, frase) — y el referente de cada 'que' queda pegado a la oración anterior, sin pedirle al oyente que retenga tres niveles de subordinación."
+      },
+      {
+        "titulo": "Cacofonía menor: \"muchísimo más mástil\"",
+        "severidad": "BAJO",
+        "donde": "memoria/04-guiones-videos.md, sección 24, línea 390",
+        "cita_actual": "\"Cubrís muchísimo más mástil sin perderte nunca.\"",
+        "problema": "Tres acentos fuertes seguidos con sonidos muy parecidos ('-chí-si-mo', 'más', 'más-til') arman un pequeño trabalenguas al decirlo rápido — suena natural leído, pero al filmar puede pedir un segundo take porque la lengua se traba en \"más mástil\".",
+        "reescritura": "\"Cubrís mucho más mástil sin perderte nunca.\"",
+        "por_que_mejora": "Saca la repetición de sílabas \"más máx-/más-til\" seguidas sin perder el peso de la frase, y es más fácil de decir de un tirón al grabar."
+      }
+    ],
+    "lente": "Lingüista especializado en análisis del discurso oral y pragmática, español rioplatense — auditoría de los guiones como textos para decir a cámara, no leídos",
+    "patron_transversal": "Dos patrones se repiten. (1) El único guion con ancestro no rioplatense (el #8, adaptado de un YouTuber mexicano) es también el único que retuvo una estructura de calco sintáctico ('van tres formas') aunque ya se limpiaron los léxicos obvios ('chavales'/'chingón') — la adaptación se hizo a nivel de palabra pero no siempre a nivel de sintaxis. (2) Los guiones más largos y de mayor carga emocional (HISTORIA, el guion vendedor 'Como que desaparece') son justo los que más recurren a sintaxis escrita/subordinada y a un ritmo de habla más denso — cuando su propia guía de tono pide exactamente lo contrario ('hablale a un amigo', 'bajá un cambio'). La densidad de la prosa sube con la importancia del mensaje, en vez de bajar.\"",
+    "lo_que_esta_muy_bien": [
+      "Hook del Video 5 hablado (líneas 98-99): \"Te dijeron que la pentatónica menor es de principiantes. Te mintieron. Y te lo voy a probar en veinte segundos.\" — aserción abierta, imposible de cerrar con un \"no\", genera curiosidad inmediata en vez de dar una salida fácil.",
+      "Hook del Video 7 (líneas 326-327): \"¿Cuántos tutoriales de guitarra miraste este mes? ¿Veinte? ¿Cincuenta? ¿Y tu improvisación mejoró algo? Sé honesto.\" — pregunta abierta y numérica que obliga a una autoevaluación real; es el mejor acto de habla de todo el corpus para un hook.",
+      "\"Gasté una fortuna al pedo\" (línea 224, Video 6 hablado) — modismo rioplatense genuino y autoexpuesto, la voz de Feli en estado puro, y genera cercanía real por vulnerabilidad en vez de sonar guionado."
+    ],
+    "descartados_por_verificador": []
+  },
+  {
+    "hallazgos": [
+      {
+        "titulo": "La escalera de valor tiene 3 roturas: keyword SOLO duplicada, ROCK sin lead magnet, CAJAS fantasma",
+        "severidad": "ALTO",
+        "donde": "memoria/06-programa-semanal-y-clase.md líneas 90-92 (tabla de lead magnets) · memoria/00-resumen-y-estado.md líneas 58-61 (nota de edición del #8) · memoria/04-guiones-videos.md línea 271 (menú de CTAs) y líneas 78-81 de 00 · memoria/05-contenido-embudo-copy.md línea 56 y memoria/07-simulacion-y-proximos-pasos.md línea 17",
+        "cita_actual": "06:90-92 → \"| `Mapa-5-cajas-pentatonica.pdf` | PENTA | Video #5... |\\n| `Rutina-Toca2-Callate2.pdf` | SOLO | Video #6 (tus solos no respiran) |\\n| `Ejercicio-Destapar-el-Oido.pdf` | SOLO | Video #8 (no tengo oído) |\" · 00:59 → \"Comentá SOLO 👇 y te paso la rutina gratis\" (CTA real en pantalla del #8, que en la tabla también usa SOLO) · 04:271 → \"Comentá ROCK y te mando 3 licks con sabor para practicar\" · 05:56 → \"DM (comenta SOLO / CAJAS)\" · 07:17 → \"Plantilla de respuesta de DM para quienes comentan SOLO / CAJAS\".",
+        "problema": "Tres roturas verificadas en el mismo sistema: (1) DOS lead magnets distintos (Rutina-Toca2-Callate2.pdf y Ejercicio-Destapar-el-Oido.pdf) están atados a la MISMA keyword SOLO en dos videos distintos (#6 y #8) — quien comenta SOLO desde 'no tengo oído' puede terminar recibiendo la rutina de espacio, rompiendo la promesa hecha en cámara. (2) La keyword ROCK (video 'Dejá de mirar tutoriales') promete '3 licks con el cómo' y ese PDF no existe — ya señalado internamente en 00, pero sin propuesta de arreglo. (3) 'CAJAS' aparece en el diagrama del embudo y en el to-do como palabra que la audiencia va a comentar, pero ningún guion ni ningún ítem del menú de CTAs (PENTA/SABOR/SOLO/ROCK) la usa — es un trigger que nunca se va a disparar si armás automatización de DM. Todo esto contradice la razón que la propia estrategia da para rotar keywords: 'para saber de qué video viene cada DM' (04:275).",
+        "reescritura": "Tabla única de verdad (reemplaza la de 06 y elimina CAJAS de 05:56 y 07:17):\nPENTA → Mapa-5-cajas-pentatonica.pdf (Video #5, Video #9 \"3 formas de romper cajas\")\nESPACIO → Rutina-Toca2-Callate2.pdf (Video #6 \"tus solos no respiran\" — nueva keyword, ya no SOLO)\nSOLO → Ejercicio-Destapar-el-Oido.pdf (Video #8 \"no tengo oído\" — se queda con SOLO, es la que ya está en pantalla)\nROCK → sacale la promesa de PDF nuevo: \"Comentá ROCK y te cuento por DM cómo los practico\" (sin lead magnet, como el vendedor de SABOR)",
+        "por_que_mejora": "Con una sola tabla, cualquier automatización o respuesta manual manda siempre el material correcto, no se rompe ninguna promesa hecha en cámara, y se recupera la trazabilidad de DM que es la razón declarada de rotar keywords."
+      },
+      {
+        "titulo": "La bio promete '90 días' sin ninguna condición — riesgo de expectativa/reclamo en un producto de USD 600-900",
+        "severidad": "ALTO",
+        "donde": "memoria/05-contenido-embudo-copy.md líneas 60-67 (bio de Instagram)",
+        "cita_actual": "\"🎸 Programa \\\"Solo con Sabor\\\"\\nDe pentatónica caja 1 → improvisar con sabor en 90 días\\nPara guitarristas de rock/blues\\n👇 Aplicá acá\\n[link al formulario]\"",
+        "problema": "Es la promesa más visible de todo el embudo — la ve el 100% de quien entra al perfil — y es un compromiso de tiempo absoluto sin ningún condicional de esfuerzo. El propio programa asume 20 min/día, 7 días por semana como piso para que las 12 semanas cierren, y esa condición ya está documentada como ausente del material que ve el alumno: memoria/09-evaluacion-pedagogica.md dice explícitamente \"Falta una expectativa explícita de cuánto hay que practicar por semana para que las 12 semanas cierren... no está escrito en ningún lado que vea el alumno\". El bug no es solo del cuadernillo: es de la bio, el primer punto de contacto del embudo. Un alumno que compra por esa promesa y no practica, no llega al resultado en el plazo prometido — y la primera fricción que siente es exactamente \"me mintieron\", la misma palabra que tu propio copy maestro usa como arma (04:98: \"Te mintieron\").",
+        "reescritura": "\"🎸 Programa \\\"Solo con Sabor\\\"\\nDe pentatónica caja 1 → improvisar con sabor en 90 días de práctica guiada (20 min/día)\\nPara guitarristas de rock/blues que le ponen el hombro\\n👇 Aplicá acá\\n[link al formulario]\"",
+        "por_que_mejora": "Calificar la promesa con el esfuerzo esperado no la debilita: la hace más creíble (específica, no mágica) y filtra de entrada al que no va a poner el tiempo — que es justo el alumno que después pide devolución o se frustra y te daña la reputación antes de la primera cohorte."
+      },
+      {
+        "titulo": "Cero piezas para el nivel 'más consciente' de Schwartz — hueco a anotar para cuando cierres precio/fecha",
+        "severidad": "MEDIO",
+        "donde": "memoria/05-contenido-embudo-copy.md líneas 12-31 (inventario A/C/P/V)",
+        "cita_actual": "\"**C — CREENCIAS ATACADAS (conversión, el motor):** ✅ #3 · ✅ #4 · ✅ #5 · ✅ #6 · 🟡 #7 · ✅ #8\" ... \"**V — VENDEDORES (conversión directa, para el 3% listo — publicar cuando YA haya autoridad):** 🎬 'Como que desaparece' (guion vendedor, sección 23) + variantes\"",
+        "problema": "De las 4 categorías del inventario, 6 de 8 piezas filmadas son Formato C (problem-aware: el guitarrista sabe que algo anda mal pero no qué). Hay 2 piezas product-aware (los vendedores). No hay NINGUNA pieza most-aware — la que ya casi decide y solo necesita el empujón final (cupos, fecha de arranque). Esto es coherente con que precio/fecha/garantía siguen abiertos a propósito, así que NO corresponde armarla todavía — pero es un hueco real del stock, y conviene tenerlo anotado para no descubrirlo recién cuando arranque la venta de verdad.",
+        "reescritura": "Agregar a memoria/07 como pendiente condicional, no para grabar hoy: \"[ ] Reel/story de apertura de cupos: 'Arranca la primera cohorte de Solo con Sabor el [fecha] — [N] lugares' (nivel most-aware — se activa recién cuando haya fecha y precio definidos con Nico).\"",
+        "por_que_mejora": "Deja el hueco documentado sin forzar una decisión que hoy está abierta a propósito, y evita que en el momento de vender en serio tengas piezas para nutrir pero ninguna para cerrar."
+      },
+      {
+        "titulo": "Dos guiones distintos se disputan los números 'Video 6' y 'Video 7' entre archivos",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md línea 150 y línea 316 · memoria/00-resumen-y-estado.md líneas 54 y 70",
+        "cita_actual": "04:150 → \"## 8) GUION VIDEO 6 — \\\"El equipo no te va a salvar\\\" (versión SX vs plugin, SIN tocar mal)\" · 04:316 → \"## 21) GUION VIDEO 7 — \\\"Dejá de mirar tutoriales\\\" (versión hablada)\" · 00:54 → \"| 6 | \\\"Tus solos no aburren por las notas, aburren porque no respiran\\\" (espacio) | C | ✅ Filmado |\" · 00:70 → \"#7 equipo (sec. 8)\"",
+        "problema": "La tabla de estado de memoria/00 dice que el #6 es 'tus solos no respiran' y que el equipo es el #7 — pero el propio guion del equipo se autotitula 'GUION VIDEO 6' en 04. Y aparte, 'Dejá de mirar tutoriales' también se autotitula 'GUION VIDEO 7', chocando con el número que el to-do le asigna al video del equipo. Dos títulos internos no coinciden con la tabla de estado, y dos guiones reclaman el mismo número. El día que nombres el archivo de edición, el caption, o le pidas a otra sesión 'el video 7', no hay una sola respuesta posible.",
+        "reescritura": "Cambiar el header de 04:150 a \"## 8) GUION VIDEO 7 — 'El equipo no te va a salvar'\" (para que coincida con 00:70), y aclarar en 04:316: \"## 21) GUION 'Dejá de mirar tutoriales' (sin número de video asignado — se numera cuando se filme, ver memoria/00 sobre el lead magnet pendiente de ROCK)\".",
+        "por_que_mejora": "Una sola fuente de verdad para el número de cada video evita publicar con el caption o el hashtag de otro guion, y que en 3 meses ni vos ni una sesión nueva tengan que adivinar cuál es 'el video 6'."
+      }
+    ],
+    "lente": "Marketing de respuesta directa / embudo Instagram orgánico para info-producto high-ticket",
+    "patron_transversal": "El molde persuasivo en sí está bien pensado: Formato C con ratio MAL:BIEN 1:2 (03:37), \"el instrumento es el fiscal del argumento\" (03:16), y una cobertura razonable de los niveles problem-aware y product-aware de Schwartz. El problema no es la estrategia, es la EJECUCIÓN CROSS-DOCUMENT: las keywords de CTA, los números de video y los mapeos a lead magnets se definen en un archivo y se repiten (a veces mal) en otro, sin una tabla única que se actualice cada vez que se agrega o cambia una pieza. Rotar keywords para trackear de dónde viene cada DM (04:275) es una decisión correcta — mi postura concreta sobre el punto 4 del brief es esa: la rotación AYUDA (da trazabilidad real, que es la métrica que te importa), el problema es que hoy 3 de las ~6 keywords activas tienen algún tipo de rotura (SOLO duplicada, ROCK sin magnet, CAJAS sin video). Arreglado el mapeo, la rotación sigue siendo la jugada correcta.",
+    "lo_que_esta_muy_bien": [
+      "03:16 — \"El instrumento es el FISCAL del argumento, no decoración.\" Combinado con la proporción \"MAL:BIEN = 1:2 mínimo\" (03:37), es una regla de persuasión disciplinada y bien aplicada en los videos 5 y 6 (contraste sonoro real, no solo declarado).",
+      "04:414-417 — \"de los 8 videos filmados, 6 son creencias atacadas. Ninguno responde la objeción principal de un producto de USD 400-900 comprado a un desconocido: '¿por qué vos?'... Este es el único video del stock que la responde.\" El guion de HISTORIA compensa la falta de testimonios con la mejor herramienta disponible sin cohorte todavía: prueba narrativa (el dato UNR como autoridad, no como disculpa).",
+      "04:98-99 — \"Te dijeron que la pentatónica menor es de principiantes. Te mintieron. Y te lo voy a probar en veinte segundos.\" Hook con mecánica fuerte: acusación específica en 2da persona (el viewer se ve retratado) + promesa de prueba cronometrada, no una pregunta genérica."
+    ],
+    "descartados_por_verificador": [
+      {
+        "titulo": "Video 7 ('Dejá de mirar tutoriales') afirma el antes/después pero nunca lo toca — rompe la regla de oro del propio molde",
+        "motivo": "Las citas existen literalmente (03:16, 04:330-331, 04:362-363), pero el propio guion de 04 marca la ausencia de un 'mal' tocado como una decisión consciente y no un descuido: '**Particularidad:** acá el \"mal\" NO es tocar mal — es una imagen: el scroll infinito de tutoriales' (04:323). La creencia que ataca este video ('mirar más tutoriales te va a hacer mejor') es sobre un HÁBITO de consumo, no sobre una técnica de ejecución — a diferencia de los videos 5 y 6, acá no hay una forma natural de 'tocar mal a propósito' que represente ver tutoriales; forzar un bloque tocado agregaría un gesto artificial que diluye la metáfora del scroll en vez de reforzarla. El video sí cumple parcialmente el principio del 03:16 (14 de ~45 seg son guitarra real con sabor, la 'prueba en vivo'), por lo que la afirmación de que 'el reel se apoya en la palabra, no en la guitarra' exagera el diagnóstico. Es el caso (b)/(d) de la consigna: una regla genérica del molde C aplicada de forma rígida a una variación ya documentada y razonada en el propio archivo, sin que el hallazgo refute por qué esa adaptación específica (hábito vs. técnica) está mal — solo invoca el molde general. Ante la duda, es_real=false."
+      }
+    ]
+  },
+  {
+    "hallazgos": [
+      {
+        "titulo": "Video 6 hablada: el bloque REVELACIÓN (la tesis del video) va a 5,7 palabras/seg — casi el doble del ritmo hablado sostenible",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, líneas 244-247 — Video 6 GUION HABLADA, bloque [0:30–0:37] REVELACIÓN",
+        "cita_actual": "\"¿Escuchaste la diferencia? Cambió el color. El sonido, el aire.\\nPero el sabor — el bending, el vibrato, dejar respirar la nota — ese es el mismo en las dos.\\nPorque el sabor no está en el equipo. Está en los dedos.\"",
+        "problema": "Son 40 palabras metidas en 7 segundos (5,7 palabras/seg). A un ritmo hablado natural (~2,5 palabras/seg, el que uso para medir todo el guion) esto necesita 16 segundos, no 7. Y no es cualquier bloque: es el que explica el argumento central de todo el video (\"el sabor está en los dedos, no en el equipo\"). Si Feli lo dice tal cual está escrito en 7 seg, se atropella justo en la frase que tiene que quedar clara — el punto exacto donde más gente decide si sigue mirando o no. Además el problema se repite en casi todo el resto del guion hablado de este video: Setup 1 (12 palabras en 3 seg), Setup 2 (16 en 4 seg) y \"Prueba de autoridad\" (32 en 6 seg) están igual de comprimidos — sumando todo, el guion completo pide ~139 palabras en apenas 30 seg de ventanas habladas (dejando afuera los silencios de guitarra), cuando a 2,5 palabras/seg entran ~75.",
+        "reescritura": "Achicá el texto Y estirá el bloque unos segundos (se lo sacás a los Setup, que también sobran de palabras):\n\n**[0:30–0:40] REVELACIÓN — a cámara**\n> \"¿Escuchaste la diferencia? Cambió el color, nada más.\n> El bending, el vibrato, dejar respirar la nota — eso fue igual en las dos.\n> El sabor no está en el equipo. Está en los dedos.\"\n\n(27 palabras en 10 seg ≈ 2,7 palabras/seg, ritmo cómodo de decir sin atropellarte.)",
+        "por_que_mejora": "El bloque que sostiene el argumento del video pasa de ser ilegible/apurado a algo que se puede decir con pausas y que se entiende a la primera escucha — que es justo lo que necesitás para que el 70% que mira sin sonido y lee el subtítulo llegue a tiempo a leerlo antes de que cambie el plano."
+      },
+      {
+        "titulo": "Video 8 (\"3 formas de romper cajas\") no tiene marcas de tiempo y, leído a ritmo natural, dura ~90 seg — casi el doble de los \"45-60 seg\" declarados",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, líneas 367-401 — Video 8, sección 24 (a diferencia de los Videos 5, 6 y 7, este guion no trae columna de tiempos)",
+        "cita_actual": "\"**Duración:** 45-60 seg\" (línea 372) — y el guion completo suma HOOK + INTRO + 3 FORMAS (cada una con su \"(demostración)\") + CIERRE, sin ningún timestamp que lo acote.",
+        "problema": "Sumando todo el texto hablado del guion (Hook + Intro + las 3 Formas + Cierre) da ~165 palabras. A 2,5 palabras/seg eso solo ya son ~66 seg de habla — y hay que sumarle el fragmento de solo del hook (2-3 seg), las tres \"(demostración)\" tocadas (varios segundos cada una, sin acotar) y el solo extenso del cierre (\"10-12 seg recorriendo todo el mástil\", línea 396). El total realista ronda los 90 seg, no los 45-60 declarados. Al no tener timestamps por bloque (como sí tienen el 5, el 6 y el 7), no hay forma de auditar en qué segundo se va de tiempo mientras se filma — el guion no te avisa dónde recortar.",
+        "reescritura": "Recortá a 2 formas fuertes para el reel (Horizontal y Legos, que son las que más se entienden viendo) y dejá Diagonal para un carrusel o un comentario fijado. Y sumale timestamps como al resto:\n\n0:00–0:03 HOOK + fragmento de solo\n0:03–0:12 Forma 1: Horizontal (una frase + demo de 4 seg)\n0:12–0:22 Forma 2: Legos (una frase + demo de 4 seg)\n0:22–0:34 CLÍMAX: solo largo recorriendo el mástil\n0:34–0:40 CTA doble (comentarios + PENTA)\n\nTotal ≈ 40 seg, con margen.",
+        "por_que_mejora": "Un Formato A (tutorial) ya arrastra menos que un Formato C por diseño — sumarle un runtime real casi el doble del planeado en el formato que MENOS retiene es la combinación más peligrosa del stock para el abandono a mitad de video."
+      },
+      {
+        "titulo": "Video 8: \"¿Cómo andan?\" es aire muerto justo después del hook, en el segundo más caro del reel",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, líneas 374-380 — bloques [HOOK] e [INTRO]",
+        "cita_actual": "[HOOK]: \"Te voy a mostrar tres formas de romperle las cajas a la pentatónica.\"\n[INTRO]: \"¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR de ellas. Así que van tres formas que funcionan de verdad.\"",
+        "problema": "El hook promete algo concreto (\"tres formas de romperle las cajas\") pero inmediatamente después, en vez de arrancar la Forma 1, mete un saludo genérico (\"¿Cómo andan?\") y una segunda vuelta de preámbulo (\"la mayoría... pero nadie les enseña...\") antes de entregar el primer contenido real. Son 27 palabras (~11 seg a ritmo natural) de aire entre la promesa y el pago de esa promesa — justo en la ventana donde el algoritmo y el pulgar deciden si seguís mirando.",
+        "reescritura": "Sacá el saludo entero y andá directo del hook a la Forma 1:\n\n\"Te voy a mostrar tres formas de romperle las cajas a la pentatónica. La mayoría las aprende, pero nadie te enseña a salir de ellas. Forma uno: horizontal.\"\n\n(el \"¿cómo andan?\" se puede decir en el copy del post o en otro reel donde no compita con el hook)",
+        "por_que_mejora": "Elimina la brecha entre promesa y pago — el contenido de valor arranca en el segundo 3-4 en vez del 8-11, que es exactamente la ventana crítica de retención de los primeros segundos que pediste auditar."
+      },
+      {
+        "titulo": "Guion vendedor \"Como que desaparece\": ambigüedad entre VERSIÓN PRINCIPAL (114 palabras, no entra en 30-35 seg) y VERSIÓN CORTA (33 palabras, sí entra) para el reel",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 288-312, sección 23",
+        "cita_actual": "\"**Como reel (si se filma):** vos a cámara todo el tiempo, sin guitarra o con la viola colgada sin\ntocar. Subtítulos grandes. Sin música o backing mínimo. El poder está en que el viewer se sienta\nLEÍDO — cualquier adorno lo diluye. 30-35 seg.\" (líneas 310-312, inmediatamente debajo de la VERSIÓN CORTA, pero sin decir explícitamente cuál de las dos versiones usar)",
+        "problema": "El documento tiene dos versiones del mismo guion: la PRINCIPAL (114 palabras ≈ 45,6 seg a ritmo natural) y la CORTA (33 palabras ≈ 13,2 seg, línea 300-303). La instrucción de filmación (\"Como reel... 30-35 seg\") aparece pegada abajo de la CORTA, pero nunca dice de forma explícita \"usá esta, no la de arriba\". Como la PRINCIPAL está presentada primero y con el rótulo \"PRINCIPAL\", hay riesgo real de que Feli la lea completa en cámara pensando que entra en 30-35 seg, cuando le sobran 10-15 segundos de texto.",
+        "reescritura": "Agregar una línea explícita antes del bloque \"Como reel\":\n\n\"⚠️ Para filmar el REEL, usar la VERSIÓN CORTA de arriba (33 palabras ≈ 13 seg habladas + silencios para que respire). La VERSIÓN PRINCIPAL es para el copy del post y la destacada MÉTODO — no para decir de memoria a cámara.\"",
+        "por_que_mejora": "Saca la ambigüedad antes de que llegue al día de filmación — es el tipo de error que se detecta recién viendo el material ya editado y sobrando 15 segundos, con la guitarra colgada y sin margen de replan en el momento."
+      },
+      {
+        "titulo": "Video 5 hablada: el hook (los primeros 4 seg) tiene el doble de palabras de las que entran a ritmo natural",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 97-99 — bloque [0:00–0:04] HOOK",
+        "cita_actual": "\"Te dijeron que la pentatónica menor es de principiantes.\\nTe mintieron. Y te lo voy a probar en veinte segundos.\"",
+        "problema": "20 palabras en 4 segundos = 5 palabras/seg. A 2,5 palabras/seg (el ritmo que hace falta para que se entienda sin atropellarse) entran 10 palabras en esos 4 seg, la mitad. Es justo el hook — los primeros 3-4 seg son los que definen si hay \"razón real para no scrollear\", y acá la razón está, pero corrida a una velocidad que no se puede sostener hablando con la calma que pide la propia guía de tono (\"Bajá un cambio, no lo actúes\", línea 94-95).",
+        "reescritura": "**[0:00–0:06] HOOK — a cámara, guitarra colgada, sin tocar**\n> \"Te dijeron que la pentatónica menor es de principiantes.\n> Te mintieron.\"\n\n*(pausa de un segundo)*\n\n> \"Te lo voy a probar en veinte segundos.\"\n\n(dividido en dos golpes con una pausa en el medio, usando 6 seg en vez de 4 — se lo restás a los Setups de más adelante que también van sobrados de texto)",
+        "por_que_mejora": "El hook mantiene las mismas 20 palabras pero las reparte en dos golpes con una pausa real, que es justo la técnica que la guía de tono del propio guion pide (\"Frená un segundo acá. El silencio después del hook engancha\", línea 101) — hoy el texto no le deja tiempo a esa pausa."
+      },
+      {
+        "titulo": "Historia (#11): el hook es un dato biográfico neutro, sin tensión, justo en el video que el mapa de contenido pone frente a tráfico frío del Día 0",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 428-430 (hook de Historia) + memoria/05-contenido-embudo-copy.md, línea 37 (dónde se publica)",
+        "cita_actual": "Hook: \"Empecé a tocar la guitarra a los once años.\\nY durante mucho tiempo pensé que el problema era que me faltaba talento.\" (04, líneas 429-430)\n\nUbicación: \"Día 0 (subís 3 juntos): FIJADO (autoridad) + una C fuerte (#5 penta o #6 respiran) + HISTORIA (humano).\" (05, línea 37)",
+        "problema": "\"Empecé a tocar la guitarra a los once años\" es un dato de arranque tranquilo, típico de historia personal — funciona bien para alguien que YA te está mirando con atención. Pero el propio mapa de publicación pone este video en el lote de \"Día 0\", junto al Fijado y a una creencia atacada, como una de las primeras 3 piezas que ve gente que todavía no te conoce. En tráfico frío, un hecho biográfico sin tensión ni pregunta abierta no da \"razón real para no scrollear\" en el segundo 1 — compite en desventaja contra el resto del stock que sí abre con una pregunta o una confrontación directa (ver Video 5, 6, 7 y 8, los cuatro arrancan con pregunta o promesa).",
+        "reescritura": "**[0:00–0:06] HOOK — a cámara**\n> \"Durante años pensé que me faltaba talento.\n> Empecé a tocar a los once, hice de todo... y seguía sonando igual.\"\n\n(mismo contenido, pero arranca por la tensión —\"pensé que me faltaba talento\"— en vez del dato neutro, y deja \"once años\" como segundo golpe en vez de primero)",
+        "por_que_mejora": "Convierte el primer segundo en una pregunta implícita (\"¿por qué pensaba eso?\") en vez de un dato de curriculum — sin cambiar una sola idea del guion original, solo el orden de entrada, que es lo que decide si alguien nuevo se queda para el minuto completo."
+      },
+      {
+        "titulo": "Video 6 rompe a propósito el molde de contraste MAL:BIEN — la curva queda plana en el video con más autoridad para sostener el mensaje",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 152-155 (decisión de diseño del Video 6) vs. memoria/03-formatos-y-creencias.md, líneas 20-24 y 37 (el molde del Formato C)",
+        "cita_actual": "Video 6: \"La nueva NO requiere tocar mal: tocás la MISMA frase con sabor dos veces, con dos equipos distintos... Suena bien las dos veces → el sabor está en los dedos.\" (04, líneas 153-154)\n\nEl molde: \"2. CONTRA-EJEMPLO → Tocás como lo hace el promedio (suena mediocre, A PROPÓSITO)... 4. PRUEBA EN VIVO → Tocás la versión correcta (suena tremendo) → El CONTRASTE es la prueba irrefutable\" (03, líneas 21-24) y \"Proporción MAL:BIEN = 1:2 mínimo. El 'bien' siempre dura más que el 'mal'.\" (03, línea 37)",
+        "problema": "El propio archivo 03 dice que el Formato C es \"EL QUE MÁS CONVIERTE\" justo por el contraste MAL→BIEN (\"el CONTRASTE es la prueba irrefutable\"). El Video 6 decide, a propósito y por una buena razón de ejecución (tocar mal de forma convincente es difícil), sacar el \"mal\" entero. Es una decisión legítima, pero tiene un costo de retención que el guion no nombra en ningún lado: sin contraste, no hay tensión-alivio, y la curva emocional del reel (que en el resto del stock va de \"tensión → revelación → alivio\", sección 13) queda plana — dos tomas que suenan bien no generan el mismo \"knockout\" que un feo seguido de un lindo.",
+        "reescritura": "Metele una micro-tensión verbal ANTES de tocar el ampli chico, sin volver a tocar mal:\n\n\"Mirá. Un ampli de diez pulgadas, chiquito, con un micrófono barato. Pensá que va a sonar horrible.\"\n\n*(tocás la frase — suena bien)*\n\n\"¿Viste? Nada que ver con lo que esperabas.\"\n\n(la expectativa la genera la palabra \"horrible\", no el instrumento — así el \"BIEN\" sigue funcionando como sorpresa aunque no haya un \"MAL\" tocado)",
+        "por_que_mejora": "Recupera parte del efecto sorpresa-alivio sin pedirle a Feli que ejecute un \"mal\" convincente (que fue justo el problema que motivó sacarlo) — el contraste pasa de ser sonoro a ser entre lo que el viewer espera escuchar y lo que escucha."
+      },
+      {
+        "titulo": "Video 6 no deja nada \"guardable\" en pantalla — débil justo en la métrica que el proyecto declara que importa",
+        "severidad": "BAJO",
+        "donde": "memoria/04-guiones-videos.md, línea 197 (CTA de Video 6) comparado con línea 60 (cierre de Video 5) — la métrica está en /home/user/feli/CLAUDE.md",
+        "cita_actual": "Video 6 CTA: \"Si querés trabajar tu sabor, escribime **SABOR** por DM 📩\" (línea 197) — sin ningún listado ni resumen visual antes del CTA.\n\nVideo 5, por contraste: \"Cinco escuelas distintas del rock. La misma escala.\" (línea 60) más la lista nombrada de 5 guitarristas — contenido tipo lista, screenshoteable.\n\nMétrica del proyecto (CLAUDE.md): \"Métrica que importa en Instagram: comentarios con palabra clave (leads) y guardados. NO los likes.\"",
+        "problema": "El Video 5 cierra con una lista nombrada (\"Angus, Hendrix, Joe Perry, Page, Gary Moore\") que funciona como mini-referencia — es literalmente el contenido del Carrusel 1 gemelo (sección 22). El Video 6, en cambio, cierra en una idea abstracta (\"el sabor está en los dedos\") sin ningún elemento tipo lista o checklist que dé una razón concreta para guardar el video y volver a verlo después. Como la métrica que el proyecto define como la que importa es guardados (no likes), este video queda estructuralmente en desventaja ahí frente a sus hermanos.",
+        "reescritura": "Agregar un label en pantalla durante la \"Prueba de autoridad\" (0:37-0:43), a modo de checklist guardable:\n\n✱ LO QUE SÍ CAMBIA EL SABOR:\n· el bending\n· el vibrato\n· dejar respirar la nota\n\n(aparece fijo un par de segundos, texto grande, mismo criterio visual que los labels ✱ que ya usa el resto del stock)",
+        "por_que_mejora": "Convierte una idea abstracta en algo con forma de lista — el formato que más empíricamente se guarda en Instagram — sin agregar guitarra ni tiempo extra, solo un label de texto sobre un tramo que ya existe."
+      }
+    ],
+    "lente": "Especialista en retención de video corto (primeros 3 seg, curva de tensión/alivio, ratio MAL:BIEN, guardado/rewatch, duración real vs. declarada) — auditoría sobre memoria/04-guiones-videos.md, cruzada con el molde de Formato C de memoria/03-formatos-y-creencias.md y el mapa de publicación de memoria/05-contenido-embudo-copy.md.",
+    "patron_transversal": "El problema que más se repite no es de estructura sino de ritmo de habla: en los guiones \"hablados\" (Video 5, Video 6, Video 7, Historia, y el vendedor \"Como que desaparece\") el texto asignado a cada bloque de tiempo pide entre 3,7 y 5,7 palabras/seg para caber, cuando el ritmo hablado sostenible en rioplatense —sin atropellarse, con las pausas que la propia guía de tono pide (\"bajá un cambio, no lo actúes\")— ronda 2,5 palabras/seg. Ningún guion del archivo menciona este techo ni lo verifica al escribirse. La consecuencia es doble y sistemática: o Feli lee tal cual está escrito y se atropella justo en los momentos que más necesitan claridad (hooks y revelaciones), o respeta el ritmo natural y el video termina corriéndose 30-100% más largo que la duración declarada arriba de cada guion — lo cual además desalinea el CTA final del corte de 30-45-60 seg que cada ficha técnica promete. Vale la pena, antes de filmar cualquier guion nuevo, hacer el cálculo palabras÷2,5 contra cada bloque de tiempo — es una verificación de 2 minutos que hoy no está en el proceso.",
+    "lo_que_esta_muy_bien": [
+      "Video 5 hablada respeta con margen la regla de oro del molde (\"Proporción MAL:BIEN = 1:2 mínimo\", 03 línea 37): el \"mal\" ocupa 7 seg (0:04–0:11) contra 16 seg de \"bien\" (0:14–0:30) — ratio 1:2,3 — y además dentro del \"bien\" deja explícitamente \"los primeros 8-10 seg SOLO guitarra, sin hablar. Que respire\" (04, líneas 122-123): es la única pieza del stock que documenta por escrito por qué el silencio ayuda al contraste, no solo que hay que dejarlo.",
+      "Video 8 cierra con una CTA de \"doble cosecha\" en vez de pedir like/seguir: \"¿Cuál de las tres vas a probar primero? Contame abajo. 👇 Y si querés el mapa de las cinco cajas conectadas, comentá PENTA y te lo mando gratis\" (04, líneas 399-401) — una sola pieza de cierre alimenta a la vez alcance (comentarios de engagement) y leads (keyword), y el propio guion lo explica así en la sección de \"Decisiones de adaptación\" (líneas 405-406): mismo video, dos cosechas.",
+      "El guion vendedor \"Como que desaparece\" abre un bucle real y lo deja abierto a propósito — no resuelve nada en el propio video, deriva la resolución al DM (\"mandame SABOR y te cuento cómo trabajamos\", 04 línea 298) — y la sección lo justifica explícitamente citando la regla 97/3: \"la CTA de este guion NO regala nada... Por eso es el que vende — atrae al 3% listo para comprar\" (líneas 308). Es la pieza del stock donde la curva sin resolución es una decisión consciente y bien fundamentada, no un accidente."
+    ],
+    "descartados_por_verificador": []
+  },
+  {
+    "hallazgos": [
+      {
+        "titulo": "El fact-check de Knopfler se corrigió en los guiones pero no en la fuente que los alimenta",
+        "severidad": "ALTO",
+        "donde": "memoria/03-formatos-y-creencias.md, línea 74 (tabla PANEL DE REFERENTES, sección 10)",
+        "cita_actual": "| **Mark Knopfler** | Sin púa, sin distorsión, imposible de copiar | \"No es el equipo\" (cierre brutal) |",
+        "problema": "El propio contexto de esta sesión avisa que el error \"Knopfler = sin distorsión\" ya se corrigió el 24/8 en memoria/04-guiones-videos.md (ahí ahora dice, línea 193 y 209-210: \"Mark Knopfler — toca con los dedos, sin púa\" y la nota de fact-check explica por qué \"Money for Nothing\" es de los tonos más distorsionados del rock). Pero la corrección no llegó al Panel de Referentes de 03, que es la tabla que se consulta para armar CUALQUIER guion futuro sobre \"no es el equipo\". El dato falso sigue vivo en la fuente, esperando a colarse en el próximo video sobre Knopfler.",
+        "reescritura": "| **Mark Knopfler** | Toca con los dedos, sin púa, imposible de copiar | \"No es el equipo\" (cierre brutal) |",
+        "por_que_mejora": "Alinea la tabla de referencia con la corrección ya validada en 04, y cierra el agujero por el que el error podría reaparecer la próxima vez que se use este panel para escribir un guion nuevo."
+      },
+      {
+        "titulo": "El guion de Historia hace exactamente la disculpa que su propia guía de tono prohíbe",
+        "severidad": "ALTO",
+        "donde": "memoria/04-guiones-videos.md, líneas 434-435 (guion) y 463 (copy), contra la guía de tono en líneas 456-458",
+        "cita_actual": "\"...tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. No me recibí, / pero aprendí un montón ahí.\" — y en el copy: \"...y hasta la facultad de música — no me recibí, pero aprendí muchísimo ahí.\" / Guía de tono (línea 457-458): \"No lo minimices ni te disculpes por no haberte recibido — no hace falta explicarlo, simplemente contalo así.\"",
+        "problema": "Es una contradicción interna, no una opinión mía: el mismo documento te dice explícitamente que NO te disculpes por no haberte recibido, y dos líneas más arriba (y de nuevo en el copy) el guion literal dice \"No me recibí, pero...\" — la estructura clásica de justificarse antes de que te lo pregunten. Es la humildad performativa que la sección busca evitar, colada en el video más importante de todo el stock (el que responde \"¿por qué vos?\").",
+        "reescritura": "\"...aprendí con tablaturas de internet, con videos, tuve profesores particulares, y hasta estudié en la facultad de música en Rosario. Y con toda esa formación encima — durante años seguí tocando las mismas frases de siempre.\" (En el copy: \"...y hasta la facultad de música en Rosario. Y con todo eso encima, durante años seguí tocando las mismas frases de siempre.\")",
+        "por_que_mejora": "Saca la disculpa y deja el dato de la facultad funcionando solo, como pide la propia guía: \"estudié formalmente y AUN ASÍ me pasaba esto\" es un argumento de autoridad — explicarlo o pedir disculpas por no haberte recibido le resta fuerza justo al dato que más la tiene."
+      },
+      {
+        "titulo": "Video 8 (\"3 formas de romper las cajas\") entra con saludo de tutorial genérico, único caso en todo el stock de reels",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 378-396 (sección 24, GUION VIDEO 8)",
+        "cita_actual": "\"¿Cómo andan? La mayoría de los guitarristas aprende las cajas… pero nadie les enseña a SALIR / de ellas. Así que van tres formas que funcionan de verdad.\" ... \"Forma uno: horizontal.\" ... \"Forma dos: diagonal.\" ... \"Forma tres: Legos.\"",
+        "problema": "Todos los otros guiones (5, 6, 7, Historia) definen el tono como \"como si le hablaras a un amigo guitarrista en tu pieza, no a una cámara\" (línea 94-95) y arrancan directo con una confrontación o confesión personal (\"Te mintieron\", \"Yo lo creí durante años\", \"Yo era ese tipo\"). El video 8 es el único que saluda a una audiencia (\"¿Cómo andan?\") y organiza el contenido como listicle numerado (\"Forma uno / Forma dos / Forma tres\"). Tiene sentido: nace de \"un guion de un YouTuber mexicano\" (línea 369) y la adaptación cambió el vocabulario (\"chavales\"/\"chingón\" → rioplatense) pero dejó el esqueleto de tutorial-de-YouTube intacto. Además es el único guion Formato C/A de todo el corpus sin ninguna instrucción de pausa o silencio escrita — todos los demás la tienen (ver \"lo que está muy bien\").",
+        "reescritura": "\"La mayoría de los guitarristas aprende las cinco cajas… y se queda ahí adentro. A mí me pasó lo mismo durante años. Estas son las tres formas que uso yo para salir.\" [pausa breve] \"La primera: horizontal.\" ... \"La segunda, mi favorita: diagonal.\" ... \"La tercera: Legos.\"",
+        "por_que_mejora": "Mantiene el mismo contenido y las tres demostraciones intactas, pero reemplaza el saludo de audiencia por la misma entrada personal (\"a mí me pasó\") que usa el resto del stock, y cambia la numeración de listicle (\"Forma uno/dos/tres\") por una narración continua que suena a la misma persona que habla en los otros videos."
+      },
+      {
+        "titulo": "El guion vendedor \"Como que desaparece\" es el único ataque a una creencia sin un momento de \"yo\"",
+        "severidad": "MEDIO",
+        "donde": "memoria/04-guiones-videos.md, líneas 288-298 (sección 23, VERSIÓN PRINCIPAL), comparado con líneas 330-331 (Video 7)",
+        "cita_actual": "\"Mirás tutoriales, guardás licks, sacás los solos de tus ídolos… pero cuando improvisás, nada de / eso aparece. Le dedicaste un montón de horas — y en el momento de tocar, terminás metido en la / misma caja de siempre...\" — comparado con el Video 7 sobre la MISMA creencia: \"Yo era ese tipo. Guardaba licks, miraba análisis de solos, cursos, más licks… / Sabía un montón. Y cuando agarraba la viola para improvisar… seguía sonando igual que hace dos años.\"",
+        "problema": "El propio documento dice que este guion viene \"adaptado del guion jazz que pasó Feli\" y que \"'Como que desaparece' se roba casi textual\" de otro profesor (línea 280-281, 307). Es exactamente la misma creencia que ataca el Video 7 (\"mirar tutoriales no te hace mejor\"), pero el Video 7 arranca con \"Yo era ese tipo\" — la confesión que define la voz de Feli en todo el resto del corpus — y este guion vendedor nunca dice \"yo\", solo le habla al espectador en segunda persona, todo el tiempo, en un texto tomado casi literal de otra persona. Es el punto donde más riesgo hay de que la voz suene prestada.",
+        "reescritura": "\"A mí me pasaba esto todo el tiempo: miraba tutoriales, guardaba licks, sacaba los solos de mis ídolos… y cuando me tocaba improvisar, nada de eso aparecía. Le dediqué un montón de horas — y terminaba metido en la misma caja de siempre, con las mismas frases de siempre. Como si todo lo que había estudiado no existiera. Como que desaparece.\"",
+        "por_que_mejora": "Conserva intacta la frase más fuerte del original (\"como que desaparece\", que el propio documento identifica como la mejor) pero la ancla en la experiencia de Feli en vez de dejarla flotando en segunda persona — así conecta con el mismo personaje que se presenta en los videos 6, 7 e Historia, en lugar de sonar a un script bajado de otro profesor."
+      },
+      {
+        "titulo": "La firma \"el sabor está en los dedos\" no se repite palabra por palabra — pierde chance de ser reconocible",
+        "severidad": "BAJO",
+        "donde": "memoria/04-guiones-videos.md, línea 184 (copy Video 6) y línea 247 (hablada Video 6)",
+        "cita_actual": "Copy: \"Porque el equipo no pone el sabor. El sabor sale de los dedos.\" / Hablada: \"Porque el sabor no está en el equipo. Está en los dedos.\"",
+        "problema": "Son dos redacciones distintas de la misma idea central del video (y del programa entero: \"el sonido sale de los dedos\", creencia 4 en 03 línea 52). Una firma verbal solo funciona como firma si se repite IDÉNTICA cada vez que aparece — ahora mismo hay dos versiones compitiendo por ser \"la frase\", y ninguna de las dos quedó fijada para reusar en los próximos guiones (por ejemplo el vendedor de sabor, o futuros carruseles).",
+        "reescritura": "Fijar una sola versión, en las dos apariciones y en cualquier guion futuro que toque el tema: \"El sabor no está en el equipo. Está en los dedos.\"",
+        "por_que_mejora": "Una frase idéntica repetida en el copy, en el guion hablado y en futuras piezas (carrusel 2, guion vendedor, destacada MÉTODO) se vuelve reconocible y citable — es lo que separa una firma de marca de una idea bien explicada dos veces con distintas palabras."
+      }
+    ],
+    "lente": "Editor de marca personal y consistencia de voz — auditoría del corpus completo de Solo con Sabor (memoria/03, 04, 05)",
+    "patron_transversal": "El personaje \"Feli\" es más fuerte y más consistente exactamente en los momentos donde habla en primera persona de su propio Punto A (\"Yo era ese tipo\", \"Gasté una fortuna al pedo\", la confesión de Historia) que en los lugares donde el corpus toma prestada la estructura o la voz de otro creador — el guion 8 (adaptado de un YouTuber mexicano) y el guion vendedor \"Como que desaparece\" (adaptado \"casi textual\" de otro profesor de jazz). Y no es casualidad que los dos errores más concretos que encontré (el fact-check de Knopfler sin corregir en la fuente, y la disculpa que la guía de tono prohíbe pero el guion de Historia comete) estén también en los rincones donde nadie volvió a pasar el guion completo en voz alta al final: una tabla de referencia que no se tocó cuando se corrigió el guion que la usa, y una guía de tono que se escribió después del guion sin releer si el guion la cumplía.",
+    "lo_que_esta_muy_bien": [
+      "El programa enseña espacio y los guiones lo practican en su propia estructura, no solo lo explican: \"Medio segundo de SILENCIO total entre el 'mal' y el 'bien' → el alivio hace que el 'bien' pegue doble\" (04, línea 81) y \"NO hables acá. Que la frase respire sola\" (04, línea 233) — el contenido sobre respirar, respira.",
+      "Hay una firma retórica real y repetida en 4 lugares distintos del corpus con la misma estructura (\"No necesitás más X, necesitás Y\"): Video 6 hablada línea 135, Video 7 línea 347, Video 8 línea 399 y el vendedor línea 294 — y conecta directo con el principio de Nico en 02, línea 17: \"No necesitás saber más, necesitás ordenar lo que ya sabés\".",
+      "La vulnerabilidad es concreta y con humor propio, no genérica: \"Yo lo creí durante años. Y gasté una fortuna al pedo\" (04, línea 224) suena a una persona real contando algo que le pasó, no a una fórmula de marketing de \"yo también sufrí\"."
+    ],
+    "descartados_por_verificador": []
+  }
+]

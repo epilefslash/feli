@@ -1,0 +1,320 @@
+# -*- coding: utf-8 -*-
+"""Genera las partituras del Cuadernillo Hito 3 — EL VOCABULARIO (ejercicios 35 a 53).
+
+Salida: ./partituras/eNN.cropped.png
+Reutiliza la plantilla y el renderizador de `gen_scores.py`.
+
+IMPORTANTE — la mayoría de los licks son ORIGINALES, escritos *en el estilo de*
+cada escuela: no son transcripciones de solos ajenos. Es a propósito y es el
+punto pedagógico del hito: lo que se roba es el MECANISMO (el motivo que se
+repite, la doble cuerda, el bending que espera), no las notas de otro.
+Excepción, marcada explícitamente en cada caso: 35, 36-bis y 37-bis SÍ son
+citas reales (Angus Young / AC/DC), transcriptas y transportadas por Feli.
+
+Tonalidad: La menor pentatónica.
+Territorio: el hito se mueve por todo el mástil DESDE LA PRIMERA PÁGINA. Cada lick
+de escuela vive en una caja distinta y los "encadenados" (38 y 42) atraviesan varias:
+  35 caja 1 (la referencia) · 36 caja 2 · 37 caja 3 · 38 sube 1->2->3
+  39 caja 4 · 40 baja 4->1 · 41 caja 2 · 42 baja 4->2->3->1
+El 35 es el único que se queda en la caja 1, a propósito: es el punto de comparación
+contra el que se escucha el 47 (la misma celda, tres cajas más arriba). Sin esa
+referencia, "el mismo patrón suena distinto" no se puede demostrar.
+Después: 46 muda un lick por tres cajas, 47 y 48 son licks en las cajas 3 y 5, y
+49/50/53 (arquitectura, esqueleto y solo final) tienen las llegadas repartidas por
+el mástil para que el alumno NO pueda quedarse en la caja 1.
+
+Alturas LilyPond (sonido real, clave treble_8):
+  6a: 3=g, 5=a, 8=c 10=d 12=e 15=g
+  5a: 3=c 5=d 7=e 10=g 12=a 15=c'
+  4a: 2=e 5=g 7=a 10=c' 12=d' 14=e'
+  3a: 2=a 5=c' 7=d' 9=e' 12=g' 14=a'
+  2a: 3=d' 5=e' 8=g' 10=a' 13=c'' 15=d''
+  1a: 3=g' 5=a' 8=c'' 10=d'' 12=e'' 15=g'' 17=a''
+
+Notación: ( ) ligado · \glissando slide · <a\2 b\1> doble cuerda ·
+          ^\markup cartel · \p \mf \f dinámica · \tuplet 3/2 tresillo
+"""
+from gen_scores import render
+
+EJ = {}
+
+# ============================================ SEMANA 9 — ESCUELA BRITÁNICA
+# Lo que define a la escuela: motivos cortos que se repiten, dobles cuerdas,
+# ataque rítmico. La frase vale por la INSISTENCIA, no por la melodía.
+
+# 35: el motivo que se repite (celda de 3 notas, machacada) — se queda COMPUESTO
+# a propósito: es el punto de comparación contra el ej. 47 (misma celda, caja 3).
+EJ["e35"] = r"""
+  \tuplet 3/2 { c''8\1^\markup{\bold "una celda de 3 notas · P"}( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 } |
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  e'4\2 a4\4^\markup{\bold "y recién ahí resolvés"} |
+"""
+
+# 35-bis: CITA REAL — Angus Young / AC/DC, "Highway to Hell", primeros 4 compases
+# del solo. Transcripción de Feli. Ni bien arranca hace una repetición (bend-y-
+# suelta, x4) — el mismo recurso del ej. 35, tocado por la escuela británica en
+# un disco real. Caja 1, todo en la 1ª cuerda.
+EJ["e35bis"] = r"""
+  a'4\1^\markup{\bold "Angus Young — Highway to Hell · repetí el bend-y-soltá · CAJA 1"} \tabSym \bendFull
+  a'4\1 \tabSym \bendRel
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel |
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel
+  a'4\1 \tabSym \bendFull
+  a'4\1 \tabSym \bendRel |
+  a'2\1^\markup{\bold "ahora medio tono…"} \tabSym \bendHalf
+  a'2\1^\markup{\bold "…y ahora un cuarto"} \tabSym \bendQuarter |
+  a'1\1 \tabSym \vib |
+"""
+
+# 36: dobles cuerdas (la marca de Angus / Chuck Berry) — en la CAJA 2
+EJ["e36"] = r"""
+  <g'\2 c''\1>8^\markup{\bold "dos cuerdas juntas · CAJA 2"} <g'\2 c''\1>8 <a'\2 d''\1>4 <g'\2 c''\1>4 <a'\2 d''\1>4 |
+  <a'\2 d''\1>8 <g'\2 c''\1>8 e'4\3 d'8\3 c'\4 a4\4 |
+  a1\4 \tabSym \vib ^\markup{\bold "la tónica de la caja 2"} |
+"""
+
+# 36-bis: CITA REAL — Angus Young, "Am pentatónica + 6". El agregado del 6º grado
+# (FA#, un color tipo Dorian) sobre dobles cuerdas es el otro truco clásico de
+# Angus además de la celda repetida. Caja 3/4: FA# vive en el traste 11 de la 3ª.
+EJ["e36bis"] = r"""
+  d'4\3^\markup{\bold "Angus Young — pentatónica + 6 · CAJA 3-4"} e'4\3 fis'4\3^\markup{\bold "el 6º agregado (FA#)"}
+  g'4\3 \tabSym \bendHalf |
+  g'4\3 \tabSym \vib fis'4\3 e'4\3 d'4\3 |
+  c'4\3 a2\4 \tabSym \bendQuarter ^\markup{\bold "y cierra con un cuarto de tono"} r4 |
+"""
+
+# 37: el unísono (bendeás una cuerda hasta igualar la de al lado) — en la CAJA 3
+EJ["e37"] = r"""
+  <g'\3 a'\2>2 \tabSym \bendFull ^\markup{\bold "bendeá la 3ª hasta igualar la 2ª · CAJA 3"} <g'\3 a'\2>2 |
+  <g'\3 a'\2>4 r4 e'8\3 c'\4 g\5 d\6 |
+  a1\5 \tabSym \vib ^\markup{\bold "la tónica de la caja 3"} |
+"""
+
+# 37-bis: CITA REAL — Angus Young, Lick 1, compases 2 a 4. El MISMO mecanismo del
+# ej. 37 (unísono: dos cuerdas juntas, una fija y la otra bendeada hasta igualarla)
+# pero en cuatro posiciones descendentes — de la caja 4 a la caja 1.
+EJ["e37bis"] = r"""
+  <e''\1 d''\2>4^\markup{\bold "Angus Young — Lick 1 (comp. 2-4) · el mismo unísono del ej. 37, bajando"} \tabSym \bendFull
+  <e''\1 d''\2>4 \tabSym \bendRel
+  <d''\1 c''\2>4 \tabSym \bendFull
+  <d''\1 c''\2>4 \tabSym \bendRel |
+  <c''\1 a'\2>4 \tabSym \bendFull
+  <c''\1 a'\2>4 \tabSym \bendRel
+  <a'\1 g'\2>4 \tabSym \bendFull
+  <a'\1 g'\2>4 \tabSym \bendRel |
+"""
+
+# 38: los tres recursos británicos encadenados — y cada uno en su caja:
+# celda (1) -> dobles cuerdas (2) -> unísono (3). El encadenado ES el viaje.
+EJ["e38"] = r"""
+  \tuplet 3/2 { c''8\1^\markup{\bold "celda · caja 1"}( a'\1) g'\2 } \tuplet 3/2 { c''8\1( a'\1) g'\2 }
+  <g'\2 c''\1>4^\markup{\bold "dobles cuerdas · caja 2"} <a'\2 d''\1>4 |
+  <g'\3 a'\2>2^\markup{\bold "unísono · caja 3"} \tabSym \bendFull e'8\3 c'\4 a4\5 |
+  a1\5 \tabSym \vib |
+"""
+
+# ============================================ SEMANA 10 — ESCUELA AMERICANA
+# Lo que la define: frases que respiran como una voz, legato, bendings largos,
+# espacio. La frase vale por la MELODÍA, no por la insistencia.
+
+# 39: la frase vocal (escuela Gary Moore) — espera, estira, resuelve. En la CAJA 4:
+# es donde Gary Moore realmente vive, y el registro agudo hace la mitad del trabajo.
+EJ["e39"] = r"""
+  r4 e''8\1^\markup{\bold "arriba de todo · CAJA 4"} g''8\1 ~ g''2 |
+  g'4\3 \tabSym \bendFull \tabSym \vib ~ g'2. |
+  c''8\2 a'\3 g'\3 e'\4 a2\5 \tabSym \vib ^\markup{\bold "largo · la tónica de la caja 4"} |
+"""
+
+# 39-bis: el slide previo al bend + el "double stop fantasma" (Gary Moore).
+# Fuente: leccion de Gary Moore que trajo Feli, transcripta en Do menor (traste 18).
+# Transportada a La menor bajando una 3a menor (Do menor -> La menor = 3 trastes): 18 -> 15.
+# Misma caja 4 del ej. 39 — es su continuacion natural, no una posicion nueva.
+#
+# OJO, esto NO es el bend a dos cuerdas del unisono (ej. 37): ahi las dos cuerdas se
+# estiran juntas hasta empatar en la misma nota. Aca se estira SOLO la 1a cuerda; la
+# tecnica real (segun la clase que transcribio Feli) es que, sosteniendo el bend, la
+# PUNTA del mismo dedo que empuja roza la 2a cuerda de al lado SIN estirarla — un
+# gesto de mano derecha/dedo, no un segundo bend. Por eso la partitura dibuja una sola
+# nota sostenida: la 2a cuerda va aclarada en el texto del cuadernillo, no en el
+# pentagrama (inventar ahi un acorde con un solo tabSym adentro es notacion que este
+# repo nunca uso y no se puede verificar sin lilypond instalado en este entorno).
+EJ["e39bis"] = r"""
+  e''8\1^\markup{\bold "slide previo · caja 4"}( \glissando g''8\1) \tabSym \bendFull g''2. |
+  g''1\1^\markup{\bold "sostené el bend · tocá también la 2ª cuerda, sin estirarla"} \tabSym \vib |
+"""
+
+# 40: la línea fluida (escuela Slash) — casi todo ligado. Ahora baja DE VERDAD:
+# arranca en la caja 4 y desciende en diagonal hasta la 1.
+EJ["e40"] = r"""
+  r8 g''8\1^\markup{\bold "arrancás en la caja 4"} \glissando e''8\1( c''\2) a'\2( g'\3) e'\3( c'\4) |
+  a8\4^\markup{\bold "y llegás a la caja 1 · P"}( g\4) e\5( d\5) c8\6 a,4.\6 \tabSym \vib |
+"""
+
+# 41: dobles cuerdas con ligado (el remate estilo Hendrix) — en la CAJA 2
+EJ["e41"] = r"""
+  <d'\3 g'\2>8^\markup{\bold "el hammer va en la cuerda de abajo · H · CAJA 2"}( <e'\3 g'\2>8) <d'\3 g'\2>4
+  <d'\3 g'\2>8( <e'\3 g'\2>8) <d'\3 g'\2>4 |
+  c''8\1 a'\2 g'\2 e'\3 a2\4 \tabSym \vib |
+"""
+
+# 42: los tres recursos americanos encadenados, cada uno en su caja:
+# línea fluida (4 -> 2) -> dobles cuerdas (2) -> bending (3) -> cierre (1).
+EJ["e42"] = r"""
+  r8 g''8\1^\markup{\bold "línea fluida · caja 4 a 2"} \glissando e''8\1( c''\2) a'\2( g'\3) e'\3( c'\4) |
+  <d'\3 g'\2>8^\markup{\bold "dobles cuerdas · caja 2"}( <e'\3 g'\2>8) <d'\3 g'\2>4 a4\4 r4 |
+  g'2\3 \tabSym \bendFull ^\markup{\bold "caja 3"} g'2\3 \tabSym \vib |
+  c'8\3^\markup{\bold "cerrás en la caja 1"} a\4 g\4 e\5 a2\4 \tabSym \vib |
+"""
+
+# ============================================ SEMANA 11 — HACERLO TUYO
+# Las 3 variaciones que convierten un lick robado en un lick propio,
+# precedidas por el color de cada grado: es lo que explica POR QUE un remate funciona.
+
+# 43: el color de cada grado — la misma escala, seis sensaciones distintas
+EJ["e43"] = r"""
+  a1\4^\markup{\bold "1ª · la tónica"} |
+  c'1\3^\markup{\bold "3ª menor"} |
+  d'1\3^\markup{\bold "4ª"} |
+  e'1\2^\markup{\bold "5ª"} |
+  g'1\2^\markup{\bold "7ª menor"} |
+  a'1\1^\markup{\bold "8ª · tónica arriba"} |
+"""
+
+# Las 3 variaciones que convierten un lick robado en un lick propio.
+
+# 44: mismas notas, tres ritmos distintos. La frase vive entre las cajas 2 y 3
+# (mismas alturas que antes, otra posición): así la ÚNICA variable sigue siendo
+# el ritmo, pero el ejercicio ya no vive en la caja 1.
+EJ["e44"] = r"""
+  a'8\2^\markup{\bold "1 · todo parejo · cajas 2 y 3"} g'\3 e'\3 d'\3 c'\4 a\4 r4 |
+  a'4\2^\markup{\bold "2 · arranca lento y acelera"} g'8\3 e'\3 d'16\3 c'\4 a8\4 ~ a4\4 |
+  r8 a'8\2^\markup{\bold "3 · a contratiempo"} g'\3 e'\3 ~ e'8 d'\3 c'\4 a\4 |
+"""
+
+# 45: mismo arranque, tres remates distintos — también fuera de la caja 1.
+# El arranque es idéntico las tres veces; lo único que cambia es dónde caés.
+EJ["e45"] = r"""
+  r4 a'8\2^\markup{\bold "cajas 2 y 3"} g'\3 e'4\3 d'4\3^\markup{\bold "remate 1 · queda colgado (pregunta)"} |
+  r4 a'8\2 g'\3 e'4\3 a4\4^\markup{\bold "remate 2 · cae en la tónica (respuesta)"} |
+  r4 a'8\2 g'\3 e'4\3 c''4\2^\markup{\bold "remate 3 · sube y queda vibrando"} |
+"""
+
+# 46: EL MISMO LICK EN LAS CINCO CAJAS, en orden de mástil (5-1-2-3-4).
+# Idénticas alturas, idéntico ritmo, cinco posiciones. Es la demostración
+# central del programa: un lick es un patrón, no un lugar.
+EJ["e46"] = r"""
+  r8 a'8\1^\markup{\bold "CAJA 5 · trastes 2-5"} g'\1 e'\2 d'\2 c'\3 a4\3 |
+  r8 a'8\1^\markup{\bold "CAJA 1 · trastes 5-8"} g'\2 e'\2 d'\3 c'\3 a4\4 |
+  r8 a'8\2^\markup{\bold "CAJA 2 · trastes 7-10"} g'\2 e'\3 d'\3 c'\4 a4\4 |
+  r8 a'8\2^\markup{\bold "CAJA 3 · trastes 9-13"} g'\3 e'\3 d'\4 c'\4 a4\5 |
+  r8 a'8\3^\markup{\bold "CAJA 4 · trastes 12-15"} g'\3 e'\4 d'\4 c'\5 a4\5 |
+"""
+
+# 47: el mismo mecanismo del ej. 35, pero en la CAJA 3 (repatriado del bonus)
+# Escuela británica: la celda repetida. Idéntico recurso, tres cajas más arriba.
+EJ["e47"] = r"""
+  \tuplet 3/2 { e''8\1^\markup{\bold "la MISMA celda del ej. 35, tres cajas más arriba · P"}( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } |
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  a'2\2 \tabSym \vib ^\markup{\bold "la tónica de la caja 3"} |
+"""
+
+# 47-ter: en el estilo de Clapton (Cream) — misma caja 3 que el 47 y el 47-bis,
+# pero con SU firma en vez de la celda repetida: un bending largo sostenido con
+# vibrato ancho. Es compuesto, NO una cita — no hay transcripción real verificada
+# todavía (ver memoria). Si en algún momento aparece una transcripción real de
+# "Crossroads", se agrega aparte como 47-quater.
+EJ["e47ter"] = r"""
+  r4 c''8\2^\markup{\bold "en el estilo de Clapton (Cream) · CAJA 3"} a'\2 g'4\3 ~ g'4 |
+  g'2\3 \tabSym \bendFull \tabSym \vib ^\markup{\bold "el bend largo, con vibrato ancho — la firma de Clapton"} g'2\3 |
+  e'8\3 d'\4 c'\4 a\5 a2\5 \tabSym \vib ^\markup{\bold "la tónica grave de la caja 3"} |
+"""
+
+# 48: la CAJA 5, la zona grave (repatriado del bonus) — Angus / Chuck Berry
+EJ["e48"] = r"""
+  g,8\6^\markup{\bold "la zona grave: acá abajo pesa más · H"}( a,\6) c\5( d\5) e\4( g\4) a8\3 c'\3 |
+  c'8\3 a\3 g\4 e\4 d\5 c\5 a,4\6^\markup{\bold "a casa: la tónica más grave"} |
+"""
+
+# 49: la arquitectura de un solo — las 4 frases, cada una en su caja
+EJ["e49"] = r"""
+  r4 a8\4^\markup{\bold "1 · PRESENTA — grave y simple · CAJA 1"} c'\3 d'4\3 c'4\3 |
+  a1\4 \tabSym \vib |
+  r4 e'8\3^\markup{\bold "2 · DESARROLLA — la misma idea, MUDADA A LA CAJA 2"} g'\2 a'4\2 c''4\1 |
+  a'1\2 \tabSym \vib ^\markup{\bold "la tónica de la caja 2"} |
+  c''8\1\f^\markup{\bold "3 · CLÍMAX — subís a la CAJA 3, agudo y fuerte"} d''\1 e''\1 d''\1 c''4\1 a'4\2 |
+  g'2\3 \tabSym \bendFull \tabSym \vib ^\markup{\bold "caja 3"} g'2\3 |
+  c'8\3\p^\markup{\bold "4 · CIERRA — bajás por el mástil y resolvés"} a\4 g\4 e\5 d\5 c\6 a,4\6 |
+  a,1\6 \tabSym \vib ^\markup{\bold "caja 5"} |
+"""
+
+# ============================================ SEMANA 12 — TU SOLO
+# 50: el esqueleto para completar. Las 4 llegadas están en 4 cajas distintas:
+# el alumno no puede conectarlas sin recorrer el mástil. Ese es el punto.
+EJ["e50"] = r"""
+  r1^\markup{\bold "TU frase 1 — grave, 3 o 4 notas, tranquila · CAJA 1"} |
+  a1\4 \tabSym \vib ^\markup{\bold "caé acá: la tónica de la caja 1"} |
+  r1^\markup{\bold "TU frase 2 — la misma idea, MUDADA A LA CAJA 2"} |
+  a'1\2 \tabSym \vib ^\markup{\bold "caé acá: la tónica de la caja 2"} |
+  r1^\markup{\bold "TU frase 3 — el clímax, arriba de todo · CAJA 3"} |
+  g'2\3 \tabSym \bendFull ^\markup{\bold "el bending va acá: llega a la tónica"} g'2\3 \tabSym \vib |
+  r1^\markup{\bold "TU frase 4 — bajás por todo el mástil hasta la CAJA 5"} |
+  g,8\6^\markup{\bold "entrás por la caja 5 (traste 3)…"} a,2..\6^\markup{\bold "…y cerrás en la tónica más grave"} |
+"""
+
+# 51: tres finales posibles — cada uno en una caja distinta, a propósito:
+# un cierre no depende de la posición, depende del gesto.
+EJ["e51"] = r"""
+  c'8\3 a\4 g\4 e\5 a2\4^\markup{\bold "1 · a la tónica, suave · CAJA 1 — el más seguro"} |
+  g'4\3 \tabSym \bendFull ^\markup{\bold "2 · largo, que se apaga · CAJA 3"} ~ g'2. |
+  <d''\2 g''\1>2^\markup{\bold "3 · doble cuerda que queda sonando · CAJA 4 (traste 15)"} <d''\2 g''\1>2 |
+"""
+
+# 52: el motivo que vuelve (el truco que hace que un solo suene "armado").
+# Va en la CAJA 3, y las dos apariciones en la MISMA caja: si el motivo se muda
+# de posición al volver, el oído no lo reconoce y se pierde todo el efecto. Lo
+# que NO hacía falta era que esa caja fuera la 1 — acá es la celda del ej. 47.
+EJ["e52"] = r"""
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2^\markup{\bold "el motivo, al principio · CAJA 3"} r2 |
+  r1 |
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2^\markup{\bold "…y vuelve al final: el oído lo reconoce"} a'2\2 \tabSym \vib |
+"""
+
+# 53: EL SOLO FINAL — 12 compases, el trofeo del programa.
+# ARRANCA EN LA CAJA 5, no en la 1. Motivo: es el entregable, o sea el video que
+# funciona como testimonio, y la promesa del programa es "te movés por las cinco
+# cajas". Abrir seis compases anclado en la caja 1 contradecía esa promesa en el
+# primer segundo del video. La frase 1 tiene que ser GRAVE y simple — y la caja 5
+# (trastes 2-5) es mas grave que la caja 1, asi que el arco no se rompe: se cumple
+# mejor. Ademas abre y cierra en la misma zona: el solo vuelve a casa.
+# Recorre cajas 5 -> 2 -> 3 -> 4 -> 3 -> 5. Es la prueba de la promesa.
+EJ["e53"] = r"""
+  r4 a,8\6\p^\markup{\bold "PRESENTA · CAJA 5, la zona grave"} c\5 d4\5 c4\5 |
+  a,2\6 \tabSym \vib r2 |
+  r4 e'8\3^\markup{\bold "DESARROLLA · subís a la CAJA 2"} g'\2 a'4\2 c''4\1 |
+  a'2\2 \tabSym \vib ^\markup{\bold "tónica de la caja 2"} r2 |
+  \tuplet 3/2 { e''8\1\mf^\markup{\bold "el motivo británico · CAJA 3"}( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 }
+  \tuplet 3/2 { e''8\1( d''\1) c''\2 } a'4\2 |
+  <a'\2 d''\1>8 <a'\2 d''\1>8 <c''\2 e''\1>4 <a'\2 d''\1>4 <c''\2 e''\1>4 |
+  r8 d''8\1\f \glissando e''4\1^\markup{\bold "CLÍMAX · trepás a la CAJA 4"} g''2\1 |
+  g''2\1 \tabSym \vib ^\markup{\bold "ancho · traste 15"} e''8\1 d''\2 c''\2 a'\2 |
+  g'2\3 \tabSym \bendFull ^\markup{\bold "y bajás a la caja 3"} g'2\3 \tabSym \vib |
+  r1 |
+  \tuplet 3/2 { e''8\1\p^\markup{\bold "vuelve el motivo · CIERRA"}( d''\1) c''\2 } a'4\2 e'8\3 c'\3 a4\3 |
+  g,8\6^\markup{\bold "volvés a la CAJA 5…"} a,2..\6 \tabSym \vib ^\markup{\bold "…y se apaga en la tónica más grave"} |
+"""
+
+
+if __name__ == "__main__":
+    fails = [k for k in sorted(EJ) if not render(k, EJ[k])]
+    print("\nFallaron:", fails if fails else "ninguno")
