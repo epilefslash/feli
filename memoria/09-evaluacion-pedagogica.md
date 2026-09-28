@@ -80,3 +80,30 @@ ejercicio tocado). Verificado: escala OK y barcheck de compases OK en las 73 par
 > solo confiar en que una ronda anterior ya "arregló las cajas" en general.
 
 ---
+
+## 30) PENDIENTE ABIERTO (23/9): ¿algún recurso de los guiones de reels falta como ejercicio real?
+
+> **Pedido de Feli, para no perder la idea entre sesiones:** revisar TODOS los guiones de videos
+> (`memoria/04` completo, incluido lo que se escribió en esta sesión) buscando técnicas o recursos
+> que se muestran/nombran en el contenido de marketing pero que **no tienen un ejercicio propio en
+> los cuadernillos del programa** (Hito 1/2/3 + El Pulso + El Vuelo + Bonus, numeración 1-59 + A-I +
+> 54-59). Para cada uno, decidir explícitamente: (a) se incorpora como ejercicio nuevo, respetando
+> la numeración corrida y el balance 16/18/19 · A-I · 6, o (b) se deja afuera a propósito, marcado
+> como contenido de marketing/reel solamente — **no dejarlo en un limbo sin decisión.**
+
+**No está hecho todavía** — es tarea para una sesión futura, cruzar guion por guion contra
+`gen_scores_h*.py`/`build_ritmo.py`. Un primer candidato ya visible, sin verificar a fondo:
+
+- **Video #1** (`memoria/04` §39) nombra 4 recursos — desplazamiento horizontal (cubierto: es el
+  eje del Hito 1 y del Anexo de Ritmo ej. A) y bendings/vibrato (cubiertos: Hito 2 completo) están
+  claramente en el programa. **El cromatismo** (pasar por una nota de paso fuera de la escala, sin
+  quedarse) y **la tercera de picardía** (3ª mayor al final de una frase menor) no tienen un
+  ejercicio propio verificado en ningún hito — son parientes del blue note (ej. 26, Hito 2) y del
+  BB box (ej. 54, bonus), pero no son lo mismo. Candidatos a revisar primero, no una conclusión.
+
+**Regla de fondo si se agrega algo:** mismo criterio que toda la sección 33 de `memoria/10` —
+verificar contra `auditar_cajas.py` (escala + compases) antes de tocar cualquier partitura, y no
+tocar la numeración 1-59 existente — un recurso nuevo entra con letra o como "-bis", como ya se
+hizo con las citas reales de Angus/Page/Clapton.
+
+---
